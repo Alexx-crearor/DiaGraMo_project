@@ -1,0 +1,4 @@
+participant_id,group,special_care_type_dysgraphia,group_problems_flag_to_omit,non_czech_language_flag_to_omit,special_care_type_not_relevant_flag_to_omit,care_type_missing_flag_to_omit,flag_to_omit_total
+BR10306,1,0,0,0,1,0,1
+BR7311,0,0,0,0,1,0,1
+BR7406,0,0,0,1,0,0,1

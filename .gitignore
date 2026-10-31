@@ -1,0 +1,8 @@
+.venv/
+.venv314/
+__pycache__/
+.cache/
+tmp/
+data/
+results/models/
+.ipynb_checkpoints/

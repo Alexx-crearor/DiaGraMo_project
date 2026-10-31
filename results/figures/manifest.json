@@ -1,0 +1,35 @@
+[
+  {
+    "name": "cv_top12",
+    "description": "12 configurations ranked by OOF accuracy. Bars start at zero; error bars show fold SD. Ranking does not establish external performance.",
+    "sources": [
+      "results/cv/summary.csv"
+    ],
+    "dpi": 220,
+    "uncertainty": "where shown: sample SD across six subject-disjoint folds, not CI",
+    "n": 258,
+    "unit": "participant"
+  },
+  {
+    "name": "roc_confusion",
+    "description": "Pooled OOF ROC and confusion matrix for prespecified AdaBoost configurations; ROC combines scores from six fitted models.",
+    "sources": [
+      "results/cv/*.oof.csv"
+    ],
+    "dpi": 220,
+    "uncertainty": "where shown: sample SD across six subject-disjoint folds, not CI",
+    "n": 258,
+    "unit": "participant"
+  },
+  {
+    "name": "representation_examples",
+    "description": "First included subject, big-spiral-fast task; per-image normalization and resampling defined in protocol. CWT scales are indices, not original frequencies.",
+    "sources": [
+      "data/derived/signals512.npy"
+    ],
+    "dpi": 220,
+    "uncertainty": "where shown: sample SD across six subject-disjoint folds, not CI",
+    "n": 258,
+    "unit": "participant"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "notebook": "01_data_inspection.ipynb",
+    "executed_code_cells": 5,
+    "errors": 0
+  },
+  {
+    "notebook": "02_kinematic_features.ipynb",
+    "executed_code_cells": 4,
+    "errors": 0
+  },
+  {
+    "notebook": "03_pretrained_representations.ipynb",
+    "executed_code_cells": 4,
+    "errors": 0
+  },
+  {
+    "notebook": "04_evaluation_and_fusion.ipynb",
+    "executed_code_cells": 7,
+    "errors": 0
+  }
+]

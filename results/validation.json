@@ -1,0 +1,32 @@
+{
+  "complete": true,
+  "published_configurations_complete": true,
+  "published_configurations_finished": 15,
+  "published_configurations_expected": 15,
+  "expected_results": 168,
+  "actual_results": 168,
+  "oof_files_validated": 168,
+  "expected_representations": [
+    "GAF+CWT",
+    "Kinematic+CWT",
+    "Kinematic+GAF",
+    "Kinematic+GAF+CWT",
+    "Kinematic+MOMENT",
+    "Kinematic+MOMENT+CWT",
+    "Kinematic+MOMENT+GAF",
+    "Kinematic+MOMENT+GAF+CWT",
+    "MOMENT+CWT",
+    "MOMENT+GAF",
+    "MOMENT+GAF+CWT",
+    "cwt_efficientnet_b4",
+    "cwt_resnet50",
+    "cwt_vgg16",
+    "cwt_vit_b_16",
+    "gaf_efficientnet_b4",
+    "gaf_resnet50",
+    "gaf_vgg16",
+    "gaf_vit_b_16",
+    "kinematic",
+    "moment"
+  ]
+}

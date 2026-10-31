@@ -1,0 +1,29 @@
+[
+  {
+    "name": "resnet50-11ad3fa6.pth",
+    "sha256": "11ad3fa62ca79e40addfd354a8ec4b7c75143b3038b8d2a807fbc68deab379ca",
+    "bytes": 102540417
+  },
+  {
+    "name": "efficientnet_b4_rwightman-23ab8bcd.pth",
+    "sha256": "23ab8bcd5bdbef61a7a43b91adcad81f622fd7f36fb4935a569828d77888c44e",
+    "bytes": 78107389
+  },
+  {
+    "name": "vit_b_16-c867db91.pth",
+    "sha256": "c867db91d3e12c6cbadabb610d73c24a546bf82d8c03a9fea34f43a712ddb0e9",
+    "bytes": 346328529
+  },
+  {
+    "name": "vgg16-397923af.pth",
+    "sha256": "397923af8e79cdbb6a7127f12361acd7a2f83e06b05044ddf496e83de57a5bf0",
+    "bytes": 553433881
+  },
+  {
+    "name": "AutonLab/MOMENT-1-large",
+    "revision": "ca58581bc7bea2ebed4e80dc0a3e4b8b609c6ecc",
+    "path": "E:\\DiaGraMo-project\\.cache\\huggingface\\hub\\models--AutonLab--MOMENT-1-large\\snapshots\\ca58581bc7bea2ebed4e80dc0a3e4b8b609c6ecc",
+    "safetensors_sha256": "a56928052ac6f5d09b97c3834bea6ce3aef9f02b513b5fac98954e7377801572",
+    "safetensors_bytes": 1385501256
+  }
+]

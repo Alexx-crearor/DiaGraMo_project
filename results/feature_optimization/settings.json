@@ -1,0 +1,145 @@
+{
+  "schema": 1,
+  "seed": 42,
+  "outer_folds": 6,
+  "inner_folds": 3,
+  "n_subjects": 258,
+  "branches": {
+    "Kinematic": "kinematic",
+    "MOMENT": "moment",
+    "GAF": "gaf_vit_b_16",
+    "CWT": "cwt_efficientnet_b4"
+  },
+  "classifiers": [
+    "LogisticRegression",
+    "SVM",
+    "LightGBM"
+  ],
+  "reducers": [
+    {
+      "name": "none",
+      "method": "none",
+      "value": null
+    },
+    {
+      "name": "pca_16",
+      "method": "pca",
+      "value": 16
+    },
+    {
+      "name": "pca_32",
+      "method": "pca",
+      "value": 32
+    },
+    {
+      "name": "pca_64",
+      "method": "pca",
+      "value": 64
+    },
+    {
+      "name": "pca_128",
+      "method": "pca",
+      "value": 128
+    },
+    {
+      "name": "pca_var90",
+      "method": "pca",
+      "value": 0.9
+    },
+    {
+      "name": "pca_var95",
+      "method": "pca",
+      "value": 0.95
+    },
+    {
+      "name": "pca_var99",
+      "method": "pca",
+      "value": 0.99
+    },
+    {
+      "name": "anova_32",
+      "method": "anova",
+      "value": 32
+    },
+    {
+      "name": "anova_64",
+      "method": "anova",
+      "value": 64
+    },
+    {
+      "name": "anova_128",
+      "method": "anova",
+      "value": 128
+    },
+    {
+      "name": "anova_256",
+      "method": "anova",
+      "value": 256
+    },
+    {
+      "name": "anova_512",
+      "method": "anova",
+      "value": 512
+    },
+    {
+      "name": "extratrees_32",
+      "method": "extratrees",
+      "value": 32
+    },
+    {
+      "name": "extratrees_64",
+      "method": "extratrees",
+      "value": 64
+    },
+    {
+      "name": "extratrees_128",
+      "method": "extratrees",
+      "value": 128
+    },
+    {
+      "name": "extratrees_256",
+      "method": "extratrees",
+      "value": 256
+    },
+    {
+      "name": "extratrees_512",
+      "method": "extratrees",
+      "value": 512
+    }
+  ],
+  "primary_selection_metric": "mean_inner_f1_macro",
+  "tie_break": [
+    "accuracy",
+    "auc",
+    "fewer_features",
+    "reducer_name",
+    "classifier_name"
+  ],
+  "pca": "full SVD; standardized inputs; no whitening/post-PCA scaling",
+  "tree_selector": {
+    "n_estimators": 200,
+    "min_samples_leaf": 2,
+    "max_features": "sqrt",
+    "n_jobs": 1,
+    "random_state": 42
+  },
+  "versions": {
+    "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+    "numpy": "1.25.2",
+    "pandas": "2.3.3",
+    "sklearn": "1.7.2"
+  },
+  "baseline_settings_sha256": "214d3e30c2140b6b9f1f162b5ae9a4bb3784c262fcddc744da5810268023769a",
+  "fold_assignments_sha256": "e1bcee25899c0bd4ce7d3a7c46c5ac0c9a81556840cff20093073d9211fdb2de",
+  "input_sha256": {
+    "kinematic": "ca91e1a9db290d8af403f9a486e5e7b3f2a298144b0335b8c67179ef8bff1616",
+    "moment": "1fe708c6b559953b21a2d59dafb3f69faa9d7a13a8a53d6ab32002dfbf386b3e",
+    "gaf_vit_b_16": "e75e2a7e9be58152c60a0ee1eb9eea7003c4e7bb70c9a2e64ac9aa8201c145cb",
+    "cwt_efficientnet_b4": "df133010d4f618feaf4b8fca9476c029a9c0c56c52cf83bb6cb68865e177b1cb"
+  },
+  "code_sha256": {
+    "src/diagramo/reduction.py": "1b7035ec325f0ad9864e1e7ed950961a1228d7dcf801b74a134afe776823a49e",
+    "scripts/optimize_features.py": "45b13d476b17b861ff5d15c498320b9b851347d130e583afba9f8e8db9f8df3d",
+    "scripts/evaluate.py": "b79e3c533c0ae3b3885f7e94764ff3be4cd6b016b4ba2426628c2c6bc96d5a0f"
+  }
+}

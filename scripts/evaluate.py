@@ -46,6 +46,19 @@ def metrics(y,pred,prob):
                 f1_weighted=f1_score(y,pred,average='weighted',zero_division=0),f1_binary=f1_score(y,pred,zero_division=0),
                 auc=roc_auc_score(y,prob),balanced_accuracy=balanced_accuracy_score(y,pred))
 
+
+def build_pipeline(clf_name, clf, *, preprocess=True):
+    """Shared fixed classifier pipeline for baseline and fold-local reduction studies.
+
+    Disable preprocessing only after an independently fitted training-fold bank.
+    """
+    estimator=clone(clf)
+    steps=[SimpleImputer(strategy='median'),VarianceThreshold(),StandardScaler()] if preprocess else []
+    if clf_name=='SVM' and estimator.kernel=='rbf':
+        steps.append(RBFKernelTransformer(gamma=estimator.gamma))
+        estimator.set_params(kernel='precomputed')
+    return make_pipeline(*steps,estimator)
+
 def summarize(out):
     rows=[]
     for p in out.glob('*__*.json'):
@@ -100,11 +113,7 @@ def main():
             def fit_fold(item):
                 f,(tr,te)=item
                 # Scaling and variance filtering occur strictly inside each training fold.
-                estimator=clone(clf); steps=[]
-                if clf_name=='SVM' and estimator.kernel=='rbf':
-                    steps=[RBFKernelTransformer(gamma=estimator.gamma)]
-                    estimator.set_params(kernel='precomputed')
-                pipe=make_pipeline(SimpleImputer(strategy='median'),VarianceThreshold(),StandardScaler(),*steps,estimator)
+                pipe=build_pipeline(clf_name,clf)
                 with threadpool_limits(limits=4): pipe.fit(X[tr],y[tr])
                 fold_pred=pipe.predict(X[te]); fold_prob=pipe.predict_proba(X[te])[:,1]
                 if args.save_models:

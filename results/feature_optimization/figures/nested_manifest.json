@@ -1,0 +1,130 @@
+[
+  {
+    "name": "nested_comparison",
+    "description": "Nested baseline versus optimized procedure; three metrics with outer-fold SD.",
+    "sources": [
+      "nested_summary.csv"
+    ],
+    "formats": [
+      "png",
+      "svg"
+    ],
+    "n_participants": 258,
+    "uncertainty": "Fold SD where shown; not a confidence interval",
+    "source_sha256": {
+      "nested_summary.csv": "57e6d1b578c584b8bc740bee61c3503974cc22fd88aea92988559b1ba0f7e433"
+    }
+  },
+  {
+    "name": "nested_fold_changes",
+    "description": "Each point is a paired fold F1 difference; no inference or confidence intervals.",
+    "sources": [
+      "selected_by_fold.csv"
+    ],
+    "formats": [
+      "png",
+      "svg"
+    ],
+    "n_participants": 258,
+    "uncertainty": "Fold SD where shown; not a confidence interval",
+    "source_sha256": {
+      "selected_by_fold.csv": "f57e7b9eb46ed1376fd7932418b1d4170456bc551b74b1dea7f470cfe5af0863"
+    }
+  },
+  {
+    "name": "nested_roc",
+    "description": "Pooled outer OOF ROC of both train-selected procedures; AUC is pooled, not mean fold AUC.",
+    "sources": [
+      "nested_oof.csv"
+    ],
+    "formats": [
+      "png",
+      "svg"
+    ],
+    "n_participants": 258,
+    "uncertainty": "Fold SD where shown; not a confidence interval",
+    "source_sha256": {
+      "nested_oof.csv": "8697a93ccbfed8de0760dba2e3bc78b10469af45a0ec42a9f111045d7cbc76b4"
+    }
+  },
+  {
+    "name": "nested_confusion",
+    "description": "Counts from stored predictions, shared 0–143 color scale; no threshold tuning.",
+    "sources": [
+      "nested_oof.csv"
+    ],
+    "formats": [
+      "png",
+      "svg"
+    ],
+    "n_participants": 258,
+    "uncertainty": "Fold SD where shown; not a confidence interval",
+    "source_sha256": {
+      "nested_oof.csv": "8697a93ccbfed8de0760dba2e3bc78b10469af45a0ec42a9f111045d7cbc76b4"
+    }
+  },
+  {
+    "name": "stability_and_variance",
+    "description": "Selector Jaccard and fold-local cumulative PCA variance; shading is fold range, not CI.",
+    "sources": [
+      "feature_stability.csv",
+      "folds/Kinematic__fold_0.json",
+      "folds/Kinematic__fold_1.json",
+      "folds/Kinematic__fold_2.json",
+      "folds/Kinematic__fold_3.json",
+      "folds/Kinematic__fold_4.json",
+      "folds/Kinematic__fold_5.json",
+      "folds/MOMENT__fold_0.json",
+      "folds/MOMENT__fold_1.json",
+      "folds/MOMENT__fold_2.json",
+      "folds/MOMENT__fold_3.json",
+      "folds/MOMENT__fold_4.json",
+      "folds/MOMENT__fold_5.json",
+      "folds/GAF__fold_0.json",
+      "folds/GAF__fold_1.json",
+      "folds/GAF__fold_2.json",
+      "folds/GAF__fold_3.json",
+      "folds/GAF__fold_4.json",
+      "folds/GAF__fold_5.json",
+      "folds/CWT__fold_0.json",
+      "folds/CWT__fold_1.json",
+      "folds/CWT__fold_2.json",
+      "folds/CWT__fold_3.json",
+      "folds/CWT__fold_4.json",
+      "folds/CWT__fold_5.json"
+    ],
+    "formats": [
+      "png",
+      "svg"
+    ],
+    "n_participants": 258,
+    "uncertainty": "Fold SD where shown; not a confidence interval",
+    "source_sha256": {
+      "feature_stability.csv": "beb9db617878f73498c3b73b419884b19569a5713f7feadd52de2b0e729145cc",
+      "folds/Kinematic__fold_0.json": "8707a10c1dfc37f0f2d2e5f57b7cb8e54b3d08b40042a2cf263450d31cf8e213",
+      "folds/Kinematic__fold_1.json": "1511e8eaa50421eedb1977094f4acf474185bff11bc5f8a33549c38686081112",
+      "folds/Kinematic__fold_2.json": "96a8bd4d58d6c664acbe881a0be09623be32be1bb94a56fd0912e849a8b17d27",
+      "folds/Kinematic__fold_3.json": "c5e8af72c0e23d65e4b72af3b4e571c4b20e882a13aedb69d141fe6698fed9d3",
+      "folds/Kinematic__fold_4.json": "f77918653122fc8735852622800fdbdfff63ab86cbde63b1be5a80ac1433fd0c",
+      "folds/Kinematic__fold_5.json": "690efac8e76581e2ee208f617bb397f38ace43dd2e8fb0f53dcdcd4d42878f48",
+      "folds/MOMENT__fold_0.json": "186e67dedc68c08166ada99697b8f1a04d01e3c4e3f775adb6bf57b8eed682bf",
+      "folds/MOMENT__fold_1.json": "de6980c857f4293a655b80257a4131a998de443b94c15f1d43a42d0bfb0d396c",
+      "folds/MOMENT__fold_2.json": "f9ac012c6b74d9fcf096b5b67f155f9f07dadf0ae140fb3c45ef1a74210a3c7b",
+      "folds/MOMENT__fold_3.json": "41734cbf9f5c18a4f387aa2f9ded9ea0b6b6cfef4f40e1ae918c7ec8499b2fa0",
+      "folds/MOMENT__fold_4.json": "1a5014930e1f35a973b036d34470e02bd130f485f8aff1a049b3cf9a594c0a0e",
+      "folds/MOMENT__fold_5.json": "a35bdec1010dafb447367dd5a274629243240cdb4a91dfbd1c40681c6e6d2e5e",
+      "folds/GAF__fold_0.json": "b2df7e12115ce2d5a9f95df3c77c3718c6737deb07e5c3cf35909d0935c58a33",
+      "folds/GAF__fold_1.json": "6d7dc57d02d9df278ba8e3f2d3ba12cbbbbded489286994c07ee967f656189c3",
+      "folds/GAF__fold_2.json": "58b777eadd73bd1b05e23ba32a508eaf6bc9c5b83ae50be374d139c89659d6c4",
+      "folds/GAF__fold_3.json": "dd7d5e0e8abfcc7f4441019aa3bd51ae632243631dc378993eb464f19e1d21d1",
+      "folds/GAF__fold_4.json": "d5b530cab77768e818991f154fc8c36ab0505ce67ea852f9690682af4e1c073c",
+      "folds/GAF__fold_5.json": "238a0d2e5a5ad8e44a39d855b5f3473aae5f0f55eb0fc5248c41be3fcec7499b",
+      "folds/CWT__fold_0.json": "ed037b7dc96c43d7d65003adbf71daeced8fa818ccd5feb3657df1ec453dca2d",
+      "folds/CWT__fold_1.json": "5ea9774fa81ebe575a9f89793e00cc33ec418c222e6721fd1366fd0aec433b5f",
+      "folds/CWT__fold_2.json": "27c6d41421211d128d6f893f3c6937a21adfd290e67fc4d4d97f6cc57518f27a",
+      "folds/CWT__fold_3.json": "f9930d4425c6a2fc64e19d6ff964e0ccd25b572bcb5cebf3cbce1a191c54fc16",
+      "folds/CWT__fold_4.json": "86aa605a8e457671c1257f5eb9b56d3569b872ac3ae8e1ff0f4561fc992fff22",
+      "folds/CWT__fold_5.json": "59530efddf525cfe0c92557fbba490602a0dd0ef6a8132b307a45a0d542aceca"
+    }
+  }
+]

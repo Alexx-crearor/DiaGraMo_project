@@ -1,5 +1,27 @@
 # DiaGraMo: tái lập thực nghiệm đa nhánh
 
+## Tối ưu đặc trưng
+
+Thực nghiệm PCA, SelectKBest ANOVA và SelectFromModel ExtraTrees nằm ngay trong project:
+[báo cáo so sánh](results/feature_optimization/REPORT_VI.md),
+[bảng đầy đủ](results/feature_optimization/summary.csv) và
+[đánh giá chọn cấu hình bằng nested CV](results/feature_optimization/nested_comparison.csv).
+Kết quả cũ được giữ nguyên; kết quả mới lưu riêng tại `results/feature_optimization/`.
+
+```powershell
+.venv/Scripts/python.exe -X utf8 -B -u scripts/optimize_features.py --workers 2
+.venv/Scripts/python.exe -X utf8 -B scripts/optimize_features.py --report-only
+.venv/Scripts/python.exe -X utf8 -B -m unittest discover -s tests -v
+```
+
+Giữ nguyên 6 fold theo participant, seed 42. Imputer, scaler, PCA và selector chỉ fit
+trong train của từng split; lựa chọn phương pháp/mức chiều/classifier dùng inner CV
+riêng trong outer train. `validation.json` của thư mục mới phải có `complete=true`
+trước khi xem đợt chạy là hoàn tất. Khi đổi code/tham số/đặc trưng, dùng `--output`
+trỏ tới một thư mục kết quả mới để không trộn các đợt chạy.
+
+## Thực nghiệm baseline
+
 Tái lập độc lập bài *Towards Objective Dysgraphia Detection: A Multi-Branch Deep Learning Approach for Online Handwriting Analysis* (Ouhib và cộng sự, 2026).
 
 - [Đối chiếu ưu tiên: 15 cấu hình ở Bảng I–III của bài báo](results/PAPER_TABLES_VI.md)
@@ -59,6 +81,18 @@ Các tên encoder còn lại: `resnet50`, `efficientnet_b4`, `vit_b_16`, `vgg16`
 2. `notebooks/02_kinematic_features.ipynb`: schema 74 đặc trưng và ma trận 258×1.036.
 3. `notebooks/03_pretrained_representations.ipynb`: các embedding và minh họa GAF/CWT.
 4. `notebooks/04_evaluation_and_fusion.ipynb`: fold, kết quả CV, đối chiếu và biểu đồ.
+5. [05_feature_optimization.ipynb](notebooks/05_feature_optimization.ipynb): bảng baseline, biểu đồ phương pháp, heatmap 216 cấu hình, đường cong số chiều và mức nén.
+6. [06_nested_cv_and_stability.ipynb](notebooks/06_nested_cv_and_stability.ipynb): nested CV, chênh lệch từng fold, ROC/OOF, confusion matrix, độ ổn định selector và phương sai PCA trên train.
+
+Hai notebook mới đã có output; biểu đồ PNG/SVG và manifest nguồn ở
+`results/feature_optimization/figures/`. Chạy riêng chúng, giữ nguyên output notebook cũ:
+
+```powershell
+.venv/Scripts/python.exe -X utf8 -B scripts/execute_notebooks.py --only 05_feature_optimization.ipynb 06_nested_cv_and_stability.ipynb --validation-output results/feature_optimization/notebook_validation.json
+```
+
+Nếu cần tạo lại nội dung hai notebook mới trước khi chạy, dùng
+`.venv/Scripts/python.exe -X utf8 -B scripts/create_feature_notebooks.py`.
 
 Chọn kernel Python của `.venv`. Notebook đọc các artifact đã sinh, không tự khởi động một lượt GPU dài khi mở.
 

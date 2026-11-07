@@ -1,0 +1,66 @@
+[
+  {
+    "name": "method_comparison",
+    "description": "Method winners chosen by macro-F1; bars show each metric and fold SD.",
+    "sources": [
+      "summary.csv"
+    ],
+    "formats": [
+      "png",
+      "svg"
+    ],
+    "n_participants": 258,
+    "uncertainty": "Fold SD where shown; not a confidence interval",
+    "source_sha256": {
+      "summary.csv": "737d79f9942122756e86a531b82eb07846c079eee6f83f25ada8fe5ac8c0b107"
+    }
+  },
+  {
+    "name": "all_configurations",
+    "description": "All 216 candidates; shared F1 color limits, annotated values.",
+    "sources": [
+      "summary.csv"
+    ],
+    "formats": [
+      "png",
+      "svg"
+    ],
+    "n_participants": 258,
+    "uncertainty": "Fold SD where shown; not a confidence interval",
+    "source_sha256": {
+      "summary.csv": "737d79f9942122756e86a531b82eb07846c079eee6f83f25ada8fe5ac8c0b107"
+    }
+  },
+  {
+    "name": "dimension_curves",
+    "description": "Fixed dimension grids by branch and classifier; dashed same-classifier baseline.",
+    "sources": [
+      "summary.csv"
+    ],
+    "formats": [
+      "png",
+      "svg"
+    ],
+    "n_participants": 258,
+    "uncertainty": "Fold SD where shown; not a confidence interval",
+    "source_sha256": {
+      "summary.csv": "737d79f9942122756e86a531b82eb07846c079eee6f83f25ada8fe5ac8c0b107"
+    }
+  },
+  {
+    "name": "compression",
+    "description": "Raw versus retained feature counts for the best reduced candidate per branch.",
+    "sources": [
+      "best_per_branch.csv"
+    ],
+    "formats": [
+      "png",
+      "svg"
+    ],
+    "n_participants": 258,
+    "uncertainty": "Fold SD where shown; not a confidence interval",
+    "source_sha256": {
+      "best_per_branch.csv": "34fb64cc81e9a3c93dc5753167e52a7aefb022a7780071bd0a540d0a9754ab8b"
+    }
+  }
+]

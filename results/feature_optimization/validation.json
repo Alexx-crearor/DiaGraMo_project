@@ -1,0 +1,15 @@
+{
+  "complete": true,
+  "expected_grid_results": 216,
+  "actual_grid_results": 216,
+  "outer_jobs_validated": 24,
+  "inner_fit_partitions_validated": 72,
+  "fixed_oof_files_validated": 216,
+  "nested_oof_subject_rows": 2064,
+  "original_artifacts_verified_unchanged": 426,
+  "old_results_unchanged": true,
+  "feature_inputs_unchanged": true,
+  "baseline_oof_reuse_exact": true,
+  "outer_folds_match_original": true,
+  "selection_uses_only_inner_cv": true
+}

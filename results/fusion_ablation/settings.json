@@ -1,0 +1,4980 @@
+{
+  "seed": 42,
+  "n_subjects": 258,
+  "label": "group",
+  "outer_folds": 6,
+  "inner_folds": 3,
+  "meta_crossfit_folds": 3,
+  "primary": "mean inner macro-F1; accuracy, AUC, dimensions, candidate ID tie breaks",
+  "adaptive_selection": "strict inner macro-F1 improvement AND no inner Accuracy decrease; otherwise K_only",
+  "outer_labels_used_for_selection": false,
+  "threshold": 0.5,
+  "base_options": {
+    "K": [
+      [
+        "none",
+        "LightGBM"
+      ]
+    ],
+    "M": [
+      [
+        "anova_64",
+        "LogisticRegression"
+      ],
+      [
+        "pca_var99",
+        "SVM"
+      ]
+    ],
+    "G": [
+      [
+        "anova_256",
+        "LightGBM"
+      ],
+      [
+        "anova_64",
+        "SVM"
+      ],
+      [
+        "pca_var95",
+        "LogisticRegression"
+      ]
+    ],
+    "A": [
+      [
+        "anova_256",
+        "LightGBM"
+      ],
+      [
+        "anova_64",
+        "SVM"
+      ],
+      [
+        "pca_var95",
+        "LogisticRegression"
+      ]
+    ],
+    "C": [
+      [
+        "none",
+        "LogisticRegression"
+      ],
+      [
+        "pca_var99",
+        "LogisticRegression"
+      ]
+    ]
+  },
+  "variants": {
+    "KM": [
+      "K",
+      "M"
+    ],
+    "KG": [
+      "K",
+      "G"
+    ],
+    "KC": [
+      "K",
+      "C"
+    ],
+    "KMG": [
+      "K",
+      "M",
+      "G"
+    ],
+    "KG_adapter": [
+      "K",
+      "A"
+    ],
+    "KMG_adapter": [
+      "K",
+      "M",
+      "A"
+    ]
+  },
+  "grid": {
+    "K_only": {
+      "method": "baseline",
+      "variant": "K",
+      "branches": [
+        "K"
+      ],
+      "options": [
+        "K__none__LightGBM"
+      ]
+    },
+    "single__M__anova_64__LogisticRegression": {
+      "method": "single",
+      "variant": "M",
+      "branches": [
+        "M"
+      ],
+      "options": [
+        "M__anova_64__LogisticRegression"
+      ]
+    },
+    "single__M__pca_var99__SVM": {
+      "method": "single",
+      "variant": "M",
+      "branches": [
+        "M"
+      ],
+      "options": [
+        "M__pca_var99__SVM"
+      ]
+    },
+    "single__G__anova_256__LightGBM": {
+      "method": "single",
+      "variant": "G",
+      "branches": [
+        "G"
+      ],
+      "options": [
+        "G__anova_256__LightGBM"
+      ]
+    },
+    "single__G__anova_64__SVM": {
+      "method": "single",
+      "variant": "G",
+      "branches": [
+        "G"
+      ],
+      "options": [
+        "G__anova_64__SVM"
+      ]
+    },
+    "single__G__pca_var95__LogisticRegression": {
+      "method": "single",
+      "variant": "G",
+      "branches": [
+        "G"
+      ],
+      "options": [
+        "G__pca_var95__LogisticRegression"
+      ]
+    },
+    "single__A__anova_256__LightGBM": {
+      "method": "single",
+      "variant": "A",
+      "branches": [
+        "A"
+      ],
+      "options": [
+        "A__anova_256__LightGBM"
+      ]
+    },
+    "single__A__anova_64__SVM": {
+      "method": "single",
+      "variant": "A",
+      "branches": [
+        "A"
+      ],
+      "options": [
+        "A__anova_64__SVM"
+      ]
+    },
+    "single__A__pca_var95__LogisticRegression": {
+      "method": "single",
+      "variant": "A",
+      "branches": [
+        "A"
+      ],
+      "options": [
+        "A__pca_var95__LogisticRegression"
+      ]
+    },
+    "single__C__none__LogisticRegression": {
+      "method": "single",
+      "variant": "C",
+      "branches": [
+        "C"
+      ],
+      "options": [
+        "C__none__LogisticRegression"
+      ]
+    },
+    "single__C__pca_var99__LogisticRegression": {
+      "method": "single",
+      "variant": "C",
+      "branches": [
+        "C"
+      ],
+      "options": [
+        "C__pca_var99__LogisticRegression"
+      ]
+    },
+    "original__KM__LogisticRegression": {
+      "method": "original",
+      "variant": "KM",
+      "branches": [
+        "K",
+        "M"
+      ],
+      "classifier": "LogisticRegression"
+    },
+    "original__KM__SVM": {
+      "method": "original",
+      "variant": "KM",
+      "branches": [
+        "K",
+        "M"
+      ],
+      "classifier": "SVM"
+    },
+    "original__KM__LightGBM": {
+      "method": "original",
+      "variant": "KM",
+      "branches": [
+        "K",
+        "M"
+      ],
+      "classifier": "LightGBM"
+    },
+    "compact__KM__none__anova_64__LogisticRegression": {
+      "method": "compact",
+      "variant": "KM",
+      "branches": [
+        "K",
+        "M"
+      ],
+      "specs": [
+        "none",
+        "anova_64"
+      ],
+      "classifier": "LogisticRegression"
+    },
+    "compact__KM__none__anova_64__SVM": {
+      "method": "compact",
+      "variant": "KM",
+      "branches": [
+        "K",
+        "M"
+      ],
+      "specs": [
+        "none",
+        "anova_64"
+      ],
+      "classifier": "SVM"
+    },
+    "compact__KM__none__anova_64__LightGBM": {
+      "method": "compact",
+      "variant": "KM",
+      "branches": [
+        "K",
+        "M"
+      ],
+      "specs": [
+        "none",
+        "anova_64"
+      ],
+      "classifier": "LightGBM"
+    },
+    "compact__KM__none__pca_var99__LogisticRegression": {
+      "method": "compact",
+      "variant": "KM",
+      "branches": [
+        "K",
+        "M"
+      ],
+      "specs": [
+        "none",
+        "pca_var99"
+      ],
+      "classifier": "LogisticRegression"
+    },
+    "compact__KM__none__pca_var99__SVM": {
+      "method": "compact",
+      "variant": "KM",
+      "branches": [
+        "K",
+        "M"
+      ],
+      "specs": [
+        "none",
+        "pca_var99"
+      ],
+      "classifier": "SVM"
+    },
+    "compact__KM__none__pca_var99__LightGBM": {
+      "method": "compact",
+      "variant": "KM",
+      "branches": [
+        "K",
+        "M"
+      ],
+      "specs": [
+        "none",
+        "pca_var99"
+      ],
+      "classifier": "LightGBM"
+    },
+    "late__KM__K__none__LightGBM__M__anova_64__LogisticRegression__equal__0.0": {
+      "method": "late",
+      "variant": "KM",
+      "branches": [
+        "K",
+        "M"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "equal",
+        "ridge": 0.0
+      }
+    },
+    "late__KM__K__none__LightGBM__M__anova_64__LogisticRegression__late__0.0": {
+      "method": "late",
+      "variant": "KM",
+      "branches": [
+        "K",
+        "M"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "late",
+        "ridge": 0.0
+      }
+    },
+    "late__KM__K__none__LightGBM__M__anova_64__LogisticRegression__late__0.1": {
+      "method": "late",
+      "variant": "KM",
+      "branches": [
+        "K",
+        "M"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "late",
+        "ridge": 0.1
+      }
+    },
+    "adaptive__KM__K__none__LightGBM__M__anova_64__LogisticRegression__0.1__0.25": {
+      "method": "adaptive",
+      "variant": "KM",
+      "branches": [
+        "K",
+        "M"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.1,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KM__K__none__LightGBM__M__anova_64__LogisticRegression__0.1__0.5": {
+      "method": "adaptive",
+      "variant": "KM",
+      "branches": [
+        "K",
+        "M"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.1,
+        "budget": 0.5
+      }
+    },
+    "adaptive__KM__K__none__LightGBM__M__anova_64__LogisticRegression__0.25__0.25": {
+      "method": "adaptive",
+      "variant": "KM",
+      "branches": [
+        "K",
+        "M"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.25,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KM__K__none__LightGBM__M__anova_64__LogisticRegression__0.25__0.5": {
+      "method": "adaptive",
+      "variant": "KM",
+      "branches": [
+        "K",
+        "M"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.25,
+        "budget": 0.5
+      }
+    },
+    "adaptive__KM__K__none__LightGBM__M__anova_64__LogisticRegression__0.5__0.25": {
+      "method": "adaptive",
+      "variant": "KM",
+      "branches": [
+        "K",
+        "M"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.5,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KM__K__none__LightGBM__M__anova_64__LogisticRegression__0.5__0.5": {
+      "method": "adaptive",
+      "variant": "KM",
+      "branches": [
+        "K",
+        "M"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.5,
+        "budget": 0.5
+      }
+    },
+    "late__KM__K__none__LightGBM__M__pca_var99__SVM__equal__0.0": {
+      "method": "late",
+      "variant": "KM",
+      "branches": [
+        "K",
+        "M"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM"
+      ],
+      "fusion": {
+        "kind": "equal",
+        "ridge": 0.0
+      }
+    },
+    "late__KM__K__none__LightGBM__M__pca_var99__SVM__late__0.0": {
+      "method": "late",
+      "variant": "KM",
+      "branches": [
+        "K",
+        "M"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM"
+      ],
+      "fusion": {
+        "kind": "late",
+        "ridge": 0.0
+      }
+    },
+    "late__KM__K__none__LightGBM__M__pca_var99__SVM__late__0.1": {
+      "method": "late",
+      "variant": "KM",
+      "branches": [
+        "K",
+        "M"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM"
+      ],
+      "fusion": {
+        "kind": "late",
+        "ridge": 0.1
+      }
+    },
+    "adaptive__KM__K__none__LightGBM__M__pca_var99__SVM__0.1__0.25": {
+      "method": "adaptive",
+      "variant": "KM",
+      "branches": [
+        "K",
+        "M"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.1,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KM__K__none__LightGBM__M__pca_var99__SVM__0.1__0.5": {
+      "method": "adaptive",
+      "variant": "KM",
+      "branches": [
+        "K",
+        "M"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.1,
+        "budget": 0.5
+      }
+    },
+    "adaptive__KM__K__none__LightGBM__M__pca_var99__SVM__0.25__0.25": {
+      "method": "adaptive",
+      "variant": "KM",
+      "branches": [
+        "K",
+        "M"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.25,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KM__K__none__LightGBM__M__pca_var99__SVM__0.25__0.5": {
+      "method": "adaptive",
+      "variant": "KM",
+      "branches": [
+        "K",
+        "M"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.25,
+        "budget": 0.5
+      }
+    },
+    "adaptive__KM__K__none__LightGBM__M__pca_var99__SVM__0.5__0.25": {
+      "method": "adaptive",
+      "variant": "KM",
+      "branches": [
+        "K",
+        "M"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.5,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KM__K__none__LightGBM__M__pca_var99__SVM__0.5__0.5": {
+      "method": "adaptive",
+      "variant": "KM",
+      "branches": [
+        "K",
+        "M"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.5,
+        "budget": 0.5
+      }
+    },
+    "original__KG__LogisticRegression": {
+      "method": "original",
+      "variant": "KG",
+      "branches": [
+        "K",
+        "O"
+      ],
+      "classifier": "LogisticRegression"
+    },
+    "original__KG__SVM": {
+      "method": "original",
+      "variant": "KG",
+      "branches": [
+        "K",
+        "O"
+      ],
+      "classifier": "SVM"
+    },
+    "original__KG__LightGBM": {
+      "method": "original",
+      "variant": "KG",
+      "branches": [
+        "K",
+        "O"
+      ],
+      "classifier": "LightGBM"
+    },
+    "compact__KG__none__anova_256__LogisticRegression": {
+      "method": "compact",
+      "variant": "KG",
+      "branches": [
+        "K",
+        "G"
+      ],
+      "specs": [
+        "none",
+        "anova_256"
+      ],
+      "classifier": "LogisticRegression"
+    },
+    "compact__KG__none__anova_256__SVM": {
+      "method": "compact",
+      "variant": "KG",
+      "branches": [
+        "K",
+        "G"
+      ],
+      "specs": [
+        "none",
+        "anova_256"
+      ],
+      "classifier": "SVM"
+    },
+    "compact__KG__none__anova_256__LightGBM": {
+      "method": "compact",
+      "variant": "KG",
+      "branches": [
+        "K",
+        "G"
+      ],
+      "specs": [
+        "none",
+        "anova_256"
+      ],
+      "classifier": "LightGBM"
+    },
+    "compact__KG__none__anova_64__LogisticRegression": {
+      "method": "compact",
+      "variant": "KG",
+      "branches": [
+        "K",
+        "G"
+      ],
+      "specs": [
+        "none",
+        "anova_64"
+      ],
+      "classifier": "LogisticRegression"
+    },
+    "compact__KG__none__anova_64__SVM": {
+      "method": "compact",
+      "variant": "KG",
+      "branches": [
+        "K",
+        "G"
+      ],
+      "specs": [
+        "none",
+        "anova_64"
+      ],
+      "classifier": "SVM"
+    },
+    "compact__KG__none__anova_64__LightGBM": {
+      "method": "compact",
+      "variant": "KG",
+      "branches": [
+        "K",
+        "G"
+      ],
+      "specs": [
+        "none",
+        "anova_64"
+      ],
+      "classifier": "LightGBM"
+    },
+    "compact__KG__none__pca_var95__LogisticRegression": {
+      "method": "compact",
+      "variant": "KG",
+      "branches": [
+        "K",
+        "G"
+      ],
+      "specs": [
+        "none",
+        "pca_var95"
+      ],
+      "classifier": "LogisticRegression"
+    },
+    "compact__KG__none__pca_var95__SVM": {
+      "method": "compact",
+      "variant": "KG",
+      "branches": [
+        "K",
+        "G"
+      ],
+      "specs": [
+        "none",
+        "pca_var95"
+      ],
+      "classifier": "SVM"
+    },
+    "compact__KG__none__pca_var95__LightGBM": {
+      "method": "compact",
+      "variant": "KG",
+      "branches": [
+        "K",
+        "G"
+      ],
+      "specs": [
+        "none",
+        "pca_var95"
+      ],
+      "classifier": "LightGBM"
+    },
+    "late__KG__K__none__LightGBM__G__anova_256__LightGBM__equal__0.0": {
+      "method": "late",
+      "variant": "KG",
+      "branches": [
+        "K",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "G__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "equal",
+        "ridge": 0.0
+      }
+    },
+    "late__KG__K__none__LightGBM__G__anova_256__LightGBM__late__0.0": {
+      "method": "late",
+      "variant": "KG",
+      "branches": [
+        "K",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "G__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "late",
+        "ridge": 0.0
+      }
+    },
+    "late__KG__K__none__LightGBM__G__anova_256__LightGBM__late__0.1": {
+      "method": "late",
+      "variant": "KG",
+      "branches": [
+        "K",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "G__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "late",
+        "ridge": 0.1
+      }
+    },
+    "adaptive__KG__K__none__LightGBM__G__anova_256__LightGBM__0.1__0.25": {
+      "method": "adaptive",
+      "variant": "KG",
+      "branches": [
+        "K",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "G__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.1,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KG__K__none__LightGBM__G__anova_256__LightGBM__0.1__0.5": {
+      "method": "adaptive",
+      "variant": "KG",
+      "branches": [
+        "K",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "G__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.1,
+        "budget": 0.5
+      }
+    },
+    "adaptive__KG__K__none__LightGBM__G__anova_256__LightGBM__0.25__0.25": {
+      "method": "adaptive",
+      "variant": "KG",
+      "branches": [
+        "K",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "G__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.25,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KG__K__none__LightGBM__G__anova_256__LightGBM__0.25__0.5": {
+      "method": "adaptive",
+      "variant": "KG",
+      "branches": [
+        "K",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "G__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.25,
+        "budget": 0.5
+      }
+    },
+    "adaptive__KG__K__none__LightGBM__G__anova_256__LightGBM__0.5__0.25": {
+      "method": "adaptive",
+      "variant": "KG",
+      "branches": [
+        "K",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "G__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.5,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KG__K__none__LightGBM__G__anova_256__LightGBM__0.5__0.5": {
+      "method": "adaptive",
+      "variant": "KG",
+      "branches": [
+        "K",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "G__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.5,
+        "budget": 0.5
+      }
+    },
+    "late__KG__K__none__LightGBM__G__anova_64__SVM__equal__0.0": {
+      "method": "late",
+      "variant": "KG",
+      "branches": [
+        "K",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "G__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "equal",
+        "ridge": 0.0
+      }
+    },
+    "late__KG__K__none__LightGBM__G__anova_64__SVM__late__0.0": {
+      "method": "late",
+      "variant": "KG",
+      "branches": [
+        "K",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "G__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "late",
+        "ridge": 0.0
+      }
+    },
+    "late__KG__K__none__LightGBM__G__anova_64__SVM__late__0.1": {
+      "method": "late",
+      "variant": "KG",
+      "branches": [
+        "K",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "G__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "late",
+        "ridge": 0.1
+      }
+    },
+    "adaptive__KG__K__none__LightGBM__G__anova_64__SVM__0.1__0.25": {
+      "method": "adaptive",
+      "variant": "KG",
+      "branches": [
+        "K",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "G__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.1,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KG__K__none__LightGBM__G__anova_64__SVM__0.1__0.5": {
+      "method": "adaptive",
+      "variant": "KG",
+      "branches": [
+        "K",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "G__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.1,
+        "budget": 0.5
+      }
+    },
+    "adaptive__KG__K__none__LightGBM__G__anova_64__SVM__0.25__0.25": {
+      "method": "adaptive",
+      "variant": "KG",
+      "branches": [
+        "K",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "G__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.25,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KG__K__none__LightGBM__G__anova_64__SVM__0.25__0.5": {
+      "method": "adaptive",
+      "variant": "KG",
+      "branches": [
+        "K",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "G__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.25,
+        "budget": 0.5
+      }
+    },
+    "adaptive__KG__K__none__LightGBM__G__anova_64__SVM__0.5__0.25": {
+      "method": "adaptive",
+      "variant": "KG",
+      "branches": [
+        "K",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "G__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.5,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KG__K__none__LightGBM__G__anova_64__SVM__0.5__0.5": {
+      "method": "adaptive",
+      "variant": "KG",
+      "branches": [
+        "K",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "G__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.5,
+        "budget": 0.5
+      }
+    },
+    "late__KG__K__none__LightGBM__G__pca_var95__LogisticRegression__equal__0.0": {
+      "method": "late",
+      "variant": "KG",
+      "branches": [
+        "K",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "G__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "equal",
+        "ridge": 0.0
+      }
+    },
+    "late__KG__K__none__LightGBM__G__pca_var95__LogisticRegression__late__0.0": {
+      "method": "late",
+      "variant": "KG",
+      "branches": [
+        "K",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "G__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "late",
+        "ridge": 0.0
+      }
+    },
+    "late__KG__K__none__LightGBM__G__pca_var95__LogisticRegression__late__0.1": {
+      "method": "late",
+      "variant": "KG",
+      "branches": [
+        "K",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "G__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "late",
+        "ridge": 0.1
+      }
+    },
+    "adaptive__KG__K__none__LightGBM__G__pca_var95__LogisticRegression__0.1__0.25": {
+      "method": "adaptive",
+      "variant": "KG",
+      "branches": [
+        "K",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "G__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.1,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KG__K__none__LightGBM__G__pca_var95__LogisticRegression__0.1__0.5": {
+      "method": "adaptive",
+      "variant": "KG",
+      "branches": [
+        "K",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "G__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.1,
+        "budget": 0.5
+      }
+    },
+    "adaptive__KG__K__none__LightGBM__G__pca_var95__LogisticRegression__0.25__0.25": {
+      "method": "adaptive",
+      "variant": "KG",
+      "branches": [
+        "K",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "G__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.25,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KG__K__none__LightGBM__G__pca_var95__LogisticRegression__0.25__0.5": {
+      "method": "adaptive",
+      "variant": "KG",
+      "branches": [
+        "K",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "G__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.25,
+        "budget": 0.5
+      }
+    },
+    "adaptive__KG__K__none__LightGBM__G__pca_var95__LogisticRegression__0.5__0.25": {
+      "method": "adaptive",
+      "variant": "KG",
+      "branches": [
+        "K",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "G__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.5,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KG__K__none__LightGBM__G__pca_var95__LogisticRegression__0.5__0.5": {
+      "method": "adaptive",
+      "variant": "KG",
+      "branches": [
+        "K",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "G__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.5,
+        "budget": 0.5
+      }
+    },
+    "original__KC__LogisticRegression": {
+      "method": "original",
+      "variant": "KC",
+      "branches": [
+        "K",
+        "C"
+      ],
+      "classifier": "LogisticRegression"
+    },
+    "original__KC__SVM": {
+      "method": "original",
+      "variant": "KC",
+      "branches": [
+        "K",
+        "C"
+      ],
+      "classifier": "SVM"
+    },
+    "original__KC__LightGBM": {
+      "method": "original",
+      "variant": "KC",
+      "branches": [
+        "K",
+        "C"
+      ],
+      "classifier": "LightGBM"
+    },
+    "compact__KC__none__none__LogisticRegression": {
+      "method": "compact",
+      "variant": "KC",
+      "branches": [
+        "K",
+        "C"
+      ],
+      "specs": [
+        "none",
+        "none"
+      ],
+      "classifier": "LogisticRegression"
+    },
+    "compact__KC__none__none__SVM": {
+      "method": "compact",
+      "variant": "KC",
+      "branches": [
+        "K",
+        "C"
+      ],
+      "specs": [
+        "none",
+        "none"
+      ],
+      "classifier": "SVM"
+    },
+    "compact__KC__none__none__LightGBM": {
+      "method": "compact",
+      "variant": "KC",
+      "branches": [
+        "K",
+        "C"
+      ],
+      "specs": [
+        "none",
+        "none"
+      ],
+      "classifier": "LightGBM"
+    },
+    "compact__KC__none__pca_var99__LogisticRegression": {
+      "method": "compact",
+      "variant": "KC",
+      "branches": [
+        "K",
+        "C"
+      ],
+      "specs": [
+        "none",
+        "pca_var99"
+      ],
+      "classifier": "LogisticRegression"
+    },
+    "compact__KC__none__pca_var99__SVM": {
+      "method": "compact",
+      "variant": "KC",
+      "branches": [
+        "K",
+        "C"
+      ],
+      "specs": [
+        "none",
+        "pca_var99"
+      ],
+      "classifier": "SVM"
+    },
+    "compact__KC__none__pca_var99__LightGBM": {
+      "method": "compact",
+      "variant": "KC",
+      "branches": [
+        "K",
+        "C"
+      ],
+      "specs": [
+        "none",
+        "pca_var99"
+      ],
+      "classifier": "LightGBM"
+    },
+    "late__KC__K__none__LightGBM__C__none__LogisticRegression__equal__0.0": {
+      "method": "late",
+      "variant": "KC",
+      "branches": [
+        "K",
+        "C"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "C__none__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "equal",
+        "ridge": 0.0
+      }
+    },
+    "late__KC__K__none__LightGBM__C__none__LogisticRegression__late__0.0": {
+      "method": "late",
+      "variant": "KC",
+      "branches": [
+        "K",
+        "C"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "C__none__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "late",
+        "ridge": 0.0
+      }
+    },
+    "late__KC__K__none__LightGBM__C__none__LogisticRegression__late__0.1": {
+      "method": "late",
+      "variant": "KC",
+      "branches": [
+        "K",
+        "C"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "C__none__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "late",
+        "ridge": 0.1
+      }
+    },
+    "adaptive__KC__K__none__LightGBM__C__none__LogisticRegression__0.1__0.25": {
+      "method": "adaptive",
+      "variant": "KC",
+      "branches": [
+        "K",
+        "C"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "C__none__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.1,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KC__K__none__LightGBM__C__none__LogisticRegression__0.1__0.5": {
+      "method": "adaptive",
+      "variant": "KC",
+      "branches": [
+        "K",
+        "C"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "C__none__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.1,
+        "budget": 0.5
+      }
+    },
+    "adaptive__KC__K__none__LightGBM__C__none__LogisticRegression__0.25__0.25": {
+      "method": "adaptive",
+      "variant": "KC",
+      "branches": [
+        "K",
+        "C"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "C__none__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.25,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KC__K__none__LightGBM__C__none__LogisticRegression__0.25__0.5": {
+      "method": "adaptive",
+      "variant": "KC",
+      "branches": [
+        "K",
+        "C"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "C__none__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.25,
+        "budget": 0.5
+      }
+    },
+    "adaptive__KC__K__none__LightGBM__C__none__LogisticRegression__0.5__0.25": {
+      "method": "adaptive",
+      "variant": "KC",
+      "branches": [
+        "K",
+        "C"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "C__none__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.5,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KC__K__none__LightGBM__C__none__LogisticRegression__0.5__0.5": {
+      "method": "adaptive",
+      "variant": "KC",
+      "branches": [
+        "K",
+        "C"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "C__none__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.5,
+        "budget": 0.5
+      }
+    },
+    "late__KC__K__none__LightGBM__C__pca_var99__LogisticRegression__equal__0.0": {
+      "method": "late",
+      "variant": "KC",
+      "branches": [
+        "K",
+        "C"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "C__pca_var99__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "equal",
+        "ridge": 0.0
+      }
+    },
+    "late__KC__K__none__LightGBM__C__pca_var99__LogisticRegression__late__0.0": {
+      "method": "late",
+      "variant": "KC",
+      "branches": [
+        "K",
+        "C"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "C__pca_var99__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "late",
+        "ridge": 0.0
+      }
+    },
+    "late__KC__K__none__LightGBM__C__pca_var99__LogisticRegression__late__0.1": {
+      "method": "late",
+      "variant": "KC",
+      "branches": [
+        "K",
+        "C"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "C__pca_var99__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "late",
+        "ridge": 0.1
+      }
+    },
+    "adaptive__KC__K__none__LightGBM__C__pca_var99__LogisticRegression__0.1__0.25": {
+      "method": "adaptive",
+      "variant": "KC",
+      "branches": [
+        "K",
+        "C"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "C__pca_var99__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.1,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KC__K__none__LightGBM__C__pca_var99__LogisticRegression__0.1__0.5": {
+      "method": "adaptive",
+      "variant": "KC",
+      "branches": [
+        "K",
+        "C"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "C__pca_var99__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.1,
+        "budget": 0.5
+      }
+    },
+    "adaptive__KC__K__none__LightGBM__C__pca_var99__LogisticRegression__0.25__0.25": {
+      "method": "adaptive",
+      "variant": "KC",
+      "branches": [
+        "K",
+        "C"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "C__pca_var99__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.25,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KC__K__none__LightGBM__C__pca_var99__LogisticRegression__0.25__0.5": {
+      "method": "adaptive",
+      "variant": "KC",
+      "branches": [
+        "K",
+        "C"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "C__pca_var99__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.25,
+        "budget": 0.5
+      }
+    },
+    "adaptive__KC__K__none__LightGBM__C__pca_var99__LogisticRegression__0.5__0.25": {
+      "method": "adaptive",
+      "variant": "KC",
+      "branches": [
+        "K",
+        "C"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "C__pca_var99__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.5,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KC__K__none__LightGBM__C__pca_var99__LogisticRegression__0.5__0.5": {
+      "method": "adaptive",
+      "variant": "KC",
+      "branches": [
+        "K",
+        "C"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "C__pca_var99__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.5,
+        "budget": 0.5
+      }
+    },
+    "original__KMG__LogisticRegression": {
+      "method": "original",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "O"
+      ],
+      "classifier": "LogisticRegression"
+    },
+    "original__KMG__SVM": {
+      "method": "original",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "O"
+      ],
+      "classifier": "SVM"
+    },
+    "original__KMG__LightGBM": {
+      "method": "original",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "O"
+      ],
+      "classifier": "LightGBM"
+    },
+    "compact__KMG__none__anova_64__anova_256__LogisticRegression": {
+      "method": "compact",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "specs": [
+        "none",
+        "anova_64",
+        "anova_256"
+      ],
+      "classifier": "LogisticRegression"
+    },
+    "compact__KMG__none__anova_64__anova_256__SVM": {
+      "method": "compact",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "specs": [
+        "none",
+        "anova_64",
+        "anova_256"
+      ],
+      "classifier": "SVM"
+    },
+    "compact__KMG__none__anova_64__anova_256__LightGBM": {
+      "method": "compact",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "specs": [
+        "none",
+        "anova_64",
+        "anova_256"
+      ],
+      "classifier": "LightGBM"
+    },
+    "compact__KMG__none__anova_64__anova_64__LogisticRegression": {
+      "method": "compact",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "specs": [
+        "none",
+        "anova_64",
+        "anova_64"
+      ],
+      "classifier": "LogisticRegression"
+    },
+    "compact__KMG__none__anova_64__anova_64__SVM": {
+      "method": "compact",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "specs": [
+        "none",
+        "anova_64",
+        "anova_64"
+      ],
+      "classifier": "SVM"
+    },
+    "compact__KMG__none__anova_64__anova_64__LightGBM": {
+      "method": "compact",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "specs": [
+        "none",
+        "anova_64",
+        "anova_64"
+      ],
+      "classifier": "LightGBM"
+    },
+    "compact__KMG__none__anova_64__pca_var95__LogisticRegression": {
+      "method": "compact",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "specs": [
+        "none",
+        "anova_64",
+        "pca_var95"
+      ],
+      "classifier": "LogisticRegression"
+    },
+    "compact__KMG__none__anova_64__pca_var95__SVM": {
+      "method": "compact",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "specs": [
+        "none",
+        "anova_64",
+        "pca_var95"
+      ],
+      "classifier": "SVM"
+    },
+    "compact__KMG__none__anova_64__pca_var95__LightGBM": {
+      "method": "compact",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "specs": [
+        "none",
+        "anova_64",
+        "pca_var95"
+      ],
+      "classifier": "LightGBM"
+    },
+    "compact__KMG__none__pca_var99__anova_256__LogisticRegression": {
+      "method": "compact",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "specs": [
+        "none",
+        "pca_var99",
+        "anova_256"
+      ],
+      "classifier": "LogisticRegression"
+    },
+    "compact__KMG__none__pca_var99__anova_256__SVM": {
+      "method": "compact",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "specs": [
+        "none",
+        "pca_var99",
+        "anova_256"
+      ],
+      "classifier": "SVM"
+    },
+    "compact__KMG__none__pca_var99__anova_256__LightGBM": {
+      "method": "compact",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "specs": [
+        "none",
+        "pca_var99",
+        "anova_256"
+      ],
+      "classifier": "LightGBM"
+    },
+    "compact__KMG__none__pca_var99__anova_64__LogisticRegression": {
+      "method": "compact",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "specs": [
+        "none",
+        "pca_var99",
+        "anova_64"
+      ],
+      "classifier": "LogisticRegression"
+    },
+    "compact__KMG__none__pca_var99__anova_64__SVM": {
+      "method": "compact",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "specs": [
+        "none",
+        "pca_var99",
+        "anova_64"
+      ],
+      "classifier": "SVM"
+    },
+    "compact__KMG__none__pca_var99__anova_64__LightGBM": {
+      "method": "compact",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "specs": [
+        "none",
+        "pca_var99",
+        "anova_64"
+      ],
+      "classifier": "LightGBM"
+    },
+    "compact__KMG__none__pca_var99__pca_var95__LogisticRegression": {
+      "method": "compact",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "specs": [
+        "none",
+        "pca_var99",
+        "pca_var95"
+      ],
+      "classifier": "LogisticRegression"
+    },
+    "compact__KMG__none__pca_var99__pca_var95__SVM": {
+      "method": "compact",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "specs": [
+        "none",
+        "pca_var99",
+        "pca_var95"
+      ],
+      "classifier": "SVM"
+    },
+    "compact__KMG__none__pca_var99__pca_var95__LightGBM": {
+      "method": "compact",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "specs": [
+        "none",
+        "pca_var99",
+        "pca_var95"
+      ],
+      "classifier": "LightGBM"
+    },
+    "late__KMG__K__none__LightGBM__M__anova_64__LogisticRegression__G__anova_256__LightGBM__equal__0.0": {
+      "method": "late",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "G__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "equal",
+        "ridge": 0.0
+      }
+    },
+    "late__KMG__K__none__LightGBM__M__anova_64__LogisticRegression__G__anova_256__LightGBM__late__0.0": {
+      "method": "late",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "G__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "late",
+        "ridge": 0.0
+      }
+    },
+    "late__KMG__K__none__LightGBM__M__anova_64__LogisticRegression__G__anova_256__LightGBM__late__0.1": {
+      "method": "late",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "G__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "late",
+        "ridge": 0.1
+      }
+    },
+    "adaptive__KMG__K__none__LightGBM__M__anova_64__LogisticRegression__G__anova_256__LightGBM__0.1__0.25": {
+      "method": "adaptive",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "G__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.1,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KMG__K__none__LightGBM__M__anova_64__LogisticRegression__G__anova_256__LightGBM__0.1__0.5": {
+      "method": "adaptive",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "G__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.1,
+        "budget": 0.5
+      }
+    },
+    "adaptive__KMG__K__none__LightGBM__M__anova_64__LogisticRegression__G__anova_256__LightGBM__0.25__0.25": {
+      "method": "adaptive",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "G__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.25,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KMG__K__none__LightGBM__M__anova_64__LogisticRegression__G__anova_256__LightGBM__0.25__0.5": {
+      "method": "adaptive",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "G__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.25,
+        "budget": 0.5
+      }
+    },
+    "adaptive__KMG__K__none__LightGBM__M__anova_64__LogisticRegression__G__anova_256__LightGBM__0.5__0.25": {
+      "method": "adaptive",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "G__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.5,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KMG__K__none__LightGBM__M__anova_64__LogisticRegression__G__anova_256__LightGBM__0.5__0.5": {
+      "method": "adaptive",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "G__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.5,
+        "budget": 0.5
+      }
+    },
+    "late__KMG__K__none__LightGBM__M__anova_64__LogisticRegression__G__anova_64__SVM__equal__0.0": {
+      "method": "late",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "G__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "equal",
+        "ridge": 0.0
+      }
+    },
+    "late__KMG__K__none__LightGBM__M__anova_64__LogisticRegression__G__anova_64__SVM__late__0.0": {
+      "method": "late",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "G__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "late",
+        "ridge": 0.0
+      }
+    },
+    "late__KMG__K__none__LightGBM__M__anova_64__LogisticRegression__G__anova_64__SVM__late__0.1": {
+      "method": "late",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "G__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "late",
+        "ridge": 0.1
+      }
+    },
+    "adaptive__KMG__K__none__LightGBM__M__anova_64__LogisticRegression__G__anova_64__SVM__0.1__0.25": {
+      "method": "adaptive",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "G__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.1,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KMG__K__none__LightGBM__M__anova_64__LogisticRegression__G__anova_64__SVM__0.1__0.5": {
+      "method": "adaptive",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "G__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.1,
+        "budget": 0.5
+      }
+    },
+    "adaptive__KMG__K__none__LightGBM__M__anova_64__LogisticRegression__G__anova_64__SVM__0.25__0.25": {
+      "method": "adaptive",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "G__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.25,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KMG__K__none__LightGBM__M__anova_64__LogisticRegression__G__anova_64__SVM__0.25__0.5": {
+      "method": "adaptive",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "G__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.25,
+        "budget": 0.5
+      }
+    },
+    "adaptive__KMG__K__none__LightGBM__M__anova_64__LogisticRegression__G__anova_64__SVM__0.5__0.25": {
+      "method": "adaptive",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "G__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.5,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KMG__K__none__LightGBM__M__anova_64__LogisticRegression__G__anova_64__SVM__0.5__0.5": {
+      "method": "adaptive",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "G__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.5,
+        "budget": 0.5
+      }
+    },
+    "late__KMG__K__none__LightGBM__M__anova_64__LogisticRegression__G__pca_var95__LogisticRegression__equal__0.0": {
+      "method": "late",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "G__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "equal",
+        "ridge": 0.0
+      }
+    },
+    "late__KMG__K__none__LightGBM__M__anova_64__LogisticRegression__G__pca_var95__LogisticRegression__late__0.0": {
+      "method": "late",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "G__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "late",
+        "ridge": 0.0
+      }
+    },
+    "late__KMG__K__none__LightGBM__M__anova_64__LogisticRegression__G__pca_var95__LogisticRegression__late__0.1": {
+      "method": "late",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "G__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "late",
+        "ridge": 0.1
+      }
+    },
+    "adaptive__KMG__K__none__LightGBM__M__anova_64__LogisticRegression__G__pca_var95__LogisticRegression__0.1__0.25": {
+      "method": "adaptive",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "G__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.1,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KMG__K__none__LightGBM__M__anova_64__LogisticRegression__G__pca_var95__LogisticRegression__0.1__0.5": {
+      "method": "adaptive",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "G__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.1,
+        "budget": 0.5
+      }
+    },
+    "adaptive__KMG__K__none__LightGBM__M__anova_64__LogisticRegression__G__pca_var95__LogisticRegression__0.25__0.25": {
+      "method": "adaptive",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "G__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.25,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KMG__K__none__LightGBM__M__anova_64__LogisticRegression__G__pca_var95__LogisticRegression__0.25__0.5": {
+      "method": "adaptive",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "G__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.25,
+        "budget": 0.5
+      }
+    },
+    "adaptive__KMG__K__none__LightGBM__M__anova_64__LogisticRegression__G__pca_var95__LogisticRegression__0.5__0.25": {
+      "method": "adaptive",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "G__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.5,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KMG__K__none__LightGBM__M__anova_64__LogisticRegression__G__pca_var95__LogisticRegression__0.5__0.5": {
+      "method": "adaptive",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "G__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.5,
+        "budget": 0.5
+      }
+    },
+    "late__KMG__K__none__LightGBM__M__pca_var99__SVM__G__anova_256__LightGBM__equal__0.0": {
+      "method": "late",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "G__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "equal",
+        "ridge": 0.0
+      }
+    },
+    "late__KMG__K__none__LightGBM__M__pca_var99__SVM__G__anova_256__LightGBM__late__0.0": {
+      "method": "late",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "G__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "late",
+        "ridge": 0.0
+      }
+    },
+    "late__KMG__K__none__LightGBM__M__pca_var99__SVM__G__anova_256__LightGBM__late__0.1": {
+      "method": "late",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "G__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "late",
+        "ridge": 0.1
+      }
+    },
+    "adaptive__KMG__K__none__LightGBM__M__pca_var99__SVM__G__anova_256__LightGBM__0.1__0.25": {
+      "method": "adaptive",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "G__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.1,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KMG__K__none__LightGBM__M__pca_var99__SVM__G__anova_256__LightGBM__0.1__0.5": {
+      "method": "adaptive",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "G__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.1,
+        "budget": 0.5
+      }
+    },
+    "adaptive__KMG__K__none__LightGBM__M__pca_var99__SVM__G__anova_256__LightGBM__0.25__0.25": {
+      "method": "adaptive",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "G__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.25,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KMG__K__none__LightGBM__M__pca_var99__SVM__G__anova_256__LightGBM__0.25__0.5": {
+      "method": "adaptive",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "G__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.25,
+        "budget": 0.5
+      }
+    },
+    "adaptive__KMG__K__none__LightGBM__M__pca_var99__SVM__G__anova_256__LightGBM__0.5__0.25": {
+      "method": "adaptive",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "G__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.5,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KMG__K__none__LightGBM__M__pca_var99__SVM__G__anova_256__LightGBM__0.5__0.5": {
+      "method": "adaptive",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "G__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.5,
+        "budget": 0.5
+      }
+    },
+    "late__KMG__K__none__LightGBM__M__pca_var99__SVM__G__anova_64__SVM__equal__0.0": {
+      "method": "late",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "G__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "equal",
+        "ridge": 0.0
+      }
+    },
+    "late__KMG__K__none__LightGBM__M__pca_var99__SVM__G__anova_64__SVM__late__0.0": {
+      "method": "late",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "G__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "late",
+        "ridge": 0.0
+      }
+    },
+    "late__KMG__K__none__LightGBM__M__pca_var99__SVM__G__anova_64__SVM__late__0.1": {
+      "method": "late",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "G__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "late",
+        "ridge": 0.1
+      }
+    },
+    "adaptive__KMG__K__none__LightGBM__M__pca_var99__SVM__G__anova_64__SVM__0.1__0.25": {
+      "method": "adaptive",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "G__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.1,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KMG__K__none__LightGBM__M__pca_var99__SVM__G__anova_64__SVM__0.1__0.5": {
+      "method": "adaptive",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "G__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.1,
+        "budget": 0.5
+      }
+    },
+    "adaptive__KMG__K__none__LightGBM__M__pca_var99__SVM__G__anova_64__SVM__0.25__0.25": {
+      "method": "adaptive",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "G__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.25,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KMG__K__none__LightGBM__M__pca_var99__SVM__G__anova_64__SVM__0.25__0.5": {
+      "method": "adaptive",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "G__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.25,
+        "budget": 0.5
+      }
+    },
+    "adaptive__KMG__K__none__LightGBM__M__pca_var99__SVM__G__anova_64__SVM__0.5__0.25": {
+      "method": "adaptive",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "G__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.5,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KMG__K__none__LightGBM__M__pca_var99__SVM__G__anova_64__SVM__0.5__0.5": {
+      "method": "adaptive",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "G__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.5,
+        "budget": 0.5
+      }
+    },
+    "late__KMG__K__none__LightGBM__M__pca_var99__SVM__G__pca_var95__LogisticRegression__equal__0.0": {
+      "method": "late",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "G__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "equal",
+        "ridge": 0.0
+      }
+    },
+    "late__KMG__K__none__LightGBM__M__pca_var99__SVM__G__pca_var95__LogisticRegression__late__0.0": {
+      "method": "late",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "G__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "late",
+        "ridge": 0.0
+      }
+    },
+    "late__KMG__K__none__LightGBM__M__pca_var99__SVM__G__pca_var95__LogisticRegression__late__0.1": {
+      "method": "late",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "G__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "late",
+        "ridge": 0.1
+      }
+    },
+    "adaptive__KMG__K__none__LightGBM__M__pca_var99__SVM__G__pca_var95__LogisticRegression__0.1__0.25": {
+      "method": "adaptive",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "G__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.1,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KMG__K__none__LightGBM__M__pca_var99__SVM__G__pca_var95__LogisticRegression__0.1__0.5": {
+      "method": "adaptive",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "G__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.1,
+        "budget": 0.5
+      }
+    },
+    "adaptive__KMG__K__none__LightGBM__M__pca_var99__SVM__G__pca_var95__LogisticRegression__0.25__0.25": {
+      "method": "adaptive",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "G__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.25,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KMG__K__none__LightGBM__M__pca_var99__SVM__G__pca_var95__LogisticRegression__0.25__0.5": {
+      "method": "adaptive",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "G__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.25,
+        "budget": 0.5
+      }
+    },
+    "adaptive__KMG__K__none__LightGBM__M__pca_var99__SVM__G__pca_var95__LogisticRegression__0.5__0.25": {
+      "method": "adaptive",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "G__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.5,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KMG__K__none__LightGBM__M__pca_var99__SVM__G__pca_var95__LogisticRegression__0.5__0.5": {
+      "method": "adaptive",
+      "variant": "KMG",
+      "branches": [
+        "K",
+        "M",
+        "G"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "G__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.5,
+        "budget": 0.5
+      }
+    },
+    "compact__KG_adapter__none__anova_256__LogisticRegression": {
+      "method": "compact",
+      "variant": "KG_adapter",
+      "branches": [
+        "K",
+        "A"
+      ],
+      "specs": [
+        "none",
+        "anova_256"
+      ],
+      "classifier": "LogisticRegression"
+    },
+    "compact__KG_adapter__none__anova_256__SVM": {
+      "method": "compact",
+      "variant": "KG_adapter",
+      "branches": [
+        "K",
+        "A"
+      ],
+      "specs": [
+        "none",
+        "anova_256"
+      ],
+      "classifier": "SVM"
+    },
+    "compact__KG_adapter__none__anova_256__LightGBM": {
+      "method": "compact",
+      "variant": "KG_adapter",
+      "branches": [
+        "K",
+        "A"
+      ],
+      "specs": [
+        "none",
+        "anova_256"
+      ],
+      "classifier": "LightGBM"
+    },
+    "compact__KG_adapter__none__anova_64__LogisticRegression": {
+      "method": "compact",
+      "variant": "KG_adapter",
+      "branches": [
+        "K",
+        "A"
+      ],
+      "specs": [
+        "none",
+        "anova_64"
+      ],
+      "classifier": "LogisticRegression"
+    },
+    "compact__KG_adapter__none__anova_64__SVM": {
+      "method": "compact",
+      "variant": "KG_adapter",
+      "branches": [
+        "K",
+        "A"
+      ],
+      "specs": [
+        "none",
+        "anova_64"
+      ],
+      "classifier": "SVM"
+    },
+    "compact__KG_adapter__none__anova_64__LightGBM": {
+      "method": "compact",
+      "variant": "KG_adapter",
+      "branches": [
+        "K",
+        "A"
+      ],
+      "specs": [
+        "none",
+        "anova_64"
+      ],
+      "classifier": "LightGBM"
+    },
+    "compact__KG_adapter__none__pca_var95__LogisticRegression": {
+      "method": "compact",
+      "variant": "KG_adapter",
+      "branches": [
+        "K",
+        "A"
+      ],
+      "specs": [
+        "none",
+        "pca_var95"
+      ],
+      "classifier": "LogisticRegression"
+    },
+    "compact__KG_adapter__none__pca_var95__SVM": {
+      "method": "compact",
+      "variant": "KG_adapter",
+      "branches": [
+        "K",
+        "A"
+      ],
+      "specs": [
+        "none",
+        "pca_var95"
+      ],
+      "classifier": "SVM"
+    },
+    "compact__KG_adapter__none__pca_var95__LightGBM": {
+      "method": "compact",
+      "variant": "KG_adapter",
+      "branches": [
+        "K",
+        "A"
+      ],
+      "specs": [
+        "none",
+        "pca_var95"
+      ],
+      "classifier": "LightGBM"
+    },
+    "late__KG_adapter__K__none__LightGBM__A__anova_256__LightGBM__equal__0.0": {
+      "method": "late",
+      "variant": "KG_adapter",
+      "branches": [
+        "K",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "A__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "equal",
+        "ridge": 0.0
+      }
+    },
+    "late__KG_adapter__K__none__LightGBM__A__anova_256__LightGBM__late__0.0": {
+      "method": "late",
+      "variant": "KG_adapter",
+      "branches": [
+        "K",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "A__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "late",
+        "ridge": 0.0
+      }
+    },
+    "late__KG_adapter__K__none__LightGBM__A__anova_256__LightGBM__late__0.1": {
+      "method": "late",
+      "variant": "KG_adapter",
+      "branches": [
+        "K",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "A__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "late",
+        "ridge": 0.1
+      }
+    },
+    "adaptive__KG_adapter__K__none__LightGBM__A__anova_256__LightGBM__0.1__0.25": {
+      "method": "adaptive",
+      "variant": "KG_adapter",
+      "branches": [
+        "K",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "A__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.1,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KG_adapter__K__none__LightGBM__A__anova_256__LightGBM__0.1__0.5": {
+      "method": "adaptive",
+      "variant": "KG_adapter",
+      "branches": [
+        "K",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "A__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.1,
+        "budget": 0.5
+      }
+    },
+    "adaptive__KG_adapter__K__none__LightGBM__A__anova_256__LightGBM__0.25__0.25": {
+      "method": "adaptive",
+      "variant": "KG_adapter",
+      "branches": [
+        "K",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "A__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.25,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KG_adapter__K__none__LightGBM__A__anova_256__LightGBM__0.25__0.5": {
+      "method": "adaptive",
+      "variant": "KG_adapter",
+      "branches": [
+        "K",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "A__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.25,
+        "budget": 0.5
+      }
+    },
+    "adaptive__KG_adapter__K__none__LightGBM__A__anova_256__LightGBM__0.5__0.25": {
+      "method": "adaptive",
+      "variant": "KG_adapter",
+      "branches": [
+        "K",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "A__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.5,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KG_adapter__K__none__LightGBM__A__anova_256__LightGBM__0.5__0.5": {
+      "method": "adaptive",
+      "variant": "KG_adapter",
+      "branches": [
+        "K",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "A__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.5,
+        "budget": 0.5
+      }
+    },
+    "late__KG_adapter__K__none__LightGBM__A__anova_64__SVM__equal__0.0": {
+      "method": "late",
+      "variant": "KG_adapter",
+      "branches": [
+        "K",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "A__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "equal",
+        "ridge": 0.0
+      }
+    },
+    "late__KG_adapter__K__none__LightGBM__A__anova_64__SVM__late__0.0": {
+      "method": "late",
+      "variant": "KG_adapter",
+      "branches": [
+        "K",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "A__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "late",
+        "ridge": 0.0
+      }
+    },
+    "late__KG_adapter__K__none__LightGBM__A__anova_64__SVM__late__0.1": {
+      "method": "late",
+      "variant": "KG_adapter",
+      "branches": [
+        "K",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "A__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "late",
+        "ridge": 0.1
+      }
+    },
+    "adaptive__KG_adapter__K__none__LightGBM__A__anova_64__SVM__0.1__0.25": {
+      "method": "adaptive",
+      "variant": "KG_adapter",
+      "branches": [
+        "K",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "A__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.1,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KG_adapter__K__none__LightGBM__A__anova_64__SVM__0.1__0.5": {
+      "method": "adaptive",
+      "variant": "KG_adapter",
+      "branches": [
+        "K",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "A__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.1,
+        "budget": 0.5
+      }
+    },
+    "adaptive__KG_adapter__K__none__LightGBM__A__anova_64__SVM__0.25__0.25": {
+      "method": "adaptive",
+      "variant": "KG_adapter",
+      "branches": [
+        "K",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "A__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.25,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KG_adapter__K__none__LightGBM__A__anova_64__SVM__0.25__0.5": {
+      "method": "adaptive",
+      "variant": "KG_adapter",
+      "branches": [
+        "K",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "A__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.25,
+        "budget": 0.5
+      }
+    },
+    "adaptive__KG_adapter__K__none__LightGBM__A__anova_64__SVM__0.5__0.25": {
+      "method": "adaptive",
+      "variant": "KG_adapter",
+      "branches": [
+        "K",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "A__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.5,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KG_adapter__K__none__LightGBM__A__anova_64__SVM__0.5__0.5": {
+      "method": "adaptive",
+      "variant": "KG_adapter",
+      "branches": [
+        "K",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "A__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.5,
+        "budget": 0.5
+      }
+    },
+    "late__KG_adapter__K__none__LightGBM__A__pca_var95__LogisticRegression__equal__0.0": {
+      "method": "late",
+      "variant": "KG_adapter",
+      "branches": [
+        "K",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "A__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "equal",
+        "ridge": 0.0
+      }
+    },
+    "late__KG_adapter__K__none__LightGBM__A__pca_var95__LogisticRegression__late__0.0": {
+      "method": "late",
+      "variant": "KG_adapter",
+      "branches": [
+        "K",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "A__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "late",
+        "ridge": 0.0
+      }
+    },
+    "late__KG_adapter__K__none__LightGBM__A__pca_var95__LogisticRegression__late__0.1": {
+      "method": "late",
+      "variant": "KG_adapter",
+      "branches": [
+        "K",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "A__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "late",
+        "ridge": 0.1
+      }
+    },
+    "adaptive__KG_adapter__K__none__LightGBM__A__pca_var95__LogisticRegression__0.1__0.25": {
+      "method": "adaptive",
+      "variant": "KG_adapter",
+      "branches": [
+        "K",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "A__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.1,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KG_adapter__K__none__LightGBM__A__pca_var95__LogisticRegression__0.1__0.5": {
+      "method": "adaptive",
+      "variant": "KG_adapter",
+      "branches": [
+        "K",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "A__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.1,
+        "budget": 0.5
+      }
+    },
+    "adaptive__KG_adapter__K__none__LightGBM__A__pca_var95__LogisticRegression__0.25__0.25": {
+      "method": "adaptive",
+      "variant": "KG_adapter",
+      "branches": [
+        "K",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "A__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.25,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KG_adapter__K__none__LightGBM__A__pca_var95__LogisticRegression__0.25__0.5": {
+      "method": "adaptive",
+      "variant": "KG_adapter",
+      "branches": [
+        "K",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "A__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.25,
+        "budget": 0.5
+      }
+    },
+    "adaptive__KG_adapter__K__none__LightGBM__A__pca_var95__LogisticRegression__0.5__0.25": {
+      "method": "adaptive",
+      "variant": "KG_adapter",
+      "branches": [
+        "K",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "A__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.5,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KG_adapter__K__none__LightGBM__A__pca_var95__LogisticRegression__0.5__0.5": {
+      "method": "adaptive",
+      "variant": "KG_adapter",
+      "branches": [
+        "K",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "A__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.5,
+        "budget": 0.5
+      }
+    },
+    "compact__KMG_adapter__none__anova_64__anova_256__LogisticRegression": {
+      "method": "compact",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "specs": [
+        "none",
+        "anova_64",
+        "anova_256"
+      ],
+      "classifier": "LogisticRegression"
+    },
+    "compact__KMG_adapter__none__anova_64__anova_256__SVM": {
+      "method": "compact",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "specs": [
+        "none",
+        "anova_64",
+        "anova_256"
+      ],
+      "classifier": "SVM"
+    },
+    "compact__KMG_adapter__none__anova_64__anova_256__LightGBM": {
+      "method": "compact",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "specs": [
+        "none",
+        "anova_64",
+        "anova_256"
+      ],
+      "classifier": "LightGBM"
+    },
+    "compact__KMG_adapter__none__anova_64__anova_64__LogisticRegression": {
+      "method": "compact",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "specs": [
+        "none",
+        "anova_64",
+        "anova_64"
+      ],
+      "classifier": "LogisticRegression"
+    },
+    "compact__KMG_adapter__none__anova_64__anova_64__SVM": {
+      "method": "compact",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "specs": [
+        "none",
+        "anova_64",
+        "anova_64"
+      ],
+      "classifier": "SVM"
+    },
+    "compact__KMG_adapter__none__anova_64__anova_64__LightGBM": {
+      "method": "compact",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "specs": [
+        "none",
+        "anova_64",
+        "anova_64"
+      ],
+      "classifier": "LightGBM"
+    },
+    "compact__KMG_adapter__none__anova_64__pca_var95__LogisticRegression": {
+      "method": "compact",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "specs": [
+        "none",
+        "anova_64",
+        "pca_var95"
+      ],
+      "classifier": "LogisticRegression"
+    },
+    "compact__KMG_adapter__none__anova_64__pca_var95__SVM": {
+      "method": "compact",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "specs": [
+        "none",
+        "anova_64",
+        "pca_var95"
+      ],
+      "classifier": "SVM"
+    },
+    "compact__KMG_adapter__none__anova_64__pca_var95__LightGBM": {
+      "method": "compact",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "specs": [
+        "none",
+        "anova_64",
+        "pca_var95"
+      ],
+      "classifier": "LightGBM"
+    },
+    "compact__KMG_adapter__none__pca_var99__anova_256__LogisticRegression": {
+      "method": "compact",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "specs": [
+        "none",
+        "pca_var99",
+        "anova_256"
+      ],
+      "classifier": "LogisticRegression"
+    },
+    "compact__KMG_adapter__none__pca_var99__anova_256__SVM": {
+      "method": "compact",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "specs": [
+        "none",
+        "pca_var99",
+        "anova_256"
+      ],
+      "classifier": "SVM"
+    },
+    "compact__KMG_adapter__none__pca_var99__anova_256__LightGBM": {
+      "method": "compact",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "specs": [
+        "none",
+        "pca_var99",
+        "anova_256"
+      ],
+      "classifier": "LightGBM"
+    },
+    "compact__KMG_adapter__none__pca_var99__anova_64__LogisticRegression": {
+      "method": "compact",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "specs": [
+        "none",
+        "pca_var99",
+        "anova_64"
+      ],
+      "classifier": "LogisticRegression"
+    },
+    "compact__KMG_adapter__none__pca_var99__anova_64__SVM": {
+      "method": "compact",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "specs": [
+        "none",
+        "pca_var99",
+        "anova_64"
+      ],
+      "classifier": "SVM"
+    },
+    "compact__KMG_adapter__none__pca_var99__anova_64__LightGBM": {
+      "method": "compact",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "specs": [
+        "none",
+        "pca_var99",
+        "anova_64"
+      ],
+      "classifier": "LightGBM"
+    },
+    "compact__KMG_adapter__none__pca_var99__pca_var95__LogisticRegression": {
+      "method": "compact",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "specs": [
+        "none",
+        "pca_var99",
+        "pca_var95"
+      ],
+      "classifier": "LogisticRegression"
+    },
+    "compact__KMG_adapter__none__pca_var99__pca_var95__SVM": {
+      "method": "compact",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "specs": [
+        "none",
+        "pca_var99",
+        "pca_var95"
+      ],
+      "classifier": "SVM"
+    },
+    "compact__KMG_adapter__none__pca_var99__pca_var95__LightGBM": {
+      "method": "compact",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "specs": [
+        "none",
+        "pca_var99",
+        "pca_var95"
+      ],
+      "classifier": "LightGBM"
+    },
+    "late__KMG_adapter__K__none__LightGBM__M__anova_64__LogisticRegression__A__anova_256__LightGBM__equal__0.0": {
+      "method": "late",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "A__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "equal",
+        "ridge": 0.0
+      }
+    },
+    "late__KMG_adapter__K__none__LightGBM__M__anova_64__LogisticRegression__A__anova_256__LightGBM__late__0.0": {
+      "method": "late",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "A__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "late",
+        "ridge": 0.0
+      }
+    },
+    "late__KMG_adapter__K__none__LightGBM__M__anova_64__LogisticRegression__A__anova_256__LightGBM__late__0.1": {
+      "method": "late",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "A__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "late",
+        "ridge": 0.1
+      }
+    },
+    "adaptive__KMG_adapter__K__none__LightGBM__M__anova_64__LogisticRegression__A__anova_256__LightGBM__0.1__0.25": {
+      "method": "adaptive",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "A__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.1,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KMG_adapter__K__none__LightGBM__M__anova_64__LogisticRegression__A__anova_256__LightGBM__0.1__0.5": {
+      "method": "adaptive",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "A__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.1,
+        "budget": 0.5
+      }
+    },
+    "adaptive__KMG_adapter__K__none__LightGBM__M__anova_64__LogisticRegression__A__anova_256__LightGBM__0.25__0.25": {
+      "method": "adaptive",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "A__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.25,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KMG_adapter__K__none__LightGBM__M__anova_64__LogisticRegression__A__anova_256__LightGBM__0.25__0.5": {
+      "method": "adaptive",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "A__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.25,
+        "budget": 0.5
+      }
+    },
+    "adaptive__KMG_adapter__K__none__LightGBM__M__anova_64__LogisticRegression__A__anova_256__LightGBM__0.5__0.25": {
+      "method": "adaptive",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "A__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.5,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KMG_adapter__K__none__LightGBM__M__anova_64__LogisticRegression__A__anova_256__LightGBM__0.5__0.5": {
+      "method": "adaptive",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "A__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.5,
+        "budget": 0.5
+      }
+    },
+    "late__KMG_adapter__K__none__LightGBM__M__anova_64__LogisticRegression__A__anova_64__SVM__equal__0.0": {
+      "method": "late",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "A__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "equal",
+        "ridge": 0.0
+      }
+    },
+    "late__KMG_adapter__K__none__LightGBM__M__anova_64__LogisticRegression__A__anova_64__SVM__late__0.0": {
+      "method": "late",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "A__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "late",
+        "ridge": 0.0
+      }
+    },
+    "late__KMG_adapter__K__none__LightGBM__M__anova_64__LogisticRegression__A__anova_64__SVM__late__0.1": {
+      "method": "late",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "A__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "late",
+        "ridge": 0.1
+      }
+    },
+    "adaptive__KMG_adapter__K__none__LightGBM__M__anova_64__LogisticRegression__A__anova_64__SVM__0.1__0.25": {
+      "method": "adaptive",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "A__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.1,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KMG_adapter__K__none__LightGBM__M__anova_64__LogisticRegression__A__anova_64__SVM__0.1__0.5": {
+      "method": "adaptive",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "A__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.1,
+        "budget": 0.5
+      }
+    },
+    "adaptive__KMG_adapter__K__none__LightGBM__M__anova_64__LogisticRegression__A__anova_64__SVM__0.25__0.25": {
+      "method": "adaptive",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "A__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.25,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KMG_adapter__K__none__LightGBM__M__anova_64__LogisticRegression__A__anova_64__SVM__0.25__0.5": {
+      "method": "adaptive",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "A__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.25,
+        "budget": 0.5
+      }
+    },
+    "adaptive__KMG_adapter__K__none__LightGBM__M__anova_64__LogisticRegression__A__anova_64__SVM__0.5__0.25": {
+      "method": "adaptive",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "A__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.5,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KMG_adapter__K__none__LightGBM__M__anova_64__LogisticRegression__A__anova_64__SVM__0.5__0.5": {
+      "method": "adaptive",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "A__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.5,
+        "budget": 0.5
+      }
+    },
+    "late__KMG_adapter__K__none__LightGBM__M__anova_64__LogisticRegression__A__pca_var95__LogisticRegression__equal__0.0": {
+      "method": "late",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "A__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "equal",
+        "ridge": 0.0
+      }
+    },
+    "late__KMG_adapter__K__none__LightGBM__M__anova_64__LogisticRegression__A__pca_var95__LogisticRegression__late__0.0": {
+      "method": "late",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "A__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "late",
+        "ridge": 0.0
+      }
+    },
+    "late__KMG_adapter__K__none__LightGBM__M__anova_64__LogisticRegression__A__pca_var95__LogisticRegression__late__0.1": {
+      "method": "late",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "A__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "late",
+        "ridge": 0.1
+      }
+    },
+    "adaptive__KMG_adapter__K__none__LightGBM__M__anova_64__LogisticRegression__A__pca_var95__LogisticRegression__0.1__0.25": {
+      "method": "adaptive",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "A__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.1,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KMG_adapter__K__none__LightGBM__M__anova_64__LogisticRegression__A__pca_var95__LogisticRegression__0.1__0.5": {
+      "method": "adaptive",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "A__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.1,
+        "budget": 0.5
+      }
+    },
+    "adaptive__KMG_adapter__K__none__LightGBM__M__anova_64__LogisticRegression__A__pca_var95__LogisticRegression__0.25__0.25": {
+      "method": "adaptive",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "A__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.25,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KMG_adapter__K__none__LightGBM__M__anova_64__LogisticRegression__A__pca_var95__LogisticRegression__0.25__0.5": {
+      "method": "adaptive",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "A__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.25,
+        "budget": 0.5
+      }
+    },
+    "adaptive__KMG_adapter__K__none__LightGBM__M__anova_64__LogisticRegression__A__pca_var95__LogisticRegression__0.5__0.25": {
+      "method": "adaptive",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "A__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.5,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KMG_adapter__K__none__LightGBM__M__anova_64__LogisticRegression__A__pca_var95__LogisticRegression__0.5__0.5": {
+      "method": "adaptive",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__anova_64__LogisticRegression",
+        "A__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.5,
+        "budget": 0.5
+      }
+    },
+    "late__KMG_adapter__K__none__LightGBM__M__pca_var99__SVM__A__anova_256__LightGBM__equal__0.0": {
+      "method": "late",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "A__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "equal",
+        "ridge": 0.0
+      }
+    },
+    "late__KMG_adapter__K__none__LightGBM__M__pca_var99__SVM__A__anova_256__LightGBM__late__0.0": {
+      "method": "late",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "A__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "late",
+        "ridge": 0.0
+      }
+    },
+    "late__KMG_adapter__K__none__LightGBM__M__pca_var99__SVM__A__anova_256__LightGBM__late__0.1": {
+      "method": "late",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "A__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "late",
+        "ridge": 0.1
+      }
+    },
+    "adaptive__KMG_adapter__K__none__LightGBM__M__pca_var99__SVM__A__anova_256__LightGBM__0.1__0.25": {
+      "method": "adaptive",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "A__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.1,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KMG_adapter__K__none__LightGBM__M__pca_var99__SVM__A__anova_256__LightGBM__0.1__0.5": {
+      "method": "adaptive",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "A__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.1,
+        "budget": 0.5
+      }
+    },
+    "adaptive__KMG_adapter__K__none__LightGBM__M__pca_var99__SVM__A__anova_256__LightGBM__0.25__0.25": {
+      "method": "adaptive",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "A__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.25,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KMG_adapter__K__none__LightGBM__M__pca_var99__SVM__A__anova_256__LightGBM__0.25__0.5": {
+      "method": "adaptive",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "A__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.25,
+        "budget": 0.5
+      }
+    },
+    "adaptive__KMG_adapter__K__none__LightGBM__M__pca_var99__SVM__A__anova_256__LightGBM__0.5__0.25": {
+      "method": "adaptive",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "A__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.5,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KMG_adapter__K__none__LightGBM__M__pca_var99__SVM__A__anova_256__LightGBM__0.5__0.5": {
+      "method": "adaptive",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "A__anova_256__LightGBM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.5,
+        "budget": 0.5
+      }
+    },
+    "late__KMG_adapter__K__none__LightGBM__M__pca_var99__SVM__A__anova_64__SVM__equal__0.0": {
+      "method": "late",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "A__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "equal",
+        "ridge": 0.0
+      }
+    },
+    "late__KMG_adapter__K__none__LightGBM__M__pca_var99__SVM__A__anova_64__SVM__late__0.0": {
+      "method": "late",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "A__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "late",
+        "ridge": 0.0
+      }
+    },
+    "late__KMG_adapter__K__none__LightGBM__M__pca_var99__SVM__A__anova_64__SVM__late__0.1": {
+      "method": "late",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "A__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "late",
+        "ridge": 0.1
+      }
+    },
+    "adaptive__KMG_adapter__K__none__LightGBM__M__pca_var99__SVM__A__anova_64__SVM__0.1__0.25": {
+      "method": "adaptive",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "A__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.1,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KMG_adapter__K__none__LightGBM__M__pca_var99__SVM__A__anova_64__SVM__0.1__0.5": {
+      "method": "adaptive",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "A__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.1,
+        "budget": 0.5
+      }
+    },
+    "adaptive__KMG_adapter__K__none__LightGBM__M__pca_var99__SVM__A__anova_64__SVM__0.25__0.25": {
+      "method": "adaptive",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "A__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.25,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KMG_adapter__K__none__LightGBM__M__pca_var99__SVM__A__anova_64__SVM__0.25__0.5": {
+      "method": "adaptive",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "A__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.25,
+        "budget": 0.5
+      }
+    },
+    "adaptive__KMG_adapter__K__none__LightGBM__M__pca_var99__SVM__A__anova_64__SVM__0.5__0.25": {
+      "method": "adaptive",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "A__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.5,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KMG_adapter__K__none__LightGBM__M__pca_var99__SVM__A__anova_64__SVM__0.5__0.5": {
+      "method": "adaptive",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "A__anova_64__SVM"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.5,
+        "budget": 0.5
+      }
+    },
+    "late__KMG_adapter__K__none__LightGBM__M__pca_var99__SVM__A__pca_var95__LogisticRegression__equal__0.0": {
+      "method": "late",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "A__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "equal",
+        "ridge": 0.0
+      }
+    },
+    "late__KMG_adapter__K__none__LightGBM__M__pca_var99__SVM__A__pca_var95__LogisticRegression__late__0.0": {
+      "method": "late",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "A__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "late",
+        "ridge": 0.0
+      }
+    },
+    "late__KMG_adapter__K__none__LightGBM__M__pca_var99__SVM__A__pca_var95__LogisticRegression__late__0.1": {
+      "method": "late",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "A__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "late",
+        "ridge": 0.1
+      }
+    },
+    "adaptive__KMG_adapter__K__none__LightGBM__M__pca_var99__SVM__A__pca_var95__LogisticRegression__0.1__0.25": {
+      "method": "adaptive",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "A__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.1,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KMG_adapter__K__none__LightGBM__M__pca_var99__SVM__A__pca_var95__LogisticRegression__0.1__0.5": {
+      "method": "adaptive",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "A__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.1,
+        "budget": 0.5
+      }
+    },
+    "adaptive__KMG_adapter__K__none__LightGBM__M__pca_var99__SVM__A__pca_var95__LogisticRegression__0.25__0.25": {
+      "method": "adaptive",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "A__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.25,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KMG_adapter__K__none__LightGBM__M__pca_var99__SVM__A__pca_var95__LogisticRegression__0.25__0.5": {
+      "method": "adaptive",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "A__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.25,
+        "budget": 0.5
+      }
+    },
+    "adaptive__KMG_adapter__K__none__LightGBM__M__pca_var99__SVM__A__pca_var95__LogisticRegression__0.5__0.25": {
+      "method": "adaptive",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "A__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.5,
+        "budget": 0.25
+      }
+    },
+    "adaptive__KMG_adapter__K__none__LightGBM__M__pca_var99__SVM__A__pca_var95__LogisticRegression__0.5__0.5": {
+      "method": "adaptive",
+      "variant": "KMG_adapter",
+      "branches": [
+        "K",
+        "M",
+        "A"
+      ],
+      "options": [
+        "K__none__LightGBM",
+        "M__pca_var99__SVM",
+        "A__pca_var95__LogisticRegression"
+      ],
+      "fusion": {
+        "kind": "adaptive",
+        "ridge": 0.1,
+        "gate": 0.5,
+        "budget": 0.5
+      }
+    }
+  },
+  "input_sha256": {
+    "data/derived/kinematic.npz": "ca91e1a9db290d8af403f9a486e5e7b3f2a298144b0335b8c67179ef8bff1616",
+    "data/derived/moment.npz": "1fe708c6b559953b21a2d59dafb3f69faa9d7a13a8a53d6ab32002dfbf386b3e",
+    "data/derived/gaf_vit_b_16.npz": "e75e2a7e9be58152c60a0ee1eb9eea7003c4e7bb70c9a2e64ac9aa8201c145cb",
+    "data/derived/cwt_efficientnet_b4.npz": "df133010d4f618feaf4b8fca9476c029a9c0c56c52cf83bb6cb68865e177b1cb",
+    "results/cv/fold_assignments.csv": "e1bcee25899c0bd4ce7d3a7c46c5ac0c9a81556840cff20093073d9211fdb2de",
+    "results/embedding_ablation/embeddings/GAF.json": "8f7d9db8c254ce0f3d69b2b6915a59c096b3ed84ae25b821bae9317bd9e73590",
+    "results/embedding_ablation/embeddings/GAF__channel_concat.npy": "559fbc94d9ccf1bd2e79823f977a67e65b7a890cf71c1660e4b47628ee1e76cb",
+    "results/embedding_ablation/embeddings/GAF__group_adapter.npy": "78ad45a6e533199ed142ae875d5e550d0cd1fdd3def7ba34b5c7f5e276194f81"
+  },
+  "code_sha256": {
+    "scripts/fusion_common.py": "3414058c1206a6c62eb136f0c9b65f40fc5126301e2f4df417de54cf190d0f9c",
+    "scripts/evaluate_fusion_ablation.py": "e177cd4abbc64a6dae13892af5410194ca237b0868d94776ddaf41641ccee934",
+    "src/diagramo/fusion.py": "6f8d390687382c227a52608112c9db5ad25c1cfb438578d509cee0489ce2da48",
+    "scripts/evaluate.py": "b79e3c533c0ae3b3885f7e94764ff3be4cd6b016b4ba2426628c2c6bc96d5a0f",
+    "src/diagramo/kernels.py": "64b9a703f6c417320da0a6dde521840ba0ffaa0b64e1e292ccd37bf9547ab689"
+  },
+  "classifier_params": {
+    "LogisticRegression": {
+      "C": 1,
+      "class_weight": null,
+      "dual": false,
+      "fit_intercept": true,
+      "intercept_scaling": 1,
+      "l1_ratio": null,
+      "max_iter": 3000,
+      "multi_class": "deprecated",
+      "n_jobs": null,
+      "penalty": "l2",
+      "random_state": 42,
+      "solver": "lbfgs",
+      "tol": 0.0001,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "SVM": {
+      "C": 1,
+      "break_ties": false,
+      "cache_size": 200,
+      "class_weight": null,
+      "coef0": 0.0,
+      "decision_function_shape": "ovr",
+      "degree": 3,
+      "gamma": "scale",
+      "kernel": "rbf",
+      "max_iter": -1,
+      "probability": true,
+      "random_state": 42,
+      "shrinking": true,
+      "tol": 0.001,
+      "verbose": false
+    },
+    "LightGBM": {
+      "boosting_type": "gbdt",
+      "class_weight": null,
+      "colsample_bytree": 1.0,
+      "importance_type": "split",
+      "learning_rate": 0.05,
+      "max_depth": -1,
+      "min_child_samples": 20,
+      "min_child_weight": 0.001,
+      "min_split_gain": 0.0,
+      "n_estimators": 200,
+      "n_jobs": 4,
+      "num_leaves": 15,
+      "objective": null,
+      "random_state": 42,
+      "reg_alpha": 0.0,
+      "reg_lambda": 0.0,
+      "subsample": 1.0,
+      "subsample_for_bin": 200000,
+      "subsample_freq": 0,
+      "verbosity": -1
+    }
+  },
+  "versions": {
+    "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+    "numpy": "1.25.2",
+    "pandas": "2.3.3",
+    "sklearn": "1.7.2"
+  },
+  "prior_cohort_reuse": "Design informed by previous CV on this same cohort; not external confirmation",
+  "SVM": "predict labels from estimator for early/base; pooled probabilities use threshold .5; no threshold tuning"
+}

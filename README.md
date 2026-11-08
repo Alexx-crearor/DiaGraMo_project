@@ -137,6 +137,28 @@ Chọn kernel Python của `.venv`. Notebook đọc các artifact đã sinh, kh�
 
 ## Kiểm tra kết quả
 
+### Multimodal Fusion với nested CV
+
+Kết quả Fusion mới được lưu riêng tại `results/fusion_ablation/`, không thay baseline cũ.
+So sánh Original Early, Compact Early, Late và Adaptive/Selective Fusion; giữ Kinematic
+nguyên chiều + LightGBM làm baseline. Late/Adaptive học bộ kết hợp từ xác suất cross-fitted;
+inner Train có cross-fitting 3-fold riêng để tránh nhãn inner Validation đi vào bộ kết hợp.
+Mọi reducer và lựa chọn cấu hình chỉ dùng Train. Không trích xuất lại cache hoặc thực hiện XAI.
+
+```powershell
+.venv/Scripts/python.exe -X utf8 -B -u scripts/evaluate_fusion_ablation.py --workers 2
+.venv/Scripts/python.exe -X utf8 -B -u scripts/report_fusion_ablation.py
+.venv/Scripts/python.exe -X utf8 -B scripts/create_fusion_notebook.py
+.venv/Scripts/python.exe -X utf8 -B scripts/execute_notebooks.py --only 08_fusion_ablation.ipynb --validation-output results/fusion_ablation/notebook_validation.json
+.venv/Scripts/python.exe -X utf8 -B scripts/validate_fusion_ablation.py
+```
+
+[Notebook 08](notebooks/08_fusion_ablation.ipynb) có bảng số OOF, mean±SD theo fold,
+ablation và PNG/SVG. [Báo cáo tiếng Việt](results/fusion_ablation/REPORT_VI.md) giải thích
+kết quả, chi phí và giới hạn. Chỉ xem hoàn tất khi `results/fusion_ablation/validation.json`
+có `complete: true`. Checkpoint joblib được lưu ở máy trong `results/fusion_ablation/checkpoints/`
+và gitignored; các script, OOF, audit, bảng số và hình có thể đưa lên GitHub.
+
 ```powershell
 .venv/Scripts/python.exe -m pip check
 .venv/Scripts/python.exe scripts/report.py --no-notebooks

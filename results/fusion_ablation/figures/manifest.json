@@ -1,0 +1,118 @@
+[
+  {
+    "name": "nested_comparison",
+    "description": "Four fusion methods and fixed Kinematic baseline; fold SD and pooled OOF.",
+    "sources": [
+      "nested_summary.csv"
+    ],
+    "n_participants": 258,
+    "source_sha256": {
+      "nested_summary.csv": "d9817f9434cab6ed336b2746c31ddd80a194015291a7a19ac88aabf9e5508c5e"
+    },
+    "uncertainty": "SD of six overlapping-training outer folds, not CI",
+    "files": {
+      "png": "e8425f1aecb0361393e87d9d4966c5e345b87f0c01d7fedc32bd0a6e2fb0228b",
+      "svg": "5783634cd80a6b8c4e1742d5f9dd49e5a553381898006eb8d6c8ba55f9d8ad92"
+    }
+  },
+  {
+    "name": "paired_outer_folds",
+    "description": "Paired outer fold F1 difference from fixed Kinematic.",
+    "sources": [
+      "fold_scores.csv"
+    ],
+    "n_participants": 258,
+    "source_sha256": {
+      "fold_scores.csv": "393802b654bb42ae65fb66ae707c881fd646ddf4bbadf939022135f4f472d241"
+    },
+    "uncertainty": "SD of six overlapping-training outer folds, not CI",
+    "files": {
+      "png": "5081eb06d4cf9c7b94141b927e92c8fea2670cbc12a93fdd40a80a473827789d",
+      "svg": "79d3129bb7ee9704ab743bf9573282f6db49151ddee3f215698627c9bc7fc851"
+    }
+  },
+  {
+    "name": "oof_roc",
+    "description": "ROC for fixed baseline and nested method selection, no post-hoc curve selection.",
+    "sources": [
+      "nested_oof.csv"
+    ],
+    "n_participants": 258,
+    "source_sha256": {
+      "nested_oof.csv": "7e9deb112a1af8f9b75673b982b725860493311055581eef8d4f23a0ead6ec12"
+    },
+    "uncertainty": "SD of six overlapping-training outer folds, not CI",
+    "files": {
+      "png": "426d5da881c76b89b40eafa8de1cdad77f0dc1cda8a69780c397e03225f9158d",
+      "svg": "9d7b514f3deacd18ca63b28531c86a0b5e8b888196d956e5782c67459c3a732f"
+    }
+  },
+  {
+    "name": "correction_harm",
+    "description": "Counts corrected/harmed against Kinematic across all prespecified main scenarios.",
+    "sources": [
+      "correction_harm.csv"
+    ],
+    "n_participants": 258,
+    "source_sha256": {
+      "correction_harm.csv": "b654ae79224ed372c4f541a4fa6d7ea914f0c9c46b5cfd82e475f7e93b0a05bf"
+    },
+    "uncertainty": "SD of six overlapping-training outer folds, not CI",
+    "files": {
+      "png": "c92b719c4f37b7721291ad0f8cd3c3b067f0c6d0c1f394050577b0fb9c0a328b",
+      "svg": "2dc1b416e15fddc27c6797569204ed44d881fc24d5d4cb3e3edf52afc03fc248"
+    }
+  },
+  {
+    "name": "modality_ablation",
+    "description": "Matched procedure contrasts including negative effects and low-cost GAF adapter.",
+    "sources": [
+      "ablation_comparison.csv"
+    ],
+    "n_participants": 258,
+    "source_sha256": {
+      "ablation_comparison.csv": "f39cf333cced8feeefeed04c228cd9b8a0d986910a19ee10b02ef27377f53e92"
+    },
+    "uncertainty": "SD of six overlapping-training outer folds, not CI",
+    "files": {
+      "png": "04d021b1e06ce596180e8c1622198d0a82cfedf0667a796a80a935aa3060de68",
+      "svg": "91a2c6818e9a5446081f69947b218eae98801352737091f43d1aabd76517e9c6"
+    }
+  },
+  {
+    "name": "adaptive_weights",
+    "description": "Gated convex contribution and Kinematic fallback in each outer fold.",
+    "sources": [
+      "selected_by_fold.csv",
+      "settings.json"
+    ],
+    "n_participants": 258,
+    "source_sha256": {
+      "selected_by_fold.csv": "940cf174fabf46ef6025ee828d67bd991a6fe2496d8c6373b4f0eddada1d961c",
+      "settings.json": "b14909cf53a74879d4efa0f39b9f0b792ecade25c9fea70d6b794f8f52cd0349"
+    },
+    "uncertainty": "SD of six overlapping-training outer folds, not CI",
+    "files": {
+      "png": "917cf228034a28d8aaec8115bbb4696626796af0ebdef5933bf1d21b675d638d",
+      "svg": "3a152ca2eb3c5fdcd505cb8a0075741971193dfa5ce247afc6326eb105c7fbfc"
+    }
+  },
+  {
+    "name": "compute_cost",
+    "description": "Classifier dimensions versus F1 and cumulative measured search components; excludes encoders and meta fitting.",
+    "sources": [
+      "nested_summary.csv",
+      "compute_costs.csv"
+    ],
+    "n_participants": 258,
+    "source_sha256": {
+      "nested_summary.csv": "d9817f9434cab6ed336b2746c31ddd80a194015291a7a19ac88aabf9e5508c5e",
+      "compute_costs.csv": "064c77e9a6cd74ecab09859a447e23d57056f1a1edf43a0639fcd35b98a55a84"
+    },
+    "uncertainty": "SD of six overlapping-training outer folds, not CI",
+    "files": {
+      "png": "118bc3c5c922a80cc20734e0b3dd481455321211a6c17f7ac9a87d2429048466",
+      "svg": "1855c151f635f442b3be8efb406697bae4062836244f74a14545f1530d25d687"
+    }
+  }
+]

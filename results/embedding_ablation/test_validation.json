@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "returncode": 0,
+  "test_source_sha256": {
+    "tests\\test_channel_embedding.py": "2096c9fa6034b07999a099a507afc9e7fea4a2e1bcfb8aa858855092c1b2d7ae",
+    "tests\\test_reduction.py": "1075c70b4087726fd897b7510b2a579ce7cfc2114ce5f7d2c4e39ba4f8a372c5"
+  }
+}

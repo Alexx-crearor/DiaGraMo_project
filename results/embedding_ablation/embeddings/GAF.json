@@ -1,0 +1,91 @@
+{
+  "settings_sha256": "3dd79ddfd75507996a87cc6fb40b4ad2024b7e11184046e1bd643ce105f45518",
+  "branch": "GAF",
+  "encoder": "vit_b_16",
+  "participants": 258,
+  "tasks_per_participant": 14,
+  "channel_order": [
+    "x",
+    "y",
+    "pressure",
+    "tilt",
+    "azimuth",
+    "time",
+    "pen_status"
+  ],
+  "dtype": "float32",
+  "device": "Quadro T1000",
+  "batch_size": 16,
+  "frozen": true,
+  "label_access": false,
+  "fit_participants": [],
+  "adapter_weights": [
+    [
+      0.5,
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.5
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.3333333432674408,
+      0.3333333432674408,
+      0.3333333432674408,
+      0.0
+    ]
+  ],
+  "equivalence_control": {
+    "mean_rgb_max_abs_error": 4.172325134277344e-06,
+    "old_embedding_max_abs_error": 2.6226043701171875e-06,
+    "n_tasks": 2
+  },
+  "costs": {
+    "images_seconds": 12.027380300685763,
+    "group_adapter_seconds": 99.0591352020856,
+    "channel_separate_seconds": 696.2934929013718
+  },
+  "peak_gpu_allocated_mb": 560.54638671875,
+  "outputs": {
+    "group_adapter": {
+      "file": "GAF__group_adapter.npy",
+      "sha256": "78ad45a6e533199ed142ae875d5e550d0cd1fdd3def7ba34b5c7f5e276194f81",
+      "shape": [
+        258,
+        10752
+      ],
+      "encoder_images_per_task": 1
+    },
+    "channel_mean": {
+      "file": "GAF__channel_mean.npy",
+      "sha256": "e9288858a1dc6bd1837da03be16d562e0b2d7c29359956c8d0a33370d9dd901d",
+      "shape": [
+        258,
+        10752
+      ],
+      "encoder_images_per_task": 7
+    },
+    "channel_concat": {
+      "file": "GAF__channel_concat.npy",
+      "sha256": "559fbc94d9ccf1bd2e79823f977a67e65b7a890cf71c1660e4b47628ee1e76cb",
+      "shape": [
+        258,
+        75264
+      ],
+      "encoder_images_per_task": 7
+    }
+  }
+}

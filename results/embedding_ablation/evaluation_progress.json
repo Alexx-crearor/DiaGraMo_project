@@ -1,0 +1,8 @@
+{
+  "completed_outer_jobs": 48,
+  "total_outer_jobs": 48,
+  "last_branch": "CWT",
+  "last_mode": "channel_concat",
+  "last_fold": 5,
+  "workers": 2
+}

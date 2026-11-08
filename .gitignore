@@ -6,3 +6,4 @@ tmp/
 data/
 results/models/
 .ipynb_checkpoints/
+results/embedding_ablation/embeddings/*.npy

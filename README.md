@@ -20,6 +20,37 @@ riêng trong outer train. `validation.json` của thư mục mới phải có `c
 trước khi xem đợt chạy là hoàn tất. Khi đổi code/tham số/đặc trưng, dùng `--output`
 trỏ tới một thư mục kết quả mới để không trộn các đợt chạy.
 
+## Embedding Extraction và Ablation
+
+Thử nghiệm mới giữ frozen GAF/ViT-B16 và CWT/EfficientNet-B4, so sánh embedding gốc
+với adapter cố định 7→3, embedding trung bình sau khi encode từng kênh, và embedding
+nối riêng bảy kênh. Kết hợp PCA/ANOVA/ExtraTrees bên trong train của mỗi split.
+Không triển khai Fusion. Baseline, checkpoint và kết quả trước được giữ nguyên.
+
+- [Báo cáo tiếng Việt](results/embedding_ablation/REPORT_VI.md)
+- [Bảng số 192 cấu hình](results/embedding_ablation/summary.csv)
+- [Ablation cùng classifier/reducer](results/embedding_ablation/ablation_matched.csv)
+- [Nested CV](results/embedding_ablation/nested_summary.csv)
+- [Notebook 07: bảng số và biểu đồ](notebooks/07_embedding_ablation.ipynb)
+- [Validation](results/embedding_ablation/validation.json): chỉ `complete=true` khi
+  số liệu, notebook, PNG/SVG và kiểm thử đã thành công.
+
+```powershell
+.venv/Scripts/python.exe -X utf8 -B -u scripts/extract_embedding_ablation.py --branch GAF
+.venv/Scripts/python.exe -X utf8 -B -u scripts/extract_embedding_ablation.py --branch CWT
+.venv/Scripts/python.exe -X utf8 -B -u scripts/evaluate_embedding_ablation.py
+.venv/Scripts/python.exe -X utf8 -B -u scripts/benchmark_embedding_ablation.py
+.venv/Scripts/python.exe -X utf8 -B -u scripts/audit_embedding_baseline.py
+.venv/Scripts/python.exe -X utf8 -B scripts/report_embedding_ablation.py
+.venv/Scripts/python.exe -X utf8 -B scripts/create_embedding_notebook.py
+.venv/Scripts/python.exe -X utf8 -B scripts/execute_notebooks.py --only 07_embedding_ablation.ipynb --validation-output results/embedding_ablation/notebook_validation.json
+.venv/Scripts/python.exe -X utf8 -B scripts/validate_embedding_ablation.py
+```
+
+Ma trận embedding `.npy` lớn nằm tại `results/embedding_ablation/embeddings/` trên máy,
+được bỏ qua trong Git; metadata, SHA-256, OOF, bảng và notebook vẫn được lưu trong repo.
+Script trích xuất có thể tạo lại các ma trận từ cùng dữ liệu/checkpoint cục bộ.
+
 ## Thực nghiệm baseline
 
 Tái lập độc lập bài *Towards Objective Dysgraphia Detection: A Multi-Branch Deep Learning Approach for Online Handwriting Analysis* (Ouhib và cộng sự, 2026).

@@ -1,0 +1,91 @@
+{
+  "settings_sha256": "3dd79ddfd75507996a87cc6fb40b4ad2024b7e11184046e1bd643ce105f45518",
+  "branch": "CWT",
+  "encoder": "efficientnet_b4",
+  "participants": 258,
+  "tasks_per_participant": 14,
+  "channel_order": [
+    "x",
+    "y",
+    "pressure",
+    "tilt",
+    "azimuth",
+    "time",
+    "pen_status"
+  ],
+  "dtype": "float32",
+  "device": "Quadro T1000",
+  "batch_size": 16,
+  "frozen": true,
+  "label_access": false,
+  "fit_participants": [],
+  "adapter_weights": [
+    [
+      0.5,
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.5
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.3333333432674408,
+      0.3333333432674408,
+      0.3333333432674408,
+      0.0
+    ]
+  ],
+  "equivalence_control": {
+    "mean_rgb_max_abs_error": 7.748603820800781e-07,
+    "old_embedding_max_abs_error": 8.046627044677734e-07,
+    "n_tasks": 2
+  },
+  "costs": {
+    "images_seconds": 83.84769140044227,
+    "group_adapter_seconds": 20.255273801274598,
+    "channel_separate_seconds": 139.49299440160394
+  },
+  "peak_gpu_allocated_mb": 402.40478515625,
+  "outputs": {
+    "group_adapter": {
+      "file": "CWT__group_adapter.npy",
+      "sha256": "1be507700425fc725968b10b01ea6ff87c38e782e0b83a3372332322beb21e80",
+      "shape": [
+        258,
+        25088
+      ],
+      "encoder_images_per_task": 1
+    },
+    "channel_mean": {
+      "file": "CWT__channel_mean.npy",
+      "sha256": "add6a95578acb6e450b1cf5f52c6e34c13a3bc9b0d8342b22776b12fb2024795",
+      "shape": [
+        258,
+        25088
+      ],
+      "encoder_images_per_task": 7
+    },
+    "channel_concat": {
+      "file": "CWT__channel_concat.npy",
+      "sha256": "b180fc0a7988cb700766d9541a7552176e91dd7cdc4071b687677f08d19f644e",
+      "shape": [
+        258,
+        175616
+      ],
+      "encoder_images_per_task": 7
+    }
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "settings_sha256": "3dd79ddfd75507996a87cc6fb40b4ad2024b7e11184046e1bd643ce105f45518",
+  "scope": "warm extraction including host/device transfers and CPU aggregation; excludes image generation, model loading, reducer and classifier",
+  "label_access": false,
+  "device": "Quadro T1000",
+  "records": [
+    {
+      "branch": "GAF",
+      "mode": "original",
+      "n_tasks": 32,
+      "repeats": 3,
+      "batch_size": 16,
+      "seconds": [
+        0.8394766000565141,
+        0.8420050998684019,
+        0.8400132998358458
+      ],
+      "median_seconds": 0.8400132998358458,
+      "min_seconds": 0.8394766000565141,
+      "max_seconds": 0.8420050998684019,
+      "estimated_ms_per_participant": 367.50581867818255,
+      "peak_gpu_allocated_mb": 829.76416015625,
+      "raw_features": 10752,
+      "image_generation_seconds": 0.09395369980484247
+    },
+    {
+      "branch": "GAF",
+      "mode": "group_adapter",
+      "n_tasks": 32,
+      "repeats": 3,
+      "batch_size": 16,
+      "seconds": [
+        0.833945200080052,
+        0.8359088997822255,
+        0.83467509993352
+      ],
+      "median_seconds": 0.83467509993352,
+      "min_seconds": 0.833945200080052,
+      "max_seconds": 0.8359088997822255,
+      "estimated_ms_per_participant": 365.170356220915,
+      "peak_gpu_allocated_mb": 816.95166015625,
+      "raw_features": 10752,
+      "image_generation_seconds": 0.09395369980484247
+    },
+    {
+      "branch": "GAF",
+      "mode": "channel_mean",
+      "n_tasks": 32,
+      "repeats": 3,
+      "batch_size": 16,
+      "seconds": [
+        5.78797909989953,
+        5.781327500008047,
+        5.820604600012302
+      ],
+      "median_seconds": 5.78797909989953,
+      "min_seconds": 5.781327500008047,
+      "max_seconds": 5.820604600012302,
+      "estimated_ms_per_participant": 2532.2408562060446,
+      "peak_gpu_allocated_mb": 881.26416015625,
+      "raw_features": 10752,
+      "image_generation_seconds": 0.09395369980484247
+    },
+    {
+      "branch": "GAF",
+      "mode": "channel_concat",
+      "n_tasks": 32,
+      "repeats": 3,
+      "batch_size": 16,
+      "seconds": [
+        6.079733100021258,
+        6.058385600103065,
+        6.058840499958023
+      ],
+      "median_seconds": 6.058840499958023,
+      "min_seconds": 6.058385600103065,
+      "max_seconds": 6.079733100021258,
+      "estimated_ms_per_participant": 2650.7427187316353,
+      "peak_gpu_allocated_mb": 881.26416015625,
+      "raw_features": 75264,
+      "image_generation_seconds": 0.09395369980484247
+    },
+    {
+      "branch": "CWT",
+      "mode": "original",
+      "n_tasks": 32,
+      "repeats": 3,
+      "batch_size": 16,
+      "seconds": [
+        0.1898996999952942,
+        0.18686149991117418,
+        0.18805540003813803
+      ],
+      "median_seconds": 0.18805540003813803,
+      "min_seconds": 0.18686149991117418,
+      "max_seconds": 0.1898996999952942,
+      "estimated_ms_per_participant": 82.27423751668539,
+      "peak_gpu_allocated_mb": 427.6357421875,
+      "raw_features": 25088,
+      "image_generation_seconds": 0.1154157998971641
+    },
+    {
+      "branch": "CWT",
+      "mode": "group_adapter",
+      "n_tasks": 32,
+      "repeats": 3,
+      "batch_size": 16,
+      "seconds": [
+        0.18539909995160997,
+        0.18915030010975897,
+        0.1861053998582065
+      ],
+      "median_seconds": 0.1861053998582065,
+      "min_seconds": 0.18539909995160997,
+      "max_seconds": 0.18915030010975897,
+      "estimated_ms_per_participant": 81.42111243796535,
+      "peak_gpu_allocated_mb": 414.8232421875,
+      "raw_features": 25088,
+      "image_generation_seconds": 0.1154157998971641
+    },
+    {
+      "branch": "CWT",
+      "mode": "channel_mean",
+      "n_tasks": 32,
+      "repeats": 3,
+      "batch_size": 16,
+      "seconds": [
+        1.2389245999511331,
+        1.23808449995704,
+        1.234989200020209
+      ],
+      "median_seconds": 1.23808449995704,
+      "min_seconds": 1.234989200020209,
+      "max_seconds": 1.2389245999511331,
+      "estimated_ms_per_participant": 541.661968731205,
+      "peak_gpu_allocated_mb": 479.1357421875,
+      "raw_features": 25088,
+      "image_generation_seconds": 0.1154157998971641
+    },
+    {
+      "branch": "CWT",
+      "mode": "channel_concat",
+      "n_tasks": 32,
+      "repeats": 3,
+      "batch_size": 16,
+      "seconds": [
+        1.2344722000416368,
+        1.2341332999058068,
+        1.233637799974531
+      ],
+      "median_seconds": 1.2341332999058068,
+      "min_seconds": 1.233637799974531,
+      "max_seconds": 1.2344722000416368,
+      "estimated_ms_per_participant": 539.9333187087905,
+      "peak_gpu_allocated_mb": 479.1357421875,
+      "raw_features": 175616,
+      "image_generation_seconds": 0.1154157998971641
+    }
+  ]
+}

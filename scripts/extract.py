@@ -13,7 +13,12 @@ from diagramo.features import resample,gaf,cwt
 
 def save_json(p,obj): p.write_text(json.dumps(obj,indent=2),encoding='utf-8')
 
-def load_encoder(name):
+def load_encoder(name, input_channels=7):
+    """Load the original seven-channel baseline, or an unchanged RGB encoder.
+
+    input_channels=7 preserves the original implementation and output paths.
+    RGB is used only by the separate embedding ablation extraction script.
+    """
     from torchvision import models
     from torch import nn
     if name=='resnet50':
@@ -29,6 +34,8 @@ def load_encoder(name):
         model=models.vgg16(weights=models.VGG16_Weights.IMAGENET1K_V1)
         model.classifier[-1]=nn.Identity(); first='features.0'; dim=4096
     else: raise ValueError(name)
+    if input_channels==3: return model,dim
+    if input_channels!=7: raise ValueError('Supported encoder inputs: 3 or 7 channels')
     parent=model; parts=first.split('.')
     for part in parts[:-1]: parent=getattr(parent,part)
     old=getattr(parent,parts[-1])

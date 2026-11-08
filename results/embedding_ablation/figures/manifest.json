@@ -1,0 +1,85 @@
+[
+  {
+    "name": "channel_input_examples",
+    "description": "First participant/first task: seven grayscale maps, baseline mean and fixed RGB adapter; common grayscale 0–1.",
+    "sources": [
+      "embeddings/GAF.json",
+      "settings.json",
+      "../../data/derived/signals512.npy",
+      "../../data/derived/cwt_cache/00000.npy"
+    ],
+    "n_participants": 1,
+    "source_sha256": {
+      "embeddings/GAF.json": "8f7d9db8c254ce0f3d69b2b6915a59c096b3ed84ae25b821bae9317bd9e73590",
+      "settings.json": "3dd79ddfd75507996a87cc6fb40b4ad2024b7e11184046e1bd643ce105f45518",
+      "../../data/derived/signals512.npy": "d842b6789d6a15571e8d3a2a1e9d246c776da2382dd85ba5d595e3c0b8f2938a",
+      "../../data/derived/cwt_cache/00000.npy": "2b175fd88a4a44a4ad355299a9002b86ce414dbbfc9c26a00779eb59bf9ff262"
+    }
+  },
+  {
+    "name": "nested_metrics",
+    "description": "Nested procedures: three metrics, mean and SD across six outer folds.",
+    "sources": [
+      "nested_summary.csv"
+    ],
+    "n_participants": 258,
+    "source_sha256": {
+      "nested_summary.csv": "f62c327b310f037cc2dbe7068dd2444a7dc2d3523dda5cf29a4b0f9c72b628dc"
+    }
+  },
+  {
+    "name": "paired_outer_folds",
+    "description": "Paired outer-fold F1 changes; each point is one fold, black line is mean.",
+    "sources": [
+      "selected_by_fold.csv"
+    ],
+    "n_participants": 258,
+    "source_sha256": {
+      "selected_by_fold.csv": "94d87160d5e6246b771e6e454e04235c72879ecbb375b9006bdad6dd44e26898"
+    }
+  },
+  {
+    "name": "adaptation_matched",
+    "description": "Adaptation-only matched F1 deltas for every shared reducer and classifier.",
+    "sources": [
+      "ablation_matched.csv"
+    ],
+    "n_participants": 258,
+    "source_sha256": {
+      "ablation_matched.csv": "bcbc55dee3c0d7dba023beea47b107fdfacb6aa8b6cbbae7a45990cee6a16f66"
+    }
+  },
+  {
+    "name": "nested_roc",
+    "description": "Pooled OOF ROC; exact original, prior compact and train-selected new/all procedures.",
+    "sources": [
+      "nested_oof.csv"
+    ],
+    "n_participants": 258,
+    "source_sha256": {
+      "nested_oof.csv": "52d13923e66b619d246eeda5390c382c4bd564f3fecf8fb1123e5962bf81c122"
+    }
+  },
+  {
+    "name": "nested_confusion",
+    "description": "Confusion matrices from stored labels/predictions; shared count scale 0–143.",
+    "sources": [
+      "nested_oof.csv"
+    ],
+    "n_participants": 258,
+    "source_sha256": {
+      "nested_oof.csv": "52d13923e66b619d246eeda5390c382c4bd564f3fecf8fb1123e5962bf81c122"
+    }
+  },
+  {
+    "name": "compute_and_dimensions",
+    "description": "Matched warm encoder benchmark: first 32 tasks from three participants, GPU allocation and raw dimensions; excludes classifier/reducer.",
+    "sources": [
+      "extraction_costs.csv"
+    ],
+    "n_participants": 3,
+    "source_sha256": {
+      "extraction_costs.csv": "81e8913c699f532a251a505b3a3bd5300f6efe7a44d1e3ac07c18109c693e671"
+    }
+  }
+]

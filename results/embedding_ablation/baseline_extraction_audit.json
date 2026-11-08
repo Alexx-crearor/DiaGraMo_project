@@ -1,0 +1,27 @@
+{
+  "settings_sha256": "3dd79ddfd75507996a87cc6fb40b4ad2024b7e11184046e1bd643ce105f45518",
+  "all_tasks_verified": true,
+  "original_embeddings_overwritten": false,
+  "records": [
+    {
+      "branch": "GAF",
+      "tasks_checked": 3612,
+      "allclose_passed": true,
+      "atol": 0.0003,
+      "rtol": 0.0003,
+      "max_absolute_error": 0.0,
+      "mean_absolute_error": 0.0,
+      "seconds": 121.9558531998191
+    },
+    {
+      "branch": "CWT",
+      "tasks_checked": 3612,
+      "allclose_passed": true,
+      "atol": 0.0003,
+      "rtol": 0.0003,
+      "max_absolute_error": 0.0,
+      "mean_absolute_error": 0.0,
+      "seconds": 44.1087036000099
+    }
+  ]
+}

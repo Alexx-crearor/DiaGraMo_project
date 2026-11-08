@@ -1,0 +1,105 @@
+{
+  "seed": 42,
+  "n_subjects": 258,
+  "label": "group",
+  "outer_folds": 6,
+  "inner_folds": 3,
+  "branches": {
+    "GAF": "gaf_vit_b_16",
+    "CWT": "cwt_efficientnet_b4"
+  },
+  "encoders": {
+    "GAF": "vit_b_16",
+    "CWT": "efficientnet_b4"
+  },
+  "modes": [
+    "original",
+    "group_adapter",
+    "channel_mean",
+    "channel_concat"
+  ],
+  "classifiers": [
+    "LogisticRegression",
+    "SVM",
+    "LightGBM"
+  ],
+  "reducers": [
+    {
+      "name": "none",
+      "method": "none",
+      "value": null
+    },
+    {
+      "name": "pca_16",
+      "method": "pca",
+      "value": 16
+    },
+    {
+      "name": "pca_32",
+      "method": "pca",
+      "value": 32
+    },
+    {
+      "name": "pca_var95",
+      "method": "pca",
+      "value": 0.95
+    },
+    {
+      "name": "pca_var99",
+      "method": "pca",
+      "value": 0.99
+    },
+    {
+      "name": "anova_64",
+      "method": "anova",
+      "value": 64
+    },
+    {
+      "name": "anova_256",
+      "method": "anova",
+      "value": 256
+    },
+    {
+      "name": "extratrees_256",
+      "method": "extratrees",
+      "value": 256
+    }
+  ],
+  "selection": "mean inner macro-F1, accuracy, AUC, fewer dimensions, lexical name",
+  "adapter": "fixed convex groups: RGB=(mean(x,y),mean(pressure,pen_status),mean(tilt,azimuth,time))",
+  "normalization": "(image - 0.449) / 0.226; identical to baseline to isolate adaptation",
+  "encoder_training": false,
+  "adapter_training": false,
+  "precision": "float32",
+  "image_size": 224,
+  "input_sha256": {
+    "data/derived/signals512.npy": "d842b6789d6a15571e8d3a2a1e9d246c776da2382dd85ba5d595e3c0b8f2938a",
+    "data/derived/schema.json": "e08086adca87e4f2e48ad73606a472cabdcbe69574297a40f9bc06e549aaf94d",
+    "results/cv/fold_assignments.csv": "e1bcee25899c0bd4ce7d3a7c46c5ac0c9a81556840cff20093073d9211fdb2de",
+    "data/derived/gaf_vit_b_16.npz": "e75e2a7e9be58152c60a0ee1eb9eea7003c4e7bb70c9a2e64ac9aa8201c145cb",
+    "data/derived/cwt_efficientnet_b4.npz": "df133010d4f618feaf4b8fca9476c029a9c0c56c52cf83bb6cb68865e177b1cb",
+    "references/weights_manifest.json": "38d4bde2aaeb1ac39c278c89d556d703c145a1e604ecf5827386167d9a0f7239"
+  },
+  "checkpoint_sha256": {
+    "efficientnet_b4_rwightman-23ab8bcd.pth": "23ab8bcd5bdbef61a7a43b91adcad81f622fd7f36fb4935a569828d77888c44e",
+    "resnet50-11ad3fa6.pth": "11ad3fa62ca79e40addfd354a8ec4b7c75143b3038b8d2a807fbc68deab379ca",
+    "vgg16-397923af.pth": "397923af8e79cdbb6a7127f12361acd7a2f83e06b05044ddf496e83de57a5bf0",
+    "vit_b_16-c867db91.pth": "c867db91d3e12c6cbadabb610d73c24a546bf82d8c03a9fea34f43a712ddb0e9"
+  },
+  "code_sha256": {
+    "scripts/extract.py": "12def2605d709c812c5b410c4541e682770c0a3cf0499182af2d694ac70f7d8b",
+    "src/diagramo/features.py": "95ea85122f983e971ae6f2dbd5a14cc8aa2ede157e5db909b932ffed9b02b9b9",
+    "src/diagramo/channel_embedding.py": "d0552b4a55ec091bed225206b580336d0163e6dcb507bdfb9558c35d6c1f7969",
+    "scripts/embedding_common.py": "a313363b17165bc1d5846268a6fce1ada89158626856da73840e9048804cd3e8",
+    "scripts/extract_embedding_ablation.py": "76f012b1e4eca939e3ee6affc54dc3d4d0ca9011bd4230bd026b7d7fc23328c8",
+    "src/diagramo/reduction.py": "1b7035ec325f0ad9864e1e7ed950961a1228d7dcf801b74a134afe776823a49e",
+    "scripts/evaluate.py": "b79e3c533c0ae3b3885f7e94764ff3be4cd6b016b4ba2426628c2c6bc96d5a0f"
+  },
+  "versions": {
+    "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+    "numpy": "1.25.2",
+    "pandas": "2.3.3",
+    "sklearn": "1.7.2",
+    "torch": "2.7.1+cu128"
+  }
+}

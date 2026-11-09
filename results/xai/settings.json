@@ -1,0 +1,72 @@
+{
+  "seed": 42,
+  "n_subjects": 258,
+  "label": "group",
+  "outer_folds": 6,
+  "model_selection": false,
+  "model_training": false,
+  "primary_explainer": {
+    "type": "TreeExplainer",
+    "feature_perturbation": "tree_path_dependent",
+    "model_output": "raw",
+    "approximate": false
+  },
+  "secondary_explainers": [
+    "interventional raw",
+    "interventional probability"
+  ],
+  "background_train_rows": 100,
+  "interventional_backend": "lossless frozen-tree partition encoding to avoid float32 split-threshold rounding in SHAP 0.49; no change to evaluated model",
+  "background_selection": "numpy default_rng(42).choice(outer train positions,100,replace=False); sorted",
+  "permutation_repeats": 30,
+  "permutation_seed": "42 + 1000*outer_fold; task blocks first, feature groups second",
+  "group_definition": "exact prefix in features.py; Statistics and Energy remain separate; fft_* -> FFT",
+  "primary_group_ranking": "sum_j mean_abs(SHAP_j); also report mean_abs(sum_j SHAP_j) and per-feature average",
+  "grouped_values_are_group_shapley": false,
+  "permutation_test_labels_used_only_for_scoring": true,
+  "fusion_scenarios": [
+    "late__KC",
+    "adaptive__KC"
+  ],
+  "cwt_attribution": "independent-reference exact linear decomposition, CWT model log-odds; no signal back-projection",
+  "local_case_selection": "lexicographically first participant in each adaptive outcome category; descriptive only",
+  "checkpoint_missing": "reconstruct only required fixed models and selected combiners in results/xai/reconstructed; verify OOF before attribution",
+  "versions": {
+    "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+    "shap": "0.49.1",
+    "numpy": "1.25.2",
+    "sklearn": "1.7.2",
+    "lightgbm": "4.7.0",
+    "scipy": "1.15.3"
+  },
+  "code_sha256": {
+    "src/diagramo/explain.py": "7f1e50d8f7f26037bf9ff83a0ee608d271c500aadaef069eb791ca7e67021c76",
+    "scripts/analyze_xai.py": "6263e1be2f9f75701ef3b69bf84714b559a3f27ed161994ea04f115e808388cc",
+    "scripts/xai_common.py": "be4ac32711bf300804de18c22b558cc25b8bc8a521c90f6a4e90a3aea489d91d",
+    "src/diagramo/features.py": "95ea85122f983e971ae6f2dbd5a14cc8aa2ede157e5db909b932ffed9b02b9b9",
+    "src/diagramo/fusion.py": "6f8d390687382c227a52608112c9db5ad25c1cfb438578d509cee0489ce2da48",
+    "scripts/prepare.py": "a322ac2aa0e284d8b66e66bcdd449454117b4a7479b9449b302489c76a8daf17",
+    "scripts/evaluate.py": "b79e3c533c0ae3b3885f7e94764ff3be4cd6b016b4ba2426628c2c6bc96d5a0f"
+  },
+  "input_sha256": {
+    "data/derived/kinematic.npz": "ca91e1a9db290d8af403f9a486e5e7b3f2a298144b0335b8c67179ef8bff1616",
+    "data/derived/cwt_efficientnet_b4.npz": "df133010d4f618feaf4b8fca9476c029a9c0c56c52cf83bb6cb68865e177b1cb",
+    "data/derived/schema.json": "e08086adca87e4f2e48ad73606a472cabdcbe69574297a40f9bc06e549aaf94d",
+    "results/cv/fold_assignments.csv": "e1bcee25899c0bd4ce7d3a7c46c5ac0c9a81556840cff20093073d9211fdb2de",
+    "results/cv/kinematic__LightGBM.oof.csv": "3baf053f49e1823aed04b7d3b92570827820ea72f3b75beffa3b52f9e23714b0",
+    "results/fusion_ablation/settings.json": "b14909cf53a74879d4efa0f39b9f0b792ecade25c9fea70d6b794f8f52cd0349",
+    "results/fusion_ablation/nested_oof.csv": "7e9deb112a1af8f9b75673b982b725860493311055581eef8d4f23a0ead6ec12",
+    "results/fusion_ablation/folds/fold_0.json": "70d059044ae349daf260589ee289ee168573c55457709d417f49dea0ca2c2929",
+    "results/fusion_ablation/folds/fold_1.json": "bde6ac6e84a3fc86c54f1495cb437b21fdab2bc801c3dc9fb0c707e998e070cf",
+    "results/fusion_ablation/folds/fold_2.json": "2abffa52844bb74cc71dd4247e8f748792c79f294f21472467403fcdc31dd789",
+    "results/fusion_ablation/folds/fold_3.json": "b0bf720d14a0cfdb06badbdb6acb194ee1a392af1730ecc00b2828eeb8002928",
+    "results/fusion_ablation/folds/fold_4.json": "a7c986341e3b1e2075e6437c2c065afddda578d47b79c2142248d253de550286",
+    "results/fusion_ablation/folds/fold_5.json": "ac2d57862bea38420b601428c488ce43bee4837bd6c54aaf84bfde75b7146d48",
+    "results/fusion_ablation/stages/outer_0.json": "ddd5e3dcc625847a41e0aa12fc4f2db7ed077776a0d0eb237f08cf1d8a2bb8c6",
+    "results/fusion_ablation/stages/outer_1.json": "4104938fabae7c0723e218cf21809fc014e421b457f7f42b00a696df637d39a3",
+    "results/fusion_ablation/stages/outer_2.json": "19179ede5173de7ef8a971f514ab894ce9ee074eb6dbf74ce54751177ed963cc",
+    "results/fusion_ablation/stages/outer_3.json": "90d161602a63b8191e44ed33b615db6b6dfcac4d9b87365975bc1950bc5eccdf",
+    "results/fusion_ablation/stages/outer_4.json": "d8f47bf220ed667e6944902ec5b44ca0820931fe4549ea72a0dfa177044e726d",
+    "results/fusion_ablation/stages/outer_5.json": "58d06f439872bbba4cb14e2e1a5036e9dfa112f0eb63a0b2e16536db11d682a4"
+  }
+}

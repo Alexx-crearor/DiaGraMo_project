@@ -1,0 +1,438 @@
+[
+  {
+    "name": "shap_summary",
+    "description": "Legacy summary of fixed OOF TreeSHAP; same evidence as modern beeswarm.",
+    "sources": [
+      "feature_mapping.csv",
+      "attributions/kinematic_fold_0.npz",
+      "attributions/kinematic_fold_1.npz",
+      "attributions/kinematic_fold_2.npz",
+      "attributions/kinematic_fold_3.npz",
+      "attributions/kinematic_fold_4.npz",
+      "attributions/kinematic_fold_5.npz"
+    ],
+    "units": "log-odds",
+    "n_participants": 258,
+    "source_cohort_size": 258,
+    "uncertainty": "SD between six outer fold models/test samples when shown; not CI",
+    "source_sha256": {
+      "feature_mapping.csv": "e04c89b98b288d5282e653e719e665deb5b325877aaa06ad2147892a7cd8f471",
+      "attributions/kinematic_fold_0.npz": "ac80c4014ccb3754d3069ec776d997f3f177b6b3cc2bc49c92e7eaeb780f1f86",
+      "attributions/kinematic_fold_1.npz": "db6719966ccf79a75b3ab11b52865499555f5a7ba9f8ed652f73150314990382",
+      "attributions/kinematic_fold_2.npz": "ce07193c17b2ebb7638ceedf2e64f2a4601cbfad78cc93124ae158b55d3212b0",
+      "attributions/kinematic_fold_3.npz": "cf659c08307a5383a05849aedda704ed8b6ab04bd06d8bf0769bcfce72a73d72",
+      "attributions/kinematic_fold_4.npz": "14f13cf76e2679c8f4add6682455a1f98fb482ecc6b06585d5f5af0a45e21f84",
+      "attributions/kinematic_fold_5.npz": "de4ee77fb617f20612661aacc5f023192dd669cda214c6ede7d06558d9937b1c"
+    },
+    "output_sha256": {
+      "png": "c2ccbe5dda2e6ea8b240accbb48600bc67d5b39150daf861a26ed4aebda0d3e3",
+      "svg": "cceb6e3f1d1f8d645dc59b5552a0bc12524e40abc5cdeba12107c9ce06029d51"
+    }
+  },
+  {
+    "name": "shap_beeswarm",
+    "description": "Modern beeswarm, 258 held-out rows from six fixed models.",
+    "sources": [
+      "feature_mapping.csv",
+      "attributions/kinematic_fold_0.npz",
+      "attributions/kinematic_fold_1.npz",
+      "attributions/kinematic_fold_2.npz",
+      "attributions/kinematic_fold_3.npz",
+      "attributions/kinematic_fold_4.npz",
+      "attributions/kinematic_fold_5.npz"
+    ],
+    "units": "log-odds; color = raw input value",
+    "n_participants": 258,
+    "source_cohort_size": 258,
+    "uncertainty": "SD between six outer fold models/test samples when shown; not CI",
+    "source_sha256": {
+      "feature_mapping.csv": "e04c89b98b288d5282e653e719e665deb5b325877aaa06ad2147892a7cd8f471",
+      "attributions/kinematic_fold_0.npz": "ac80c4014ccb3754d3069ec776d997f3f177b6b3cc2bc49c92e7eaeb780f1f86",
+      "attributions/kinematic_fold_1.npz": "db6719966ccf79a75b3ab11b52865499555f5a7ba9f8ed652f73150314990382",
+      "attributions/kinematic_fold_2.npz": "ce07193c17b2ebb7638ceedf2e64f2a4601cbfad78cc93124ae158b55d3212b0",
+      "attributions/kinematic_fold_3.npz": "cf659c08307a5383a05849aedda704ed8b6ab04bd06d8bf0769bcfce72a73d72",
+      "attributions/kinematic_fold_4.npz": "14f13cf76e2679c8f4add6682455a1f98fb482ecc6b06585d5f5af0a45e21f84",
+      "attributions/kinematic_fold_5.npz": "de4ee77fb617f20612661aacc5f023192dd669cda214c6ede7d06558d9937b1c"
+    },
+    "output_sha256": {
+      "png": "fb6e87e3f1dd598a2d94574963086e9b8630ad7bceaf7e7003ac92c2bc66fd40",
+      "svg": "211a51ee701faf1d6496319815be69fbd4380e428fe4ba12cbb4321e237dc696"
+    }
+  },
+  {
+    "name": "shap_bar",
+    "description": "Global mean absolute feature contributions; not causal importance.",
+    "sources": [
+      "feature_mapping.csv",
+      "attributions/kinematic_fold_0.npz",
+      "attributions/kinematic_fold_1.npz",
+      "attributions/kinematic_fold_2.npz",
+      "attributions/kinematic_fold_3.npz",
+      "attributions/kinematic_fold_4.npz",
+      "attributions/kinematic_fold_5.npz"
+    ],
+    "units": "mean absolute log-odds",
+    "n_participants": 258,
+    "source_cohort_size": 258,
+    "uncertainty": "SD between six outer fold models/test samples when shown; not CI",
+    "source_sha256": {
+      "feature_mapping.csv": "e04c89b98b288d5282e653e719e665deb5b325877aaa06ad2147892a7cd8f471",
+      "attributions/kinematic_fold_0.npz": "ac80c4014ccb3754d3069ec776d997f3f177b6b3cc2bc49c92e7eaeb780f1f86",
+      "attributions/kinematic_fold_1.npz": "db6719966ccf79a75b3ab11b52865499555f5a7ba9f8ed652f73150314990382",
+      "attributions/kinematic_fold_2.npz": "ce07193c17b2ebb7638ceedf2e64f2a4601cbfad78cc93124ae158b55d3212b0",
+      "attributions/kinematic_fold_3.npz": "cf659c08307a5383a05849aedda704ed8b6ab04bd06d8bf0769bcfce72a73d72",
+      "attributions/kinematic_fold_4.npz": "14f13cf76e2679c8f4add6682455a1f98fb482ecc6b06585d5f5af0a45e21f84",
+      "attributions/kinematic_fold_5.npz": "de4ee77fb617f20612661aacc5f023192dd669cda214c6ede7d06558d9937b1c"
+    },
+    "output_sha256": {
+      "png": "99506c027e0627399dd378c9c35a306572801c2223c71c1b91c09de117b5a1cc",
+      "svg": "4950ba539e6d0df9365502e4caa6bd4fca982a9d9e15cc67bb824af120ff7882"
+    }
+  },
+  {
+    "name": "shap_dependence",
+    "description": "Highest mass feature dependence scatter, descriptive post-hoc feature choice.",
+    "sources": [
+      "feature_mapping.csv",
+      "attributions/kinematic_fold_0.npz",
+      "attributions/kinematic_fold_1.npz",
+      "attributions/kinematic_fold_2.npz",
+      "attributions/kinematic_fold_3.npz",
+      "attributions/kinematic_fold_4.npz",
+      "attributions/kinematic_fold_5.npz",
+      "feature_importance.csv"
+    ],
+    "units": "raw feature units versus log-odds",
+    "n_participants": 258,
+    "source_cohort_size": 258,
+    "uncertainty": "SD between six outer fold models/test samples when shown; not CI",
+    "source_sha256": {
+      "feature_mapping.csv": "e04c89b98b288d5282e653e719e665deb5b325877aaa06ad2147892a7cd8f471",
+      "attributions/kinematic_fold_0.npz": "ac80c4014ccb3754d3069ec776d997f3f177b6b3cc2bc49c92e7eaeb780f1f86",
+      "attributions/kinematic_fold_1.npz": "db6719966ccf79a75b3ab11b52865499555f5a7ba9f8ed652f73150314990382",
+      "attributions/kinematic_fold_2.npz": "ce07193c17b2ebb7638ceedf2e64f2a4601cbfad78cc93124ae158b55d3212b0",
+      "attributions/kinematic_fold_3.npz": "cf659c08307a5383a05849aedda704ed8b6ab04bd06d8bf0769bcfce72a73d72",
+      "attributions/kinematic_fold_4.npz": "14f13cf76e2679c8f4add6682455a1f98fb482ecc6b06585d5f5af0a45e21f84",
+      "attributions/kinematic_fold_5.npz": "de4ee77fb617f20612661aacc5f023192dd669cda214c6ede7d06558d9937b1c",
+      "feature_importance.csv": "09dfc92fa6711086b308ef2307a68a8ea6117daace0a57ee9e77364b38f5c5c8"
+    },
+    "output_sha256": {
+      "png": "b3892afb593b7fd5c96658c7372b202426102d3908612a330a2fd935d407c329",
+      "svg": "c46ce4151b2207bd7cd2f7735234f17a1be22131f63cdfc5cb1d8bb677d394c6"
+    }
+  },
+  {
+    "name": "waterfall_corrected",
+    "description": "First lexicographic participant in outcome; explanation of Kinematic, not feature SHAP of Fusion.",
+    "sources": [
+      "feature_mapping.csv",
+      "attributions/kinematic_fold_0.npz",
+      "attributions/kinematic_fold_1.npz",
+      "attributions/kinematic_fold_2.npz",
+      "attributions/kinematic_fold_3.npz",
+      "attributions/kinematic_fold_4.npz",
+      "attributions/kinematic_fold_5.npz",
+      "local_cases.json",
+      "fusion_participants.csv"
+    ],
+    "units": "raw log-odds",
+    "n_participants": 1,
+    "source_cohort_size": 258,
+    "uncertainty": "SD between six outer fold models/test samples when shown; not CI",
+    "source_sha256": {
+      "feature_mapping.csv": "e04c89b98b288d5282e653e719e665deb5b325877aaa06ad2147892a7cd8f471",
+      "attributions/kinematic_fold_0.npz": "ac80c4014ccb3754d3069ec776d997f3f177b6b3cc2bc49c92e7eaeb780f1f86",
+      "attributions/kinematic_fold_1.npz": "db6719966ccf79a75b3ab11b52865499555f5a7ba9f8ed652f73150314990382",
+      "attributions/kinematic_fold_2.npz": "ce07193c17b2ebb7638ceedf2e64f2a4601cbfad78cc93124ae158b55d3212b0",
+      "attributions/kinematic_fold_3.npz": "cf659c08307a5383a05849aedda704ed8b6ab04bd06d8bf0769bcfce72a73d72",
+      "attributions/kinematic_fold_4.npz": "14f13cf76e2679c8f4add6682455a1f98fb482ecc6b06585d5f5af0a45e21f84",
+      "attributions/kinematic_fold_5.npz": "de4ee77fb617f20612661aacc5f023192dd669cda214c6ede7d06558d9937b1c",
+      "local_cases.json": "3a4d731d6ce9e36f0bbd44382612f5f948dc3fb6a94b2bcb99744b43601b2f5b",
+      "fusion_participants.csv": "609fe8e1175846279520f0bd9f44e9a81ce90ce2afcc4ec4930204f4dd2fab0e"
+    },
+    "output_sha256": {
+      "png": "8b54aa4379a2ca2213945dabf1dbf4d4174161ae0d1cef8f25e2e027d4631609",
+      "svg": "d37943cea011b186abcaf88b3e9cf5c968efc3c579a843a12e0081f195677046"
+    }
+  },
+  {
+    "name": "waterfall_harmed",
+    "description": "First lexicographic participant in outcome; explanation of Kinematic, not feature SHAP of Fusion.",
+    "sources": [
+      "feature_mapping.csv",
+      "attributions/kinematic_fold_0.npz",
+      "attributions/kinematic_fold_1.npz",
+      "attributions/kinematic_fold_2.npz",
+      "attributions/kinematic_fold_3.npz",
+      "attributions/kinematic_fold_4.npz",
+      "attributions/kinematic_fold_5.npz",
+      "local_cases.json",
+      "fusion_participants.csv"
+    ],
+    "units": "raw log-odds",
+    "n_participants": 1,
+    "source_cohort_size": 258,
+    "uncertainty": "SD between six outer fold models/test samples when shown; not CI",
+    "source_sha256": {
+      "feature_mapping.csv": "e04c89b98b288d5282e653e719e665deb5b325877aaa06ad2147892a7cd8f471",
+      "attributions/kinematic_fold_0.npz": "ac80c4014ccb3754d3069ec776d997f3f177b6b3cc2bc49c92e7eaeb780f1f86",
+      "attributions/kinematic_fold_1.npz": "db6719966ccf79a75b3ab11b52865499555f5a7ba9f8ed652f73150314990382",
+      "attributions/kinematic_fold_2.npz": "ce07193c17b2ebb7638ceedf2e64f2a4601cbfad78cc93124ae158b55d3212b0",
+      "attributions/kinematic_fold_3.npz": "cf659c08307a5383a05849aedda704ed8b6ab04bd06d8bf0769bcfce72a73d72",
+      "attributions/kinematic_fold_4.npz": "14f13cf76e2679c8f4add6682455a1f98fb482ecc6b06585d5f5af0a45e21f84",
+      "attributions/kinematic_fold_5.npz": "de4ee77fb617f20612661aacc5f023192dd669cda214c6ede7d06558d9937b1c",
+      "local_cases.json": "3a4d731d6ce9e36f0bbd44382612f5f948dc3fb6a94b2bcb99744b43601b2f5b",
+      "fusion_participants.csv": "609fe8e1175846279520f0bd9f44e9a81ce90ce2afcc4ec4930204f4dd2fab0e"
+    },
+    "output_sha256": {
+      "png": "0d2d4676cc47c51efedabeaff05d8741ff3a913b5b315e9c7027152f2618a666",
+      "svg": "2f4ae03344fc7edc72a273852eb1edd50c12ea34766dca258de95e9911b489a4"
+    }
+  },
+  {
+    "name": "waterfall_unchanged_correct",
+    "description": "First lexicographic participant in outcome; explanation of Kinematic, not feature SHAP of Fusion.",
+    "sources": [
+      "feature_mapping.csv",
+      "attributions/kinematic_fold_0.npz",
+      "attributions/kinematic_fold_1.npz",
+      "attributions/kinematic_fold_2.npz",
+      "attributions/kinematic_fold_3.npz",
+      "attributions/kinematic_fold_4.npz",
+      "attributions/kinematic_fold_5.npz",
+      "local_cases.json",
+      "fusion_participants.csv"
+    ],
+    "units": "raw log-odds",
+    "n_participants": 1,
+    "source_cohort_size": 258,
+    "uncertainty": "SD between six outer fold models/test samples when shown; not CI",
+    "source_sha256": {
+      "feature_mapping.csv": "e04c89b98b288d5282e653e719e665deb5b325877aaa06ad2147892a7cd8f471",
+      "attributions/kinematic_fold_0.npz": "ac80c4014ccb3754d3069ec776d997f3f177b6b3cc2bc49c92e7eaeb780f1f86",
+      "attributions/kinematic_fold_1.npz": "db6719966ccf79a75b3ab11b52865499555f5a7ba9f8ed652f73150314990382",
+      "attributions/kinematic_fold_2.npz": "ce07193c17b2ebb7638ceedf2e64f2a4601cbfad78cc93124ae158b55d3212b0",
+      "attributions/kinematic_fold_3.npz": "cf659c08307a5383a05849aedda704ed8b6ab04bd06d8bf0769bcfce72a73d72",
+      "attributions/kinematic_fold_4.npz": "14f13cf76e2679c8f4add6682455a1f98fb482ecc6b06585d5f5af0a45e21f84",
+      "attributions/kinematic_fold_5.npz": "de4ee77fb617f20612661aacc5f023192dd669cda214c6ede7d06558d9937b1c",
+      "local_cases.json": "3a4d731d6ce9e36f0bbd44382612f5f948dc3fb6a94b2bcb99744b43601b2f5b",
+      "fusion_participants.csv": "609fe8e1175846279520f0bd9f44e9a81ce90ce2afcc4ec4930204f4dd2fab0e"
+    },
+    "output_sha256": {
+      "png": "4c21504d6c612387ba6b30d1ae40f4b09df1b4195d4f660c087b268c9654a03f",
+      "svg": "7fb83015b79efb92ab38f8008d617792c4730243335fa7092e84b465377d24f5"
+    }
+  },
+  {
+    "name": "waterfall_unchanged_wrong",
+    "description": "First lexicographic participant in outcome; explanation of Kinematic, not feature SHAP of Fusion.",
+    "sources": [
+      "feature_mapping.csv",
+      "attributions/kinematic_fold_0.npz",
+      "attributions/kinematic_fold_1.npz",
+      "attributions/kinematic_fold_2.npz",
+      "attributions/kinematic_fold_3.npz",
+      "attributions/kinematic_fold_4.npz",
+      "attributions/kinematic_fold_5.npz",
+      "local_cases.json",
+      "fusion_participants.csv"
+    ],
+    "units": "raw log-odds",
+    "n_participants": 1,
+    "source_cohort_size": 258,
+    "uncertainty": "SD between six outer fold models/test samples when shown; not CI",
+    "source_sha256": {
+      "feature_mapping.csv": "e04c89b98b288d5282e653e719e665deb5b325877aaa06ad2147892a7cd8f471",
+      "attributions/kinematic_fold_0.npz": "ac80c4014ccb3754d3069ec776d997f3f177b6b3cc2bc49c92e7eaeb780f1f86",
+      "attributions/kinematic_fold_1.npz": "db6719966ccf79a75b3ab11b52865499555f5a7ba9f8ed652f73150314990382",
+      "attributions/kinematic_fold_2.npz": "ce07193c17b2ebb7638ceedf2e64f2a4601cbfad78cc93124ae158b55d3212b0",
+      "attributions/kinematic_fold_3.npz": "cf659c08307a5383a05849aedda704ed8b6ab04bd06d8bf0769bcfce72a73d72",
+      "attributions/kinematic_fold_4.npz": "14f13cf76e2679c8f4add6682455a1f98fb482ecc6b06585d5f5af0a45e21f84",
+      "attributions/kinematic_fold_5.npz": "de4ee77fb617f20612661aacc5f023192dd669cda214c6ede7d06558d9937b1c",
+      "local_cases.json": "3a4d731d6ce9e36f0bbd44382612f5f948dc3fb6a94b2bcb99744b43601b2f5b",
+      "fusion_participants.csv": "609fe8e1175846279520f0bd9f44e9a81ce90ce2afcc4ec4930204f4dd2fab0e"
+    },
+    "output_sha256": {
+      "png": "1c528898a8c5c2c655413df9275d8f221c32519378531bcd1e7bd664225f799e",
+      "svg": "d54920fb8f9283cbcd4b58fe07ff086ba10e2034528374e6e7de913dff88cf13"
+    }
+  },
+  {
+    "name": "task_importance",
+    "description": "Each task has 74 features; six-fold SD is not a confidence interval.",
+    "sources": [
+      "task_importance.csv"
+    ],
+    "units": "mean absolute log-odds mass",
+    "n_participants": 258,
+    "source_cohort_size": 258,
+    "uncertainty": "SD between six outer fold models/test samples when shown; not CI",
+    "source_sha256": {
+      "task_importance.csv": "05f9c21adfbcb6d58a3bc6567db4000d057254560f9e60478da8b19f2c14ae80"
+    },
+    "output_sha256": {
+      "png": "b124a74f0cb6a35ebc0ab5ebb7bbd8af3d628e3bceddbdc40186f9a0bd18af4b",
+      "svg": "198052d4024dab5e401a79163f2eeffe5bb66f9929a96d6afd61ce9ab13af0c3"
+    }
+  },
+  {
+    "name": "feature_groups",
+    "description": "Source-prefix groups; compare total and per-feature average to expose count effects.",
+    "sources": [
+      "group_importance.csv"
+    ],
+    "units": "log-odds mass or mean per feature",
+    "n_participants": 258,
+    "source_cohort_size": 258,
+    "uncertainty": "SD between six outer fold models/test samples when shown; not CI",
+    "source_sha256": {
+      "group_importance.csv": "69a14be5d98cf7eedfb3b238f80cf55230ece83cb39bbcdb3270127d02cc1f3e"
+    },
+    "output_sha256": {
+      "png": "8bc8e4a46127b708a90c755b67c0edcea1c3aba942b127b3d284193a49b0e9ae",
+      "svg": "76a1a3bd1a877a526d19db7042dd8397c507646d32acf2a2137d2313e96087f4"
+    }
+  },
+  {
+    "name": "task_group_heatmap",
+    "description": "All task/group cells, no omission of low attribution cells.",
+    "sources": [
+      "task_group_importance.csv"
+    ],
+    "units": "mean absolute log-odds mass",
+    "n_participants": 258,
+    "source_cohort_size": 258,
+    "uncertainty": "SD between six outer fold models/test samples when shown; not CI",
+    "source_sha256": {
+      "task_group_importance.csv": "51039dcc043fffe65b3a227535b7e5e234c6a571b370d9226670276e3dc8b32e"
+    },
+    "output_sha256": {
+      "png": "6888f36b948c4137cbc0b586d6b31dbb0c0f8dc8fed3e1cbd0c2be2c3b5d4234",
+      "svg": "64a852ae4100c115d23362bb8bc8c0a319636b743c30b97c8abb00c5781619d7"
+    }
+  },
+  {
+    "name": "task_fold_ranks",
+    "description": "Six models/test samples; dependent training folds, not independent replications.",
+    "sources": [
+      "task_rank_stability.csv"
+    ],
+    "units": "rank",
+    "n_participants": 258,
+    "source_cohort_size": 258,
+    "uncertainty": "SD between six outer fold models/test samples when shown; not CI",
+    "source_sha256": {
+      "task_rank_stability.csv": "392829e11738770851e6a0145969be7ac7c1c3cb02af3a5d2c72c6a7f1a489d9"
+    },
+    "output_sha256": {
+      "png": "aca27e7faa9166465c70e74603902a384547d6cdb152500a9de849efc1892806",
+      "svg": "bcf34f8134f1b1acf49a73a9b9f3c0a4416962cd9f2f6fff2db1a41bf4abcdb8"
+    }
+  },
+  {
+    "name": "grouped_permutation_tasks",
+    "description": "All task blocks ordered by SHAP mass; retain negative score drops.",
+    "sources": [
+      "permutation_importance.csv",
+      "task_importance.csv"
+    ],
+    "units": "F1 macro percentage points",
+    "n_participants": 258,
+    "source_cohort_size": 258,
+    "uncertainty": "SD between six outer fold models/test samples when shown; not CI",
+    "source_sha256": {
+      "permutation_importance.csv": "899ca04192ea057efae99c93f16a4fe2b7f29eae865ab5b64508f7b99b5db285",
+      "task_importance.csv": "05f9c21adfbcb6d58a3bc6567db4000d057254560f9e60478da8b19f2c14ae80"
+    },
+    "output_sha256": {
+      "png": "974220e03c1000c5063a0c9c8a6b5affa13d474e9d922ab689b69343c2c95c45",
+      "svg": "550eaa211f0208fd567e2db54faf9af98141e48a6137954ba6d92b0479ba1a0d"
+    }
+  },
+  {
+    "name": "fusion_probability_correction",
+    "description": "Exact probability delta versus baseline confidence; participant outcomes are descriptive, not used to tune gates.",
+    "sources": [
+      "fusion_participants.csv"
+    ],
+    "units": "probability difference",
+    "n_participants": 258,
+    "source_cohort_size": 258,
+    "uncertainty": "SD between six outer fold models/test samples when shown; not CI",
+    "source_sha256": {
+      "fusion_participants.csv": "609fe8e1175846279520f0bd9f44e9a81ce90ce2afcc4ec4930204f4dd2fab0e"
+    },
+    "output_sha256": {
+      "png": "176618b44aa4ff722437a6c71ae0837410080fbb8b01672b4394100407e4df34",
+      "svg": "c579bdacdc25bb25588faa2f93ea16309f62ea31ea39e9bf2ee3219c06a5ef79"
+    }
+  },
+  {
+    "name": "fusion_corrected_harmed",
+    "description": "All four outcomes, including unchanged errors and corrections that harm baseline.",
+    "sources": [
+      "fusion_participants.csv"
+    ],
+    "units": "participant counts",
+    "n_participants": 258,
+    "source_cohort_size": 258,
+    "uncertainty": "SD between six outer fold models/test samples when shown; not CI",
+    "source_sha256": {
+      "fusion_participants.csv": "609fe8e1175846279520f0bd9f44e9a81ce90ce2afcc4ec4930204f4dd2fab0e"
+    },
+    "output_sha256": {
+      "png": "4be1bcc75fceb4b6a881956f45680d8cb7e64f7f16330cf77a54963c5eae2a82",
+      "svg": "dd9ba4f92f0bd7f790552c98791c2323c534feb0be80196b7764f85c78574209"
+    }
+  },
+  {
+    "name": "cwt_pca_components",
+    "description": "Fold-specific PCA coordinates, 43 held-out participants per panel; PC indices not pooled across folds or mapped to biology/tasks.",
+    "sources": [
+      "cwt_component_importance.csv"
+    ],
+    "units": "CWT classifier log-odds",
+    "n_participants": 86,
+    "source_cohort_size": 258,
+    "uncertainty": "SD between six outer fold models/test samples when shown; not CI",
+    "source_sha256": {
+      "cwt_component_importance.csv": "a2fc3bf655c5f4894c1aa95ecc8a5b0b575ae17dd08be33a7310f52999e79bb1"
+    },
+    "output_sha256": {
+      "png": "f9e8a67f92b26778569a3ebc5e5772fa94487472ec49eeba1ec45fd237a8144d",
+      "svg": "b281fb4641c67a16a717f0d09ddd827be249f9b94e1d56a1c885e100660c0588"
+    }
+  },
+  {
+    "name": "task_waterfall",
+    "description": "Task sums reconstruct margin, unlike global absolute attribution mass.",
+    "sources": [
+      "feature_mapping.csv",
+      "attributions/kinematic_fold_0.npz",
+      "attributions/kinematic_fold_1.npz",
+      "attributions/kinematic_fold_2.npz",
+      "attributions/kinematic_fold_3.npz",
+      "attributions/kinematic_fold_4.npz",
+      "attributions/kinematic_fold_5.npz",
+      "local_cases.json"
+    ],
+    "units": "signed raw log-odds",
+    "n_participants": 1,
+    "source_cohort_size": 258,
+    "uncertainty": "SD between six outer fold models/test samples when shown; not CI",
+    "source_sha256": {
+      "feature_mapping.csv": "e04c89b98b288d5282e653e719e665deb5b325877aaa06ad2147892a7cd8f471",
+      "attributions/kinematic_fold_0.npz": "ac80c4014ccb3754d3069ec776d997f3f177b6b3cc2bc49c92e7eaeb780f1f86",
+      "attributions/kinematic_fold_1.npz": "db6719966ccf79a75b3ab11b52865499555f5a7ba9f8ed652f73150314990382",
+      "attributions/kinematic_fold_2.npz": "ce07193c17b2ebb7638ceedf2e64f2a4601cbfad78cc93124ae158b55d3212b0",
+      "attributions/kinematic_fold_3.npz": "cf659c08307a5383a05849aedda704ed8b6ab04bd06d8bf0769bcfce72a73d72",
+      "attributions/kinematic_fold_4.npz": "14f13cf76e2679c8f4add6682455a1f98fb482ecc6b06585d5f5af0a45e21f84",
+      "attributions/kinematic_fold_5.npz": "de4ee77fb617f20612661aacc5f023192dd669cda214c6ede7d06558d9937b1c",
+      "local_cases.json": "3a4d731d6ce9e36f0bbd44382612f5f948dc3fb6a94b2bcb99744b43601b2f5b"
+    },
+    "output_sha256": {
+      "png": "3d22d6e10aeba680d62483a78fa9060be77fa815c91d6bf451c3ecc78ebbc7f8",
+      "svg": "607a6b6e170fa6b2abf938a0063f9b4ca0eacca83f9b2df68c4aadc643c79197"
+    }
+  }
+]

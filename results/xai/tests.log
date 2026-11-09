@@ -1,0 +1,30 @@
+test_actual_split_grid_uses_training_ids_and_complete_predictions (test_channel_embedding.ChannelEmbeddingTests) ... ok
+test_group_adapter_is_frozen_and_uses_all_channels (test_channel_embedding.ChannelEmbeddingTests) ... ok
+test_invalid_input_rejected (test_channel_embedding.ChannelEmbeddingTests) ... ok
+test_original_stem_equals_channel_mean_and_loses_channel_order (test_channel_embedding.ChannelEmbeddingTests) ... ok
+test_selection_is_from_complete_inner_scores (test_channel_embedding.ChannelEmbeddingTests) ... ok
+test_separate_channel_order_and_mean_control (test_channel_embedding.ChannelEmbeddingTests) ... ok
+test_adaptive_is_gated_correction_not_attention (test_explain.ExplainTests) ... ok
+test_cwt_linear_contribution_is_logit_not_signal_attribution (test_explain.ExplainTests) ... ok
+test_joint_permutation_preserves_block_and_other_features (test_explain.ExplainTests) ... ok
+test_late_decomposition_and_outcomes (test_explain.ExplainTests) ... ok
+test_mapping_uses_schema_order_and_partitions_all_columns (test_explain.ExplainTests) ... ok
+test_partition_encoding_preserves_threshold_boundary_and_shap_game (test_explain.ExplainTests) ... ok
+test_removed_constant_alignment_and_additive_grouping (test_explain.ExplainTests) ... ok
+test_tree_shap_raw_and_probability_units (test_explain.ExplainTests) ... ok
+test_adaptive_gate_budget_and_null (test_fusion.FusionTests) ... ok
+test_crossfit_detects_overlap_and_coverage (test_fusion.FusionTests) ... ok
+test_crossfit_training_really_excludes_each_subject (test_fusion.FusionTests) ... ok
+test_equal_convex_pool_and_learned_probability_bounds (test_fusion.FusionTests) ... ok
+test_prespecified_grid_keeps_original_and_adapter_controls (test_fusion.FusionTests) ... ok
+test_selective_fallback_uses_inner_only (test_fusion.FusionTests) ... ok
+test_transform_reference_and_heldout_state (test_fusion.FusionTests) ... ok
+test_duplicate_participants_rejected (test_reduction.ReductionTests) ... ok
+test_held_out_transform_cannot_change_fitted_state (test_reduction.ReductionTests) ... ok
+test_pca_matches_independent_full_svd (test_reduction.ReductionTests) ... ok
+test_selectors_match_independent_budgets (test_reduction.ReductionTests) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 1.397s
+
+OK

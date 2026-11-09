@@ -1,0 +1,35 @@
+{
+  "task_order_source": "data/derived/schema.json and scripts/prepare.py TASKS/reshape",
+  "feature_order_source": "actual features.py kinematic() output checked against schema",
+  "sentinel_rule": "first, middle, last participant; chosen without labels",
+  "sentinels": [
+    {
+      "participant_id": "BR10301",
+      "source": "data\\clean_data\\BR10301_merged.json",
+      "source_sha256": "acbf776c241da5904a32ce7a711b2b441877ea547110845acbc7e0992fcb11c0",
+      "tasks_checked": 14,
+      "features_checked": 1036,
+      "max_abs_difference": 0.0
+    },
+    {
+      "participant_id": "DK12402",
+      "source": "data\\clean_data\\DK12402_merged.json",
+      "source_sha256": "1dedfa00bf74383e3a182e718c8828a18c5c011ff5f3f284a2d8aa2c32a4ba2b",
+      "tasks_checked": 14,
+      "features_checked": 1036,
+      "max_abs_difference": 0.0
+    },
+    {
+      "participant_id": "VV10404",
+      "source": "data\\clean_data\\VV10404_merged.json",
+      "source_sha256": "eb4c328074f3cf89386f90d812a7bb76a574f9fe4ac09e6e42663433904ba7fe",
+      "tasks_checked": 14,
+      "features_checked": 1036,
+      "max_abs_difference": 0.0
+    }
+  ],
+  "n_tasks": 14,
+  "n_features_per_task": 74,
+  "total_features": 1036,
+  "groups": "12 actual source prefixes, not an assumed paper taxonomy"
+}

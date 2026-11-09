@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "count": 25,
+  "returncode": 0,
+  "pip_check": "No broken requirements found.",
+  "source_sha256": {
+    "tests/test_channel_embedding.py": "2096c9fa6034b07999a099a507afc9e7fea4a2e1bcfb8aa858855092c1b2d7ae",
+    "tests/test_explain.py": "d4f86448f0cf2b50cd711c1a2011aaed22669b6336023980cbb0e5d021ec7127",
+    "tests/test_fusion.py": "84ec9f72f5e807de3cfbadb60b8afe2e67cc1642d9dccf60a8a9fc22f68e2666",
+    "tests/test_reduction.py": "1075c70b4087726fd897b7510b2a579ce7cfc2114ce5f7d2c4e39ba4f8a372c5"
+  }
+}

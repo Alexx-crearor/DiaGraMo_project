@@ -1,0 +1,26 @@
+[
+  {
+    "outcome": "corrected",
+    "participant_id": "BR2404",
+    "fold": 5,
+    "selection_rule": "first lexicographic participant in category; post-hoc illustrative only"
+  },
+  {
+    "outcome": "harmed",
+    "participant_id": "DK12401",
+    "fold": 2,
+    "selection_rule": "first lexicographic participant in category; post-hoc illustrative only"
+  },
+  {
+    "outcome": "unchanged_correct",
+    "participant_id": "BR10301",
+    "fold": 4,
+    "selection_rule": "first lexicographic participant in category; post-hoc illustrative only"
+  },
+  {
+    "outcome": "unchanged_wrong",
+    "participant_id": "BR2408",
+    "fold": 0,
+    "selection_rule": "first lexicographic participant in category; post-hoc illustrative only"
+  }
+]

@@ -137,6 +137,29 @@ Chọn kernel Python của `.venv`. Notebook đọc các artifact đã sinh, kh�
 
 ## Kiểm tra kết quả
 
+### Explainable AI trên outer Test
+
+Kết quả XAI tại [results/xai/REPORT_VI.md](results/xai/REPORT_VI.md) và
+[notebooks/09_xai.ipynb](notebooks/09_xai.ipynb): TreeSHAP cho Kinematic + LightGBM,
+mapping 1.036 feature/14 task, grouped permutation held-out và replay cơ chế Late/Adaptive KC.
+Notebook có bảng số trước biểu đồ, đọc artifact đã kiểm chứng, không fit/chọn lại model.
+Attribution raw được kiểm tra ở log-odds, probability SHAP được kiểm tra riêng; không coi
+confidence gate là attention network hoặc gán PCA embedding cho tín hiệu sinh học.
+
+```powershell
+.venv/Scripts/python.exe -m pip install --no-deps -r requirements-xai.txt
+.venv/Scripts/python.exe -X utf8 -B -u scripts/analyze_xai.py
+.venv/Scripts/python.exe -X utf8 -B -u scripts/report_xai.py
+.venv/Scripts/python.exe -X utf8 -B scripts/plot_xai.py
+.venv/Scripts/python.exe -X utf8 -B scripts/create_xai_notebook.py
+.venv/Scripts/python.exe -X utf8 -B scripts/execute_notebooks.py --only 09_xai.ipynb --validation-output results/xai/notebook_validation.json
+.venv/Scripts/python.exe -X utf8 -B scripts/validate_xai.py
+```
+
+Giữ nguyên checkpoint/OOF cũ; nếu checkpoint cần thiết thiếu, chỉ tái tạo đúng cấu hình đã chọn,
+lưu ở `results/xai/reconstructed/` rồi đối chiếu OOF trước khi giải thích. Không thay baseline
+hoặc tối ưu Accuracy bằng XAI. Chỉ xem hoàn tất khi `results/xai/validation.json` có `complete: true`.
+
 ### Multimodal Fusion với nested CV
 
 Kết quả Fusion mới được lưu riêng tại `results/fusion_ablation/`, không thay baseline cũ.

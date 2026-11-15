@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "pre_cleanup_sha": "273fc9b742d369816023a33c24c75709a56d0bfc",
+  "cleanup_branch": "cleanup/original-four-branch-reproduction",
+  "all_six_validation_stages_passed": true,
+  "new_experiments_run": false,
+  "baseline_models_retrained": false,
+  "embedding_forward_passes_run": false,
+  "baseline_files_unchanged": 12387
+}

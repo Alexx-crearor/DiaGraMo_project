@@ -1,0 +1,17 @@
+group,files,bytes,sha256_unchanged
+.cache/huggingface,4,2771077965,True
+.cache/torch,4,1080410216,True
+EXPERIMENT_PROTOCOL.md,1,10560,True
+data/clean_data,294,5916126125,True
+data/derived,3652,2995543869,True
+data/processed_data,4002,3065889181,True
+data/raw_data,4002,3894368828,True
+notebooks,4,2439401,True
+references,1,1034,True
+requirements-lock.txt,1,1533,True
+results,13,94060,True
+results/audit,5,390583,True
+results/cv,339,1981877,True
+results/figures,7,2352993,True
+results/models,51,19414952,True
+results/sensitivity,7,53415,True

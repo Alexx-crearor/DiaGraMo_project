@@ -1,0 +1,9 @@
+{
+  "pre_cleanup_sha": "273fc9b742d369816023a33c24c75709a56d0bfc",
+  "branch": "cleanup/original-four-branch-reproduction",
+  "baseline_commit": "ac4f927",
+  "untracked_before": [
+    "DiaGraMo_REVIEW_KEEP_DECISIONS_VI.md",
+    "scripts/audit_cleanup.py"
+  ]
+}

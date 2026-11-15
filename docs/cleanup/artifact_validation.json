@@ -1,0 +1,11 @@
+{
+  "complete": true,
+  "protected_files_unchanged": 12387,
+  "protected_bytes": 19750156592,
+  "cv_results": 168,
+  "oof_files": 168,
+  "participants": 258,
+  "folds": 6,
+  "seed": 42,
+  "all_pooled_and_fold_metrics_match": true
+}

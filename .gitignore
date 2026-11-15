@@ -6,6 +6,3 @@ tmp/
 data/
 results/models/
 .ipynb_checkpoints/
-results/embedding_ablation/embeddings/*.npy
-results/fusion_ablation/checkpoints/*.joblib
-results/xai/reconstructed/*.joblib

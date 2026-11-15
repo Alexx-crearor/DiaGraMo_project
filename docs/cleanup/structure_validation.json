@@ -1,0 +1,252 @@
+{
+  "complete": true,
+  "compiled_python_files": 22,
+  "imports": {
+    "scripts/audit_cleanup.py": [
+      "argparse",
+      "ast",
+      "evaluate",
+      "hashlib",
+      "json",
+      "numpy",
+      "pandas",
+      "pathlib",
+      "sklearn.model_selection",
+      "subprocess",
+      "sys"
+    ],
+    "scripts/document_cleanup.py": [
+      "ast",
+      "collections",
+      "csv",
+      "hashlib",
+      "json",
+      "pathlib",
+      "subprocess"
+    ],
+    "scripts/download_weights.py": [
+      "concurrent.futures",
+      "hashlib",
+      "huggingface_hub",
+      "json",
+      "os",
+      "pathlib",
+      "urllib.request"
+    ],
+    "scripts/evaluate.py": [
+      "argparse",
+      "concurrent.futures",
+      "diagramo.kernels",
+      "itertools",
+      "joblib",
+      "json",
+      "lightgbm",
+      "numpy",
+      "os",
+      "pandas",
+      "pathlib",
+      "sklearn.base",
+      "sklearn.dummy",
+      "sklearn.ensemble",
+      "sklearn.feature_selection",
+      "sklearn.impute",
+      "sklearn.linear_model",
+      "sklearn.metrics",
+      "sklearn.model_selection",
+      "sklearn.neural_network",
+      "sklearn.pipeline",
+      "sklearn.preprocessing",
+      "sklearn.svm",
+      "sys",
+      "threadpoolctl",
+      "time",
+      "warnings",
+      "xgboost"
+    ],
+    "scripts/execute_notebooks.py": [
+      "argparse",
+      "asyncio",
+      "json",
+      "nbclient",
+      "nbformat",
+      "pathlib",
+      "sys"
+    ],
+    "scripts/extract.py": [
+      "argparse",
+      "contextlib",
+      "diagramo.branches.cwt",
+      "diagramo.branches.gaf",
+      "diagramo.branches.moment",
+      "diagramo.features",
+      "gc",
+      "json",
+      "momentfm",
+      "numpy",
+      "os",
+      "pathlib",
+      "sys",
+      "time",
+      "torch",
+      "torchvision"
+    ],
+    "scripts/prepare.py": [
+      "collections",
+      "diagramo.branches.kinematic",
+      "diagramo.features",
+      "hashlib",
+      "json",
+      "numpy",
+      "orjson",
+      "pandas",
+      "pathlib",
+      "re",
+      "sys"
+    ],
+    "scripts/report.py": [
+      "datetime",
+      "diagramo.features",
+      "hashlib",
+      "itertools",
+      "json",
+      "matplotlib",
+      "matplotlib.pyplot",
+      "nbformat",
+      "numpy",
+      "pandas",
+      "pathlib",
+      "platform",
+      "sklearn.metrics",
+      "subprocess",
+      "sys"
+    ],
+    "scripts/report_paper_tables.py": [
+      "csv",
+      "json",
+      "pathlib"
+    ],
+    "scripts/run_all.py": [
+      "argparse",
+      "json",
+      "pathlib",
+      "subprocess",
+      "sys",
+      "time"
+    ],
+    "scripts/sensitivity.py": [
+      "evaluate",
+      "json",
+      "numpy",
+      "pandas",
+      "pathlib",
+      "sklearn.base",
+      "sklearn.feature_selection",
+      "sklearn.model_selection",
+      "sklearn.pipeline",
+      "sklearn.preprocessing",
+      "sys",
+      "threadpoolctl"
+    ],
+    "scripts/train_selected.py": [
+      "evaluate",
+      "hashlib",
+      "joblib",
+      "json",
+      "numpy",
+      "pandas",
+      "pathlib",
+      "sklearn.feature_selection",
+      "sklearn.impute",
+      "sklearn.pipeline",
+      "sklearn.preprocessing",
+      "sys",
+      "threadpoolctl"
+    ],
+    "scripts/validate_baseline.py": [
+      "argparse",
+      "ast",
+      "asyncio",
+      "extract",
+      "gc",
+      "importlib",
+      "json",
+      "momentfm",
+      "nbclient",
+      "nbformat",
+      "os",
+      "pandas",
+      "pathlib",
+      "report",
+      "report_paper_tables",
+      "shutil",
+      "subprocess",
+      "sys",
+      "tempfile",
+      "torch"
+    ],
+    "src/diagramo/__init__.py": [],
+    "src/diagramo/branches/__init__.py": [],
+    "src/diagramo/branches/cwt.py": [
+      "diagramo.features"
+    ],
+    "src/diagramo/branches/gaf.py": [
+      "diagramo.features"
+    ],
+    "src/diagramo/branches/kinematic.py": [
+      "diagramo.features"
+    ],
+    "src/diagramo/branches/moment.py": [],
+    "src/diagramo/features.py": [
+      "collections",
+      "numpy",
+      "pywt",
+      "scipy.signal",
+      "scipy.stats"
+    ],
+    "src/diagramo/kernels.py": [
+      "numpy",
+      "sklearn.base",
+      "sklearn.metrics.pairwise"
+    ],
+    "tests/test_baseline.py": [
+      "diagramo",
+      "diagramo.branches",
+      "evaluate",
+      "itertools",
+      "json",
+      "numpy",
+      "pathlib",
+      "prepare",
+      "sys",
+      "types",
+      "unittest"
+    ]
+  },
+  "baseline_modules_imported": [
+    "prepare",
+    "download_weights",
+    "extract",
+    "evaluate",
+    "run_all",
+    "report",
+    "report_paper_tables",
+    "sensitivity",
+    "train_selected",
+    "execute_notebooks"
+  ],
+  "cli_help": {
+    "extract": true,
+    "evaluate": true,
+    "execute_notebooks": true,
+    "run_all": true
+  },
+  "notebooks_validated": [
+    "01_data_inspection.ipynb",
+    "02_kinematic_features.ipynb",
+    "03_pretrained_representations.ipynb",
+    "04_evaluation_and_fusion.ipynb"
+  ],
+  "unit_tests": 6,
+  "pip_check": "No broken requirements found.",
+  "training_performed": false
+}

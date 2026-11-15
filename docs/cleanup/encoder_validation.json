@@ -1,0 +1,41 @@
+{
+  "complete": true,
+  "device": "cpu",
+  "encoders": [
+    {
+      "encoder": "resnet50",
+      "channels": 7,
+      "dimension_per_task": 2048,
+      "kernel_and_bias_exactly_match_baseline_rule": true,
+      "frozen": true
+    },
+    {
+      "encoder": "efficientnet_b4",
+      "channels": 7,
+      "dimension_per_task": 1792,
+      "kernel_and_bias_exactly_match_baseline_rule": true,
+      "frozen": true
+    },
+    {
+      "encoder": "vit_b_16",
+      "channels": 7,
+      "dimension_per_task": 768,
+      "kernel_and_bias_exactly_match_baseline_rule": true,
+      "frozen": true
+    },
+    {
+      "encoder": "vgg16",
+      "channels": 7,
+      "dimension_per_task": 4096,
+      "kernel_and_bias_exactly_match_baseline_rule": true,
+      "frozen": true
+    },
+    {
+      "encoder": "MOMENT-1-large",
+      "initialized_offline_from_pinned_revision": "ca58581bc7bea2ebed4e80dc0a3e4b8b609c6ecc",
+      "frozen": true
+    }
+  ],
+  "forward_pass_performed": false,
+  "new_embeddings_extracted": false
+}

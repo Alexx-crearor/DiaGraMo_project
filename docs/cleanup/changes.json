@@ -1,0 +1,4350 @@
+{
+  "files": [
+    {
+      "status": "M",
+      "path": ".gitignore"
+    },
+    {
+      "status": "M",
+      "path": "README.md"
+    },
+    {
+      "status": "D",
+      "path": "notebooks/05_feature_optimization.ipynb"
+    },
+    {
+      "status": "D",
+      "path": "notebooks/06_nested_cv_and_stability.ipynb"
+    },
+    {
+      "status": "D",
+      "path": "notebooks/07_embedding_ablation.ipynb"
+    },
+    {
+      "status": "D",
+      "path": "notebooks/08_fusion_ablation.ipynb"
+    },
+    {
+      "status": "D",
+      "path": "notebooks/09_xai.ipynb"
+    },
+    {
+      "status": "D",
+      "path": "requirements-xai.txt"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/REPORT_VI.md"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/ablation_matched.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/baseline_extraction_audit.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/benchmark.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/cv_job_costs.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/embeddings/CWT.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/embeddings/CWT.progress.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/embeddings/GAF.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/embeddings/GAF.progress.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/evaluation_progress.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/evaluation_settings.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/extraction_costs.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/figures/adaptation_matched.png"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/figures/adaptation_matched.svg"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/figures/channel_input_examples.png"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/figures/channel_input_examples.svg"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/figures/compute_and_dimensions.png"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/figures/compute_and_dimensions.svg"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/figures/manifest.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/figures/nested_confusion.png"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/figures/nested_confusion.svg"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/figures/nested_metrics.png"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/figures/nested_metrics.svg"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/figures/nested_roc.png"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/figures/nested_roc.svg"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/figures/paired_outer_folds.png"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/figures/paired_outer_folds.svg"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/fit_costs.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/fold_assignments.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/fold_scores.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/folds/CWT__channel_concat__fold_0.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/folds/CWT__channel_concat__fold_1.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/folds/CWT__channel_concat__fold_2.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/folds/CWT__channel_concat__fold_3.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/folds/CWT__channel_concat__fold_4.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/folds/CWT__channel_concat__fold_5.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/folds/CWT__channel_mean__fold_0.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/folds/CWT__channel_mean__fold_1.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/folds/CWT__channel_mean__fold_2.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/folds/CWT__channel_mean__fold_3.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/folds/CWT__channel_mean__fold_4.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/folds/CWT__channel_mean__fold_5.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/folds/CWT__group_adapter__fold_0.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/folds/CWT__group_adapter__fold_1.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/folds/CWT__group_adapter__fold_2.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/folds/CWT__group_adapter__fold_3.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/folds/CWT__group_adapter__fold_4.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/folds/CWT__group_adapter__fold_5.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/folds/CWT__original__fold_0.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/folds/CWT__original__fold_1.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/folds/CWT__original__fold_2.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/folds/CWT__original__fold_3.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/folds/CWT__original__fold_4.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/folds/CWT__original__fold_5.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/folds/GAF__channel_concat__fold_0.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/folds/GAF__channel_concat__fold_1.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/folds/GAF__channel_concat__fold_2.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/folds/GAF__channel_concat__fold_3.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/folds/GAF__channel_concat__fold_4.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/folds/GAF__channel_concat__fold_5.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/folds/GAF__channel_mean__fold_0.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/folds/GAF__channel_mean__fold_1.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/folds/GAF__channel_mean__fold_2.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/folds/GAF__channel_mean__fold_3.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/folds/GAF__channel_mean__fold_4.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/folds/GAF__channel_mean__fold_5.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/folds/GAF__group_adapter__fold_0.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/folds/GAF__group_adapter__fold_1.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/folds/GAF__group_adapter__fold_2.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/folds/GAF__group_adapter__fold_3.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/folds/GAF__group_adapter__fold_4.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/folds/GAF__group_adapter__fold_5.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/folds/GAF__original__fold_0.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/folds/GAF__original__fold_1.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/folds/GAF__original__fold_2.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/folds/GAF__original__fold_3.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/folds/GAF__original__fold_4.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/folds/GAF__original__fold_5.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/fusion_candidates.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/nested_comparison.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/nested_oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/nested_summary.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/notebook_validation.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__channel_concat__anova_256__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__channel_concat__anova_256__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__channel_concat__anova_256__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__channel_concat__anova_64__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__channel_concat__anova_64__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__channel_concat__anova_64__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__channel_concat__extratrees_256__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__channel_concat__extratrees_256__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__channel_concat__extratrees_256__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__channel_concat__none__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__channel_concat__none__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__channel_concat__none__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__channel_concat__pca_16__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__channel_concat__pca_16__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__channel_concat__pca_16__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__channel_concat__pca_32__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__channel_concat__pca_32__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__channel_concat__pca_32__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__channel_concat__pca_var95__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__channel_concat__pca_var95__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__channel_concat__pca_var95__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__channel_concat__pca_var99__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__channel_concat__pca_var99__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__channel_concat__pca_var99__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__channel_mean__anova_256__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__channel_mean__anova_256__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__channel_mean__anova_256__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__channel_mean__anova_64__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__channel_mean__anova_64__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__channel_mean__anova_64__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__channel_mean__extratrees_256__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__channel_mean__extratrees_256__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__channel_mean__extratrees_256__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__channel_mean__none__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__channel_mean__none__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__channel_mean__none__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__channel_mean__pca_16__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__channel_mean__pca_16__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__channel_mean__pca_16__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__channel_mean__pca_32__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__channel_mean__pca_32__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__channel_mean__pca_32__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__channel_mean__pca_var95__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__channel_mean__pca_var95__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__channel_mean__pca_var95__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__channel_mean__pca_var99__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__channel_mean__pca_var99__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__channel_mean__pca_var99__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__group_adapter__anova_256__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__group_adapter__anova_256__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__group_adapter__anova_256__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__group_adapter__anova_64__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__group_adapter__anova_64__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__group_adapter__anova_64__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__group_adapter__extratrees_256__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__group_adapter__extratrees_256__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__group_adapter__extratrees_256__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__group_adapter__none__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__group_adapter__none__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__group_adapter__none__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__group_adapter__pca_16__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__group_adapter__pca_16__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__group_adapter__pca_16__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__group_adapter__pca_32__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__group_adapter__pca_32__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__group_adapter__pca_32__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__group_adapter__pca_var95__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__group_adapter__pca_var95__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__group_adapter__pca_var95__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__group_adapter__pca_var99__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__group_adapter__pca_var99__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__group_adapter__pca_var99__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__original__anova_256__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__original__anova_256__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__original__anova_256__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__original__anova_64__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__original__anova_64__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__original__anova_64__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__original__extratrees_256__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__original__extratrees_256__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__original__extratrees_256__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__original__none__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__original__none__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__original__none__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__original__pca_16__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__original__pca_16__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__original__pca_16__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__original__pca_32__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__original__pca_32__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__original__pca_32__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__original__pca_var95__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__original__pca_var95__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__original__pca_var95__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__original__pca_var99__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__original__pca_var99__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/CWT__original__pca_var99__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__channel_concat__anova_256__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__channel_concat__anova_256__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__channel_concat__anova_256__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__channel_concat__anova_64__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__channel_concat__anova_64__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__channel_concat__anova_64__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__channel_concat__extratrees_256__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__channel_concat__extratrees_256__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__channel_concat__extratrees_256__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__channel_concat__none__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__channel_concat__none__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__channel_concat__none__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__channel_concat__pca_16__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__channel_concat__pca_16__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__channel_concat__pca_16__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__channel_concat__pca_32__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__channel_concat__pca_32__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__channel_concat__pca_32__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__channel_concat__pca_var95__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__channel_concat__pca_var95__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__channel_concat__pca_var95__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__channel_concat__pca_var99__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__channel_concat__pca_var99__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__channel_concat__pca_var99__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__channel_mean__anova_256__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__channel_mean__anova_256__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__channel_mean__anova_256__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__channel_mean__anova_64__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__channel_mean__anova_64__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__channel_mean__anova_64__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__channel_mean__extratrees_256__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__channel_mean__extratrees_256__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__channel_mean__extratrees_256__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__channel_mean__none__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__channel_mean__none__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__channel_mean__none__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__channel_mean__pca_16__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__channel_mean__pca_16__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__channel_mean__pca_16__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__channel_mean__pca_32__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__channel_mean__pca_32__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__channel_mean__pca_32__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__channel_mean__pca_var95__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__channel_mean__pca_var95__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__channel_mean__pca_var95__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__channel_mean__pca_var99__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__channel_mean__pca_var99__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__channel_mean__pca_var99__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__group_adapter__anova_256__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__group_adapter__anova_256__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__group_adapter__anova_256__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__group_adapter__anova_64__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__group_adapter__anova_64__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__group_adapter__anova_64__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__group_adapter__extratrees_256__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__group_adapter__extratrees_256__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__group_adapter__extratrees_256__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__group_adapter__none__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__group_adapter__none__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__group_adapter__none__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__group_adapter__pca_16__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__group_adapter__pca_16__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__group_adapter__pca_16__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__group_adapter__pca_32__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__group_adapter__pca_32__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__group_adapter__pca_32__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__group_adapter__pca_var95__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__group_adapter__pca_var95__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__group_adapter__pca_var95__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__group_adapter__pca_var99__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__group_adapter__pca_var99__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__group_adapter__pca_var99__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__original__anova_256__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__original__anova_256__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__original__anova_256__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__original__anova_64__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__original__anova_64__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__original__anova_64__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__original__extratrees_256__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__original__extratrees_256__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__original__extratrees_256__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__original__none__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__original__none__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__original__none__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__original__pca_16__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__original__pca_16__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__original__pca_16__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__original__pca_32__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__original__pca_32__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__original__pca_32__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__original__pca_var95__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__original__pca_var95__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__original__pca_var95__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__original__pca_var99__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__original__pca_var99__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/oof/GAF__original__pca_var99__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/original_artifacts.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/previous_grid_winners.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/selected_by_fold.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/selection_frequency.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/selections/CWT__fold_0.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/selections/CWT__fold_1.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/selections/CWT__fold_2.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/selections/CWT__fold_3.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/selections/CWT__fold_4.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/selections/CWT__fold_5.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/selections/GAF__fold_0.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/selections/GAF__fold_1.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/selections/GAF__fold_2.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/selections/GAF__fold_3.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/selections/GAF__fold_4.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/selections/GAF__fold_5.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/settings.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/summary.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/test_validation.json"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/tests.log"
+    },
+    {
+      "status": "D",
+      "path": "results/embedding_ablation/validation.json"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/REPORT_VI.md"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/best_by_method.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/best_per_branch.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/comparison_same_classifier.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/feature_stability.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/figures/all_configurations.png"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/figures/all_configurations.svg"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/figures/compression.png"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/figures/compression.svg"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/figures/dimension_curves.png"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/figures/dimension_curves.svg"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/figures/method_comparison.png"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/figures/method_comparison.svg"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/figures/nested_comparison.png"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/figures/nested_comparison.svg"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/figures/nested_confusion.png"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/figures/nested_confusion.svg"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/figures/nested_fold_changes.png"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/figures/nested_fold_changes.svg"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/figures/nested_manifest.json"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/figures/nested_roc.png"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/figures/nested_roc.svg"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/figures/overview_manifest.json"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/figures/stability_and_variance.png"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/figures/stability_and_variance.svg"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/fold_assignments.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/fold_scores.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/folds/CWT__fold_0.json"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/folds/CWT__fold_1.json"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/folds/CWT__fold_2.json"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/folds/CWT__fold_3.json"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/folds/CWT__fold_4.json"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/folds/CWT__fold_5.json"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/folds/GAF__fold_0.json"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/folds/GAF__fold_1.json"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/folds/GAF__fold_2.json"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/folds/GAF__fold_3.json"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/folds/GAF__fold_4.json"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/folds/GAF__fold_5.json"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/folds/Kinematic__fold_0.json"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/folds/Kinematic__fold_1.json"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/folds/Kinematic__fold_2.json"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/folds/Kinematic__fold_3.json"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/folds/Kinematic__fold_4.json"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/folds/Kinematic__fold_5.json"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/folds/MOMENT__fold_0.json"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/folds/MOMENT__fold_1.json"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/folds/MOMENT__fold_2.json"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/folds/MOMENT__fold_3.json"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/folds/MOMENT__fold_4.json"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/folds/MOMENT__fold_5.json"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/nested_comparison.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/nested_oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/nested_summary.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/notebook_validation.json"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__anova_128__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__anova_128__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__anova_128__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__anova_256__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__anova_256__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__anova_256__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__anova_32__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__anova_32__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__anova_32__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__anova_512__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__anova_512__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__anova_512__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__anova_64__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__anova_64__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__anova_64__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__extratrees_128__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__extratrees_128__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__extratrees_128__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__extratrees_256__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__extratrees_256__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__extratrees_256__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__extratrees_32__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__extratrees_32__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__extratrees_32__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__extratrees_512__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__extratrees_512__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__extratrees_512__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__extratrees_64__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__extratrees_64__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__extratrees_64__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__none__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__none__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__none__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__pca_128__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__pca_128__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__pca_128__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__pca_16__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__pca_16__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__pca_16__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__pca_32__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__pca_32__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__pca_32__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__pca_64__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__pca_64__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__pca_64__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__pca_var90__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__pca_var90__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__pca_var90__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__pca_var95__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__pca_var95__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__pca_var95__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__pca_var99__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__pca_var99__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/CWT__pca_var99__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__anova_128__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__anova_128__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__anova_128__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__anova_256__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__anova_256__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__anova_256__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__anova_32__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__anova_32__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__anova_32__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__anova_512__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__anova_512__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__anova_512__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__anova_64__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__anova_64__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__anova_64__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__extratrees_128__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__extratrees_128__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__extratrees_128__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__extratrees_256__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__extratrees_256__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__extratrees_256__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__extratrees_32__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__extratrees_32__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__extratrees_32__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__extratrees_512__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__extratrees_512__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__extratrees_512__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__extratrees_64__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__extratrees_64__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__extratrees_64__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__none__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__none__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__none__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__pca_128__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__pca_128__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__pca_128__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__pca_16__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__pca_16__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__pca_16__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__pca_32__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__pca_32__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__pca_32__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__pca_64__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__pca_64__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__pca_64__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__pca_var90__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__pca_var90__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__pca_var90__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__pca_var95__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__pca_var95__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__pca_var95__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__pca_var99__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__pca_var99__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/GAF__pca_var99__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__anova_128__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__anova_128__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__anova_128__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__anova_256__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__anova_256__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__anova_256__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__anova_32__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__anova_32__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__anova_32__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__anova_512__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__anova_512__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__anova_512__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__anova_64__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__anova_64__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__anova_64__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__extratrees_128__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__extratrees_128__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__extratrees_128__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__extratrees_256__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__extratrees_256__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__extratrees_256__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__extratrees_32__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__extratrees_32__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__extratrees_32__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__extratrees_512__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__extratrees_512__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__extratrees_512__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__extratrees_64__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__extratrees_64__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__extratrees_64__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__none__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__none__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__none__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__pca_128__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__pca_128__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__pca_128__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__pca_16__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__pca_16__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__pca_16__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__pca_32__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__pca_32__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__pca_32__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__pca_64__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__pca_64__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__pca_64__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__pca_var90__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__pca_var90__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__pca_var90__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__pca_var95__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__pca_var95__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__pca_var95__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__pca_var99__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__pca_var99__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/Kinematic__pca_var99__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__anova_128__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__anova_128__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__anova_128__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__anova_256__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__anova_256__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__anova_256__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__anova_32__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__anova_32__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__anova_32__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__anova_512__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__anova_512__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__anova_512__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__anova_64__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__anova_64__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__anova_64__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__extratrees_128__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__extratrees_128__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__extratrees_128__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__extratrees_256__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__extratrees_256__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__extratrees_256__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__extratrees_32__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__extratrees_32__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__extratrees_32__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__extratrees_512__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__extratrees_512__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__extratrees_512__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__extratrees_64__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__extratrees_64__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__extratrees_64__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__none__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__none__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__none__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__pca_128__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__pca_128__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__pca_128__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__pca_16__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__pca_16__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__pca_16__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__pca_32__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__pca_32__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__pca_32__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__pca_64__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__pca_64__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__pca_64__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__pca_var90__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__pca_var90__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__pca_var90__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__pca_var95__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__pca_var95__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__pca_var95__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__pca_var99__LightGBM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__pca_var99__LogisticRegression.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/oof/MOMENT__pca_var99__SVM.oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/original_artifacts.json"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/progress.json"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/run.log"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/selected_by_fold.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/selection_frequency.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/settings.json"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/summary.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/feature_optimization/validation.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/DESIGN_VI.md"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/REPORT_VI.md"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/ablation_comparison.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/code/scripts/create_fusion_notebook.py"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/code/scripts/evaluate.py"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/code/scripts/evaluate_fusion_ablation.py"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/code/scripts/fusion_common.py"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/code/scripts/report_fusion_ablation.py"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/code/scripts/validate_fusion_ablation.py"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/code/src/diagramo/fusion.py"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/code/src/diagramo/kernels.py"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/code/tests/test_fusion.py"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/compute_costs.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/confidence_ablation.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/correction_harm.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/evaluation.log"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/figures/adaptive_weights.png"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/figures/adaptive_weights.svg"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/figures/compute_cost.png"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/figures/compute_cost.svg"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/figures/correction_harm.png"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/figures/correction_harm.svg"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/figures/manifest.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/figures/modality_ablation.png"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/figures/modality_ablation.svg"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/figures/nested_comparison.png"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/figures/nested_comparison.svg"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/figures/oof_roc.png"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/figures/oof_roc.svg"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/figures/paired_outer_folds.png"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/figures/paired_outer_folds.svg"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/fold_assignments.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/fold_scores.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/folds/fold_0.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/folds/fold_1.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/folds/fold_2.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/folds/fold_3.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/folds/fold_4.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/folds/fold_5.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/historical_early_summary.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/nested_oof.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/nested_summary.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/notebook_validation.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/oof/Kinematic_LightGBM.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/oof/adaptive__KC.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/oof/adaptive__KG.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/oof/adaptive__KG_adapter.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/oof/adaptive__KM.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/oof/adaptive__KMG.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/oof/adaptive__KMG_adapter.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/oof/all_selected.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/oof/compact__KC.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/oof/compact__KG.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/oof/compact__KG_adapter.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/oof/compact__KM.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/oof/compact__KMG.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/oof/compact__KMG_adapter.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/oof/equal__KC.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/oof/equal__KG.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/oof/equal__KG_adapter.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/oof/equal__KM.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/oof/equal__KMG.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/oof/equal__KMG_adapter.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/oof/late__KC.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/oof/late__KG.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/oof/late__KG_adapter.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/oof/late__KM.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/oof/late__KMG.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/oof/late__KMG_adapter.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/oof/original__KC.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/oof/original__KG.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/oof/original__KM.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/oof/original__KMG.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/oof/single__A.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/oof/single__C.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/oof/single__G.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/oof/single__M.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/original_artifacts.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/prediction_changes.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/selected_by_fold.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/selection_frequency.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/selections/fold_0.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/selections/fold_0_base_crossfit.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/selections/fold_0_inner_predictions.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/selections/fold_1.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/selections/fold_1_base_crossfit.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/selections/fold_1_inner_predictions.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/selections/fold_2.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/selections/fold_2_base_crossfit.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/selections/fold_2_inner_predictions.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/selections/fold_3.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/selections/fold_3_base_crossfit.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/selections/fold_3_inner_predictions.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/selections/fold_4.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/selections/fold_4_base_crossfit.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/selections/fold_4_inner_predictions.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/selections/fold_5.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/selections/fold_5_base_crossfit.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/selections/fold_5_inner_predictions.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/settings.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_0.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_0.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_0_inner_0.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_0_inner_0.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_0_inner_0_crossfit_0.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_0_inner_0_crossfit_0.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_0_inner_0_crossfit_1.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_0_inner_0_crossfit_1.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_0_inner_0_crossfit_2.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_0_inner_0_crossfit_2.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_0_inner_1.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_0_inner_1.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_0_inner_1_crossfit_0.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_0_inner_1_crossfit_0.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_0_inner_1_crossfit_1.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_0_inner_1_crossfit_1.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_0_inner_1_crossfit_2.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_0_inner_1_crossfit_2.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_0_inner_2.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_0_inner_2.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_0_inner_2_crossfit_0.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_0_inner_2_crossfit_0.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_0_inner_2_crossfit_1.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_0_inner_2_crossfit_1.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_0_inner_2_crossfit_2.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_0_inner_2_crossfit_2.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_1.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_1.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_1_inner_0.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_1_inner_0.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_1_inner_0_crossfit_0.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_1_inner_0_crossfit_0.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_1_inner_0_crossfit_1.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_1_inner_0_crossfit_1.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_1_inner_0_crossfit_2.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_1_inner_0_crossfit_2.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_1_inner_1.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_1_inner_1.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_1_inner_1_crossfit_0.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_1_inner_1_crossfit_0.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_1_inner_1_crossfit_1.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_1_inner_1_crossfit_1.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_1_inner_1_crossfit_2.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_1_inner_1_crossfit_2.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_1_inner_2.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_1_inner_2.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_1_inner_2_crossfit_0.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_1_inner_2_crossfit_0.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_1_inner_2_crossfit_1.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_1_inner_2_crossfit_1.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_1_inner_2_crossfit_2.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_1_inner_2_crossfit_2.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_2.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_2.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_2_inner_0.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_2_inner_0.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_2_inner_0_crossfit_0.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_2_inner_0_crossfit_0.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_2_inner_0_crossfit_1.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_2_inner_0_crossfit_1.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_2_inner_0_crossfit_2.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_2_inner_0_crossfit_2.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_2_inner_1.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_2_inner_1.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_2_inner_1_crossfit_0.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_2_inner_1_crossfit_0.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_2_inner_1_crossfit_1.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_2_inner_1_crossfit_1.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_2_inner_1_crossfit_2.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_2_inner_1_crossfit_2.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_2_inner_2.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_2_inner_2.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_2_inner_2_crossfit_0.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_2_inner_2_crossfit_0.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_2_inner_2_crossfit_1.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_2_inner_2_crossfit_1.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_2_inner_2_crossfit_2.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_2_inner_2_crossfit_2.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_3.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_3.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_3_inner_0.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_3_inner_0.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_3_inner_0_crossfit_0.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_3_inner_0_crossfit_0.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_3_inner_0_crossfit_1.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_3_inner_0_crossfit_1.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_3_inner_0_crossfit_2.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_3_inner_0_crossfit_2.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_3_inner_1.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_3_inner_1.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_3_inner_1_crossfit_0.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_3_inner_1_crossfit_0.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_3_inner_1_crossfit_1.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_3_inner_1_crossfit_1.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_3_inner_1_crossfit_2.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_3_inner_1_crossfit_2.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_3_inner_2.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_3_inner_2.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_3_inner_2_crossfit_0.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_3_inner_2_crossfit_0.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_3_inner_2_crossfit_1.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_3_inner_2_crossfit_1.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_3_inner_2_crossfit_2.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_3_inner_2_crossfit_2.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_4.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_4.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_4_inner_0.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_4_inner_0.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_4_inner_0_crossfit_0.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_4_inner_0_crossfit_0.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_4_inner_0_crossfit_1.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_4_inner_0_crossfit_1.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_4_inner_0_crossfit_2.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_4_inner_0_crossfit_2.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_4_inner_1.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_4_inner_1.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_4_inner_1_crossfit_0.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_4_inner_1_crossfit_0.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_4_inner_1_crossfit_1.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_4_inner_1_crossfit_1.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_4_inner_1_crossfit_2.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_4_inner_1_crossfit_2.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_4_inner_2.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_4_inner_2.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_4_inner_2_crossfit_0.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_4_inner_2_crossfit_0.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_4_inner_2_crossfit_1.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_4_inner_2_crossfit_1.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_4_inner_2_crossfit_2.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_4_inner_2_crossfit_2.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_5.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_5.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_5_inner_0.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_5_inner_0.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_5_inner_0_crossfit_0.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_5_inner_0_crossfit_0.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_5_inner_0_crossfit_1.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_5_inner_0_crossfit_1.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_5_inner_0_crossfit_2.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_5_inner_0_crossfit_2.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_5_inner_1.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_5_inner_1.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_5_inner_1_crossfit_0.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_5_inner_1_crossfit_0.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_5_inner_1_crossfit_1.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_5_inner_1_crossfit_1.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_5_inner_1_crossfit_2.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_5_inner_1_crossfit_2.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_5_inner_2.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_5_inner_2.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_5_inner_2_crossfit_0.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_5_inner_2_crossfit_0.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_5_inner_2_crossfit_1.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_5_inner_2_crossfit_1.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_5_inner_2_crossfit_2.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/stages/outer_5_inner_2_crossfit_2.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/test_validation.json"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/tests.log"
+    },
+    {
+      "status": "D",
+      "path": "results/fusion_ablation/validation.json"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/REPORT_VI.md"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attempts/precision_01/FAILURE_VI.md"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attempts/precision_01/attributions/kinematic_fold_0.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attempts/precision_01/code/scripts/analyze_xai.py"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attempts/precision_01/code/scripts/evaluate.py"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attempts/precision_01/code/scripts/prepare.py"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attempts/precision_01/code/scripts/xai_common.py"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attempts/precision_01/code/src/diagramo/explain.py"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attempts/precision_01/code/src/diagramo/features.py"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attempts/precision_01/code/src/diagramo/fusion.py"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attempts/precision_01/feature_mapping.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attempts/precision_01/fold_assignments.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attempts/precision_01/mapping_audit.json"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attempts/precision_01/original_artifacts.json"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attempts/precision_01/settings.json"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attempts/precision_01/validation.json"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attempts/precision_02/FAILURE_VI.md"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attempts/precision_02/attributions/cwt_adaptive__KC_fold_0.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attempts/precision_02/attributions/cwt_adaptive__KC_fold_1.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attempts/precision_02/attributions/cwt_late__KC_fold_0.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attempts/precision_02/attributions/cwt_late__KC_fold_1.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attempts/precision_02/attributions/kinematic_fold_0.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attempts/precision_02/attributions/kinematic_fold_1.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attempts/precision_02/code/scripts/analyze_xai.py"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attempts/precision_02/code/scripts/evaluate.py"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attempts/precision_02/code/scripts/prepare.py"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attempts/precision_02/code/scripts/xai_common.py"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attempts/precision_02/code/src/diagramo/explain.py"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attempts/precision_02/code/src/diagramo/features.py"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attempts/precision_02/code/src/diagramo/fusion.py"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attempts/precision_02/feature_mapping.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attempts/precision_02/fold_assignments.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attempts/precision_02/folds/cwt_components_0.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attempts/precision_02/folds/cwt_components_1.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attempts/precision_02/folds/fold_0.json"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attempts/precision_02/folds/fold_1.json"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attempts/precision_02/folds/fusion_0.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attempts/precision_02/folds/fusion_1.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attempts/precision_02/mapping_audit.json"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attempts/precision_02/original_artifacts.json"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attempts/precision_02/permutation/fold_0.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attempts/precision_02/permutation/fold_0.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attempts/precision_02/permutation/fold_1.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attempts/precision_02/permutation/fold_1.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attempts/precision_02/settings.json"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attempts/precision_02/validation.json"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attributions/cwt_adaptive__KC_fold_0.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attributions/cwt_adaptive__KC_fold_1.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attributions/cwt_adaptive__KC_fold_2.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attributions/cwt_adaptive__KC_fold_3.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attributions/cwt_adaptive__KC_fold_4.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attributions/cwt_adaptive__KC_fold_5.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attributions/cwt_late__KC_fold_0.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attributions/cwt_late__KC_fold_1.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attributions/cwt_late__KC_fold_2.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attributions/cwt_late__KC_fold_3.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attributions/cwt_late__KC_fold_4.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attributions/cwt_late__KC_fold_5.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attributions/kinematic_fold_0.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attributions/kinematic_fold_1.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attributions/kinematic_fold_2.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attributions/kinematic_fold_3.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attributions/kinematic_fold_4.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/attributions/kinematic_fold_5.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/code/requirements-xai.txt"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/code/scripts/analyze_xai.py"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/code/scripts/create_xai_notebook.py"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/code/scripts/evaluate.py"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/code/scripts/plot_xai.py"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/code/scripts/prepare.py"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/code/scripts/report_xai.py"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/code/scripts/validate_xai.py"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/code/scripts/xai_common.py"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/code/src/diagramo/explain.py"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/code/src/diagramo/features.py"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/code/src/diagramo/fusion.py"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/code/tests/test_explain.py"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/cwt_component_importance.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/explainer_sensitivity.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/feature_importance.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/feature_importance_by_fold.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/feature_importance_interventional_raw.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/feature_importance_probability.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/feature_mapping.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/figures/cwt_pca_components.png"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/figures/cwt_pca_components.svg"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/figures/feature_groups.png"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/figures/feature_groups.svg"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/figures/fusion_corrected_harmed.png"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/figures/fusion_corrected_harmed.svg"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/figures/fusion_probability_correction.png"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/figures/fusion_probability_correction.svg"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/figures/grouped_permutation_tasks.png"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/figures/grouped_permutation_tasks.svg"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/figures/manifest.json"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/figures/shap_bar.png"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/figures/shap_bar.svg"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/figures/shap_beeswarm.png"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/figures/shap_beeswarm.svg"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/figures/shap_dependence.png"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/figures/shap_dependence.svg"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/figures/shap_summary.png"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/figures/shap_summary.svg"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/figures/task_fold_ranks.png"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/figures/task_fold_ranks.svg"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/figures/task_group_heatmap.png"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/figures/task_group_heatmap.svg"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/figures/task_importance.png"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/figures/task_importance.svg"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/figures/task_waterfall.png"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/figures/task_waterfall.svg"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/figures/waterfall_corrected.png"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/figures/waterfall_corrected.svg"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/figures/waterfall_harmed.png"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/figures/waterfall_harmed.svg"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/figures/waterfall_unchanged_correct.png"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/figures/waterfall_unchanged_correct.svg"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/figures/waterfall_unchanged_wrong.png"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/figures/waterfall_unchanged_wrong.svg"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/fold_assignments.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/fold_stability.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/fold_stability_summary.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/folds/cwt_components_0.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/folds/cwt_components_1.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/folds/cwt_components_2.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/folds/cwt_components_3.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/folds/cwt_components_4.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/folds/cwt_components_5.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/folds/fold_0.json"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/folds/fold_1.json"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/folds/fold_2.json"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/folds/fold_3.json"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/folds/fold_4.json"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/folds/fold_5.json"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/folds/fusion_0.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/folds/fusion_1.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/folds/fusion_2.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/folds/fusion_3.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/folds/fusion_4.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/folds/fusion_5.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/fusion_confidence_bins.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/fusion_corrected_harmed_cases.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/fusion_fold_mechanisms.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/fusion_outcome_summary.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/fusion_participants.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/group_importance.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/group_importance_by_fold.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/group_importance_interventional_raw.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/group_importance_probability.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/local_cases.json"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/mapping_audit.json"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/notebook_validation.json"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/original_artifacts.json"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/output_space_checks.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/participant_top_features.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/permutation/fold_0.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/permutation/fold_0.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/permutation/fold_1.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/permutation/fold_1.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/permutation/fold_2.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/permutation/fold_2.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/permutation/fold_3.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/permutation/fold_3.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/permutation/fold_4.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/permutation/fold_4.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/permutation/fold_5.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/permutation/fold_5.npz"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/permutation_fold_scores.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/permutation_importance.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/permutation_repeats.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/settings.json"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/shap_permutation_concordance.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/task_group_importance.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/task_group_participant_contributions.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/task_importance.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/task_importance_by_fold.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/task_importance_interventional_raw.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/task_importance_probability.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/task_rank_stability.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/test_validation.json"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/tests.log"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/top_feature_groups.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/top_features.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/top_tasks.csv"
+    },
+    {
+      "status": "D",
+      "path": "results/xai/validation.json"
+    },
+    {
+      "status": "D",
+      "path": "scripts/analyze_xai.py"
+    },
+    {
+      "status": "D",
+      "path": "scripts/audit_embedding_baseline.py"
+    },
+    {
+      "status": "D",
+      "path": "scripts/benchmark_embedding_ablation.py"
+    },
+    {
+      "status": "D",
+      "path": "scripts/create_embedding_notebook.py"
+    },
+    {
+      "status": "D",
+      "path": "scripts/create_feature_notebooks.py"
+    },
+    {
+      "status": "D",
+      "path": "scripts/create_fusion_notebook.py"
+    },
+    {
+      "status": "D",
+      "path": "scripts/create_xai_notebook.py"
+    },
+    {
+      "status": "D",
+      "path": "scripts/embedding_common.py"
+    },
+    {
+      "status": "M",
+      "path": "scripts/evaluate.py"
+    },
+    {
+      "status": "D",
+      "path": "scripts/evaluate_embedding_ablation.py"
+    },
+    {
+      "status": "D",
+      "path": "scripts/evaluate_fusion_ablation.py"
+    },
+    {
+      "status": "M",
+      "path": "scripts/extract.py"
+    },
+    {
+      "status": "D",
+      "path": "scripts/extract_embedding_ablation.py"
+    },
+    {
+      "status": "D",
+      "path": "scripts/fusion_common.py"
+    },
+    {
+      "status": "D",
+      "path": "scripts/optimize_features.py"
+    },
+    {
+      "status": "D",
+      "path": "scripts/plot_xai.py"
+    },
+    {
+      "status": "M",
+      "path": "scripts/prepare.py"
+    },
+    {
+      "status": "D",
+      "path": "scripts/report_embedding_ablation.py"
+    },
+    {
+      "status": "D",
+      "path": "scripts/report_feature_optimization.py"
+    },
+    {
+      "status": "D",
+      "path": "scripts/report_fusion_ablation.py"
+    },
+    {
+      "status": "D",
+      "path": "scripts/report_xai.py"
+    },
+    {
+      "status": "D",
+      "path": "scripts/validate_embedding_ablation.py"
+    },
+    {
+      "status": "D",
+      "path": "scripts/validate_fusion_ablation.py"
+    },
+    {
+      "status": "D",
+      "path": "scripts/validate_xai.py"
+    },
+    {
+      "status": "D",
+      "path": "scripts/xai_common.py"
+    },
+    {
+      "status": "D",
+      "path": "src/diagramo/channel_embedding.py"
+    },
+    {
+      "status": "D",
+      "path": "src/diagramo/explain.py"
+    },
+    {
+      "status": "D",
+      "path": "src/diagramo/fusion.py"
+    },
+    {
+      "status": "D",
+      "path": "src/diagramo/reduction.py"
+    },
+    {
+      "status": "D",
+      "path": "tests/test_channel_embedding.py"
+    },
+    {
+      "status": "D",
+      "path": "tests/test_explain.py"
+    },
+    {
+      "status": "D",
+      "path": "tests/test_fusion.py"
+    },
+    {
+      "status": "D",
+      "path": "tests/test_reduction.py"
+    },
+    {
+      "status": "A",
+      "path": "docs/cleanup/REPORT_VI.md"
+    },
+    {
+      "status": "A",
+      "path": "docs/cleanup/artifact_validation.json"
+    },
+    {
+      "status": "A",
+      "path": "docs/cleanup/baseline_manifest.json"
+    },
+    {
+      "status": "A",
+      "path": "docs/cleanup/changes.json"
+    },
+    {
+      "status": "A",
+      "path": "docs/cleanup/classification.json"
+    },
+    {
+      "status": "A",
+      "path": "docs/cleanup/dependencies_before.json"
+    },
+    {
+      "status": "A",
+      "path": "docs/cleanup/encoder_validation.json"
+    },
+    {
+      "status": "A",
+      "path": "docs/cleanup/notebook_validation.json"
+    },
+    {
+      "status": "A",
+      "path": "docs/cleanup/origin.json"
+    },
+    {
+      "status": "A",
+      "path": "docs/cleanup/preservation_summary.csv"
+    },
+    {
+      "status": "A",
+      "path": "docs/cleanup/removal_plan.json"
+    },
+    {
+      "status": "A",
+      "path": "docs/cleanup/report_validation.json"
+    },
+    {
+      "status": "A",
+      "path": "docs/cleanup/repository_tree.txt"
+    },
+    {
+      "status": "A",
+      "path": "docs/cleanup/source_validation.json"
+    },
+    {
+      "status": "A",
+      "path": "docs/cleanup/structure_validation.json"
+    },
+    {
+      "status": "A",
+      "path": "docs/cleanup/tests.log"
+    },
+    {
+      "status": "A",
+      "path": "docs/cleanup/validation.json"
+    },
+    {
+      "status": "A",
+      "path": "scripts/audit_cleanup.py"
+    },
+    {
+      "status": "A",
+      "path": "scripts/document_cleanup.py"
+    },
+    {
+      "status": "A",
+      "path": "scripts/validate_baseline.py"
+    },
+    {
+      "status": "A",
+      "path": "src/diagramo/branches/__init__.py"
+    },
+    {
+      "status": "A",
+      "path": "src/diagramo/branches/cwt.py"
+    },
+    {
+      "status": "A",
+      "path": "src/diagramo/branches/gaf.py"
+    },
+    {
+      "status": "A",
+      "path": "src/diagramo/branches/kinematic.py"
+    },
+    {
+      "status": "A",
+      "path": "src/diagramo/branches/moment.py"
+    },
+    {
+      "status": "A",
+      "path": "tests/test_baseline.py"
+    }
+  ],
+  "moved": [],
+  "unknown_user_file_preserved_untracked": "DiaGraMo_REVIEW_KEEP_DECISIONS_VI.md"
+}

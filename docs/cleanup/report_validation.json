@@ -1,0 +1,20 @@
+{
+  "complete": true,
+  "temporary_directory": "tmp/cleanup_report_yhgn6252",
+  "baseline_reports_executed": [
+    "report.py --no-notebooks",
+    "report_paper_tables.py"
+  ],
+  "csv_numeric_content_matches": [
+    "best_per_representation.csv",
+    "comparison_paper.csv",
+    "paper_tables_comparison.csv",
+    "table_III_fusion_top3.csv",
+    "table_II_image_top3.csv",
+    "table_I_signal_top3.csv",
+    "table_fusion.csv",
+    "table_unimodal.csv"
+  ],
+  "validation_json_matches": true,
+  "original_reports_overwritten": false
+}

@@ -1,0 +1,84 @@
+{
+  "baseline_source_files": [
+    {
+      "path": "scripts/download_weights.py",
+      "original_normalized_sha256": "c09ba916fd281a1fcafd476d59bc1379cf6e48da669638c643efa6ab789e8d94",
+      "current_normalized_sha256": "c09ba916fd281a1fcafd476d59bc1379cf6e48da669638c643efa6ab789e8d94",
+      "unchanged_from_original_baseline": true
+    },
+    {
+      "path": "scripts/evaluate.py",
+      "original_normalized_sha256": "3d1f9526ad8cd4fe8c6fd721b914c32f19c7f7f4a28e65d381aa9935771671ed",
+      "current_normalized_sha256": "a5960b982b06b229aee20b7b8487ac6d617c590b2708fc453d579c8086f6aa1a",
+      "unchanged_from_original_baseline": false
+    },
+    {
+      "path": "scripts/execute_notebooks.py",
+      "original_normalized_sha256": "719a10f34958d465bfdc6b56828f0bbfc81d5d80596b67d3a78236b2f15138de",
+      "current_normalized_sha256": "cc2f966552008dd1001ab1e18096d5e87ca733d2a7bc69efb1f47f25eaffed92",
+      "unchanged_from_original_baseline": false
+    },
+    {
+      "path": "scripts/extract.py",
+      "original_normalized_sha256": "47a1d9c0495b3738dab25ad69756944857498ffd6c6866c9d3ce78f37743656b",
+      "current_normalized_sha256": "e38b973b966778aae601ff7e7d0941a18e6dda442916cdeddc564bef723aa547",
+      "unchanged_from_original_baseline": false
+    },
+    {
+      "path": "scripts/prepare.py",
+      "original_normalized_sha256": "a322ac2aa0e284d8b66e66bcdd449454117b4a7479b9449b302489c76a8daf17",
+      "current_normalized_sha256": "52212edd80634d5a307ff2daa08194a6c4b3546ac254d98fec604189e1aa7c87",
+      "unchanged_from_original_baseline": false
+    },
+    {
+      "path": "scripts/report.py",
+      "original_normalized_sha256": "5e7ea95b77388338488fc8afe219e1dbbe5badc425dc1007feaeb31251e3cbbd",
+      "current_normalized_sha256": "5e7ea95b77388338488fc8afe219e1dbbe5badc425dc1007feaeb31251e3cbbd",
+      "unchanged_from_original_baseline": true
+    },
+    {
+      "path": "scripts/report_paper_tables.py",
+      "original_normalized_sha256": "8fb7c4927f5f9379e78b98ceff43a9e7019f484aa0a805538bd9e81fe54d5493",
+      "current_normalized_sha256": "8fb7c4927f5f9379e78b98ceff43a9e7019f484aa0a805538bd9e81fe54d5493",
+      "unchanged_from_original_baseline": true
+    },
+    {
+      "path": "scripts/run_all.py",
+      "original_normalized_sha256": "fdee422e8cd441d97e5fa1ec347a72307aed77bf1b44bdd53acb6defd7ca4869",
+      "current_normalized_sha256": "fdee422e8cd441d97e5fa1ec347a72307aed77bf1b44bdd53acb6defd7ca4869",
+      "unchanged_from_original_baseline": true
+    },
+    {
+      "path": "scripts/sensitivity.py",
+      "original_normalized_sha256": "2ebc000be3f825451e5e61071ea0ee4e4fd59495fd1c167bab391d96a72b3ccc",
+      "current_normalized_sha256": "2ebc000be3f825451e5e61071ea0ee4e4fd59495fd1c167bab391d96a72b3ccc",
+      "unchanged_from_original_baseline": true
+    },
+    {
+      "path": "scripts/train_selected.py",
+      "original_normalized_sha256": "e351eb34e42261f8a2169bb4119a7ff7374138ca461fdaa6028604f99f6587b1",
+      "current_normalized_sha256": "e351eb34e42261f8a2169bb4119a7ff7374138ca461fdaa6028604f99f6587b1",
+      "unchanged_from_original_baseline": true
+    },
+    {
+      "path": "src/diagramo/__init__.py",
+      "original_normalized_sha256": "7586d6f7eec701a2a28a84ed87c59e3c1bddaa01d956a65e5678eb638f2ed48a",
+      "current_normalized_sha256": "7586d6f7eec701a2a28a84ed87c59e3c1bddaa01d956a65e5678eb638f2ed48a",
+      "unchanged_from_original_baseline": true
+    },
+    {
+      "path": "src/diagramo/features.py",
+      "original_normalized_sha256": "95ea85122f983e971ae6f2dbd5a14cc8aa2ede157e5db909b932ffed9b02b9b9",
+      "current_normalized_sha256": "95ea85122f983e971ae6f2dbd5a14cc8aa2ede157e5db909b932ffed9b02b9b9",
+      "unchanged_from_original_baseline": true
+    },
+    {
+      "path": "src/diagramo/kernels.py",
+      "original_normalized_sha256": "64b9a703f6c417320da0a6dde521840ba0ffaa0b64e1e292ccd37bf9547ab689",
+      "current_normalized_sha256": "64b9a703f6c417320da0a6dde521840ba0ffaa0b64e1e292ccd37bf9547ab689",
+      "unchanged_from_original_baseline": true
+    }
+  ],
+  "load_encoder_ast_matches_original": true,
+  "formula_source_unchanged": true
+}

@@ -48,10 +48,7 @@ def metrics(y,pred,prob):
 
 
 def build_pipeline(clf_name, clf, *, preprocess=True):
-    """Shared fixed classifier pipeline for baseline and fold-local reduction studies.
-
-    Disable preprocessing only after an independently fitted training-fold bank.
-    """
+    """Build the fixed baseline pipeline; fit preprocessing on training rows only."""
     estimator=clone(clf)
     steps=[SimpleImputer(strategy='median'),VarianceThreshold(),StandardScaler()] if preprocess else []
     if clf_name=='SVM' and estimator.kernel=='rbf':

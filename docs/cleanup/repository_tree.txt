@@ -1,0 +1,75 @@
+.
+src/
+  diagramo/__init__.py
+  diagramo/branches/__init__.py
+  diagramo/branches/cwt.py
+  diagramo/branches/gaf.py
+  diagramo/branches/kinematic.py
+  diagramo/branches/moment.py
+  diagramo/features.py
+  diagramo/kernels.py
+scripts/
+  audit_cleanup.py
+  document_cleanup.py
+  download_weights.py
+  evaluate.py
+  execute_notebooks.py
+  extract.py
+  prepare.py
+  report.py
+  report_paper_tables.py
+  run_all.py
+  sensitivity.py
+  train_selected.py
+  validate_baseline.py
+tests/
+  test_baseline.py
+notebooks/
+  01_data_inspection.ipynb
+  02_kinematic_features.ipynb
+  03_pretrained_representations.ipynb
+  04_evaluation_and_fusion.ipynb
+references/
+  weights_manifest.json
+docs/cleanup/
+  artifact_validation.json
+  baseline_manifest.json
+  changes.json
+  classification.json
+  dependencies_before.json
+  encoder_validation.json
+  notebook_validation.json
+  origin.json
+  preservation_summary.csv
+  removal_plan.json
+  report_validation.json
+  REPORT_VI.md
+  repository_tree.txt
+  source_validation.json
+  structure_validation.json
+  tests.log
+  validation.json
+results/
+  cv/ (168 result JSON + 168 OOF CSV + summary/settings/fold assignments)
+  audit/
+  figures/
+  sensitivity/
+  models/ (local, ignored)
+  best_per_representation.csv
+  comparison_paper.csv
+  environment.json
+  notebook_validation.json
+  paper_tables_comparison.csv
+  PAPER_TABLES_VI.md
+  REPORT_VI.md
+  table_fusion.csv
+  table_I_signal_top3.csv
+  table_II_image_top3.csv
+  table_III_fusion_top3.csv
+  table_unimodal.csv
+  validation.json
+data/ (local, unchanged)
+.cache/ (local, unchanged)
+.venv/ (local, unchanged)
+.venv314/ (local, unchanged)
+tmp/ (local verification copies, ignored)

@@ -9,16 +9,15 @@ os.environ.setdefault('TORCH_HOME',str(ROOT/'.cache/torch'))
 os.environ.setdefault('HF_HUB_DISABLE_SYMLINKS_WARNING','1')
 import numpy as np
 import torch
-from diagramo.features import resample,gaf,cwt
+from diagramo.features import resample
+from diagramo.branches.gaf import transform as gaf
+from diagramo.branches.cwt import transform as cwt
+from diagramo.branches.moment import extract as moment_embedding
 
 def save_json(p,obj): p.write_text(json.dumps(obj,indent=2),encoding='utf-8')
 
-def load_encoder(name, input_channels=7):
-    """Load the original seven-channel baseline, or an unchanged RGB encoder.
-
-    input_channels=7 preserves the original implementation and output paths.
-    RGB is used only by the separate embedding ablation extraction script.
-    """
+def load_encoder(name):
+    """Load an original image backbone with the baseline seven-channel kernel."""
     from torchvision import models
     from torch import nn
     if name=='resnet50':
@@ -34,8 +33,6 @@ def load_encoder(name, input_channels=7):
         model=models.vgg16(weights=models.VGG16_Weights.IMAGENET1K_V1)
         model.classifier[-1]=nn.Identity(); first='features.0'; dim=4096
     else: raise ValueError(name)
-    if input_channels==3: return model,dim
-    if input_channels!=7: raise ValueError('Supported encoder inputs: 3 or 7 channels')
     parent=model; parts=first.split('.')
     for part in parts[:-1]: parent=getattr(parent,part)
     old=getattr(parent,parts[-1])
@@ -100,7 +97,7 @@ def main():
                 # Keep raw large-range signals float32 through RevIN; half variance
                 # would overflow for pressure. Autocast converts linear layers only.
                 context=torch.autocast('cuda',dtype=torch.float16) if half else nullcontext()
-                with context: emb=model(x_enc=x).embeddings
+                with context: emb=moment_embedding(model,x)
             else:
                 x=torch.from_numpy((images-.449)/.226).to(device)
                 if half: x=x.half()

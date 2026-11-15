@@ -6,7 +6,8 @@ sys.path.insert(0,str(ROOT/'src'))
 import json, re, hashlib, collections
 import numpy as np
 import pandas as pd
-from diagramo.features import CHANNELS, kinematic, resample
+from diagramo.features import CHANNELS, resample
+from diagramo.branches.kinematic import extract as kinematic
 try:
     import orjson
     loads=orjson.loads

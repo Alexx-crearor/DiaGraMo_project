@@ -1,0 +1,20 @@
+{
+  "seed": 42,
+  "seeds": [42,43,44],
+  "outer_folds": 6,
+  "inner_folds": 3,
+  "patch_size": 128,
+  "stroke_tokens": 16,
+  "task_tokens": 32,
+  "families": ["cnn","tcn","transformer","hierarchical"],
+  "ablations": ["no_explicit_time","no_position","index_time","local_stroke"],
+  "candidates": [{"d_model":32,"dropout":0.1},{"d_model":32,"dropout":0.25}],
+  "training": {"maximum_epochs":20,"patience":4,"minimum_epochs":6,"learning_rate":0.001,"weight_decay":0.001,"gradient_accumulation":8,"gradient_clip":1.0},
+  "threshold": 0.5,
+  "selection": "inner mean macro-F1, then inner AUC, then candidate index; nested architecture winner selected within Train only",
+  "final_epochs": "median best-validation-BCE epoch in three inner folds",
+  "time_policy": {"minimum_dt":0.0001,"maximum_dt":1.0},
+  "occlusion_repeats":3,
+  "segment_mask_fraction":0.1,
+  "xai_example_rule":"lexicographically first participant per TP/TN/FP/FN outcome of hierarchical seed42; all-participant coarse occlusion also retained"
+}

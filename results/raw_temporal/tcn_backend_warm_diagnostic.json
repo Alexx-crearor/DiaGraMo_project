@@ -1,0 +1,45 @@
+{
+  "rows": [
+    {
+      "cudnn_enabled": true,
+      "repeat": 0,
+      "seconds": 0.8093177000409923
+    },
+    {
+      "cudnn_enabled": true,
+      "repeat": 1,
+      "seconds": 0.4730248999549076
+    },
+    {
+      "cudnn_enabled": true,
+      "repeat": 2,
+      "seconds": 0.5016471999697387
+    },
+    {
+      "cudnn_enabled": true,
+      "repeat": 3,
+      "seconds": 0.4668029999593273
+    },
+    {
+      "cudnn_enabled": false,
+      "repeat": 0,
+      "seconds": 0.525865200033877
+    },
+    {
+      "cudnn_enabled": false,
+      "repeat": 1,
+      "seconds": 0.5061909999931231
+    },
+    {
+      "cudnn_enabled": false,
+      "repeat": 2,
+      "seconds": 0.5061480000149459
+    },
+    {
+      "cudnn_enabled": false,
+      "repeat": 3,
+      "seconds": 0.4830009999568574
+    }
+  ],
+  "no_participant_labels_used": true
+}

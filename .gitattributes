@@ -1,0 +1,12 @@
+# Preserve exact bytes used by Raw Temporal SHA-256 provenance.
+/src/diagramo/temporal/** -text whitespace=blank-at-eol,space-before-tab,cr-at-eol,-blank-at-eof
+/scripts/*raw_temporal*.py -text whitespace=blank-at-eol,space-before-tab,cr-at-eol,-blank-at-eof
+/tests/test_raw_temporal.py -text whitespace=blank-at-eol,space-before-tab,cr-at-eol,-blank-at-eof
+/configs/raw_temporal*.json -text whitespace=blank-at-eol,space-before-tab,cr-at-eol,-blank-at-eof
+/notebooks/06_raw_temporal_graphomotor.ipynb -text whitespace=blank-at-eol,space-before-tab,cr-at-eol,-blank-at-eof
+/results/raw_temporal/** -text whitespace=blank-at-eol,space-before-tab,cr-at-eol,-blank-at-eof
+
+# Preserve renderer paths and captured diagnostic output verbatim.
+/results/raw_temporal/**/*.svg -whitespace
+/results/raw_temporal/**/*.log -whitespace
+/results/raw_temporal/*.log -whitespace

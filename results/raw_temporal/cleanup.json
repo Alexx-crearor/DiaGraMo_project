@@ -2196,5 +2196,11 @@
   ],
   "protected_files": 706,
   "history_rewritten": false,
-  "cache_retention": "ignored caches/checkpoints relocated under data/derived/retired_task2_025b840"
+  "cache_retention": "ignored caches/checkpoints relocated under data/derived/retired_task2_025b840",
+  "obsolete_ignored_helpers_removed": [
+    "tmp/execute_transformer_notebook.py",
+    "tmp/launch_transformer_after_cache.py",
+    "tmp/launch_transformer_analysis.py",
+    "tmp/task_transformer_notebook.log"
+  ]
 }

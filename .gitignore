@@ -9,3 +9,6 @@ results/models/
 results/kinematic_xai/checkpoints/
 results/raw_temporal/cache/
 results/raw_temporal/checkpoints/
+results/raw_temporal/xai/examples/*.npz
+results/raw_temporal/runtime_processes.json
+results/raw_temporal/delivery_progress.tmp

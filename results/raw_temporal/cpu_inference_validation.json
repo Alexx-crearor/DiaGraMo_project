@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "checkpoint": "results/raw_temporal/checkpoints/outer_0/inner/hierarchical_0_0.pt",
+  "participants": [
+    "BR10304",
+    "BR10306",
+    "BR10405",
+    "BR2401"
+  ],
+  "max_probability_difference": 5.960464477539063e-08,
+  "outer_test_used": false,
+  "scope": "CPU versus saved CUDA inner-validation inference; resource/numerical equivalence only"
+}

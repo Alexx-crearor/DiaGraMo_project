@@ -1,0 +1,5 @@
+model,comparison,spearman
+cnn,mean_absolute_logit_delta_vs_task_macroF1_drop,0.3934065934065934
+tcn,mean_absolute_logit_delta_vs_task_macroF1_drop,0.011001106767013944
+transformer,mean_absolute_logit_delta_vs_task_macroF1_drop,-0.2967032967032967
+hierarchical,mean_absolute_logit_delta_vs_task_macroF1_drop,0.05054945054945055

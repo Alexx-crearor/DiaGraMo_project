@@ -1,0 +1,31 @@
+{
+  "complete": true,
+  "stage": "complete",
+  "protected_files_unchanged": 706,
+  "outer_folds": 6,
+  "inner_folds": 3,
+  "participants": 258,
+  "recordings": 3612,
+  "raw_samples_covered": 54808751,
+  "raw_source_files_rechecked": 3870,
+  "neural_handcrafted_input": false,
+  "inner_fits": 216,
+  "outer_fits": 96,
+  "figures": 31,
+  "raw_temporal_unit_tests": 16,
+  "task1_unit_tests": 8,
+  "baseline_regression_tests": 6,
+  "notebook_executed": true,
+  "numeric_table_outputs": 35,
+  "old_task2_active_files_removed": true,
+  "old_task2_historical_commits_preserved": true,
+  "external_validation": false,
+  "cross_language": false,
+  "fusion": false,
+  "limitations": [
+    "Exploratory reuse of previously inspected participant folds",
+    "No calibrated sensor ground truth",
+    "Bounded context; unequal architectural parameter counts",
+    "Temporal perturbations can be out of distribution"
+  ]
+}

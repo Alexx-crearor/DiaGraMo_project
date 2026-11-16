@@ -1,0 +1,21 @@
+test_actual_hierarchy_ig_completeness (test_raw_temporal.RawTemporalTests) ... ok
+test_all_model_families_batch_matches_individual (test_raw_temporal.RawTemporalTests) ... ok
+test_cached_segment_occlusion_matches_full_masked_forward (test_raw_temporal.RawTemporalTests) ... ok
+test_group_chunks_never_mix_strokes_or_drop_tokens (test_raw_temporal.RawTemporalTests) ... ok
+test_joint_ig_linear_inputs_and_time_metadata_are_additive (test_raw_temporal.RawTemporalTests) ... ok
+test_local_encoder_receptive_fields_cover_every_real_sample (test_raw_temporal.RawTemporalTests) ... ok
+test_missing_patch_input_noise_has_no_effect (test_raw_temporal.RawTemporalTests) ... ok
+test_models_are_small_and_have_no_chronological_task_encoding (test_raw_temporal.RawTemporalTests) ... ok
+test_negative_and_tiny_intervals_are_explicit_boundaries (test_raw_temporal.RawTemporalTests) ... ok
+test_padding_cannot_affect_local_representation (test_raw_temporal.RawTemporalTests) ... ok
+test_real_time_encoding_disabled_control (test_raw_temporal.RawTemporalTests) ... ok
+test_segmentation_inventory_has_exact_coverage_and_padding (test_raw_temporal.RawTemporalTests) ... ok
+test_structure_reference_keeps_pen_and_validity_signals (test_raw_temporal.RawTemporalTests) ... ok
+test_tcn_gemm_matches_dilated_convolution_outputs_and_all_gradients (test_raw_temporal.RawTemporalTests) ... ok
+test_timestamp_policy_keeps_duplicates_and_guards_derivatives (test_raw_temporal.RawTemporalTests) ... ok
+test_train_normalization_ignores_forbidden_subject (test_raw_temporal.RawTemporalTests) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 2.415s
+
+OK

@@ -1,0 +1,517 @@
+model,participant_id,fold,label,kind,repeat,probability,clean_probability,physical_realism
+hierarchical,BR10305,3,0,reverse_runs,0,0.6073884300927942,0.6073510827471789,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR10305,3,0,reverse_runs,1,0.6073884300927942,0.6073510827471789,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR10305,3,0,reverse_runs,2,0.6073884300927942,0.6073510827471789,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR10305,3,0,shuffle_runs,0,0.616166126482997,0.6073510827471789,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR10305,3,0,shuffle_runs,1,0.6163757739638551,0.6073510827471789,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR10305,3,0,shuffle_runs,2,0.616259682791389,0.6073510827471789,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR10305,3,0,missing_segments_0.1,0,0.6048062512769565,0.6073510827471789,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR10305,3,0,missing_segments_0.1,1,0.6078052917511951,0.6073510827471789,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR10305,3,0,missing_segments_0.1,2,0.6072565965297794,0.6073510827471789,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR10305,3,0,missing_segments_0.25,0,0.6057328538999281,0.6073510827471789,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR10305,3,0,missing_segments_0.25,1,0.5995675544203477,0.6073510827471789,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR10305,3,0,missing_segments_0.25,2,0.6099201752861477,0.6073510827471789,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR10405,3,0,reverse_runs,0,0.5833356021521962,0.584422504275647,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR10405,3,0,reverse_runs,1,0.5833356021521962,0.584422504275647,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR10405,3,0,reverse_runs,2,0.5833356021521962,0.584422504275647,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR10405,3,0,shuffle_runs,0,0.5906821357912212,0.584422504275647,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR10405,3,0,shuffle_runs,1,0.5907532882898061,0.584422504275647,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR10405,3,0,shuffle_runs,2,0.5910344673583263,0.584422504275647,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR10405,3,0,missing_segments_0.1,0,0.5847741279498072,0.584422504275647,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR10405,3,0,missing_segments_0.1,1,0.608423391615519,0.584422504275647,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR10405,3,0,missing_segments_0.1,2,0.5828813572797773,0.584422504275647,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR10405,3,0,missing_segments_0.25,0,0.5701520352577878,0.584422504275647,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR10405,3,0,missing_segments_0.25,1,0.5686828459376341,0.584422504275647,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR10405,3,0,missing_segments_0.25,2,0.5592771329920622,0.584422504275647,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR2401,3,0,reverse_runs,0,0.5212563304652451,0.5179084530061783,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR2401,3,0,reverse_runs,1,0.5212563304652451,0.5179084530061783,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR2401,3,0,reverse_runs,2,0.5212563304652451,0.5179084530061783,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR2401,3,0,shuffle_runs,0,0.5244548172289083,0.5179084530061783,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR2401,3,0,shuffle_runs,1,0.5253039828582898,0.5179084530061783,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR2401,3,0,shuffle_runs,2,0.5301945636643236,0.5179084530061783,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR2401,3,0,missing_segments_0.1,0,0.5123901626638838,0.5179084530061783,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR2401,3,0,missing_segments_0.1,1,0.5183914961456477,0.5179084530061783,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR2401,3,0,missing_segments_0.1,2,0.5121674055185865,0.5179084530061783,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR2401,3,0,missing_segments_0.25,0,0.4676123197073676,0.5179084530061783,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR2401,3,0,missing_segments_0.25,1,0.47787216474379407,0.5179084530061783,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR2401,3,0,missing_segments_0.25,2,0.48396293498333337,0.5179084530061783,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR2410,3,0,reverse_runs,0,0.6293153779211292,0.6291698424788152,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR2410,3,0,reverse_runs,1,0.6293153779211292,0.6291698424788152,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR2410,3,0,reverse_runs,2,0.6293153779211292,0.6291698424788152,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR2410,3,0,shuffle_runs,0,0.6296680919345419,0.6291698424788152,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR2410,3,0,shuffle_runs,1,0.629505375762335,0.6291698424788152,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR2410,3,0,shuffle_runs,2,0.6297021020947864,0.6291698424788152,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR2410,3,0,missing_segments_0.1,0,0.6262459511220677,0.6291698424788152,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR2410,3,0,missing_segments_0.1,1,0.6292346174090983,0.6291698424788152,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR2410,3,0,missing_segments_0.1,2,0.628775864228734,0.6291698424788152,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR2410,3,0,missing_segments_0.25,0,0.6271924306463385,0.6291698424788152,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR2410,3,0,missing_segments_0.25,1,0.6272091129431188,0.6291698424788152,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR2410,3,0,missing_segments_0.25,2,0.5840201793140143,0.6291698424788152,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR3306,3,0,reverse_runs,0,0.4407332761202166,0.44221588646338555,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR3306,3,0,reverse_runs,1,0.4407332761202166,0.44221588646338555,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR3306,3,0,reverse_runs,2,0.4407332761202166,0.44221588646338555,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR3306,3,0,shuffle_runs,0,0.4489771675438612,0.44221588646338555,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR3306,3,0,shuffle_runs,1,0.4482113086570018,0.44221588646338555,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR3306,3,0,shuffle_runs,2,0.4466390237946424,0.44221588646338555,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR3306,3,0,missing_segments_0.1,0,0.44086937068775284,0.44221588646338555,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR3306,3,0,missing_segments_0.1,1,0.4301450474608946,0.44221588646338555,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR3306,3,0,missing_segments_0.1,2,0.4593773721487688,0.44221588646338555,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR3306,3,0,missing_segments_0.25,0,0.4010932521453513,0.44221588646338555,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR3306,3,0,missing_segments_0.25,1,0.42584416490038524,0.44221588646338555,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR3306,3,0,missing_segments_0.25,2,0.4740690246874391,0.44221588646338555,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR3406,3,1,reverse_runs,0,0.6070698179975096,0.607467598046638,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR3406,3,1,reverse_runs,1,0.6070698179975096,0.607467598046638,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR3406,3,1,reverse_runs,2,0.6070698179975096,0.607467598046638,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR3406,3,1,shuffle_runs,0,0.6119562951629741,0.607467598046638,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR3406,3,1,shuffle_runs,1,0.6120000444720848,0.607467598046638,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR3406,3,1,shuffle_runs,2,0.6121699999802582,0.607467598046638,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR3406,3,1,missing_segments_0.1,0,0.6014016261085513,0.607467598046638,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR3406,3,1,missing_segments_0.1,1,0.6076028527315042,0.607467598046638,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR3406,3,1,missing_segments_0.1,2,0.602836773095331,0.607467598046638,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR3406,3,1,missing_segments_0.25,0,0.601995976322155,0.607467598046638,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR3406,3,1,missing_segments_0.25,1,0.6071259202472498,0.607467598046638,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR3406,3,1,missing_segments_0.25,2,0.6052930264950693,0.607467598046638,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR3409,3,0,reverse_runs,0,0.3747503060454434,0.37666726331046874,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR3409,3,0,reverse_runs,1,0.3747503060454434,0.37666726331046874,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR3409,3,0,reverse_runs,2,0.3747503060454434,0.37666726331046874,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR3409,3,0,shuffle_runs,0,0.3831042233791502,0.37666726331046874,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR3409,3,0,shuffle_runs,1,0.3827286858250855,0.37666726331046874,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR3409,3,0,shuffle_runs,2,0.38295302820224947,0.37666726331046874,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR3409,3,0,missing_segments_0.1,0,0.3757172872741502,0.37666726331046874,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR3409,3,0,missing_segments_0.1,1,0.3950008682112244,0.37666726331046874,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR3409,3,0,missing_segments_0.1,2,0.3711465617427112,0.37666726331046874,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR3409,3,0,missing_segments_0.25,0,0.38934345849039675,0.37666726331046874,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR3409,3,0,missing_segments_0.25,1,0.37279236434078394,0.37666726331046874,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR3409,3,0,missing_segments_0.25,2,0.4040131284211964,0.37666726331046874,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR3410,3,0,reverse_runs,0,0.607362766809144,0.6083013530937122,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR3410,3,0,reverse_runs,1,0.607362766809144,0.6083013530937122,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR3410,3,0,reverse_runs,2,0.607362766809144,0.6083013530937122,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR3410,3,0,shuffle_runs,0,0.6187129846181089,0.6083013530937122,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR3410,3,0,shuffle_runs,1,0.6209949454010913,0.6083013530937122,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR3410,3,0,shuffle_runs,2,0.6211511689482476,0.6083013530937122,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR3410,3,0,missing_segments_0.1,0,0.6081142536228492,0.6083013530937122,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR3410,3,0,missing_segments_0.1,1,0.6088507567415968,0.6083013530937122,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR3410,3,0,missing_segments_0.1,2,0.6040718035981391,0.6083013530937122,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR3410,3,0,missing_segments_0.25,0,0.6038637672572871,0.6083013530937122,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR3410,3,0,missing_segments_0.25,1,0.5984570127019515,0.6083013530937122,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR3410,3,0,missing_segments_0.25,2,0.598046170986123,0.6083013530937122,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR5305,3,0,reverse_runs,0,0.19164979100513152,0.19174031859138244,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR5305,3,0,reverse_runs,1,0.19164979100513152,0.19174031859138244,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR5305,3,0,reverse_runs,2,0.19164979100513152,0.19174031859138244,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR5305,3,0,shuffle_runs,0,0.19160940490910075,0.19174031859138244,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR5305,3,0,shuffle_runs,1,0.1915888727222977,0.19174031859138244,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR5305,3,0,shuffle_runs,2,0.1916248420830847,0.19174031859138244,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR5305,3,0,missing_segments_0.1,0,0.1904976270619803,0.19174031859138244,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR5305,3,0,missing_segments_0.1,1,0.19144805463081052,0.19174031859138244,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR5305,3,0,missing_segments_0.1,2,0.18928514001612087,0.19174031859138244,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR5305,3,0,missing_segments_0.25,0,0.19017901364640763,0.19174031859138244,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR5305,3,0,missing_segments_0.25,1,0.19152350218580433,0.19174031859138244,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR5305,3,0,missing_segments_0.25,2,0.19175430423380382,0.19174031859138244,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR5314,3,0,reverse_runs,0,0.6153356903214391,0.6156875398315081,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR5314,3,0,reverse_runs,1,0.6153356903214391,0.6156875398315081,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR5314,3,0,reverse_runs,2,0.6153356903214391,0.6156875398315081,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR5314,3,0,shuffle_runs,0,0.6170385069309162,0.6156875398315081,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR5314,3,0,shuffle_runs,1,0.6182716192132225,0.6156875398315081,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR5314,3,0,shuffle_runs,2,0.6184611312963112,0.6156875398315081,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR5314,3,0,missing_segments_0.1,0,0.6130823796063205,0.6156875398315081,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR5314,3,0,missing_segments_0.1,1,0.6158650232150942,0.6156875398315081,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR5314,3,0,missing_segments_0.1,2,0.614752655502274,0.6156875398315081,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR5314,3,0,missing_segments_0.25,0,0.6163233996208264,0.6156875398315081,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR5314,3,0,missing_segments_0.25,1,0.6156461665650322,0.6156875398315081,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR5314,3,0,missing_segments_0.25,2,0.610104554999755,0.6156875398315081,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR5417,3,0,reverse_runs,0,0.28191336699750996,0.2844905325944957,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR5417,3,0,reverse_runs,1,0.28191336699750996,0.2844905325944957,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR5417,3,0,reverse_runs,2,0.28191336699750996,0.2844905325944957,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR5417,3,0,shuffle_runs,0,0.2910227272979151,0.2844905325944957,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR5417,3,0,shuffle_runs,1,0.29160849013569734,0.2844905325944957,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR5417,3,0,shuffle_runs,2,0.29195649546484914,0.2844905325944957,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR5417,3,0,missing_segments_0.1,0,0.28194766057020604,0.2844905325944957,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR5417,3,0,missing_segments_0.1,1,0.3091232471823894,0.2844905325944957,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR5417,3,0,missing_segments_0.1,2,0.283946129845575,0.2844905325944957,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR5417,3,0,missing_segments_0.25,0,0.26865140512304675,0.2844905325944957,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR5417,3,0,missing_segments_0.25,1,0.27085514513763664,0.2844905325944957,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR5417,3,0,missing_segments_0.25,2,0.25894625227465534,0.2844905325944957,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR7303,3,0,reverse_runs,0,0.630458359412271,0.6306100867796662,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR7303,3,0,reverse_runs,1,0.630458359412271,0.6306100867796662,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR7303,3,0,reverse_runs,2,0.630458359412271,0.6306100867796662,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR7303,3,0,shuffle_runs,0,0.630715796073698,0.6306100867796662,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR7303,3,0,shuffle_runs,1,0.6306835042834096,0.6306100867796662,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR7303,3,0,shuffle_runs,2,0.6308014483334351,0.6306100867796662,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR7303,3,0,missing_segments_0.1,0,0.6305819566107681,0.6306100867796662,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR7303,3,0,missing_segments_0.1,1,0.6306296635206419,0.6306100867796662,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR7303,3,0,missing_segments_0.1,2,0.6306181674439897,0.6306100867796662,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR7303,3,0,missing_segments_0.25,0,0.6285253449488889,0.6306100867796662,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR7303,3,0,missing_segments_0.25,1,0.6308000046683077,0.6306100867796662,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR7303,3,0,missing_segments_0.25,2,0.6289816100475126,0.6306100867796662,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR7306,3,0,reverse_runs,0,0.6215777624147969,0.6215183011915163,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR7306,3,0,reverse_runs,1,0.6215777624147969,0.6215183011915163,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR7306,3,0,reverse_runs,2,0.6215777624147969,0.6215183011915163,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR7306,3,0,shuffle_runs,0,0.6239552047685248,0.6215183011915163,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR7306,3,0,shuffle_runs,1,0.6240092286033752,0.6215183011915163,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR7306,3,0,shuffle_runs,2,0.6244697532184706,0.6215183011915163,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR7306,3,0,missing_segments_0.1,0,0.6218858128100635,0.6215183011915163,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR7306,3,0,missing_segments_0.1,1,0.620782129884796,0.6215183011915163,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR7306,3,0,missing_segments_0.1,2,0.6195098830888999,0.6215183011915163,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR7306,3,0,missing_segments_0.25,0,0.6182722874145433,0.6215183011915163,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR7306,3,0,missing_segments_0.25,1,0.6202196924443037,0.6215183011915163,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR7306,3,0,missing_segments_0.25,2,0.6201630967440273,0.6215183011915163,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR7313,3,0,reverse_runs,0,0.1901979981323324,0.19040003213890974,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR7313,3,0,reverse_runs,1,0.1901979981323324,0.19040003213890974,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR7313,3,0,reverse_runs,2,0.1901979981323324,0.19040003213890974,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR7313,3,0,shuffle_runs,0,0.19026030460494,0.19040003213890974,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR7313,3,0,shuffle_runs,1,0.1903520757724102,0.19040003213890974,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR7313,3,0,shuffle_runs,2,0.19033021367587163,0.19040003213890974,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR7313,3,0,missing_segments_0.1,0,0.18978072933738124,0.19040003213890974,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR7313,3,0,missing_segments_0.1,1,0.18753194448898605,0.19040003213890974,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR7313,3,0,missing_segments_0.1,2,0.19321423156776757,0.19040003213890974,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR7313,3,0,missing_segments_0.25,0,0.18977603687679756,0.19040003213890974,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR7313,3,0,missing_segments_0.25,1,0.18850491818799428,0.19040003213890974,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR7313,3,0,missing_segments_0.25,2,0.1898634668747626,0.19040003213890974,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR7317,3,0,reverse_runs,0,0.5024386301984606,0.5025328032093695,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR7317,3,0,reverse_runs,1,0.5024386301984606,0.5025328032093695,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR7317,3,0,reverse_runs,2,0.5024386301984606,0.5025328032093695,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR7317,3,0,shuffle_runs,0,0.5062580118847911,0.5025328032093695,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR7317,3,0,shuffle_runs,1,0.5059866651828999,0.5025328032093695,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR7317,3,0,shuffle_runs,2,0.5063476653735534,0.5025328032093695,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR7317,3,0,missing_segments_0.1,0,0.5334230462668013,0.5025328032093695,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR7317,3,0,missing_segments_0.1,1,0.5168271716542235,0.5025328032093695,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR7317,3,0,missing_segments_0.1,2,0.5172803469252921,0.5025328032093695,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR7317,3,0,missing_segments_0.25,0,0.5508172351486756,0.5025328032093695,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR7317,3,0,missing_segments_0.25,1,0.5412360606981219,0.5025328032093695,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR7317,3,0,missing_segments_0.25,2,0.5035769776217344,0.5025328032093695,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR7321,3,0,reverse_runs,0,0.5276079799044161,0.5296266785360452,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR7321,3,0,reverse_runs,1,0.5276079799044161,0.5296266785360452,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR7321,3,0,reverse_runs,2,0.5276079799044161,0.5296266785360452,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR7321,3,0,shuffle_runs,0,0.5309477476764907,0.5296266785360452,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR7321,3,0,shuffle_runs,1,0.5314087409650162,0.5296266785360452,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR7321,3,0,shuffle_runs,2,0.5310367294936005,0.5296266785360452,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR7321,3,0,missing_segments_0.1,0,0.5077038270734283,0.5296266785360452,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR7321,3,0,missing_segments_0.1,1,0.5590448475556772,0.5296266785360452,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR7321,3,0,missing_segments_0.1,2,0.551979966747661,0.5296266785360452,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR7321,3,0,missing_segments_0.25,0,0.5108102326165779,0.5296266785360452,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR7321,3,0,missing_segments_0.25,1,0.5193271106443593,0.5296266785360452,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR7321,3,0,missing_segments_0.25,2,0.5308293124907374,0.5296266785360452,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR7322,3,0,reverse_runs,0,0.5759762979866736,0.5801990095388506,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR7322,3,0,reverse_runs,1,0.5759762979866736,0.5801990095388506,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR7322,3,0,reverse_runs,2,0.5759762979866736,0.5801990095388506,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR7322,3,0,shuffle_runs,0,0.5856021300677133,0.5801990095388506,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR7322,3,0,shuffle_runs,1,0.584865397774364,0.5801990095388506,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR7322,3,0,shuffle_runs,2,0.5849434497314676,0.5801990095388506,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR7322,3,0,missing_segments_0.1,0,0.5781610554866008,0.5801990095388506,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR7322,3,0,missing_segments_0.1,1,0.5783340946576305,0.5801990095388506,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR7322,3,0,missing_segments_0.1,2,0.5667946438245393,0.5801990095388506,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR7322,3,0,missing_segments_0.25,0,0.5709237563682841,0.5801990095388506,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR7322,3,0,missing_segments_0.25,1,0.5647102959868975,0.5801990095388506,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR7322,3,0,missing_segments_0.25,2,0.5494514234961624,0.5801990095388506,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR8042,3,0,reverse_runs,0,0.6204061360626161,0.6209810500106822,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR8042,3,0,reverse_runs,1,0.6204061360626161,0.6209810500106822,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR8042,3,0,reverse_runs,2,0.6204061360626161,0.6209810500106822,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR8042,3,0,shuffle_runs,0,0.6224311760901154,0.6209810500106822,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR8042,3,0,shuffle_runs,1,0.6224138553834089,0.6209810500106822,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR8042,3,0,shuffle_runs,2,0.6225908928674413,0.6209810500106822,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR8042,3,0,missing_segments_0.1,0,0.6175495532179056,0.6209810500106822,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR8042,3,0,missing_segments_0.1,1,0.6199293855154956,0.6209810500106822,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR8042,3,0,missing_segments_0.1,2,0.6207649550190895,0.6209810500106822,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR8042,3,0,missing_segments_0.25,0,0.6184910113602448,0.6209810500106822,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR8042,3,0,missing_segments_0.25,1,0.620715294942714,0.6209810500106822,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR8042,3,0,missing_segments_0.25,2,0.6201351135890422,0.6209810500106822,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR8409,3,0,reverse_runs,0,0.6200677148549979,0.6203464487701907,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR8409,3,0,reverse_runs,1,0.6200677148549979,0.6203464487701907,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR8409,3,0,reverse_runs,2,0.6200677148549979,0.6203464487701907,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR8409,3,0,shuffle_runs,0,0.6265372338542472,0.6203464487701907,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR8409,3,0,shuffle_runs,1,0.6261547756785714,0.6203464487701907,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR8409,3,0,shuffle_runs,2,0.6257640080943656,0.6203464487701907,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR8409,3,0,missing_segments_0.1,0,0.620071681679594,0.6203464487701907,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR8409,3,0,missing_segments_0.1,1,0.6206915865912971,0.6203464487701907,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR8409,3,0,missing_segments_0.1,2,0.6199309162954962,0.6203464487701907,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR8409,3,0,missing_segments_0.25,0,0.6195296369817894,0.6203464487701907,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR8409,3,0,missing_segments_0.25,1,0.6167822879086856,0.6203464487701907,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR8409,3,0,missing_segments_0.25,2,0.6181942877142634,0.6203464487701907,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR8411,3,0,reverse_runs,0,0.5974170387261887,0.5984494857495491,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR8411,3,0,reverse_runs,1,0.5974170387261887,0.5984494857495491,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR8411,3,0,reverse_runs,2,0.5974170387261887,0.5984494857495491,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR8411,3,0,shuffle_runs,0,0.6013618754203588,0.5984494857495491,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR8411,3,0,shuffle_runs,1,0.602900169478143,0.5984494857495491,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR8411,3,0,shuffle_runs,2,0.6001317114150952,0.5984494857495491,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,BR8411,3,0,missing_segments_0.1,0,0.595774365129717,0.5984494857495491,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR8411,3,0,missing_segments_0.1,1,0.5951520046159392,0.5984494857495491,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR8411,3,0,missing_segments_0.1,2,0.5969965641153759,0.5984494857495491,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR8411,3,0,missing_segments_0.25,0,0.5924855120443399,0.5984494857495491,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR8411,3,0,missing_segments_0.25,1,0.5895829310915721,0.5984494857495491,missing segment tokens; no zero-valued artificial movement
+hierarchical,BR8411,3,0,missing_segments_0.25,2,0.5998166774171438,0.5984494857495491,missing segment tokens; no zero-valued artificial movement
+hierarchical,CH10309,3,1,reverse_runs,0,0.6269283724512428,0.6271842496599916,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,CH10309,3,1,reverse_runs,1,0.6269283724512428,0.6271842496599916,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,CH10309,3,1,reverse_runs,2,0.6269283724512428,0.6271842496599916,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,CH10309,3,1,shuffle_runs,0,0.6291175797132778,0.6271842496599916,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,CH10309,3,1,shuffle_runs,1,0.6292198633736338,0.6271842496599916,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,CH10309,3,1,shuffle_runs,2,0.6290361338913786,0.6271842496599916,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,CH10309,3,1,missing_segments_0.1,0,0.6270552954356158,0.6271842496599916,missing segment tokens; no zero-valued artificial movement
+hierarchical,CH10309,3,1,missing_segments_0.1,1,0.6275646789870142,0.6271842496599916,missing segment tokens; no zero-valued artificial movement
+hierarchical,CH10309,3,1,missing_segments_0.1,2,0.6247424749943497,0.6271842496599916,missing segment tokens; no zero-valued artificial movement
+hierarchical,CH10309,3,1,missing_segments_0.25,0,0.6260533769466196,0.6271842496599916,missing segment tokens; no zero-valued artificial movement
+hierarchical,CH10309,3,1,missing_segments_0.25,1,0.6249094734756149,0.6271842496599916,missing segment tokens; no zero-valued artificial movement
+hierarchical,CH10309,3,1,missing_segments_0.25,2,0.6237167246627615,0.6271842496599916,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK01405,3,1,reverse_runs,0,0.5901193102667712,0.5902437167121755,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK01405,3,1,reverse_runs,1,0.5901193102667712,0.5902437167121755,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK01405,3,1,reverse_runs,2,0.5901193102667712,0.5902437167121755,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK01405,3,1,shuffle_runs,0,0.5913149170936953,0.5902437167121755,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK01405,3,1,shuffle_runs,1,0.5911683323186957,0.5902437167121755,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK01405,3,1,shuffle_runs,2,0.5915052614762929,0.5902437167121755,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK01405,3,1,missing_segments_0.1,0,0.5751505026237373,0.5902437167121755,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK01405,3,1,missing_segments_0.1,1,0.589802378206823,0.5902437167121755,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK01405,3,1,missing_segments_0.1,2,0.5747946156604404,0.5902437167121755,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK01405,3,1,missing_segments_0.25,0,0.5647997856755629,0.5902437167121755,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK01405,3,1,missing_segments_0.25,1,0.564692420985723,0.5902437167121755,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK01405,3,1,missing_segments_0.25,2,0.5518039853901175,0.5902437167121755,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK02301,3,1,reverse_runs,0,0.5664792933917645,0.5703178262352967,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK02301,3,1,reverse_runs,1,0.5664792933917645,0.5703178262352967,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK02301,3,1,reverse_runs,2,0.5664792933917645,0.5703178262352967,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK02301,3,1,shuffle_runs,0,0.5822307236526786,0.5703178262352967,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK02301,3,1,shuffle_runs,1,0.581897715122489,0.5703178262352967,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK02301,3,1,shuffle_runs,2,0.5828021651504632,0.5703178262352967,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK02301,3,1,missing_segments_0.1,0,0.5734339304569351,0.5703178262352967,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK02301,3,1,missing_segments_0.1,1,0.5648826126194348,0.5703178262352967,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK02301,3,1,missing_segments_0.1,2,0.5735508923168925,0.5703178262352967,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK02301,3,1,missing_segments_0.25,0,0.5578732654570356,0.5703178262352967,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK02301,3,1,missing_segments_0.25,1,0.5614687980128958,0.5703178262352967,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK02301,3,1,missing_segments_0.25,2,0.5570027876406823,0.5703178262352967,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK03401,3,1,reverse_runs,0,0.6317971011515429,0.6319285391449878,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK03401,3,1,reverse_runs,1,0.6317971011515429,0.6319285391449878,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK03401,3,1,reverse_runs,2,0.6317971011515429,0.6319285391449878,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK03401,3,1,shuffle_runs,0,0.6328235974414702,0.6319285391449878,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK03401,3,1,shuffle_runs,1,0.6328280431548572,0.6319285391449878,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK03401,3,1,shuffle_runs,2,0.6329500906254334,0.6319285391449878,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK03401,3,1,missing_segments_0.1,0,0.6300985791304141,0.6319285391449878,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK03401,3,1,missing_segments_0.1,1,0.631840500038777,0.6319285391449878,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK03401,3,1,missing_segments_0.1,2,0.6316810367751874,0.6319285391449878,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK03401,3,1,missing_segments_0.25,0,0.6284009223294585,0.6319285391449878,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK03401,3,1,missing_segments_0.25,1,0.632019244888741,0.6319285391449878,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK03401,3,1,missing_segments_0.25,2,0.6293975215195426,0.6319285391449878,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK05404,3,1,reverse_runs,0,0.5389850794149976,0.5384010379167466,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK05404,3,1,reverse_runs,1,0.5389850794149976,0.5384010379167466,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK05404,3,1,reverse_runs,2,0.5389850794149976,0.5384010379167466,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK05404,3,1,shuffle_runs,0,0.5422306272087425,0.5384010379167466,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK05404,3,1,shuffle_runs,1,0.5451493752033668,0.5384010379167466,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK05404,3,1,shuffle_runs,2,0.5429668006959338,0.5384010379167466,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK05404,3,1,missing_segments_0.1,0,0.5390568728530181,0.5384010379167466,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK05404,3,1,missing_segments_0.1,1,0.5367710704095972,0.5384010379167466,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK05404,3,1,missing_segments_0.1,2,0.5273510130425799,0.5384010379167466,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK05404,3,1,missing_segments_0.25,0,0.5580961656785789,0.5384010379167466,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK05404,3,1,missing_segments_0.25,1,0.5215582100364482,0.5384010379167466,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK05404,3,1,missing_segments_0.25,2,0.5063984328311031,0.5384010379167466,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK11301,3,1,reverse_runs,0,0.49119983973727227,0.49444344419393016,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK11301,3,1,reverse_runs,1,0.49119983973727227,0.49444344419393016,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK11301,3,1,reverse_runs,2,0.49119983973727227,0.49444344419393016,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK11301,3,1,shuffle_runs,0,0.4976836012624513,0.49444344419393016,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK11301,3,1,shuffle_runs,1,0.49747273243027396,0.49444344419393016,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK11301,3,1,shuffle_runs,2,0.49728077350750155,0.49444344419393016,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK11301,3,1,missing_segments_0.1,0,0.4930427467195079,0.49444344419393016,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK11301,3,1,missing_segments_0.1,1,0.4820471949197406,0.49444344419393016,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK11301,3,1,missing_segments_0.1,2,0.5289680662660786,0.49444344419393016,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK11301,3,1,missing_segments_0.25,0,0.4878227729898746,0.49444344419393016,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK11301,3,1,missing_segments_0.25,1,0.49659253716722024,0.49444344419393016,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK11301,3,1,missing_segments_0.25,2,0.5075825227211185,0.49444344419393016,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK11306,3,1,reverse_runs,0,0.5744134214789687,0.5744267248475914,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK11306,3,1,reverse_runs,1,0.5744134214789687,0.5744267248475914,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK11306,3,1,reverse_runs,2,0.5744134214789687,0.5744267248475914,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK11306,3,1,shuffle_runs,0,0.5754851830516821,0.5744267248475914,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK11306,3,1,shuffle_runs,1,0.5754746987138437,0.5744267248475914,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK11306,3,1,shuffle_runs,2,0.5752608907907409,0.5744267248475914,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK11306,3,1,missing_segments_0.1,0,0.5911095483634072,0.5744267248475914,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK11306,3,1,missing_segments_0.1,1,0.5743532781259127,0.5744267248475914,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK11306,3,1,missing_segments_0.1,2,0.5414068382401935,0.5744267248475914,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK11306,3,1,missing_segments_0.25,0,0.5661541167284693,0.5744267248475914,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK11306,3,1,missing_segments_0.25,1,0.569638896633137,0.5744267248475914,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK11306,3,1,missing_segments_0.25,2,0.5685175666608158,0.5744267248475914,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK11404,3,1,reverse_runs,0,0.6167126894773646,0.6169828849341829,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK11404,3,1,reverse_runs,1,0.6167126894773646,0.6169828849341829,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK11404,3,1,reverse_runs,2,0.6167126894773646,0.6169828849341829,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK11404,3,1,shuffle_runs,0,0.6265179591879152,0.6169828849341829,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK11404,3,1,shuffle_runs,1,0.6262484902333451,0.6169828849341829,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK11404,3,1,shuffle_runs,2,0.6271629536675584,0.6169828849341829,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK11404,3,1,missing_segments_0.1,0,0.6169523682983439,0.6169828849341829,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK11404,3,1,missing_segments_0.1,1,0.6162584846709641,0.6169828849341829,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK11404,3,1,missing_segments_0.1,2,0.6167356617153439,0.6169828849341829,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK11404,3,1,missing_segments_0.25,0,0.6171690777000112,0.6169828849341829,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK11404,3,1,missing_segments_0.25,1,0.6148380907309517,0.6169828849341829,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK11404,3,1,missing_segments_0.25,2,0.6151163466132256,0.6169828849341829,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK11415,3,1,reverse_runs,0,0.6299465843217529,0.6300690713686244,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK11415,3,1,reverse_runs,1,0.6299465843217529,0.6300690713686244,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK11415,3,1,reverse_runs,2,0.6299465843217529,0.6300690713686244,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK11415,3,1,shuffle_runs,0,0.6306415759654297,0.6300690713686244,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK11415,3,1,shuffle_runs,1,0.6306655947465069,0.6300690713686244,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK11415,3,1,shuffle_runs,2,0.6306188061188034,0.6300690713686244,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK11415,3,1,missing_segments_0.1,0,0.6301630371496464,0.6300690713686244,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK11415,3,1,missing_segments_0.1,1,0.6316428722527426,0.6300690713686244,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK11415,3,1,missing_segments_0.1,2,0.6302686188030399,0.6300690713686244,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK11415,3,1,missing_segments_0.25,0,0.630138810369393,0.6300690713686244,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK11415,3,1,missing_segments_0.25,1,0.6282042469897583,0.6300690713686244,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK11415,3,1,missing_segments_0.25,2,0.6297483688572574,0.6300690713686244,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK12311,3,1,reverse_runs,0,0.4203152103787531,0.4202966141852347,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK12311,3,1,reverse_runs,1,0.4203152103787531,0.4202966141852347,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK12311,3,1,reverse_runs,2,0.4203152103787531,0.4202966141852347,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK12311,3,1,shuffle_runs,0,0.42314176294483313,0.4202966141852347,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK12311,3,1,shuffle_runs,1,0.42058306855490574,0.4202966141852347,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK12311,3,1,shuffle_runs,2,0.419820045181645,0.4202966141852347,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK12311,3,1,missing_segments_0.1,0,0.4203785524100709,0.4202966141852347,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK12311,3,1,missing_segments_0.1,1,0.4205432118366949,0.4202966141852347,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK12311,3,1,missing_segments_0.1,2,0.42025145709217954,0.4202966141852347,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK12311,3,1,missing_segments_0.25,0,0.37847644094872757,0.4202966141852347,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK12311,3,1,missing_segments_0.25,1,0.36271006221352886,0.4202966141852347,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK12311,3,1,missing_segments_0.25,2,0.3490058677009575,0.4202966141852347,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK14407,3,1,reverse_runs,0,0.6308487548336926,0.6308950039455704,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK14407,3,1,reverse_runs,1,0.6308487548336926,0.6308950039455704,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK14407,3,1,reverse_runs,2,0.6308487548336926,0.6308950039455704,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK14407,3,1,shuffle_runs,0,0.6313377187381941,0.6308950039455704,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK14407,3,1,shuffle_runs,1,0.6313454875870087,0.6308950039455704,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK14407,3,1,shuffle_runs,2,0.6314273199466958,0.6308950039455704,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,HK14407,3,1,missing_segments_0.1,0,0.6306243042569741,0.6308950039455704,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK14407,3,1,missing_segments_0.1,1,0.6310189152809189,0.6308950039455704,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK14407,3,1,missing_segments_0.1,2,0.6309067462845199,0.6308950039455704,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK14407,3,1,missing_segments_0.25,0,0.6263883817224207,0.6308950039455704,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK14407,3,1,missing_segments_0.25,1,0.6291250340871631,0.6308950039455704,missing segment tokens; no zero-valued artificial movement
+hierarchical,HK14407,3,1,missing_segments_0.25,2,0.6306897378284849,0.6308950039455704,missing segment tokens; no zero-valued artificial movement
+hierarchical,JI02403,3,1,reverse_runs,0,0.4730639646775786,0.47265401590991035,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,JI02403,3,1,reverse_runs,1,0.4730639646775786,0.47265401590991035,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,JI02403,3,1,reverse_runs,2,0.4730639646775786,0.47265401590991035,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,JI02403,3,1,shuffle_runs,0,0.48053999986072127,0.47265401590991035,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,JI02403,3,1,shuffle_runs,1,0.4809793349035755,0.47265401590991035,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,JI02403,3,1,shuffle_runs,2,0.4800783637340128,0.47265401590991035,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,JI02403,3,1,missing_segments_0.1,0,0.42286102720600055,0.47265401590991035,missing segment tokens; no zero-valued artificial movement
+hierarchical,JI02403,3,1,missing_segments_0.1,1,0.43587590831893847,0.47265401590991035,missing segment tokens; no zero-valued artificial movement
+hierarchical,JI02403,3,1,missing_segments_0.1,2,0.46084803943679453,0.47265401590991035,missing segment tokens; no zero-valued artificial movement
+hierarchical,JI02403,3,1,missing_segments_0.25,0,0.4487359867637463,0.47265401590991035,missing segment tokens; no zero-valued artificial movement
+hierarchical,JI02403,3,1,missing_segments_0.25,1,0.4937382000888252,0.47265401590991035,missing segment tokens; no zero-valued artificial movement
+hierarchical,JI02403,3,1,missing_segments_0.25,2,0.4541563350860129,0.47265401590991035,missing segment tokens; no zero-valued artificial movement
+hierarchical,JI05402,3,1,reverse_runs,0,0.5712645909393232,0.5790903840618675,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,JI05402,3,1,reverse_runs,1,0.5712645909393232,0.5790903840618675,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,JI05402,3,1,reverse_runs,2,0.5712645909393232,0.5790903840618675,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,JI05402,3,1,shuffle_runs,0,0.6034671937574959,0.5790903840618675,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,JI05402,3,1,shuffle_runs,1,0.6027045393234017,0.5790903840618675,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,JI05402,3,1,shuffle_runs,2,0.6019077587582227,0.5790903840618675,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,JI05402,3,1,missing_segments_0.1,0,0.5748206042641176,0.5790903840618675,missing segment tokens; no zero-valued artificial movement
+hierarchical,JI05402,3,1,missing_segments_0.1,1,0.5716026869335177,0.5790903840618675,missing segment tokens; no zero-valued artificial movement
+hierarchical,JI05402,3,1,missing_segments_0.1,2,0.5744000742889199,0.5790903840618675,missing segment tokens; no zero-valued artificial movement
+hierarchical,JI05402,3,1,missing_segments_0.25,0,0.5643201798982834,0.5790903840618675,missing segment tokens; no zero-valued artificial movement
+hierarchical,JI05402,3,1,missing_segments_0.25,1,0.574586531695159,0.5790903840618675,missing segment tokens; no zero-valued artificial movement
+hierarchical,JI05402,3,1,missing_segments_0.25,2,0.5586096841176206,0.5790903840618675,missing segment tokens; no zero-valued artificial movement
+hierarchical,MB07302,3,1,reverse_runs,0,0.6252270965088847,0.6252760616064411,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,MB07302,3,1,reverse_runs,1,0.6252270965088847,0.6252760616064411,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,MB07302,3,1,reverse_runs,2,0.6252270965088847,0.6252760616064411,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,MB07302,3,1,shuffle_runs,0,0.6259163936383955,0.6252760616064411,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,MB07302,3,1,shuffle_runs,1,0.6256573875856116,0.6252760616064411,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,MB07302,3,1,shuffle_runs,2,0.6255221610543663,0.6252760616064411,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,MB07302,3,1,missing_segments_0.1,0,0.6246501603835003,0.6252760616064411,missing segment tokens; no zero-valued artificial movement
+hierarchical,MB07302,3,1,missing_segments_0.1,1,0.6254338888534408,0.6252760616064411,missing segment tokens; no zero-valued artificial movement
+hierarchical,MB07302,3,1,missing_segments_0.1,2,0.6251696926323191,0.6252760616064411,missing segment tokens; no zero-valued artificial movement
+hierarchical,MB07302,3,1,missing_segments_0.25,0,0.6241682474622983,0.6252760616064411,missing segment tokens; no zero-valued artificial movement
+hierarchical,MB07302,3,1,missing_segments_0.25,1,0.6245890455293096,0.6252760616064411,missing segment tokens; no zero-valued artificial movement
+hierarchical,MB07302,3,1,missing_segments_0.25,2,0.6201349872207502,0.6252760616064411,missing segment tokens; no zero-valued artificial movement
+hierarchical,MB07404,3,1,reverse_runs,0,0.629829444604904,0.6298410619904489,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,MB07404,3,1,reverse_runs,1,0.629829444604904,0.6298410619904489,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,MB07404,3,1,reverse_runs,2,0.629829444604904,0.6298410619904489,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,MB07404,3,1,shuffle_runs,0,0.6304336545834172,0.6298410619904489,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,MB07404,3,1,shuffle_runs,1,0.6303214396792105,0.6298410619904489,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,MB07404,3,1,shuffle_runs,2,0.6303077729413137,0.6298410619904489,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,MB07404,3,1,missing_segments_0.1,0,0.6296864800967569,0.6298410619904489,missing segment tokens; no zero-valued artificial movement
+hierarchical,MB07404,3,1,missing_segments_0.1,1,0.6298295557767699,0.6298410619904489,missing segment tokens; no zero-valued artificial movement
+hierarchical,MB07404,3,1,missing_segments_0.1,2,0.630028892571258,0.6298410619904489,missing segment tokens; no zero-valued artificial movement
+hierarchical,MB07404,3,1,missing_segments_0.25,0,0.6279659218702381,0.6298410619904489,missing segment tokens; no zero-valued artificial movement
+hierarchical,MB07404,3,1,missing_segments_0.25,1,0.6303351617627553,0.6298410619904489,missing segment tokens; no zero-valued artificial movement
+hierarchical,MB07404,3,1,missing_segments_0.25,2,0.6271387302702524,0.6298410619904489,missing segment tokens; no zero-valued artificial movement
+hierarchical,MB09303,3,1,reverse_runs,0,0.5440209104877722,0.544091171052824,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,MB09303,3,1,reverse_runs,1,0.5440209104877722,0.544091171052824,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,MB09303,3,1,reverse_runs,2,0.5440209104877722,0.544091171052824,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,MB09303,3,1,shuffle_runs,0,0.550027002148344,0.544091171052824,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,MB09303,3,1,shuffle_runs,1,0.5497462927888722,0.544091171052824,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,MB09303,3,1,shuffle_runs,2,0.5489479777694115,0.544091171052824,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,MB09303,3,1,missing_segments_0.1,0,0.542969596216699,0.544091171052824,missing segment tokens; no zero-valued artificial movement
+hierarchical,MB09303,3,1,missing_segments_0.1,1,0.5446470648904883,0.544091171052824,missing segment tokens; no zero-valued artificial movement
+hierarchical,MB09303,3,1,missing_segments_0.1,2,0.543464856014275,0.544091171052824,missing segment tokens; no zero-valued artificial movement
+hierarchical,MB09303,3,1,missing_segments_0.25,0,0.5310434017515715,0.544091171052824,missing segment tokens; no zero-valued artificial movement
+hierarchical,MB09303,3,1,missing_segments_0.25,1,0.5249031710702539,0.544091171052824,missing segment tokens; no zero-valued artificial movement
+hierarchical,MB09303,3,1,missing_segments_0.25,2,0.5417120587680976,0.544091171052824,missing segment tokens; no zero-valued artificial movement
+hierarchical,NA03401,3,1,reverse_runs,0,0.5828790675865695,0.5847344429733831,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,NA03401,3,1,reverse_runs,1,0.5828790675865695,0.5847344429733831,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,NA03401,3,1,reverse_runs,2,0.5828790675865695,0.5847344429733831,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,NA03401,3,1,shuffle_runs,0,0.5956360957193602,0.5847344429733831,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,NA03401,3,1,shuffle_runs,1,0.5957348539570773,0.5847344429733831,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,NA03401,3,1,shuffle_runs,2,0.5948630540760638,0.5847344429733831,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,NA03401,3,1,missing_segments_0.1,0,0.5842202120336526,0.5847344429733831,missing segment tokens; no zero-valued artificial movement
+hierarchical,NA03401,3,1,missing_segments_0.1,1,0.58363696304482,0.5847344429733831,missing segment tokens; no zero-valued artificial movement
+hierarchical,NA03401,3,1,missing_segments_0.1,2,0.5793675085481251,0.5847344429733831,missing segment tokens; no zero-valued artificial movement
+hierarchical,NA03401,3,1,missing_segments_0.25,0,0.5859451116315209,0.5847344429733831,missing segment tokens; no zero-valued artificial movement
+hierarchical,NA03401,3,1,missing_segments_0.25,1,0.5783076545161945,0.5847344429733831,missing segment tokens; no zero-valued artificial movement
+hierarchical,NA03401,3,1,missing_segments_0.25,2,0.5811759444705519,0.5847344429733831,missing segment tokens; no zero-valued artificial movement
+hierarchical,NB05406,3,1,reverse_runs,0,0.6240402458128675,0.6244203826067763,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,NB05406,3,1,reverse_runs,1,0.6240402458128675,0.6244203826067763,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,NB05406,3,1,reverse_runs,2,0.6240402458128675,0.6244203826067763,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,NB05406,3,1,shuffle_runs,0,0.6280466004412717,0.6244203826067763,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,NB05406,3,1,shuffle_runs,1,0.6281836847322572,0.6244203826067763,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,NB05406,3,1,shuffle_runs,2,0.6281038536695711,0.6244203826067763,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,NB05406,3,1,missing_segments_0.1,0,0.6228293049730054,0.6244203826067763,missing segment tokens; no zero-valued artificial movement
+hierarchical,NB05406,3,1,missing_segments_0.1,1,0.6238202925463445,0.6244203826067763,missing segment tokens; no zero-valued artificial movement
+hierarchical,NB05406,3,1,missing_segments_0.1,2,0.6241581662484608,0.6244203826067763,missing segment tokens; no zero-valued artificial movement
+hierarchical,NB05406,3,1,missing_segments_0.25,0,0.6204355993544816,0.6244203826067763,missing segment tokens; no zero-valued artificial movement
+hierarchical,NB05406,3,1,missing_segments_0.25,1,0.6237702725176061,0.6244203826067763,missing segment tokens; no zero-valued artificial movement
+hierarchical,NB05406,3,1,missing_segments_0.25,2,0.623458860912507,0.6244203826067763,missing segment tokens; no zero-valued artificial movement
+hierarchical,RK06304,3,1,reverse_runs,0,0.6295957031346613,0.6295838879734246,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,RK06304,3,1,reverse_runs,1,0.6295957031346613,0.6295838879734246,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,RK06304,3,1,reverse_runs,2,0.6295957031346613,0.6295838879734246,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,RK06304,3,1,shuffle_runs,0,0.629864379686213,0.6295838879734246,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,RK06304,3,1,shuffle_runs,1,0.6300148462389641,0.6295838879734246,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,RK06304,3,1,shuffle_runs,2,0.629996826042297,0.6295838879734246,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,RK06304,3,1,missing_segments_0.1,0,0.6294019844221458,0.6295838879734246,missing segment tokens; no zero-valued artificial movement
+hierarchical,RK06304,3,1,missing_segments_0.1,1,0.6294694535869254,0.6295838879734246,missing segment tokens; no zero-valued artificial movement
+hierarchical,RK06304,3,1,missing_segments_0.1,2,0.6302249624875016,0.6295838879734246,missing segment tokens; no zero-valued artificial movement
+hierarchical,RK06304,3,1,missing_segments_0.25,0,0.6293212316648441,0.6295838879734246,missing segment tokens; no zero-valued artificial movement
+hierarchical,RK06304,3,1,missing_segments_0.25,1,0.6303546056499743,0.6295838879734246,missing segment tokens; no zero-valued artificial movement
+hierarchical,RK06304,3,1,missing_segments_0.25,2,0.6296006515560932,0.6295838879734246,missing segment tokens; no zero-valued artificial movement
+hierarchical,SO01302,3,1,reverse_runs,0,0.34259537488834485,0.3429772930289936,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,SO01302,3,1,reverse_runs,1,0.34259537488834485,0.3429772930289936,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,SO01302,3,1,reverse_runs,2,0.34259537488834485,0.3429772930289936,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,SO01302,3,1,shuffle_runs,0,0.34537522790412223,0.3429772930289936,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,SO01302,3,1,shuffle_runs,1,0.34572461140737976,0.3429772930289936,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,SO01302,3,1,shuffle_runs,2,0.34564202215989914,0.3429772930289936,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,SO01302,3,1,missing_segments_0.1,0,0.3391493191216953,0.3429772930289936,missing segment tokens; no zero-valued artificial movement
+hierarchical,SO01302,3,1,missing_segments_0.1,1,0.3427679795747901,0.3429772930289936,missing segment tokens; no zero-valued artificial movement
+hierarchical,SO01302,3,1,missing_segments_0.1,2,0.34217869611994806,0.3429772930289936,missing segment tokens; no zero-valued artificial movement
+hierarchical,SO01302,3,1,missing_segments_0.25,0,0.3383306533104958,0.3429772930289936,missing segment tokens; no zero-valued artificial movement
+hierarchical,SO01302,3,1,missing_segments_0.25,1,0.29778657847678863,0.3429772930289936,missing segment tokens; no zero-valued artificial movement
+hierarchical,SO01302,3,1,missing_segments_0.25,2,0.4035312237759173,0.3429772930289936,missing segment tokens; no zero-valued artificial movement
+hierarchical,SO01407,3,1,reverse_runs,0,0.6185948638013675,0.6190267591639848,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,SO01407,3,1,reverse_runs,1,0.6185948638013675,0.6190267591639848,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,SO01407,3,1,reverse_runs,2,0.6185948638013675,0.6190267591639848,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,SO01407,3,1,shuffle_runs,0,0.6209297735309929,0.6190267591639848,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,SO01407,3,1,shuffle_runs,1,0.6208564946825063,0.6190267591639848,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,SO01407,3,1,shuffle_runs,2,0.6207715640105901,0.6190267591639848,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,SO01407,3,1,missing_segments_0.1,0,0.6181746057015454,0.6190267591639848,missing segment tokens; no zero-valued artificial movement
+hierarchical,SO01407,3,1,missing_segments_0.1,1,0.6189961501829908,0.6190267591639848,missing segment tokens; no zero-valued artificial movement
+hierarchical,SO01407,3,1,missing_segments_0.1,2,0.6178049649102821,0.6190267591639848,missing segment tokens; no zero-valued artificial movement
+hierarchical,SO01407,3,1,missing_segments_0.25,0,0.6187450365300778,0.6190267591639848,missing segment tokens; no zero-valued artificial movement
+hierarchical,SO01407,3,1,missing_segments_0.25,1,0.6088215928562192,0.6190267591639848,missing segment tokens; no zero-valued artificial movement
+hierarchical,SO01407,3,1,missing_segments_0.25,2,0.6192096904768082,0.6190267591639848,missing segment tokens; no zero-valued artificial movement
+hierarchical,TL10402,3,1,reverse_runs,0,0.4279510096745962,0.42832351215254755,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,TL10402,3,1,reverse_runs,1,0.4279510096745962,0.42832351215254755,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,TL10402,3,1,reverse_runs,2,0.4279510096745962,0.42832351215254755,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,TL10402,3,1,shuffle_runs,0,0.4327770255935901,0.42832351215254755,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,TL10402,3,1,shuffle_runs,1,0.43399907114365643,0.42832351215254755,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,TL10402,3,1,shuffle_runs,2,0.43448541588094525,0.42832351215254755,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,TL10402,3,1,missing_segments_0.1,0,0.4404552671640499,0.42832351215254755,missing segment tokens; no zero-valued artificial movement
+hierarchical,TL10402,3,1,missing_segments_0.1,1,0.4728225373044917,0.42832351215254755,missing segment tokens; no zero-valued artificial movement
+hierarchical,TL10402,3,1,missing_segments_0.1,2,0.4291209462099418,0.42832351215254755,missing segment tokens; no zero-valued artificial movement
+hierarchical,TL10402,3,1,missing_segments_0.25,0,0.3979500567037745,0.42832351215254755,missing segment tokens; no zero-valued artificial movement
+hierarchical,TL10402,3,1,missing_segments_0.25,1,0.38346769697237726,0.42832351215254755,missing segment tokens; no zero-valued artificial movement
+hierarchical,TL10402,3,1,missing_segments_0.25,2,0.36773787941717984,0.42832351215254755,missing segment tokens; no zero-valued artificial movement
+hierarchical,VV10302,3,1,reverse_runs,0,0.5462787207599652,0.5462817197797469,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,VV10302,3,1,reverse_runs,1,0.5462787207599652,0.5462817197797469,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,VV10302,3,1,reverse_runs,2,0.5462787207599652,0.5462817197797469,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,VV10302,3,1,shuffle_runs,0,0.5526653123674906,0.5462817197797469,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,VV10302,3,1,shuffle_runs,1,0.5530085733308682,0.5462817197797469,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,VV10302,3,1,shuffle_runs,2,0.5523803334324252,0.5462817197797469,OOD: internal dynamics retained; global clocks/segment slot positions may conflict
+hierarchical,VV10302,3,1,missing_segments_0.1,0,0.5461218215486431,0.5462817197797469,missing segment tokens; no zero-valued artificial movement
+hierarchical,VV10302,3,1,missing_segments_0.1,1,0.5448684364917904,0.5462817197797469,missing segment tokens; no zero-valued artificial movement
+hierarchical,VV10302,3,1,missing_segments_0.1,2,0.5465946556382087,0.5462817197797469,missing segment tokens; no zero-valued artificial movement
+hierarchical,VV10302,3,1,missing_segments_0.25,0,0.538474718261541,0.5462817197797469,missing segment tokens; no zero-valued artificial movement
+hierarchical,VV10302,3,1,missing_segments_0.25,1,0.534826892781645,0.5462817197797469,missing segment tokens; no zero-valued artificial movement
+hierarchical,VV10302,3,1,missing_segments_0.25,2,0.5661577548417863,0.5462817197797469,missing segment tokens; no zero-valued artificial movement

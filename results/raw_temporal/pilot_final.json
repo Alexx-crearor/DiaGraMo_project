@@ -1,0 +1,50 @@
+{
+  "models": [
+    {
+      "family": "cnn",
+      "train_seconds": 1.4581440000329167,
+      "best_epoch": 1,
+      "epochs_ran": 1,
+      "parameters": 4178,
+      "peak_gpu_bytes": 1189437952
+    },
+    {
+      "family": "tcn",
+      "train_seconds": 0.159043500025291,
+      "best_epoch": 1,
+      "epochs_ran": 1,
+      "parameters": 13554,
+      "peak_gpu_bytes": 1256724480
+    },
+    {
+      "family": "transformer",
+      "train_seconds": 0.15603710000868887,
+      "best_epoch": 1,
+      "epochs_ran": 1,
+      "parameters": 12722,
+      "peak_gpu_bytes": 1256761344
+    },
+    {
+      "family": "hierarchical",
+      "train_seconds": 0.2648521999944933,
+      "best_epoch": 1,
+      "epochs_ran": 1,
+      "parameters": 29810,
+      "peak_gpu_bytes": 1307883008
+    }
+  ],
+  "fit_ids": [
+    "NA03401",
+    "HK12403",
+    "JI02401",
+    "JI05402",
+    "MB07404",
+    "BR5401",
+    "BR10306",
+    "BR3310"
+  ],
+  "raw_samples": 2940838,
+  "outer_test_evaluated": false,
+  "source": "original SVC",
+  "encoder_sha256": "b2a43f301fd0f6624aa937b3df46feadfaaa10285379738bd71dbcde32959961"
+}

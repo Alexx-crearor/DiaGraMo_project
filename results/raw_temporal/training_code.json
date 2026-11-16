@@ -1,0 +1,12 @@
+{
+  "configs/raw_temporal.json": "379b336bcea611af557e9f7e1d4d12c7a180c165eff8b96c9133ff05d509d28f",
+  "configs/raw_temporal_runtime.json": "64cb726fdabb3ac0733d3bead844bdfc6b28e3d245fe12be0feca37e3aff474a",
+  "scripts/train_raw_temporal.py": "031a0d46287752bf8a622b6f8d6d349b8394cdf198fc8951777132a2fa8d4ee7",
+  "scripts/raw_temporal_common.py": "1f8f13e22a0b41f68a08cb558dd4a6d1b382e1cad1f71b7cf558dd0be8db27bf",
+  "src/diagramo/temporal/__init__.py": "082476ac86128927888713f9a7275a3362ce1fbef3e618787b4bc4881445dfb6",
+  "src/diagramo/temporal/preprocessing.py": "599eec9e97e26c725b1d250d96ba943075017668b73abac8c7d641534058bc6d",
+  "src/diagramo/temporal/segmentation.py": "606a1ccff9e35d855b4d0747f9472bf26aeac5908b3a6d8e8825f972a17c1f6f",
+  "src/diagramo/temporal/dataset.py": "b80abb96052e059735af34dac1c72137a1a188f2eba466230686ad3c6f3ce8d3",
+  "src/diagramo/temporal/encoders.py": "b2a43f301fd0f6624aa937b3df46feadfaaa10285379738bd71dbcde32959961",
+  "src/diagramo/temporal/hierarchical_model.py": "c8ec326ebae654d00b602f5d9f3d616f1e9d8f3d288bcd8024a8ac409d14e840"
+}

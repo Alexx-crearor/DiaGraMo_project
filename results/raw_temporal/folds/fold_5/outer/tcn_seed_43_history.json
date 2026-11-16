@@ -1,0 +1,97 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 0.7109594253606575,
+    "train_accuracy": 0.4930232558139535
+  },
+  {
+    "epoch": 2,
+    "train_loss": 0.6996627036915269,
+    "train_accuracy": 0.4697674418604651
+  },
+  {
+    "epoch": 3,
+    "train_loss": 0.6831400959990745,
+    "train_accuracy": 0.5581395348837209
+  },
+  {
+    "epoch": 4,
+    "train_loss": 0.6898251364397449,
+    "train_accuracy": 0.5441860465116279
+  },
+  {
+    "epoch": 5,
+    "train_loss": 0.6673779756523842,
+    "train_accuracy": 0.5534883720930233
+  },
+  {
+    "epoch": 6,
+    "train_loss": 0.6751898804376292,
+    "train_accuracy": 0.5813953488372093
+  },
+  {
+    "epoch": 7,
+    "train_loss": 0.6601398745248485,
+    "train_accuracy": 0.5767441860465117
+  },
+  {
+    "epoch": 8,
+    "train_loss": 0.6411023270252139,
+    "train_accuracy": 0.627906976744186
+  },
+  {
+    "epoch": 9,
+    "train_loss": 0.6252313020617463,
+    "train_accuracy": 0.6651162790697674
+  },
+  {
+    "epoch": 10,
+    "train_loss": 0.5890124573264011,
+    "train_accuracy": 0.6837209302325581
+  },
+  {
+    "epoch": 11,
+    "train_loss": 0.5586284307546394,
+    "train_accuracy": 0.7441860465116279
+  },
+  {
+    "epoch": 12,
+    "train_loss": 0.549002005887586,
+    "train_accuracy": 0.7209302325581395
+  },
+  {
+    "epoch": 13,
+    "train_loss": 0.5557004625021025,
+    "train_accuracy": 0.7069767441860465
+  },
+  {
+    "epoch": 14,
+    "train_loss": 0.5353520927041076,
+    "train_accuracy": 0.7302325581395349
+  },
+  {
+    "epoch": 15,
+    "train_loss": 0.5349741952363835,
+    "train_accuracy": 0.7302325581395349
+  },
+  {
+    "epoch": 16,
+    "train_loss": 0.5529494083204934,
+    "train_accuracy": 0.7255813953488373
+  },
+  {
+    "epoch": 17,
+    "train_loss": 0.5424488411393277,
+    "train_accuracy": 0.7255813953488373
+  },
+  {
+    "epoch": 18,
+    "train_loss": 0.5290623189404954,
+    "train_accuracy": 0.7441860465116279
+  },
+  {
+    "epoch": 19,
+    "train_loss": 0.5959224797958551,
+    "train_accuracy": 0.7023255813953488
+  }
+]

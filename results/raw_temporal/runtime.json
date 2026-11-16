@@ -1,0 +1,1 @@
+{"micro_batch_participants":8,"effective_batch_participants":8,"gpu_workers":1,"cpu_threads":4,"selection_basis":"Train-only memory/throughput pilot, no outer Test predictions"}

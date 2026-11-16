@@ -1,0 +1,5 @@
+model,reference,spearman
+cnn,"Kinematic TreeSHAP, descriptive only; different method/reference",0.6791208791208792
+tcn,"Kinematic TreeSHAP, descriptive only; different method/reference",0.6131868131868132
+transformer,"Kinematic TreeSHAP, descriptive only; different method/reference",-0.0857142857142857
+hierarchical,"Kinematic TreeSHAP, descriptive only; different method/reference",0.5384615384615385

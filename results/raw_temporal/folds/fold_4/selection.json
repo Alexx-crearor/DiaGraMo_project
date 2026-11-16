@@ -1,0 +1,43 @@
+{
+  "choices": {
+    "cnn": {
+      "candidate": 0,
+      "epochs": 9,
+      "inner_f1": 0.5117037385403203
+    },
+    "tcn": {
+      "candidate": 1,
+      "epochs": 10,
+      "inner_f1": 0.5499180252371741
+    },
+    "transformer": {
+      "candidate": 0,
+      "epochs": 10,
+      "inner_f1": 0.5225726731411883
+    },
+    "hierarchical": {
+      "candidate": 1,
+      "epochs": 18,
+      "inner_f1": 0.5136379910816001
+    },
+    "no_explicit_time": {
+      "candidate": 1,
+      "epochs": 3
+    },
+    "no_position": {
+      "candidate": 1,
+      "epochs": 3
+    },
+    "index_time": {
+      "candidate": 1,
+      "epochs": 8
+    },
+    "local_stroke": {
+      "candidate": 1,
+      "epochs": 7
+    }
+  },
+  "nested_winner": "tcn",
+  "candidate": 1,
+  "outer_test_labels_used": false
+}

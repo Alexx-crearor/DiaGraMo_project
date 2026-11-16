@@ -1,0 +1,5 @@
+participant_id,label,fold,model,seed,probability,prediction,category,selection
+BR10301,0,4,hierarchical,42,0.5876879692077637,1,FP,lexicographically first ID per seed42 hierarchical OOF category
+BR10306,1,5,hierarchical,42,0.5090209245681763,1,TP,lexicographically first ID per seed42 hierarchical OOF category
+BR2406,0,4,hierarchical,42,0.1562865376472473,0,TN,lexicographically first ID per seed42 hierarchical OOF category
+HK03402,1,4,hierarchical,42,0.188804805278778,0,FN,lexicographically first ID per seed42 hierarchical OOF category

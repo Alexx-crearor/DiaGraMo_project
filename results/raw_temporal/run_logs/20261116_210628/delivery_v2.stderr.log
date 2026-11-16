@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "E:\DiaGraMo-project\scripts\run_raw_temporal_delivery.py", line 46, in <module>
+    if __name__=='__main__':main()
+  File "E:\DiaGraMo-project\scripts\run_raw_temporal_delivery.py", line 31, in main
+    time.sleep(5);progress('waiting_for_all_six_training_and_cpu_xai_folds')
+  File "E:\DiaGraMo-project\scripts\run_raw_temporal_delivery.py", line 16, in progress
+    temporary=OUT/'delivery_progress.tmp';temporary.write_text(json.dumps(state,indent=2),encoding='utf-8');temporary.replace(OUT/'delivery_progress.json')
+  File "C:\Users\Win 11 New\AppData\Local\Programs\Python\Python310\lib\pathlib.py", line 1247, in replace
+    self._accessor.replace(self, target)
+PermissionError: [WinError 5] Access is denied: 'E:\\DiaGraMo-project\\results\\raw_temporal\\delivery_progress.tmp' -> 'E:\\DiaGraMo-project\\results\\raw_temporal\\delivery_progress.json'

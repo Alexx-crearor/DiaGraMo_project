@@ -1,0 +1,59 @@
+RAW TEMPORAL TABLES GENERATED 5418
+IG EXAMPLE BR10301 42 DONE
+IG EXAMPLE BR10301 43 DONE
+IG EXAMPLE BR10301 44 DONE
+IG EXAMPLE BR10306 42 DONE
+IG EXAMPLE BR10306 43 DONE
+IG EXAMPLE BR10306 44 DONE
+IG EXAMPLE BR2406 42 DONE
+IG EXAMPLE BR2406 43 DONE
+IG EXAMPLE BR2406 44 DONE
+IG EXAMPLE HK03402 42 DONE
+IG EXAMPLE HK03402 43 DONE
+IG EXAMPLE HK03402 44 DONE
+XAI TABLES COMPLETE
+FIT CHECKPOINTS VALIDATED 0 inner
+FIT CHECKPOINTS VALIDATED 0 outer
+FIT CHECKPOINTS VALIDATED 1 inner
+FIT CHECKPOINTS VALIDATED 1 outer
+FIT CHECKPOINTS VALIDATED 2 inner
+FIT CHECKPOINTS VALIDATED 2 outer
+FIT CHECKPOINTS VALIDATED 3 inner
+FIT CHECKPOINTS VALIDATED 3 outer
+FIT CHECKPOINTS VALIDATED 4 inner
+FIT CHECKPOINTS VALIDATED 4 outer
+FIT CHECKPOINTS VALIDATED 5 inner
+FIT CHECKPOINTS VALIDATED 5 outer
+Traceback (most recent call last):
+  File "E:\DiaGraMo-project\scripts\validate_raw_temporal.py", line 237, in <module>
+    {'data':data_validation,'xai':xai_validation,'final':final}[args.phase]()
+  File "E:\DiaGraMo-project\scripts\validate_raw_temporal.py", line 159, in xai_validation
+    np.testing.assert_allclose(frame.logit-frame.removed_logit,frame.logit_delta,atol=1e-12,rtol=0);np.testing.assert_allclose(expit(frame.logit)-expit(frame.removed_logit),frame.probability_delta,atol=1e-12,rtol=0)
+  File "E:\DiaGraMo-project\.venv\lib\site-packages\numpy\testing\_private\utils.py", line 1504, in assert_allclose
+    assert_array_compare(compare, actual, desired, err_msg=str(err_msg),
+  File "C:\Users\Win 11 New\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "E:\DiaGraMo-project\.venv\lib\site-packages\numpy\testing\_private\utils.py", line 797, in assert_array_compare
+    raise AssertionError(msg)
+AssertionError: 
+Not equal to tolerance rtol=0, atol=1e-12
+
+Mismatched elements: 42361 / 42363 (100%)
+Max absolute difference: 5.45754688e-08
+Max relative difference: 1663.57680645
+ x: array([ 8.185580e-07,  4.982043e-06,  8.557652e-07, ...,  8.304747e-07,
+        1.090579e-06, -2.508145e-07])
+ y: array([ 8.074604e-07,  4.979786e-06,  8.670650e-07, ...,  8.003432e-07,
+        1.098366e-06, -2.725404e-07])
+XAI ALIGNMENT AND REPLAY VALIDATED 0
+XAI ALIGNMENT AND REPLAY VALIDATED 1
+XAI ALIGNMENT AND REPLAY VALIDATED 2
+XAI ALIGNMENT AND REPLAY VALIDATED 3
+XAI ALIGNMENT AND REPLAY VALIDATED 4
+XAI ALIGNMENT AND REPLAY VALIDATED 5
+TEMPORAL AUDIT REPORT WRITTEN
+VI RAW TEMPORAL REPORT WRITTEN
+RAW TEMPORAL FIGURES 31
+RAW TEMPORAL NOTEBOOK CREATED
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
+EXECUTED 06_raw_temporal_graphomotor.ipynb

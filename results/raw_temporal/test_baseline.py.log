@@ -1,0 +1,11 @@
+test_all_eleven_original_early_fusions (test_baseline.BaselineTests) ... ok
+test_fixed_classifier_parameters_and_pipeline (test_baseline.BaselineTests) ... ok
+test_kinematic_against_saved_real_recordings (test_baseline.BaselineTests) ... ok
+test_moment_preserves_api_and_tensor (test_baseline.BaselineTests) ... ok
+test_original_formula_entrypoints (test_baseline.BaselineTests) ... ok
+test_ten_cached_representations (test_baseline.BaselineTests) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 6.112s
+
+OK

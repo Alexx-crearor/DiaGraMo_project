@@ -140,3 +140,30 @@ Môi trường Python 3.10 hiện tại có SHAP 0.49.1. Nếu thiếu các pack
 Giữ `requirements-lock.txt` baseline. Lệnh chạy lại, ý nghĩa output space, giới hạn
 của task removal và trình tự validation được ghi trong báo cáo. Chỉ xem hoàn tất
 khi `results/kinematic_xai/validation.json` có `complete=true`.
+
+## Raw Temporal Graphomotor Learning
+
+Nghiên cứu mới học trực tiếp từ các tín hiệu `.svc` gốc, giữ thứ tự mẫu,
+timestamp và ranh giới pen-state. Bốn mô hình CNN, TCN, Temporal Transformer
+và Hierarchical Temporal Transformer được đánh giá riêng với baseline
+Kinematic được bảo toàn; không thực hiện fusion trong bước này.
+
+- [Báo cáo tiếng Việt](results/raw_temporal/REPORT_VI.md),
+  [audit dữ liệu](results/raw_temporal/audit/REPORT_VI.md).
+- [Notebook 06: bảng số và biểu đồ](notebooks/06_raw_temporal_graphomotor.ipynb).
+- [Cấu hình nghiên cứu](configs/raw_temporal.json),
+  [kết quả kiểm chứng](results/raw_temporal/validation.json).
+
+Giao thức giữ nguyên 258 participants, nhãn `group`, sáu outer folds và seed
+42; inner 3-fold chọn cấu hình và thời lượng huấn luyện. Các mô hình chính
+được kiểm tra thêm với seeds 43 và 44. Chuẩn hóa chỉ fit trên Train; attribution
+chỉ dùng mô hình outer Train và dữ liệu outer Test tương ứng. Báo cáo mô tả
+giới hạn của temporal ablations, attribution và so sánh trên cohort đã được
+nghiên cứu nhiều lần.
+
+Lệnh tái lập đầy đủ có trong báo cáo. Đọc bảng kết quả không cần train lại;
+cache và checkpoint được giữ local. Chỉ xem nghiên cứu hoàn tất khi
+`results/raw_temporal/validation.json` có `complete=true`, sau kiểm tra dữ
+liệu, replay dự đoán, XAI, notebook và regression tests. Thí nghiệm Transformer
+trên 14×74 handcrafted features trước đây đã được gỡ khỏi code đang dùng;
+lịch sử Git vẫn giữ phiên bản cũ.

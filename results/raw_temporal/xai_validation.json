@@ -1,0 +1,12 @@
+{
+  "complete": true,
+  "all_segment_rows_raw_aligned": 250225,
+  "task_and_sampled_segment_predictions_replayed": 16342,
+  "full_stroke_and_temporal_alignment_checked": true,
+  "ig_artifacts": 32,
+  "all_ig_completeness_checked": true,
+  "device": "cpu",
+  "probability_delta_dtype_arithmetic_reproduced": true,
+  "maximum_float32_sigmoid_roundoff": 7.470902763095921e-08,
+  "note": "Every segment/stroke/time row checked for mapping/arithmetic; model replay uses all hierarchical task occlusions and first/last segment per task. Randomization and baseline changes are diagnostics, not proof of clinical relevance."
+}

@@ -1,0 +1,15 @@
+{
+  "complete": true,
+  "protected_files": 706,
+  "participants": 258,
+  "recordings": 3612,
+  "raw_samples": 54808751,
+  "exact_sample_coverage": true,
+  "all_cached_channels_match_raw_preprocessing": true,
+  "all_timestamp_and_stroke_alignment_checked": true,
+  "derivative_masks_checked": true,
+  "original_float32_statistics_recomputed": true,
+  "packed_storage_exactly_validated": true,
+  "maximum_storage_error": 0.00390625,
+  "obsolete_tracked_task2_removed": true
+}

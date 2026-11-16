@@ -1,0 +1,59 @@
+{
+  "checks_passed": true,
+  "fold": 0,
+  "scope": "Same fixed checkpoints and CPU explanations; latency measurements intentionally differ",
+  "csv_comparisons": [
+    {
+      "file": "task_occlusion.csv",
+      "rows": 7224,
+      "maximum_absolute_difference": 0.0,
+      "original_sha256": "683f16126be3f8ede5273b7202f93a971e2c8366891b8d423481c8038d4150ec",
+      "warmup_sha256": "683f16126be3f8ede5273b7202f93a971e2c8366891b8d423481c8038d4150ec"
+    },
+    {
+      "file": "segment_occlusion.csv",
+      "rows": 42363,
+      "maximum_absolute_difference": 0.0,
+      "original_sha256": "02e1c4004103bb65b52a411fca34d7ec2c68287ba91e1f9fcc608d5e327dd534",
+      "warmup_sha256": "02e1c4004103bb65b52a411fca34d7ec2c68287ba91e1f9fcc608d5e327dd534"
+    },
+    {
+      "file": "stroke_occlusion.csv",
+      "rows": 38530,
+      "maximum_absolute_difference": 0.0,
+      "original_sha256": "cd6958eb5e2ded952f3a17dcf36037a96a9371bbc7291a1b7ccc48c26759d5a0",
+      "warmup_sha256": "cd6958eb5e2ded952f3a17dcf36037a96a9371bbc7291a1b7ccc48c26759d5a0"
+    },
+    {
+      "file": "temporal_occlusion.csv",
+      "rows": 4690,
+      "maximum_absolute_difference": 0.0,
+      "original_sha256": "c6997df9b4249a2cc14ae2bcc7d24c30d3e11f8dc81d46b175c939bc453281d8",
+      "warmup_sha256": "c6997df9b4249a2cc14ae2bcc7d24c30d3e11f8dc81d46b175c939bc453281d8"
+    },
+    {
+      "file": "perturbation_oof.csv",
+      "rows": 516,
+      "maximum_absolute_difference": 0.0,
+      "original_sha256": "2111f22c1a0827d4f6438907f9899d4296bcb2c136dbd631ee008850ec8bb36f",
+      "warmup_sha256": "2111f22c1a0827d4f6438907f9899d4296bcb2c136dbd631ee008850ec8bb36f"
+    },
+    {
+      "file": "embeddings.csv",
+      "rows": 516,
+      "maximum_absolute_difference": 0.0,
+      "original_sha256": "f59cf1956c9b433131c5b66c6fb354434dd142edf7745f2f5a35888f151174d5",
+      "warmup_sha256": "f59cf1956c9b433131c5b66c6fb354434dd142edf7745f2f5a35888f151174d5"
+    },
+    {
+      "file": "attention_supplementary.csv",
+      "rows": 8428,
+      "maximum_absolute_difference": 0.0,
+      "original_sha256": "cdeea1027bc1c07e8bbd4f5f89a23cb87009d601e27bf228a02321f1057907e0",
+      "warmup_sha256": "cdeea1027bc1c07e8bbd4f5f89a23cb87009d601e27bf228a02321f1057907e0"
+    }
+  ],
+  "representation_maximum_absolute_difference": 0.0,
+  "checker_sha256": "8aba3a3b0dc0ae40d4b8da010c87cd7daab622546ed8cbe8d8c5451e3342904e",
+  "tolerance": 3e-06
+}

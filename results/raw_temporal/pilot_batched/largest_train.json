@@ -1,0 +1,15 @@
+{
+  "train_seconds": 2.212577499973122,
+  "best_epoch": 1,
+  "epochs_ran": 1,
+  "parameters": 29810,
+  "peak_gpu_bytes": 694002176,
+  "fit_ids": [
+    "NA03401",
+    "HK12403",
+    "JI02401",
+    "JI05402"
+  ],
+  "samples": 1637393,
+  "outer_test_evaluated": false
+}

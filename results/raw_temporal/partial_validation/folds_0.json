@@ -1,0 +1,15 @@
+{
+  "complete": false,
+  "scope": "Partial checkpoint check only; consult validation.json for final whole-study status",
+  "checks_passed": true,
+  "folds": [
+    0
+  ],
+  "inner_fits": 36,
+  "outer_fits": 16,
+  "all_requested_predictions_replayed": true,
+  "train_only_normalization_verified": true,
+  "inner_only_selection_verified": true,
+  "training_signature": "906511686507c6aa5f81626e468e3cca6fee2b53ae7a9ac332a35ca8ec6e4a16",
+  "device": "cpu"
+}

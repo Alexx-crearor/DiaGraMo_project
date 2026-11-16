@@ -1,0 +1,18 @@
+{
+  "train_seconds": 0.2569484999985434,
+  "best_epoch": 2,
+  "epochs_ran": 2,
+  "parameters": 12722,
+  "peak_gpu_bytes": 395176960,
+  "fit_ids": [
+    "BR10301",
+    "BR10304",
+    "BR10305",
+    "BR10306",
+    "BR10404",
+    "BR10405",
+    "BR2401",
+    "BR2402"
+  ],
+  "outer_test_evaluated": false
+}

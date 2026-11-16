@@ -1,0 +1,388 @@
+REUSE OUTER 0
+REUSE OUTER 1
+INNER 2 cnn 0 DONE
+INNER 2 cnn 1 DONE
+INNER 2 tcn 0 DONE
+INNER 2 tcn 1 DONE
+INNER 2 transformer 0 DONE
+INNER 2 transformer 1 DONE
+INNER 2 hierarchical 0 DONE
+INNER 2 hierarchical 1 DONE
+ABLATION INNER 2 no_explicit_time DONE
+ABLATION INNER 2 no_position DONE
+ABLATION INNER 2 index_time DONE
+ABLATION INNER 2 local_stroke DONE
+EPOCH local_stroke 42 5 loss 0.6832 val 0.0
+OUTER FIT 2 local_stroke 42 DONE
+OUTER COMPLETE 2
+EPOCH cnn 42 5 loss 0.6895 val 0.6845
+EPOCH cnn 42 10 loss 0.6799 val 0.6795
+EPOCH cnn 42 15 loss 0.6743 val 0.6753
+EPOCH cnn 42 20 loss 0.6533 val 0.6715
+EPOCH cnn 42 5 loss 0.6907 val 0.6854
+EPOCH cnn 42 10 loss 0.6861 val 0.6739
+EPOCH cnn 42 15 loss 0.6646 val 0.6698
+EPOCH cnn 42 20 loss 0.6646 val 0.6591
+EPOCH cnn 42 5 loss 0.6804 val 0.6911
+INNER 3 cnn 0 DONE
+EPOCH cnn 42 5 loss 0.688 val 0.6843
+EPOCH cnn 42 10 loss 0.6842 val 0.6792
+EPOCH cnn 42 15 loss 0.6737 val 0.6734
+EPOCH cnn 42 20 loss 0.6631 val 0.6693
+EPOCH cnn 42 5 loss 0.6885 val 0.6849
+EPOCH cnn 42 10 loss 0.6912 val 0.6734
+EPOCH cnn 42 15 loss 0.6672 val 0.6719
+EPOCH cnn 42 20 loss 0.6758 val 0.6588
+EPOCH cnn 42 5 loss 0.6899 val 0.6884
+INNER 3 cnn 1 DONE
+EPOCH tcn 42 5 loss 0.689 val 0.6872
+EPOCH tcn 42 10 loss 0.6779 val 0.6786
+EPOCH tcn 42 15 loss 0.6631 val 0.6531
+EPOCH tcn 42 5 loss 0.6881 val 0.6834
+EPOCH tcn 42 10 loss 0.6896 val 0.6684
+EPOCH tcn 42 5 loss 0.6842 val 0.6894
+INNER 3 tcn 0 DONE
+EPOCH tcn 42 5 loss 0.6933 val 0.6871
+EPOCH tcn 42 10 loss 0.6784 val 0.686
+EPOCH tcn 42 15 loss 0.6779 val 0.6778
+EPOCH tcn 42 20 loss 0.6363 val 0.6416
+EPOCH tcn 42 5 loss 0.6903 val 0.6857
+EPOCH tcn 42 10 loss 0.6918 val 0.6558
+EPOCH tcn 42 5 loss 0.693 val 0.6878
+INNER 3 tcn 1 DONE
+EPOCH transformer 42 5 loss 0.6923 val 0.6863
+EPOCH transformer 42 10 loss 0.6792 val 0.6768
+EPOCH transformer 42 15 loss 0.637 val 0.7292
+EPOCH transformer 42 5 loss 0.6872 val 0.6833
+EPOCH transformer 42 10 loss 0.6888 val 0.6656
+EPOCH transformer 42 5 loss 0.6815 val 0.6887
+INNER 3 transformer 0 DONE
+EPOCH transformer 42 5 loss 0.6943 val 0.6863
+EPOCH transformer 42 10 loss 0.6676 val 0.6774
+EPOCH transformer 42 15 loss 0.6623 val 0.666
+EPOCH transformer 42 5 loss 0.6951 val 0.6809
+EPOCH transformer 42 10 loss 0.68 val 0.6697
+EPOCH transformer 42 5 loss 0.686 val 0.6845
+INNER 3 transformer 1 DONE
+EPOCH hierarchical 42 5 loss 0.6921 val 0.6867
+EPOCH hierarchical 42 10 loss 0.6856 val 0.6889
+EPOCH hierarchical 42 15 loss 0.6159 val 0.7138
+EPOCH hierarchical 42 5 loss 0.6945 val 0.6871
+EPOCH hierarchical 42 10 loss 0.6911 val 0.6862
+EPOCH hierarchical 42 15 loss 0.6877 val 0.6824
+EPOCH hierarchical 42 20 loss 0.6567 val 0.651
+EPOCH hierarchical 42 5 loss 0.6961 val 0.6879
+INNER 3 hierarchical 0 DONE
+EPOCH hierarchical 42 5 loss 0.6881 val 0.6868
+EPOCH hierarchical 42 10 loss 0.6851 val 0.6893
+EPOCH hierarchical 42 15 loss 0.6754 val 0.6989
+EPOCH hierarchical 42 5 loss 0.6928 val 0.6871
+EPOCH hierarchical 42 10 loss 0.6907 val 0.6846
+EPOCH hierarchical 42 15 loss 0.6876 val 0.6827
+EPOCH hierarchical 42 20 loss 0.6588 val 0.6527
+EPOCH hierarchical 42 5 loss 0.6964 val 0.688
+INNER 3 hierarchical 1 DONE
+EPOCH no_explicit_time 42 5 loss 0.6823 val 0.679
+EPOCH no_explicit_time 42 10 loss 0.6579 val 0.6683
+EPOCH no_explicit_time 42 5 loss 0.6785 val 0.6699
+EPOCH no_explicit_time 42 10 loss 0.6695 val 0.6673
+EPOCH no_explicit_time 42 5 loss 0.6785 val 0.6895
+ABLATION INNER 3 no_explicit_time DONE
+EPOCH no_position 42 5 loss 0.6828 val 0.6789
+EPOCH no_position 42 10 loss 0.6583 val 0.6639
+EPOCH no_position 42 5 loss 0.6789 val 0.6678
+EPOCH no_position 42 10 loss 0.671 val 0.651
+EPOCH no_position 42 15 loss 0.6016 val 0.7018
+EPOCH no_position 42 5 loss 0.6826 val 0.6832
+ABLATION INNER 3 no_position DONE
+EPOCH index_time 42 5 loss 0.6869 val 0.6864
+EPOCH index_time 42 10 loss 0.6823 val 0.6859
+EPOCH index_time 42 15 loss 0.6904 val 0.7087
+EPOCH index_time 42 5 loss 0.6886 val 0.6862
+EPOCH index_time 42 5 loss 0.6947 val 0.6874
+EPOCH index_time 42 10 loss 0.6701 val 0.7104
+ABLATION INNER 3 index_time DONE
+EPOCH local_stroke 42 5 loss 0.69 val 0.6861
+EPOCH local_stroke 42 5 loss 0.6886 val 0.6855
+EPOCH local_stroke 42 10 loss 0.6821 val 0.6719
+EPOCH local_stroke 42 5 loss 0.693 val 0.6845
+ABLATION INNER 3 local_stroke DONE
+EPOCH cnn 42 5 loss 0.6876 val 0.0
+EPOCH cnn 42 10 loss 0.6703 val 0.0
+EPOCH cnn 42 15 loss 0.6362 val 0.0
+EPOCH cnn 42 20 loss 0.5389 val 0.0
+OUTER FIT 3 cnn 42 DONE
+EPOCH cnn 43 5 loss 0.6811 val 0.0
+EPOCH cnn 43 10 loss 0.6487 val 0.0
+EPOCH cnn 43 15 loss 0.5872 val 0.0
+EPOCH cnn 43 20 loss 0.4957 val 0.0
+OUTER FIT 3 cnn 43 DONE
+EPOCH cnn 44 5 loss 0.6792 val 0.0
+EPOCH cnn 44 10 loss 0.6702 val 0.0
+EPOCH cnn 44 15 loss 0.6571 val 0.0
+EPOCH cnn 44 20 loss 0.6237 val 0.0
+OUTER FIT 3 cnn 44 DONE
+EPOCH tcn 42 5 loss 0.6824 val 0.0
+OUTER FIT 3 tcn 42 DONE
+EPOCH tcn 43 5 loss 0.6873 val 0.0
+OUTER FIT 3 tcn 43 DONE
+EPOCH tcn 44 5 loss 0.6795 val 0.0
+OUTER FIT 3 tcn 44 DONE
+EPOCH transformer 42 5 loss 0.6843 val 0.0
+OUTER FIT 3 transformer 42 DONE
+EPOCH transformer 43 5 loss 0.6774 val 0.0
+OUTER FIT 3 transformer 43 DONE
+EPOCH transformer 44 5 loss 0.6869 val 0.0
+OUTER FIT 3 transformer 44 DONE
+EPOCH hierarchical 42 5 loss 0.6965 val 0.0
+EPOCH hierarchical 42 10 loss 0.6725 val 0.0
+OUTER FIT 3 hierarchical 42 DONE
+EPOCH hierarchical 43 5 loss 0.6883 val 0.0
+EPOCH hierarchical 43 10 loss 0.6762 val 0.0
+OUTER FIT 3 hierarchical 43 DONE
+EPOCH hierarchical 44 5 loss 0.6918 val 0.0
+EPOCH hierarchical 44 10 loss 0.6884 val 0.0
+OUTER FIT 3 hierarchical 44 DONE
+EPOCH no_explicit_time 42 5 loss 0.6974 val 0.0
+OUTER FIT 3 no_explicit_time 42 DONE
+EPOCH no_position 42 5 loss 0.6971 val 0.0
+EPOCH no_position 42 10 loss 0.6594 val 0.0
+OUTER FIT 3 no_position 42 DONE
+EPOCH index_time 42 5 loss 0.6956 val 0.0
+OUTER FIT 3 index_time 42 DONE
+EPOCH local_stroke 42 5 loss 0.6818 val 0.0
+OUTER FIT 3 local_stroke 42 DONE
+OUTER COMPLETE 3
+EPOCH cnn 42 5 loss 0.6829 val 0.6788
+EPOCH cnn 42 10 loss 0.6691 val 0.6707
+EPOCH cnn 42 5 loss 0.6852 val 0.7023
+EPOCH cnn 42 5 loss 0.6929 val 0.6789
+EPOCH cnn 42 10 loss 0.6814 val 0.66
+EPOCH cnn 42 15 loss 0.6696 val 0.6601
+INNER 4 cnn 0 DONE
+EPOCH cnn 42 5 loss 0.6774 val 0.6797
+EPOCH cnn 42 10 loss 0.6749 val 0.675
+EPOCH cnn 42 5 loss 0.687 val 0.7003
+EPOCH cnn 42 5 loss 0.6954 val 0.6798
+EPOCH cnn 42 10 loss 0.6838 val 0.6617
+EPOCH cnn 42 15 loss 0.6688 val 0.6568
+INNER 4 cnn 1 DONE
+EPOCH tcn 42 5 loss 0.6889 val 0.684
+EPOCH tcn 42 10 loss 0.6692 val 0.6542
+EPOCH tcn 42 5 loss 0.6813 val 0.6973
+EPOCH tcn 42 5 loss 0.6886 val 0.6832
+EPOCH tcn 42 10 loss 0.6655 val 0.6734
+INNER 4 tcn 0 DONE
+EPOCH tcn 42 5 loss 0.6872 val 0.684
+EPOCH tcn 42 10 loss 0.6722 val 0.6515
+EPOCH tcn 42 5 loss 0.683 val 0.7033
+EPOCH tcn 42 10 loss 0.6385 val 0.7753
+EPOCH tcn 42 5 loss 0.6942 val 0.6851
+EPOCH tcn 42 10 loss 0.6751 val 0.6719
+EPOCH tcn 42 15 loss 0.6806 val 0.6595
+EPOCH tcn 42 20 loss 0.6615 val 0.6481
+INNER 4 tcn 1 DONE
+EPOCH transformer 42 5 loss 0.6886 val 0.6849
+EPOCH transformer 42 10 loss 0.6741 val 0.656
+EPOCH transformer 42 5 loss 0.6465 val 0.7037
+EPOCH transformer 42 5 loss 0.6864 val 0.6756
+EPOCH transformer 42 10 loss 0.6643 val 0.6756
+EPOCH transformer 42 15 loss 0.6797 val 0.6604
+EPOCH transformer 42 20 loss 0.6487 val 0.6838
+INNER 4 transformer 0 DONE
+EPOCH transformer 42 5 loss 0.6897 val 0.6843
+EPOCH transformer 42 10 loss 0.676 val 0.6586
+EPOCH transformer 42 5 loss 0.6474 val 0.7101
+EPOCH transformer 42 5 loss 0.6926 val 0.6833
+EPOCH transformer 42 10 loss 0.6702 val 0.6537
+INNER 4 transformer 1 DONE
+EPOCH hierarchical 42 5 loss 0.6895 val 0.6881
+EPOCH hierarchical 42 10 loss 0.6859 val 0.7151
+EPOCH hierarchical 42 5 loss 0.6963 val 0.7046
+EPOCH hierarchical 42 10 loss 0.6522 val 0.7465
+EPOCH hierarchical 42 5 loss 0.6902 val 0.6875
+EPOCH hierarchical 42 10 loss 0.6966 val 0.6418
+INNER 4 hierarchical 0 DONE
+EPOCH hierarchical 42 5 loss 0.6929 val 0.6882
+EPOCH hierarchical 42 10 loss 0.685 val 0.727
+EPOCH hierarchical 42 5 loss 0.6988 val 0.6969
+EPOCH hierarchical 42 10 loss 0.6584 val 0.7284
+EPOCH hierarchical 42 15 loss 0.6371 val 0.6856
+EPOCH hierarchical 42 20 loss 0.6303 val 0.6781
+EPOCH hierarchical 42 5 loss 0.6906 val 0.6868
+EPOCH hierarchical 42 10 loss 0.6841 val 0.6647
+EPOCH hierarchical 42 15 loss 0.6978 val 0.6543
+EPOCH hierarchical 42 20 loss 0.6697 val 0.6549
+INNER 4 hierarchical 1 DONE
+EPOCH no_explicit_time 42 5 loss 0.6557 val 0.7228
+EPOCH no_explicit_time 42 5 loss 0.6885 val 0.7186
+EPOCH no_explicit_time 42 5 loss 0.6869 val 0.6837
+EPOCH no_explicit_time 42 10 loss 0.6648 val 0.6693
+ABLATION INNER 4 no_explicit_time DONE
+EPOCH no_position 42 5 loss 0.6578 val 0.7202
+EPOCH no_position 42 5 loss 0.6842 val 0.7056
+EPOCH no_position 42 5 loss 0.6884 val 0.6844
+EPOCH no_position 42 10 loss 0.674 val 0.6771
+ABLATION INNER 4 no_position DONE
+EPOCH index_time 42 5 loss 0.6921 val 0.6849
+EPOCH index_time 42 10 loss 0.639 val 0.717
+EPOCH index_time 42 5 loss 0.6981 val 0.702
+EPOCH index_time 42 10 loss 0.6395 val 0.7806
+EPOCH index_time 42 5 loss 0.6917 val 0.687
+EPOCH index_time 42 10 loss 0.6832 val 0.6654
+EPOCH index_time 42 15 loss 0.6847 val 0.6602
+EPOCH index_time 42 20 loss 0.6751 val 0.6618
+ABLATION INNER 4 index_time DONE
+EPOCH local_stroke 42 5 loss 0.6828 val 0.6852
+EPOCH local_stroke 42 10 loss 0.6426 val 0.7198
+EPOCH local_stroke 42 5 loss 0.6918 val 0.6974
+EPOCH local_stroke 42 5 loss 0.6899 val 0.683
+EPOCH local_stroke 42 10 loss 0.6693 val 0.6782
+ABLATION INNER 4 local_stroke DONE
+EPOCH cnn 42 5 loss 0.6806 val 0.0
+OUTER FIT 4 cnn 42 DONE
+EPOCH cnn 43 5 loss 0.6652 val 0.0
+OUTER FIT 4 cnn 43 DONE
+EPOCH cnn 44 5 loss 0.6811 val 0.0
+OUTER FIT 4 cnn 44 DONE
+EPOCH tcn 42 5 loss 0.689 val 0.0
+EPOCH tcn 42 10 loss 0.6616 val 0.0
+OUTER FIT 4 tcn 42 DONE
+EPOCH tcn 43 5 loss 0.6801 val 0.0
+EPOCH tcn 43 10 loss 0.6285 val 0.0
+OUTER FIT 4 tcn 43 DONE
+EPOCH tcn 44 5 loss 0.6671 val 0.0
+EPOCH tcn 44 10 loss 0.6776 val 0.0
+OUTER FIT 4 tcn 44 DONE
+EPOCH transformer 42 5 loss 0.6864 val 0.0
+EPOCH transformer 42 10 loss 0.6602 val 0.0
+OUTER FIT 4 transformer 42 DONE
+EPOCH transformer 43 5 loss 0.6763 val 0.0
+EPOCH transformer 43 10 loss 0.6391 val 0.0
+OUTER FIT 4 transformer 43 DONE
+EPOCH transformer 44 5 loss 0.6764 val 0.0
+EPOCH transformer 44 10 loss 0.668 val 0.0
+OUTER FIT 4 transformer 44 DONE
+EPOCH hierarchical 42 5 loss 0.6974 val 0.0
+EPOCH hierarchical 42 10 loss 0.6778 val 0.0
+EPOCH hierarchical 42 15 loss 0.6564 val 0.0
+OUTER FIT 4 hierarchical 42 DONE
+EPOCH hierarchical 43 5 loss 0.6824 val 0.0
+EPOCH hierarchical 43 10 loss 0.6383 val 0.0
+EPOCH hierarchical 43 15 loss 0.632 val 0.0
+OUTER FIT 4 hierarchical 43 DONE
+EPOCH hierarchical 44 5 loss 0.6849 val 0.0
+EPOCH hierarchical 44 10 loss 0.67 val 0.0
+EPOCH hierarchical 44 15 loss 0.6547 val 0.0
+OUTER FIT 4 hierarchical 44 DONE
+OUTER FIT 4 no_explicit_time 42 DONE
+OUTER FIT 4 no_position 42 DONE
+EPOCH index_time 42 5 loss 0.6945 val 0.0
+OUTER FIT 4 index_time 42 DONE
+EPOCH local_stroke 42 5 loss 0.6885 val 0.0
+OUTER FIT 4 local_stroke 42 DONE
+OUTER COMPLETE 4
+EPOCH cnn 42 5 loss 0.6728 val 0.6902
+EPOCH cnn 42 5 loss 0.6942 val 0.6818
+EPOCH cnn 42 10 loss 0.6845 val 0.6789
+EPOCH cnn 42 15 loss 0.6752 val 0.6813
+EPOCH cnn 42 5 loss 0.6784 val 0.6948
+INNER 5 cnn 0 DONE
+EPOCH cnn 42 5 loss 0.68 val 0.6878
+EPOCH cnn 42 5 loss 0.6924 val 0.6828
+EPOCH cnn 42 10 loss 0.6899 val 0.6798
+EPOCH cnn 42 5 loss 0.68 val 0.6926
+INNER 5 cnn 1 DONE
+EPOCH tcn 42 5 loss 0.6832 val 0.6898
+EPOCH tcn 42 10 loss 0.6424 val 0.6798
+EPOCH tcn 42 15 loss 0.5354 val 0.7143
+EPOCH tcn 42 20 loss 0.4614 val 0.6796
+EPOCH tcn 42 5 loss 0.6912 val 0.6855
+EPOCH tcn 42 10 loss 0.683 val 0.6788
+EPOCH tcn 42 15 loss 0.6659 val 0.656
+EPOCH tcn 42 20 loss 0.5737 val 0.6424
+EPOCH tcn 42 5 loss 0.6745 val 0.7005
+INNER 5 tcn 0 DONE
+EPOCH tcn 42 5 loss 0.6869 val 0.6916
+EPOCH tcn 42 5 loss 0.6898 val 0.6855
+EPOCH tcn 42 10 loss 0.6842 val 0.6764
+EPOCH tcn 42 15 loss 0.6716 val 0.6653
+EPOCH tcn 42 20 loss 0.6744 val 0.6619
+EPOCH tcn 42 5 loss 0.6768 val 0.7045
+INNER 5 tcn 1 DONE
+EPOCH transformer 42 5 loss 0.6851 val 0.6894
+EPOCH transformer 42 10 loss 0.6827 val 0.6836
+EPOCH transformer 42 5 loss 0.692 val 0.6854
+EPOCH transformer 42 10 loss 0.6893 val 0.6833
+EPOCH transformer 42 15 loss 0.6734 val 0.6795
+EPOCH transformer 42 5 loss 0.6733 val 0.6956
+INNER 5 transformer 0 DONE
+EPOCH transformer 42 5 loss 0.6866 val 0.6889
+EPOCH transformer 42 10 loss 0.6931 val 0.683
+EPOCH transformer 42 15 loss 0.6551 val 0.6862
+EPOCH transformer 42 20 loss 0.5883 val 0.7186
+EPOCH transformer 42 5 loss 0.698 val 0.6852
+EPOCH transformer 42 10 loss 0.6855 val 0.6808
+EPOCH transformer 42 15 loss 0.6759 val 0.6885
+EPOCH transformer 42 5 loss 0.6765 val 0.6975
+INNER 5 transformer 1 DONE
+EPOCH hierarchical 42 5 loss 0.6947 val 0.6871
+EPOCH hierarchical 42 10 loss 0.643 val 0.6857
+EPOCH hierarchical 42 15 loss 0.6328 val 0.8923
+EPOCH hierarchical 42 5 loss 0.6951 val 0.6877
+EPOCH hierarchical 42 5 loss 0.6838 val 0.7002
+INNER 5 hierarchical 0 DONE
+EPOCH hierarchical 42 5 loss 0.6907 val 0.6872
+EPOCH hierarchical 42 5 loss 0.6979 val 0.6883
+EPOCH hierarchical 42 10 loss 0.6881 val 0.6884
+EPOCH hierarchical 42 5 loss 0.6887 val 0.6912
+INNER 5 hierarchical 1 DONE
+EPOCH no_explicit_time 42 5 loss 0.6617 val 0.7361
+EPOCH no_explicit_time 42 5 loss 0.6943 val 0.6874
+EPOCH no_explicit_time 42 5 loss 0.6276 val 0.7822
+ABLATION INNER 5 no_explicit_time DONE
+EPOCH no_position 42 5 loss 0.6615 val 0.7009
+EPOCH no_position 42 5 loss 0.6936 val 0.688
+EPOCH no_position 42 5 loss 0.6279 val 0.7845
+ABLATION INNER 5 no_position DONE
+EPOCH index_time 42 5 loss 0.6938 val 0.688
+EPOCH index_time 42 5 loss 0.6939 val 0.6878
+EPOCH index_time 42 5 loss 0.6782 val 0.7151
+ABLATION INNER 5 index_time DONE
+EPOCH local_stroke 42 5 loss 0.6774 val 0.6878
+EPOCH local_stroke 42 10 loss 0.632 val 0.6957
+EPOCH local_stroke 42 5 loss 0.6954 val 0.6842
+EPOCH local_stroke 42 5 loss 0.6921 val 0.6862
+ABLATION INNER 5 local_stroke DONE
+OUTER FIT 5 cnn 42 DONE
+OUTER FIT 5 cnn 43 DONE
+OUTER FIT 5 cnn 44 DONE
+EPOCH tcn 42 5 loss 0.6941 val 0.0
+EPOCH tcn 42 10 loss 0.6574 val 0.0
+EPOCH tcn 42 15 loss 0.5775 val 0.0
+OUTER FIT 5 tcn 42 DONE
+EPOCH tcn 43 5 loss 0.6674 val 0.0
+EPOCH tcn 43 10 loss 0.589 val 0.0
+EPOCH tcn 43 15 loss 0.535 val 0.0
+OUTER FIT 5 tcn 43 DONE
+EPOCH tcn 44 5 loss 0.6756 val 0.0
+EPOCH tcn 44 10 loss 0.6753 val 0.0
+EPOCH tcn 44 15 loss 0.6024 val 0.0
+OUTER FIT 5 tcn 44 DONE
+EPOCH transformer 42 5 loss 0.6981 val 0.0
+EPOCH transformer 42 10 loss 0.6823 val 0.0
+OUTER FIT 5 transformer 42 DONE
+EPOCH transformer 43 5 loss 0.6792 val 0.0
+EPOCH transformer 43 10 loss 0.6378 val 0.0
+OUTER FIT 5 transformer 43 DONE
+EPOCH transformer 44 5 loss 0.6806 val 0.0
+EPOCH transformer 44 10 loss 0.6731 val 0.0
+OUTER FIT 5 transformer 44 DONE
+OUTER FIT 5 hierarchical 42 DONE
+OUTER FIT 5 hierarchical 43 DONE
+OUTER FIT 5 hierarchical 44 DONE
+OUTER FIT 5 no_explicit_time 42 DONE
+OUTER FIT 5 no_position 42 DONE
+OUTER FIT 5 index_time 42 DONE
+OUTER FIT 5 local_stroke 42 DONE
+OUTER COMPLETE 5

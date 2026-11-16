@@ -1,0 +1,27 @@
+{
+  "stage": "complete",
+  "complete": true,
+  "inner_fits_completed": 216,
+  "inner_fits_expected": 216,
+  "outer_fits_completed": 96,
+  "outer_fits_expected": 96,
+  "training_folds_completed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "xai_folds_completed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "pending_training_folds": [],
+  "pending_xai_folds": [],
+  "final_validation": "passed"
+}

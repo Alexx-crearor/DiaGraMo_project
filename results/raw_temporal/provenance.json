@@ -1,0 +1,50 @@
+{
+  "audited_start_head": "025b8408ae1d3d2be78b361ce77a2b10c18e6c41",
+  "cleanup_commit": "bcfad1de339279a19c1e1b23ed266eab63e3b6eb",
+  "branch": "study/kinematic-task-transformer",
+  "seed": 42,
+  "repeat_seeds": [
+    42,
+    43,
+    44
+  ],
+  "training_signature": "906511686507c6aa5f81626e468e3cca6fee2b53ae7a9ac332a35ca8ec6e4a16",
+  "versions": {
+    "torch": "2.7.1+cu128",
+    "numpy": "1.25.2",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.9"
+  },
+  "python": "3.10.11",
+  "gpu": "Quadro T1000",
+  "input": "Original raw chronological windows, 21 timestamp-safe sample channels; never handcrafted Kinematic features",
+  "independent_units": 258,
+  "prior_outer_cohort_inspection": true,
+  "external_validation": false,
+  "selection": "6 fixed outer folds; 3 inner folds; two dropout candidates per primary family; matched ablations use inner-selected hierarchical configuration",
+  "precision": "float16 RAM/disk packing only, maximum measured input log-channel error0.00390625; float32 model/gradients; no AMP",
+  "micro_batch_participants": 8,
+  "effective_batch_participants": 8,
+  "gpu_workers": 1,
+  "largest_outer_train_microbatch_peak_tensor_bytes": 1307883008,
+  "memory_note": "Final benchmark: one GPU worker; packed read-only memory map; no windows/tasks from one participant cross partitions. Earlier concurrent workers were development-only resource trials.",
+  "resource_adjustment": "Historical resource trials: three workers reached3932MiB/4096MiB; two TCN workers reached3915MiB. Final source/code/runtime revisions archive all earlier partial fits and restart every benchmark fit with one sequential GPU worker. Final timing tables exclude development fits.",
+  "coverage_correction": "Additional all-position impulse test found last edge samples outside retained Conv receptive fields. Fix right padding and output-validity rule; archive all partial inner-only fits, no outer Test predictions produced. Restart every fit.",
+  "invalid_partial_fits_archive": "data/derived/raw_temporal_debug_pre_coverage_fix",
+  "tcn_implementation": "Same dilated convolution parameters/receptive fields using unfold+GEMM; tested outputs and all input/weight gradients against Conv1d; restart every fit for a consistent code signature.",
+  "final_resource_policy": "One GPU worker, micro-batch8, effective batch8. Chosen on largest8 outer Train0 participants after validating exact TCN unfold+GEMM implementation. All final benchmark fits use original SVC input and one frozen code signature.",
+  "input_source_revision": "Use all original SVC raw samples. Original merged JSON rounded pressure and omitted11 samples in3 tasks; keep merged metadata only for protected cohort/group/task identity.",
+  "invalid_pre_svc_fits": "Archived, excluded from benchmark; no outer Test results used.",
+  "cpu_threads": 4,
+  "xai_device": "CPU with two threads; held-out predictions checked against saved GPU OOF; separate device/scope for latency",
+  "cpu_hardware": {
+    "Name": "Intel(R) Core(TM) i7-10850H CPU @ 2.70GHz",
+    "NumberOfCores": 6,
+    "NumberOfLogicalProcessors": 12
+  },
+  "gpu_memory_mib": 4096,
+  "gpu_driver": "610.60",
+  "xai_latency_correction": "Add explicit untimed forward for each participant ragged shape before latency measurement. Archive prior fold0/1 XAI under data/derived/raw_temporal_xai_pre_latency_warmup, rerun all XAI with one consistent signature. Training/checkpoints/OOF unchanged."
+}

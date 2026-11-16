@@ -1,0 +1,512 @@
+[
+  {
+    "name": "01_raw_data_lengths",
+    "caption": "All raw values remain in CSV; boxplots suppress outlier markers only. Time uses source seconds convention.",
+    "publication_status": "general paper draft; journal requirements not specified",
+    "dpi": 300,
+    "independent_unit": "participant, n=258; 6 folds; repeated seeds use the same cohort",
+    "uncertainty": "Fold SD unless explicitly labelled; not confidence intervals",
+    "sources": {
+      "results/raw_temporal/audit/recordings.csv": "eb94ebfbdc3f8483df65216728893bcd9784c933872c7df099b79f27f372cce9"
+    },
+    "outputs": {
+      "png": "675c793bd3b19e4f4e8af584f09827ea7d24cc59d8e0d34fdf476f60d9a6e4aa",
+      "svg": "9470f3f34af8f3bff5e491da17f5be058872c98ebb0b837f5a0a582c96a8c148"
+    }
+  },
+  {
+    "name": "02_timestamp_and_window_audit",
+    "caption": "Fixed safety thresholds and computational window trade-off; no label-based window selection.",
+    "publication_status": "general paper draft; journal requirements not specified",
+    "dpi": 300,
+    "independent_unit": "participant, n=258; 6 folds; repeated seeds use the same cohort",
+    "uncertainty": "Fold SD unless explicitly labelled; not confidence intervals",
+    "sources": {
+      "results/raw_temporal/audit/recordings.csv": "eb94ebfbdc3f8483df65216728893bcd9784c933872c7df099b79f27f372cce9",
+      "results/raw_temporal/audit/window_tradeoff.csv": "aee737c0d6ba223eac97f86e900634be36779967c907dc2f3f266be0bf72ff52"
+    },
+    "outputs": {
+      "png": "de17da6ccaaa42de60a7b13757f7a8efb2ae631a5490a9d7abace3ec6b8a34e1",
+      "svg": "766be7fb8383607d760e97d275347ba0e2654cc8d5e4b38fa2a60b906b25b213"
+    }
+  },
+  {
+    "name": "03_raw_temporal_architecture",
+    "caption": "Actual bounded hierarchy; CNN/TCN/flat Transformer are separate raw baselines, no handcrafted74-dimensional input.",
+    "publication_status": "general paper draft; journal requirements not specified",
+    "dpi": 300,
+    "independent_unit": "participant, n=258; 6 folds; repeated seeds use the same cohort",
+    "uncertainty": "Fold SD unless explicitly labelled; not confidence intervals",
+    "sources": {
+      "src/diagramo/temporal/hierarchical_model.py": "c8ec326ebae654d00b602f5d9f3d616f1e9d8f3d288bcd8024a8ac409d14e840",
+      "configs/raw_temporal.json": "379b336bcea611af557e9f7e1d4d12c7a180c165eff8b96c9133ff05d509d28f"
+    },
+    "outputs": {
+      "png": "bc8b332f4e7e86e3e8d493bb2c70a846fa664ac698d7a7b4736c5579c8b1432d",
+      "svg": "ef5734ca83347ffacdc506f32437137687b0b2779bb0945099878e2a4d2047d2"
+    }
+  },
+  {
+    "name": "04_predictive_comparison",
+    "caption": "Same258 participants/folds; reference LightGBM unchanged; nested_selected uses Train-only architecture choice.",
+    "publication_status": "general paper draft; journal requirements not specified",
+    "dpi": 300,
+    "independent_unit": "participant, n=258; 6 folds; repeated seeds use the same cohort",
+    "uncertainty": "Fold SD unless explicitly labelled; not confidence intervals",
+    "sources": {
+      "results/raw_temporal/tables/primary_ablation.csv": "ef810ad2c1a383b4fa700d529d953dd2a6ede0bd14b2a49da3309c533cfeaa3d"
+    },
+    "outputs": {
+      "png": "eba5434df082526327ee1b60ffce2dfeeed024f0f234a176030d890414b125ad",
+      "svg": "e50d296c0a58ca36576367984cdf6b11271cb115595e62b00cde26099d661acb"
+    }
+  },
+  {
+    "name": "05_time_and_multiscale_ablation",
+    "caption": "Matched hierarchical dropout, Train-only epochs; no_position retains CNN order and clock-valued sample inputs; index_time retains integrity boundaries.",
+    "publication_status": "general paper draft; journal requirements not specified",
+    "dpi": 300,
+    "independent_unit": "participant, n=258; 6 folds; repeated seeds use the same cohort",
+    "uncertainty": "Fold SD unless explicitly labelled; not confidence intervals",
+    "sources": {
+      "results/raw_temporal/tables/temporal_multiscale_ablation.csv": "b202a0c1d7aac6111b399e764757a71526ffbcf916e25171d3766b69fa6f3314"
+    },
+    "outputs": {
+      "png": "3669b2fecb6b7a31011b37d81c99a2105606bda9157e1880df324a8b842185af",
+      "svg": "1f1b0162da2aae73f7237e33ea0c5e62765503c5c9a616e41b6a742f9be7d496"
+    }
+  },
+  {
+    "name": "06_roc_and_seed_sensitivity",
+    "caption": "Pooled OOF ROC and seed sensitivity, not external validation or independent cohorts.",
+    "publication_status": "general paper draft; journal requirements not specified",
+    "dpi": 300,
+    "independent_unit": "participant, n=258; 6 folds; repeated seeds use the same cohort",
+    "uncertainty": "Fold SD unless explicitly labelled; not confidence intervals",
+    "sources": {
+      "results/raw_temporal/tables/oof_predictions.csv": "53fe6011c4a06230be971f65da1de9081ca0d7b2ed00ccf400e68ca94ba9315f",
+      "results/raw_temporal/tables/performance_summary.csv": "2acde28506307b83b3774694b02dc11df51b65e13e10f64ac081855046f39b2f"
+    },
+    "outputs": {
+      "png": "11e748902b61df1ed7abfe0200e55c6332d72e7aa71a305dd434e481f0c18c56",
+      "svg": "684d755c609fdfc96d4a83b6974b9b986cd2f480e3d078a30111e7cd04a13161"
+    }
+  },
+  {
+    "name": "07_learning_curves",
+    "caption": "Online Train uses dropout/changing weights; validation uses eval. Late epochs contain fewer surviving runs due to early stopping.",
+    "publication_status": "general paper draft; journal requirements not specified",
+    "dpi": 300,
+    "independent_unit": "participant, n=258; 6 folds; repeated seeds use the same cohort",
+    "uncertainty": "Fold SD unless explicitly labelled; not confidence intervals",
+    "sources": {
+      "results/raw_temporal/tables/learning_curves.csv": "48492909a2450d73c9d2df3b378fcae7a19e63c893cca1c473d565a4edfb0550"
+    },
+    "outputs": {
+      "png": "56757de3bcb65e27a08954f84f0de2333fb8b6a08f02b34718ed8fd3682f4697",
+      "svg": "0de4da8d4792832edb6954e55c78650956c9b1d68c3837b65e8339bfd3ca5c2a"
+    }
+  },
+  {
+    "name": "08_resource_cost",
+    "caption": "Final benchmark uses one sequential GPU worker; CPU XAI can share host resources. Descriptive workflow timings, not dedicated hardware benchmarking. Tensor peak excludes CUDA driver/context/reserved memory. All inputs covered, no crops.",
+    "publication_status": "general paper draft; journal requirements not specified",
+    "dpi": 300,
+    "independent_unit": "participant, n=258; 6 folds; repeated seeds use the same cohort",
+    "uncertainty": "Fold SD unless explicitly labelled; not confidence intervals",
+    "sources": {
+      "results/raw_temporal/tables/primary_ablation.csv": "ef810ad2c1a383b4fa700d529d953dd2a6ede0bd14b2a49da3309c533cfeaa3d"
+    },
+    "outputs": {
+      "png": "82ef4ca4b491728b85a607a956fd527f1012fee1f73d1748e096f932c9def432",
+      "svg": "64c74aea468bebdf5477f36b686c410552dcaf9b3aef21441868d948bc205f9a"
+    }
+  },
+  {
+    "name": "09_task_importance",
+    "caption": "Model reliance measured by missing task tokens; no task selection or neural training weights from Kinematic SHAP.",
+    "publication_status": "general paper draft; journal requirements not specified",
+    "dpi": 300,
+    "independent_unit": "participant, n=258; 6 folds; repeated seeds use the same cohort",
+    "uncertainty": "Fold SD unless explicitly labelled; not confidence intervals",
+    "sources": {
+      "results/raw_temporal/tables/task_importance.csv": "f88a0a45f97bab113d739f39dce68ee000b523e8157b5a95d6e2c568fe2fa462"
+    },
+    "outputs": {
+      "png": "25d3b288aff58460c907c850a3b059724e0d6a86dc839d575b5e234b9c036f54",
+      "svg": "b8c4a95dc154b0d21999a0c500ce82cfcead0aaadd1e11eac0dd4b5e55bbec4d"
+    }
+  },
+  {
+    "name": "10_explanation_and_geometry_stability",
+    "caption": "Distance-rank geometry is rotation/translation invariant; pairwise distances and fold pairs are dependent.",
+    "publication_status": "general paper draft; journal requirements not specified",
+    "dpi": 300,
+    "independent_unit": "participant, n=258; 6 folds; repeated seeds use the same cohort",
+    "uncertainty": "Fold SD unless explicitly labelled; not confidence intervals",
+    "sources": {
+      "results/raw_temporal/tables/fold_xai_stability.csv": "12970b5bece359f96835ee9f5f00cd797895f43d9150bac465627994f7abae96",
+      "results/raw_temporal/tables/representation_geometry_stability.csv": "d7f109d505428082c6c84730880b9b986d533ca51842bcd0df4c0ad4eeb13a9d"
+    },
+    "outputs": {
+      "png": "19e34f8fbfa6f353659effd2d5a7cf849dbbe6a20c6c333ca6aac4a62873b175",
+      "svg": "be64ef384d4053f789f13390f8d219b64cdda0ed3b9c935ec635da904c908a1a"
+    }
+  },
+  {
+    "name": "11_order_and_missing_segments",
+    "caption": "Complete pen-state runs reordered; internal movement retained but global timing can be OOD. Missing segments use masks, not artificial zero movement.",
+    "publication_status": "general paper draft; journal requirements not specified",
+    "dpi": 300,
+    "independent_unit": "participant, n=258; 6 folds; repeated seeds use the same cohort",
+    "uncertainty": "Fold SD unless explicitly labelled; not confidence intervals",
+    "sources": {
+      "results/raw_temporal/tables/temporal_perturbation_summary.csv": "8d8352db512007448513d63fd02b98a8ae1269baa5fb53681131416a583164e9"
+    },
+    "outputs": {
+      "png": "dd5fc3b6d194bc87f1d89d6b246a36d6e5efbcf606e775b7f1a0c411c1b2e44a",
+      "svg": "34b5b022bac7a0b081251d7f89189ebca436cf3531aecba55ca2b7bf11b38961"
+    }
+  },
+  {
+    "name": "12_ig_faithfulness_and_sanity",
+    "caption": "Documented TP/TN/FP/FN example set only; randomization/baseline sensitivity are diagnostics, not clinical validation.",
+    "publication_status": "general paper draft; journal requirements not specified",
+    "dpi": 300,
+    "independent_unit": "participant, n=258; 6 folds; repeated seeds use the same cohort",
+    "uncertainty": "Fold SD unless explicitly labelled; not confidence intervals",
+    "sources": {
+      "results/raw_temporal/tables/ig_baseline_seed_randomization.csv": "175acf132919559cbabf0f8e35683cb07086d4f4d6b5e4a70d37e229d4d6f998",
+      "results/raw_temporal/tables/faithfulness.csv": "94d73e214aa226e1b0e6307d5f5c20c62513d12ee76ee7a4ad45feb2129d7f0c"
+    },
+    "outputs": {
+      "png": "7ee4b6ee8ae32cd50ab100754654f72cf80f3f9feccb3624e46a5a1e4215a26e",
+      "svg": "0ee0c12fe7673cd46e255a097781a04e0aa70f75c558b0847cd1e707f7b8bc03"
+    }
+  },
+  {
+    "name": "13_attention_supplementary",
+    "caption": "Mean task attention, not automatically a faithful explanation.",
+    "publication_status": "general paper draft; journal requirements not specified",
+    "dpi": 300,
+    "independent_unit": "participant, n=258; 6 folds; repeated seeds use the same cohort",
+    "uncertainty": "Fold SD unless explicitly labelled; not confidence intervals",
+    "sources": {
+      "results/raw_temporal/tables/attention_supplementary.csv": "74d41f9eede13c5862bff53d3291d5f2b55a85e1e859cd064b392449f2f0c87d"
+    },
+    "outputs": {
+      "png": "496808e5087fedacf5b96a8a56c538d7a4b6a0cdaa8d2340b4b817d969b7bb45",
+      "svg": "56d269fe18e4d4750db4134dc4e074db55aaa858ec169478cb351622191f980f"
+    }
+  },
+  {
+    "name": "14_paired_corrected_harmed",
+    "caption": "Different error cases are descriptive complementarity hypotheses, not evidence from a trained fusion.",
+    "publication_status": "general paper draft; journal requirements not specified",
+    "dpi": 300,
+    "independent_unit": "participant, n=258; 6 folds; repeated seeds use the same cohort",
+    "uncertainty": "Fold SD unless explicitly labelled; not confidence intervals",
+    "sources": {
+      "results/raw_temporal/tables/paired_comparisons.csv": "012bfa641c5e5a27f39e71c05728f1353345984e39484d257c77110fc8bbeebd"
+    },
+    "outputs": {
+      "png": "fc999c89dc3873353ccc2a149bf5f152d5d011eced1254f02fc9cead34a35e93",
+      "svg": "859bf09a67b5b9a3913ae811b15c76541ea98bd347eeff989c93517266031c60"
+    }
+  },
+  {
+    "name": "15_confusion_matrices",
+    "caption": "Seed42 participant-level OOF counts; original threshold0.5.",
+    "publication_status": "general paper draft; journal requirements not specified",
+    "dpi": 300,
+    "independent_unit": "participant, n=258; 6 folds; repeated seeds use the same cohort",
+    "uncertainty": "Fold SD unless explicitly labelled; not confidence intervals",
+    "sources": {
+      "results/raw_temporal/tables/confusion_matrices.csv": "9d06cfad770c28e63c02b00b2fafe47cc901fe7cacdae2c71359cc7a2413c403"
+    },
+    "outputs": {
+      "png": "c990e178714e7b1da459847faed835af995e302df82a3295a527ae065fb12c6b",
+      "svg": "8c8c7a76c4b5675846974e8261af23b8f10ba641634fc662fd2fc2ce7450e2b6"
+    }
+  },
+  {
+    "name": "case_FP_raw_signals",
+    "caption": "Actual full source signals, no resampling; rasterized dense traces inside vector SVG. Invalid derivatives are gaps; pen state/boundaries retained. IG overlay includes sample-channel contributions only, time-metadata attribution remains separately stored. No clinical diagnosis inferred.",
+    "publication_status": "general paper draft; journal requirements not specified",
+    "dpi": 300,
+    "independent_unit": "participant, n=258; 6 folds; repeated seeds use the same cohort",
+    "uncertainty": "Fold SD unless explicitly labelled; not confidence intervals",
+    "sources": {
+      "results/raw_temporal/tables/selected_cases.csv": "bc854b8a69a00ba0f6570cec9c7a4d6d1ff44da1e676b1ceb56eee4c9aa0a013",
+      "results/raw_temporal/tables/task_occlusion.csv": "4ef53e92278f940f3d669abf949fe489e27d9a53c1e2f3644687f0a0a209fc19",
+      "data/clean_data/BR10301_merged.json": "acbf776c241da5904a32ce7a711b2b441877ea547110845acbc7e0992fcb11c0",
+      "data/raw_data/handwriting_data/data_SVC/BR10301/BR10301_TSK14(TA)-combined-loops-precise_1.svc": "8ad62a5e34e64f92dbb25eab4c777cd456e6d586aa34c58e857b22c5bc14814d",
+      "results/raw_temporal/xai/examples/BR10301_seed_42_zero_joint.npz": "7c6c4054f236c2d8ea0d2621edadefcf8124670dac88a4a188c22d172aa99263"
+    },
+    "outputs": {
+      "png": "01f8502e6133479a4cd17cd02f09ef12f5b1906ed70a503b239d7f490c8ff73e",
+      "svg": "02c3029d591f67061deca95731b1033fae650af261e4b4bdb117672a678d4bed"
+    }
+  },
+  {
+    "name": "case_FP_stroke_effects",
+    "caption": "Joint whole-run occlusion mapped to original run indices; pen-down/pen-up distinguished; acceleration is a recorded-signal calculation, not a diagnosis.",
+    "publication_status": "general paper draft; journal requirements not specified",
+    "dpi": 300,
+    "independent_unit": "participant, n=258; 6 folds; repeated seeds use the same cohort",
+    "uncertainty": "Fold SD unless explicitly labelled; not confidence intervals",
+    "sources": {
+      "results/raw_temporal/tables/stroke_occlusion.csv": "a8c6b6fb373f64202715579234c4d6fe52ed4a803e8014e4c7850712f922729b",
+      "data/clean_data/BR10301_merged.json": "acbf776c241da5904a32ce7a711b2b441877ea547110845acbc7e0992fcb11c0",
+      "data/raw_data/handwriting_data/data_SVC/BR10301/BR10301_TSK14(TA)-combined-loops-precise_1.svc": "8ad62a5e34e64f92dbb25eab4c777cd456e6d586aa34c58e857b22c5bc14814d"
+    },
+    "outputs": {
+      "png": "5d9426f7d40537fe413b7afcfab4cbc9cfc1e36f6e798335fde1951b480aa779",
+      "svg": "45bcb6bf08ea52ffec7197c145d0d8a6c7606c4c18e3e38142e923e0a8fe0b47"
+    }
+  },
+  {
+    "name": "case_FP_temporal_zoom",
+    "caption": "Deterministic highest-absolute-IG window within the displayed task, independently matched to the descriptive table; not selected for visual appearance. No interpolation across invalid/gap intervals; red markers indicate clock boundaries. Narrow events are not diagnosed as tremor or disease.",
+    "publication_status": "general paper draft; journal requirements not specified",
+    "dpi": 300,
+    "independent_unit": "participant, n=258; 6 folds; repeated seeds use the same cohort",
+    "uncertainty": "Fold SD unless explicitly labelled; not confidence intervals",
+    "sources": {
+      "data/clean_data/BR10301_merged.json": "acbf776c241da5904a32ce7a711b2b441877ea547110845acbc7e0992fcb11c0",
+      "data/raw_data/handwriting_data/data_SVC/BR10301/BR10301_TSK14(TA)-combined-loops-precise_1.svc": "8ad62a5e34e64f92dbb25eab4c777cd456e6d586aa34c58e857b22c5bc14814d",
+      "results/raw_temporal/xai/examples/BR10301_seed_42_zero_joint.npz": "7c6c4054f236c2d8ea0d2621edadefcf8124670dac88a4a188c22d172aa99263",
+      "results/raw_temporal/tables/behavioral_examples.csv": "89202d8c890d1746fb808c1d2cea87f40e0617bed7ad1dfda47a399ed1c239eb"
+    },
+    "outputs": {
+      "png": "0188a6e2316fd288ff4590537cb0effdc08238f749ca77731ff64077348b1dfb",
+      "svg": "dd5f1985d86e5eda0264056f4b4d2421eb45b4e588300d38c4a23fd304e801fe"
+    }
+  },
+  {
+    "name": "case_FP_ig_components",
+    "caption": "Reference plus signed sample/time-metadata IG approximates actual positive-class logit within validated tolerance. Structural task IDs, masks and segmentation held fixed; reference is mathematical, not a healthy recording.",
+    "publication_status": "general paper draft; journal requirements not specified",
+    "dpi": 300,
+    "independent_unit": "participant, n=258; 6 folds; repeated seeds use the same cohort",
+    "uncertainty": "Fold SD unless explicitly labelled; not confidence intervals",
+    "sources": {
+      "results/raw_temporal/tables/ig_components.csv": "6683197eb10b1467a4bc283487877f8128936c7d9839b820e5df4baa90943ecf",
+      "results/raw_temporal/xai/examples/BR10301_seed_42_zero_joint.npz": "7c6c4054f236c2d8ea0d2621edadefcf8124670dac88a4a188c22d172aa99263"
+    },
+    "outputs": {
+      "png": "ba7da91355135daf2d7dc591e6650944c57e7d80ab26ae5bbfa7554c3ab03174",
+      "svg": "8f71a19beebd546667435c2397289924840005475132639ac91775b66b7fd30b"
+    }
+  },
+  {
+    "name": "case_TP_raw_signals",
+    "caption": "Actual full source signals, no resampling; rasterized dense traces inside vector SVG. Invalid derivatives are gaps; pen state/boundaries retained. IG overlay includes sample-channel contributions only, time-metadata attribution remains separately stored. No clinical diagnosis inferred.",
+    "publication_status": "general paper draft; journal requirements not specified",
+    "dpi": 300,
+    "independent_unit": "participant, n=258; 6 folds; repeated seeds use the same cohort",
+    "uncertainty": "Fold SD unless explicitly labelled; not confidence intervals",
+    "sources": {
+      "results/raw_temporal/tables/selected_cases.csv": "bc854b8a69a00ba0f6570cec9c7a4d6d1ff44da1e676b1ceb56eee4c9aa0a013",
+      "results/raw_temporal/tables/task_occlusion.csv": "4ef53e92278f940f3d669abf949fe489e27d9a53c1e2f3644687f0a0a209fc19",
+      "data/clean_data/BR10306_merged.json": "1470898ab5ef3991bec3c7a7deb1fd9373f714ff79a3425dd26fce18ce789002",
+      "data/raw_data/handwriting_data/data_SVC/BR10306/BR10306_TSK15(TA)-copy-3_1.svc": "3ec34fe7a5c21952751254a13fe4cb013c47367e90f0fc468213c4301e6a8d94",
+      "results/raw_temporal/xai/examples/BR10306_seed_42_zero_joint.npz": "728fcb7c0e14c68cd213710259f390b54cfb4228840f01921559e069d87e7600"
+    },
+    "outputs": {
+      "png": "63f18b6db322859fe1921f20e2a0ce3242bd3481be2705950a7c4fbad18719e6",
+      "svg": "b715c1ced8ec611babcc6bfbcb634b18e398247e9ff5415c9de9a7e3fa3d0e1c"
+    }
+  },
+  {
+    "name": "case_TP_stroke_effects",
+    "caption": "Joint whole-run occlusion mapped to original run indices; pen-down/pen-up distinguished; acceleration is a recorded-signal calculation, not a diagnosis.",
+    "publication_status": "general paper draft; journal requirements not specified",
+    "dpi": 300,
+    "independent_unit": "participant, n=258; 6 folds; repeated seeds use the same cohort",
+    "uncertainty": "Fold SD unless explicitly labelled; not confidence intervals",
+    "sources": {
+      "results/raw_temporal/tables/stroke_occlusion.csv": "a8c6b6fb373f64202715579234c4d6fe52ed4a803e8014e4c7850712f922729b",
+      "data/clean_data/BR10306_merged.json": "1470898ab5ef3991bec3c7a7deb1fd9373f714ff79a3425dd26fce18ce789002",
+      "data/raw_data/handwriting_data/data_SVC/BR10306/BR10306_TSK15(TA)-copy-3_1.svc": "3ec34fe7a5c21952751254a13fe4cb013c47367e90f0fc468213c4301e6a8d94"
+    },
+    "outputs": {
+      "png": "d3e397b2e989c25c4f4b12c587418fcbe818421efa4c6576550f190da58fd92c",
+      "svg": "fc22ef2d62d4a4cfaab3f2a1a6ebe70fabeb334319bc8af500b2017a234686c1"
+    }
+  },
+  {
+    "name": "case_TP_temporal_zoom",
+    "caption": "Deterministic highest-absolute-IG window within the displayed task, independently matched to the descriptive table; not selected for visual appearance. No interpolation across invalid/gap intervals; red markers indicate clock boundaries. Narrow events are not diagnosed as tremor or disease.",
+    "publication_status": "general paper draft; journal requirements not specified",
+    "dpi": 300,
+    "independent_unit": "participant, n=258; 6 folds; repeated seeds use the same cohort",
+    "uncertainty": "Fold SD unless explicitly labelled; not confidence intervals",
+    "sources": {
+      "data/clean_data/BR10306_merged.json": "1470898ab5ef3991bec3c7a7deb1fd9373f714ff79a3425dd26fce18ce789002",
+      "data/raw_data/handwriting_data/data_SVC/BR10306/BR10306_TSK15(TA)-copy-3_1.svc": "3ec34fe7a5c21952751254a13fe4cb013c47367e90f0fc468213c4301e6a8d94",
+      "results/raw_temporal/xai/examples/BR10306_seed_42_zero_joint.npz": "728fcb7c0e14c68cd213710259f390b54cfb4228840f01921559e069d87e7600",
+      "results/raw_temporal/tables/behavioral_examples.csv": "89202d8c890d1746fb808c1d2cea87f40e0617bed7ad1dfda47a399ed1c239eb"
+    },
+    "outputs": {
+      "png": "727e0ab012b320fb2d0a566692804c43572fcfcd93ea3f1defec8861091e9a50",
+      "svg": "83c32a34ef681bd6deb70b8e1b7cbe7d1aa30474cd24d73bc22fbb1fea97da04"
+    }
+  },
+  {
+    "name": "case_TP_ig_components",
+    "caption": "Reference plus signed sample/time-metadata IG approximates actual positive-class logit within validated tolerance. Structural task IDs, masks and segmentation held fixed; reference is mathematical, not a healthy recording.",
+    "publication_status": "general paper draft; journal requirements not specified",
+    "dpi": 300,
+    "independent_unit": "participant, n=258; 6 folds; repeated seeds use the same cohort",
+    "uncertainty": "Fold SD unless explicitly labelled; not confidence intervals",
+    "sources": {
+      "results/raw_temporal/tables/ig_components.csv": "6683197eb10b1467a4bc283487877f8128936c7d9839b820e5df4baa90943ecf",
+      "results/raw_temporal/xai/examples/BR10306_seed_42_zero_joint.npz": "728fcb7c0e14c68cd213710259f390b54cfb4228840f01921559e069d87e7600"
+    },
+    "outputs": {
+      "png": "9bf651e6f0f2136240b521de55f11e09421629eca074d578eb10c45861e85ff1",
+      "svg": "230137f0389e2d21025c1f8b652c06d08b4ace47dc1186e06f29e97cd3920059"
+    }
+  },
+  {
+    "name": "case_TN_raw_signals",
+    "caption": "Actual full source signals, no resampling; rasterized dense traces inside vector SVG. Invalid derivatives are gaps; pen state/boundaries retained. IG overlay includes sample-channel contributions only, time-metadata attribution remains separately stored. No clinical diagnosis inferred.",
+    "publication_status": "general paper draft; journal requirements not specified",
+    "dpi": 300,
+    "independent_unit": "participant, n=258; 6 folds; repeated seeds use the same cohort",
+    "uncertainty": "Fold SD unless explicitly labelled; not confidence intervals",
+    "sources": {
+      "results/raw_temporal/tables/selected_cases.csv": "bc854b8a69a00ba0f6570cec9c7a4d6d1ff44da1e676b1ceb56eee4c9aa0a013",
+      "results/raw_temporal/tables/task_occlusion.csv": "4ef53e92278f940f3d669abf949fe489e27d9a53c1e2f3644687f0a0a209fc19",
+      "data/clean_data/BR2406_merged.json": "2a88458862ec3419f6e54131c6bb8ab6d6270a87d11343bdd758740c8fc8887f",
+      "data/raw_data/handwriting_data/data_SVC/BR2406/BR2406_TSK9(TA)-lower-loops-fast_1.svc": "0be43f535f62a9242951d9b11da51e25707f23f32f0923f2528b7eea6e0df54c",
+      "results/raw_temporal/xai/examples/BR2406_seed_42_zero_joint.npz": "d7a5723ef4396dd8bfc17573249bdc36ccf5271b9f956a38266e342da7e2bd62"
+    },
+    "outputs": {
+      "png": "854d48aaf983c709015bf8de7b96cfe9ba3fa190e83363027d13cc21c84cb721",
+      "svg": "683d72bd624c38ff63cb2bea77a373c995c95dffb98905765fe6ff4e16a23223"
+    }
+  },
+  {
+    "name": "case_TN_stroke_effects",
+    "caption": "Joint whole-run occlusion mapped to original run indices; pen-down/pen-up distinguished; acceleration is a recorded-signal calculation, not a diagnosis.",
+    "publication_status": "general paper draft; journal requirements not specified",
+    "dpi": 300,
+    "independent_unit": "participant, n=258; 6 folds; repeated seeds use the same cohort",
+    "uncertainty": "Fold SD unless explicitly labelled; not confidence intervals",
+    "sources": {
+      "results/raw_temporal/tables/stroke_occlusion.csv": "a8c6b6fb373f64202715579234c4d6fe52ed4a803e8014e4c7850712f922729b",
+      "data/clean_data/BR2406_merged.json": "2a88458862ec3419f6e54131c6bb8ab6d6270a87d11343bdd758740c8fc8887f",
+      "data/raw_data/handwriting_data/data_SVC/BR2406/BR2406_TSK9(TA)-lower-loops-fast_1.svc": "0be43f535f62a9242951d9b11da51e25707f23f32f0923f2528b7eea6e0df54c"
+    },
+    "outputs": {
+      "png": "f798139640af95201d1955ef3aea5df311414e8e1b58a1242da7b2d79df61cc9",
+      "svg": "bd746c584eb00f83a46ff20f4a27d8b04d625377774ea2578b0058bdf62e36d4"
+    }
+  },
+  {
+    "name": "case_TN_temporal_zoom",
+    "caption": "Deterministic highest-absolute-IG window within the displayed task, independently matched to the descriptive table; not selected for visual appearance. No interpolation across invalid/gap intervals; red markers indicate clock boundaries. Narrow events are not diagnosed as tremor or disease.",
+    "publication_status": "general paper draft; journal requirements not specified",
+    "dpi": 300,
+    "independent_unit": "participant, n=258; 6 folds; repeated seeds use the same cohort",
+    "uncertainty": "Fold SD unless explicitly labelled; not confidence intervals",
+    "sources": {
+      "data/clean_data/BR2406_merged.json": "2a88458862ec3419f6e54131c6bb8ab6d6270a87d11343bdd758740c8fc8887f",
+      "data/raw_data/handwriting_data/data_SVC/BR2406/BR2406_TSK9(TA)-lower-loops-fast_1.svc": "0be43f535f62a9242951d9b11da51e25707f23f32f0923f2528b7eea6e0df54c",
+      "results/raw_temporal/xai/examples/BR2406_seed_42_zero_joint.npz": "d7a5723ef4396dd8bfc17573249bdc36ccf5271b9f956a38266e342da7e2bd62",
+      "results/raw_temporal/tables/behavioral_examples.csv": "89202d8c890d1746fb808c1d2cea87f40e0617bed7ad1dfda47a399ed1c239eb"
+    },
+    "outputs": {
+      "png": "51402cc750e5df38c6b16a41000ac1fc3ad6b2fad6f96c90279e34835b8dd6e6",
+      "svg": "7a691d87c5aa55a93e5c1197a05b82bef09e87aa1c07c3935077d60ecdba70ae"
+    }
+  },
+  {
+    "name": "case_TN_ig_components",
+    "caption": "Reference plus signed sample/time-metadata IG approximates actual positive-class logit within validated tolerance. Structural task IDs, masks and segmentation held fixed; reference is mathematical, not a healthy recording.",
+    "publication_status": "general paper draft; journal requirements not specified",
+    "dpi": 300,
+    "independent_unit": "participant, n=258; 6 folds; repeated seeds use the same cohort",
+    "uncertainty": "Fold SD unless explicitly labelled; not confidence intervals",
+    "sources": {
+      "results/raw_temporal/tables/ig_components.csv": "6683197eb10b1467a4bc283487877f8128936c7d9839b820e5df4baa90943ecf",
+      "results/raw_temporal/xai/examples/BR2406_seed_42_zero_joint.npz": "d7a5723ef4396dd8bfc17573249bdc36ccf5271b9f956a38266e342da7e2bd62"
+    },
+    "outputs": {
+      "png": "78c8ff6d7752a779946f4023c8f94b65b80b29e82a7b10cb3cf92407f979c9a1",
+      "svg": "b650705040969ed9344fc18a7f2f138cb362f8fec78b709c7d2123e0e5357d3f"
+    }
+  },
+  {
+    "name": "case_FN_raw_signals",
+    "caption": "Actual full source signals, no resampling; rasterized dense traces inside vector SVG. Invalid derivatives are gaps; pen state/boundaries retained. IG overlay includes sample-channel contributions only, time-metadata attribution remains separately stored. No clinical diagnosis inferred.",
+    "publication_status": "general paper draft; journal requirements not specified",
+    "dpi": 300,
+    "independent_unit": "participant, n=258; 6 folds; repeated seeds use the same cohort",
+    "uncertainty": "Fold SD unless explicitly labelled; not confidence intervals",
+    "sources": {
+      "results/raw_temporal/tables/selected_cases.csv": "bc854b8a69a00ba0f6570cec9c7a4d6d1ff44da1e676b1ceb56eee4c9aa0a013",
+      "results/raw_temporal/tables/task_occlusion.csv": "4ef53e92278f940f3d669abf949fe489e27d9a53c1e2f3644687f0a0a209fc19",
+      "data/clean_data/HK03402_merged.json": "8685d581d056dcdff93435e79130e1a3305ec5d55e2b7d242cfcc98c48fbc0fd",
+      "data/raw_data/handwriting_data/data_SVC/HK03402/HK03402_TSK6(TA)-small-spiral-fast_1.svc": "fdeab2afc28ae42ec120c4bd6f7701354c6b6ef102763c22cbe2b513e8391529",
+      "results/raw_temporal/xai/examples/HK03402_seed_42_zero_joint.npz": "41825455bdb8318061f892e7db927f0fae5c5d735e96a0a4bdf824204547e59c"
+    },
+    "outputs": {
+      "png": "912e24f026a70ea6c35a98834dc5a426bfee18c611609f4bbe98fac6d9cb4a30",
+      "svg": "3ae279bd66043d3d639559b3282ce29af978136b3dd843229904f04da09197b6"
+    }
+  },
+  {
+    "name": "case_FN_stroke_effects",
+    "caption": "Joint whole-run occlusion mapped to original run indices; pen-down/pen-up distinguished; acceleration is a recorded-signal calculation, not a diagnosis.",
+    "publication_status": "general paper draft; journal requirements not specified",
+    "dpi": 300,
+    "independent_unit": "participant, n=258; 6 folds; repeated seeds use the same cohort",
+    "uncertainty": "Fold SD unless explicitly labelled; not confidence intervals",
+    "sources": {
+      "results/raw_temporal/tables/stroke_occlusion.csv": "a8c6b6fb373f64202715579234c4d6fe52ed4a803e8014e4c7850712f922729b",
+      "data/clean_data/HK03402_merged.json": "8685d581d056dcdff93435e79130e1a3305ec5d55e2b7d242cfcc98c48fbc0fd",
+      "data/raw_data/handwriting_data/data_SVC/HK03402/HK03402_TSK6(TA)-small-spiral-fast_1.svc": "fdeab2afc28ae42ec120c4bd6f7701354c6b6ef102763c22cbe2b513e8391529"
+    },
+    "outputs": {
+      "png": "de7b4525ddbd30f0a6ea9053f87ba7b7cb09c771e7dfe5e303caec6856557108",
+      "svg": "69dfbefac4585a7a787672d62b2bb03812ad1a31b334daa776e068128793de74"
+    }
+  },
+  {
+    "name": "case_FN_temporal_zoom",
+    "caption": "Deterministic highest-absolute-IG window within the displayed task, independently matched to the descriptive table; not selected for visual appearance. No interpolation across invalid/gap intervals; red markers indicate clock boundaries. Narrow events are not diagnosed as tremor or disease.",
+    "publication_status": "general paper draft; journal requirements not specified",
+    "dpi": 300,
+    "independent_unit": "participant, n=258; 6 folds; repeated seeds use the same cohort",
+    "uncertainty": "Fold SD unless explicitly labelled; not confidence intervals",
+    "sources": {
+      "data/clean_data/HK03402_merged.json": "8685d581d056dcdff93435e79130e1a3305ec5d55e2b7d242cfcc98c48fbc0fd",
+      "data/raw_data/handwriting_data/data_SVC/HK03402/HK03402_TSK6(TA)-small-spiral-fast_1.svc": "fdeab2afc28ae42ec120c4bd6f7701354c6b6ef102763c22cbe2b513e8391529",
+      "results/raw_temporal/xai/examples/HK03402_seed_42_zero_joint.npz": "41825455bdb8318061f892e7db927f0fae5c5d735e96a0a4bdf824204547e59c",
+      "results/raw_temporal/tables/behavioral_examples.csv": "89202d8c890d1746fb808c1d2cea87f40e0617bed7ad1dfda47a399ed1c239eb"
+    },
+    "outputs": {
+      "png": "15cd25e094d8c01427ca14c0f4360fa8265dcff0918dacb4b509dfa6a7bc9c78",
+      "svg": "bdde3894214a8d1b446899610062ab3160a205f65476b971aab2b37965822b5a"
+    }
+  },
+  {
+    "name": "case_FN_ig_components",
+    "caption": "Reference plus signed sample/time-metadata IG approximates actual positive-class logit within validated tolerance. Structural task IDs, masks and segmentation held fixed; reference is mathematical, not a healthy recording.",
+    "publication_status": "general paper draft; journal requirements not specified",
+    "dpi": 300,
+    "independent_unit": "participant, n=258; 6 folds; repeated seeds use the same cohort",
+    "uncertainty": "Fold SD unless explicitly labelled; not confidence intervals",
+    "sources": {
+      "results/raw_temporal/tables/ig_components.csv": "6683197eb10b1467a4bc283487877f8128936c7d9839b820e5df4baa90943ecf",
+      "results/raw_temporal/xai/examples/HK03402_seed_42_zero_joint.npz": "41825455bdb8318061f892e7db927f0fae5c5d735e96a0a4bdf824204547e59c"
+    },
+    "outputs": {
+      "png": "c6e1ecfb063d3c0f89271db2eb96b6f020c8e8c5104f91b2771dd6f994483e40",
+      "svg": "6e6afb89f7896a714b8f8af0ff30a64efbd933d49520cac76a0879ef1aae118d"
+    }
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "rows": [
+    {
+      "cudnn_enabled": true,
+      "seconds": 0.8122335000080056
+    },
+    {
+      "cudnn_enabled": false,
+      "seconds": 0.47932360001141205
+    }
+  ],
+  "outputs_close": true,
+  "no_participant_labels_used": true
+}

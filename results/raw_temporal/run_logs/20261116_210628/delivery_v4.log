@@ -1,0 +1,20 @@
+waiting_for_all_six_training_and_cpu_xai_folds 216 /216 inner 96 /96 outer XAI folds [0, 1, 2, 3, 4, 5]
+RUN validate_raw_temporal.py --phase xai 216 /216 inner 96 /96 outer XAI folds [0, 1, 2, 3, 4, 5]
+XAI ALIGNMENT AND REPLAY VALIDATED 0
+XAI ALIGNMENT AND REPLAY VALIDATED 1
+XAI ALIGNMENT AND REPLAY VALIDATED 2
+XAI ALIGNMENT AND REPLAY VALIDATED 3
+XAI ALIGNMENT AND REPLAY VALIDATED 4
+XAI ALIGNMENT AND REPLAY VALIDATED 5
+RUN report_raw_temporal_audit.py  216 /216 inner 96 /96 outer XAI folds [0, 1, 2, 3, 4, 5]
+TEMPORAL AUDIT REPORT WRITTEN
+RUN report_raw_temporal.py  216 /216 inner 96 /96 outer XAI folds [0, 1, 2, 3, 4, 5]
+VI RAW TEMPORAL REPORT WRITTEN
+RUN plot_raw_temporal.py  216 /216 inner 96 /96 outer XAI folds [0, 1, 2, 3, 4, 5]
+RAW TEMPORAL FIGURES 31
+RUN create_raw_temporal_notebook.py  216 /216 inner 96 /96 outer XAI folds [0, 1, 2, 3, 4, 5]
+RAW TEMPORAL NOTEBOOK CREATED
+RUN execute_notebooks.py --only 06_raw_temporal_graphomotor.ipynb --validation-output results/raw_temporal/notebook_validation.json 216 /216 inner 96 /96 outer XAI folds [0, 1, 2, 3, 4, 5]
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
+EXECUTED 06_raw_temporal_graphomotor.ipynb
+ready_for_visual_review_and_final_validation 216 /216 inner 96 /96 outer XAI folds [0, 1, 2, 3, 4, 5]

@@ -1,0 +1,48 @@
+{
+  "participants": 258,
+  "recordings": 3612,
+  "channels": [
+    "x",
+    "y",
+    "pressure",
+    "tilt",
+    "azimuth",
+    "time",
+    "pen_status"
+  ],
+  "label": "group",
+  "class_counts": {
+    "0": 115,
+    "1": 143
+  },
+  "samples": 54808751,
+  "n_samples_quantiles": {
+    "0.0": 127.0,
+    "0.25": 1285.0,
+    "0.5": 2569.0,
+    "0.75": 15124.5,
+    "0.95": 80318.05,
+    "0.99": 113409.0199999999,
+    "1.0": 199739.0
+  },
+  "duration_quantiles": {
+    "0.0": 0.673,
+    "0.5": 14.5985,
+    "0.95": 556.3596499999999,
+    "0.99": 839.0113399999988,
+    "1.0": 2510.671
+  },
+  "duplicate_dt": 21283,
+  "negative_dt": 0,
+  "tiny_dt": 0,
+  "large_gaps": 20725,
+  "nonfinite": 0,
+  "pen_states": [
+    "0.0|1.0",
+    "1.0"
+  ],
+  "raw_float32_gib": 1.4292495585978031,
+  "seconds": 144.77004660002422,
+  "timestamp_units": "source numerical time, treated as seconds following baseline; no device calibration certificate supplied",
+  "policy": "Keep every sample in recorded acquisition order. No sorting/deduplication. Invalid dt<=0, dt<0.0001 or dt>1 second starts a new derivative/segment boundary. Keep original timestamps, masks and anomaly indicators; do not invent elapsed time across resets."
+}

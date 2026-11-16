@@ -1,0 +1,8 @@
+{
+  "complete": true,
+  "fold": 1,
+  "device": "cpu",
+  "segment_occlusions": 42169,
+  "run_occlusions": 38526,
+  "temporal_occlusions": 4626
+}

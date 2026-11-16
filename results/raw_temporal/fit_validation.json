@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "inner_fits": 216,
+  "outer_fits": 96,
+  "normalization_train_only": true,
+  "selection_inner_only": true,
+  "all_checkpoint_predictions_replayed": true,
+  "baseline_oof_unchanged": true,
+  "all_participant_metrics_checked": true
+}

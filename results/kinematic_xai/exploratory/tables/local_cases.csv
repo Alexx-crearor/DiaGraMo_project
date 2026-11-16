@@ -1,0 +1,5 @@
+category,participant_id,row,fold,label,prediction,probability,raw_score,base_value,selection_rule
+true_negative,BR10301,0,4,0,0,0.24963531499260216,-1.1005582221916899,0.8223075017575061,lexicographically first participant ID in each baseline outcome; illustrative post-hoc
+true_positive,BR10306,4,5,1,1,0.9966772505950686,5.703634422756305,0.773750120954212,lexicographically first participant ID in each baseline outcome; illustrative post-hoc
+false_positive,BR2404,12,5,0,1,0.6147263533064097,0.46722336236913753,0.773750120954212,lexicographically first participant ID in each baseline outcome; illustrative post-hoc
+false_negative,BR7412,106,4,1,0,0.0710563476990958,-2.570574890982409,0.8223075017575061,lexicographically first participant ID in each baseline outcome; illustrative post-hoc

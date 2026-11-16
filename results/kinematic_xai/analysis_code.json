@@ -1,0 +1,5 @@
+{
+  "src/diagramo/kinematic_xai.py": "3ebdf7fb76c9deaa4f2065665a71c93f02f23e8e722be21c0ec67df7ab6dd1e1",
+  "scripts/kinematic_xai_common.py": "91c57f28a73324c96f18c1e1b1f87cd99670f4fcbc87efdf05e53f6eaf450fc1",
+  "scripts/analyze_kinematic_xai.py": "b067b21bf85794430200284f74cba47ff69c6910e3c885642c2a2a6d7bd5aadd"
+}

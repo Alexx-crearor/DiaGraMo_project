@@ -6,3 +6,4 @@ tmp/
 data/
 results/models/
 .ipynb_checkpoints/
+results/kinematic_xai/checkpoints/

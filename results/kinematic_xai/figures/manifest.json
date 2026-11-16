@@ -1,0 +1,319 @@
+[
+  {
+    "name": "shap_beeswarm",
+    "description": "Top 20 individual features by mean absolute raw TreeSHAP; color is original feature value within each feature.",
+    "n": 258,
+    "unit": "participant",
+    "dpi": 300,
+    "plot_seed": 42,
+    "width_inches": 13.0,
+    "height_inches": 9.0,
+    "uncertainty": "descriptive only; no confidence interval",
+    "publisher_profile": "general research draft; target journal unspecified",
+    "sources": {
+      "results\\kinematic_xai\\exploratory\\tables\\top20_features.csv": "c013a2bf526ab0ef6685b421ebf6e319b09eb12f15ab5d2bc822ed3b92a20c6f",
+      "results\\kinematic_xai\\feature_mapping.csv": "036704374fb3a1bd5ed4a4229ef64e1ff3d78a91d8bf18fe3bac47bdb9d5901d",
+      "results\\kinematic_xai\\exploratory\\shap\\fold_0.npz": "345a7bb8d32f4f8e3814e8a6688216610c8f1561648865d64e94dbcf6b38f0ba",
+      "results\\kinematic_xai\\exploratory\\shap\\fold_1.npz": "40b987d76ad2b2bb361be5323f4a0b4d72f4fcddf076104b25d32375e67061fd",
+      "results\\kinematic_xai\\exploratory\\shap\\fold_2.npz": "cbfc5b42f2d5bbafd64895cbb3d3b0c2452679a7897181acbad06bd62c4bebc5",
+      "results\\kinematic_xai\\exploratory\\shap\\fold_3.npz": "f0f0bd95c84af6c8815bfb7b05db77b9df39bb809b8d97a4236f9e9be17b914c",
+      "results\\kinematic_xai\\exploratory\\shap\\fold_4.npz": "0efb30d5cbd518a128092b26c6b2d33b382567e9b50d5fb3b6c6fe5b06d083ce",
+      "results\\kinematic_xai\\exploratory\\shap\\fold_5.npz": "f5c6222dd5975dc5de61d54759e54f6469f216444b5c66004e952c070a811a71"
+    },
+    "outputs": {
+      "png": "adcb182d6e00a7d6ab09c9f9ccb568e0d4a6e8c6b8d00a88de0017ef8064a2af",
+      "svg": "77aed773aa3bb4d17fd6c06fbe746117cf7ead6398baf9f7a60d0fd51a5ca84e"
+    }
+  },
+  {
+    "name": "shap_bar",
+    "description": "Twenty individual features only; no summed remainder bar.",
+    "n": 258,
+    "unit": "participant",
+    "dpi": 300,
+    "plot_seed": 42,
+    "width_inches": 13.0,
+    "height_inches": 9.0,
+    "uncertainty": "descriptive only; no confidence interval",
+    "publisher_profile": "general research draft; target journal unspecified",
+    "sources": {
+      "results\\kinematic_xai\\exploratory\\tables\\top20_features.csv": "c013a2bf526ab0ef6685b421ebf6e319b09eb12f15ab5d2bc822ed3b92a20c6f"
+    },
+    "outputs": {
+      "png": "0ee14e00aeb42d218d1a4fcfbcbbb2cb706f6c764ecaf9cd4cfc557c508bdac3",
+      "svg": "2856b80e3bdddb90297af8fd7ea9ac435f87c73263f6865b1a0b9e057e20b975"
+    }
+  },
+  {
+    "name": "task_importance",
+    "description": "Task attribution mass includes 74 features per task; not a causal effect.",
+    "n": 258,
+    "unit": "participant",
+    "dpi": 300,
+    "plot_seed": 42,
+    "width_inches": 11.0,
+    "height_inches": 7.0,
+    "uncertainty": "sample SD across six outer folds; overlapping training sets, not CI",
+    "publisher_profile": "general research draft; target journal unspecified",
+    "sources": {
+      "results\\kinematic_xai\\exploratory\\tables\\task_importance.csv": "b98e5dffbee6934b6236f7a3f4386050ea94ea656e0766a33dace0f382ddb088"
+    },
+    "outputs": {
+      "png": "9d3b4b0468bd12a4c505faf300a3b31c63e8a2a0a54e9f0ef0a37e974e2c745a",
+      "svg": "9c1fe1455561d6e7a2a0253aa7159dde69d38d6544140f24243dee9e2d3c7ae6"
+    }
+  },
+  {
+    "name": "feature_groups",
+    "description": "Twelve groups are inferred from actual source feature prefixes; group sizes differ.",
+    "n": 258,
+    "unit": "participant",
+    "dpi": 300,
+    "plot_seed": 42,
+    "width_inches": 13.0,
+    "height_inches": 6.0,
+    "uncertainty": "descriptive only; no confidence interval",
+    "publisher_profile": "general research draft; target journal unspecified",
+    "sources": {
+      "results\\kinematic_xai\\exploratory\\tables\\group_importance.csv": "8c06bfe686ae5cf11c29fc05fd86f22f89c2681ca67f8f877cc47ffcb735d442"
+    },
+    "outputs": {
+      "png": "aa138aeb49c72fc6eaa1baf8eb02019a366056fd359877f36726f62dd5dc5bd0",
+      "svg": "ecb6b9041798955007315e907067040aee748f1eaf56bc7045da3dbcf34ff83f"
+    }
+  },
+  {
+    "name": "task_group_heatmap",
+    "description": "One shared linear color scale across all task/group cells; no row normalization.",
+    "n": 258,
+    "unit": "participant",
+    "dpi": 300,
+    "plot_seed": 42,
+    "width_inches": 12.0,
+    "height_inches": 8.0,
+    "uncertainty": "descriptive only; no confidence interval",
+    "publisher_profile": "general research draft; target journal unspecified",
+    "sources": {
+      "results\\kinematic_xai\\exploratory\\tables\\task_group_matrix.csv": "da634192b01cee44ac3126b9178307d469e6afb2534d87f06ad2c2fcffc291b1"
+    },
+    "outputs": {
+      "png": "c054ac6666c74f49eb5542e3143c846ed30bfc0299805f19c9a8dd97e0de4b2c",
+      "svg": "c5a16ab060b6c3b4d6e135d5b59ee23a2f928fd223961f99e63dbe0f5ac99705"
+    }
+  },
+  {
+    "name": "task_fold_ranks",
+    "description": "All six task rankings; each outer-test fold contains 43 participants.",
+    "n": 258,
+    "unit": "participant",
+    "dpi": 300,
+    "plot_seed": 42,
+    "width_inches": 8.0,
+    "height_inches": 7.0,
+    "uncertainty": "descriptive only; no confidence interval",
+    "publisher_profile": "general research draft; target journal unspecified",
+    "sources": {
+      "results\\kinematic_xai\\exploratory\\tables\\task_importance_by_fold.csv": "734edf4b1aab91525aa4e877f8bc6a028a85cce5f70ee24a3f4a3497277b12f7"
+    },
+    "outputs": {
+      "png": "a1ccf14a1cf73f41eaa6c90b2bd24dee488e403da2f449543674b23ecdd7ae7e",
+      "svg": "7c758a1dc86f2254ad9750cdbe5b42076f42224b2d00710fe096d69a3b70c5c5"
+    }
+  },
+  {
+    "name": "permutation_task",
+    "description": "Performance drops are original minus permuted. Dots average 30 repeats within each fold, then six folds.",
+    "n": 258,
+    "unit": "participant",
+    "dpi": 300,
+    "plot_seed": 42,
+    "width_inches": 17.0,
+    "height_inches": 7.0,
+    "uncertainty": "sample SD across six fold means; not across 180 independent participants or a CI",
+    "publisher_profile": "general research draft; target journal unspecified",
+    "sources": {
+      "results\\kinematic_xai\\exploratory\\tables\\permutation_importance.csv": "43f9fa0d4e9aa996b930ecbc0c5aa65b4d178465f0b8c8144caa2820a497fe8d"
+    },
+    "outputs": {
+      "png": "def456b730cbc2fc1931a39b91485dfbe90ac17108c0e5fb75b3180e5b367124",
+      "svg": "bfd64275548176d4ab259bd96fee42560774561215fc90d1fb07b9eeab940f31"
+    }
+  },
+  {
+    "name": "permutation_group",
+    "description": "Performance drops are original minus permuted. Dots average 30 repeats within each fold, then six folds.",
+    "n": 258,
+    "unit": "participant",
+    "dpi": 300,
+    "plot_seed": 42,
+    "width_inches": 17.0,
+    "height_inches": 7.0,
+    "uncertainty": "sample SD across six fold means; not across 180 independent participants or a CI",
+    "publisher_profile": "general research draft; target journal unspecified",
+    "sources": {
+      "results\\kinematic_xai\\exploratory\\tables\\permutation_importance.csv": "43f9fa0d4e9aa996b930ecbc0c5aa65b4d178465f0b8c8144caa2820a497fe8d"
+    },
+    "outputs": {
+      "png": "0016a8b427abd7a4f0a4e7ace6ab2ae4f264a70db1f0e15b20d1a3e742ffb5ed",
+      "svg": "8e740e19f1a74315addedd3a9d2ddd667dee68baacd248e9bb2a51edbb64ccaa"
+    }
+  },
+  {
+    "name": "task_ablation",
+    "description": "Paired fold performance drops relative to the exact original Kinematic baseline; all 14 omissions shown.",
+    "n": 258,
+    "unit": "participant",
+    "dpi": 300,
+    "plot_seed": 42,
+    "width_inches": 14.0,
+    "height_inches": 8.0,
+    "uncertainty": "sample SD of six paired fold deltas; not CI",
+    "publisher_profile": "general research draft; target journal unspecified",
+    "sources": {
+      "results\\kinematic_xai\\exploratory\\tables\\task_ablation_summary.csv": "74913feb10a3c0152a8fd1be1f82d29a74984ce410269063c9f8ec07d07e7377",
+      "results\\kinematic_xai\\exploratory\\tables\\task_ablation_by_fold.csv": "8f2a42968ebac150b4dc348e12faf6168fdee8cd9ccb06d2a04a2f6b7649ace5"
+    },
+    "outputs": {
+      "png": "e63c9fde4efcecbca31cd50d093fa932161e9869da34d5985b2d41c1a09bca1a",
+      "svg": "aa0da78c20754202134765ba071eed60553249dd95ace2ffb747811f96b8321e"
+    }
+  },
+  {
+    "name": "method_rank_agreement",
+    "description": "SHAP uses attribution mass; permutation uses mean-fold F1 drop; median and retraining use OOF F1 drop. Ties use average ranks.",
+    "n": 258,
+    "unit": "participant",
+    "dpi": 300,
+    "plot_seed": 42,
+    "width_inches": 10.0,
+    "height_inches": 8.0,
+    "uncertainty": "descriptive only; no confidence interval",
+    "publisher_profile": "general research draft; target journal unspecified",
+    "sources": {
+      "results\\kinematic_xai\\exploratory\\tables\\method_agreement.csv": "86828595653d68631a758430b006b4312c16f8bb4c0062fc79c8b1d11851beb9"
+    },
+    "outputs": {
+      "png": "cba1efdfdad7555d534f06a2e51142584b3f9417d9c8672834b60b49a20c8b50",
+      "svg": "8d1749313cc8cddabe1bcce5f3d403e970b332b1af9db6400983c46eff06d13a"
+    }
+  },
+  {
+    "name": "participant_rank_variability",
+    "description": "Boxes show participant medians/IQR and Tukey whiskers/outliers, not uncertainty of estimated means. Unequal outcome group sizes.",
+    "n": 258,
+    "unit": "participant",
+    "dpi": 300,
+    "plot_seed": 42,
+    "width_inches": 12.0,
+    "height_inches": 8.0,
+    "uncertainty": "empirical participant distributions; descriptive, not CI",
+    "publisher_profile": "general research draft; target journal unspecified",
+    "sources": {
+      "results\\kinematic_xai\\exploratory\\tables\\participant_task_attributions.csv": "84c19455d46e9858ffc0a9094c86d8e44010cc499f994e1fd99be71f00792e05"
+    },
+    "outputs": {
+      "png": "db6a3fbbe29b5fd6304c5952fa104c970f13b82f3b6abee1c41de296e9d52879",
+      "svg": "043d73b46dbc6e7075f677e010ae1f354e1c9836d07e5cf99e85360c551148da"
+    }
+  },
+  {
+    "name": "waterfall_true_negative",
+    "description": "Lexicographically first participant in each outcome category; illustrative post-hoc selection. The summed remainder preserves raw-score additivity.",
+    "n": 1,
+    "unit": "participant",
+    "dpi": 300,
+    "plot_seed": 42,
+    "width_inches": 14.0,
+    "height_inches": 8.0,
+    "uncertainty": "descriptive only; no confidence interval",
+    "publisher_profile": "general research draft; target journal unspecified",
+    "sources": {
+      "results\\kinematic_xai\\exploratory\\tables\\local_cases.csv": "9c1e74e9959e186b1f364eba3d6ccb4c992a23825cb99e815702cf757e68e840",
+      "results\\kinematic_xai\\exploratory\\shap\\fold_4.npz": "0efb30d5cbd518a128092b26c6b2d33b382567e9b50d5fb3b6c6fe5b06d083ce"
+    },
+    "outputs": {
+      "png": "ba2d77bbfbeb31a8967a4613347887a1a85084e2a9049ad40e26c8f5e8724792",
+      "svg": "5d63541cf4f9cbb1b953a1a462d13362f98b622d4aa03f7402ca90fe701e8a3c"
+    }
+  },
+  {
+    "name": "waterfall_true_positive",
+    "description": "Lexicographically first participant in each outcome category; illustrative post-hoc selection. The summed remainder preserves raw-score additivity.",
+    "n": 1,
+    "unit": "participant",
+    "dpi": 300,
+    "plot_seed": 42,
+    "width_inches": 14.0,
+    "height_inches": 8.0,
+    "uncertainty": "descriptive only; no confidence interval",
+    "publisher_profile": "general research draft; target journal unspecified",
+    "sources": {
+      "results\\kinematic_xai\\exploratory\\tables\\local_cases.csv": "9c1e74e9959e186b1f364eba3d6ccb4c992a23825cb99e815702cf757e68e840",
+      "results\\kinematic_xai\\exploratory\\shap\\fold_5.npz": "f5c6222dd5975dc5de61d54759e54f6469f216444b5c66004e952c070a811a71"
+    },
+    "outputs": {
+      "png": "890310526eee309aa92cce9819d3ce2561bc9ff5ea3338ac47bf6a972314b4c8",
+      "svg": "a7ed06db8c5dad18321ec76be997803cafdaf10200be36e6d6316d97ab221a77"
+    }
+  },
+  {
+    "name": "waterfall_false_positive",
+    "description": "Lexicographically first participant in each outcome category; illustrative post-hoc selection. The summed remainder preserves raw-score additivity.",
+    "n": 1,
+    "unit": "participant",
+    "dpi": 300,
+    "plot_seed": 42,
+    "width_inches": 14.0,
+    "height_inches": 8.0,
+    "uncertainty": "descriptive only; no confidence interval",
+    "publisher_profile": "general research draft; target journal unspecified",
+    "sources": {
+      "results\\kinematic_xai\\exploratory\\tables\\local_cases.csv": "9c1e74e9959e186b1f364eba3d6ccb4c992a23825cb99e815702cf757e68e840",
+      "results\\kinematic_xai\\exploratory\\shap\\fold_5.npz": "f5c6222dd5975dc5de61d54759e54f6469f216444b5c66004e952c070a811a71"
+    },
+    "outputs": {
+      "png": "922d5b6f04b602697aa1c059aa7f3249cbd56c62b6ee8f7d330ccc461ad3368b",
+      "svg": "9c741c8c2bd230aa8e0d9fc603fa3d23bd93479f88eeb4a279de04460bc7812b"
+    }
+  },
+  {
+    "name": "waterfall_false_negative",
+    "description": "Lexicographically first participant in each outcome category; illustrative post-hoc selection. The summed remainder preserves raw-score additivity.",
+    "n": 1,
+    "unit": "participant",
+    "dpi": 300,
+    "plot_seed": 42,
+    "width_inches": 14.0,
+    "height_inches": 8.0,
+    "uncertainty": "descriptive only; no confidence interval",
+    "publisher_profile": "general research draft; target journal unspecified",
+    "sources": {
+      "results\\kinematic_xai\\exploratory\\tables\\local_cases.csv": "9c1e74e9959e186b1f364eba3d6ccb4c992a23825cb99e815702cf757e68e840",
+      "results\\kinematic_xai\\exploratory\\shap\\fold_4.npz": "0efb30d5cbd518a128092b26c6b2d33b382567e9b50d5fb3b6c6fe5b06d083ce"
+    },
+    "outputs": {
+      "png": "caa902de78bb5a430325b341630e0e3aa263b061148cf10d00670258fd9337b0",
+      "svg": "f1c89cefdbf1a1bebe8b521fd27e6d7ac226b68f02dad66610eed171e993821c"
+    }
+  },
+  {
+    "name": "task_signed_waterfall",
+    "description": "Signed feature contributions summed within tasks; retains cancellation and exact raw-score sum.",
+    "n": 1,
+    "unit": "participant",
+    "dpi": 300,
+    "plot_seed": 42,
+    "width_inches": 12.0,
+    "height_inches": 8.0,
+    "uncertainty": "descriptive only; no confidence interval",
+    "publisher_profile": "general research draft; target journal unspecified",
+    "sources": {
+      "results\\kinematic_xai\\exploratory\\tables\\participant_task_attributions.csv": "84c19455d46e9858ffc0a9094c86d8e44010cc499f994e1fd99be71f00792e05",
+      "results\\kinematic_xai\\exploratory\\tables\\local_cases.csv": "9c1e74e9959e186b1f364eba3d6ccb4c992a23825cb99e815702cf757e68e840"
+    },
+    "outputs": {
+      "png": "facb6eb5f6bcd3b5474c44adc1d8540df38c95be6eff4ffd22a29957067810ea",
+      "svg": "b73e58c92f43cd5ece0446be79e215f0173fed4a4977243855ea7428441fed4e"
+    }
+  }
+]

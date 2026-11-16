@@ -1,0 +1,12 @@
+{
+  "seed": 42,
+  "outer_folds": 6,
+  "participants": 258,
+  "features": 1036,
+  "permutation_repeats": 30,
+  "shap_output": "raw_log_odds",
+  "shap_perturbation": "tree_path_dependent",
+  "test_time_removal": "all 74 raw columns replaced by outer-Train medians",
+  "retraining_ablation": "14 prespecified Leave-One-Task-Out; fixed original pipeline",
+  "train_only": "3-fold cross-fitted importance within supplied Train rows; no subset selection"
+}

@@ -1,0 +1,17 @@
+level,comparison,metric,n_blocks,spearman
+task,SHAP_vs_permutation,f1_macro,14,0.9472527472527472
+task,SHAP_vs_permutation,accuracy,14,0.9472527472527472
+task,SHAP_vs_permutation,auc,14,0.9736263736263736
+task,SHAP_vs_permutation,balanced_accuracy,14,0.9252747252747253
+task,SHAP_vs_test_time_train_median,f1_macro,14,0.8417582417582418
+task,SHAP_vs_test_time_train_median,accuracy,14,0.850523894326001
+task,SHAP_vs_test_time_train_median,auc,14,0.8109890109890111
+task,SHAP_vs_test_time_train_median,balanced_accuracy,14,0.8593406593406594
+task,SHAP_vs_leave_one_task_out_refit,f1_macro,14,0.21122124992666771
+task,SHAP_vs_leave_one_task_out_refit,accuracy,14,0.19734700816177933
+task,SHAP_vs_leave_one_task_out_refit,auc,14,0.4901098901098901
+task,SHAP_vs_leave_one_task_out_refit,balanced_accuracy,14,0.21122124992666771
+group,SHAP_vs_permutation,f1_macro,12,0.8811188811188813
+group,SHAP_vs_permutation,accuracy,12,0.8951048951048951
+group,SHAP_vs_permutation,auc,12,0.8881118881118882
+group,SHAP_vs_permutation,balanced_accuracy,12,0.8671328671328673

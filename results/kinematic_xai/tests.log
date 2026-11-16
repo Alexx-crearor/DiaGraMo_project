@@ -1,0 +1,13 @@
+test_absolute_mass_is_not_absolute_net_or_group_shapley (test_kinematic_xai.KinematicXAITests) ... ok
+test_alignment_of_constant_columns_on_actual_saved_model (test_kinematic_xai.KinematicXAITests) ... ok
+test_grouped_permutation_uses_shared_rows (test_kinematic_xai.KinematicXAITests) ... ok
+test_log_odds_and_probability_spaces_are_distinct (test_kinematic_xai.KinematicXAITests) ... ok
+test_paired_changes_are_not_accuracy_only (test_kinematic_xai.KinematicXAITests) ... ok
+test_source_mapping_and_groups (test_kinematic_xai.KinematicXAITests) ... ok
+test_test_time_removal_is_train_reference_with_original_dimensions (test_kinematic_xai.KinematicXAITests) ... ok
+test_train_only_cross_fitting_and_forbidden_ids (test_kinematic_xai.KinematicXAITests) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.288s
+
+OK

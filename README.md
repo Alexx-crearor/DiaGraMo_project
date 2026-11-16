@@ -121,3 +121,22 @@ Chi tiết refactor và giới hạn kiểm chứng: [bàn giao cleanup](docs/cl
 Tác giả chưa công bố đầy đủ danh sách ID/fold, công thức 74 đặc trưng, định nghĩa nhãn chính xác, chi tiết CWT/encoder bảy kênh và tham số classifier. Cùng 258 người hoặc đạt tỷ lệ tương tự chưa chứng minh triển khai trùng khớp. Nhãn `group` khác cờ dysgraphia ở năm người và cohort có ba người mang cờ omit; các trường hợp này đã ghi trong audit và phân tích nhạy cảm baseline.
 
 F1 của bản dựng là macro; bài báo chưa xác định biến thể F1. Xếp hạng nội bộ CV có thiên lệch chọn mô hình, chưa phải đánh giá trên tập ngoài. Báo cáo baseline ghi rõ khoảng cách với fusion trọng tâm của bài báo; không có kết luận chẩn đoán lâm sàng từ các kết quả này.
+
+## Nghiên cứu Kinematic Task-Level XAI
+
+[Báo cáo tiếng Việt](results/kinematic_xai/REPORT_VI.md) và
+[notebook 05](notebooks/05_kinematic_task_xai.ipynb) phân tích riêng Kinematic +
+LightGBM trên sáu held-out folds đã lưu. Nghiên cứu gồm TreeSHAP, task/group
+importance, grouped permutation, test-time median replacement, Leave-One-Task-Out
+retraining và độ ổn định. Baseline được kiểm tra bằng checksum và OOF, không ghi đè.
+
+Output thăm dò ở `results/kinematic_xai/exploratory/`; cross-fitted importance
+chỉ dùng Train được lưu riêng ở `results/kinematic_xai/train_only/`. API
+`diagramo.kinematic_xai.train_only_task_importance` nhận đúng Train đang xét;
+để dùng trong inner CV tương lai phải tính lại trên inner Train.
+
+Môi trường Python 3.10 hiện tại có SHAP 0.49.1. Nếu thiếu các package bổ sung:
+` .venv/Scripts/python.exe -m pip install --no-deps -r requirements-kinematic-xai.txt `.
+Giữ `requirements-lock.txt` baseline. Lệnh chạy lại, ý nghĩa output space, giới hạn
+của task removal và trình tự validation được ghi trong báo cáo. Chỉ xem hoàn tất
+khi `results/kinematic_xai/validation.json` có `complete=true`.

@@ -1,0 +1,53 @@
+{
+  "complete": true,
+  "source_checks": [
+    {
+      "participant_id": "BR10301",
+      "path": "data/clean_data/BR10301_merged.json",
+      "sha256": "acbf776c241da5904a32ce7a711b2b441877ea547110845acbc7e0992fcb11c0",
+      "tasks_checked": 14
+    },
+    {
+      "participant_id": "DK12402",
+      "path": "data/clean_data/DK12402_merged.json",
+      "sha256": "1dedfa00bf74383e3a182e718c8828a18c5c011ff5f3f284a2d8aa2c32a4ba2b",
+      "tasks_checked": 14
+    },
+    {
+      "participant_id": "VV10404",
+      "path": "data/clean_data/VV10404_merged.json",
+      "sha256": "eb4c328074f3cf89386f90d812a7bb76a574f9fe4ac09e6e42663433904ba7fe",
+      "tasks_checked": 14
+    }
+  ],
+  "task_order": [
+    "RCFT-recognition",
+    "RCFT-recall",
+    "dictation",
+    "big-spiral-fast",
+    "small-spiral-fast",
+    "saw-fast",
+    "upper-loops-fast",
+    "lower-loops-fast",
+    "rainbow-fast",
+    "combined-loops-fast",
+    "small-spiral-precise",
+    "lower-loops-precise",
+    "combined-loops-precise",
+    "copy"
+  ],
+  "groups_per_task": {
+    "fft": 16,
+    "statistics": 10,
+    "velocity": 8,
+    "pressure": 8,
+    "trajectory": 8,
+    "acceleration": 6,
+    "orientation": 4,
+    "jerk": 3,
+    "peaks": 3,
+    "lifts": 3,
+    "energy": 3,
+    "curvature": 2
+  }
+}

@@ -1,0 +1,6 @@
+# Additional packages in the existing Python 3.10 baseline environment.
+# Do not replace requirements-lock.txt; no upgrade of baseline libraries needed.
+shap==0.49.1
+numba==0.61.2
+llvmlite==0.44.0
+slicer==0.0.8

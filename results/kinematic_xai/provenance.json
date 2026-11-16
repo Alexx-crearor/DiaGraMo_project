@@ -1,0 +1,26 @@
+{
+  "head": "a2f257a71020c530bc7dca338e3780069c9da85d",
+  "branch": "study/kinematic-task-xai",
+  "status_before": " M .gitignore\n?? DiaGraMo_REVIEW_KEEP_DECISIONS_VI.md\n?? requirements-kinematic-xai.txt\n?? results/kinematic_xai/\n?? scripts/analyze_kinematic_xai.py\n?? scripts/kinematic_xai_common.py\n?? src/diagramo/kinematic_xai.py\n",
+  "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+  "versions": {
+    "shap": "0.49.1",
+    "numpy": "1.25.2",
+    "scipy": "1.15.3",
+    "pandas": "2.3.3",
+    "lightgbm": "4.7.0",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.9",
+    "joblib": "1.6.0"
+  },
+  "dependency_graph": {
+    "kinematic": "diagramo.branches.kinematic -> diagramo.features",
+    "classifier": "evaluate.build_pipeline -> train-only imputer/variance/scaler -> LightGBM",
+    "reused": [
+      "saved outer-fold LightGBM pipelines",
+      "saved fold assignments",
+      "evaluate.classifiers/build_pipeline/metrics"
+    ],
+    "historical_deleted_modules_restored": false
+  }
+}

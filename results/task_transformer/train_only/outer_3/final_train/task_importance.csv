@@ -1,0 +1,15 @@
+task,mean_absolute_shap_mass,rank
+RCFT-recognition,0.5272230459500308,7.0
+RCFT-recall,0.48474154672943,8.0
+dictation,1.4035088435771048,2.0
+big-spiral-fast,0.4172145533772151,9.0
+small-spiral-fast,0.9948505842627258,3.0
+saw-fast,0.3122313947137163,11.0
+upper-loops-fast,0.3454115991236912,10.0
+lower-loops-fast,0.6658381272309699,5.0
+rainbow-fast,0.6882410568488393,4.0
+combined-loops-fast,0.2449965587845553,14.0
+small-spiral-precise,0.2803560644562761,12.0
+lower-loops-precise,0.6117268564271272,6.0
+combined-loops-precise,0.249823998199415,13.0
+copy,3.930048684687834,1.0

@@ -1,0 +1,43 @@
+{
+  "families": {
+    "task_mlp": {
+      "candidate": 1,
+      "epochs": 35,
+      "inner_f1": 0.7282883782883783,
+      "inner_auc": 0.7902310363247863
+    },
+    "transformer": {
+      "candidate": 0,
+      "epochs": 12,
+      "inner_f1": 0.7166383645281852,
+      "inner_auc": 0.7777443910256411
+    },
+    "motor_normalized": {
+      "candidate": 0,
+      "epochs": 15,
+      "inner_f1": 0.7427025867678593,
+      "inner_auc": 0.8321581196581196
+    },
+    "xai_selected": {
+      "candidate": 3,
+      "epochs": 22,
+      "inner_f1": 0.728541129659801,
+      "inner_auc": 0.7934762286324787
+    },
+    "train_augmented": {
+      "candidate": 2,
+      "epochs": 14,
+      "inner_f1": 0.7475732047375475,
+      "inner_auc": 0.7864516559829059
+    },
+    "without_text_tasks": {
+      "candidate": 2,
+      "epochs": 23,
+      "inner_f1": 0.6999899975646245,
+      "inner_auc": 0.7615918803418804
+    }
+  },
+  "nested_selected_family": "train_augmented",
+  "nested_selected_candidate": 2,
+  "no_outer_test_labels_used": true
+}

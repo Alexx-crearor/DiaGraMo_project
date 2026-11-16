@@ -1,0 +1,16 @@
+{
+  "head": "a2f257a71020c530bc7dca338e3780069c9da85d",
+  "branch": "study/kinematic-task-transformer",
+  "status_before": " M .gitignore\n M README.md\n?? DiaGraMo_REVIEW_KEEP_DECISIONS_VI.md\n?? configs/\n?? notebooks/05_kinematic_task_xai.ipynb\n?? requirements-kinematic-xai.txt\n?? results/kinematic_xai/\n?? results/task_transformer/\n?? scripts/analyze_kinematic_xai.py\n?? scripts/create_kinematic_xai_notebook.py\n?? scripts/kinematic_xai_common.py\n?? scripts/plot_kinematic_xai.py\n?? scripts/prepare_task_transformer.py\n?? scripts/report_kinematic_xai.py\n?? scripts/task_transformer_common.py\n?? scripts/validate_kinematic_xai.py\n?? src/diagramo/kinematic_xai.py\n?? src/diagramo/motor_nuisance.py\n?? src/diagramo/task_transformer.py\n?? tests/test_kinematic_xai.py\n",
+  "torch": "2.7.1+cu128",
+  "numpy": "1.25.2",
+  "device": "cuda",
+  "gpu_name": "Quadro T1000",
+  "note": "Task-1 outer-test XAI has motivated hypotheses; reused cohort evaluation remains exploratory.",
+  "reused": [
+    "original raw-record Kinematic extractor",
+    "saved 6 folds and LightGBM",
+    "Task-1 train_only_task_importance API",
+    "Task-1 validated outer-Train rankings when IDs/input hashes match"
+  ]
+}

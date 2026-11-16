@@ -7,3 +7,6 @@ data/
 results/models/
 .ipynb_checkpoints/
 results/kinematic_xai/checkpoints/
+results/task_transformer/checkpoints/
+results/task_transformer/cache/*.npz
+results/task_transformer/cache/participants/

@@ -1,6 +1,0 @@
-model,comparison,spearman
-motor_normalized,incoming_attention_vs_IG,0.621978021978022
-train_augmented,incoming_attention_vs_IG,0.621978021978022
-transformer,incoming_attention_vs_IG,0.9340659340659341
-without_text_tasks,incoming_attention_vs_IG,0.9339207048458151
-xai_selected,incoming_attention_vs_IG,0.9472527472527472

@@ -1,9 +1,0 @@
-{
-  "purpose": "Matched-architecture processing controls; descriptive, excluded from main nested winner selection",
-  "seed": 42,
-  "controls": [
-    {"family": "motor_normalized", "candidate": 0, "model": "matched_motor_normalized"},
-    {"family": "train_augmented", "candidate": 0, "model": "matched_train_augmented"},
-    {"family": "xai_selected", "candidate": 1, "model": "matched_xai_selected"}
-  ]
-}

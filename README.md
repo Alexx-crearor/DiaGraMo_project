@@ -140,19 +140,3 @@ Môi trường Python 3.10 hiện tại có SHAP 0.49.1. Nếu thiếu các pack
 Giữ `requirements-lock.txt` baseline. Lệnh chạy lại, ý nghĩa output space, giới hạn
 của task removal và trình tự validation được ghi trong báo cáo. Chỉ xem hoàn tất
 khi `results/kinematic_xai/validation.json` có `complete=true`.
-
-## Kinematic Task Transformer
-
-[Báo cáo Task 2](results/task_transformer/REPORT_VI.md) và
-[notebook 06](notebooks/06_kinematic_task_transformer.ipynb) so sánh shared Task-MLP,
-Transformer nhẹ, motor normalization, Train-only augmentation và XAI-informed task
-selection với LightGBM gốc. Dùng lại 258 participants, mapping14×74 và sáu folds cũ;
-cấu hình/early stopping chỉ chọn trong inner3-fold. Notebook có bảng số OOF,
-fold mean±SD, paired corrected/harmed, robustness, attribution và chi phí.
-
-Code model ở `src/diagramo/task_transformer.py`, raw nuisance ở
-`src/diagramo/motor_nuisance.py`, cấu hình ở `configs/task_transformer.json`.
-Các script `*_task_transformer*.py` và lệnh tái lập được mô tả trong báo cáo.
-Output mới nằm riêng trong `results/task_transformer/`; cache/checkpoints giữ local.
-Chỉ coi hoàn thành khi [validation](results/task_transformer/validation.json) có
-`complete=true`. “Motor-invariant” là giả thuyết; không có thử nghiệm cross-language.

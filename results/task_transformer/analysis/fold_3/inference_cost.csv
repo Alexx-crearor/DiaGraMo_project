@@ -1,9 +1,0 @@
-fold,model,n_test,median_inference_seconds,min_inference_seconds,repeats,scope,timing_only_train_seconds
-3,lightgbm,43,0.0017164000018965453,0.0015097999712452292,20,cached Kinematic features -> preprocessing -> probability; excludes raw feature extraction,0.41543900000397116
-3,lightgbm_without_text,43,0.001523049984825775,0.001379300025291741,20,cached Kinematic features -> preprocessing -> probability; excludes raw feature extraction,
-3,task_mlp,43,0.0037319000402931124,0.002988099993672222,20,cached Kinematic features -> preprocessing -> probability; excludes raw feature extraction,
-3,transformer,43,0.005115750012919307,0.004238199966493994,20,cached Kinematic features -> preprocessing -> probability; excludes raw feature extraction,
-3,motor_normalized,43,0.005047349986853078,0.004476499976590276,20,cached Kinematic features -> preprocessing -> probability; excludes raw feature extraction,
-3,xai_selected,43,0.0032666499610058963,0.0028996000182814896,20,cached Kinematic features -> preprocessing -> probability; excludes raw feature extraction,
-3,train_augmented,43,0.0035474000324029475,0.0028933999710716307,20,cached Kinematic features -> preprocessing -> probability; excludes raw feature extraction,
-3,without_text_tasks,43,0.0038440499920397997,0.003458700026385486,20,cached Kinematic features -> preprocessing -> probability; excludes raw feature extraction,

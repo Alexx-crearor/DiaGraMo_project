@@ -1,5 +1,0 @@
-model,participant_id,label,fold,baseline_prediction,prediction,baseline_probability,probability,probability_delta,change,selection
-transformer,BR5301,0,1,1,0,0.6674334848408241,0.09191663563251495,-0.5755168492083091,corrected,lexicographically first ID per paired outcome; post-hoc illustration
-transformer,BR10301,0,4,0,1,0.24963531499260216,0.64286208152771,0.3932267665351078,harmed,lexicographically first ID per paired outcome; post-hoc illustration
-transformer,BR10304,0,2,0,0,0.008733819107082047,0.02076282911002636,0.012029010002944313,unchanged_correct,lexicographically first ID per paired outcome; post-hoc illustration
-transformer,BR2404,0,5,1,1,0.6147263533064097,0.5126277208328247,-0.10209863247358497,unchanged_wrong,lexicographically first ID per paired outcome; post-hoc illustration

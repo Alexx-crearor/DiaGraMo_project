@@ -1,6 +1,0 @@
-{
-  "configs/task_transformer.json": "f656f35bb88ffe2beb0ad48f5c31894e7dd4cacc812ee8ab29632f19a09f266c",
-  "src/diagramo/task_transformer.py": "fad2b5738a56de8076c27266430856ca7c00622603f91f4cdc218abc7bbeaf39",
-  "scripts/task_transformer_common.py": "faed716e167a3c4ef289607031e2bd678cef3deb368908f145ca9dce8f185a8a",
-  "scripts/train_task_transformer.py": "2dddc70437c24a3b64a99b9eed21ef092a2edba11e060535797f158995b8b485"
-}

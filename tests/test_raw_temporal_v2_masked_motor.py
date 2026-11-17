@@ -28,6 +28,26 @@ def test_invalid_derivative_and_padding_have_zero_objective():
     loss,defined=window_loss(prediction,target,mask);assert not loss.any() and not defined[3]
 
 
+def test_halo_removes_recomputed_velocity_acceleration_shortcut():
+    torch.manual_seed(3);coordinate=torch.randn(128).cumsum(0)
+    def signal(position):
+        x=torch.zeros(1,21,128);x[0,0]=position
+        velocity=torch.cat([torch.zeros(1),position.diff()])
+        acceleration=torch.cat([torch.zeros(1),velocity.diff()])
+        x[0,8]=velocity;x[0,10]=velocity.abs();x[0,11]=acceleration
+        x[:,7]=1.;x[:,13]=1.;x[:,14]=1.;return x
+    length=torch.tensor([128]);a=signal(coordinate)
+    _,mask,_=corrupt(a,length,torch.Generator().manual_seed(0),halo=2)
+    changed=coordinate.clone();changed[mask[0,0]]+=100
+    b=signal(changed)
+    masked_a,_,_=corrupt(a,length,torch.Generator().manual_seed(0),halo=2)
+    masked_b,_,_=corrupt(b,length,torch.Generator().manual_seed(0),halo=2)
+    torch.testing.assert_close(masked_a,masked_b)
+    unprotected_a,_,_=corrupt(a,length,torch.Generator().manual_seed(0),halo=0)
+    unprotected_b,_,_=corrupt(b,length,torch.Generator().manual_seed(0),halo=0)
+    assert (unprotected_a-unprotected_b).abs().max()>1
+
+
 def test_both_encoder_decoders_cover_original_tail_and_backpropagate():
     torch.set_num_threads(2);x,length=inputs();masked,mask,_=corrupt(x,length,torch.Generator().manual_seed(42))
     for local,stride in [(MultiScaleLocal(),4),(OriginalRetainedLocal(),8)]:

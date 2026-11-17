@@ -76,7 +76,7 @@ def main():
         warning='All selection and label sensitivity use reused development cohort; final comparison requires original six-fold nested protocol')
     write(OUT/'phase3_ssl/development_decision.json',decision)
     pd.DataFrame(rows).to_csv(OUT/'tables/phase3_checkpoint_replay.csv',index=False)
-    tests=subprocess.run([sys.executable,'-m','pytest','tests/test_raw_temporal_v2_masked_motor.py','-q'],cwd=ROOT,capture_output=True,text=True)
+    tests=subprocess.run([sys.executable,'-m','pytest','tests/test_raw_temporal_v2_masked_motor.py','tests/test_raw_temporal_v2_protocol.py','-q'],cwd=ROOT,capture_output=True,text=True)
     (OUT/'phase3_ssl/unit_tests.txt').write_text(tests.stdout+tests.stderr,encoding='utf-8');assert tests.returncode==0
     budget=json.loads((OUT/'cpu_fit_budget.json').read_text())
     phase_fits={k:v for k,v in budget['subsequent_fits'].items() if k.startswith('p3_')}
@@ -87,6 +87,8 @@ def main():
         label_sensitivity_actual_train_counts=sorted(table.labeled_train_participants.unique().astype(int).tolist()),
         label_sensitivity_fixed_labeled_validation_count=len(val),
         label_sensitivity_not_total_annotation_efficiency=True,phase4_ready=True,selection=decision))
+    from reconcile_raw_temporal_v2_ledger import reconcile
+    reconcile()
 
 
 if __name__=='__main__':

@@ -89,6 +89,8 @@ def main():
         transport_equivariance_passed=True,unit_tests_passed=True,outer_test_loaded=False,
         selected_before_perturbation_scoring=True,selection=decision,phase3_ready=True,
         interpretation='Exploratory development only. Content-only reversal is inconsistent-metadata OOD stress, not a causal manipulation.'))
+    from reconcile_raw_temporal_v2_ledger import reconcile
+    reconcile()
 
 
 if __name__=='__main__':

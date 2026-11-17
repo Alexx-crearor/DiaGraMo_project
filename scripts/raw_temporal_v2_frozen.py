@@ -10,6 +10,7 @@ from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression
 from sklearn.neural_network import MLPClassifier
+from threadpoolctl import threadpool_limits
 from raw_temporal_v2_common import *
 from diagramo.temporal.dataset import load_person
 from diagramo.temporal_v2.multiscale import MultiScaleLocal,OriginalRetainedLocal
@@ -97,7 +98,9 @@ def fit_readout(experiment,config_path,feature_path,train,evaluation,kind,hyper,
         training_status='cpu_running',completion_status='in_progress')
     with np.load(feature_path) as data:x=data['X'];people=data['ids']
     lookup={pid:i for i,pid in enumerate(people)};a=np.asarray([lookup[p] for p in ids[train]]);b=np.asarray([lookup[p] for p in ids[evaluation]])
-    model=classifier(kind,hyper,seed);start=time.perf_counter();model.fit(x[a],y[train]);p=model.predict_proba(x[b])[:,1]
+    model=classifier(kind,hyper,seed);start=time.perf_counter()
+    with threadpool_limits(limits=RESOURCE['cpu_threads']):
+        model.fit(x[a],y[train]);p=model.predict_proba(x[b])[:,1]
     checkpoint=LOCAL/f'phase{phase}'/f'{experiment}.joblib';checkpoint.parent.mkdir(parents=True,exist_ok=True)
     joblib.dump(dict(pipeline=model,fit_ids=ids[train].tolist(),evaluation_ids=ids[evaluation].tolist(),
         feature_sha256=feature_meta['sha256'],signature=sig['signature']),checkpoint)

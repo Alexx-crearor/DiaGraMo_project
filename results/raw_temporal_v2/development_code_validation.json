@@ -1,0 +1,27 @@
+{
+  "scope": "Development code and completed Phase0-1 figures; not final study delivery",
+  "completed_study": false,
+  "pytest_passed": 50,
+  "pytest_seconds": 17.33,
+  "test_sources": {
+    "tests/test_raw_temporal_v2.py": "db4198ad503c034582b9e609ef722601d6eef74675dde15713b5c3e53ca3d3d4",
+    "tests/test_raw_temporal_v2_explain.py": "a5053fa8816be43ee9653ed09e9c16fd31ad634415acc1c4f20ea6a776591b83",
+    "tests/test_raw_temporal_v2_masked_motor.py": "02988061e5301525befa169948c7c146958c7ef8d7e2803a05b9d612b8a13fa2",
+    "tests/test_raw_temporal_v2_models.py": "1293045986698e65ec1de49ff752546defa2bd28f983e94bfd4ac276a7a41cd0",
+    "tests/test_raw_temporal_v2_multiscale.py": "994cf8c81009c69087c4f9632c9a1393ffd5fe40ba3d69e3d5d39d820b6cd3d2",
+    "tests/test_raw_temporal_v2_protocol.py": "415c233d7d7ee072e399999e312d778ab5970eb6f49b982faf060034b8644425"
+  },
+  "notebook_executed_code_cells": 18,
+  "notebook_error_outputs": 0,
+  "visually_reviewed_figures": [
+    "p0_channel_transformations",
+    "p0_module_gradients",
+    "p0_synthetic_competence",
+    "p1_controlled_comparison",
+    "p1_all_learning_curves",
+    "p1_gradient_representation",
+    "p1_resource_cost"
+  ],
+  "review_findings": "Readable axes, legends and selected-checkpoint indicators; no observed clipping of labels in reviewed figures",
+  "milestone_commit": "f2c4597"
+}

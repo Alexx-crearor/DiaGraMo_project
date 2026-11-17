@@ -1,0 +1,50 @@
+{
+  "complete": true,
+  "experiment_id": "p0_synthetic_weak_bag_tcn_seed42",
+  "signature": "8cb96f5a887a7a78bec14c433dce15a5de9026f850dd1c59454ce9292498ab42",
+  "test": "weak_bag",
+  "family": "tcn",
+  "seed": 42,
+  "epochs": 30,
+  "best_epoch": 30,
+  "validation_bce": 0.002075494834428478,
+  "train_metrics": {
+    "accuracy": 1.0,
+    "f1_macro": 1.0,
+    "auc": 1.0,
+    "pr_auc": 1.0,
+    "balanced_accuracy": 1.0,
+    "sensitivity": 1.0,
+    "specificity": 1.0,
+    "brier": 4.3297661434120385e-06
+  },
+  "heldout_metrics": {
+    "accuracy": 1.0,
+    "f1_macro": 1.0,
+    "auc": 1.0,
+    "pr_auc": 1.0,
+    "balanced_accuracy": 1.0,
+    "sensitivity": 1.0,
+    "specificity": 1.0,
+    "brier": 4.31314837891545e-06
+  },
+  "statistics_baseline": {
+    "accuracy": 1.0,
+    "f1_macro": 1.0,
+    "auc": 1.0,
+    "pr_auc": 1.0,
+    "balanced_accuracy": 1.0,
+    "sensitivity": 1.0,
+    "specificity": 1.0,
+    "brier": 0.042739067905868025
+  },
+  "parameters": 11986,
+  "peak_gpu_bytes": 286568448,
+  "train_seconds": 5.7309929999755695,
+  "gradient_norm_mean": 0.358382273108388,
+  "gradient_norm_max": 3.852263927459717,
+  "checkpoint": "data/derived/raw_temporal_v2/phase0/p0_synthetic_weak_bag_tcn_seed42.pt",
+  "checkpoint_sha256": "cc9ffd3e4cf4e6ae2aab98f49faa6f950e19b43c4a01462ffaf381fca5209bfa",
+  "order_fixture_mean_std_identical": false,
+  "scope": "Synthetic representation-level component test only; not end-to-end physical SVC simulation, full14-task architecture, or real-data generalization"
+}

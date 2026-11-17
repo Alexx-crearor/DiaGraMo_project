@@ -1,0 +1,11 @@
+{
+  "selected_configuration": "hierarchical_task_to_person_duration",
+  "rule": "Development macro F1, then AUC, then fewer parameters",
+  "validation_only": true,
+  "metrics": {
+    "f1_macro": 0.8087844739530132,
+    "accuracy": 0.8194444444444444,
+    "auc": 0.92109375
+  },
+  "scope": "Exploratory; Phase2 must compare matched M1/M2/M3, not assume temporal benefit"
+}

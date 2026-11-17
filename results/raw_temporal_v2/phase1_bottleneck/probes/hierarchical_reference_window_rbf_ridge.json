@@ -1,0 +1,177 @@
+{
+  "signature": "f908190aea188a0aba822ab6ca3b5a694720e19a16df26051564a92d8ce4defb",
+  "records": [
+    {
+      "level": "hierarchical_reference_window",
+      "method": "rbf_ridge",
+      "target": "log_speed_mean",
+      "alpha": 0.1,
+      "r2": 0.739612538139784,
+      "mae": 0.2872701852813852,
+      "correlation": 0.8608871732561808,
+      "dimensions": 42,
+      "fit_participants": 143,
+      "validation_participants": 72,
+      "observation_scope": "Within-observation target; participant-balanced row weights"
+    },
+    {
+      "level": "hierarchical_reference_window",
+      "method": "rbf_ridge",
+      "target": "log_speed_std",
+      "alpha": 0.1,
+      "r2": 0.5941615579829262,
+      "mae": 0.3199023976659706,
+      "correlation": 0.7743712066996417,
+      "dimensions": 42,
+      "fit_participants": 143,
+      "validation_participants": 72,
+      "observation_scope": "Within-observation target; participant-balanced row weights"
+    },
+    {
+      "level": "hierarchical_reference_window",
+      "method": "rbf_ridge",
+      "target": "log_pressure_std",
+      "alpha": 0.1,
+      "r2": 0.562192803151544,
+      "mae": 0.5139962253329334,
+      "correlation": 0.7521271489410007,
+      "dimensions": 42,
+      "fit_participants": 143,
+      "validation_participants": 72,
+      "observation_scope": "Within-observation target; participant-balanced row weights"
+    },
+    {
+      "level": "hierarchical_reference_window",
+      "method": "rbf_ridge",
+      "target": "log_duration",
+      "alpha": 0.1,
+      "r2": 0.7145613443320331,
+      "mae": 0.0607107443482739,
+      "correlation": 0.8457785337900038,
+      "dimensions": 42,
+      "fit_participants": 143,
+      "validation_participants": 72,
+      "observation_scope": "Within-observation target; participant-balanced row weights"
+    },
+    {
+      "level": "hierarchical_reference_window",
+      "method": "rbf_ridge",
+      "target": "log_path_length",
+      "alpha": 0.1,
+      "r2": 0.7635763304366356,
+      "mae": 0.3397704520319601,
+      "correlation": 0.8742070023927736,
+      "dimensions": 42,
+      "fit_participants": 143,
+      "validation_participants": 72,
+      "observation_scope": "Within-observation target; participant-balanced row weights"
+    },
+    {
+      "level": "hierarchical_reference_window",
+      "method": "rbf_ridge",
+      "target": "log_width",
+      "alpha": 0.1,
+      "r2": 0.6791455284973239,
+      "mae": 0.377522936862623,
+      "correlation": 0.8244856784513537,
+      "dimensions": 42,
+      "fit_participants": 143,
+      "validation_participants": 72,
+      "observation_scope": "Within-observation target; participant-balanced row weights"
+    },
+    {
+      "level": "hierarchical_reference_window",
+      "method": "rbf_ridge",
+      "target": "pen_up_fraction",
+      "alpha": 0.1,
+      "r2": 1.0,
+      "mae": 0.0,
+      "correlation": 0.0,
+      "dimensions": 42,
+      "fit_participants": 143,
+      "validation_participants": 72,
+      "observation_scope": "Within-observation target; participant-balanced row weights"
+    },
+    {
+      "level": "hierarchical_reference_window",
+      "method": "rbf_ridge",
+      "target": "peak_speed_position",
+      "alpha": 0.1,
+      "r2": 0.09307063764211132,
+      "mae": 0.27642047623870386,
+      "correlation": 0.3074713581307426,
+      "dimensions": 42,
+      "fit_participants": 143,
+      "validation_participants": 72,
+      "observation_scope": "Within-observation target; participant-balanced row weights"
+    }
+  ],
+  "selection": [
+    {
+      "level": "hierarchical_reference_window",
+      "method": "rbf_ridge",
+      "alpha": 0.1,
+      "inner_fold": 0,
+      "r2": 0.653509700892486
+    },
+    {
+      "level": "hierarchical_reference_window",
+      "method": "rbf_ridge",
+      "alpha": 0.1,
+      "inner_fold": 1,
+      "r2": 0.6637904242664878
+    },
+    {
+      "level": "hierarchical_reference_window",
+      "method": "rbf_ridge",
+      "alpha": 0.1,
+      "inner_fold": 2,
+      "r2": 0.6525654021144942
+    },
+    {
+      "level": "hierarchical_reference_window",
+      "method": "rbf_ridge",
+      "alpha": 10.0,
+      "inner_fold": 0,
+      "r2": 0.6224795254105709
+    },
+    {
+      "level": "hierarchical_reference_window",
+      "method": "rbf_ridge",
+      "alpha": 10.0,
+      "inner_fold": 1,
+      "r2": 0.6395918712609312
+    },
+    {
+      "level": "hierarchical_reference_window",
+      "method": "rbf_ridge",
+      "alpha": 10.0,
+      "inner_fold": 2,
+      "r2": 0.6317658748419379
+    },
+    {
+      "level": "hierarchical_reference_window",
+      "method": "rbf_ridge",
+      "alpha": 1000.0,
+      "inner_fold": 0,
+      "r2": 0.22766007627904905
+    },
+    {
+      "level": "hierarchical_reference_window",
+      "method": "rbf_ridge",
+      "alpha": 1000.0,
+      "inner_fold": 1,
+      "r2": 0.23025830302196543
+    },
+    {
+      "level": "hierarchical_reference_window",
+      "method": "rbf_ridge",
+      "alpha": 1000.0,
+      "inner_fold": 2,
+      "r2": 0.22872355198597905
+    }
+  ],
+  "fits": 10,
+  "checkpoint": "data/derived/raw_temporal_v2/probe_features/hierarchical_reference_window_rbf_ridge.joblib",
+  "checkpoint_sha256": "dcbcad883151f692fa85c7b25c9ba5379c5960561ed93fb5baa17a035c3e42a9"
+}

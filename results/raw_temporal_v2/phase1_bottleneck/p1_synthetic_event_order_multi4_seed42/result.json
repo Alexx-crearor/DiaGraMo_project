@@ -1,0 +1,25 @@
+{
+  "complete": true,
+  "signature": "680dd07aae7b005298f5f4b9fe839e20ab04bbcacf65a628afb8def0fb706325",
+  "experiment_id": "p1_synthetic_event_order_multi4_seed42",
+  "kind": "event_order",
+  "pooling": "multi4",
+  "seed": 42,
+  "heldout_metrics": {
+    "accuracy": 1.0,
+    "f1_macro": 1.0,
+    "auc": 1.0,
+    "pr_auc": 1.0,
+    "balanced_accuracy": 1.0,
+    "sensitivity": 1.0,
+    "specificity": 1.0,
+    "brier": 8.305458979677107e-05
+  },
+  "best_epoch": 40,
+  "epochs": 40,
+  "parameters": 2610,
+  "train_seconds": 6.693528900039382,
+  "checkpoint": "data/derived/raw_temporal_v2/phase1/p1_synthetic_event_order_multi4_seed42.pt",
+  "checkpoint_sha256": "9ac6a1c3a8d557de8ef3e388bf1d2c708ebb7c0ebc4ab2fc4143cfbc271e7b1c",
+  "scope": "Representation-level synthetic capacity control; same window-time metadata for all sub-tokens, not physical SVC simulation"
+}

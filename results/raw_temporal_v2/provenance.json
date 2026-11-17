@@ -1,0 +1,13 @@
+{
+  "start_head": "dcefbdde9d6d28a38868271085631c70f8d82f17",
+  "branch": "study/raw-temporal-research-v2",
+  "original_cache": "results/raw_temporal/cache",
+  "python": "3.10.11",
+  "torch": "2.7.1+cu128",
+  "numpy": "1.25.2",
+  "gpu": "Quadro T1000",
+  "historical_outer_inspection": true,
+  "inference_scope": "Exploratory internal participant CV",
+  "protected_original_raw_results": true,
+  "remote_writes_authorized": false
+}

@@ -1,0 +1,11 @@
+QUEUE START configure_raw_temporal_v2_phase2.py
+PHASE2 FROZEN 12 development fits
+QUEUE FINISHED configure_raw_temporal_v2_phase2.py
+QUEUE START notebook_raw_temporal_v2.py
+EXECUTED READ-ONLY NOTEBOOK E:\DiaGraMo-project\notebooks\07_raw_temporal_research_recovery.ipynb
+QUEUE FINISHED notebook_raw_temporal_v2.py
+QUEUE START train_raw_temporal_v2_phase2.py
+FIT p2_statistical_seed42 epoch 10 trainBCE 0.665 valBCE 0.6966520758150454
+FIT p2_statistical_seed42 epoch 20 trainBCE 0.4131 valBCE 0.8076439117568255
+FIT p2_statistical_seed42 epoch 24 trainBCE 0.2875 valBCE 1.0807817579228545
+FIT COMPLETE p2_statistical_seed42 {'accuracy': 0.5694444444444444, 'f1_macro': 0.559154651392455, 'auc': 0.61796875, 'pr_auc': 0.6201422731825548, 'balanced_accuracy': 0.559375, 'sensitivity': 0.65, 'specificity': 0.46875, 'brier': 0.23692785128399174}

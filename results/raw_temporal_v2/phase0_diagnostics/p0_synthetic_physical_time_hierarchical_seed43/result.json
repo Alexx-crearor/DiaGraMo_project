@@ -1,0 +1,50 @@
+{
+  "complete": true,
+  "experiment_id": "p0_synthetic_physical_time_hierarchical_seed43",
+  "signature": "8cb96f5a887a7a78bec14c433dce15a5de9026f850dd1c59454ce9292498ab42",
+  "test": "physical_time",
+  "family": "hierarchical",
+  "seed": 43,
+  "epochs": 30,
+  "best_epoch": 30,
+  "validation_bce": 0.0007534163112253331,
+  "train_metrics": {
+    "accuracy": 1.0,
+    "f1_macro": 1.0,
+    "auc": 1.0,
+    "pr_auc": 1.0,
+    "balanced_accuracy": 1.0,
+    "sensitivity": 1.0,
+    "specificity": 1.0,
+    "brier": 5.699965329855147e-07
+  },
+  "heldout_metrics": {
+    "accuracy": 1.0,
+    "f1_macro": 1.0,
+    "auc": 1.0,
+    "pr_auc": 1.0,
+    "balanced_accuracy": 1.0,
+    "sensitivity": 1.0,
+    "specificity": 1.0,
+    "brier": 5.700234622396068e-07
+  },
+  "statistics_baseline": {
+    "accuracy": 1.0,
+    "f1_macro": 1.0,
+    "auc": 1.0,
+    "pr_auc": 1.0,
+    "balanced_accuracy": 1.0,
+    "sensitivity": 1.0,
+    "specificity": 1.0,
+    "brier": 0.004643956595216711
+  },
+  "parameters": 11154,
+  "peak_gpu_bytes": 71524352,
+  "train_seconds": 4.26703719998477,
+  "gradient_norm_mean": 0.12249917764953959,
+  "gradient_norm_max": 2.7540740966796875,
+  "checkpoint": "data/derived/raw_temporal_v2/phase0/p0_synthetic_physical_time_hierarchical_seed43.pt",
+  "checkpoint_sha256": "d003cca7a258108796387a917c87c3bc70ed7711f3be61c7f578584f08447323",
+  "order_fixture_mean_std_identical": false,
+  "scope": "Synthetic representation-level component test only; not end-to-end physical SVC simulation, full14-task architecture, or real-data generalization"
+}

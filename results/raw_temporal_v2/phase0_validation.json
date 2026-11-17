@@ -1,0 +1,29 @@
+{
+  "complete": true,
+  "engineering_gate_passed": true,
+  "source_audit_passed": true,
+  "real_training_diagnostics": 6,
+  "synthetic_fits": 24,
+  "tiny_memorization_passed": 6,
+  "real_outer_test_participants_scored": 0,
+  "gradient_updates_reach_local_encoder": true,
+  "checkpoint_predictions_replayed": true,
+  "unit_tests": 6,
+  "source_sha256": {
+    "configs/raw_temporal_v2/phase0.json": "e20855df09a95d5ec862bdfbd79d4611cbd318d30309db3e06f00e6664b0e6ef",
+    "configs/raw_temporal_v2/resources.json": "8c74c1e3b11ef4cc4001655f82eddf084284b59e9a491ce75400e15a43ebe640",
+    "scripts/diagnose_raw_temporal_v2_memorization.py": "352081accb828606f180e19a80beaaa81654beb5caee018772b2700f6c2794a5",
+    "scripts/raw_temporal_v2_common.py": "81b92136a254723c75192a64e8f7460252eb9e0ba91fc228cf04c917632c84bd",
+    "src/diagramo/temporal/__init__.py": "082476ac86128927888713f9a7275a3362ce1fbef3e618787b4bc4881445dfb6",
+    "src/diagramo/temporal/dataset.py": "b80abb96052e059735af34dac1c72137a1a188f2eba466230686ad3c6f3ce8d3",
+    "src/diagramo/temporal/encoders.py": "b2a43f301fd0f6624aa937b3df46feadfaaa10285379738bd71dbcde32959961",
+    "src/diagramo/temporal/explain.py": "b32790a596c05788f0591a73b3b7a818fe879a0c77b07d0cb5fe1daad6a1da6f",
+    "src/diagramo/temporal/hierarchical_model.py": "c8ec326ebae654d00b602f5d9f3d616f1e9d8f3d288bcd8024a8ac409d14e840",
+    "src/diagramo/temporal/preprocessing.py": "599eec9e97e26c725b1d250d96ba943075017668b73abac8c7d641534058bc6d",
+    "src/diagramo/temporal/segmentation.py": "606a1ccff9e35d855b4d0747f9472bf26aeac5908b3a6d8e8825f972a17c1f6f",
+    "scripts/synthetic_raw_temporal_v2.py": "9ad3967f97be4cad0f6cc74e0ccf7d309a3da05f321f11bf209e20ac8af47a09"
+  },
+  "scope": "Phase0 only: optimization validity and component competence; not downstream generalization or bottleneck identification",
+  "unresolved_fundamental_implementation_errors": [],
+  "negative_synthetic_results_are_reported": true
+}

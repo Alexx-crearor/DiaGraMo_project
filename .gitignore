@@ -12,3 +12,7 @@ results/raw_temporal/checkpoints/
 results/raw_temporal/xai/examples/*.npz
 results/raw_temporal/runtime_processes.json
 results/raw_temporal/delivery_progress.tmp
+results/raw_temporal_v2/cache/
+results/raw_temporal_v2/checkpoints/
+results/raw_temporal_v2/runtime_processes.json
+results/raw_temporal_v2/**/*.tmp

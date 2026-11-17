@@ -1,0 +1,50 @@
+{
+  "complete": true,
+  "experiment_id": "p0_synthetic_rare_event_cnn_seed42",
+  "signature": "8cb96f5a887a7a78bec14c433dce15a5de9026f850dd1c59454ce9292498ab42",
+  "test": "rare_event",
+  "family": "cnn",
+  "seed": 42,
+  "epochs": 30,
+  "best_epoch": 30,
+  "validation_bce": 0.0009946773062866532,
+  "train_metrics": {
+    "accuracy": 1.0,
+    "f1_macro": 1.0,
+    "auc": 1.0,
+    "pr_auc": 1.0,
+    "balanced_accuracy": 1.0,
+    "sensitivity": 1.0,
+    "specificity": 1.0,
+    "brier": 1.0057391149180052e-06
+  },
+  "heldout_metrics": {
+    "accuracy": 1.0,
+    "f1_macro": 1.0,
+    "auc": 1.0,
+    "pr_auc": 1.0,
+    "balanced_accuracy": 1.0,
+    "sensitivity": 1.0,
+    "specificity": 1.0,
+    "brier": 1.5415467743472395e-06
+  },
+  "statistics_baseline": {
+    "accuracy": 1.0,
+    "f1_macro": 1.0,
+    "auc": 1.0,
+    "pr_auc": 1.0,
+    "balanced_accuracy": 1.0,
+    "sensitivity": 1.0,
+    "specificity": 1.0,
+    "brier": 0.028722814663789127
+  },
+  "parameters": 2610,
+  "peak_gpu_bytes": 80817664,
+  "train_seconds": 4.130424500035588,
+  "gradient_norm_mean": 0.5164940220847105,
+  "gradient_norm_max": 5.814139366149902,
+  "checkpoint": "data/derived/raw_temporal_v2/phase0/p0_synthetic_rare_event_cnn_seed42.pt",
+  "checkpoint_sha256": "a3d90179fdc4988f92d3323298410bd27bf2972a9c992d881d5c68b1c48e8d2a",
+  "order_fixture_mean_std_identical": false,
+  "scope": "Synthetic representation-level component test only; not end-to-end physical SVC simulation, full14-task architecture, or real-data generalization"
+}

@@ -1,0 +1,42 @@
+{
+  "experiment_id": "p0_tiny_cnn_8_seed42",
+  "signature": "90506f27b5ae1b8360623c394d944f20a716ee40d0a392307d8d3e7d7826ee02",
+  "complete": true,
+  "memorized": true,
+  "scope": "Training-only engineering diagnostic; no generalization estimate",
+  "family": "cnn",
+  "size": 8,
+  "epochs": 41,
+  "train_metrics": {
+    "accuracy": 1.0,
+    "f1_macro": 1.0,
+    "auc": 1.0,
+    "pr_auc": 1.0,
+    "balanced_accuracy": 1.0,
+    "sensitivity": 1.0,
+    "specificity": 1.0,
+    "brier": 0.0003789789798515024
+  },
+  "eval_train_bce": 0.019326001546569126,
+  "fit_ids": [
+    "BR5302",
+    "BR5314",
+    "BR5417",
+    "BR7310",
+    "DK12305",
+    "HK11310",
+    "HK12409",
+    "NA06405"
+  ],
+  "outer_test_evaluated": false,
+  "dropout": 0.0,
+  "weight_decay": 0.0,
+  "parameters": 4178,
+  "train_seconds": 6.890491199970711,
+  "peak_gpu_bytes": 697170432,
+  "embedding_variance_mean": 0.0067130038514733315,
+  "mean_pair_distance": 0.615000819199743,
+  "logit_sd": 3.95928722902589,
+  "checkpoint": "data/derived/raw_temporal_v2/phase0/p0_tiny_cnn_8_seed42.pt",
+  "checkpoint_sha256": "27f070a98d3fd74bd0e95d864151109fbc3959f724e5d9980274a2370fc5a6e9"
+}

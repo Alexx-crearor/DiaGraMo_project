@@ -1,0 +1,25 @@
+{
+  "complete": true,
+  "signature": "680dd07aae7b005298f5f4b9fe839e20ab04bbcacf65a628afb8def0fb706325",
+  "experiment_id": "p1_synthetic_rare_event_mean_max_std_seed43",
+  "kind": "rare_event",
+  "pooling": "mean_max_std",
+  "seed": 43,
+  "heldout_metrics": {
+    "accuracy": 1.0,
+    "f1_macro": 1.0,
+    "auc": 1.0,
+    "pr_auc": 1.0,
+    "balanced_accuracy": 1.0,
+    "sensitivity": 1.0,
+    "specificity": 1.0,
+    "brier": 7.505683533047766e-07
+  },
+  "best_epoch": 30,
+  "epochs": 30,
+  "parameters": 5714,
+  "train_seconds": 3.7991013000137173,
+  "checkpoint": "data/derived/raw_temporal_v2/phase1/p1_synthetic_rare_event_mean_max_std_seed43.pt",
+  "checkpoint_sha256": "4e921ce10cf2146dd9222c338c02ff927a1761497dcf16f5dc0e1b5eaf6953d1",
+  "scope": "Representation-level synthetic capacity control; same window-time metadata for all sub-tokens, not physical SVC simulation"
+}

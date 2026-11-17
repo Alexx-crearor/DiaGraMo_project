@@ -1,0 +1,198 @@
+{
+  "complete": true,
+  "replayed_checkpoints": 38,
+  "train_scaling_passed": true,
+  "outer_test_loaded": false,
+  "records": [
+    {
+      "checkpoint": "data/derived/raw_temporal_v2/probe_features/cnn_feature_map_ridge.joblib",
+      "maximum_replay_error": 4.644775390971745e-07,
+      "train_scaling_passed": true
+    },
+    {
+      "checkpoint": "data/derived/raw_temporal_v2/probe_features/cnn_feature_map_rbf_ridge.joblib",
+      "maximum_replay_error": 2.3812866167816082e-07,
+      "train_scaling_passed": true
+    },
+    {
+      "checkpoint": "data/derived/raw_temporal_v2/probe_features/cnn_window_ridge.joblib",
+      "maximum_replay_error": 3.9904785076316784e-07,
+      "train_scaling_passed": true
+    },
+    {
+      "checkpoint": "data/derived/raw_temporal_v2/probe_features/cnn_window_rbf_ridge.joblib",
+      "maximum_replay_error": 2.3803710913483656e-07,
+      "train_scaling_passed": true
+    },
+    {
+      "checkpoint": "data/derived/raw_temporal_v2/probe_features/cnn_reference_window_ridge.joblib",
+      "maximum_replay_error": 4.726562501389253e-07,
+      "train_scaling_passed": true
+    },
+    {
+      "checkpoint": "data/derived/raw_temporal_v2/probe_features/cnn_reference_window_rbf_ridge.joblib",
+      "maximum_replay_error": 3.887939445945676e-07,
+      "train_scaling_passed": true
+    },
+    {
+      "checkpoint": "data/derived/raw_temporal_v2/probe_features/hierarchical_feature_map_ridge.joblib",
+      "maximum_replay_error": 2.3822021510966351e-07,
+      "train_scaling_passed": true
+    },
+    {
+      "checkpoint": "data/derived/raw_temporal_v2/probe_features/hierarchical_feature_map_rbf_ridge.joblib",
+      "maximum_replay_error": 2.3831176765298778e-07,
+      "train_scaling_passed": true
+    },
+    {
+      "checkpoint": "data/derived/raw_temporal_v2/probe_features/hierarchical_window_ridge.joblib",
+      "maximum_replay_error": 3.599853517499696e-07,
+      "train_scaling_passed": true
+    },
+    {
+      "checkpoint": "data/derived/raw_temporal_v2/probe_features/hierarchical_window_rbf_ridge.joblib",
+      "maximum_replay_error": 2.544555659511616e-07,
+      "train_scaling_passed": true
+    },
+    {
+      "checkpoint": "data/derived/raw_temporal_v2/probe_features/hierarchical_segment_ridge.joblib",
+      "maximum_replay_error": 2.3806762694533745e-07,
+      "train_scaling_passed": true
+    },
+    {
+      "checkpoint": "data/derived/raw_temporal_v2/probe_features/hierarchical_segment_rbf_ridge.joblib",
+      "maximum_replay_error": 2.3831176765298778e-07,
+      "train_scaling_passed": true
+    },
+    {
+      "checkpoint": "data/derived/raw_temporal_v2/probe_features/hierarchical_task_ridge.joblib",
+      "maximum_replay_error": 4.727172857599271e-07,
+      "train_scaling_passed": true
+    },
+    {
+      "checkpoint": "data/derived/raw_temporal_v2/probe_features/hierarchical_task_rbf_ridge.joblib",
+      "maximum_replay_error": 4.755249030097275e-07,
+      "train_scaling_passed": true
+    },
+    {
+      "checkpoint": "data/derived/raw_temporal_v2/probe_features/hierarchical_participant_ridge.joblib",
+      "maximum_replay_error": 2.3822021510966351e-07,
+      "train_scaling_passed": true
+    },
+    {
+      "checkpoint": "data/derived/raw_temporal_v2/probe_features/hierarchical_participant_rbf_ridge.joblib",
+      "maximum_replay_error": 2.344055172187609e-07,
+      "train_scaling_passed": true
+    },
+    {
+      "checkpoint": "data/derived/raw_temporal_v2/probe_features/hierarchical_reference_person_ridge.joblib",
+      "maximum_replay_error": 2.3748779298671252e-07,
+      "train_scaling_passed": true
+    },
+    {
+      "checkpoint": "data/derived/raw_temporal_v2/probe_features/hierarchical_reference_person_rbf_ridge.joblib",
+      "maximum_replay_error": 2.362365725261384e-07,
+      "train_scaling_passed": true
+    },
+    {
+      "checkpoint": "data/derived/raw_temporal_v2/probe_features/hierarchical_reference_segment_ridge.joblib",
+      "maximum_replay_error": 4.724731450522768e-07,
+      "train_scaling_passed": true
+    },
+    {
+      "checkpoint": "data/derived/raw_temporal_v2/probe_features/hierarchical_reference_segment_rbf_ridge.joblib",
+      "maximum_replay_error": 4.638671882162271e-07,
+      "train_scaling_passed": true
+    },
+    {
+      "checkpoint": "data/derived/raw_temporal_v2/probe_features/hierarchical_reference_task_ridge.joblib",
+      "maximum_replay_error": 4.7491455035242325e-07,
+      "train_scaling_passed": true
+    },
+    {
+      "checkpoint": "data/derived/raw_temporal_v2/probe_features/hierarchical_reference_task_rbf_ridge.joblib",
+      "maximum_replay_error": 4.7558593685437245e-07,
+      "train_scaling_passed": true
+    },
+    {
+      "checkpoint": "data/derived/raw_temporal_v2/probe_features/hierarchical_reference_window_ridge.joblib",
+      "maximum_replay_error": 4.726562501389253e-07,
+      "train_scaling_passed": true
+    },
+    {
+      "checkpoint": "data/derived/raw_temporal_v2/probe_features/hierarchical_reference_window_rbf_ridge.joblib",
+      "maximum_replay_error": 3.887939445945676e-07,
+      "train_scaling_passed": true
+    },
+    {
+      "checkpoint": "data/derived/raw_temporal_v2/pooling_probe_features/mean_ridge.joblib",
+      "maximum_replay_error": 4.350585935952722e-07,
+      "train_scaling_passed": true
+    },
+    {
+      "checkpoint": "data/derived/raw_temporal_v2/pooling_probe_features/mean_rbf_ridge.joblib",
+      "maximum_replay_error": 2.3815917948866172e-07,
+      "train_scaling_passed": true
+    },
+    {
+      "checkpoint": "data/derived/raw_temporal_v2/pooling_probe_features/mean_max_ridge.joblib",
+      "maximum_replay_error": 3.4295654316451873e-07,
+      "train_scaling_passed": true
+    },
+    {
+      "checkpoint": "data/derived/raw_temporal_v2/pooling_probe_features/mean_max_rbf_ridge.joblib",
+      "maximum_replay_error": 3.9837646426121864e-07,
+      "train_scaling_passed": true
+    },
+    {
+      "checkpoint": "data/derived/raw_temporal_v2/pooling_probe_features/mean_max_std_ridge.joblib",
+      "maximum_replay_error": 4.2565917901526973e-07,
+      "train_scaling_passed": true
+    },
+    {
+      "checkpoint": "data/derived/raw_temporal_v2/pooling_probe_features/mean_max_std_rbf_ridge.joblib",
+      "maximum_replay_error": 2.3828124984248689e-07,
+      "train_scaling_passed": true
+    },
+    {
+      "checkpoint": "data/derived/raw_temporal_v2/pooling_probe_features/attention_ridge.joblib",
+      "maximum_replay_error": 3.3569335933236744e-07,
+      "train_scaling_passed": true
+    },
+    {
+      "checkpoint": "data/derived/raw_temporal_v2/pooling_probe_features/attention_rbf_ridge.joblib",
+      "maximum_replay_error": 2.3840332019631205e-07,
+      "train_scaling_passed": true
+    },
+    {
+      "checkpoint": "data/derived/raw_temporal_v2/pooling_probe_features/multi4_ridge.joblib",
+      "maximum_replay_error": 2.38250732031986e-07,
+      "train_scaling_passed": true
+    },
+    {
+      "checkpoint": "data/derived/raw_temporal_v2/pooling_probe_features/multi4_rbf_ridge.joblib",
+      "maximum_replay_error": 2.3828124984248689e-07,
+      "train_scaling_passed": true
+    },
+    {
+      "checkpoint": "data/derived/raw_temporal_v2/probe_features/cnn_pca32_ridge.joblib",
+      "maximum_replay_error": 1.7185668941266385e-06,
+      "train_scaling_passed": true
+    },
+    {
+      "checkpoint": "data/derived/raw_temporal_v2/probe_features/cnn_pca32_rbf_ridge.joblib",
+      "maximum_replay_error": 4.449874877909821e-06,
+      "train_scaling_passed": true
+    },
+    {
+      "checkpoint": "data/derived/raw_temporal_v2/probe_features/hierarchical_pca32_ridge.joblib",
+      "maximum_replay_error": 3.3528106690994264e-06,
+      "train_scaling_passed": true
+    },
+    {
+      "checkpoint": "data/derived/raw_temporal_v2/probe_features/hierarchical_pca32_rbf_ridge.joblib",
+      "maximum_replay_error": 3.7779418944339227e-06,
+      "train_scaling_passed": true
+    }
+  ]
+}

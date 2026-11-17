@@ -1,0 +1,128 @@
+{
+  "signature": "af82c70f188dbf48416cc5a58b2f6e5fb068cdef47ae69b6f00da585a72c8f45",
+  "records": [
+    {
+      "pool": "multi4",
+      "method": "ridge",
+      "target": "log_speed_mean",
+      "dimensions": 128,
+      "alpha": 10.0,
+      "r2": 0.6433478216122274,
+      "mae": 0.3970986459429425
+    },
+    {
+      "pool": "multi4",
+      "method": "ridge",
+      "target": "log_speed_std",
+      "dimensions": 128,
+      "alpha": 10.0,
+      "r2": 0.44436621289267597,
+      "mae": 0.4282612447099296
+    },
+    {
+      "pool": "multi4",
+      "method": "ridge",
+      "target": "log_pressure_std",
+      "dimensions": 128,
+      "alpha": 10.0,
+      "r2": 0.32241038570609704,
+      "mae": 0.6694892645141403
+    },
+    {
+      "pool": "multi4",
+      "method": "ridge",
+      "target": "log_duration",
+      "dimensions": 128,
+      "alpha": 10.0,
+      "r2": 0.9847561683029576,
+      "mae": 0.014568780496238578
+    },
+    {
+      "pool": "multi4",
+      "method": "ridge",
+      "target": "log_path_length",
+      "dimensions": 128,
+      "alpha": 10.0,
+      "r2": 0.8306927984361657,
+      "mae": 0.31632816386714363
+    },
+    {
+      "pool": "multi4",
+      "method": "ridge",
+      "target": "log_width",
+      "dimensions": 128,
+      "alpha": 10.0,
+      "r2": 0.64958474303992,
+      "mae": 0.40052984782236967
+    },
+    {
+      "pool": "multi4",
+      "method": "ridge",
+      "target": "pen_up_fraction",
+      "dimensions": 128,
+      "alpha": 10.0,
+      "r2": 1.0,
+      "mae": 0.0
+    },
+    {
+      "pool": "multi4",
+      "method": "ridge",
+      "target": "peak_speed_position",
+      "dimensions": 128,
+      "alpha": 10.0,
+      "r2": 0.12806025527973808,
+      "mae": 0.26994112264785197
+    }
+  ],
+  "selection": [
+    {
+      "alpha": 0.1,
+      "fold": 0,
+      "r2": 0.6524236680331286
+    },
+    {
+      "alpha": 0.1,
+      "fold": 1,
+      "r2": 0.6457962087415035
+    },
+    {
+      "alpha": 0.1,
+      "fold": 2,
+      "r2": 0.647558568247977
+    },
+    {
+      "alpha": 10.0,
+      "fold": 0,
+      "r2": 0.6545038672076193
+    },
+    {
+      "alpha": 10.0,
+      "fold": 1,
+      "r2": 0.6499679277808788
+    },
+    {
+      "alpha": 10.0,
+      "fold": 2,
+      "r2": 0.6472209856078999
+    },
+    {
+      "alpha": 1000.0,
+      "fold": 0,
+      "r2": 0.5925226516836473
+    },
+    {
+      "alpha": 1000.0,
+      "fold": 1,
+      "r2": 0.5860997830855864
+    },
+    {
+      "alpha": 1000.0,
+      "fold": 2,
+      "r2": 0.5841122266852302
+    }
+  ],
+  "checkpoint": "data/derived/raw_temporal_v2/pooling_probe_features/multi4_ridge.joblib",
+  "checkpoint_sha256": "2657b318826c1cdab1da2d95cb228ddd3b11b1afe8f9fe62c549a7bcf92243f0",
+  "replay_error": 0.0,
+  "fit_count": 10
+}

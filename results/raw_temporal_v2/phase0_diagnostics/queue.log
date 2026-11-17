@@ -1,0 +1,61 @@
+WAIT source fidelity audit; no expensive dependent training
+WAIT source fidelity audit; no expensive dependent training
+WAIT source fidelity audit; no expensive dependent training
+WAIT source fidelity audit; no expensive dependent training
+RUN synthetic_raw_temporal_v2.py
+SYNTHETIC rare_event cnn 42 20 valBCE 0.0018
+SYNTHETIC DONE p0_synthetic_rare_event_cnn_seed42 {'accuracy': 1.0, 'f1_macro': 1.0, 'auc': 1.0, 'pr_auc': 1.0, 'balanced_accuracy': 1.0, 'sensitivity': 1.0, 'specificity': 1.0, 'brier': 1.5415467743472395e-06}
+SYNTHETIC rare_event cnn 43 20 valBCE 0.0016
+SYNTHETIC DONE p0_synthetic_rare_event_cnn_seed43 {'accuracy': 1.0, 'f1_macro': 1.0, 'auc': 1.0, 'pr_auc': 1.0, 'balanced_accuracy': 1.0, 'sensitivity': 1.0, 'specificity': 1.0, 'brier': 1.1410607076282874e-06}
+SYNTHETIC rare_event tcn 42 20 valBCE 0.0032
+SYNTHETIC DONE p0_synthetic_rare_event_tcn_seed42 {'accuracy': 1.0, 'f1_macro': 1.0, 'auc': 1.0, 'pr_auc': 1.0, 'balanced_accuracy': 1.0, 'sensitivity': 1.0, 'specificity': 1.0, 'brier': 2.572508152271128e-06}
+SYNTHETIC rare_event tcn 43 20 valBCE 0.0024
+SYNTHETIC DONE p0_synthetic_rare_event_tcn_seed43 {'accuracy': 1.0, 'f1_macro': 1.0, 'auc': 1.0, 'pr_auc': 1.0, 'balanced_accuracy': 1.0, 'sensitivity': 1.0, 'specificity': 1.0, 'brier': 2.3278655922701547e-06}
+SYNTHETIC rare_event hierarchical 42 20 valBCE 0.0044
+SYNTHETIC DONE p0_synthetic_rare_event_hierarchical_seed42 {'accuracy': 1.0, 'f1_macro': 1.0, 'auc': 1.0, 'pr_auc': 1.0, 'balanced_accuracy': 1.0, 'sensitivity': 1.0, 'specificity': 1.0, 'brier': 2.4957455346591965e-06}
+SYNTHETIC rare_event hierarchical 43 20 valBCE 0.0021
+SYNTHETIC DONE p0_synthetic_rare_event_hierarchical_seed43 {'accuracy': 1.0, 'f1_macro': 1.0, 'auc': 1.0, 'pr_auc': 1.0, 'balanced_accuracy': 1.0, 'sensitivity': 1.0, 'specificity': 1.0, 'brier': 9.094749346299685e-07}
+SYNTHETIC event_order cnn 42 20 valBCE 0.6933
+SYNTHETIC event_order cnn 42 40 valBCE 0.0091
+SYNTHETIC DONE p0_synthetic_event_order_cnn_seed42 {'accuracy': 1.0, 'f1_macro': 1.0, 'auc': 1.0, 'pr_auc': 1.0, 'balanced_accuracy': 1.0, 'sensitivity': 1.0, 'specificity': 1.0, 'brier': 8.247717188055752e-05}
+SYNTHETIC event_order cnn 43 20 valBCE 0.6509
+SYNTHETIC DONE p0_synthetic_event_order_cnn_seed43 {'accuracy': 1.0, 'f1_macro': 1.0, 'auc': 1.0, 'pr_auc': 1.0, 'balanced_accuracy': 1.0, 'sensitivity': 1.0, 'specificity': 1.0, 'brier': 4.721579699310128e-06}
+SYNTHETIC event_order tcn 42 20 valBCE 0.6938
+SYNTHETIC event_order tcn 42 40 valBCE 0.6922
+SYNTHETIC DONE p0_synthetic_event_order_tcn_seed42 {'accuracy': 1.0, 'f1_macro': 1.0, 'auc': 1.0, 'pr_auc': 1.0, 'balanced_accuracy': 1.0, 'sensitivity': 1.0, 'specificity': 1.0, 'brier': 8.088673768107051e-05}
+SYNTHETIC event_order tcn 43 20 valBCE 0.2576
+SYNTHETIC DONE p0_synthetic_event_order_tcn_seed43 {'accuracy': 1.0, 'f1_macro': 1.0, 'auc': 1.0, 'pr_auc': 1.0, 'balanced_accuracy': 1.0, 'sensitivity': 1.0, 'specificity': 1.0, 'brier': 9.407377793310314e-06}
+SYNTHETIC event_order hierarchical 42 20 valBCE 0.0046
+SYNTHETIC DONE p0_synthetic_event_order_hierarchical_seed42 {'accuracy': 1.0, 'f1_macro': 1.0, 'auc': 1.0, 'pr_auc': 1.0, 'balanced_accuracy': 1.0, 'sensitivity': 1.0, 'specificity': 1.0, 'brier': 3.6025839609528886e-06}
+SYNTHETIC event_order hierarchical 43 20 valBCE 0.0032
+SYNTHETIC DONE p0_synthetic_event_order_hierarchical_seed43 {'accuracy': 1.0, 'f1_macro': 1.0, 'auc': 1.0, 'pr_auc': 1.0, 'balanced_accuracy': 1.0, 'sensitivity': 1.0, 'specificity': 1.0, 'brier': 1.606108986777251e-06}
+SYNTHETIC physical_time cnn 42 20 valBCE 0.001
+SYNTHETIC DONE p0_synthetic_physical_time_cnn_seed42 {'accuracy': 1.0, 'f1_macro': 1.0, 'auc': 1.0, 'pr_auc': 1.0, 'balanced_accuracy': 1.0, 'sensitivity': 1.0, 'specificity': 1.0, 'brier': 5.21369386436763e-07}
+SYNTHETIC physical_time cnn 43 20 valBCE 0.0015
+SYNTHETIC DONE p0_synthetic_physical_time_cnn_seed43 {'accuracy': 1.0, 'f1_macro': 1.0, 'auc': 1.0, 'pr_auc': 1.0, 'balanced_accuracy': 1.0, 'sensitivity': 1.0, 'specificity': 1.0, 'brier': 1.0445330853604252e-06}
+SYNTHETIC physical_time tcn 42 20 valBCE 0.0022
+SYNTHETIC DONE p0_synthetic_physical_time_tcn_seed42 {'accuracy': 1.0, 'f1_macro': 1.0, 'auc': 1.0, 'pr_auc': 1.0, 'balanced_accuracy': 1.0, 'sensitivity': 1.0, 'specificity': 1.0, 'brier': 1.5468985363864628e-06}
+SYNTHETIC physical_time tcn 43 20 valBCE 0.0016
+SYNTHETIC DONE p0_synthetic_physical_time_tcn_seed43 {'accuracy': 1.0, 'f1_macro': 1.0, 'auc': 1.0, 'pr_auc': 1.0, 'balanced_accuracy': 1.0, 'sensitivity': 1.0, 'specificity': 1.0, 'brier': 6.807668667610695e-07}
+SYNTHETIC physical_time hierarchical 42 20 valBCE 0.0026
+SYNTHETIC DONE p0_synthetic_physical_time_hierarchical_seed42 {'accuracy': 1.0, 'f1_macro': 1.0, 'auc': 1.0, 'pr_auc': 1.0, 'balanced_accuracy': 1.0, 'sensitivity': 1.0, 'specificity': 1.0, 'brier': 1.7876389810008353e-06}
+SYNTHETIC physical_time hierarchical 43 20 valBCE 0.0014
+SYNTHETIC DONE p0_synthetic_physical_time_hierarchical_seed43 {'accuracy': 1.0, 'f1_macro': 1.0, 'auc': 1.0, 'pr_auc': 1.0, 'balanced_accuracy': 1.0, 'sensitivity': 1.0, 'specificity': 1.0, 'brier': 5.700234622396068e-07}
+SYNTHETIC weak_bag cnn 42 20 valBCE 0.0045
+SYNTHETIC DONE p0_synthetic_weak_bag_cnn_seed42 {'accuracy': 1.0, 'f1_macro': 1.0, 'auc': 1.0, 'pr_auc': 1.0, 'balanced_accuracy': 1.0, 'sensitivity': 1.0, 'specificity': 1.0, 'brier': 3.551776921656714e-06}
+SYNTHETIC weak_bag cnn 43 20 valBCE 0.0026
+SYNTHETIC DONE p0_synthetic_weak_bag_cnn_seed43 {'accuracy': 1.0, 'f1_macro': 1.0, 'auc': 1.0, 'pr_auc': 1.0, 'balanced_accuracy': 1.0, 'sensitivity': 1.0, 'specificity': 1.0, 'brier': 1.4356533241468443e-06}
+SYNTHETIC weak_bag tcn 42 20 valBCE 0.0054
+SYNTHETIC DONE p0_synthetic_weak_bag_tcn_seed42 {'accuracy': 1.0, 'f1_macro': 1.0, 'auc': 1.0, 'pr_auc': 1.0, 'balanced_accuracy': 1.0, 'sensitivity': 1.0, 'specificity': 1.0, 'brier': 4.31314837891545e-06}
+SYNTHETIC weak_bag tcn 43 20 valBCE 0.0031
+SYNTHETIC DONE p0_synthetic_weak_bag_tcn_seed43 {'accuracy': 1.0, 'f1_macro': 1.0, 'auc': 1.0, 'pr_auc': 1.0, 'balanced_accuracy': 1.0, 'sensitivity': 1.0, 'specificity': 1.0, 'brier': 1.7640594011929695e-06}
+SYNTHETIC weak_bag hierarchical 42 20 valBCE 0.0038
+SYNTHETIC DONE p0_synthetic_weak_bag_hierarchical_seed42 {'accuracy': 1.0, 'f1_macro': 1.0, 'auc': 1.0, 'pr_auc': 1.0, 'balanced_accuracy': 1.0, 'sensitivity': 1.0, 'specificity': 1.0, 'brier': 2.915067677926689e-06}
+SYNTHETIC weak_bag hierarchical 43 20 valBCE 0.0028
+SYNTHETIC DONE p0_synthetic_weak_bag_hierarchical_seed43 {'accuracy': 1.0, 'f1_macro': 1.0, 'auc': 1.0, 'pr_auc': 1.0, 'balanced_accuracy': 1.0, 'sensitivity': 1.0, 'specificity': 1.0, 'brier': 1.2845501357281862e-06}
+ALL SYNTHETIC COMPONENT TESTS FINISHED
+RUN validate_raw_temporal_v2_phase0.py
+PHASE0 VALIDATED: source fidelity, six tiny fits,24 synthetic fits, checkpoint replay
+RUN report_raw_temporal_v2_phase0.py
+PHASE0 REPORT AND FIVE FIGURE PAIRS GENERATED
+PHASE0 FINISHED; inspect diagnostic evidence before freezing Phase1 decisions

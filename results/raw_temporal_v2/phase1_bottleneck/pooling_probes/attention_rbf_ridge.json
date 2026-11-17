@@ -1,0 +1,128 @@
+{
+  "signature": "af82c70f188dbf48416cc5a58b2f6e5fb068cdef47ae69b6f00da585a72c8f45",
+  "records": [
+    {
+      "pool": "attention",
+      "method": "rbf_ridge",
+      "target": "log_speed_mean",
+      "dimensions": 32,
+      "alpha": 0.1,
+      "r2": 0.6301365325155726,
+      "mae": 0.3952635092464727
+    },
+    {
+      "pool": "attention",
+      "method": "rbf_ridge",
+      "target": "log_speed_std",
+      "dimensions": 32,
+      "alpha": 0.1,
+      "r2": 0.444362923810357,
+      "mae": 0.4228394740260867
+    },
+    {
+      "pool": "attention",
+      "method": "rbf_ridge",
+      "target": "log_pressure_std",
+      "dimensions": 32,
+      "alpha": 0.1,
+      "r2": 0.17107948275192586,
+      "mae": 0.7796412792425006
+    },
+    {
+      "pool": "attention",
+      "method": "rbf_ridge",
+      "target": "log_duration",
+      "dimensions": 32,
+      "alpha": 0.1,
+      "r2": 0.6569684085652053,
+      "mae": 0.06785930248062082
+    },
+    {
+      "pool": "attention",
+      "method": "rbf_ridge",
+      "target": "log_path_length",
+      "dimensions": 32,
+      "alpha": 0.1,
+      "r2": 0.7329200593589739,
+      "mae": 0.3896727592251786
+    },
+    {
+      "pool": "attention",
+      "method": "rbf_ridge",
+      "target": "log_width",
+      "dimensions": 32,
+      "alpha": 0.1,
+      "r2": 0.5862523948157572,
+      "mae": 0.4293247704679017
+    },
+    {
+      "pool": "attention",
+      "method": "rbf_ridge",
+      "target": "pen_up_fraction",
+      "dimensions": 32,
+      "alpha": 0.1,
+      "r2": 1.0,
+      "mae": 0.0
+    },
+    {
+      "pool": "attention",
+      "method": "rbf_ridge",
+      "target": "peak_speed_position",
+      "dimensions": 32,
+      "alpha": 0.1,
+      "r2": 0.02001194513706439,
+      "mae": 0.2919839855865959
+    }
+  ],
+  "selection": [
+    {
+      "alpha": 0.1,
+      "fold": 0,
+      "r2": 0.5744989519672131
+    },
+    {
+      "alpha": 0.1,
+      "fold": 1,
+      "r2": 0.5458883509790935
+    },
+    {
+      "alpha": 0.1,
+      "fold": 2,
+      "r2": 0.5598901320074763
+    },
+    {
+      "alpha": 10.0,
+      "fold": 0,
+      "r2": 0.5126842883575254
+    },
+    {
+      "alpha": 10.0,
+      "fold": 1,
+      "r2": 0.497696710890275
+    },
+    {
+      "alpha": 10.0,
+      "fold": 2,
+      "r2": 0.5033544942935101
+    },
+    {
+      "alpha": 1000.0,
+      "fold": 0,
+      "r2": 0.19402239837784072
+    },
+    {
+      "alpha": 1000.0,
+      "fold": 1,
+      "r2": 0.19409663368890034
+    },
+    {
+      "alpha": 1000.0,
+      "fold": 2,
+      "r2": 0.18850394980673546
+    }
+  ],
+  "checkpoint": "data/derived/raw_temporal_v2/pooling_probe_features/attention_rbf_ridge.joblib",
+  "checkpoint_sha256": "effe46b2cfa0d0c9af9aa8846225691fcd248923b6447059a2377a9f73dd3a5d",
+  "replay_error": 0.0,
+  "fit_count": 10
+}

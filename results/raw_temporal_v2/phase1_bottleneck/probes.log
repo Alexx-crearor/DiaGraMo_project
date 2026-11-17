@@ -1,0 +1,42 @@
+PROBE EXTRACT cnn 1
+PROBE EXTRACT cnn 26
+PROBE EXTRACT cnn 51
+PROBE EXTRACT cnn 76
+PROBE EXTRACT cnn 101
+PROBE EXTRACT cnn 126
+PROBE EXTRACT cnn 151
+PROBE EXTRACT cnn 176
+PROBE EXTRACT cnn 201
+PROBE EXTRACT hierarchical 1
+PROBE EXTRACT hierarchical 26
+PROBE EXTRACT hierarchical 51
+PROBE EXTRACT hierarchical 76
+PROBE EXTRACT hierarchical 101
+PROBE EXTRACT hierarchical 126
+PROBE EXTRACT hierarchical 151
+PROBE EXTRACT hierarchical 176
+PROBE EXTRACT hierarchical 201
+PROBE FIT cnn_feature_map ridge meanR2 0.6719
+PROBE FIT cnn_feature_map rbf_ridge meanR2 0.5402
+PROBE FIT cnn_window ridge meanR2 0.5553
+PROBE FIT cnn_window rbf_ridge meanR2 0.5505
+PROBE FIT cnn_reference_window ridge meanR2 0.7162
+PROBE FIT cnn_reference_window rbf_ridge meanR2 0.6433
+PROBE FIT hierarchical_feature_map ridge meanR2 0.6434
+PROBE FIT hierarchical_feature_map rbf_ridge meanR2 0.5076
+PROBE FIT hierarchical_window ridge meanR2 0.5094
+PROBE FIT hierarchical_window rbf_ridge meanR2 0.5238
+PROBE FIT hierarchical_segment ridge meanR2 0.5582
+PROBE FIT hierarchical_segment rbf_ridge meanR2 0.5825
+PROBE FIT hierarchical_task ridge meanR2 0.6807
+PROBE FIT hierarchical_task rbf_ridge meanR2 0.6792
+PROBE FIT hierarchical_participant ridge meanR2 0.3636
+PROBE FIT hierarchical_participant rbf_ridge meanR2 0.2171
+PROBE FIT hierarchical_reference_person ridge meanR2 0.7884
+PROBE FIT hierarchical_reference_person rbf_ridge meanR2 0.4632
+PROBE FIT hierarchical_reference_segment ridge meanR2 0.7858
+PROBE FIT hierarchical_reference_segment rbf_ridge meanR2 0.6868
+PROBE FIT hierarchical_reference_task ridge meanR2 0.8413
+PROBE FIT hierarchical_reference_task rbf_ridge meanR2 0.7584
+PROBE FIT hierarchical_reference_window ridge meanR2 0.7162
+PROBE FIT hierarchical_reference_window rbf_ridge meanR2 0.6433

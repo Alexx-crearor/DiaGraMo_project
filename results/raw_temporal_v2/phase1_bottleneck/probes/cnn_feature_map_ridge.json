@@ -1,0 +1,177 @@
+{
+  "signature": "f908190aea188a0aba822ab6ca3b5a694720e19a16df26051564a92d8ce4defb",
+  "records": [
+    {
+      "level": "cnn_feature_map",
+      "method": "ridge",
+      "target": "log_speed_mean",
+      "alpha": 10.0,
+      "r2": 0.7201814100451102,
+      "mae": 0.36043488126900536,
+      "correlation": 0.8500148450809004,
+      "dimensions": 544,
+      "fit_participants": 143,
+      "validation_participants": 72,
+      "observation_scope": "Within-observation target; participant-balanced row weights"
+    },
+    {
+      "level": "cnn_feature_map",
+      "method": "ridge",
+      "target": "log_speed_std",
+      "alpha": 10.0,
+      "r2": 0.5126299846529767,
+      "mae": 0.40273568521059266,
+      "correlation": 0.7233594933834938,
+      "dimensions": 544,
+      "fit_participants": 143,
+      "validation_participants": 72,
+      "observation_scope": "Within-observation target; participant-balanced row weights"
+    },
+    {
+      "level": "cnn_feature_map",
+      "method": "ridge",
+      "target": "log_pressure_std",
+      "alpha": 10.0,
+      "r2": 0.4069394778845772,
+      "mae": 0.6233674969168576,
+      "correlation": 0.6429009628425961,
+      "dimensions": 544,
+      "fit_participants": 143,
+      "validation_participants": 72,
+      "observation_scope": "Within-observation target; participant-balanced row weights"
+    },
+    {
+      "level": "cnn_feature_map",
+      "method": "ridge",
+      "target": "log_duration",
+      "alpha": 10.0,
+      "r2": 0.9977317724346931,
+      "mae": 0.005497022654754983,
+      "correlation": 0.9988660318834747,
+      "dimensions": 544,
+      "fit_participants": 143,
+      "validation_participants": 72,
+      "observation_scope": "Within-observation target; participant-balanced row weights"
+    },
+    {
+      "level": "cnn_feature_map",
+      "method": "ridge",
+      "target": "log_path_length",
+      "alpha": 10.0,
+      "r2": 0.8842667239802048,
+      "mae": 0.27024027765970965,
+      "correlation": 0.9407368426908443,
+      "dimensions": 544,
+      "fit_participants": 143,
+      "validation_participants": 72,
+      "observation_scope": "Within-observation target; participant-balanced row weights"
+    },
+    {
+      "level": "cnn_feature_map",
+      "method": "ridge",
+      "target": "log_width",
+      "alpha": 10.0,
+      "r2": 0.7226226666673872,
+      "mae": 0.3643619996098687,
+      "correlation": 0.8515504245775218,
+      "dimensions": 544,
+      "fit_participants": 143,
+      "validation_participants": 72,
+      "observation_scope": "Within-observation target; participant-balanced row weights"
+    },
+    {
+      "level": "cnn_feature_map",
+      "method": "ridge",
+      "target": "pen_up_fraction",
+      "alpha": 10.0,
+      "r2": 1.0,
+      "mae": 0.0,
+      "correlation": 0.0,
+      "dimensions": 544,
+      "fit_participants": 143,
+      "validation_participants": 72,
+      "observation_scope": "Within-observation target; participant-balanced row weights"
+    },
+    {
+      "level": "cnn_feature_map",
+      "method": "ridge",
+      "target": "peak_speed_position",
+      "alpha": 10.0,
+      "r2": 0.13119689322064576,
+      "mae": 0.2627022559708189,
+      "correlation": 0.3848490447532364,
+      "dimensions": 544,
+      "fit_participants": 143,
+      "validation_participants": 72,
+      "observation_scope": "Within-observation target; participant-balanced row weights"
+    }
+  ],
+  "selection": [
+    {
+      "level": "cnn_feature_map",
+      "method": "ridge",
+      "alpha": 0.1,
+      "inner_fold": 0,
+      "r2": 0.6728466952231307
+    },
+    {
+      "level": "cnn_feature_map",
+      "method": "ridge",
+      "alpha": 0.1,
+      "inner_fold": 1,
+      "r2": 0.6504871909638138
+    },
+    {
+      "level": "cnn_feature_map",
+      "method": "ridge",
+      "alpha": 0.1,
+      "inner_fold": 2,
+      "r2": 0.665038312003591
+    },
+    {
+      "level": "cnn_feature_map",
+      "method": "ridge",
+      "alpha": 10.0,
+      "inner_fold": 0,
+      "r2": 0.6853805351534124
+    },
+    {
+      "level": "cnn_feature_map",
+      "method": "ridge",
+      "alpha": 10.0,
+      "inner_fold": 1,
+      "r2": 0.670198677224631
+    },
+    {
+      "level": "cnn_feature_map",
+      "method": "ridge",
+      "alpha": 10.0,
+      "inner_fold": 2,
+      "r2": 0.6748613005016754
+    },
+    {
+      "level": "cnn_feature_map",
+      "method": "ridge",
+      "alpha": 1000.0,
+      "inner_fold": 0,
+      "r2": 0.6622301192780173
+    },
+    {
+      "level": "cnn_feature_map",
+      "method": "ridge",
+      "alpha": 1000.0,
+      "inner_fold": 1,
+      "r2": 0.6464271634481404
+    },
+    {
+      "level": "cnn_feature_map",
+      "method": "ridge",
+      "alpha": 1000.0,
+      "inner_fold": 2,
+      "r2": 0.6545453729650822
+    }
+  ],
+  "fits": 10,
+  "checkpoint": "data/derived/raw_temporal_v2/probe_features/cnn_feature_map_ridge.joblib",
+  "checkpoint_sha256": "5c19356c0ce3bdef14db1768525c149f4225a71f927e6d1070e30687a3bdbeae"
+}

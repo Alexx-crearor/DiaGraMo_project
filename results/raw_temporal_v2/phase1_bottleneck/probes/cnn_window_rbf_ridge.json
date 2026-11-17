@@ -1,0 +1,177 @@
+{
+  "signature": "f908190aea188a0aba822ab6ca3b5a694720e19a16df26051564a92d8ce4defb",
+  "records": [
+    {
+      "level": "cnn_window",
+      "method": "rbf_ridge",
+      "target": "log_speed_mean",
+      "alpha": 0.1,
+      "r2": 0.6272645768716085,
+      "mae": 0.3938525198770526,
+      "correlation": 0.7971883780666763,
+      "dimensions": 32,
+      "fit_participants": 143,
+      "validation_participants": 72,
+      "observation_scope": "Within-observation target; participant-balanced row weights"
+    },
+    {
+      "level": "cnn_window",
+      "method": "rbf_ridge",
+      "target": "log_speed_std",
+      "alpha": 0.1,
+      "r2": 0.4641581166329751,
+      "mae": 0.41328037285109187,
+      "correlation": 0.6898410847938308,
+      "dimensions": 32,
+      "fit_participants": 143,
+      "validation_participants": 72,
+      "observation_scope": "Within-observation target; participant-balanced row weights"
+    },
+    {
+      "level": "cnn_window",
+      "method": "rbf_ridge",
+      "target": "log_pressure_std",
+      "alpha": 0.1,
+      "r2": 0.24133811281058237,
+      "mae": 0.7439506695878738,
+      "correlation": 0.4973381132029929,
+      "dimensions": 32,
+      "fit_participants": 143,
+      "validation_participants": 72,
+      "observation_scope": "Within-observation target; participant-balanced row weights"
+    },
+    {
+      "level": "cnn_window",
+      "method": "rbf_ridge",
+      "target": "log_duration",
+      "alpha": 0.1,
+      "r2": 0.7027395319817924,
+      "mae": 0.06322958812773266,
+      "correlation": 0.8388207749851885,
+      "dimensions": 32,
+      "fit_participants": 143,
+      "validation_participants": 72,
+      "observation_scope": "Within-observation target; participant-balanced row weights"
+    },
+    {
+      "level": "cnn_window",
+      "method": "rbf_ridge",
+      "target": "log_path_length",
+      "alpha": 0.1,
+      "r2": 0.7572756592083005,
+      "mae": 0.3751688471923088,
+      "correlation": 0.8715230919444329,
+      "dimensions": 32,
+      "fit_participants": 143,
+      "validation_participants": 72,
+      "observation_scope": "Within-observation target; participant-balanced row weights"
+    },
+    {
+      "level": "cnn_window",
+      "method": "rbf_ridge",
+      "target": "log_width",
+      "alpha": 0.1,
+      "r2": 0.6042612047949967,
+      "mae": 0.4179811270648251,
+      "correlation": 0.7802774966009428,
+      "dimensions": 32,
+      "fit_participants": 143,
+      "validation_participants": 72,
+      "observation_scope": "Within-observation target; participant-balanced row weights"
+    },
+    {
+      "level": "cnn_window",
+      "method": "rbf_ridge",
+      "target": "pen_up_fraction",
+      "alpha": 0.1,
+      "r2": 1.0,
+      "mae": 0.0,
+      "correlation": 0.0,
+      "dimensions": 32,
+      "fit_participants": 143,
+      "validation_participants": 72,
+      "observation_scope": "Within-observation target; participant-balanced row weights"
+    },
+    {
+      "level": "cnn_window",
+      "method": "rbf_ridge",
+      "target": "peak_speed_position",
+      "alpha": 0.1,
+      "r2": 0.007222083264371459,
+      "mae": 0.293139899202012,
+      "correlation": 0.1433991105215118,
+      "dimensions": 32,
+      "fit_participants": 143,
+      "validation_participants": 72,
+      "observation_scope": "Within-observation target; participant-balanced row weights"
+    }
+  ],
+  "selection": [
+    {
+      "level": "cnn_window",
+      "method": "rbf_ridge",
+      "alpha": 0.1,
+      "inner_fold": 0,
+      "r2": 0.5700215040189309
+    },
+    {
+      "level": "cnn_window",
+      "method": "rbf_ridge",
+      "alpha": 0.1,
+      "inner_fold": 1,
+      "r2": 0.5576631093066602
+    },
+    {
+      "level": "cnn_window",
+      "method": "rbf_ridge",
+      "alpha": 0.1,
+      "inner_fold": 2,
+      "r2": 0.5692068128014212
+    },
+    {
+      "level": "cnn_window",
+      "method": "rbf_ridge",
+      "alpha": 10.0,
+      "inner_fold": 0,
+      "r2": 0.5207881584938283
+    },
+    {
+      "level": "cnn_window",
+      "method": "rbf_ridge",
+      "alpha": 10.0,
+      "inner_fold": 1,
+      "r2": 0.5138082550958304
+    },
+    {
+      "level": "cnn_window",
+      "method": "rbf_ridge",
+      "alpha": 10.0,
+      "inner_fold": 2,
+      "r2": 0.5220460173758609
+    },
+    {
+      "level": "cnn_window",
+      "method": "rbf_ridge",
+      "alpha": 1000.0,
+      "inner_fold": 0,
+      "r2": 0.21058790982025635
+    },
+    {
+      "level": "cnn_window",
+      "method": "rbf_ridge",
+      "alpha": 1000.0,
+      "inner_fold": 1,
+      "r2": 0.21122109956440482
+    },
+    {
+      "level": "cnn_window",
+      "method": "rbf_ridge",
+      "alpha": 1000.0,
+      "inner_fold": 2,
+      "r2": 0.2046253018710505
+    }
+  ],
+  "fits": 10,
+  "checkpoint": "data/derived/raw_temporal_v2/probe_features/cnn_window_rbf_ridge.joblib",
+  "checkpoint_sha256": "9f89ea60e1ce05458d9963d6ab0a6686c78b4d8d179177b001276e354bf0fb59"
+}

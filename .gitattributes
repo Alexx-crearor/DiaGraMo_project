@@ -10,3 +10,11 @@
 /results/raw_temporal/**/*.svg -whitespace
 /results/raw_temporal/**/*.log -whitespace
 /results/raw_temporal/*.log -whitespace
+/src/diagramo/temporal_v2/** -text whitespace=blank-at-eol,space-before-tab,cr-at-eol,-blank-at-eof
+/scripts/*raw_temporal_v2*.py -text whitespace=blank-at-eol,space-before-tab,cr-at-eol,-blank-at-eof
+/configs/raw_temporal_v2/** -text whitespace=blank-at-eol,space-before-tab,cr-at-eol,-blank-at-eof
+/results/raw_temporal_v2/** -text whitespace=blank-at-eol,space-before-tab,cr-at-eol,-blank-at-eof
+/notebooks/07_raw_temporal_research_recovery.ipynb -text whitespace=blank-at-eol,space-before-tab,cr-at-eol,-blank-at-eof
+/tests/test_raw_temporal_v2*.py -text whitespace=blank-at-eol,space-before-tab,cr-at-eol,-blank-at-eof
+/results/raw_temporal_v2/**/*.svg -whitespace
+/results/raw_temporal_v2/**/*.log -whitespace

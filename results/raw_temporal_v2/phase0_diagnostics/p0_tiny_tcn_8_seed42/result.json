@@ -1,0 +1,42 @@
+{
+  "experiment_id": "p0_tiny_tcn_8_seed42",
+  "signature": "90506f27b5ae1b8360623c394d944f20a716ee40d0a392307d8d3e7d7826ee02",
+  "complete": true,
+  "memorized": true,
+  "scope": "Training-only engineering diagnostic; no generalization estimate",
+  "family": "tcn",
+  "size": 8,
+  "epochs": 36,
+  "train_metrics": {
+    "accuracy": 1.0,
+    "f1_macro": 1.0,
+    "auc": 1.0,
+    "pr_auc": 1.0,
+    "balanced_accuracy": 1.0,
+    "sensitivity": 1.0,
+    "specificity": 1.0,
+    "brier": 0.00045093812051133465
+  },
+  "eval_train_bce": 0.021273762726724595,
+  "fit_ids": [
+    "BR5302",
+    "BR5314",
+    "BR5417",
+    "BR7310",
+    "DK12305",
+    "HK11310",
+    "HK12409",
+    "NA06405"
+  ],
+  "outer_test_evaluated": false,
+  "dropout": 0.0,
+  "weight_decay": 0.0,
+  "parameters": 13554,
+  "train_seconds": 7.654899200017098,
+  "peak_gpu_bytes": 697394176,
+  "embedding_variance_mean": 0.035475701093673706,
+  "mean_pair_distance": 1.3685183006690542,
+  "logit_sd": 3.851186720590353,
+  "checkpoint": "data/derived/raw_temporal_v2/phase0/p0_tiny_tcn_8_seed42.pt",
+  "checkpoint_sha256": "b22c4aaf3ce365c792b4df8ba59a04e36639b8dd7de6e37e3b2fd7a836fc5515"
+}

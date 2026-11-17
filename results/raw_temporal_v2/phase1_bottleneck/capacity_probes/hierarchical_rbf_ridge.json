@@ -1,0 +1,128 @@
+{
+  "signature": "cbff7cf8d521023d891feb64c3a6c0c399eee1f978c6cc3c785bb0f0515b1c4f",
+  "records": [
+    {
+      "level": "hierarchical_feature_map_pca32",
+      "method": "rbf_ridge",
+      "target": "log_speed_mean",
+      "dimensions": 32,
+      "alpha": 10.0,
+      "r2": 0.07678507358580144,
+      "mae": 0.6934950293414218
+    },
+    {
+      "level": "hierarchical_feature_map_pca32",
+      "method": "rbf_ridge",
+      "target": "log_speed_std",
+      "dimensions": 32,
+      "alpha": 10.0,
+      "r2": 0.09242373300970064,
+      "mae": 0.5668579624115624
+    },
+    {
+      "level": "hierarchical_feature_map_pca32",
+      "method": "rbf_ridge",
+      "target": "log_pressure_std",
+      "dimensions": 32,
+      "alpha": 10.0,
+      "r2": 0.03887956964573369,
+      "mae": 0.8722551447082928
+    },
+    {
+      "level": "hierarchical_feature_map_pca32",
+      "method": "rbf_ridge",
+      "target": "log_duration",
+      "dimensions": 32,
+      "alpha": 10.0,
+      "r2": 0.5129410585794194,
+      "mae": 0.08668256984958168
+    },
+    {
+      "level": "hierarchical_feature_map_pca32",
+      "method": "rbf_ridge",
+      "target": "log_path_length",
+      "dimensions": 32,
+      "alpha": 10.0,
+      "r2": 0.27238910814074735,
+      "mae": 0.6842784925263753
+    },
+    {
+      "level": "hierarchical_feature_map_pca32",
+      "method": "rbf_ridge",
+      "target": "log_width",
+      "dimensions": 32,
+      "alpha": 10.0,
+      "r2": 0.14562439564520457,
+      "mae": 0.6593481595640591
+    },
+    {
+      "level": "hierarchical_feature_map_pca32",
+      "method": "rbf_ridge",
+      "target": "pen_up_fraction",
+      "dimensions": 32,
+      "alpha": 10.0,
+      "r2": 1.0,
+      "mae": 0.0
+    },
+    {
+      "level": "hierarchical_feature_map_pca32",
+      "method": "rbf_ridge",
+      "target": "peak_speed_position",
+      "dimensions": 32,
+      "alpha": 10.0,
+      "r2": -0.0015060846071353051,
+      "mae": 0.2970274451741478
+    }
+  ],
+  "selection": [
+    {
+      "alpha": 0.1,
+      "fold": 0,
+      "r2": 0.27512397014018586
+    },
+    {
+      "alpha": 0.1,
+      "fold": 1,
+      "r2": 0.2202991309460892
+    },
+    {
+      "alpha": 0.1,
+      "fold": 2,
+      "r2": 0.2646011399243685
+    },
+    {
+      "alpha": 10.0,
+      "fold": 0,
+      "r2": 0.27988079961922546
+    },
+    {
+      "alpha": 10.0,
+      "fold": 1,
+      "r2": 0.23543356996875986
+    },
+    {
+      "alpha": 10.0,
+      "fold": 2,
+      "r2": 0.2689907423671098
+    },
+    {
+      "alpha": 1000.0,
+      "fold": 0,
+      "r2": 0.1559854939806683
+    },
+    {
+      "alpha": 1000.0,
+      "fold": 1,
+      "r2": 0.1484316807322939
+    },
+    {
+      "alpha": 1000.0,
+      "fold": 2,
+      "r2": 0.1478224707107769
+    }
+  ],
+  "checkpoint": "data/derived/raw_temporal_v2/probe_features/hierarchical_pca32_rbf_ridge.joblib",
+  "checkpoint_sha256": "2f786922ce6d93db36aa7addab0b133df3b6a511e1e49b59577d0a7bfcedb9ab",
+  "pca_train_only": true,
+  "explained_variance_ratio_sum": 0.8371355533599854
+}

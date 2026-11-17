@@ -1,0 +1,39 @@
+{
+  "complete": true,
+  "scope": "Train-only forward/backward engineering, no model fit",
+  "records": [
+    {
+      "design": "statistical",
+      "train_ids": [
+        "JI02401",
+        "NA03401"
+      ],
+      "batch_max_logit_difference": 1.043081283569336e-07,
+      "peak_gpu_mib": 402.40771484375,
+      "gradient_finite": true,
+      "no_optimizer_step": true
+    },
+    {
+      "design": "mil",
+      "train_ids": [
+        "JI02401",
+        "NA03401"
+      ],
+      "batch_max_logit_difference": 1.1920928955078125e-07,
+      "peak_gpu_mib": 324.03466796875,
+      "gradient_finite": true,
+      "no_optimizer_step": true
+    },
+    {
+      "design": "stroke_transformer",
+      "train_ids": [
+        "JI02401",
+        "NA03401"
+      ],
+      "batch_max_logit_difference": 2.384185791015625e-07,
+      "peak_gpu_mib": 324.10888671875,
+      "gradient_finite": true,
+      "no_optimizer_step": true
+    }
+  ]
+}

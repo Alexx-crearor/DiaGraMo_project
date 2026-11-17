@@ -1,0 +1,9 @@
+{
+  "complete": true,
+  "signature": "cbff7cf8d521023d891feb64c3a6c0c399eee1f978c6cc3c785bb0f0515b1c4f",
+  "cpu_fits": 40,
+  "total_phase1_cpu_probe_fits": 380,
+  "pca_and_scalers_fit_train_only": true,
+  "outer_test_loaded": false,
+  "limitation": "PCA is unsupervised and row-weighted after participant-balanced scaling; capacity matched32 dims, not learned projection equivalence"
+}

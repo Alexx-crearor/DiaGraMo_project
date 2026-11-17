@@ -1,0 +1,128 @@
+{
+  "signature": "af82c70f188dbf48416cc5a58b2f6e5fb068cdef47ae69b6f00da585a72c8f45",
+  "records": [
+    {
+      "pool": "mean_max_std",
+      "method": "ridge",
+      "target": "log_speed_mean",
+      "dimensions": 32,
+      "alpha": 0.1,
+      "r2": 0.6229016244452054,
+      "mae": 0.3807269269669322
+    },
+    {
+      "pool": "mean_max_std",
+      "method": "ridge",
+      "target": "log_speed_std",
+      "dimensions": 32,
+      "alpha": 0.1,
+      "r2": 0.4629929831243039,
+      "mae": 0.41757157479589074
+    },
+    {
+      "pool": "mean_max_std",
+      "method": "ridge",
+      "target": "log_pressure_std",
+      "dimensions": 32,
+      "alpha": 0.1,
+      "r2": 0.15583921253835886,
+      "mae": 0.7997395784304849
+    },
+    {
+      "pool": "mean_max_std",
+      "method": "ridge",
+      "target": "log_duration",
+      "dimensions": 32,
+      "alpha": 0.1,
+      "r2": 0.6767463738763242,
+      "mae": 0.06881190739204483
+    },
+    {
+      "pool": "mean_max_std",
+      "method": "ridge",
+      "target": "log_path_length",
+      "dimensions": 32,
+      "alpha": 0.1,
+      "r2": 0.7872739819051153,
+      "mae": 0.342893533165903
+    },
+    {
+      "pool": "mean_max_std",
+      "method": "ridge",
+      "target": "log_width",
+      "dimensions": 32,
+      "alpha": 0.1,
+      "r2": 0.6006518997743596,
+      "mae": 0.4285364421820698
+    },
+    {
+      "pool": "mean_max_std",
+      "method": "ridge",
+      "target": "pen_up_fraction",
+      "dimensions": 32,
+      "alpha": 0.1,
+      "r2": 1.0,
+      "mae": 0.0
+    },
+    {
+      "pool": "mean_max_std",
+      "method": "ridge",
+      "target": "peak_speed_position",
+      "dimensions": 32,
+      "alpha": 0.1,
+      "r2": 0.006871761201388327,
+      "mae": 0.2956177042714469
+    }
+  ],
+  "selection": [
+    {
+      "alpha": 0.1,
+      "fold": 0,
+      "r2": 0.5824835485183832
+    },
+    {
+      "alpha": 0.1,
+      "fold": 1,
+      "r2": 0.5767169915683803
+    },
+    {
+      "alpha": 0.1,
+      "fold": 2,
+      "r2": 0.5733207416516236
+    },
+    {
+      "alpha": 10.0,
+      "fold": 0,
+      "r2": 0.570491358342814
+    },
+    {
+      "alpha": 10.0,
+      "fold": 1,
+      "r2": 0.5612260881626865
+    },
+    {
+      "alpha": 10.0,
+      "fold": 2,
+      "r2": 0.5545565753605655
+    },
+    {
+      "alpha": 1000.0,
+      "fold": 0,
+      "r2": 0.4614867867248098
+    },
+    {
+      "alpha": 1000.0,
+      "fold": 1,
+      "r2": 0.4514947920487186
+    },
+    {
+      "alpha": 1000.0,
+      "fold": 2,
+      "r2": 0.43822500781063634
+    }
+  ],
+  "checkpoint": "data/derived/raw_temporal_v2/pooling_probe_features/mean_max_std_ridge.joblib",
+  "checkpoint_sha256": "96d8c56801b2d53b5b31d089bb42b00aab08b7fa771b416f929833c4fbf1a183",
+  "replay_error": 0.0,
+  "fit_count": 10
+}

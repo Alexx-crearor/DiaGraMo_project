@@ -1,0 +1,25 @@
+{
+  "complete": true,
+  "signature": "680dd07aae7b005298f5f4b9fe839e20ab04bbcacf65a628afb8def0fb706325",
+  "experiment_id": "p1_synthetic_event_order_attention_seed42",
+  "kind": "event_order",
+  "pooling": "attention",
+  "seed": 42,
+  "heldout_metrics": {
+    "accuracy": 1.0,
+    "f1_macro": 1.0,
+    "auc": 1.0,
+    "pr_auc": 1.0,
+    "balanced_accuracy": 1.0,
+    "sensitivity": 1.0,
+    "specificity": 1.0,
+    "brier": 1.3621747692701936e-05
+  },
+  "best_epoch": 30,
+  "epochs": 30,
+  "parameters": 2643,
+  "train_seconds": 3.716194999986328,
+  "checkpoint": "data/derived/raw_temporal_v2/phase1/p1_synthetic_event_order_attention_seed42.pt",
+  "checkpoint_sha256": "a7695383828a3e9686098caaf5160aae5fa42b3c864ddefb9052bc78b0698608",
+  "scope": "Representation-level synthetic capacity control; same window-time metadata for all sub-tokens, not physical SVC simulation"
+}

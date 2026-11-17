@@ -1,0 +1,128 @@
+{
+  "signature": "cbff7cf8d521023d891feb64c3a6c0c399eee1f978c6cc3c785bb0f0515b1c4f",
+  "records": [
+    {
+      "level": "cnn_feature_map_pca32",
+      "method": "ridge",
+      "target": "log_speed_mean",
+      "dimensions": 32,
+      "alpha": 10.0,
+      "r2": 0.4002733371650593,
+      "mae": 0.5699194980423339
+    },
+    {
+      "level": "cnn_feature_map_pca32",
+      "method": "ridge",
+      "target": "log_speed_std",
+      "dimensions": 32,
+      "alpha": 10.0,
+      "r2": 0.2734865101293472,
+      "mae": 0.513510951417738
+    },
+    {
+      "level": "cnn_feature_map_pca32",
+      "method": "ridge",
+      "target": "log_pressure_std",
+      "dimensions": 32,
+      "alpha": 10.0,
+      "r2": 0.3491388110155821,
+      "mae": 0.6554047344522131
+    },
+    {
+      "level": "cnn_feature_map_pca32",
+      "method": "ridge",
+      "target": "log_duration",
+      "dimensions": 32,
+      "alpha": 10.0,
+      "r2": 0.9866879142272532,
+      "mae": 0.013646220192620497
+    },
+    {
+      "level": "cnn_feature_map_pca32",
+      "method": "ridge",
+      "target": "log_path_length",
+      "dimensions": 32,
+      "alpha": 10.0,
+      "r2": 0.6687766777667531,
+      "mae": 0.4730080802711214
+    },
+    {
+      "level": "cnn_feature_map_pca32",
+      "method": "ridge",
+      "target": "log_width",
+      "dimensions": 32,
+      "alpha": 10.0,
+      "r2": 0.48687798015913786,
+      "mae": 0.49724521892908025
+    },
+    {
+      "level": "cnn_feature_map_pca32",
+      "method": "ridge",
+      "target": "pen_up_fraction",
+      "dimensions": 32,
+      "alpha": 10.0,
+      "r2": 1.0,
+      "mae": 0.0
+    },
+    {
+      "level": "cnn_feature_map_pca32",
+      "method": "ridge",
+      "target": "peak_speed_position",
+      "dimensions": 32,
+      "alpha": 10.0,
+      "r2": 0.0794936716110467,
+      "mae": 0.28013160374927626
+    }
+  ],
+  "selection": [
+    {
+      "alpha": 0.1,
+      "fold": 0,
+      "r2": 0.5689567794633404
+    },
+    {
+      "alpha": 0.1,
+      "fold": 1,
+      "r2": 0.5371679713161386
+    },
+    {
+      "alpha": 0.1,
+      "fold": 2,
+      "r2": 0.5455397958330055
+    },
+    {
+      "alpha": 10.0,
+      "fold": 0,
+      "r2": 0.5689512211560637
+    },
+    {
+      "alpha": 10.0,
+      "fold": 1,
+      "r2": 0.5371802385404748
+    },
+    {
+      "alpha": 10.0,
+      "fold": 2,
+      "r2": 0.5455412097003987
+    },
+    {
+      "alpha": 1000.0,
+      "fold": 0,
+      "r2": 0.5680124840487502
+    },
+    {
+      "alpha": 1000.0,
+      "fold": 1,
+      "r2": 0.5378841994692151
+    },
+    {
+      "alpha": 1000.0,
+      "fold": 2,
+      "r2": 0.545286813059126
+    }
+  ],
+  "checkpoint": "data/derived/raw_temporal_v2/probe_features/cnn_pca32_ridge.joblib",
+  "checkpoint_sha256": "6d6de6362153032b0ce4e813150181dec1cc775d6207e0f816c392475db3f4d7",
+  "pca_train_only": true,
+  "explained_variance_ratio_sum": 0.8817347884178162
+}

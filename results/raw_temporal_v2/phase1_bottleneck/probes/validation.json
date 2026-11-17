@@ -1,0 +1,12 @@
+{
+  "complete": true,
+  "signature": "f908190aea188a0aba822ab6ca3b5a694720e19a16df26051564a92d8ce4defb",
+  "cpu_fits": 240,
+  "seconds": 97.95068360003643,
+  "outer_test_loaded": false,
+  "targets_standardized_train_only": true,
+  "inner_selection_participant_disjoint": true,
+  "participant_balanced": true,
+  "undefined_targets": "Complete-case physical-motion observations; coverage reported, no zero imputation",
+  "results_not_independent_confirmation": true
+}

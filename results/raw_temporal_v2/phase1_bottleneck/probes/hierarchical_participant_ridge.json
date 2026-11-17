@@ -1,0 +1,177 @@
+{
+  "signature": "f908190aea188a0aba822ab6ca3b5a694720e19a16df26051564a92d8ce4defb",
+  "records": [
+    {
+      "level": "hierarchical_participant",
+      "method": "ridge",
+      "target": "log_speed_mean",
+      "alpha": 10.0,
+      "r2": 0.632942429950008,
+      "mae": 0.15550483928786385,
+      "correlation": 0.801282234762787,
+      "dimensions": 32,
+      "fit_participants": 143,
+      "validation_participants": 72,
+      "observation_scope": "Within-observation target; participant-balanced row weights"
+    },
+    {
+      "level": "hierarchical_participant",
+      "method": "ridge",
+      "target": "log_speed_std",
+      "alpha": 10.0,
+      "r2": 0.4796657412582397,
+      "mae": 0.18757501575681898,
+      "correlation": 0.6978871459582229,
+      "dimensions": 32,
+      "fit_participants": 143,
+      "validation_participants": 72,
+      "observation_scope": "Within-observation target; participant-balanced row weights"
+    },
+    {
+      "level": "hierarchical_participant",
+      "method": "ridge",
+      "target": "log_pressure_std",
+      "alpha": 10.0,
+      "r2": 0.2921318961811502,
+      "mae": 0.1767441299226549,
+      "correlation": 0.5732325310052101,
+      "dimensions": 32,
+      "fit_participants": 143,
+      "validation_participants": 72,
+      "observation_scope": "Within-observation target; participant-balanced row weights"
+    },
+    {
+      "level": "hierarchical_participant",
+      "method": "ridge",
+      "target": "log_duration",
+      "alpha": 10.0,
+      "r2": 0.9538647893516738,
+      "mae": 0.04577003584967719,
+      "correlation": 0.9768666707625876,
+      "dimensions": 32,
+      "fit_participants": 143,
+      "validation_participants": 72,
+      "observation_scope": "Within-observation target; participant-balanced row weights"
+    },
+    {
+      "level": "hierarchical_participant",
+      "method": "ridge",
+      "target": "log_path_length",
+      "alpha": 10.0,
+      "r2": 0.17035059416794973,
+      "mae": 0.15537910328971016,
+      "correlation": 0.41330781631201574,
+      "dimensions": 32,
+      "fit_participants": 143,
+      "validation_participants": 72,
+      "observation_scope": "Within-observation target; participant-balanced row weights"
+    },
+    {
+      "level": "hierarchical_participant",
+      "method": "ridge",
+      "target": "log_width",
+      "alpha": 10.0,
+      "r2": 0.04504564791942289,
+      "mae": 0.1364633109834459,
+      "correlation": 0.2845524674078343,
+      "dimensions": 32,
+      "fit_participants": 143,
+      "validation_participants": 72,
+      "observation_scope": "Within-observation target; participant-balanced row weights"
+    },
+    {
+      "level": "hierarchical_participant",
+      "method": "ridge",
+      "target": "pen_up_fraction",
+      "alpha": 10.0,
+      "r2": 0.4633818601277564,
+      "mae": 0.01846930043150981,
+      "correlation": 0.7277193539960014,
+      "dimensions": 32,
+      "fit_participants": 143,
+      "validation_participants": 72,
+      "observation_scope": "Within-observation target; participant-balanced row weights"
+    },
+    {
+      "level": "hierarchical_participant",
+      "method": "ridge",
+      "target": "peak_speed_position",
+      "alpha": 10.0,
+      "r2": -0.1283295051989981,
+      "mae": 0.10248600070675214,
+      "correlation": 0.019056631234234043,
+      "dimensions": 32,
+      "fit_participants": 143,
+      "validation_participants": 72,
+      "observation_scope": "Within-observation target; participant-balanced row weights"
+    }
+  ],
+  "selection": [
+    {
+      "level": "hierarchical_participant",
+      "method": "ridge",
+      "alpha": 0.1,
+      "inner_fold": 0,
+      "r2": 0.3399056660573622
+    },
+    {
+      "level": "hierarchical_participant",
+      "method": "ridge",
+      "alpha": 0.1,
+      "inner_fold": 1,
+      "r2": 0.35572213638574934
+    },
+    {
+      "level": "hierarchical_participant",
+      "method": "ridge",
+      "alpha": 0.1,
+      "inner_fold": 2,
+      "r2": 0.3649070960130093
+    },
+    {
+      "level": "hierarchical_participant",
+      "method": "ridge",
+      "alpha": 10.0,
+      "inner_fold": 0,
+      "r2": 0.46032026363956624
+    },
+    {
+      "level": "hierarchical_participant",
+      "method": "ridge",
+      "alpha": 10.0,
+      "inner_fold": 1,
+      "r2": 0.38381952711492523
+    },
+    {
+      "level": "hierarchical_participant",
+      "method": "ridge",
+      "alpha": 10.0,
+      "inner_fold": 2,
+      "r2": 0.34439316055458663
+    },
+    {
+      "level": "hierarchical_participant",
+      "method": "ridge",
+      "alpha": 1000.0,
+      "inner_fold": 0,
+      "r2": 0.27871168555893955
+    },
+    {
+      "level": "hierarchical_participant",
+      "method": "ridge",
+      "alpha": 1000.0,
+      "inner_fold": 1,
+      "r2": 0.25798351208076203
+    },
+    {
+      "level": "hierarchical_participant",
+      "method": "ridge",
+      "alpha": 1000.0,
+      "inner_fold": 2,
+      "r2": 0.24120968716296565
+    }
+  ],
+  "fits": 10,
+  "checkpoint": "data/derived/raw_temporal_v2/probe_features/hierarchical_participant_ridge.joblib",
+  "checkpoint_sha256": "7f976b68104ae094e7017df0be31469b5e6a2b7a6845239f865013c015fc0aa4"
+}

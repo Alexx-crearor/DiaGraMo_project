@@ -1,0 +1,84 @@
+PHASE1 cnn_local_mean epoch 10 valBCE 0.7123 F1 0.5556
+PHASE1 cnn_local_mean epoch 20 valBCE 0.74467 F1 0.5092
+COMPLETE p1_cnn_local_mean {'accuracy': 0.5833333333333334, 'f1_macro': 0.42245989304812837, 'auc': 0.44453125, 'pr_auc': 0.5009110174534526, 'balanced_accuracy': 0.53125, 'sensitivity': 1.0, 'specificity': 0.0625, 'brier': 0.24818928286464625}
+PHASE1 cnn_local_mean_max epoch 10 valBCE 0.70989 F1 0.544
+PHASE1 cnn_local_mean_max epoch 20 valBCE 0.75998 F1 0.5549
+COMPLETE p1_cnn_local_mean_max {'accuracy': 0.5694444444444444, 'f1_macro': 0.3906633906633906, 'auc': 0.44140625, 'pr_auc': 0.5038336171379646, 'balanced_accuracy': 0.515625, 'sensitivity': 1.0, 'specificity': 0.03125, 'brier': 0.24820646074711236}
+PHASE1 cnn_local_mean_max_std epoch 10 valBCE 0.70926 F1 0.544
+PHASE1 cnn_local_mean_max_std epoch 20 valBCE 0.76257 F1 0.5789
+COMPLETE p1_cnn_local_mean_max_std {'accuracy': 0.5694444444444444, 'f1_macro': 0.3906633906633906, 'auc': 0.4421875, 'pr_auc': 0.5043098076141551, 'balanced_accuracy': 0.515625, 'sensitivity': 1.0, 'specificity': 0.03125, 'brier': 0.24813276299596637}
+PHASE1 cnn_local_attention epoch 10 valBCE 0.71178 F1 0.5556
+PHASE1 cnn_local_attention epoch 20 valBCE 0.75751 F1 0.5549
+COMPLETE p1_cnn_local_attention {'accuracy': 0.5833333333333334, 'f1_macro': 0.42245989304812837, 'auc': 0.4453125, 'pr_auc': 0.5012232283692712, 'balanced_accuracy': 0.53125, 'sensitivity': 1.0, 'specificity': 0.0625, 'brier': 0.24817966615100945}
+PHASE1 cnn_local_multi4 epoch 10 valBCE 0.71353 F1 0.5209
+PHASE1 cnn_local_multi4 epoch 20 valBCE 0.73917 F1 0.5294
+COMPLETE p1_cnn_local_multi4 {'accuracy': 0.5833333333333334, 'f1_macro': 0.42245989304812837, 'auc': 0.43359375, 'pr_auc': 0.49654294239543817, 'balanced_accuracy': 0.53125, 'sensitivity': 1.0, 'specificity': 0.0625, 'brier': 0.24861512350074547}
+PHASE1 hierarchical_mil epoch 10 valBCE 0.69308 F1 0.4638
+PHASE1 hierarchical_mil epoch 20 valBCE 0.67591 F1 0.5671
+PHASE1 hierarchical_mil epoch 30 valBCE 0.82359 F1 0.6087
+PHASE1 hierarchical_mil epoch 33 valBCE 0.84043 F1 0.619
+COMPLETE p1_hierarchical_mil {'accuracy': 0.5833333333333334, 'f1_macro': 0.509090909090909, 'auc': 0.6171875, 'pr_auc': 0.6582298098479152, 'balanced_accuracy': 0.546875, 'sensitivity': 0.875, 'specificity': 0.21875, 'brier': 0.2335691454814828}
+PHASE1 hierarchical_window_to_stroke_mean epoch 10 valBCE 0.69322 F1 0.4549
+PHASE1 hierarchical_window_to_stroke_mean epoch 20 valBCE 0.67065 F1 0.5262
+PHASE1 hierarchical_window_to_stroke_mean epoch 30 valBCE 0.73764 F1 0.6108
+PHASE1 hierarchical_window_to_stroke_mean epoch 35 valBCE 0.92751 F1 0.6205
+COMPLETE p1_hierarchical_window_to_stroke_mean {'accuracy': 0.6388888888888888, 'f1_macro': 0.634375, 'auc': 0.7140625, 'pr_auc': 0.7639029772576953, 'balanced_accuracy': 0.634375, 'sensitivity': 0.675, 'specificity': 0.59375, 'brier': 0.2228991828839733}
+PHASE1 hierarchical_window_to_stroke_duration epoch 10 valBCE 0.69433 F1 0.4549
+PHASE1 hierarchical_window_to_stroke_duration epoch 20 valBCE 0.69432 F1 0.583
+PHASE1 hierarchical_window_to_stroke_duration epoch 30 valBCE 0.80757 F1 0.4764
+PHASE1 hierarchical_window_to_stroke_duration epoch 35 valBCE 0.87914 F1 0.596
+COMPLETE p1_hierarchical_window_to_stroke_duration {'accuracy': 0.6388888888888888, 'f1_macro': 0.59375, 'auc': 0.66875, 'pr_auc': 0.6995699717565569, 'balanced_accuracy': 0.609375, 'sensitivity': 0.875, 'specificity': 0.34375, 'brier': 0.23017690375584252}
+PHASE1 hierarchical_window_to_stroke_mean_max epoch 10 valBCE 0.69119 F1 0.4225
+PHASE1 hierarchical_window_to_stroke_mean_max epoch 20 valBCE 0.70998 F1 0.4896
+PHASE1 hierarchical_window_to_stroke_mean_max epoch 30 valBCE 0.7551 F1 0.5104
+PHASE1 hierarchical_window_to_stroke_mean_max epoch 35 valBCE 0.8356 F1 0.5259
+COMPLETE p1_hierarchical_window_to_stroke_mean_max {'accuracy': 0.5833333333333334, 'f1_macro': 0.509090909090909, 'auc': 0.6859375000000001, 'pr_auc': 0.7141925136567857, 'balanced_accuracy': 0.546875, 'sensitivity': 0.875, 'specificity': 0.21875, 'brier': 0.23155879148281885}
+PHASE1 hierarchical_stroke_to_task_mean epoch 10 valBCE 0.6947 F1 0.4549
+PHASE1 hierarchical_stroke_to_task_mean epoch 20 valBCE 0.80129 F1 0.4804
+COMPLETE p1_hierarchical_stroke_to_task_mean {'accuracy': 0.5555555555555556, 'f1_macro': 0.35714285714285715, 'auc': 0.44765625, 'pr_auc': 0.49215481378985126, 'balanced_accuracy': 0.5, 'sensitivity': 1.0, 'specificity': 0.0, 'brier': 0.2474063185297744}
+PHASE1 hierarchical_stroke_to_task_duration epoch 10 valBCE 0.6893 F1 0.4995
+PHASE1 hierarchical_stroke_to_task_duration epoch 20 valBCE 0.72523 F1 0.5394
+PHASE1 hierarchical_stroke_to_task_duration epoch 30 valBCE 0.74375 F1 0.6286
+PHASE1 hierarchical_stroke_to_task_duration epoch 40 valBCE 0.80264 F1 0.7319
+PHASE1 hierarchical_stroke_to_task_duration epoch 48 valBCE 1.11111 F1 0.68
+COMPLETE p1_hierarchical_stroke_to_task_duration {'accuracy': 0.7361111111111112, 'f1_macro': 0.7319223985890653, 'auc': 0.8054687500000001, 'pr_auc': 0.8047969204476164, 'balanced_accuracy': 0.73125, 'sensitivity': 0.775, 'specificity': 0.6875, 'brier': 0.19395133969350017}
+PHASE1 hierarchical_stroke_to_task_mean_max epoch 10 valBCE 0.68684 F1 0.4225
+PHASE1 hierarchical_stroke_to_task_mean_max epoch 20 valBCE 0.81975 F1 0.4582
+PHASE1 hierarchical_stroke_to_task_mean_max epoch 30 valBCE 0.79146 F1 0.5205
+PHASE1 hierarchical_stroke_to_task_mean_max epoch 34 valBCE 0.78468 F1 0.4996
+COMPLETE p1_hierarchical_stroke_to_task_mean_max {'accuracy': 0.5694444444444444, 'f1_macro': 0.48606953718627677, 'auc': 0.58359375, 'pr_auc': 0.6527279005320615, 'balanced_accuracy': 0.53125, 'sensitivity': 0.875, 'specificity': 0.1875, 'brier': 0.2385408366807569}
+PHASE1 hierarchical_task_to_person_mean epoch 10 valBCE 0.69347 F1 0.4549
+PHASE1 hierarchical_task_to_person_mean epoch 20 valBCE 0.77711 F1 0.4836
+PHASE1 hierarchical_task_to_person_mean epoch 30 valBCE 0.63308 F1 0.6411
+PHASE1 hierarchical_task_to_person_mean epoch 40 valBCE 1.02219 F1 0.5953
+PHASE1 hierarchical_task_to_person_mean epoch 42 valBCE 1.10255 F1 0.6099
+COMPLETE p1_hierarchical_task_to_person_mean {'accuracy': 0.6527777777777778, 'f1_macro': 0.6410767696909272, 'auc': 0.70859375, 'pr_auc': 0.7341240086349599, 'balanced_accuracy': 0.640625, 'sensitivity': 0.75, 'specificity': 0.53125, 'brier': 0.21808251934417777}
+PHASE1 hierarchical_task_to_person_duration epoch 10 valBCE 0.61741 F1 0.7168
+PHASE1 hierarchical_task_to_person_duration epoch 20 valBCE 0.41251 F1 0.8421
+PHASE1 hierarchical_task_to_person_duration epoch 28 valBCE 0.82472 F1 0.6806
+COMPLETE p1_hierarchical_task_to_person_duration {'accuracy': 0.8194444444444444, 'f1_macro': 0.8087844739530132, 'auc': 0.92109375, 'pr_auc': 0.881435207108045, 'balanced_accuracy': 0.803125, 'sensitivity': 0.95, 'specificity': 0.65625, 'brier': 0.11119402086692859}
+PHASE1 hierarchical_task_to_person_mean_max epoch 10 valBCE 0.6863 F1 0.3907
+PHASE1 hierarchical_task_to_person_mean_max epoch 20 valBCE 0.86861 F1 0.4335
+PHASE1 hierarchical_task_to_person_mean_max epoch 27 valBCE 0.78625 F1 0.5205
+COMPLETE p1_hierarchical_task_to_person_mean_max {'accuracy': 0.5833333333333334, 'f1_macro': 0.4957983193277311, 'auc': 0.5859375, 'pr_auc': 0.6543148386145464, 'balanced_accuracy': 0.54375, 'sensitivity': 0.9, 'specificity': 0.1875, 'brier': 0.24150083844009357}
+PHASE1 task_big-spiral-fast epoch 10 valBCE 0.76782 F1 0.4062
+PHASE1 task_big-spiral-fast epoch 20 valBCE 0.9378 F1 0.4775
+COMPLETE p1_task_big-spiral-fast {'accuracy': 0.5555555555555556, 'f1_macro': 0.35714285714285715, 'auc': 0.40859375000000003, 'pr_auc': 0.4888975949384911, 'balanced_accuracy': 0.5, 'sensitivity': 1.0, 'specificity': 0.0, 'brier': 0.2479230385254965}
+PHASE1 task_lower-loops-fast epoch 10 valBCE 0.66446 F1 0.6344
+PHASE1 task_lower-loops-fast epoch 20 valBCE 0.70059 F1 0.6035
+PHASE1 task_lower-loops-fast epoch 24 valBCE 0.70021 F1 0.6232
+COMPLETE p1_task_lower-loops-fast {'accuracy': 0.6666666666666666, 'f1_macro': 0.6601101494885917, 'auc': 0.66328125, 'pr_auc': 0.7308591805709512, 'balanced_accuracy': 0.659375, 'sensitivity': 0.725, 'specificity': 0.59375, 'brier': 0.2312438245498544}
+PHASE1 cnn_original_budget20 epoch 10 valBCE 0.7123 F1 0.5556
+PHASE1 cnn_original_budget20 epoch 20 valBCE 0.74467 F1 0.5092
+COMPLETE p1_cnn_original_budget20 {'accuracy': 0.5833333333333334, 'f1_macro': 0.42245989304812837, 'auc': 0.44453125, 'pr_auc': 0.5009110174534526, 'balanced_accuracy': 0.53125, 'sensitivity': 1.0, 'specificity': 0.0625, 'brier': 0.24818928286464625}
+PHASE1 cnn_lr003 epoch 10 valBCE 0.71589 F1 0.5381
+PHASE1 cnn_lr003 epoch 20 valBCE 0.70472 F1 0.6664
+PHASE1 cnn_lr003 epoch 30 valBCE 0.67544 F1 0.7069
+PHASE1 cnn_lr003 epoch 31 valBCE 0.86009 F1 0.6243
+COMPLETE p1_cnn_lr003 {'accuracy': 0.6388888888888888, 'f1_macro': 0.6017021276595744, 'auc': 0.75859375, 'pr_auc': 0.7525271409873668, 'balanced_accuracy': 0.6125, 'sensitivity': 0.85, 'specificity': 0.375, 'brier': 0.21219703992509428}
+PHASE1 hierarchical_lr003 epoch 10 valBCE 0.69308 F1 0.4286
+PHASE1 hierarchical_lr003 epoch 20 valBCE 0.72282 F1 0.5259
+PHASE1 hierarchical_lr003 epoch 30 valBCE 0.66247 F1 0.4861
+PHASE1 hierarchical_lr003 epoch 40 valBCE 0.56839 F1 0.7469
+PHASE1 hierarchical_lr003 epoch 50 valBCE 0.95605 F1 0.6606
+COMPLETE p1_hierarchical_lr003 {'accuracy': 0.7638888888888888, 'f1_macro': 0.7462160481028406, 'auc': 0.8468749999999999, 'pr_auc': 0.858935808984236, 'balanced_accuracy': 0.74375, 'sensitivity': 0.925, 'specificity': 0.5625, 'brier': 0.1732141335610657}

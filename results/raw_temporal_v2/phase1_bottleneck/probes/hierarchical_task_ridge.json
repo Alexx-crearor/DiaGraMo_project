@@ -1,0 +1,177 @@
+{
+  "signature": "f908190aea188a0aba822ab6ca3b5a694720e19a16df26051564a92d8ce4defb",
+  "records": [
+    {
+      "level": "hierarchical_task",
+      "method": "ridge",
+      "target": "log_speed_mean",
+      "alpha": 0.1,
+      "r2": 0.7840935131022831,
+      "mae": 0.29080356113494393,
+      "correlation": 0.8865276030714452,
+      "dimensions": 32,
+      "fit_participants": 143,
+      "validation_participants": 72,
+      "observation_scope": "Within-observation target; participant-balanced row weights"
+    },
+    {
+      "level": "hierarchical_task",
+      "method": "ridge",
+      "target": "log_speed_std",
+      "alpha": 0.1,
+      "r2": 0.6595573580412031,
+      "mae": 0.29705380920379887,
+      "correlation": 0.8122051561653493,
+      "dimensions": 32,
+      "fit_participants": 143,
+      "validation_participants": 72,
+      "observation_scope": "Within-observation target; participant-balanced row weights"
+    },
+    {
+      "level": "hierarchical_task",
+      "method": "ridge",
+      "target": "log_pressure_std",
+      "alpha": 0.1,
+      "r2": 0.7065307472288334,
+      "mae": 0.27958623993964427,
+      "correlation": 0.8419607000657326,
+      "dimensions": 32,
+      "fit_participants": 143,
+      "validation_participants": 72,
+      "observation_scope": "Within-observation target; participant-balanced row weights"
+    },
+    {
+      "level": "hierarchical_task",
+      "method": "ridge",
+      "target": "log_duration",
+      "alpha": 0.1,
+      "r2": 0.9812217781882271,
+      "mae": 0.16168430808281142,
+      "correlation": 0.9905703183799185,
+      "dimensions": 32,
+      "fit_participants": 143,
+      "validation_participants": 72,
+      "observation_scope": "Within-observation target; participant-balanced row weights"
+    },
+    {
+      "level": "hierarchical_task",
+      "method": "ridge",
+      "target": "log_path_length",
+      "alpha": 0.1,
+      "r2": 0.7766074552780248,
+      "mae": 0.28938737180497914,
+      "correlation": 0.8813731530683961,
+      "dimensions": 32,
+      "fit_participants": 143,
+      "validation_participants": 72,
+      "observation_scope": "Within-observation target; participant-balanced row weights"
+    },
+    {
+      "level": "hierarchical_task",
+      "method": "ridge",
+      "target": "log_width",
+      "alpha": 0.1,
+      "r2": 0.6255893772768868,
+      "mae": 0.2474629413040858,
+      "correlation": 0.791266452059212,
+      "dimensions": 32,
+      "fit_participants": 143,
+      "validation_participants": 72,
+      "observation_scope": "Within-observation target; participant-balanced row weights"
+    },
+    {
+      "level": "hierarchical_task",
+      "method": "ridge",
+      "target": "pen_up_fraction",
+      "alpha": 0.1,
+      "r2": 0.8777493508522909,
+      "mae": 0.03998361815517333,
+      "correlation": 0.9392062051850618,
+      "dimensions": 32,
+      "fit_participants": 143,
+      "validation_participants": 72,
+      "observation_scope": "Within-observation target; participant-balanced row weights"
+    },
+    {
+      "level": "hierarchical_task",
+      "method": "ridge",
+      "target": "peak_speed_position",
+      "alpha": 0.1,
+      "r2": 0.034171485298215676,
+      "mae": 0.29907943584343205,
+      "correlation": 0.21636989160208772,
+      "dimensions": 32,
+      "fit_participants": 143,
+      "validation_participants": 72,
+      "observation_scope": "Within-observation target; participant-balanced row weights"
+    }
+  ],
+  "selection": [
+    {
+      "level": "hierarchical_task",
+      "method": "ridge",
+      "alpha": 0.1,
+      "inner_fold": 0,
+      "r2": 0.7009717446791603
+    },
+    {
+      "level": "hierarchical_task",
+      "method": "ridge",
+      "alpha": 0.1,
+      "inner_fold": 1,
+      "r2": 0.690651412566677
+    },
+    {
+      "level": "hierarchical_task",
+      "method": "ridge",
+      "alpha": 0.1,
+      "inner_fold": 2,
+      "r2": 0.6723427939246533
+    },
+    {
+      "level": "hierarchical_task",
+      "method": "ridge",
+      "alpha": 10.0,
+      "inner_fold": 0,
+      "r2": 0.6995136472857284
+    },
+    {
+      "level": "hierarchical_task",
+      "method": "ridge",
+      "alpha": 10.0,
+      "inner_fold": 1,
+      "r2": 0.685806206333047
+    },
+    {
+      "level": "hierarchical_task",
+      "method": "ridge",
+      "alpha": 10.0,
+      "inner_fold": 2,
+      "r2": 0.6655019292443694
+    },
+    {
+      "level": "hierarchical_task",
+      "method": "ridge",
+      "alpha": 1000.0,
+      "inner_fold": 0,
+      "r2": 0.6080900326962596
+    },
+    {
+      "level": "hierarchical_task",
+      "method": "ridge",
+      "alpha": 1000.0,
+      "inner_fold": 1,
+      "r2": 0.6067793174932239
+    },
+    {
+      "level": "hierarchical_task",
+      "method": "ridge",
+      "alpha": 1000.0,
+      "inner_fold": 2,
+      "r2": 0.5854387993897349
+    }
+  ],
+  "fits": 10,
+  "checkpoint": "data/derived/raw_temporal_v2/probe_features/hierarchical_task_ridge.joblib",
+  "checkpoint_sha256": "c6b0f114b7f90227156ab9a84e8b8d42f28db597427e47161eabea66c40845e5"
+}

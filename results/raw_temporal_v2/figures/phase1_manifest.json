@@ -1,0 +1,76 @@
+[
+  {
+    "name": "p1_controlled_comparison",
+    "description": "Single development split, no CV error bars. Training/validation gap; all scheduled configurations shown.",
+    "sources": {
+      "results/raw_temporal_v2/tables/phase1_development_comparison.csv": "b9987b3b8d333ecb3d8d5f2ec37c9810f0f314330aa810abc2931b9661c12812"
+    },
+    "outputs": {
+      "png": "2775078998dfa788a9a73bedeac213c2a522f20f530e95aa7cb7661fc09066d5",
+      "svg": "66d0847cd33cd11caad8a6a3ac8d4110c9291b353af9518679569d0e1ff740cd"
+    }
+  },
+  {
+    "name": "p1_layer_information",
+    "description": "Targets belong to each observation scope, not identical tasks across hierarchy. Undefined-motion complete cases excluded and counted.",
+    "sources": {
+      "results/raw_temporal_v2/tables/phase1_layer_probes.csv": "4e149f7ef46d3c1f422868d334559858f995c396a7d35c7e416aa7af05b4bff4"
+    },
+    "outputs": {
+      "png": "6c48fe979a21c33c9d0bb51dc9ab87cc3d9a1db7ea50e645e19e15e952c2a3b5",
+      "svg": "1a7743240b1dbab8b302dbc63bde1fbf102386a8a5cc570cc6a5b392c06a6f09"
+    }
+  },
+  {
+    "name": "p1_resource_cost",
+    "description": "Costs include final Train/validation prediction; allocator tensor memory is distinct from nvidia-smi process memory.",
+    "sources": {
+      "results/raw_temporal_v2/tables/phase1_development_comparison.csv": "b9987b3b8d333ecb3d8d5f2ec37c9810f0f314330aa810abc2931b9661c12812"
+    },
+    "outputs": {
+      "png": "2e7738de07382186e8beb44ad645267fe6aa3170a046ecdd1767236bf069bb42",
+      "svg": "933cd11edb953deff0bdf658e06152db5493cd01f9215f8c490b549461d65c69"
+    }
+  },
+  {
+    "name": "p1_all_learning_curves",
+    "description": "Every scheduled real-data configuration shown. Online Train BCE includes dropout and changing weights; it is not deterministic eval-Train BCE. Vertical line is BCE-selected checkpoint.",
+    "sources": {
+      "results/raw_temporal_v2/phase1_bottleneck/p1_cnn_local_mean/learning_curve.csv": "e768a333226bd15cf286c5f472fbc0378ca905f8654dddab65fa2327317346bb",
+      "results/raw_temporal_v2/phase1_bottleneck/p1_cnn_local_mean_max/learning_curve.csv": "d8528946b06a7420878605648129a7b574697738705734eea691dd4c6f2f7e2e",
+      "results/raw_temporal_v2/phase1_bottleneck/p1_cnn_local_mean_max_std/learning_curve.csv": "687e05f8e7df3707a7b0955bc0904ac2b33b501b20146c2eb0f73be940dd6097",
+      "results/raw_temporal_v2/phase1_bottleneck/p1_cnn_local_attention/learning_curve.csv": "ea159f1b0b1b7181f3a71819ba82d49d6d809b98c2e5b472156fada0d417e3c5",
+      "results/raw_temporal_v2/phase1_bottleneck/p1_cnn_local_multi4/learning_curve.csv": "08a6f7c574b5693a110dc9630d11efc93960e3797b0c897a2945626b760f6873",
+      "results/raw_temporal_v2/phase1_bottleneck/p1_hierarchical_mil/learning_curve.csv": "4008255c92683d93d8ce63e44ea0bf5006d92c1f77fad4d9ef849fd77a91466e",
+      "results/raw_temporal_v2/phase1_bottleneck/p1_hierarchical_window_to_stroke_mean/learning_curve.csv": "85af0f39c9f5eaaf443dd9ecadffa51cf6a7ffd5daa5113da25f6d489a192faf",
+      "results/raw_temporal_v2/phase1_bottleneck/p1_hierarchical_window_to_stroke_duration/learning_curve.csv": "e6ce9b2e36396946414de4de2601c84de9522e2ac5058067bfa88b3b7c0f5526",
+      "results/raw_temporal_v2/phase1_bottleneck/p1_hierarchical_window_to_stroke_mean_max/learning_curve.csv": "3a5ed5438600fee5941fcdef7efbd87e2bf2044c28357fe1ed597ef01836be0a",
+      "results/raw_temporal_v2/phase1_bottleneck/p1_hierarchical_stroke_to_task_mean/learning_curve.csv": "09ce87eae55c312ccd913c61b31f93e6ff369f041a7b27b0474be1c3a5976014",
+      "results/raw_temporal_v2/phase1_bottleneck/p1_hierarchical_stroke_to_task_duration/learning_curve.csv": "952b90aff24d22b6f7b850ef627bd584e062af001ad23b7e4e696f8bb11dae90",
+      "results/raw_temporal_v2/phase1_bottleneck/p1_hierarchical_stroke_to_task_mean_max/learning_curve.csv": "66e9c6786505b5bcfc114e0b1065e4ff5bda80f350176d38be63ace9721cd663",
+      "results/raw_temporal_v2/phase1_bottleneck/p1_hierarchical_task_to_person_mean/learning_curve.csv": "b14470a63ab356b77c4236d88681a0adb4b668abcd68a94bccd0dea23cd01de5",
+      "results/raw_temporal_v2/phase1_bottleneck/p1_hierarchical_task_to_person_duration/learning_curve.csv": "8a8d2aee1612f4c7192943fe1c783aabfba99a957574b3eaa51e3ef8e9165efb",
+      "results/raw_temporal_v2/phase1_bottleneck/p1_hierarchical_task_to_person_mean_max/learning_curve.csv": "3b4d0cb16cba94743a2daf5ee5ec424961d3b2594af39ecf0e0642a94c91d7d5",
+      "results/raw_temporal_v2/phase1_bottleneck/p1_task_big-spiral-fast/learning_curve.csv": "09604daea849bba9baeee4483de0e6967ca89f1c7fc6e7b3bd023b2c5bf2344b",
+      "results/raw_temporal_v2/phase1_bottleneck/p1_task_lower-loops-fast/learning_curve.csv": "14e33abc729106d6aa59c81fe55480554795bb7514a3d27bf0615eb3cc2cc9c0",
+      "results/raw_temporal_v2/phase1_bottleneck/p1_cnn_original_budget20/learning_curve.csv": "e768a333226bd15cf286c5f472fbc0378ca905f8654dddab65fa2327317346bb",
+      "results/raw_temporal_v2/phase1_bottleneck/p1_cnn_lr003/learning_curve.csv": "8d8230225b20ab8cf79c239e1a2df83af0d01e550b3dedd3e7f2789d80d801ca",
+      "results/raw_temporal_v2/phase1_bottleneck/p1_hierarchical_lr003/learning_curve.csv": "d67bd4a7dc149571f7d45bb2ce6ce6f4eefc8ab34b2c1ee16f4d17c1f5d0eea5"
+    },
+    "outputs": {
+      "png": "d4d7f5985631e5ec002b53145d5d5870bbf59554900845ba1776d525e3483495",
+      "svg": "bc6016a97dfa4641df671a984c0390bd62f9187f203e3fedb7d4b6c321dc5ea4"
+    }
+  },
+  {
+    "name": "p1_gradient_representation",
+    "description": "Pre-clipping gradient norms averaged over optimizer updates/epochs; validation representation variance at selected checkpoint. Scale differences do not alone establish collapse or causality.",
+    "sources": {
+      "results/raw_temporal_v2/tables/phase1_gradient_representation.csv": "2f199ae894c489fc2ad6f7caf62841a4073bf31fb8693cfb1d634bbf337c3473"
+    },
+    "outputs": {
+      "png": "96746a969ebaa9513f20393b6d8ae0884078385bf4e740e9eec412e49e6022dd",
+      "svg": "cef5d2670cb4c265c3c56292aab9efda5d544a6ff813e2a84236c71331f9204f"
+    }
+  }
+]

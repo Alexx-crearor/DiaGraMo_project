@@ -1,0 +1,23 @@
+{
+  "development_outer_fold": 0,
+  "development_inner_fold": 0,
+  "seed": 42,
+  "tiny_sizes": [8, 16],
+  "tiny_models": ["cnn", "tcn", "hierarchical"],
+  "tiny_maximum_epochs": 1000,
+  "tiny_learning_rate": 0.003,
+  "tiny_weight_decay": 0.0,
+  "tiny_dropout": 0.0,
+  "tiny_success": {"macro_f1": 0.999, "eval_bce": 0.03, "consecutive_epochs": 5},
+  "synthetic_models": ["cnn", "tcn", "hierarchical"],
+  "synthetic_seeds": [42, 43],
+  "synthetic_maximum_epochs": 250,
+  "synthetic_training_bags": 128,
+  "synthetic_validation_bags": 64,
+  "synthetic_test_bags": 64,
+  "synthetic_patience": 40,
+  "channel_audit_sample_points_per_recording": 128,
+  "descriptor_comparison_training_participants": 12,
+  "diagnostic_only": true,
+  "outer_test_labels_used_for_development": false
+}

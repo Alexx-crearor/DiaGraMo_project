@@ -1,0 +1,22 @@
+INPUT AUDIT 140 recordings 2299516 samples
+INPUT AUDIT 280 recordings 4400646 samples
+INPUT AUDIT 420 recordings 6485369 samples
+INPUT AUDIT 560 recordings 8179668 samples
+INPUT AUDIT 700 recordings 10261631 samples
+INPUT AUDIT 840 recordings 12369084 samples
+INPUT AUDIT 980 recordings 14265304 samples
+INPUT AUDIT 1120 recordings 16094471 samples
+INPUT AUDIT 1260 recordings 18174904 samples
+INPUT AUDIT 1400 recordings 20134153 samples
+INPUT AUDIT 1540 recordings 22115705 samples
+INPUT AUDIT 1680 recordings 24228127 samples
+INPUT AUDIT 1820 recordings 26323853 samples
+INPUT AUDIT 1960 recordings 28385433 samples
+INPUT AUDIT 2100 recordings 30735600 samples
+INPUT AUDIT 2240 recordings 33248309 samples
+INPUT AUDIT 2380 recordings 35454333 samples
+INPUT AUDIT 2520 recordings 37780556 samples
+INPUT AUDIT 2660 recordings 40034264 samples
+INPUT AUDIT 2800 recordings 42367384 samples
+INPUT AUDIT 2940 recordings 44508509 samples
+SOURCE INPUT AUDIT COMPLETE 45496694

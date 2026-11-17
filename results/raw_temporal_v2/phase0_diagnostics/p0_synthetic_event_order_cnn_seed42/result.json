@@ -1,0 +1,50 @@
+{
+  "complete": true,
+  "experiment_id": "p0_synthetic_event_order_cnn_seed42",
+  "signature": "8cb96f5a887a7a78bec14c433dce15a5de9026f850dd1c59454ce9292498ab42",
+  "test": "event_order",
+  "family": "cnn",
+  "seed": 42,
+  "epochs": 40,
+  "best_epoch": 40,
+  "validation_bce": 0.009111380972966435,
+  "train_metrics": {
+    "accuracy": 1.0,
+    "f1_macro": 1.0,
+    "auc": 1.0,
+    "pr_auc": 1.0,
+    "balanced_accuracy": 1.0,
+    "sensitivity": 1.0,
+    "specificity": 1.0,
+    "brier": 8.241556312654263e-05
+  },
+  "heldout_metrics": {
+    "accuracy": 1.0,
+    "f1_macro": 1.0,
+    "auc": 1.0,
+    "pr_auc": 1.0,
+    "balanced_accuracy": 1.0,
+    "sensitivity": 1.0,
+    "specificity": 1.0,
+    "brier": 8.247717188055752e-05
+  },
+  "statistics_baseline": {
+    "accuracy": 0.5,
+    "f1_macro": 0.3333333333333333,
+    "auc": 0.5,
+    "pr_auc": 0.5,
+    "balanced_accuracy": 0.5,
+    "sensitivity": 0.0,
+    "specificity": 1.0,
+    "brier": 0.25
+  },
+  "parameters": 2610,
+  "peak_gpu_bytes": 286450176,
+  "train_seconds": 4.898513799998909,
+  "gradient_norm_mean": 0.9216664637468057,
+  "gradient_norm_max": 11.422345161437988,
+  "checkpoint": "data/derived/raw_temporal_v2/phase0/p0_synthetic_event_order_cnn_seed42.pt",
+  "checkpoint_sha256": "6aed8d59a74fdc761763244dc932d4e52fce96227c638a0656450c714f773226",
+  "order_fixture_mean_std_identical": true,
+  "scope": "Synthetic representation-level component test only; not end-to-end physical SVC simulation, full14-task architecture, or real-data generalization"
+}

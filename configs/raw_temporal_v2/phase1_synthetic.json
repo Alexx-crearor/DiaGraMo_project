@@ -1,0 +1,13 @@
+{
+  "tests": ["rare_event", "event_order"],
+  "pooling": ["mean", "mean_max", "mean_max_std", "attention", "multi4"],
+  "seeds": [42, 43],
+  "training_bags": 128,
+  "validation_bags": 64,
+  "test_bags": 64,
+  "epochs": 100,
+  "minimum_epochs": 30,
+  "patience": 30,
+  "learning_rate": 0.003,
+  "scope": "Representation-level synthetic capacity control; same window-time metadata for all sub-tokens, not physical SVC simulation"
+}

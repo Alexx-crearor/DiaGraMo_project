@@ -1,0 +1,11 @@
+test_development_split_excludes_designated_outer_test (test_raw_temporal_v2.RecoveryTests) ... ok
+test_order_labels_have_identical_mean_std_features (test_raw_temporal_v2.RecoveryTests) ... ok
+test_synthetic_components_ignore_absent_bag_tokens (test_raw_temporal_v2.RecoveryTests) ... ok
+test_synthetic_heldout_generators_are_independent (test_raw_temporal_v2.RecoveryTests) ... ok
+test_timing_fixture_changes_real_dt_with_same_sample_patterns (test_raw_temporal_v2.RecoveryTests) ... ok
+test_tiny_sets_are_balanced_nested_train_subsets (test_raw_temporal_v2.RecoveryTests) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.695s
+
+OK

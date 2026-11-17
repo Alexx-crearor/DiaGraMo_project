@@ -1,0 +1,13 @@
+level,rows,defined_rows,excluded_undefined_motion_rows,participants
+cnn_feature_map,13760,8654,5106,215
+cnn_window,13760,8654,5106,215
+cnn_reference_window,13760,8654,5106,215
+hierarchical_feature_map,13760,8654,5106,215
+hierarchical_window,13760,8654,5106,215
+hierarchical_segment,13760,6621,7139,215
+hierarchical_task,3010,3010,0,215
+hierarchical_participant,215,215,0,215
+hierarchical_reference_person,215,215,0,215
+hierarchical_reference_segment,13760,6621,7139,215
+hierarchical_reference_task,3010,3010,0,215
+hierarchical_reference_window,13760,8654,5106,215

@@ -1,0 +1,14 @@
+{
+  "maximum_training_runs": 360,
+  "maximum_cpu_probe_fits": 600,
+  "maximum_gpu_workers": 1,
+  "gpu_tensor_limit_mib": 3500,
+  "minimum_free_storage_gib": 20,
+  "cpu_threads": 4,
+  "micro_batch_participants": 2,
+  "effective_batch_participants": 8,
+  "wall_clock_hours": null,
+  "checkpoint_every_epochs": 10,
+  "resume": "Only matching code, data, preprocessing and configuration signatures",
+  "priority": ["source_fidelity", "tiny_memorization", "synthetic_competence", "layer_probes", "pooling", "aggregation", "temporal_models", "masked_ssl", "nested_evaluation", "complementarity", "external_compatibility"]
+}

@@ -1,0 +1,2 @@
+configuration,seed,accuracy,f1_macro,auc,pr_auc,balanced_accuracy,sensitivity,specificity,brier,train_f1_macro,parameters,best_epoch,epochs,seconds,peak_gpu_mib
+statistical,42,0.5694444444444444,0.559154651392455,0.61796875,0.6201422731825548,0.559375,0.65,0.46875,0.23692785128399174,0.7769335279021788,19730,12,24,919.0969321000157,294.12158203125

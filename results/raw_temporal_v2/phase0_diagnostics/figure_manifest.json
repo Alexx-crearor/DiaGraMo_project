@@ -1,0 +1,64 @@
+[
+  {
+    "name": "p0_memorization_curves",
+    "caption": "Balanced tiny Train bags only, dropout/decay disabled. Perfect training F1 is optimization capacity, not generalization.",
+    "sources": {
+      "results/raw_temporal_v2/phase0_diagnostics/p0_tiny_cnn_16_seed42/learning_curve.csv": "b928a04c9bf787d19271e3b675363dadbae24f198406e07d3041eab80218482b",
+      "results/raw_temporal_v2/phase0_diagnostics/p0_tiny_cnn_8_seed42/learning_curve.csv": "cdcc24eb70d8d70d68427b2bef31c9e5a85baccac7b062c1b5bef5e24699e856",
+      "results/raw_temporal_v2/phase0_diagnostics/p0_tiny_hierarchical_16_seed42/learning_curve.csv": "3ec38181941108ffbca3ebd857490e2413eb5b380bc05baf0e33ed44b56f265c",
+      "results/raw_temporal_v2/phase0_diagnostics/p0_tiny_hierarchical_8_seed42/learning_curve.csv": "17d83d8b0dccfd0f4b7f813f11ef5ce60cf5560771e5413cbc0e1e62d24dc219",
+      "results/raw_temporal_v2/phase0_diagnostics/p0_tiny_tcn_16_seed42/learning_curve.csv": "a633c9d566e18426f4af8c40106daa285698560e3e0b805cd87796780bc231f2",
+      "results/raw_temporal_v2/phase0_diagnostics/p0_tiny_tcn_8_seed42/learning_curve.csv": "6cc5226b6cfa18c768195c3367df7037c6a58f60196a012c7c631e66f17ee66c"
+    },
+    "outputs": {
+      "png": "194ce575045a46d6d4dd730bd82b6c1f1ac88b2e623d82329162c118645b94e4",
+      "svg": "6d3a7297c27d0f01c9efdbc5f8f525fca4d96be887c51063623a2c88db979911"
+    }
+  },
+  {
+    "name": "p0_channel_transformations",
+    "caption": "Per-record stratified sample quantiles, p01–p99 whiskers; not full extrema. Train-domain only. Exact counts/clipping use every sample; no sensor calibration inferred.",
+    "sources": {
+      "results/raw_temporal_v2/phase0_diagnostics/source_audit/channel_summary.csv": "f1ec04b2e1641d95679840eaf1aee872ff09ee2bb16cb896ec8ac74927e6711a"
+    },
+    "outputs": {
+      "png": "73de951fee72d80f775c3f214abd3cf9a889d6f757c5f3ad746a2caba7a19079",
+      "svg": "a77f7281e8424e30ec7ac90c23c21af0c5e4dafcb1f40fadf081a65db01d5aa2"
+    }
+  },
+  {
+    "name": "p0_clipping_and_quantization",
+    "caption": "Exact fractions/errors over all audited Train-domain samples; quantization error is in transformed channel units.",
+    "sources": {
+      "results/raw_temporal_v2/phase0_diagnostics/source_audit/channel_summary.csv": "f1ec04b2e1641d95679840eaf1aee872ff09ee2bb16cb896ec8ac74927e6711a"
+    },
+    "outputs": {
+      "png": "f9e9d16dbba11fe38698176d7da881b82c4c7852a2de8f06752c4bff352f661c",
+      "svg": "6eace1c05ed0dc312e46505d08e5af5f515de692b05c758ff327e2e89dc0c666"
+    }
+  },
+  {
+    "name": "p0_module_gradients",
+    "caption": "Actual module gradients in optimization diagnostics, after global clip5; unused parameter counts and update norms retained separately.",
+    "sources": {
+      "results/raw_temporal_v2/phase0_diagnostics/p0_tiny_cnn_16_seed42/gradient_updates.csv": "3f82c2f603a1d8546827a6f1018077af538d9cfe21e44d4506d07c1698a7d1bb",
+      "results/raw_temporal_v2/phase0_diagnostics/p0_tiny_tcn_16_seed42/gradient_updates.csv": "4dd09f97d115eb688bc8342d4444a6580547bcdb42cad4fba1873110fe08928a",
+      "results/raw_temporal_v2/phase0_diagnostics/p0_tiny_hierarchical_16_seed42/gradient_updates.csv": "ec001c65411c351c6b08acd1aa1035cd00b0388f6fe5dc3894fdb17cf3014510"
+    },
+    "outputs": {
+      "png": "9c542e4e4eb808011e24aeaa4ffa6b4d5a1bfbbb2d706379d7109910ed07d249",
+      "svg": "074435bf911a979407fe9c6f0d95a212684912e0a3b10fcf61b17b50dcdfb147"
+    }
+  },
+  {
+    "name": "p0_synthetic_competence",
+    "caption": "Known-label, representation-level synthetic bags, n64 held-out bags/run; unchanged v1 components, not the full14-task model or clinical data. Seeds share fixture design, not an independent cohort.",
+    "sources": {
+      "results/raw_temporal_v2/tables/phase0_synthetic_results.csv": "e2b41193cc34c55fea2af98ecd575b46c8f79cb402b757398fce5214843876e9"
+    },
+    "outputs": {
+      "png": "d83dfcb537762d77f6c36bef196a11a463dfd40bc265e18a7f6004e6b762ed0f",
+      "svg": "5149b10f2fb259cf4a108aef04db8c04ca3f3a4c874bbb1b60ab2104b5725733"
+    }
+  }
+]

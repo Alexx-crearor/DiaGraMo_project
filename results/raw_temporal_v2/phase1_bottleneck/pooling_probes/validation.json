@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "signature": "af82c70f188dbf48416cc5a58b2f6e5fb068cdef47ae69b6f00da585a72c8f45",
+  "cpu_fits": 100,
+  "total_phase1_cpu_probe_fits": 340,
+  "outer_test_loaded": false,
+  "train_target_scaling": true,
+  "inner_participant_selection": true,
+  "warning": "Multi4 concatenated probe is128 dimensions; single-vector readouts32, capacity is not exactly matched"
+}

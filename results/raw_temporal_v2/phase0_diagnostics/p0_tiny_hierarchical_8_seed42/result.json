@@ -1,0 +1,42 @@
+{
+  "experiment_id": "p0_tiny_hierarchical_8_seed42",
+  "signature": "90506f27b5ae1b8360623c394d944f20a716ee40d0a392307d8d3e7d7826ee02",
+  "complete": true,
+  "memorized": true,
+  "scope": "Training-only engineering diagnostic; no generalization estimate",
+  "family": "hierarchical",
+  "size": 8,
+  "epochs": 35,
+  "train_metrics": {
+    "accuracy": 1.0,
+    "f1_macro": 1.0,
+    "auc": 1.0,
+    "pr_auc": 1.0,
+    "balanced_accuracy": 1.0,
+    "sensitivity": 1.0,
+    "specificity": 1.0,
+    "brier": 0.0005175607344014663
+  },
+  "eval_train_bce": 0.022947019466472783,
+  "fit_ids": [
+    "BR5302",
+    "BR5314",
+    "BR5417",
+    "BR7310",
+    "DK12305",
+    "HK11310",
+    "HK12409",
+    "NA06405"
+  ],
+  "outer_test_evaluated": false,
+  "dropout": 0.0,
+  "weight_decay": 0.0,
+  "parameters": 29810,
+  "train_seconds": 12.11707740003476,
+  "peak_gpu_bytes": 697612800,
+  "embedding_variance_mean": 0.7197669148445129,
+  "mean_pair_distance": 5.944748163938246,
+  "logit_sd": 3.7660712871219872,
+  "checkpoint": "data/derived/raw_temporal_v2/phase0/p0_tiny_hierarchical_8_seed42.pt",
+  "checkpoint_sha256": "ae3b1e449a085b56d360d4be8d87dde7870de808cc6494e3db1922589b7bb784"
+}

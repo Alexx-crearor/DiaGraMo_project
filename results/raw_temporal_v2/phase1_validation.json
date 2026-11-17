@@ -1,0 +1,12 @@
+{
+  "complete": true,
+  "real_development_fits": 20,
+  "synthetic_fits": 20,
+  "probe_cpu_fits": 380,
+  "checkpoint_replay_passed": true,
+  "unit_tests_passed": true,
+  "source_signature": "18c5257d4dfa807fa6704ee3c98be80d3a446a956ef72ac6f41b326a88ecf0e5",
+  "outer_test_evaluated": false,
+  "exploratory_development_only": true,
+  "phase2_ready": true
+}

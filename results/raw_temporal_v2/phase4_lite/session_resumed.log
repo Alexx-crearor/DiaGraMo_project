@@ -1,0 +1,28 @@
+LITE duration fold 4 epoch 10 / 22
+LITE duration fold 4 epoch 15 / 22
+LITE duration fold 4 epoch 20 / 22
+LITE duration fold 4 epoch 22 / 22
+LITE FOLD COMPLETE duration 4 {'accuracy': 0.6511627906976745, 'f1_macro': 0.6504065040650406, 'auc': 0.7741228070175438, 'pr_auc': 0.8336740081639774, 'balanced_accuracy': 0.6546052631578947, 'sensitivity': 0.625, 'specificity': 0.6842105263157895, 'brier': 0.24657399586990156}
+LITE duration fold 5 epoch 5 / 22
+LITE duration fold 5 epoch 10 / 22
+LITE duration fold 5 epoch 15 / 22
+LITE duration fold 5 epoch 20 / 22
+LITE duration fold 5 epoch 22 / 22
+LITE FOLD COMPLETE duration 5 {'accuracy': 0.7674418604651163, 'f1_macro': 0.7673160173160173, 'auc': 0.8530701754385965, 'pr_auc': 0.895032679027236, 'balanced_accuracy': 0.7807017543859649, 'sensitivity': 0.6666666666666666, 'specificity': 0.8947368421052632, 'brier': 0.17101961150340336}
+LITE stroke_transformer fold 0 epoch 5 / 28
+LITE stroke_transformer fold 0 epoch 10 / 28
+LITE stroke_transformer fold 0 epoch 15 / 28
+LITE stroke_transformer fold 0 epoch 20 / 28
+LITE stroke_transformer fold 0 epoch 25 / 28
+LITE stroke_transformer fold 0 epoch 28 / 28
+LITE FOLD COMPLETE stroke_transformer 0 {'accuracy': 0.7906976744186046, 'f1_macro': 0.7906976744186046, 'auc': 0.8608695652173913, 'pr_auc': 0.875164426068848, 'balanced_accuracy': 0.7945652173913043, 'sensitivity': 0.7391304347826086, 'specificity': 0.85, 'brier': 0.15719450557866327}
+LITE stroke_transformer fold 1 epoch 5 / 28
+LITE stroke_transformer fold 1 epoch 10 / 28
+LITE stroke_transformer fold 1 epoch 15 / 28
+LITE stroke_transformer fold 1 epoch 20 / 28
+LITE stroke_transformer fold 1 epoch 25 / 28
+LITE stroke_transformer fold 1 epoch 28 / 28
+LITE FOLD COMPLETE stroke_transformer 1 {'accuracy': 0.7906976744186046, 'f1_macro': 0.7831932773109244, 'auc': 0.9144736842105263, 'pr_auc': 0.942076621894109, 'balanced_accuracy': 0.7796052631578947, 'sensitivity': 0.875, 'specificity': 0.6842105263157895, 'brier': 0.14071422027071376}
+LITE PAUSED stroke_transformer 2 epoch 3 cursor 24
+LITE REPORT {'lite_validation_complete': False, 'primary_validation_complete': True, 'research_complete': False, 'status': 'lite_incomplete_resumable', 'primary_folds_completed': 6, 'secondary_folds_completed': 2, 'phase3_complete': False, 'full_phase4_launched': False, 'exploratory': True, 'checkpoint_checks_passed': True}
+LITE SESSION FINISHED session_budget

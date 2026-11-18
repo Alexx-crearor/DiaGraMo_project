@@ -1,0 +1,22 @@
+{
+  "complete": true,
+  "scope": "Executed unit-test groups for new lite protocol and committed decoder fix",
+  "test_groups": [
+    {
+      "command": ".venv/Scripts/python.exe -m pytest tests/test_raw_temporal_v2_lite.py tests/test_raw_temporal_v2_masked_motor.py -q",
+      "passed": 11,
+      "seconds": 8.07
+    },
+    {
+      "command": ".venv/Scripts/python.exe -m pytest tests/test_raw_temporal_v2_lite_io.py -q",
+      "passed": 2,
+      "seconds": 5.91
+    }
+  ],
+  "test_file_hashes": {
+    "tests/test_raw_temporal_v2_lite.py": "400393aef3fe9bfcfca4138beca5c1d58696199d90e40eb2c5e41e1509666d27",
+    "tests/test_raw_temporal_v2_masked_motor.py": "2beeabcd739c0e3069e4ce7cbde850fb3b61d01afbd58ac3da1da5787a2ca915",
+    "tests/test_raw_temporal_v2_lite_io.py": "ce3946d8a333ae3639856b8ef10d3b180c262319f8c0f304fb45c443da8bf6ab"
+  },
+  "research_complete": false
+}

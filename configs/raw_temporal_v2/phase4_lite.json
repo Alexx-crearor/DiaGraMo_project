@@ -1,0 +1,82 @@
+{
+  "seed": 42,
+  "participants": 258,
+  "label": "group",
+  "outer_folds": 6,
+  "inner_search": false,
+  "existing_fold_assignments_sha256": "e1bcee25899c0bd4ce7d3a7c46c5ac0c9a81556840cff20093073d9211fdb2de",
+  "threshold": 0.5,
+  "probability_average_weights": [
+    0.5,
+    0.5
+  ],
+  "inference_scope": "Exploratory historically inspected cohort",
+  "primary": "duration",
+  "execution_order": [
+    "duration",
+    "stroke_transformer"
+  ],
+  "candidate_selection": "Phase1 duration-aware reference exceeds best Phase2 family in two-seed development mean F1; one primary fixed before outer evaluation",
+  "epoch_rule": "Round median of development BCE-best epochs across seeds42,43, without outer-Test selection",
+  "candidates": {
+    "duration": {
+      "architecture": {
+        "model_kind": "recovery",
+        "family": "hierarchical",
+        "local_pool": "mean",
+        "aggregation_stage": "task_to_person",
+        "aggregation_method": "duration",
+        "task_indices": null,
+        "d_model": 32,
+        "dropout": 0.1
+      },
+      "fixed_epochs": 22,
+      "development_seconds_per_epoch": 6.691858247022758
+    },
+    "stroke_transformer": {
+      "architecture": {
+        "design": "stroke_transformer",
+        "relative_time": true,
+        "relative_spatial": true,
+        "index_only": false,
+        "dropout": 0.1,
+        "d_model": 32,
+        "local_encoder": "multiscale",
+        "local_chunk_windows": 256
+      },
+      "fixed_epochs": 28,
+      "development_seconds_per_epoch": 63.78953989634867
+    }
+  },
+  "training": {
+    "learning_rate": 0.001,
+    "weight_decay": 0.001,
+    "gradient_clip": 1.0,
+    "effective_batch": 8,
+    "micro_batch": 2
+  },
+  "compute": {
+    "maximum_session_seconds": 7200,
+    "default_session_minutes": 110,
+    "report_reserve_seconds": 90,
+    "maximum_gpu_workers": 1,
+    "gpu_tensor_limit_mib": 3500,
+    "forecast_safety_factor": 1.5,
+    "full_phase3_budget_seconds": 1800,
+    "small_ssl_epoch_participants": 8,
+    "pilot_limit_seconds": 900,
+    "ssl_autolaunch": false,
+    "ssl_policy": "Recovery smoke/pilot and cost audit only; full suite requires a separate budget-admitted resumable protocol, never launch original unbounded queue"
+  },
+  "checkpoint": "Every optimizer update with optimizer/RNG/order/cursor; evaluation only after fixed final epoch",
+  "partial_folds": "Report Raw, Kinematic and fixed-average on exactly the same held-out participants; no full-cohort claims from partial coverage",
+  "protocol_dependencies": {
+    "results/raw_temporal_v2/phase0_validation.json": "b8d13b81007c15d282e975cf169a9230383b1025d4a59de2325da7652a4cc308",
+    "results/raw_temporal_v2/phase1_validation.json": "08ff2d644ea641982fa3c1785b519d5802432e01b57b3ae9e57863a7ea201870",
+    "results/raw_temporal_v2/phase2_validation.json": "034d4a29131fd07bb18a27cd349f2d93badfd5edfeda2ff6837a7224fe2bdadc",
+    "results/raw_temporal_v2/phase1_bottleneck/p1_hierarchical_task_to_person_duration/result.json": "41e098981ca8d8008a0dfa3ad83dadb88de26150dffe77e1e45b0c662fa2a787",
+    "results/raw_temporal_v2/phase2_temporal/p2_p1_reference_seed43/result.json": "78e6fb372c71f25659384aa2196bae04ee26c52def19bd0be82570a001b0b995",
+    "results/raw_temporal_v2/phase2_temporal/p2_stroke_transformer_seed42/result.json": "c980af29e1d441ec3ed282fa78686d9c97d84731ea21f487115cff28b1f6b236",
+    "results/raw_temporal_v2/phase2_temporal/p2_stroke_transformer_seed43/result.json": "b5f9ff0bf0cd1d70a57e11d9a940821909c32ee8b0e3dd1d6df8029b0177198e"
+  }
+}

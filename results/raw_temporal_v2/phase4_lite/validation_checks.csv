@@ -1,0 +1,9 @@
+model,fold,participants,checkpoint_replay_error,fit_test_disjoint,normalizer_train_only,outer_test_not_used_for_selection
+duration,0,43,0.0,True,True,True
+duration,1,43,0.0,True,True,True
+duration,2,43,0.0,True,True,True
+duration,3,43,0.0,True,True,True
+duration,4,43,0.0,True,True,True
+duration,5,43,0.0,True,True,True
+stroke_transformer,0,43,0.0,True,True,True
+stroke_transformer,1,43,0.0,True,True,True

@@ -1,0 +1,10 @@
+{
+  "status": "pilot_complete_full_ssl_deferred",
+  "started_at_unix": 1794992120.8704557,
+  "maximum_seconds": 900.0,
+  "maximum_gpu_workers": 1,
+  "phases": [],
+  "includes_process_setup": false,
+  "elapsed_seconds": 14.88845157623291,
+  "pilot_training_seconds": 1.219256000011228
+}

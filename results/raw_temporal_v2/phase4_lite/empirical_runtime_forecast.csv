@@ -1,0 +1,3 @@
+candidate,measured_completed_folds,actual_completed_training_and_replay_seconds,mean_actual_fold_seconds,estimated_remaining_full_folds_seconds,note
+duration,6,1141.8912404000293,190.31520673333821,0.0,"Runtime extrapolation only, does not change architecture/epochs; unfinished-fold work not subtracted"
+stroke_transformer,2,2917.171752899885,1458.5858764499426,5834.34350579977,"Runtime extrapolation only, does not change architecture/epochs; unfinished-fold work not subtracted"

@@ -1,0 +1,2 @@
+fit,epochs_completed,fixed_epochs,next_group_cursor,optimizer_steps,training_seconds,peak_gpu_allocated_mib,peak_gpu_reserved_mib,oof_available,resumable_checkpoint
+stroke_transformer_fold2,3,28,24,84,151.89355889998842,272.01123046875,796.0,False,data/derived/raw_temporal_v2/phase4_lite/stroke_transformer_fold2.resume.pt

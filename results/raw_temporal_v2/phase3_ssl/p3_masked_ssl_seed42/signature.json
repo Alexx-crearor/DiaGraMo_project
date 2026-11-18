@@ -1,0 +1,31 @@
+{
+  "signature": "6789ab4d5fd20ad28ca1feaf641936481caaea43beca00bb20b5e7da477665f4",
+  "source_code_hash": "58f07823f8dd8b3984fc8b0272f20d43df71cda0255dd1d036a6b24ce4f4ac36",
+  "source_files": {
+    "configs/raw_temporal_v2/phase3.json": "7e77c0c56dc457b2579469e22f286b9b50a7111bec8943f3ec784ff759dfbab4",
+    "configs/raw_temporal_v2/resources.json": "8c74c1e3b11ef4cc4001655f82eddf084284b59e9a491ce75400e15a43ebe640",
+    "results/raw_temporal_v2/phase2_temporal/development_decision.json": "ec6f36f4c0fca8eb3d0ab62ff1c1eac3ab022f873813f7c603032d5babe064a9",
+    "results/raw_temporal_v2/phase2_validation.json": "034d4a29131fd07bb18a27cd349f2d93badfd5edfeda2ff6837a7224fe2bdadc",
+    "scripts/configure_raw_temporal_v2_phase3.py": "bdc383bc9a97a97cb820812ac8b35315a700adee7751ed4beccf1d57be69a8f3",
+    "scripts/raw_temporal_v2_common.py": "81b92136a254723c75192a64e8f7460252eb9e0ba91fc228cf04c917632c84bd",
+    "scripts/raw_temporal_v2_ssl.py": "f8e67748a5758d5b52bb20d77e9728996eaf5292a1a4f59c03f35b45d24a6fa3",
+    "scripts/train_raw_temporal_v2_phase3.py": "603c317179174f11d679cef7c06223464b4c62398c1770c3a9f49097713c4295",
+    "src/diagramo/temporal/__init__.py": "082476ac86128927888713f9a7275a3362ce1fbef3e618787b4bc4881445dfb6",
+    "src/diagramo/temporal/dataset.py": "b80abb96052e059735af34dac1c72137a1a188f2eba466230686ad3c6f3ce8d3",
+    "src/diagramo/temporal/encoders.py": "b2a43f301fd0f6624aa937b3df46feadfaaa10285379738bd71dbcde32959961",
+    "src/diagramo/temporal/explain.py": "b32790a596c05788f0591a73b3b7a818fe879a0c77b07d0cb5fe1daad6a1da6f",
+    "src/diagramo/temporal/hierarchical_model.py": "c8ec326ebae654d00b602f5d9f3d616f1e9d8f3d288bcd8024a8ac409d14e840",
+    "src/diagramo/temporal/preprocessing.py": "599eec9e97e26c725b1d250d96ba943075017668b73abac8c7d641534058bc6d",
+    "src/diagramo/temporal/segmentation.py": "606a1ccff9e35d855b4d0747f9472bf26aeac5908b3a6d8e8825f972a17c1f6f",
+    "src/diagramo/temporal_v2/masked_motor.py": "0e167bdef628aaaa937eb18dd2d814bff1c8143109d0ff5f86eda3fa911a7a27",
+    "src/diagramo/temporal_v2/models.py": "2eb7376cdb4843a3918f922a96dc7005f1d4754f6096a51a18703ffe59b37db2",
+    "src/diagramo/temporal_v2/multiscale.py": "d32a6e2ee1885d1030f807cd93a192d27940868137a3d40fb203e100b9ab64ff"
+  },
+  "configuration_hash": "7e77c0c56dc457b2579469e22f286b9b50a7111bec8943f3ec784ff759dfbab4",
+  "data_hashes": {
+    "results/cv/fold_assignments.csv": "e1bcee25899c0bd4ce7d3a7c46c5ac0c9a81556840cff20093073d9211fdb2de",
+    "data/derived/schema.json": "e08086adca87e4f2e48ad73606a472cabdcbe69574297a40f9bc06e549aaf94d",
+    "results/raw_temporal/cache/manifest.json": "0d99c260aae1878b7f084692cd406638ee9106e5c82b3a4e800ccf1e74bd2e39",
+    "results/raw_temporal/audit/source_hashes.json": "f51968b525b8bf5aa5f7ddeb2ba1c716b71f87ddee026acf5b1d2d30dece994b"
+  }
+}

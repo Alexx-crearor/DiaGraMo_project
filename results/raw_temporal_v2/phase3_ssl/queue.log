@@ -1,0 +1,4 @@
+QUEUE START configure_raw_temporal_v2_phase3.py
+PHASE3 FROZEN {'model_kind': 'recovery', 'family': 'hierarchical', 'local_pool': 'mean', 'aggregation_stage': 'task_to_person', 'aggregation_method': 'duration', 'task_indices': None, 'd_model': 32, 'dropout': 0.1}
+QUEUE FINISHED configure_raw_temporal_v2_phase3.py
+QUEUE START train_raw_temporal_v2_phase3.py

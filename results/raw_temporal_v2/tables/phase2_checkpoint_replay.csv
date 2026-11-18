@@ -1,0 +1,13 @@
+experiment,replay_max_error,normalizer_train_only
+p2_statistical_seed42,5.551115123125783e-17,True
+p2_statistical_seed43,1.1102230246251565e-16,True
+p2_mil_seed42,5.551115123125783e-17,True
+p2_mil_seed43,5.551115123125783e-17,True
+p2_stroke_transformer_seed42,1.1102230246251565e-16,True
+p2_stroke_transformer_seed43,1.1102230246251565e-16,True
+p2_no_relative_time_seed42,8.326672684688674e-17,True
+p2_no_relative_spatial_seed42,1.1102230246251565e-16,True
+p2_no_relative_time_and_space_seed42,1.1102230246251565e-16,True
+p2_index_only_seed42,5.551115123125783e-17,True
+p2_original_encoder_mil_seed42,5.551115123125783e-17,True
+p2_p1_reference_seed43,1.1102230246251565e-16,True

@@ -9,3 +9,72 @@ FIT p2_statistical_seed42 epoch 10 trainBCE 0.665 valBCE 0.6966520758150454
 FIT p2_statistical_seed42 epoch 20 trainBCE 0.4131 valBCE 0.8076439117568255
 FIT p2_statistical_seed42 epoch 24 trainBCE 0.2875 valBCE 1.0807817579228545
 FIT COMPLETE p2_statistical_seed42 {'accuracy': 0.5694444444444444, 'f1_macro': 0.559154651392455, 'auc': 0.61796875, 'pr_auc': 0.6201422731825548, 'balanced_accuracy': 0.559375, 'sensitivity': 0.65, 'specificity': 0.46875, 'brier': 0.23692785128399174}
+FIT p2_statistical_seed43 epoch 10 trainBCE 0.6457 valBCE 0.7358775153752158
+FIT p2_statistical_seed43 epoch 20 trainBCE 0.4624 valBCE 0.8221382883245177
+FIT p2_statistical_seed43 epoch 30 trainBCE 0.3118 valBCE 0.6742585506112846
+FIT p2_statistical_seed43 epoch 34 trainBCE 0.2112 valBCE 0.8526378312439115
+FIT COMPLETE p2_statistical_seed43 {'accuracy': 0.6805555555555556, 'f1_macro': 0.6804939224387421, 'auc': 0.753125, 'pr_auc': 0.7983415112329091, 'balanced_accuracy': 0.6875, 'sensitivity': 0.625, 'specificity': 0.75, 'brier': 0.20918392052162893}
+FIT p2_mil_seed42 epoch 10 trainBCE 0.6726 valBCE 0.7209454173923411
+FIT p2_mil_seed42 epoch 20 trainBCE 0.593 valBCE 0.7798061432694302
+FIT COMPLETE p2_mil_seed42 {'accuracy': 0.5694444444444444, 'f1_macro': 0.3906633906633906, 'auc': 0.43125, 'pr_auc': 0.49769756395439163, 'balanced_accuracy': 0.515625, 'sensitivity': 1.0, 'specificity': 0.03125, 'brier': 0.2472371416483562}
+FIT p2_mil_seed43 epoch 10 trainBCE 0.6197 valBCE 0.7472039738465044
+FIT p2_mil_seed43 epoch 20 trainBCE 0.4898 valBCE 0.894999504324708
+FIT COMPLETE p2_mil_seed43 {'accuracy': 0.5694444444444444, 'f1_macro': 0.3906633906633906, 'auc': 0.40859375000000003, 'pr_auc': 0.4785181923210572, 'balanced_accuracy': 0.515625, 'sensitivity': 1.0, 'specificity': 0.03125, 'brier': 0.2490069408437376}
+FIT p2_stroke_transformer_seed42 epoch 10 trainBCE 0.6368 valBCE 0.7086925844853473
+FIT p2_stroke_transformer_seed42 epoch 20 trainBCE 0.5043 valBCE 0.7500537971395074
+FIT p2_stroke_transformer_seed42 epoch 30 trainBCE 0.3634 valBCE 0.6910702103569322
+FIT p2_stroke_transformer_seed42 epoch 40 trainBCE 0.1436 valBCE 0.8061028911631662
+FIT p2_stroke_transformer_seed42 epoch 45 trainBCE 0.1191 valBCE 0.7095349840546213
+FIT COMPLETE p2_stroke_transformer_seed42 {'accuracy': 0.75, 'f1_macro': 0.746875, 'auc': 0.84765625, 'pr_auc': 0.8728201317760313, 'balanced_accuracy': 0.746875, 'sensitivity': 0.775, 'specificity': 0.71875, 'brier': 0.18422189225448374}
+FIT p2_stroke_transformer_seed43 epoch 10 trainBCE 0.636 valBCE 0.725185567080707
+FIT p2_stroke_transformer_seed43 epoch 20 trainBCE 0.3975 valBCE 0.6886503532986459
+FIT p2_stroke_transformer_seed43 epoch 30 trainBCE 0.2617 valBCE 0.5288308164440979
+FIT p2_stroke_transformer_seed43 epoch 35 trainBCE 0.2785 valBCE 0.7159089618448176
+FIT COMPLETE p2_stroke_transformer_seed43 {'accuracy': 0.7777777777777778, 'f1_macro': 0.7776061776061776, 'auc': 0.87109375, 'pr_auc': 0.893232906531977, 'balanced_accuracy': 0.784375, 'sensitivity': 0.725, 'specificity': 0.84375, 'brier': 0.15071573486265122}
+FIT p2_no_relative_time_seed42 epoch 10 trainBCE 0.638 valBCE 0.7081023165671189
+FIT p2_no_relative_time_seed42 epoch 20 trainBCE 0.5066 valBCE 0.7113862693086883
+FIT p2_no_relative_time_seed42 epoch 29 trainBCE 0.2937 valBCE 0.747399755549496
+FIT COMPLETE p2_no_relative_time_seed42 {'accuracy': 0.625, 'f1_macro': 0.5823845327604726, 'auc': 0.6390625000000001, 'pr_auc': 0.7167605703775014, 'balanced_accuracy': 0.596875, 'sensitivity': 0.85, 'specificity': 0.34375, 'brier': 0.2287401594702151}
+FIT p2_no_relative_spatial_seed42 epoch 10 trainBCE 0.6364 valBCE 0.7082320566877613
+FIT p2_no_relative_spatial_seed42 epoch 20 trainBCE 0.5189 valBCE 0.7206389717999979
+FIT p2_no_relative_spatial_seed42 epoch 30 trainBCE 0.4615 valBCE 0.6847833091347675
+FIT p2_no_relative_spatial_seed42 epoch 40 trainBCE 0.2703 valBCE 0.7705902177055471
+FIT p2_no_relative_spatial_seed42 epoch 45 trainBCE 0.0902 valBCE 0.7445322360741069
+FIT COMPLETE p2_no_relative_spatial_seed42 {'accuracy': 0.7777777777777778, 'f1_macro': 0.7734067663257278, 'auc': 0.8484375, 'pr_auc': 0.8419006960288014, 'balanced_accuracy': 0.771875, 'sensitivity': 0.825, 'specificity': 0.71875, 'brier': 0.16941830836382377}
+FIT p2_no_relative_time_and_space_seed42 epoch 10 trainBCE 0.6375 valBCE 0.7082883566876144
+FIT p2_no_relative_time_and_space_seed42 epoch 20 trainBCE 0.5092 valBCE 0.7138130421066733
+FIT p2_no_relative_time_and_space_seed42 epoch 30 trainBCE 0.3497 valBCE 0.6331465382765262
+FIT p2_no_relative_time_and_space_seed42 epoch 40 trainBCE 0.12 valBCE 0.7787119066871163
+FIT p2_no_relative_time_and_space_seed42 epoch 43 trainBCE 0.1388 valBCE 0.7887199617649545
+FIT COMPLETE p2_no_relative_time_and_space_seed42 {'accuracy': 0.7916666666666666, 'f1_macro': 0.7883597883597884, 'auc': 0.8148437499999999, 'pr_auc': 0.8385131337169857, 'balanced_accuracy': 0.7875, 'sensitivity': 0.825, 'specificity': 0.75, 'brier': 0.1753854914332144}
+FIT p2_index_only_seed42 epoch 10 trainBCE 0.6435 valBCE 0.7592185852799734
+FIT p2_index_only_seed42 epoch 20 trainBCE 0.5119 valBCE 0.954119307627145
+FIT COMPLETE p2_index_only_seed42 {'accuracy': 0.5694444444444444, 'f1_macro': 0.4362212679969689, 'auc': 0.49687499999999996, 'pr_auc': 0.5525517549228216, 'balanced_accuracy': 0.521875, 'sensitivity': 0.95, 'specificity': 0.09375, 'brier': 0.2436785029831765}
+FIT p2_original_encoder_mil_seed42 epoch 10 trainBCE 0.6699 valBCE 0.7207843201813898
+FIT p2_original_encoder_mil_seed42 epoch 20 trainBCE 0.6517 valBCE 0.7447964226865181
+FIT COMPLETE p2_original_encoder_mil_seed42 {'accuracy': 0.5694444444444444, 'f1_macro': 0.3906633906633906, 'auc': 0.44921875, 'pr_auc': 0.5080540751905425, 'balanced_accuracy': 0.515625, 'sensitivity': 1.0, 'specificity': 0.03125, 'brier': 0.2512481809701377}
+FIT p2_p1_reference_seed43 epoch 10 trainBCE 0.5316 valBCE 0.633009576594699
+FIT p2_p1_reference_seed43 epoch 20 trainBCE 0.4136 valBCE 0.8143504926346767
+FIT p2_p1_reference_seed43 epoch 30 trainBCE 0.3313 valBCE 0.45625812581153063
+FIT p2_p1_reference_seed43 epoch 39 trainBCE 0.3099 valBCE 0.5993673797102923
+FIT COMPLETE p2_p1_reference_seed43 {'accuracy': 0.8194444444444444, 'f1_macro': 0.8087844739530132, 'auc': 0.92421875, 'pr_auc': 0.9397504605370528, 'balanced_accuracy': 0.803125, 'sensitivity': 0.95, 'specificity': 0.65625, 'brier': 0.13800510194269608}
+QUEUE FINISHED train_raw_temporal_v2_phase2.py
+QUEUE START validate_raw_temporal_v2_phase2.py
+PHASE2 VALIDATED p2_statistical_seed42
+PHASE2 VALIDATED p2_statistical_seed43
+PHASE2 VALIDATED p2_mil_seed42
+PHASE2 VALIDATED p2_mil_seed43
+PHASE2 VALIDATED p2_stroke_transformer_seed42
+PHASE2 VALIDATED p2_stroke_transformer_seed43
+PHASE2 VALIDATED p2_no_relative_time_seed42
+PHASE2 VALIDATED p2_no_relative_spatial_seed42
+PHASE2 VALIDATED p2_no_relative_time_and_space_seed42
+PHASE2 VALIDATED p2_index_only_seed42
+PHASE2 VALIDATED p2_original_encoder_mil_seed42
+PHASE2 VALIDATED p2_p1_reference_seed43
+QUEUE FINISHED validate_raw_temporal_v2_phase2.py
+QUEUE START report_raw_temporal_v2_phase2.py
+QUEUE FINISHED report_raw_temporal_v2_phase2.py
+QUEUE START notebook_raw_temporal_v2.py
+EXECUTED READ-ONLY NOTEBOOK E:\DiaGraMo-project\notebooks\07_raw_temporal_research_recovery.ipynb
+QUEUE FINISHED notebook_raw_temporal_v2.py

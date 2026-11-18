@@ -1,0 +1,51 @@
+{
+  "complete": true,
+  "development_fits": 12,
+  "checkpoint_replay_passed": true,
+  "transport_equivariance_passed": true,
+  "unit_tests_passed": true,
+  "outer_test_loaded": false,
+  "selected_before_perturbation_scoring": true,
+  "selection": {
+    "selected_design": "stroke_transformer",
+    "rule": "Compare primary statistical/MIL/stroke_transformer mean macroF1 over seeds42,43, then AUC, then parameter count; controls single seed are diagnostics",
+    "selected_local_encoder": "multiscale",
+    "local_encoder_rule": "Paired MIL seed42: choose original local encoder only if both macroF1 and AUC exceed multiscale MIL; otherwise multiscale. This development choice requires matched scratch controls in Phase3.",
+    "metrics": {
+      "configuration": "stroke_transformer",
+      "f1_macro": 0.7622405888030888,
+      "auc": 0.859375,
+      "parameters": 25252.0
+    },
+    "outer_test_used": false,
+    "phase1_dependency_sha256": "08ff2d644ea641982fa3c1785b519d5802432e01b57b3ae9e57863a7ea201870",
+    "selected_architecture_for_ssl": {
+      "model_kind": "recovery",
+      "family": "hierarchical",
+      "local_pool": "mean",
+      "aggregation_stage": "task_to_person",
+      "aggregation_method": "duration",
+      "task_indices": null,
+      "d_model": 32,
+      "dropout": 0.1
+    },
+    "selected_local_encoder_for_ssl": "original",
+    "selected_training_settings_for_ssl": {
+      "epochs": 80,
+      "minimum_epochs": 20,
+      "patience": 12,
+      "learning_rate": 0.001,
+      "weight_decay": 0.001,
+      "gradient_clip": 1.0
+    },
+    "ssl_architecture_rule": "Compare mean macroF1/AUC over two seeds of Phase1 winner versus best primary Phase2 family; Phase1 seed42 reused and its seed43 is a matched control. Prefer higher F1 then AUC then fewer parameters. If Phase1 wins, preserve its original local backbone. If Phase2 wins, use the paired local encoder decision and matched scratch controls.",
+    "p1_reference_two_seed_mean": {
+      "f1_macro": 0.8087844739530132,
+      "auc": 0.92265625,
+      "parameters": 29810
+    },
+    "phase1_reference_selected_for_ssl": true
+  },
+  "phase3_ready": true,
+  "interpretation": "Exploratory development only. Content-only reversal is inconsistent-metadata OOD stress, not a causal manipulation."
+}

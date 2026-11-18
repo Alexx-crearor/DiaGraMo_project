@@ -11,6 +11,21 @@ TARGET_CHANNELS=(0,1,2,10)
 HIDDEN_CHANNELS=(0,1,2,3,4,8,9,10,11,12)
 
 
+def fixed_stride_linear_upsample(prediction,stride):
+    """Linear interpolation at integer-stride centres with deterministic GEMM.
+
+    Equivalent to align_corners=True with output length (L-1)*stride+1.
+    CUDA's interpolate backward uses atomic accumulation; this fixed linear
+    operator instead uses matrix multiplication in both forward and backward.
+    """
+    assert isinstance(stride,int) and stride>0
+    centres=prediction.shape[-1]
+    positions=torch.arange((centres-1)*stride+1,device=prediction.device)
+    distance=(positions[None,:]-torch.arange(centres,device=prediction.device)[:,None]*stride).abs()
+    weights=(stride-distance).clamp_min(0).to(prediction.dtype)/stride
+    return prediction@weights
+
+
 def corrupt(x,length,generator,span=32,halo=2):
     """Return corrupted input and target masks. Mask choice never reads values."""
     b,c,l=x.shape;sample=torch.arange(l,device=x.device)[None,:]<length[:,None]
@@ -45,6 +60,6 @@ class MaskedMotorModel(nn.Module):
         prediction=self.decoder(z)
         # Map feature centres j*stride to source sample positions without
         # compressing the explicit right-hand receptive-field coverage padding.
-        prediction=torch.nn.functional.interpolate(prediction,size=(z.shape[-1]-1)*self.stride+1,mode='linear',align_corners=True)
+        prediction=fixed_stride_linear_upsample(prediction,self.stride)
         assert prediction.shape[-1]>=x.shape[-1]
         return prediction[:,:,:x.shape[-1]]

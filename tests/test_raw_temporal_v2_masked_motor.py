@@ -1,7 +1,11 @@
 import sys
+import os
+os.environ.setdefault('CUBLAS_WORKSPACE_CONFIG', ':4096:8')
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'src'))
 import torch
+import pytest
+from diagramo.temporal_v2.masked_motor import fixed_stride_linear_upsample
 from diagramo.temporal_v2.masked_motor import corrupt,window_loss,MaskedMotorModel,TARGET_CHANNELS,HIDDEN_CHANNELS
 from diagramo.temporal_v2.multiscale import MultiScaleLocal,OriginalRetainedLocal
 
@@ -55,3 +59,36 @@ def test_both_encoder_decoders_cover_original_tail_and_backpropagate():
         loss,defined=window_loss(prediction,x[:,TARGET_CHANNELS,:],mask)
         loss[defined].mean().backward();assert torch.isfinite(loss).all()
         assert sum(float(p.grad.abs().sum()) for p in local.parameters() if p.grad is not None)>0
+
+
+@pytest.mark.parametrize('stride,centres', [(4,33),(8,17),(1,5)])
+def test_fixed_stride_interpolation_matches_values_and_gradients(stride,centres):
+    torch.manual_seed(11)
+    x=torch.randn(3,4,centres,dtype=torch.float64,requires_grad=True)
+    reference=torch.nn.functional.interpolate(x,size=(centres-1)*stride+1,mode='linear',align_corners=True)
+    result=fixed_stride_linear_upsample(x,stride)
+    torch.testing.assert_close(result,reference,atol=1e-12,rtol=1e-12)
+    upstream=torch.randn_like(reference)
+    expected=torch.autograd.grad(reference,x,upstream)[0]
+    actual=torch.autograd.grad(result,x,upstream)[0]
+    torch.testing.assert_close(actual,expected,atol=1e-12,rtol=1e-12)
+
+
+@pytest.mark.skipif(not torch.cuda.is_available(),reason='CUDA regression check')
+def test_cuda_ssl_decoder_backward_is_strictly_deterministic():
+    previous=torch.are_deterministic_algorithms_enabled()
+    torch.use_deterministic_algorithms(True)
+    try:
+        torch.manual_seed(42);x,length=inputs();x=x.cuda();length=length.cuda()
+        masked,mask,_=corrupt(x,length,torch.Generator(device='cuda').manual_seed(42))
+        for local,stride in [(MultiScaleLocal(),4),(OriginalRetainedLocal(),8)]:
+            model=MaskedMotorModel(local,stride).cuda();gradients=[]
+            for _ in range(2):
+                model.zero_grad(set_to_none=True)
+                prediction=model(masked,length)
+                loss,defined=window_loss(prediction,x[:,TARGET_CHANNELS,:],mask)
+                loss[defined].mean().backward()
+                gradients.append(torch.cat([p.grad.flatten() for p in model.parameters() if p.grad is not None]))
+                assert torch.isfinite(gradients[-1]).all()
+            assert torch.equal(gradients[0],gradients[1])
+    finally:torch.use_deterministic_algorithms(previous)

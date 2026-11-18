@@ -1,0 +1,35 @@
+[
+  {
+    "name": "p2_matched_models",
+    "description": "Primary designs have two seeds; relation controls only seed42. No six-fold error bars or external validation implied.",
+    "sources": {
+      "results/raw_temporal_v2/tables/phase2_development_comparison.csv": "e3bb6683296e8a85aa7dc2724a585ffff56cea99ea0ea83fbdd410510c3efd60"
+    },
+    "outputs": {
+      "png": "6db8b7c7e6efbacd5c25bd6d2792c64b4222b408d77be7102b84f6e5073eaa4d",
+      "svg": "b60d5cbc7f7bf4c840af24bede4824b38e53d2503d038d139fbb667a09f5a07d"
+    }
+  },
+  {
+    "name": "p2_temporal_stress",
+    "description": "Content reversal keeps original relationship slots and is deliberately metadata-inconsistent OOD. High-speed mask removes top5% motion windows, not annotated clinical events.",
+    "sources": {
+      "results/raw_temporal_v2/tables/phase2_perturbations.csv": "2bd8d8710b9bf472085221a6f4724ba13e64ba7d1165c104da7c8da6d8912e42"
+    },
+    "outputs": {
+      "png": "eab98b41eb2b285c7889627a3b302833b354810a8754c2317540f5ee6c76acc6",
+      "svg": "6d32e4e45f2c2ba65045fe5489c00ae29012a6ebba2d0c7327ec577ce1f92e1c"
+    }
+  },
+  {
+    "name": "p2_architecture",
+    "description": "Schematic of matched controlled families; original-local MIL provides an encoder control. Approximate device coordinates are not calibrated physical distances.",
+    "sources": {
+      "configs/raw_temporal_v2/phase2.json": "7966e2888588151ff285c9c51b2eb4843f5a8f6e7028c7d6954fc22b03298587"
+    },
+    "outputs": {
+      "png": "d862a8083ef7e8b683424ba510b2f4d91ea92a3c5b7bf77d8dd3731161e5bfd6",
+      "svg": "35356beab0aa3d7ad5c78a620b1a907cd96818567a455ac44f8a5a01e4baef3a"
+    }
+  }
+]

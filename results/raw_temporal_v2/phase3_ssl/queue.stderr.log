@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "E:\DiaGraMo-project\scripts\train_raw_temporal_v2_phase3.py", line 73, in <module>
+    with gpu_worker():main()
+  File "E:\DiaGraMo-project\scripts\train_raw_temporal_v2_phase3.py", line 24, in main
+    ssl=pretrain(f'p3_masked_ssl_seed{seed}',CONFIG_PATH,config['pretraining'],train,validation=val,seed=seed,extra_sources=EXTRA)
+  File "E:\DiaGraMo-project\scripts\raw_temporal_v2_ssl.py", line 108, in pretrain
+    (loss.sum()/len(selected)/len(group)).backward();losses.extend(loss.detach().cpu().numpy().tolist())
+  File "E:\DiaGraMo-project\.venv\lib\site-packages\torch\_tensor.py", line 648, in backward
+    torch.autograd.backward(
+  File "E:\DiaGraMo-project\.venv\lib\site-packages\torch\autograd\__init__.py", line 353, in backward
+    _engine_run_backward(
+  File "E:\DiaGraMo-project\.venv\lib\site-packages\torch\autograd\graph.py", line 824, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+RuntimeError: upsample_linear1d_backward_out_cuda does not have a deterministic implementation, but you set 'torch.use_deterministic_algorithms(True)'. You can turn off determinism just for this operation, or you can use the 'warn_only=True' option, if that's acceptable for your application. You can also file an issue at https://github.com/pytorch/pytorch/issues to help us prioritize adding deterministic support for this operation.
+Traceback (most recent call last):
+  File "E:\DiaGraMo-project\scripts\run_raw_temporal_v2_phase3.py", line 17, in <module>
+    run('train_raw_temporal_v2_phase3.py')
+  File "E:\DiaGraMo-project\scripts\run_raw_temporal_v2_phase3.py", line 9, in run
+    subprocess.run([sys.executable,'scripts/'+name],cwd=ROOT,check=True)
+  File "C:\Users\Win 11 New\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['E:\\DiaGraMo-project\\.venv\\Scripts\\python.exe', 'scripts/train_raw_temporal_v2_phase3.py']' returned non-zero exit status 1.

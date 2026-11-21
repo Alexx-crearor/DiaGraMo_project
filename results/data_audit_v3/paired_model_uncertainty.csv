@@ -1,0 +1,4 @@
+metric,delta,lower95,upper95,replicates,method
+f1_macro,-0.00648258879815633,-0.053469731196788564,0.041285754285576064,2000,"Paired participant bootstrap within label; fixed models, not selection- or cluster-adjusted"
+auc,-0.0007905138339919793,-0.026574946792338176,0.02712374581939788,2000,"Paired participant bootstrap within label; fixed models, not selection- or cluster-adjusted"
+brier,0.007343052347002846,-0.01272218544888522,0.02639271177116738,2000,"Paired participant bootstrap within label; fixed models, not selection- or cluster-adjusted"

@@ -1,0 +1,1441 @@
+participant_id,field,raw_nonmissing_distinct,matches_merged,verification
+BR09401,group,1,False,Compared all duplicate-row values
+BR09401,special_care_type_dysgraphia,1,False,Compared all duplicate-row values
+BR09401,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR09401,id_city,1,True,Compared all duplicate-row values
+BR09401,id_schoolPPP,1,False,Compared all duplicate-row values
+BR09402,group,1,False,Compared all duplicate-row values
+BR09402,special_care_type_dysgraphia,1,False,Compared all duplicate-row values
+BR09402,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR09402,id_city,1,True,Compared all duplicate-row values
+BR09402,id_schoolPPP,1,False,Compared all duplicate-row values
+BR09403,group,1,True,Compared all duplicate-row values
+BR09403,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR09403,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR09403,id_city,1,True,Compared all duplicate-row values
+BR09403,id_schoolPPP,1,False,Compared all duplicate-row values
+BR09404,group,1,False,Compared all duplicate-row values
+BR09404,special_care_type_dysgraphia,1,False,Compared all duplicate-row values
+BR09404,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR09404,id_city,1,True,Compared all duplicate-row values
+BR09404,id_schoolPPP,1,False,Compared all duplicate-row values
+BR10301,group,1,True,Compared all duplicate-row values
+BR10301,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR10301,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR10301,id_city,1,True,Compared all duplicate-row values
+BR10301,id_schoolPPP,1,True,Compared all duplicate-row values
+BR10302,group,1,True,Compared all duplicate-row values
+BR10302,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR10302,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR10302,id_city,1,True,Compared all duplicate-row values
+BR10302,id_schoolPPP,1,True,Compared all duplicate-row values
+BR10303,group,1,True,Compared all duplicate-row values
+BR10303,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR10303,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR10303,id_city,1,True,Compared all duplicate-row values
+BR10303,id_schoolPPP,1,True,Compared all duplicate-row values
+BR10304,group,1,True,Compared all duplicate-row values
+BR10304,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR10304,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR10304,id_city,1,True,Compared all duplicate-row values
+BR10304,id_schoolPPP,1,True,Compared all duplicate-row values
+BR10305,group,1,True,Compared all duplicate-row values
+BR10305,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR10305,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR10305,id_city,1,True,Compared all duplicate-row values
+BR10305,id_schoolPPP,1,True,Compared all duplicate-row values
+BR10306,group,1,True,Compared all duplicate-row values
+BR10306,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR10306,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR10306,id_city,1,True,Compared all duplicate-row values
+BR10306,id_schoolPPP,1,True,Compared all duplicate-row values
+BR10401,group,1,True,Compared all duplicate-row values
+BR10401,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR10401,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR10401,id_city,1,True,Compared all duplicate-row values
+BR10401,id_schoolPPP,1,True,Compared all duplicate-row values
+BR10402,group,1,True,Compared all duplicate-row values
+BR10402,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR10402,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR10402,id_city,1,True,Compared all duplicate-row values
+BR10402,id_schoolPPP,1,True,Compared all duplicate-row values
+BR10403,group,1,True,Compared all duplicate-row values
+BR10403,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR10403,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR10403,id_city,1,True,Compared all duplicate-row values
+BR10403,id_schoolPPP,1,True,Compared all duplicate-row values
+BR10404,group,1,True,Compared all duplicate-row values
+BR10404,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR10404,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR10404,id_city,1,True,Compared all duplicate-row values
+BR10404,id_schoolPPP,1,True,Compared all duplicate-row values
+BR10405,group,1,True,Compared all duplicate-row values
+BR10405,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR10405,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR10405,id_city,1,True,Compared all duplicate-row values
+BR10405,id_schoolPPP,1,True,Compared all duplicate-row values
+BR10406,group,1,True,Compared all duplicate-row values
+BR10406,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR10406,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR10406,id_city,1,True,Compared all duplicate-row values
+BR10406,id_schoolPPP,1,True,Compared all duplicate-row values
+BR2401,group,1,True,Compared all duplicate-row values
+BR2401,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR2401,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR2401,id_city,1,True,Compared all duplicate-row values
+BR2401,id_schoolPPP,1,True,Compared all duplicate-row values
+BR2402,group,1,True,Compared all duplicate-row values
+BR2402,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR2402,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR2402,id_city,1,True,Compared all duplicate-row values
+BR2402,id_schoolPPP,1,True,Compared all duplicate-row values
+BR2403,group,1,True,Compared all duplicate-row values
+BR2403,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR2403,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR2403,id_city,1,True,Compared all duplicate-row values
+BR2403,id_schoolPPP,1,True,Compared all duplicate-row values
+BR2404,group,1,True,Compared all duplicate-row values
+BR2404,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR2404,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR2404,id_city,1,True,Compared all duplicate-row values
+BR2404,id_schoolPPP,1,True,Compared all duplicate-row values
+BR2405,group,1,True,Compared all duplicate-row values
+BR2405,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR2405,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR2405,id_city,1,True,Compared all duplicate-row values
+BR2405,id_schoolPPP,1,True,Compared all duplicate-row values
+BR2406,group,1,True,Compared all duplicate-row values
+BR2406,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR2406,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR2406,id_city,1,True,Compared all duplicate-row values
+BR2406,id_schoolPPP,1,True,Compared all duplicate-row values
+BR2407,group,1,True,Compared all duplicate-row values
+BR2407,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR2407,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR2407,id_city,1,True,Compared all duplicate-row values
+BR2407,id_schoolPPP,1,True,Compared all duplicate-row values
+BR2408,group,1,True,Compared all duplicate-row values
+BR2408,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR2408,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR2408,id_city,1,True,Compared all duplicate-row values
+BR2408,id_schoolPPP,1,True,Compared all duplicate-row values
+BR2409,group,1,True,Compared all duplicate-row values
+BR2409,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR2409,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR2409,id_city,1,True,Compared all duplicate-row values
+BR2409,id_schoolPPP,1,True,Compared all duplicate-row values
+BR2410,group,1,True,Compared all duplicate-row values
+BR2410,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR2410,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR2410,id_city,1,True,Compared all duplicate-row values
+BR2410,id_schoolPPP,1,True,Compared all duplicate-row values
+BR2411,group,1,True,Compared all duplicate-row values
+BR2411,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR2411,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR2411,id_city,1,True,Compared all duplicate-row values
+BR2411,id_schoolPPP,1,True,Compared all duplicate-row values
+BR2412,group,1,True,Compared all duplicate-row values
+BR2412,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR2412,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR2412,id_city,1,True,Compared all duplicate-row values
+BR2412,id_schoolPPP,1,True,Compared all duplicate-row values
+BR3301,group,1,True,Compared all duplicate-row values
+BR3301,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR3301,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR3301,id_city,1,True,Compared all duplicate-row values
+BR3301,id_schoolPPP,1,True,Compared all duplicate-row values
+BR3302,group,1,True,Compared all duplicate-row values
+BR3302,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR3302,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR3302,id_city,1,True,Compared all duplicate-row values
+BR3302,id_schoolPPP,1,True,Compared all duplicate-row values
+BR3303,group,1,True,Compared all duplicate-row values
+BR3303,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR3303,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR3303,id_city,1,True,Compared all duplicate-row values
+BR3303,id_schoolPPP,1,True,Compared all duplicate-row values
+BR3304,group,1,True,Compared all duplicate-row values
+BR3304,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR3304,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR3304,id_city,1,True,Compared all duplicate-row values
+BR3304,id_schoolPPP,1,True,Compared all duplicate-row values
+BR3305,group,1,True,Compared all duplicate-row values
+BR3305,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR3305,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR3305,id_city,1,True,Compared all duplicate-row values
+BR3305,id_schoolPPP,1,True,Compared all duplicate-row values
+BR3306,group,1,True,Compared all duplicate-row values
+BR3306,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR3306,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR3306,id_city,1,True,Compared all duplicate-row values
+BR3306,id_schoolPPP,1,True,Compared all duplicate-row values
+BR3307,group,1,True,Compared all duplicate-row values
+BR3307,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR3307,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR3307,id_city,1,True,Compared all duplicate-row values
+BR3307,id_schoolPPP,1,True,Compared all duplicate-row values
+BR3308,group,1,True,Compared all duplicate-row values
+BR3308,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR3308,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR3308,id_city,1,True,Compared all duplicate-row values
+BR3308,id_schoolPPP,1,True,Compared all duplicate-row values
+BR3309,group,1,True,Compared all duplicate-row values
+BR3309,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR3309,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR3309,id_city,1,True,Compared all duplicate-row values
+BR3309,id_schoolPPP,1,True,Compared all duplicate-row values
+BR3310,group,1,True,Compared all duplicate-row values
+BR3310,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR3310,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR3310,id_city,1,True,Compared all duplicate-row values
+BR3310,id_schoolPPP,1,True,Compared all duplicate-row values
+BR3311,group,1,True,Compared all duplicate-row values
+BR3311,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR3311,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR3311,id_city,1,True,Compared all duplicate-row values
+BR3311,id_schoolPPP,1,True,Compared all duplicate-row values
+BR3401,group,1,True,Compared all duplicate-row values
+BR3401,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR3401,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR3401,id_city,1,True,Compared all duplicate-row values
+BR3401,id_schoolPPP,1,True,Compared all duplicate-row values
+BR3402,group,1,True,Compared all duplicate-row values
+BR3402,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR3402,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR3402,id_city,1,True,Compared all duplicate-row values
+BR3402,id_schoolPPP,1,True,Compared all duplicate-row values
+BR3403,group,1,True,Compared all duplicate-row values
+BR3403,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR3403,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR3403,id_city,1,True,Compared all duplicate-row values
+BR3403,id_schoolPPP,1,True,Compared all duplicate-row values
+BR3404,group,1,True,Compared all duplicate-row values
+BR3404,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR3404,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR3404,id_city,1,True,Compared all duplicate-row values
+BR3404,id_schoolPPP,1,True,Compared all duplicate-row values
+BR3405,group,1,True,Compared all duplicate-row values
+BR3405,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR3405,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR3405,id_city,1,True,Compared all duplicate-row values
+BR3405,id_schoolPPP,1,True,Compared all duplicate-row values
+BR3406,group,1,True,Compared all duplicate-row values
+BR3406,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR3406,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR3406,id_city,1,True,Compared all duplicate-row values
+BR3406,id_schoolPPP,1,True,Compared all duplicate-row values
+BR3407,group,1,True,Compared all duplicate-row values
+BR3407,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR3407,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR3407,id_city,1,True,Compared all duplicate-row values
+BR3407,id_schoolPPP,1,True,Compared all duplicate-row values
+BR3408,group,1,True,Compared all duplicate-row values
+BR3408,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR3408,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR3408,id_city,1,True,Compared all duplicate-row values
+BR3408,id_schoolPPP,1,True,Compared all duplicate-row values
+BR3409,group,1,True,Compared all duplicate-row values
+BR3409,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR3409,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR3409,id_city,1,True,Compared all duplicate-row values
+BR3409,id_schoolPPP,1,True,Compared all duplicate-row values
+BR3410,group,1,True,Compared all duplicate-row values
+BR3410,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR3410,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR3410,id_city,1,True,Compared all duplicate-row values
+BR3410,id_schoolPPP,1,True,Compared all duplicate-row values
+BR5301,group,1,True,Compared all duplicate-row values
+BR5301,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR5301,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR5301,id_city,1,True,Compared all duplicate-row values
+BR5301,id_schoolPPP,1,True,Compared all duplicate-row values
+BR5302,group,1,True,Compared all duplicate-row values
+BR5302,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR5302,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR5302,id_city,1,True,Compared all duplicate-row values
+BR5302,id_schoolPPP,1,True,Compared all duplicate-row values
+BR5303,group,1,True,Compared all duplicate-row values
+BR5303,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR5303,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR5303,id_city,1,True,Compared all duplicate-row values
+BR5303,id_schoolPPP,1,True,Compared all duplicate-row values
+BR5304,group,1,True,Compared all duplicate-row values
+BR5304,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR5304,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR5304,id_city,1,True,Compared all duplicate-row values
+BR5304,id_schoolPPP,1,True,Compared all duplicate-row values
+BR5305,group,1,True,Compared all duplicate-row values
+BR5305,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR5305,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR5305,id_city,1,True,Compared all duplicate-row values
+BR5305,id_schoolPPP,1,True,Compared all duplicate-row values
+BR5306,group,1,True,Compared all duplicate-row values
+BR5306,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR5306,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR5306,id_city,1,True,Compared all duplicate-row values
+BR5306,id_schoolPPP,1,True,Compared all duplicate-row values
+BR5307,group,1,True,Compared all duplicate-row values
+BR5307,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR5307,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR5307,id_city,1,True,Compared all duplicate-row values
+BR5307,id_schoolPPP,1,True,Compared all duplicate-row values
+BR5308,group,1,True,Compared all duplicate-row values
+BR5308,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR5308,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR5308,id_city,1,True,Compared all duplicate-row values
+BR5308,id_schoolPPP,1,True,Compared all duplicate-row values
+BR5309,group,1,True,Compared all duplicate-row values
+BR5309,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR5309,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR5309,id_city,1,True,Compared all duplicate-row values
+BR5309,id_schoolPPP,1,True,Compared all duplicate-row values
+BR5310,group,1,True,Compared all duplicate-row values
+BR5310,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR5310,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR5310,id_city,1,True,Compared all duplicate-row values
+BR5310,id_schoolPPP,1,True,Compared all duplicate-row values
+BR5311,group,1,True,Compared all duplicate-row values
+BR5311,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR5311,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR5311,id_city,1,True,Compared all duplicate-row values
+BR5311,id_schoolPPP,1,True,Compared all duplicate-row values
+BR5312,group,1,True,Compared all duplicate-row values
+BR5312,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR5312,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR5312,id_city,1,True,Compared all duplicate-row values
+BR5312,id_schoolPPP,1,True,Compared all duplicate-row values
+BR5313,group,1,True,Compared all duplicate-row values
+BR5313,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR5313,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR5313,id_city,1,True,Compared all duplicate-row values
+BR5313,id_schoolPPP,1,True,Compared all duplicate-row values
+BR5314,group,1,True,Compared all duplicate-row values
+BR5314,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR5314,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR5314,id_city,1,True,Compared all duplicate-row values
+BR5314,id_schoolPPP,1,True,Compared all duplicate-row values
+BR5315,group,1,True,Compared all duplicate-row values
+BR5315,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR5315,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR5315,id_city,1,True,Compared all duplicate-row values
+BR5315,id_schoolPPP,1,True,Compared all duplicate-row values
+BR5401,group,1,True,Compared all duplicate-row values
+BR5401,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR5401,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR5401,id_city,1,True,Compared all duplicate-row values
+BR5401,id_schoolPPP,1,True,Compared all duplicate-row values
+BR5402,group,1,True,Compared all duplicate-row values
+BR5402,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR5402,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR5402,id_city,1,True,Compared all duplicate-row values
+BR5402,id_schoolPPP,1,True,Compared all duplicate-row values
+BR5403,group,1,True,Compared all duplicate-row values
+BR5403,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR5403,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR5403,id_city,1,True,Compared all duplicate-row values
+BR5403,id_schoolPPP,1,True,Compared all duplicate-row values
+BR5404,group,1,True,Compared all duplicate-row values
+BR5404,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR5404,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR5404,id_city,1,True,Compared all duplicate-row values
+BR5404,id_schoolPPP,1,True,Compared all duplicate-row values
+BR5405,group,1,True,Compared all duplicate-row values
+BR5405,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR5405,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR5405,id_city,1,True,Compared all duplicate-row values
+BR5405,id_schoolPPP,1,True,Compared all duplicate-row values
+BR5406,group,1,True,Compared all duplicate-row values
+BR5406,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR5406,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR5406,id_city,1,True,Compared all duplicate-row values
+BR5406,id_schoolPPP,1,True,Compared all duplicate-row values
+BR5407,group,1,True,Compared all duplicate-row values
+BR5407,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR5407,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR5407,id_city,1,True,Compared all duplicate-row values
+BR5407,id_schoolPPP,1,True,Compared all duplicate-row values
+BR5408,group,1,True,Compared all duplicate-row values
+BR5408,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR5408,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR5408,id_city,1,True,Compared all duplicate-row values
+BR5408,id_schoolPPP,1,True,Compared all duplicate-row values
+BR5409,group,1,True,Compared all duplicate-row values
+BR5409,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR5409,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR5409,id_city,1,True,Compared all duplicate-row values
+BR5409,id_schoolPPP,1,True,Compared all duplicate-row values
+BR5410,group,1,True,Compared all duplicate-row values
+BR5410,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR5410,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR5410,id_city,1,True,Compared all duplicate-row values
+BR5410,id_schoolPPP,1,True,Compared all duplicate-row values
+BR5411,group,1,True,Compared all duplicate-row values
+BR5411,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR5411,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR5411,id_city,1,True,Compared all duplicate-row values
+BR5411,id_schoolPPP,1,True,Compared all duplicate-row values
+BR5412,group,1,True,Compared all duplicate-row values
+BR5412,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR5412,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR5412,id_city,1,True,Compared all duplicate-row values
+BR5412,id_schoolPPP,1,True,Compared all duplicate-row values
+BR5413,group,1,True,Compared all duplicate-row values
+BR5413,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR5413,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR5413,id_city,1,True,Compared all duplicate-row values
+BR5413,id_schoolPPP,1,True,Compared all duplicate-row values
+BR5414,group,1,True,Compared all duplicate-row values
+BR5414,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR5414,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR5414,id_city,1,True,Compared all duplicate-row values
+BR5414,id_schoolPPP,1,True,Compared all duplicate-row values
+BR5415,group,1,True,Compared all duplicate-row values
+BR5415,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR5415,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR5415,id_city,1,True,Compared all duplicate-row values
+BR5415,id_schoolPPP,1,True,Compared all duplicate-row values
+BR5416,group,1,True,Compared all duplicate-row values
+BR5416,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR5416,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR5416,id_city,1,True,Compared all duplicate-row values
+BR5416,id_schoolPPP,1,True,Compared all duplicate-row values
+BR5417,group,1,True,Compared all duplicate-row values
+BR5417,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR5417,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR5417,id_city,1,True,Compared all duplicate-row values
+BR5417,id_schoolPPP,1,True,Compared all duplicate-row values
+BR5418,group,1,True,Compared all duplicate-row values
+BR5418,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR5418,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR5418,id_city,1,True,Compared all duplicate-row values
+BR5418,id_schoolPPP,1,True,Compared all duplicate-row values
+BR5419,group,1,True,Compared all duplicate-row values
+BR5419,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR5419,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR5419,id_city,1,True,Compared all duplicate-row values
+BR5419,id_schoolPPP,1,True,Compared all duplicate-row values
+BR7301,group,1,True,Compared all duplicate-row values
+BR7301,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR7301,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR7301,id_city,1,True,Compared all duplicate-row values
+BR7301,id_schoolPPP,1,True,Compared all duplicate-row values
+BR7302,group,1,True,Compared all duplicate-row values
+BR7302,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR7302,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR7302,id_city,1,True,Compared all duplicate-row values
+BR7302,id_schoolPPP,1,True,Compared all duplicate-row values
+BR7303,group,1,True,Compared all duplicate-row values
+BR7303,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR7303,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR7303,id_city,1,True,Compared all duplicate-row values
+BR7303,id_schoolPPP,1,True,Compared all duplicate-row values
+BR7304,group,1,True,Compared all duplicate-row values
+BR7304,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR7304,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR7304,id_city,1,True,Compared all duplicate-row values
+BR7304,id_schoolPPP,1,True,Compared all duplicate-row values
+BR7305,group,1,True,Compared all duplicate-row values
+BR7305,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR7305,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR7305,id_city,1,True,Compared all duplicate-row values
+BR7305,id_schoolPPP,1,True,Compared all duplicate-row values
+BR7306,group,1,True,Compared all duplicate-row values
+BR7306,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR7306,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR7306,id_city,1,True,Compared all duplicate-row values
+BR7306,id_schoolPPP,1,True,Compared all duplicate-row values
+BR7308,group,1,True,Compared all duplicate-row values
+BR7308,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR7308,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR7308,id_city,1,True,Compared all duplicate-row values
+BR7308,id_schoolPPP,1,True,Compared all duplicate-row values
+BR7309,group,1,True,Compared all duplicate-row values
+BR7309,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR7309,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR7309,id_city,1,True,Compared all duplicate-row values
+BR7309,id_schoolPPP,1,True,Compared all duplicate-row values
+BR7310,group,1,True,Compared all duplicate-row values
+BR7310,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR7310,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR7310,id_city,1,True,Compared all duplicate-row values
+BR7310,id_schoolPPP,1,True,Compared all duplicate-row values
+BR7311,group,1,True,Compared all duplicate-row values
+BR7311,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR7311,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR7311,id_city,1,True,Compared all duplicate-row values
+BR7311,id_schoolPPP,1,True,Compared all duplicate-row values
+BR7312,group,1,True,Compared all duplicate-row values
+BR7312,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR7312,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR7312,id_city,1,True,Compared all duplicate-row values
+BR7312,id_schoolPPP,1,True,Compared all duplicate-row values
+BR7313,group,1,True,Compared all duplicate-row values
+BR7313,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR7313,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR7313,id_city,1,True,Compared all duplicate-row values
+BR7313,id_schoolPPP,1,True,Compared all duplicate-row values
+BR7314,group,1,True,Compared all duplicate-row values
+BR7314,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR7314,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR7314,id_city,1,True,Compared all duplicate-row values
+BR7314,id_schoolPPP,1,True,Compared all duplicate-row values
+BR7315,group,1,True,Compared all duplicate-row values
+BR7315,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR7315,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR7315,id_city,1,True,Compared all duplicate-row values
+BR7315,id_schoolPPP,1,True,Compared all duplicate-row values
+BR7316,group,1,True,Compared all duplicate-row values
+BR7316,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR7316,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR7316,id_city,1,True,Compared all duplicate-row values
+BR7316,id_schoolPPP,1,True,Compared all duplicate-row values
+BR7317,group,1,True,Compared all duplicate-row values
+BR7317,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR7317,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR7317,id_city,1,True,Compared all duplicate-row values
+BR7317,id_schoolPPP,1,True,Compared all duplicate-row values
+BR7318,group,1,True,Compared all duplicate-row values
+BR7318,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR7318,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR7318,id_city,1,True,Compared all duplicate-row values
+BR7318,id_schoolPPP,1,True,Compared all duplicate-row values
+BR7319,group,1,True,Compared all duplicate-row values
+BR7319,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR7319,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR7319,id_city,1,True,Compared all duplicate-row values
+BR7319,id_schoolPPP,1,True,Compared all duplicate-row values
+BR7320,group,1,True,Compared all duplicate-row values
+BR7320,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR7320,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR7320,id_city,1,True,Compared all duplicate-row values
+BR7320,id_schoolPPP,1,True,Compared all duplicate-row values
+BR7321,group,1,True,Compared all duplicate-row values
+BR7321,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR7321,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR7321,id_city,1,True,Compared all duplicate-row values
+BR7321,id_schoolPPP,1,True,Compared all duplicate-row values
+BR7322,group,1,True,Compared all duplicate-row values
+BR7322,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR7322,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR7322,id_city,1,True,Compared all duplicate-row values
+BR7322,id_schoolPPP,1,True,Compared all duplicate-row values
+BR7323,group,1,True,Compared all duplicate-row values
+BR7323,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR7323,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR7323,id_city,1,True,Compared all duplicate-row values
+BR7323,id_schoolPPP,1,True,Compared all duplicate-row values
+BR7324,group,1,True,Compared all duplicate-row values
+BR7324,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR7324,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR7324,id_city,1,True,Compared all duplicate-row values
+BR7324,id_schoolPPP,1,True,Compared all duplicate-row values
+BR7401,group,1,True,Compared all duplicate-row values
+BR7401,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR7401,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR7401,id_city,1,True,Compared all duplicate-row values
+BR7401,id_schoolPPP,1,True,Compared all duplicate-row values
+BR7402,group,1,True,Compared all duplicate-row values
+BR7402,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR7402,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR7402,id_city,1,True,Compared all duplicate-row values
+BR7402,id_schoolPPP,1,True,Compared all duplicate-row values
+BR7403,group,1,True,Compared all duplicate-row values
+BR7403,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR7403,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR7403,id_city,1,True,Compared all duplicate-row values
+BR7403,id_schoolPPP,1,True,Compared all duplicate-row values
+BR7404,group,1,True,Compared all duplicate-row values
+BR7404,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR7404,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR7404,id_city,1,True,Compared all duplicate-row values
+BR7404,id_schoolPPP,1,True,Compared all duplicate-row values
+BR7405,group,1,True,Compared all duplicate-row values
+BR7405,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR7405,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR7405,id_city,1,True,Compared all duplicate-row values
+BR7405,id_schoolPPP,1,True,Compared all duplicate-row values
+BR7406,group,1,True,Compared all duplicate-row values
+BR7406,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR7406,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR7406,id_city,1,True,Compared all duplicate-row values
+BR7406,id_schoolPPP,1,True,Compared all duplicate-row values
+BR7407,group,1,True,Compared all duplicate-row values
+BR7407,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR7407,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR7407,id_city,1,True,Compared all duplicate-row values
+BR7407,id_schoolPPP,1,True,Compared all duplicate-row values
+BR7408,group,1,True,Compared all duplicate-row values
+BR7408,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR7408,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR7408,id_city,1,True,Compared all duplicate-row values
+BR7408,id_schoolPPP,1,True,Compared all duplicate-row values
+BR7409,group,1,True,Compared all duplicate-row values
+BR7409,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR7409,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR7409,id_city,1,True,Compared all duplicate-row values
+BR7409,id_schoolPPP,1,True,Compared all duplicate-row values
+BR7410,group,1,True,Compared all duplicate-row values
+BR7410,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR7410,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR7410,id_city,1,True,Compared all duplicate-row values
+BR7410,id_schoolPPP,1,True,Compared all duplicate-row values
+BR7411,group,1,True,Compared all duplicate-row values
+BR7411,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR7411,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR7411,id_city,1,True,Compared all duplicate-row values
+BR7411,id_schoolPPP,1,True,Compared all duplicate-row values
+BR7412,group,1,True,Compared all duplicate-row values
+BR7412,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR7412,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR7412,id_city,1,True,Compared all duplicate-row values
+BR7412,id_schoolPPP,1,True,Compared all duplicate-row values
+BR8041,group,1,True,Compared all duplicate-row values
+BR8041,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR8041,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR8041,id_city,1,True,Compared all duplicate-row values
+BR8041,id_schoolPPP,1,True,Compared all duplicate-row values
+BR8042,group,1,True,Compared all duplicate-row values
+BR8042,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR8042,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR8042,id_city,1,True,Compared all duplicate-row values
+BR8042,id_schoolPPP,1,True,Compared all duplicate-row values
+BR8043,group,1,True,Compared all duplicate-row values
+BR8043,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR8043,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR8043,id_city,1,True,Compared all duplicate-row values
+BR8043,id_schoolPPP,1,True,Compared all duplicate-row values
+BR8044,group,1,True,Compared all duplicate-row values
+BR8044,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR8044,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR8044,id_city,1,True,Compared all duplicate-row values
+BR8044,id_schoolPPP,1,True,Compared all duplicate-row values
+BR8045,group,1,True,Compared all duplicate-row values
+BR8045,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR8045,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR8045,id_city,1,True,Compared all duplicate-row values
+BR8045,id_schoolPPP,1,True,Compared all duplicate-row values
+BR8046,group,1,True,Compared all duplicate-row values
+BR8046,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR8046,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR8046,id_city,1,True,Compared all duplicate-row values
+BR8046,id_schoolPPP,1,True,Compared all duplicate-row values
+BR8407,group,1,True,Compared all duplicate-row values
+BR8407,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR8407,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR8407,id_city,1,True,Compared all duplicate-row values
+BR8407,id_schoolPPP,1,True,Compared all duplicate-row values
+BR8408,group,1,True,Compared all duplicate-row values
+BR8408,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR8408,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR8408,id_city,1,True,Compared all duplicate-row values
+BR8408,id_schoolPPP,1,True,Compared all duplicate-row values
+BR8409,group,1,True,Compared all duplicate-row values
+BR8409,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR8409,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR8409,id_city,1,True,Compared all duplicate-row values
+BR8409,id_schoolPPP,1,True,Compared all duplicate-row values
+BR8410,group,1,True,Compared all duplicate-row values
+BR8410,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR8410,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR8410,id_city,1,True,Compared all duplicate-row values
+BR8410,id_schoolPPP,1,True,Compared all duplicate-row values
+BR8411,group,1,True,Compared all duplicate-row values
+BR8411,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR8411,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR8411,id_city,1,True,Compared all duplicate-row values
+BR8411,id_schoolPPP,1,True,Compared all duplicate-row values
+BR8412,group,1,True,Compared all duplicate-row values
+BR8412,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR8412,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR8412,id_city,1,True,Compared all duplicate-row values
+BR8412,id_schoolPPP,1,True,Compared all duplicate-row values
+BR8413,group,1,True,Compared all duplicate-row values
+BR8413,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR8413,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR8413,id_city,1,True,Compared all duplicate-row values
+BR8413,id_schoolPPP,1,True,Compared all duplicate-row values
+BR8414,group,1,True,Compared all duplicate-row values
+BR8414,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR8414,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR8414,id_city,1,True,Compared all duplicate-row values
+BR8414,id_schoolPPP,1,True,Compared all duplicate-row values
+BR8415,group,1,True,Compared all duplicate-row values
+BR8415,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR8415,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR8415,id_city,1,True,Compared all duplicate-row values
+BR8415,id_schoolPPP,1,True,Compared all duplicate-row values
+BR8416,group,1,True,Compared all duplicate-row values
+BR8416,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR8416,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR8416,id_city,1,True,Compared all duplicate-row values
+BR8416,id_schoolPPP,1,True,Compared all duplicate-row values
+BR8417,group,1,True,Compared all duplicate-row values
+BR8417,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+BR8417,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+BR8417,id_city,1,True,Compared all duplicate-row values
+BR8417,id_schoolPPP,1,True,Compared all duplicate-row values
+CH10309,group,1,True,Compared all duplicate-row values
+CH10309,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+CH10309,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+CH10309,id_city,1,True,Compared all duplicate-row values
+CH10309,id_schoolPPP,1,True,Compared all duplicate-row values
+CH10408,group,1,True,Compared all duplicate-row values
+CH10408,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+CH10408,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+CH10408,id_city,1,True,Compared all duplicate-row values
+CH10408,id_schoolPPP,1,True,Compared all duplicate-row values
+DK12305,group,1,True,Compared all duplicate-row values
+DK12305,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+DK12305,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+DK12305,id_city,1,True,Compared all duplicate-row values
+DK12305,id_schoolPPP,1,True,Compared all duplicate-row values
+DK12306,group,1,True,Compared all duplicate-row values
+DK12306,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+DK12306,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+DK12306,id_city,1,True,Compared all duplicate-row values
+DK12306,id_schoolPPP,1,True,Compared all duplicate-row values
+DK12307,group,1,True,Compared all duplicate-row values
+DK12307,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+DK12307,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+DK12307,id_city,1,True,Compared all duplicate-row values
+DK12307,id_schoolPPP,1,True,Compared all duplicate-row values
+DK12308,group,1,True,Compared all duplicate-row values
+DK12308,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+DK12308,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+DK12308,id_city,1,True,Compared all duplicate-row values
+DK12308,id_schoolPPP,1,True,Compared all duplicate-row values
+DK12401,group,1,True,Compared all duplicate-row values
+DK12401,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+DK12401,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+DK12401,id_city,1,True,Compared all duplicate-row values
+DK12401,id_schoolPPP,1,True,Compared all duplicate-row values
+DK12402,group,1,True,Compared all duplicate-row values
+DK12402,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+DK12402,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+DK12402,id_city,1,True,Compared all duplicate-row values
+DK12402,id_schoolPPP,1,True,Compared all duplicate-row values
+DK12403,group,1,True,Compared all duplicate-row values
+DK12403,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+DK12403,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+DK12403,id_city,1,True,Compared all duplicate-row values
+DK12403,id_schoolPPP,1,True,Compared all duplicate-row values
+DK12404,group,1,True,Compared all duplicate-row values
+DK12404,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+DK12404,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+DK12404,id_city,1,True,Compared all duplicate-row values
+DK12404,id_schoolPPP,1,True,Compared all duplicate-row values
+HK01401,group,1,False,Compared all duplicate-row values
+HK01401,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK01401,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK01401,id_city,1,True,Compared all duplicate-row values
+HK01401,id_schoolPPP,1,True,Compared all duplicate-row values
+HK01402,group,1,True,Compared all duplicate-row values
+HK01402,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK01402,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK01402,id_city,1,True,Compared all duplicate-row values
+HK01402,id_schoolPPP,1,True,Compared all duplicate-row values
+HK01403,group,1,True,Compared all duplicate-row values
+HK01403,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK01403,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK01403,id_city,1,True,Compared all duplicate-row values
+HK01403,id_schoolPPP,1,True,Compared all duplicate-row values
+HK01404,group,1,True,Compared all duplicate-row values
+HK01404,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK01404,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK01404,id_city,1,True,Compared all duplicate-row values
+HK01404,id_schoolPPP,1,True,Compared all duplicate-row values
+HK01405,group,1,True,Compared all duplicate-row values
+HK01405,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK01405,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK01405,id_city,1,True,Compared all duplicate-row values
+HK01405,id_schoolPPP,1,True,Compared all duplicate-row values
+HK01407,group,1,True,Compared all duplicate-row values
+HK01407,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK01407,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK01407,id_city,1,True,Compared all duplicate-row values
+HK01407,id_schoolPPP,1,True,Compared all duplicate-row values
+HK01408,group,1,True,Compared all duplicate-row values
+HK01408,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK01408,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK01408,id_city,1,True,Compared all duplicate-row values
+HK01408,id_schoolPPP,1,True,Compared all duplicate-row values
+HK01412,group,1,True,Compared all duplicate-row values
+HK01412,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK01412,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK01412,id_city,1,True,Compared all duplicate-row values
+HK01412,id_schoolPPP,1,True,Compared all duplicate-row values
+HK02301,group,1,True,Compared all duplicate-row values
+HK02301,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK02301,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK02301,id_city,1,True,Compared all duplicate-row values
+HK02301,id_schoolPPP,1,True,Compared all duplicate-row values
+HK02402,group,1,True,Compared all duplicate-row values
+HK02402,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK02402,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK02402,id_city,1,True,Compared all duplicate-row values
+HK02402,id_schoolPPP,1,True,Compared all duplicate-row values
+HK03304,group,1,True,Compared all duplicate-row values
+HK03304,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK03304,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK03304,id_city,1,True,Compared all duplicate-row values
+HK03304,id_schoolPPP,1,True,Compared all duplicate-row values
+HK03401,group,1,True,Compared all duplicate-row values
+HK03401,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK03401,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK03401,id_city,1,True,Compared all duplicate-row values
+HK03401,id_schoolPPP,1,True,Compared all duplicate-row values
+HK03402,group,1,True,Compared all duplicate-row values
+HK03402,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK03402,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK03402,id_city,1,True,Compared all duplicate-row values
+HK03402,id_schoolPPP,1,True,Compared all duplicate-row values
+HK05305,group,1,True,Compared all duplicate-row values
+HK05305,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK05305,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK05305,id_city,1,True,Compared all duplicate-row values
+HK05305,id_schoolPPP,1,True,Compared all duplicate-row values
+HK05308,group,1,True,Compared all duplicate-row values
+HK05308,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK05308,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK05308,id_city,1,True,Compared all duplicate-row values
+HK05308,id_schoolPPP,1,True,Compared all duplicate-row values
+HK05401,group,1,True,Compared all duplicate-row values
+HK05401,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK05401,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK05401,id_city,1,True,Compared all duplicate-row values
+HK05401,id_schoolPPP,1,True,Compared all duplicate-row values
+HK05402,group,1,True,Compared all duplicate-row values
+HK05402,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK05402,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK05402,id_city,1,True,Compared all duplicate-row values
+HK05402,id_schoolPPP,1,True,Compared all duplicate-row values
+HK05403,group,1,True,Compared all duplicate-row values
+HK05403,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK05403,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK05403,id_city,1,True,Compared all duplicate-row values
+HK05403,id_schoolPPP,1,True,Compared all duplicate-row values
+HK05404,group,1,True,Compared all duplicate-row values
+HK05404,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK05404,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK05404,id_city,1,True,Compared all duplicate-row values
+HK05404,id_schoolPPP,1,True,Compared all duplicate-row values
+HK05406,group,1,True,Compared all duplicate-row values
+HK05406,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK05406,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK05406,id_city,1,True,Compared all duplicate-row values
+HK05406,id_schoolPPP,1,True,Compared all duplicate-row values
+HK05407,group,1,True,Compared all duplicate-row values
+HK05407,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK05407,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK05407,id_city,1,True,Compared all duplicate-row values
+HK05407,id_schoolPPP,1,True,Compared all duplicate-row values
+HK11301,group,1,True,Compared all duplicate-row values
+HK11301,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK11301,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK11301,id_city,1,True,Compared all duplicate-row values
+HK11301,id_schoolPPP,1,True,Compared all duplicate-row values
+HK11302,group,1,True,Compared all duplicate-row values
+HK11302,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK11302,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK11302,id_city,1,True,Compared all duplicate-row values
+HK11302,id_schoolPPP,1,True,Compared all duplicate-row values
+HK11306,group,1,True,Compared all duplicate-row values
+HK11306,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK11306,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK11306,id_city,1,True,Compared all duplicate-row values
+HK11306,id_schoolPPP,1,True,Compared all duplicate-row values
+HK11307,group,1,True,Compared all duplicate-row values
+HK11307,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK11307,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK11307,id_city,1,True,Compared all duplicate-row values
+HK11307,id_schoolPPP,1,True,Compared all duplicate-row values
+HK11309,group,1,True,Compared all duplicate-row values
+HK11309,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK11309,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK11309,id_city,1,True,Compared all duplicate-row values
+HK11309,id_schoolPPP,1,True,Compared all duplicate-row values
+HK11310,group,1,True,Compared all duplicate-row values
+HK11310,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK11310,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK11310,id_city,1,True,Compared all duplicate-row values
+HK11310,id_schoolPPP,1,True,Compared all duplicate-row values
+HK11313,group,1,True,Compared all duplicate-row values
+HK11313,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK11313,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK11313,id_city,1,True,Compared all duplicate-row values
+HK11313,id_schoolPPP,1,True,Compared all duplicate-row values
+HK11317,group,1,True,Compared all duplicate-row values
+HK11317,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK11317,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK11317,id_city,1,True,Compared all duplicate-row values
+HK11317,id_schoolPPP,1,True,Compared all duplicate-row values
+HK11403,group,1,True,Compared all duplicate-row values
+HK11403,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK11403,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK11403,id_city,1,True,Compared all duplicate-row values
+HK11403,id_schoolPPP,1,True,Compared all duplicate-row values
+HK11404,group,1,True,Compared all duplicate-row values
+HK11404,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK11404,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK11404,id_city,1,True,Compared all duplicate-row values
+HK11404,id_schoolPPP,1,True,Compared all duplicate-row values
+HK11405,group,1,True,Compared all duplicate-row values
+HK11405,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK11405,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK11405,id_city,1,True,Compared all duplicate-row values
+HK11405,id_schoolPPP,1,True,Compared all duplicate-row values
+HK11408,group,1,True,Compared all duplicate-row values
+HK11408,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK11408,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK11408,id_city,1,True,Compared all duplicate-row values
+HK11408,id_schoolPPP,1,True,Compared all duplicate-row values
+HK11411,group,1,True,Compared all duplicate-row values
+HK11411,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK11411,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK11411,id_city,1,True,Compared all duplicate-row values
+HK11411,id_schoolPPP,1,True,Compared all duplicate-row values
+HK11412,group,1,True,Compared all duplicate-row values
+HK11412,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK11412,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK11412,id_city,1,True,Compared all duplicate-row values
+HK11412,id_schoolPPP,1,True,Compared all duplicate-row values
+HK11414,group,1,True,Compared all duplicate-row values
+HK11414,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK11414,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK11414,id_city,1,True,Compared all duplicate-row values
+HK11414,id_schoolPPP,1,True,Compared all duplicate-row values
+HK11415,group,1,True,Compared all duplicate-row values
+HK11415,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK11415,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK11415,id_city,1,True,Compared all duplicate-row values
+HK11415,id_schoolPPP,1,True,Compared all duplicate-row values
+HK11416,group,1,True,Compared all duplicate-row values
+HK11416,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK11416,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK11416,id_city,1,True,Compared all duplicate-row values
+HK11416,id_schoolPPP,1,True,Compared all duplicate-row values
+HK12304,group,1,True,Compared all duplicate-row values
+HK12304,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK12304,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK12304,id_city,1,True,Compared all duplicate-row values
+HK12304,id_schoolPPP,1,True,Compared all duplicate-row values
+HK12305,group,1,True,Compared all duplicate-row values
+HK12305,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK12305,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK12305,id_city,1,True,Compared all duplicate-row values
+HK12305,id_schoolPPP,1,True,Compared all duplicate-row values
+HK12310,group,1,True,Compared all duplicate-row values
+HK12310,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK12310,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK12310,id_city,1,True,Compared all duplicate-row values
+HK12310,id_schoolPPP,1,True,Compared all duplicate-row values
+HK12311,group,1,True,Compared all duplicate-row values
+HK12311,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK12311,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK12311,id_city,1,True,Compared all duplicate-row values
+HK12311,id_schoolPPP,1,True,Compared all duplicate-row values
+HK12312,group,1,True,Compared all duplicate-row values
+HK12312,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK12312,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK12312,id_city,1,True,Compared all duplicate-row values
+HK12312,id_schoolPPP,1,True,Compared all duplicate-row values
+HK12313,group,1,True,Compared all duplicate-row values
+HK12313,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK12313,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK12313,id_city,1,True,Compared all duplicate-row values
+HK12313,id_schoolPPP,1,True,Compared all duplicate-row values
+HK12314,group,1,True,Compared all duplicate-row values
+HK12314,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK12314,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK12314,id_city,1,True,Compared all duplicate-row values
+HK12314,id_schoolPPP,1,True,Compared all duplicate-row values
+HK12316,group,1,True,Compared all duplicate-row values
+HK12316,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK12316,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK12316,id_city,1,True,Compared all duplicate-row values
+HK12316,id_schoolPPP,1,True,Compared all duplicate-row values
+HK12401,group,1,True,Compared all duplicate-row values
+HK12401,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK12401,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK12401,id_city,1,True,Compared all duplicate-row values
+HK12401,id_schoolPPP,1,True,Compared all duplicate-row values
+HK12402,group,1,True,Compared all duplicate-row values
+HK12402,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK12402,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK12402,id_city,1,True,Compared all duplicate-row values
+HK12402,id_schoolPPP,1,True,Compared all duplicate-row values
+HK12403,group,1,True,Compared all duplicate-row values
+HK12403,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK12403,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK12403,id_city,1,True,Compared all duplicate-row values
+HK12403,id_schoolPPP,1,True,Compared all duplicate-row values
+HK12406,group,1,True,Compared all duplicate-row values
+HK12406,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK12406,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK12406,id_city,1,True,Compared all duplicate-row values
+HK12406,id_schoolPPP,1,True,Compared all duplicate-row values
+HK12409,group,1,True,Compared all duplicate-row values
+HK12409,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK12409,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK12409,id_city,1,True,Compared all duplicate-row values
+HK12409,id_schoolPPP,1,True,Compared all duplicate-row values
+HK12415,group,1,True,Compared all duplicate-row values
+HK12415,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK12415,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK12415,id_city,1,True,Compared all duplicate-row values
+HK12415,id_schoolPPP,1,True,Compared all duplicate-row values
+HK14407,group,1,True,Compared all duplicate-row values
+HK14407,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK14407,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK14407,id_city,1,True,Compared all duplicate-row values
+HK14407,id_schoolPPP,1,True,Compared all duplicate-row values
+HK14408,group,1,True,Compared all duplicate-row values
+HK14408,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+HK14408,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+HK14408,id_city,1,True,Compared all duplicate-row values
+HK14408,id_schoolPPP,1,True,Compared all duplicate-row values
+JI02302,group,1,False,Compared all duplicate-row values
+JI02302,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+JI02302,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+JI02302,id_city,1,True,Compared all duplicate-row values
+JI02302,id_schoolPPP,1,True,Compared all duplicate-row values
+JI02401,group,1,True,Compared all duplicate-row values
+JI02401,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+JI02401,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+JI02401,id_city,1,True,Compared all duplicate-row values
+JI02401,id_schoolPPP,1,True,Compared all duplicate-row values
+JI02403,group,1,True,Compared all duplicate-row values
+JI02403,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+JI02403,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+JI02403,id_city,1,True,Compared all duplicate-row values
+JI02403,id_schoolPPP,1,True,Compared all duplicate-row values
+JI02404,group,1,True,Compared all duplicate-row values
+JI02404,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+JI02404,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+JI02404,id_city,1,True,Compared all duplicate-row values
+JI02404,id_schoolPPP,1,True,Compared all duplicate-row values
+JI05305,group,1,True,Compared all duplicate-row values
+JI05305,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+JI05305,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+JI05305,id_city,1,True,Compared all duplicate-row values
+JI05305,id_schoolPPP,1,True,Compared all duplicate-row values
+JI05401,group,1,True,Compared all duplicate-row values
+JI05401,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+JI05401,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+JI05401,id_city,1,True,Compared all duplicate-row values
+JI05401,id_schoolPPP,1,True,Compared all duplicate-row values
+JI05402,group,1,True,Compared all duplicate-row values
+JI05402,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+JI05402,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+JI05402,id_city,1,True,Compared all duplicate-row values
+JI05402,id_schoolPPP,1,True,Compared all duplicate-row values
+JI05403,group,1,True,Compared all duplicate-row values
+JI05403,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+JI05403,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+JI05403,id_city,1,True,Compared all duplicate-row values
+JI05403,id_schoolPPP,1,True,Compared all duplicate-row values
+JI05404,group,1,True,Compared all duplicate-row values
+JI05404,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+JI05404,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+JI05404,id_city,1,True,Compared all duplicate-row values
+JI05404,id_schoolPPP,1,True,Compared all duplicate-row values
+JI05406,group,1,True,Compared all duplicate-row values
+JI05406,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+JI05406,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+JI05406,id_city,1,True,Compared all duplicate-row values
+JI05406,id_schoolPPP,1,True,Compared all duplicate-row values
+JN07405,group,1,True,Compared all duplicate-row values
+JN07405,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+JN07405,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+JN07405,id_city,1,True,Compared all duplicate-row values
+JN07405,id_schoolPPP,1,True,Compared all duplicate-row values
+JN07406,group,1,True,Compared all duplicate-row values
+JN07406,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+JN07406,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+JN07406,id_city,1,True,Compared all duplicate-row values
+JN07406,id_schoolPPP,1,True,Compared all duplicate-row values
+JN07407,group,1,True,Compared all duplicate-row values
+JN07407,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+JN07407,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+JN07407,id_city,1,True,Compared all duplicate-row values
+JN07407,id_schoolPPP,1,True,Compared all duplicate-row values
+JN07408,group,1,True,Compared all duplicate-row values
+JN07408,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+JN07408,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+JN07408,id_city,1,True,Compared all duplicate-row values
+JN07408,id_schoolPPP,1,True,Compared all duplicate-row values
+JN07409,group,1,True,Compared all duplicate-row values
+JN07409,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+JN07409,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+JN07409,id_city,1,True,Compared all duplicate-row values
+JN07409,id_schoolPPP,1,True,Compared all duplicate-row values
+MB07301,group,1,True,Compared all duplicate-row values
+MB07301,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+MB07301,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+MB07301,id_city,1,True,Compared all duplicate-row values
+MB07301,id_schoolPPP,1,True,Compared all duplicate-row values
+MB07302,group,1,True,Compared all duplicate-row values
+MB07302,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+MB07302,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+MB07302,id_city,1,True,Compared all duplicate-row values
+MB07302,id_schoolPPP,1,True,Compared all duplicate-row values
+MB07403,group,1,True,Compared all duplicate-row values
+MB07403,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+MB07403,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+MB07403,id_city,1,True,Compared all duplicate-row values
+MB07403,id_schoolPPP,1,True,Compared all duplicate-row values
+MB07404,group,1,True,Compared all duplicate-row values
+MB07404,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+MB07404,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+MB07404,id_city,1,True,Compared all duplicate-row values
+MB07404,id_schoolPPP,1,True,Compared all duplicate-row values
+MB09301,group,1,True,Compared all duplicate-row values
+MB09301,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+MB09301,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+MB09301,id_city,1,True,Compared all duplicate-row values
+MB09301,id_schoolPPP,1,True,Compared all duplicate-row values
+MB09302,group,1,True,Compared all duplicate-row values
+MB09302,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+MB09302,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+MB09302,id_city,1,True,Compared all duplicate-row values
+MB09302,id_schoolPPP,1,True,Compared all duplicate-row values
+MB09303,group,1,True,Compared all duplicate-row values
+MB09303,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+MB09303,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+MB09303,id_city,1,True,Compared all duplicate-row values
+MB09303,id_schoolPPP,1,True,Compared all duplicate-row values
+MB09304,group,1,True,Compared all duplicate-row values
+MB09304,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+MB09304,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+MB09304,id_city,1,True,Compared all duplicate-row values
+MB09304,id_schoolPPP,1,True,Compared all duplicate-row values
+MB09305,group,1,True,Compared all duplicate-row values
+MB09305,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+MB09305,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+MB09305,id_city,1,True,Compared all duplicate-row values
+MB09305,id_schoolPPP,1,True,Compared all duplicate-row values
+MB09308,group,1,True,Compared all duplicate-row values
+MB09308,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+MB09308,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+MB09308,id_city,1,True,Compared all duplicate-row values
+MB09308,id_schoolPPP,1,True,Compared all duplicate-row values
+MB09406,group,1,True,Compared all duplicate-row values
+MB09406,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+MB09406,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+MB09406,id_city,1,True,Compared all duplicate-row values
+MB09406,id_schoolPPP,1,True,Compared all duplicate-row values
+MB09407,group,1,True,Compared all duplicate-row values
+MB09407,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+MB09407,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+MB09407,id_city,1,True,Compared all duplicate-row values
+MB09407,id_schoolPPP,1,True,Compared all duplicate-row values
+MB09409,group,1,True,Compared all duplicate-row values
+MB09409,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+MB09409,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+MB09409,id_city,1,True,Compared all duplicate-row values
+MB09409,id_schoolPPP,1,True,Compared all duplicate-row values
+ME09401,group,1,True,Compared all duplicate-row values
+ME09401,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+ME09401,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+ME09401,id_city,1,True,Compared all duplicate-row values
+ME09401,id_schoolPPP,1,True,Compared all duplicate-row values
+ME09402,group,1,True,Compared all duplicate-row values
+ME09402,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+ME09402,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+ME09402,id_city,1,True,Compared all duplicate-row values
+ME09402,id_schoolPPP,1,True,Compared all duplicate-row values
+NA03401,group,1,True,Compared all duplicate-row values
+NA03401,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+NA03401,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+NA03401,id_city,1,True,Compared all duplicate-row values
+NA03401,id_schoolPPP,1,True,Compared all duplicate-row values
+NA03403,group,1,True,Compared all duplicate-row values
+NA03403,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+NA03403,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+NA03403,id_city,1,True,Compared all duplicate-row values
+NA03403,id_schoolPPP,1,True,Compared all duplicate-row values
+NA06303,group,1,True,Compared all duplicate-row values
+NA06303,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+NA06303,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+NA06303,id_city,1,True,Compared all duplicate-row values
+NA06303,id_schoolPPP,1,True,Compared all duplicate-row values
+NA06306,group,1,True,Compared all duplicate-row values
+NA06306,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+NA06306,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+NA06306,id_city,1,True,Compared all duplicate-row values
+NA06306,id_schoolPPP,1,True,Compared all duplicate-row values
+NA06307,group,1,True,Compared all duplicate-row values
+NA06307,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+NA06307,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+NA06307,id_city,1,True,Compared all duplicate-row values
+NA06307,id_schoolPPP,1,True,Compared all duplicate-row values
+NA06401,group,1,True,Compared all duplicate-row values
+NA06401,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+NA06401,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+NA06401,id_city,1,True,Compared all duplicate-row values
+NA06401,id_schoolPPP,1,True,Compared all duplicate-row values
+NA06402,group,1,True,Compared all duplicate-row values
+NA06402,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+NA06402,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+NA06402,id_city,1,True,Compared all duplicate-row values
+NA06402,id_schoolPPP,1,True,Compared all duplicate-row values
+NA06404,group,1,True,Compared all duplicate-row values
+NA06404,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+NA06404,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+NA06404,id_city,1,True,Compared all duplicate-row values
+NA06404,id_schoolPPP,1,True,Compared all duplicate-row values
+NA06405,group,1,True,Compared all duplicate-row values
+NA06405,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+NA06405,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+NA06405,id_city,1,True,Compared all duplicate-row values
+NA06405,id_schoolPPP,1,True,Compared all duplicate-row values
+NB05301,group,1,True,Compared all duplicate-row values
+NB05301,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+NB05301,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+NB05301,id_city,1,True,Compared all duplicate-row values
+NB05301,id_schoolPPP,1,True,Compared all duplicate-row values
+NB05302,group,1,True,Compared all duplicate-row values
+NB05302,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+NB05302,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+NB05302,id_city,1,True,Compared all duplicate-row values
+NB05302,id_schoolPPP,1,True,Compared all duplicate-row values
+NB05303,group,1,True,Compared all duplicate-row values
+NB05303,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+NB05303,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+NB05303,id_city,1,True,Compared all duplicate-row values
+NB05303,id_schoolPPP,1,True,Compared all duplicate-row values
+NB05405,group,1,True,Compared all duplicate-row values
+NB05405,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+NB05405,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+NB05405,id_city,1,True,Compared all duplicate-row values
+NB05405,id_schoolPPP,1,True,Compared all duplicate-row values
+NB05406,group,1,True,Compared all duplicate-row values
+NB05406,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+NB05406,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+NB05406,id_city,1,True,Compared all duplicate-row values
+NB05406,id_schoolPPP,1,True,Compared all duplicate-row values
+NB05407,group,1,True,Compared all duplicate-row values
+NB05407,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+NB05407,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+NB05407,id_city,1,True,Compared all duplicate-row values
+NB05407,id_schoolPPP,1,True,Compared all duplicate-row values
+RK03303,group,1,True,Compared all duplicate-row values
+RK03303,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+RK03303,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+RK03303,id_city,1,True,Compared all duplicate-row values
+RK03303,id_schoolPPP,1,True,Compared all duplicate-row values
+RK03306,group,1,True,Compared all duplicate-row values
+RK03306,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+RK03306,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+RK03306,id_city,1,True,Compared all duplicate-row values
+RK03306,id_schoolPPP,1,True,Compared all duplicate-row values
+RK03401,group,1,True,Compared all duplicate-row values
+RK03401,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+RK03401,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+RK03401,id_city,1,True,Compared all duplicate-row values
+RK03401,id_schoolPPP,1,True,Compared all duplicate-row values
+RK03402,group,1,True,Compared all duplicate-row values
+RK03402,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+RK03402,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+RK03402,id_city,1,True,Compared all duplicate-row values
+RK03402,id_schoolPPP,1,True,Compared all duplicate-row values
+RK03404,group,1,False,Compared all duplicate-row values
+RK03404,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+RK03404,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+RK03404,id_city,1,True,Compared all duplicate-row values
+RK03404,id_schoolPPP,1,True,Compared all duplicate-row values
+RK03405,group,1,True,Compared all duplicate-row values
+RK03405,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+RK03405,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+RK03405,id_city,1,True,Compared all duplicate-row values
+RK03405,id_schoolPPP,1,True,Compared all duplicate-row values
+RK06302,group,1,True,Compared all duplicate-row values
+RK06302,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+RK06302,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+RK06302,id_city,1,True,Compared all duplicate-row values
+RK06302,id_schoolPPP,1,True,Compared all duplicate-row values
+RK06303,group,1,True,Compared all duplicate-row values
+RK06303,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+RK06303,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+RK06303,id_city,1,True,Compared all duplicate-row values
+RK06303,id_schoolPPP,1,True,Compared all duplicate-row values
+RK06304,group,1,True,Compared all duplicate-row values
+RK06304,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+RK06304,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+RK06304,id_city,1,True,Compared all duplicate-row values
+RK06304,id_schoolPPP,1,True,Compared all duplicate-row values
+RK06306,group,1,True,Compared all duplicate-row values
+RK06306,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+RK06306,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+RK06306,id_city,1,True,Compared all duplicate-row values
+RK06306,id_schoolPPP,1,True,Compared all duplicate-row values
+RK06401,group,1,True,Compared all duplicate-row values
+RK06401,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+RK06401,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+RK06401,id_city,1,True,Compared all duplicate-row values
+RK06401,id_schoolPPP,1,True,Compared all duplicate-row values
+RK06405,group,1,True,Compared all duplicate-row values
+RK06405,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+RK06405,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+RK06405,id_city,1,True,Compared all duplicate-row values
+RK06405,id_schoolPPP,1,True,Compared all duplicate-row values
+SO01302,group,1,True,Compared all duplicate-row values
+SO01302,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+SO01302,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+SO01302,id_city,1,True,Compared all duplicate-row values
+SO01302,id_schoolPPP,1,True,Compared all duplicate-row values
+SO01305,group,1,True,Compared all duplicate-row values
+SO01305,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+SO01305,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+SO01305,id_city,1,True,Compared all duplicate-row values
+SO01305,id_schoolPPP,1,True,Compared all duplicate-row values
+SO01306,group,1,True,Compared all duplicate-row values
+SO01306,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+SO01306,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+SO01306,id_city,1,True,Compared all duplicate-row values
+SO01306,id_schoolPPP,1,True,Compared all duplicate-row values
+SO01401,group,1,True,Compared all duplicate-row values
+SO01401,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+SO01401,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+SO01401,id_city,1,True,Compared all duplicate-row values
+SO01401,id_schoolPPP,1,True,Compared all duplicate-row values
+SO01403,group,1,True,Compared all duplicate-row values
+SO01403,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+SO01403,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+SO01403,id_city,1,True,Compared all duplicate-row values
+SO01403,id_schoolPPP,1,True,Compared all duplicate-row values
+SO01404,group,1,True,Compared all duplicate-row values
+SO01404,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+SO01404,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+SO01404,id_city,1,True,Compared all duplicate-row values
+SO01404,id_schoolPPP,1,True,Compared all duplicate-row values
+SO01407,group,1,True,Compared all duplicate-row values
+SO01407,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+SO01407,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+SO01407,id_city,1,True,Compared all duplicate-row values
+SO01407,id_schoolPPP,1,True,Compared all duplicate-row values
+TL10305,group,1,True,Compared all duplicate-row values
+TL10305,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+TL10305,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+TL10305,id_city,1,True,Compared all duplicate-row values
+TL10305,id_schoolPPP,1,True,Compared all duplicate-row values
+TL10306,group,1,True,Compared all duplicate-row values
+TL10306,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+TL10306,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+TL10306,id_city,1,True,Compared all duplicate-row values
+TL10306,id_schoolPPP,1,True,Compared all duplicate-row values
+TL10401,group,1,True,Compared all duplicate-row values
+TL10401,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+TL10401,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+TL10401,id_city,1,True,Compared all duplicate-row values
+TL10401,id_schoolPPP,1,True,Compared all duplicate-row values
+TL10402,group,1,True,Compared all duplicate-row values
+TL10402,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+TL10402,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+TL10402,id_city,1,True,Compared all duplicate-row values
+TL10402,id_schoolPPP,1,True,Compared all duplicate-row values
+TL10403,group,1,True,Compared all duplicate-row values
+TL10403,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+TL10403,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+TL10403,id_city,1,True,Compared all duplicate-row values
+TL10403,id_schoolPPP,1,True,Compared all duplicate-row values
+TL10404,group,1,True,Compared all duplicate-row values
+TL10404,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+TL10404,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+TL10404,id_city,1,True,Compared all duplicate-row values
+TL10404,id_schoolPPP,1,True,Compared all duplicate-row values
+TL10407,group,1,True,Compared all duplicate-row values
+TL10407,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+TL10407,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+TL10407,id_city,1,True,Compared all duplicate-row values
+TL10407,id_schoolPPP,1,True,Compared all duplicate-row values
+TU03302,group,1,True,Compared all duplicate-row values
+TU03302,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+TU03302,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+TU03302,id_city,1,True,Compared all duplicate-row values
+TU03302,id_schoolPPP,1,True,Compared all duplicate-row values
+TU03401,group,1,False,Compared all duplicate-row values
+TU03401,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+TU03401,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+TU03401,id_city,1,True,Compared all duplicate-row values
+TU03401,id_schoolPPP,1,True,Compared all duplicate-row values
+TU03403,group,1,True,Compared all duplicate-row values
+TU03403,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+TU03403,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+TU03403,id_city,1,True,Compared all duplicate-row values
+TU03403,id_schoolPPP,1,True,Compared all duplicate-row values
+TU03404,group,1,True,Compared all duplicate-row values
+TU03404,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+TU03404,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+TU03404,id_city,1,True,Compared all duplicate-row values
+TU03404,id_schoolPPP,1,True,Compared all duplicate-row values
+TU03405,group,1,True,Compared all duplicate-row values
+TU03405,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+TU03405,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+TU03405,id_city,1,True,Compared all duplicate-row values
+TU03405,id_schoolPPP,1,True,Compared all duplicate-row values
+TU03406,group,1,True,Compared all duplicate-row values
+TU03406,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+TU03406,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+TU03406,id_city,1,True,Compared all duplicate-row values
+TU03406,id_schoolPPP,1,True,Compared all duplicate-row values
+TU03407,group,1,True,Compared all duplicate-row values
+TU03407,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+TU03407,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+TU03407,id_city,1,True,Compared all duplicate-row values
+TU03407,id_schoolPPP,1,True,Compared all duplicate-row values
+TU03408,group,1,True,Compared all duplicate-row values
+TU03408,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+TU03408,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+TU03408,id_city,1,True,Compared all duplicate-row values
+TU03408,id_schoolPPP,1,True,Compared all duplicate-row values
+TU03409,group,1,False,Compared all duplicate-row values
+TU03409,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+TU03409,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+TU03409,id_city,1,True,Compared all duplicate-row values
+TU03409,id_schoolPPP,1,True,Compared all duplicate-row values
+TU03410,group,1,True,Compared all duplicate-row values
+TU03410,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+TU03410,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+TU03410,id_city,1,True,Compared all duplicate-row values
+TU03410,id_schoolPPP,1,True,Compared all duplicate-row values
+VV10301,group,1,True,Compared all duplicate-row values
+VV10301,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+VV10301,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+VV10301,id_city,1,True,Compared all duplicate-row values
+VV10301,id_schoolPPP,1,True,Compared all duplicate-row values
+VV10302,group,1,True,Compared all duplicate-row values
+VV10302,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+VV10302,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+VV10302,id_city,1,True,Compared all duplicate-row values
+VV10302,id_schoolPPP,1,True,Compared all duplicate-row values
+VV10303,group,1,True,Compared all duplicate-row values
+VV10303,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+VV10303,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+VV10303,id_city,1,True,Compared all duplicate-row values
+VV10303,id_schoolPPP,1,True,Compared all duplicate-row values
+VV10304,group,1,True,Compared all duplicate-row values
+VV10304,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+VV10304,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+VV10304,id_city,1,True,Compared all duplicate-row values
+VV10304,id_schoolPPP,1,True,Compared all duplicate-row values
+VV10401,group,1,True,Compared all duplicate-row values
+VV10401,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+VV10401,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+VV10401,id_city,1,True,Compared all duplicate-row values
+VV10401,id_schoolPPP,1,True,Compared all duplicate-row values
+VV10402,group,1,True,Compared all duplicate-row values
+VV10402,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+VV10402,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+VV10402,id_city,1,True,Compared all duplicate-row values
+VV10402,id_schoolPPP,1,True,Compared all duplicate-row values
+VV10403,group,1,True,Compared all duplicate-row values
+VV10403,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+VV10403,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+VV10403,id_city,1,True,Compared all duplicate-row values
+VV10403,id_schoolPPP,1,True,Compared all duplicate-row values
+VV10404,group,1,True,Compared all duplicate-row values
+VV10404,special_care_type_dysgraphia,1,True,Compared all duplicate-row values
+VV10404,flag_to_omit_total,0,,UNVERIFIABLE: field absent from raw CSV
+VV10404,id_city,1,True,Compared all duplicate-row values
+VV10404,id_schoolPPP,1,True,Compared all duplicate-row values

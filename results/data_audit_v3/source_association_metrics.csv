@@ -1,0 +1,5 @@
+field,n,categories,mixed_sources,single_class_sources,label_purity,cramers_v,chi_square,chi_square_asymptotic_p,expected_cells_lt5,expected_cells,sparse_table,permutation_p,permutations,inference
+id_city,258,15,1,14,0.9728682170542635,0.9468265778967743,231.29198670182282,2.0891011280848623e-41,23,30,True,0.001,999,"Participant exchangeability association diagnostic, not causal; clustering/source selection not eliminated"
+id_school_ppp,258,35,4,31,0.9728682170542635,0.9572497851186803,236.412404986318,3.696885591705604e-32,56,70,True,0.001,999,"Participant exchangeability association diagnostic, not causal; clustering/source selection not eliminated"
+site_type_ppp,258,2,1,1,0.6550387596899225,0.4613841782443167,54.92184286301932,1.2541936494501777e-13,0,4,False,0.001,999,"Participant exchangeability association diagnostic, not causal; clustering/source selection not eliminated"
+date_of_administration,258,7,6,1,0.8255813953488372,0.6714029346904737,116.301730383433,9.736804373901698e-23,4,14,True,0.001,999,"Participant exchangeability association diagnostic, not causal; clustering/source selection not eliminated"

@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "participants": 258,
+  "all_fold_and_label_joins_exact": true,
+  "all_metrics_match_previous_reports": true,
+  "model_training": false,
+  "calibration_fit": false,
+  "threshold_tuning": false,
+  "task_attribution_identifiable_from_participant_OOF": false,
+  "checkpoint_replay": "OOF arithmetic/logit/metrics replay only; saved checkpoints hash-checked; no fresh network inference",
+  "clinical_validation": false,
+  "source_independent_validation": false
+}

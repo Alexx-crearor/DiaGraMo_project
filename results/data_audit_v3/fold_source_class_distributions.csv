@@ -1,0 +1,594 @@
+field,fold,role,source,n,group0,group1
+id_city,0,Train,city1,99,95,4
+id_city,0,Train,city10,3,0,3
+id_city,0,Train,city11,9,0,9
+id_city,0,Train,city12,5,0,5
+id_city,0,Train,city13,5,0,5
+id_city,0,Train,city14,8,0,8
+id_city,0,Train,city15,6,0,6
+id_city,0,Train,city2,1,0,1
+id_city,0,Train,city3,6,0,6
+id_city,0,Train,city4,41,0,41
+id_city,0,Train,city5,8,0,8
+id_city,0,Train,city6,4,0,4
+id_city,0,Train,city7,11,0,11
+id_city,0,Train,city8,2,0,2
+id_city,0,Train,city9,7,0,7
+id_city,0,Test,city1,23,20,3
+id_city,0,Test,city10,2,0,2
+id_city,0,Test,city11,1,0,1
+id_city,0,Test,city12,2,0,2
+id_city,0,Test,city13,2,0,2
+id_city,0,Test,city15,2,0,2
+id_city,0,Test,city2,1,0,1
+id_city,0,Test,city3,2,0,2
+id_city,0,Test,city4,6,0,6
+id_city,0,Test,city7,1,0,1
+id_city,0,Test,city9,1,0,1
+id_city,1,Train,city1,103,96,7
+id_city,1,Train,city10,5,0,5
+id_city,1,Train,city11,9,0,9
+id_city,1,Train,city12,6,0,6
+id_city,1,Train,city13,6,0,6
+id_city,1,Train,city14,6,0,6
+id_city,1,Train,city15,5,0,5
+id_city,1,Train,city2,2,0,2
+id_city,1,Train,city3,6,0,6
+id_city,1,Train,city4,41,0,41
+id_city,1,Train,city5,7,0,7
+id_city,1,Train,city6,4,0,4
+id_city,1,Train,city7,9,0,9
+id_city,1,Train,city8,2,0,2
+id_city,1,Train,city9,4,0,4
+id_city,1,Test,city1,19,19,0
+id_city,1,Test,city11,1,0,1
+id_city,1,Test,city12,1,0,1
+id_city,1,Test,city13,1,0,1
+id_city,1,Test,city14,2,0,2
+id_city,1,Test,city15,3,0,3
+id_city,1,Test,city3,2,0,2
+id_city,1,Test,city4,6,0,6
+id_city,1,Test,city5,1,0,1
+id_city,1,Test,city7,3,0,3
+id_city,1,Test,city9,4,0,4
+id_city,2,Train,city1,102,96,6
+id_city,2,Train,city10,5,0,5
+id_city,2,Train,city11,7,0,7
+id_city,2,Train,city12,7,0,7
+id_city,2,Train,city13,7,0,7
+id_city,2,Train,city14,5,0,5
+id_city,2,Train,city15,8,0,8
+id_city,2,Train,city2,2,0,2
+id_city,2,Train,city3,5,0,5
+id_city,2,Train,city4,38,0,38
+id_city,2,Train,city5,7,0,7
+id_city,2,Train,city6,4,0,4
+id_city,2,Train,city7,11,0,11
+id_city,2,Train,city8,1,0,1
+id_city,2,Train,city9,6,0,6
+id_city,2,Test,city1,20,19,1
+id_city,2,Test,city11,3,0,3
+id_city,2,Test,city14,3,0,3
+id_city,2,Test,city3,3,0,3
+id_city,2,Test,city4,9,0,9
+id_city,2,Test,city5,1,0,1
+id_city,2,Test,city7,1,0,1
+id_city,2,Test,city8,1,0,1
+id_city,2,Test,city9,2,0,2
+id_city,3,Train,city1,102,96,6
+id_city,3,Train,city10,4,0,4
+id_city,3,Train,city11,9,0,9
+id_city,3,Train,city12,5,0,5
+id_city,3,Train,city13,6,0,6
+id_city,3,Train,city14,8,0,8
+id_city,3,Train,city15,7,0,7
+id_city,3,Train,city2,1,0,1
+id_city,3,Train,city3,8,0,8
+id_city,3,Train,city4,37,0,37
+id_city,3,Train,city5,6,0,6
+id_city,3,Train,city6,4,0,4
+id_city,3,Train,city7,9,0,9
+id_city,3,Train,city8,2,0,2
+id_city,3,Train,city9,7,0,7
+id_city,3,Test,city1,20,19,1
+id_city,3,Test,city10,1,0,1
+id_city,3,Test,city11,1,0,1
+id_city,3,Test,city12,2,0,2
+id_city,3,Test,city13,1,0,1
+id_city,3,Test,city15,1,0,1
+id_city,3,Test,city2,1,0,1
+id_city,3,Test,city4,10,0,10
+id_city,3,Test,city5,2,0,2
+id_city,3,Test,city7,3,0,3
+id_city,3,Test,city9,1,0,1
+id_city,4,Train,city1,102,96,6
+id_city,4,Train,city10,4,0,4
+id_city,4,Train,city11,7,0,7
+id_city,4,Train,city12,5,0,5
+id_city,4,Train,city13,6,0,6
+id_city,4,Train,city14,6,0,6
+id_city,4,Train,city15,8,0,8
+id_city,4,Train,city2,2,0,2
+id_city,4,Train,city3,8,0,8
+id_city,4,Train,city4,40,0,40
+id_city,4,Train,city5,6,0,6
+id_city,4,Train,city6,2,0,2
+id_city,4,Train,city7,9,0,9
+id_city,4,Train,city8,2,0,2
+id_city,4,Train,city9,8,0,8
+id_city,4,Test,city1,20,19,1
+id_city,4,Test,city10,1,0,1
+id_city,4,Test,city11,3,0,3
+id_city,4,Test,city12,2,0,2
+id_city,4,Test,city13,1,0,1
+id_city,4,Test,city14,2,0,2
+id_city,4,Test,city4,7,0,7
+id_city,4,Test,city5,2,0,2
+id_city,4,Test,city6,2,0,2
+id_city,4,Test,city7,3,0,3
+id_city,5,Train,city1,102,96,6
+id_city,5,Train,city10,4,0,4
+id_city,5,Train,city11,9,0,9
+id_city,5,Train,city12,7,0,7
+id_city,5,Train,city13,5,0,5
+id_city,5,Train,city14,7,0,7
+id_city,5,Train,city15,6,0,6
+id_city,5,Train,city2,2,0,2
+id_city,5,Train,city3,7,0,7
+id_city,5,Train,city4,38,0,38
+id_city,5,Train,city5,6,0,6
+id_city,5,Train,city6,2,0,2
+id_city,5,Train,city7,11,0,11
+id_city,5,Train,city8,1,0,1
+id_city,5,Train,city9,8,0,8
+id_city,5,Test,city1,20,19,1
+id_city,5,Test,city10,1,0,1
+id_city,5,Test,city11,1,0,1
+id_city,5,Test,city13,2,0,2
+id_city,5,Test,city14,1,0,1
+id_city,5,Test,city15,2,0,2
+id_city,5,Test,city3,1,0,1
+id_city,5,Test,city4,9,0,9
+id_city,5,Test,city5,2,0,2
+id_city,5,Test,city6,2,0,2
+id_city,5,Test,city7,1,0,1
+id_city,5,Test,city8,1,0,1
+id_school_ppp,0,Train,site_1,21,21,0
+id_school_ppp,0,Train,site_10,4,0,4
+id_school_ppp,0,Train,site_11,8,0,8
+id_school_ppp,0,Train,site_12,4,4,0
+id_school_ppp,0,Train,site_13,3,0,3
+id_school_ppp,0,Train,site_14,6,0,6
+id_school_ppp,0,Train,site_15,1,0,1
+id_school_ppp,0,Train,site_16,6,0,6
+id_school_ppp,0,Train,site_17,5,0,5
+id_school_ppp,0,Train,site_18,2,0,2
+id_school_ppp,0,Train,site_19,8,0,8
+id_school_ppp,0,Train,site_2,9,9,0
+id_school_ppp,0,Train,site_20,5,0,5
+id_school_ppp,0,Train,site_21,5,0,5
+id_school_ppp,0,Train,site_22,3,0,3
+id_school_ppp,0,Train,site_23,1,0,1
+id_school_ppp,0,Train,site_24,2,0,2
+id_school_ppp,0,Train,site_25,3,0,3
+id_school_ppp,0,Train,site_26,11,0,11
+id_school_ppp,0,Train,site_27,1,0,1
+id_school_ppp,0,Train,site_28,3,0,3
+id_school_ppp,0,Train,site_29,4,0,4
+id_school_ppp,0,Train,site_3,9,0,9
+id_school_ppp,0,Train,site_30,1,0,1
+id_school_ppp,0,Train,site_31,14,14,0
+id_school_ppp,0,Train,site_32,7,5,2
+id_school_ppp,0,Train,site_33,8,8,0
+id_school_ppp,0,Train,site_34,6,5,1
+id_school_ppp,0,Train,site_35,13,13,0
+id_school_ppp,0,Train,site_4,8,0,8
+id_school_ppp,0,Train,site_5,16,0,16
+id_school_ppp,0,Train,site_6,1,0,1
+id_school_ppp,0,Train,site_7,15,14,1
+id_school_ppp,0,Train,site_8,1,1,0
+id_school_ppp,0,Train,site_9,1,1,0
+id_school_ppp,0,Test,site_1,6,6,0
+id_school_ppp,0,Test,site_12,2,0,2
+id_school_ppp,0,Test,site_14,2,0,2
+id_school_ppp,0,Test,site_16,2,0,2
+id_school_ppp,0,Test,site_17,2,0,2
+id_school_ppp,0,Test,site_19,1,0,1
+id_school_ppp,0,Test,site_2,1,1,0
+id_school_ppp,0,Test,site_21,2,0,2
+id_school_ppp,0,Test,site_23,1,0,1
+id_school_ppp,0,Test,site_25,1,0,1
+id_school_ppp,0,Test,site_26,1,0,1
+id_school_ppp,0,Test,site_28,2,0,2
+id_school_ppp,0,Test,site_3,1,0,1
+id_school_ppp,0,Test,site_30,1,0,1
+id_school_ppp,0,Test,site_32,1,1,0
+id_school_ppp,0,Test,site_33,1,1,0
+id_school_ppp,0,Test,site_34,3,2,1
+id_school_ppp,0,Test,site_35,6,6,0
+id_school_ppp,0,Test,site_5,4,0,4
+id_school_ppp,0,Test,site_7,3,3,0
+id_school_ppp,1,Train,site_1,22,22,0
+id_school_ppp,1,Train,site_10,3,0,3
+id_school_ppp,1,Train,site_11,7,0,7
+id_school_ppp,1,Train,site_12,6,4,2
+id_school_ppp,1,Train,site_13,3,0,3
+id_school_ppp,1,Train,site_14,6,0,6
+id_school_ppp,1,Train,site_15,1,0,1
+id_school_ppp,1,Train,site_16,5,0,5
+id_school_ppp,1,Train,site_17,6,0,6
+id_school_ppp,1,Train,site_18,2,0,2
+id_school_ppp,1,Train,site_19,6,0,6
+id_school_ppp,1,Train,site_2,9,9,0
+id_school_ppp,1,Train,site_20,5,0,5
+id_school_ppp,1,Train,site_21,6,0,6
+id_school_ppp,1,Train,site_22,2,0,2
+id_school_ppp,1,Train,site_23,2,0,2
+id_school_ppp,1,Train,site_24,2,0,2
+id_school_ppp,1,Train,site_25,1,0,1
+id_school_ppp,1,Train,site_26,10,0,10
+id_school_ppp,1,Train,site_27,1,0,1
+id_school_ppp,1,Train,site_28,5,0,5
+id_school_ppp,1,Train,site_29,4,0,4
+id_school_ppp,1,Train,site_3,9,0,9
+id_school_ppp,1,Train,site_30,2,0,2
+id_school_ppp,1,Train,site_31,12,12,0
+id_school_ppp,1,Train,site_32,6,4,2
+id_school_ppp,1,Train,site_33,8,8,0
+id_school_ppp,1,Train,site_34,9,7,2
+id_school_ppp,1,Train,site_35,15,15,0
+id_school_ppp,1,Train,site_4,6,0,6
+id_school_ppp,1,Train,site_5,17,0,17
+id_school_ppp,1,Train,site_6,1,0,1
+id_school_ppp,1,Train,site_7,14,13,1
+id_school_ppp,1,Train,site_8,1,1,0
+id_school_ppp,1,Train,site_9,1,1,0
+id_school_ppp,1,Test,site_1,5,5,0
+id_school_ppp,1,Test,site_10,1,0,1
+id_school_ppp,1,Test,site_11,1,0,1
+id_school_ppp,1,Test,site_14,2,0,2
+id_school_ppp,1,Test,site_16,3,0,3
+id_school_ppp,1,Test,site_17,1,0,1
+id_school_ppp,1,Test,site_19,3,0,3
+id_school_ppp,1,Test,site_2,1,1,0
+id_school_ppp,1,Test,site_21,1,0,1
+id_school_ppp,1,Test,site_22,1,0,1
+id_school_ppp,1,Test,site_25,3,0,3
+id_school_ppp,1,Test,site_26,2,0,2
+id_school_ppp,1,Test,site_3,1,0,1
+id_school_ppp,1,Test,site_31,2,2,0
+id_school_ppp,1,Test,site_32,2,2,0
+id_school_ppp,1,Test,site_33,1,1,0
+id_school_ppp,1,Test,site_35,4,4,0
+id_school_ppp,1,Test,site_4,2,0,2
+id_school_ppp,1,Test,site_5,3,0,3
+id_school_ppp,1,Test,site_7,4,4,0
+id_school_ppp,2,Train,site_1,21,21,0
+id_school_ppp,2,Train,site_10,2,0,2
+id_school_ppp,2,Train,site_11,7,0,7
+id_school_ppp,2,Train,site_12,6,4,2
+id_school_ppp,2,Train,site_13,3,0,3
+id_school_ppp,2,Train,site_14,5,0,5
+id_school_ppp,2,Train,site_15,1,0,1
+id_school_ppp,2,Train,site_16,8,0,8
+id_school_ppp,2,Train,site_17,7,0,7
+id_school_ppp,2,Train,site_18,1,0,1
+id_school_ppp,2,Train,site_19,8,0,8
+id_school_ppp,2,Train,site_2,7,7,0
+id_school_ppp,2,Train,site_20,5,0,5
+id_school_ppp,2,Train,site_21,7,0,7
+id_school_ppp,2,Train,site_22,2,0,2
+id_school_ppp,2,Train,site_23,2,0,2
+id_school_ppp,2,Train,site_24,1,0,1
+id_school_ppp,2,Train,site_25,4,0,4
+id_school_ppp,2,Train,site_26,9,0,9
+id_school_ppp,2,Train,site_28,5,0,5
+id_school_ppp,2,Train,site_29,4,0,4
+id_school_ppp,2,Train,site_3,7,0,7
+id_school_ppp,2,Train,site_30,2,0,2
+id_school_ppp,2,Train,site_31,11,11,0
+id_school_ppp,2,Train,site_32,6,5,1
+id_school_ppp,2,Train,site_33,8,8,0
+id_school_ppp,2,Train,site_34,7,5,2
+id_school_ppp,2,Train,site_35,18,18,0
+id_school_ppp,2,Train,site_4,5,0,5
+id_school_ppp,2,Train,site_5,17,0,17
+id_school_ppp,2,Train,site_6,1,0,1
+id_school_ppp,2,Train,site_7,17,16,1
+id_school_ppp,2,Train,site_9,1,1,0
+id_school_ppp,2,Test,site_1,6,6,0
+id_school_ppp,2,Test,site_10,2,0,2
+id_school_ppp,2,Test,site_11,1,0,1
+id_school_ppp,2,Test,site_14,3,0,3
+id_school_ppp,2,Test,site_18,1,0,1
+id_school_ppp,2,Test,site_19,1,0,1
+id_school_ppp,2,Test,site_2,3,3,0
+id_school_ppp,2,Test,site_22,1,0,1
+id_school_ppp,2,Test,site_24,1,0,1
+id_school_ppp,2,Test,site_26,3,0,3
+id_school_ppp,2,Test,site_27,1,0,1
+id_school_ppp,2,Test,site_3,3,0,3
+id_school_ppp,2,Test,site_31,3,3,0
+id_school_ppp,2,Test,site_32,2,1,1
+id_school_ppp,2,Test,site_33,1,1,0
+id_school_ppp,2,Test,site_34,2,2,0
+id_school_ppp,2,Test,site_35,1,1,0
+id_school_ppp,2,Test,site_4,3,0,3
+id_school_ppp,2,Test,site_5,3,0,3
+id_school_ppp,2,Test,site_7,1,1,0
+id_school_ppp,2,Test,site_8,1,1,0
+id_school_ppp,3,Train,site_1,23,23,0
+id_school_ppp,3,Train,site_10,3,0,3
+id_school_ppp,3,Train,site_11,6,0,6
+id_school_ppp,3,Train,site_12,5,3,2
+id_school_ppp,3,Train,site_13,1,0,1
+id_school_ppp,3,Train,site_14,8,0,8
+id_school_ppp,3,Train,site_15,1,0,1
+id_school_ppp,3,Train,site_16,7,0,7
+id_school_ppp,3,Train,site_17,6,0,6
+id_school_ppp,3,Train,site_18,2,0,2
+id_school_ppp,3,Train,site_19,8,0,8
+id_school_ppp,3,Train,site_2,8,8,0
+id_school_ppp,3,Train,site_20,3,0,3
+id_school_ppp,3,Train,site_21,5,0,5
+id_school_ppp,3,Train,site_22,3,0,3
+id_school_ppp,3,Train,site_23,1,0,1
+id_school_ppp,3,Train,site_24,2,0,2
+id_school_ppp,3,Train,site_25,4,0,4
+id_school_ppp,3,Train,site_26,11,0,11
+id_school_ppp,3,Train,site_27,1,0,1
+id_school_ppp,3,Train,site_28,4,0,4
+id_school_ppp,3,Train,site_29,4,0,4
+id_school_ppp,3,Train,site_3,9,0,9
+id_school_ppp,3,Train,site_30,1,0,1
+id_school_ppp,3,Train,site_31,10,10,0
+id_school_ppp,3,Train,site_32,8,6,2
+id_school_ppp,3,Train,site_33,7,7,0
+id_school_ppp,3,Train,site_34,7,5,2
+id_school_ppp,3,Train,site_35,18,18,0
+id_school_ppp,3,Train,site_4,8,0,8
+id_school_ppp,3,Train,site_5,15,0,15
+id_school_ppp,3,Train,site_7,14,14,0
+id_school_ppp,3,Train,site_8,1,1,0
+id_school_ppp,3,Train,site_9,1,1,0
+id_school_ppp,3,Test,site_1,4,4,0
+id_school_ppp,3,Test,site_10,1,0,1
+id_school_ppp,3,Test,site_11,2,0,2
+id_school_ppp,3,Test,site_12,1,1,0
+id_school_ppp,3,Test,site_13,2,0,2
+id_school_ppp,3,Test,site_16,1,0,1
+id_school_ppp,3,Test,site_17,1,0,1
+id_school_ppp,3,Test,site_19,1,0,1
+id_school_ppp,3,Test,site_2,2,2,0
+id_school_ppp,3,Test,site_20,2,0,2
+id_school_ppp,3,Test,site_21,2,0,2
+id_school_ppp,3,Test,site_23,1,0,1
+id_school_ppp,3,Test,site_26,1,0,1
+id_school_ppp,3,Test,site_28,1,0,1
+id_school_ppp,3,Test,site_3,1,0,1
+id_school_ppp,3,Test,site_30,1,0,1
+id_school_ppp,3,Test,site_31,4,4,0
+id_school_ppp,3,Test,site_33,2,2,0
+id_school_ppp,3,Test,site_34,2,2,0
+id_school_ppp,3,Test,site_35,1,1,0
+id_school_ppp,3,Test,site_5,5,0,5
+id_school_ppp,3,Test,site_6,1,0,1
+id_school_ppp,3,Test,site_7,4,3,1
+id_school_ppp,4,Train,site_1,26,26,0
+id_school_ppp,4,Train,site_10,4,0,4
+id_school_ppp,4,Train,site_11,6,0,6
+id_school_ppp,4,Train,site_12,4,2,2
+id_school_ppp,4,Train,site_13,2,0,2
+id_school_ppp,4,Train,site_14,8,0,8
+id_school_ppp,4,Train,site_16,8,0,8
+id_school_ppp,4,Train,site_17,6,0,6
+id_school_ppp,4,Train,site_18,2,0,2
+id_school_ppp,4,Train,site_19,7,0,7
+id_school_ppp,4,Train,site_2,9,9,0
+id_school_ppp,4,Train,site_20,4,0,4
+id_school_ppp,4,Train,site_21,5,0,5
+id_school_ppp,4,Train,site_22,3,0,3
+id_school_ppp,4,Train,site_23,2,0,2
+id_school_ppp,4,Train,site_24,2,0,2
+id_school_ppp,4,Train,site_25,4,0,4
+id_school_ppp,4,Train,site_26,9,0,9
+id_school_ppp,4,Train,site_27,1,0,1
+id_school_ppp,4,Train,site_28,4,0,4
+id_school_ppp,4,Train,site_29,2,0,2
+id_school_ppp,4,Train,site_3,7,0,7
+id_school_ppp,4,Train,site_30,2,0,2
+id_school_ppp,4,Train,site_31,11,11,0
+id_school_ppp,4,Train,site_32,6,5,1
+id_school_ppp,4,Train,site_33,8,8,0
+id_school_ppp,4,Train,site_34,8,6,2
+id_school_ppp,4,Train,site_35,14,14,0
+id_school_ppp,4,Train,site_4,6,0,6
+id_school_ppp,4,Train,site_5,18,0,18
+id_school_ppp,4,Train,site_6,1,0,1
+id_school_ppp,4,Train,site_7,14,13,1
+id_school_ppp,4,Train,site_8,1,1,0
+id_school_ppp,4,Train,site_9,1,1,0
+id_school_ppp,4,Test,site_1,1,1,0
+id_school_ppp,4,Test,site_11,2,0,2
+id_school_ppp,4,Test,site_12,2,2,0
+id_school_ppp,4,Test,site_13,1,0,1
+id_school_ppp,4,Test,site_15,1,0,1
+id_school_ppp,4,Test,site_17,1,0,1
+id_school_ppp,4,Test,site_19,2,0,2
+id_school_ppp,4,Test,site_2,1,1,0
+id_school_ppp,4,Test,site_20,1,0,1
+id_school_ppp,4,Test,site_21,2,0,2
+id_school_ppp,4,Test,site_26,3,0,3
+id_school_ppp,4,Test,site_28,1,0,1
+id_school_ppp,4,Test,site_29,2,0,2
+id_school_ppp,4,Test,site_3,3,0,3
+id_school_ppp,4,Test,site_31,3,3,0
+id_school_ppp,4,Test,site_32,2,1,1
+id_school_ppp,4,Test,site_33,1,1,0
+id_school_ppp,4,Test,site_34,1,1,0
+id_school_ppp,4,Test,site_35,5,5,0
+id_school_ppp,4,Test,site_4,2,0,2
+id_school_ppp,4,Test,site_5,2,0,2
+id_school_ppp,4,Test,site_7,4,4,0
+id_school_ppp,5,Train,site_1,22,22,0
+id_school_ppp,5,Train,site_10,4,0,4
+id_school_ppp,5,Train,site_11,6,0,6
+id_school_ppp,5,Train,site_12,5,3,2
+id_school_ppp,5,Train,site_13,3,0,3
+id_school_ppp,5,Train,site_14,7,0,7
+id_school_ppp,5,Train,site_15,1,0,1
+id_school_ppp,5,Train,site_16,6,0,6
+id_school_ppp,5,Train,site_17,5,0,5
+id_school_ppp,5,Train,site_18,1,0,1
+id_school_ppp,5,Train,site_19,8,0,8
+id_school_ppp,5,Train,site_2,8,8,0
+id_school_ppp,5,Train,site_20,3,0,3
+id_school_ppp,5,Train,site_21,7,0,7
+id_school_ppp,5,Train,site_22,2,0,2
+id_school_ppp,5,Train,site_23,2,0,2
+id_school_ppp,5,Train,site_24,1,0,1
+id_school_ppp,5,Train,site_25,4,0,4
+id_school_ppp,5,Train,site_26,10,0,10
+id_school_ppp,5,Train,site_27,1,0,1
+id_school_ppp,5,Train,site_28,4,0,4
+id_school_ppp,5,Train,site_29,2,0,2
+id_school_ppp,5,Train,site_3,9,0,9
+id_school_ppp,5,Train,site_30,2,0,2
+id_school_ppp,5,Train,site_31,12,12,0
+id_school_ppp,5,Train,site_32,7,5,2
+id_school_ppp,5,Train,site_33,6,6,0
+id_school_ppp,5,Train,site_34,8,7,1
+id_school_ppp,5,Train,site_35,17,17,0
+id_school_ppp,5,Train,site_4,7,0,7
+id_school_ppp,5,Train,site_5,17,0,17
+id_school_ppp,5,Train,site_6,1,0,1
+id_school_ppp,5,Train,site_7,16,15,1
+id_school_ppp,5,Train,site_8,1,1,0
+id_school_ppp,5,Test,site_1,5,5,0
+id_school_ppp,5,Test,site_11,2,0,2
+id_school_ppp,5,Test,site_12,1,1,0
+id_school_ppp,5,Test,site_14,1,0,1
+id_school_ppp,5,Test,site_16,2,0,2
+id_school_ppp,5,Test,site_17,2,0,2
+id_school_ppp,5,Test,site_18,1,0,1
+id_school_ppp,5,Test,site_19,1,0,1
+id_school_ppp,5,Test,site_2,2,2,0
+id_school_ppp,5,Test,site_20,2,0,2
+id_school_ppp,5,Test,site_22,1,0,1
+id_school_ppp,5,Test,site_24,1,0,1
+id_school_ppp,5,Test,site_26,2,0,2
+id_school_ppp,5,Test,site_28,1,0,1
+id_school_ppp,5,Test,site_29,2,0,2
+id_school_ppp,5,Test,site_3,1,0,1
+id_school_ppp,5,Test,site_31,2,2,0
+id_school_ppp,5,Test,site_32,1,1,0
+id_school_ppp,5,Test,site_33,3,3,0
+id_school_ppp,5,Test,site_34,1,0,1
+id_school_ppp,5,Test,site_35,2,2,0
+id_school_ppp,5,Test,site_4,1,0,1
+id_school_ppp,5,Test,site_5,3,0,3
+id_school_ppp,5,Test,site_7,2,2,0
+id_school_ppp,5,Test,site_9,1,1,0
+site_type_ppp,0,Train,0.0,166,95,71
+site_type_ppp,0,Train,1.0,49,0,49
+site_type_ppp,0,Test,0.0,38,20,18
+site_type_ppp,0,Test,1.0,5,0,5
+site_type_ppp,1,Train,0.0,169,96,73
+site_type_ppp,1,Train,1.0,46,0,46
+site_type_ppp,1,Test,0.0,35,19,16
+site_type_ppp,1,Test,1.0,8,0,8
+site_type_ppp,2,Train,0.0,173,96,77
+site_type_ppp,2,Train,1.0,42,0,42
+site_type_ppp,2,Test,0.0,31,19,12
+site_type_ppp,2,Test,1.0,12,0,12
+site_type_ppp,3,Train,0.0,170,96,74
+site_type_ppp,3,Train,1.0,45,0,45
+site_type_ppp,3,Test,0.0,34,19,15
+site_type_ppp,3,Test,1.0,9,0,9
+site_type_ppp,4,Train,0.0,172,96,76
+site_type_ppp,4,Train,1.0,43,0,43
+site_type_ppp,4,Test,0.0,32,19,13
+site_type_ppp,4,Test,1.0,11,0,11
+site_type_ppp,5,Train,0.0,170,96,74
+site_type_ppp,5,Train,1.0,45,0,45
+site_type_ppp,5,Test,0.0,34,19,15
+site_type_ppp,5,Test,1.0,9,0,9
+date_of_administration,0,Train,2021 October-December,15,6,9
+date_of_administration,0,Train,2022 April-June,6,2,4
+date_of_administration,0,Train,2022 January-March,48,35,13
+date_of_administration,0,Train,2022 October-December,109,18,91
+date_of_administration,0,Train,2023 April-June,21,20,1
+date_of_administration,0,Train,2023 January-March,14,12,2
+date_of_administration,0,Train,<missing>,2,2,0
+date_of_administration,0,Test,2021 October-December,4,2,2
+date_of_administration,0,Test,2022 January-March,7,7,0
+date_of_administration,0,Test,2022 October-December,20,0,20
+date_of_administration,0,Test,2023 April-June,8,7,1
+date_of_administration,0,Test,2023 January-March,3,3,0
+date_of_administration,0,Test,<missing>,1,1,0
+date_of_administration,1,Train,2021 October-December,16,7,9
+date_of_administration,1,Train,2022 April-June,5,2,3
+date_of_administration,1,Train,2022 January-March,45,34,11
+date_of_administration,1,Train,2022 October-December,108,16,92
+date_of_administration,1,Train,2023 April-June,24,22,2
+date_of_administration,1,Train,2023 January-March,15,13,2
+date_of_administration,1,Train,<missing>,2,2,0
+date_of_administration,1,Test,2021 October-December,3,1,2
+date_of_administration,1,Test,2022 April-June,1,0,1
+date_of_administration,1,Test,2022 January-March,10,8,2
+date_of_administration,1,Test,2022 October-December,21,2,19
+date_of_administration,1,Test,2023 April-June,5,5,0
+date_of_administration,1,Test,2023 January-March,2,2,0
+date_of_administration,1,Test,<missing>,1,1,0
+date_of_administration,2,Train,2021 October-December,18,7,11
+date_of_administration,2,Train,2022 April-June,4,1,3
+date_of_administration,2,Train,2022 January-March,44,35,9
+date_of_administration,2,Train,2022 October-December,108,15,93
+date_of_administration,2,Train,2023 April-June,27,25,2
+date_of_administration,2,Train,2023 January-March,12,11,1
+date_of_administration,2,Train,<missing>,2,2,0
+date_of_administration,2,Test,2021 October-December,1,1,0
+date_of_administration,2,Test,2022 April-June,2,1,1
+date_of_administration,2,Test,2022 January-March,11,7,4
+date_of_administration,2,Test,2022 October-December,21,3,18
+date_of_administration,2,Test,2023 April-June,2,2,0
+date_of_administration,2,Test,2023 January-March,5,4,1
+date_of_administration,2,Test,<missing>,1,1,0
+date_of_administration,3,Train,2021 October-December,15,7,8
+date_of_administration,3,Train,2022 April-June,4,2,2
+date_of_administration,3,Train,2022 January-March,46,34,12
+date_of_administration,3,Train,2022 October-December,106,13,93
+date_of_administration,3,Train,2023 April-June,26,24,2
+date_of_administration,3,Train,2023 January-March,15,13,2
+date_of_administration,3,Train,<missing>,3,3,0
+date_of_administration,3,Test,2021 October-December,4,1,3
+date_of_administration,3,Test,2022 April-June,2,0,2
+date_of_administration,3,Test,2022 January-March,9,8,1
+date_of_administration,3,Test,2022 October-December,23,5,18
+date_of_administration,3,Test,2023 April-June,3,3,0
+date_of_administration,3,Test,2023 January-March,2,2,0
+date_of_administration,4,Train,2021 October-December,16,7,9
+date_of_administration,4,Train,2022 April-June,6,2,4
+date_of_administration,4,Train,2022 January-March,45,37,8
+date_of_administration,4,Train,2022 October-December,108,13,95
+date_of_administration,4,Train,2023 April-June,23,21,2
+date_of_administration,4,Train,2023 January-March,14,13,1
+date_of_administration,4,Train,<missing>,3,3,0
+date_of_administration,4,Test,2021 October-December,3,1,2
+date_of_administration,4,Test,2022 January-March,10,5,5
+date_of_administration,4,Test,2022 October-December,21,5,16
+date_of_administration,4,Test,2023 April-June,6,6,0
+date_of_administration,4,Test,2023 January-March,3,2,1
+date_of_administration,5,Train,2021 October-December,15,6,9
+date_of_administration,5,Train,2022 April-June,5,1,4
+date_of_administration,5,Train,2022 January-March,47,35,12
+date_of_administration,5,Train,2022 October-December,106,15,91
+date_of_administration,5,Train,2023 April-June,24,23,1
+date_of_administration,5,Train,2023 January-March,15,13,2
+date_of_administration,5,Train,<missing>,3,3,0
+date_of_administration,5,Test,2021 October-December,4,2,2
+date_of_administration,5,Test,2022 April-June,1,1,0
+date_of_administration,5,Test,2022 January-March,8,7,1
+date_of_administration,5,Test,2022 October-December,23,3,20
+date_of_administration,5,Test,2023 April-June,5,4,1
+date_of_administration,5,Test,2023 January-March,2,2,0

@@ -1,0 +1,12 @@
+entity,count
+merged_participants,294
+selected_participants,258
+excluded_merged_participants,36
+merged_recordings,4000
+original_svc_files,4000
+participants_with_svc,288
+raw_metadata_rows,289
+raw_metadata_unique_ids,288
+raw_metadata_duplicate_id_rows,1
+selected_tasks,14
+selected_recordings,3612

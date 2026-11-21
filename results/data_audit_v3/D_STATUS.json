@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "raw_recordings": 4000,
+  "raw_participants": 288,
+  "selected_recordings": 3612,
+  "selected_participants": 258,
+  "all_masks_and_caches_match": true,
+  "statistical_unit": "participant; recording-level summaries descriptive only",
+  "device_calibration_verified": false,
+  "missing_original_files": [],
+  "hardware_causation_identified": false,
+  "elapsed_seconds": 395.69636509998236
+}

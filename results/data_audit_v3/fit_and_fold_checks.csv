@@ -1,0 +1,7 @@
+fold,n_train,n_test,normalizer_fit_only_train,checkpoint_hash_matches,stored_prior_checkpoint_replay_max_logit_error,audit_scope
+0,215,43,True,True,0.0,Read OOF and saved fit-ID lists; hash checkpoint; no new checkpoint inference or model fitting
+1,215,43,True,True,0.0,Read OOF and saved fit-ID lists; hash checkpoint; no new checkpoint inference or model fitting
+2,215,43,True,True,0.0,Read OOF and saved fit-ID lists; hash checkpoint; no new checkpoint inference or model fitting
+3,215,43,True,True,0.0,Read OOF and saved fit-ID lists; hash checkpoint; no new checkpoint inference or model fitting
+4,215,43,True,True,0.0,Read OOF and saved fit-ID lists; hash checkpoint; no new checkpoint inference or model fitting
+5,215,43,True,True,0.0,Read OOF and saved fit-ID lists; hash checkpoint; no new checkpoint inference or model fitting

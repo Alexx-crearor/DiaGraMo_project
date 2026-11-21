@@ -1,0 +1,1291 @@
+participant_id,label,fold,control,probability,mapping_fit_scope,shrinkage_strength,unseen_fallback,clinical_classifier
+BR10301,0,4,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR10302,0,0,id_city,0.05064561755714742,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR10304,0,2,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR10305,0,3,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR10306,1,5,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR10403,0,0,id_city,0.05064561755714742,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR10404,0,2,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR10405,0,3,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR10406,1,0,id_city,0.05064561755714742,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR2401,0,3,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR2402,0,2,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR2403,0,0,id_city,0.05064561755714742,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR2404,0,5,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR2405,0,1,id_city,0.0771999122229537,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR2406,0,4,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR2407,0,5,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR2408,0,0,id_city,0.05064561755714742,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR2409,0,0,id_city,0.05064561755714742,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR2410,0,3,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR2411,0,1,id_city,0.0771999122229537,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR2412,0,5,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3301,0,2,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3302,0,4,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3303,0,5,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3304,0,0,id_city,0.05064561755714742,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3305,0,1,id_city,0.0771999122229537,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3306,0,3,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3307,0,4,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3308,0,5,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3309,0,1,id_city,0.0771999122229537,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3310,0,2,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3311,0,5,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3401,0,4,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3402,0,0,id_city,0.05064561755714742,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3403,0,1,id_city,0.0771999122229537,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3404,0,4,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3406,1,3,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3407,0,0,id_city,0.05064561755714742,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3408,0,1,id_city,0.0771999122229537,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3409,0,3,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3410,0,3,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5301,0,1,id_city,0.0771999122229537,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5302,0,2,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5303,0,0,id_city,0.05064561755714742,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5304,0,2,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5305,0,3,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5306,0,2,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5307,0,1,id_city,0.0771999122229537,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5308,0,0,id_city,0.05064561755714742,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5309,0,5,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5310,0,1,id_city,0.0771999122229537,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5311,0,2,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5312,0,0,id_city,0.05064561755714742,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5313,0,2,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5314,0,3,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5315,0,5,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5401,0,1,id_city,0.0771999122229537,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5402,0,0,id_city,0.05064561755714742,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5403,0,4,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5404,0,5,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5405,0,1,id_city,0.0771999122229537,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5406,0,0,id_city,0.05064561755714742,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5407,0,4,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5408,0,2,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5409,0,0,id_city,0.05064561755714742,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5410,0,4,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5411,0,1,id_city,0.0771999122229537,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5412,0,0,id_city,0.05064561755714742,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5413,0,0,id_city,0.05064561755714742,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5414,0,1,id_city,0.0771999122229537,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5415,0,4,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5416,0,0,id_city,0.05064561755714742,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5417,0,3,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5418,0,5,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5419,0,4,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7301,0,2,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7302,0,2,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7303,0,3,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7304,0,2,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7305,0,4,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7306,0,3,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7308,0,5,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7310,0,4,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7311,0,4,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7312,0,2,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7313,0,3,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7314,0,2,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7315,0,5,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7316,0,2,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7317,0,3,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7319,0,1,id_city,0.0771999122229537,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7320,0,5,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7321,0,3,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7322,0,3,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7323,0,4,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7324,0,1,id_city,0.0771999122229537,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7401,0,1,id_city,0.0771999122229537,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7402,0,5,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7403,0,0,id_city,0.05064561755714742,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7404,0,2,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7405,0,1,id_city,0.0771999122229537,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7406,0,0,id_city,0.05064561755714742,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7407,0,1,id_city,0.0771999122229537,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7408,1,2,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7409,0,5,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7411,0,4,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7412,1,4,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8041,0,5,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8042,0,3,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8043,1,0,id_city,0.05064561755714742,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8044,0,4,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8045,0,4,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8046,1,0,id_city,0.05064561755714742,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8407,0,5,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8408,0,1,id_city,0.0771999122229537,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8409,0,3,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8411,0,3,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8412,0,5,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8414,0,0,id_city,0.05064561755714742,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8415,0,4,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8416,0,2,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8417,0,5,id_city,0.06832683445586672,Other five folds only,2,"Beta(1,1) Train class prior",False
+CH10309,1,3,id_city,0.7019969278033794,Other five folds only,2,"Beta(1,1) Train class prior",False
+CH10408,1,0,id_city,0.7050691244239632,Other five folds only,2,"Beta(1,1) Train class prior",False
+DK12305,1,1,id_city,0.8882488479262673,Other five folds only,2,"Beta(1,1) Train class prior",False
+DK12306,1,2,id_city,0.8722843976300199,Other five folds only,2,"Beta(1,1) Train class prior",False
+DK12307,1,0,id_city,0.8894009216589862,Other five folds only,2,"Beta(1,1) Train class prior",False
+DK12308,1,1,id_city,0.8882488479262673,Other five folds only,2,"Beta(1,1) Train class prior",False
+DK12401,1,2,id_city,0.8722843976300199,Other five folds only,2,"Beta(1,1) Train class prior",False
+DK12402,1,5,id_city,0.9006656426011266,Other five folds only,2,"Beta(1,1) Train class prior",False
+DK12403,1,2,id_city,0.8722843976300199,Other five folds only,2,"Beta(1,1) Train class prior",False
+DK12404,1,0,id_city,0.8894009216589862,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK01402,1,0,id_city,0.9794234272853927,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK01403,1,4,id_city,0.9787140662716699,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK01404,1,1,id_city,0.9792090879862823,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK01405,1,3,id_city,0.9770766867541061,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK01407,1,0,id_city,0.9794234272853927,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK01412,1,5,id_city,0.9776497695852534,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK02301,1,3,id_city,0.9770766867541061,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK02402,1,1,id_city,0.9792090879862823,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK03304,1,5,id_city,0.9776497695852534,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK03401,1,3,id_city,0.9770766867541061,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK03402,1,4,id_city,0.9787140662716699,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK05305,1,0,id_city,0.9794234272853927,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK05308,1,1,id_city,0.9792090879862823,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK05401,1,4,id_city,0.9787140662716699,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK05402,1,4,id_city,0.9787140662716699,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK05403,1,5,id_city,0.9776497695852534,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK05404,1,3,id_city,0.9770766867541061,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK05406,1,2,id_city,0.9776497695852534,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK05407,1,1,id_city,0.9792090879862823,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11301,1,3,id_city,0.9770766867541061,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11302,1,0,id_city,0.9794234272853927,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11306,1,3,id_city,0.9770766867541061,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11307,1,5,id_city,0.9776497695852534,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11310,1,2,id_city,0.9776497695852534,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11313,1,5,id_city,0.9776497695852534,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11403,1,4,id_city,0.9787140662716699,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11404,1,3,id_city,0.9770766867541061,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11405,1,1,id_city,0.9792090879862823,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11408,1,2,id_city,0.9776497695852534,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11411,1,0,id_city,0.9794234272853927,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11412,1,2,id_city,0.9776497695852534,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11414,1,2,id_city,0.9776497695852534,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11415,1,3,id_city,0.9770766867541061,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11416,1,0,id_city,0.9794234272853927,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK12304,1,1,id_city,0.9792090879862823,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK12310,1,5,id_city,0.9776497695852534,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK12311,1,3,id_city,0.9770766867541061,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK12312,1,2,id_city,0.9776497695852534,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK12313,1,2,id_city,0.9776497695852534,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK12314,1,4,id_city,0.9787140662716699,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK12316,1,5,id_city,0.9776497695852534,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK12402,1,5,id_city,0.9776497695852534,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK12403,1,2,id_city,0.9776497695852534,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK12409,1,4,id_city,0.9787140662716699,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK12415,1,2,id_city,0.9776497695852534,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK14407,1,3,id_city,0.9770766867541061,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK14408,1,5,id_city,0.9776497695852534,Other five folds only,2,"Beta(1,1) Train class prior",False
+JI02401,1,1,id_city,0.9006656426011266,Other five folds only,2,"Beta(1,1) Train class prior",False
+JI02403,1,3,id_city,0.8882488479262673,Other five folds only,2,"Beta(1,1) Train class prior",False
+JI05305,1,4,id_city,0.8882488479262673,Other five folds only,2,"Beta(1,1) Train class prior",False
+JI05401,1,5,id_city,0.8882488479262673,Other five folds only,2,"Beta(1,1) Train class prior",False
+JI05402,1,3,id_city,0.8882488479262673,Other five folds only,2,"Beta(1,1) Train class prior",False
+JI05403,1,4,id_city,0.8882488479262673,Other five folds only,2,"Beta(1,1) Train class prior",False
+JI05404,1,5,id_city,0.8882488479262673,Other five folds only,2,"Beta(1,1) Train class prior",False
+JI05406,1,2,id_city,0.9006656426011266,Other five folds only,2,"Beta(1,1) Train class prior",False
+JN07405,1,5,id_city,0.7764976958525346,Other five folds only,2,"Beta(1,1) Train class prior",False
+JN07406,1,4,id_city,0.7764976958525346,Other five folds only,2,"Beta(1,1) Train class prior",False
+JN07408,1,4,id_city,0.7764976958525346,Other five folds only,2,"Beta(1,1) Train class prior",False
+JN07409,1,5,id_city,0.7764976958525346,Other five folds only,2,"Beta(1,1) Train class prior",False
+MB07301,1,4,id_city,0.9187264348554671,Other five folds only,2,"Beta(1,1) Train class prior",False
+MB07302,1,3,id_city,0.9187264348554671,Other five folds only,2,"Beta(1,1) Train class prior",False
+MB07404,1,3,id_city,0.9187264348554671,Other five folds only,2,"Beta(1,1) Train class prior",False
+MB09301,1,1,id_city,0.9187264348554671,Other five folds only,2,"Beta(1,1) Train class prior",False
+MB09302,1,1,id_city,0.9187264348554671,Other five folds only,2,"Beta(1,1) Train class prior",False
+MB09303,1,3,id_city,0.9187264348554671,Other five folds only,2,"Beta(1,1) Train class prior",False
+MB09304,1,4,id_city,0.9187264348554671,Other five folds only,2,"Beta(1,1) Train class prior",False
+MB09305,1,0,id_city,0.9319390287132223,Other five folds only,2,"Beta(1,1) Train class prior",False
+MB09308,1,2,id_city,0.9312300602623184,Other five folds only,2,"Beta(1,1) Train class prior",False
+MB09406,1,5,id_city,0.9312300602623184,Other five folds only,2,"Beta(1,1) Train class prior",False
+MB09407,1,1,id_city,0.9187264348554671,Other five folds only,2,"Beta(1,1) Train class prior",False
+MB09409,1,4,id_city,0.9187264348554671,Other five folds only,2,"Beta(1,1) Train class prior",False
+ME09401,1,2,id_city,0.7019969278033794,Other five folds only,2,"Beta(1,1) Train class prior",False
+ME09402,1,5,id_city,0.7019969278033794,Other five folds only,2,"Beta(1,1) Train class prior",False
+NA03401,1,3,id_city,0.9006656426011266,Other five folds only,2,"Beta(1,1) Train class prior",False
+NA03403,1,2,id_city,0.8882488479262673,Other five folds only,2,"Beta(1,1) Train class prior",False
+NA06303,1,2,id_city,0.8882488479262673,Other five folds only,2,"Beta(1,1) Train class prior",False
+NA06306,1,1,id_city,0.8509984639016898,Other five folds only,2,"Beta(1,1) Train class prior",False
+NA06307,1,0,id_city,0.9016897081413211,Other five folds only,2,"Beta(1,1) Train class prior",False
+NA06402,1,1,id_city,0.8509984639016898,Other five folds only,2,"Beta(1,1) Train class prior",False
+NA06404,1,1,id_city,0.8509984639016898,Other five folds only,2,"Beta(1,1) Train class prior",False
+NA06405,1,1,id_city,0.8509984639016898,Other five folds only,2,"Beta(1,1) Train class prior",False
+NB05301,1,4,id_city,0.8509984639016898,Other five folds only,2,"Beta(1,1) Train class prior",False
+NB05302,1,0,id_city,0.8230414746543779,Other five folds only,2,"Beta(1,1) Train class prior",False
+NB05405,1,5,id_city,0.8509984639016898,Other five folds only,2,"Beta(1,1) Train class prior",False
+NB05406,1,3,id_city,0.8509984639016898,Other five folds only,2,"Beta(1,1) Train class prior",False
+NB05407,1,0,id_city,0.8230414746543779,Other five folds only,2,"Beta(1,1) Train class prior",False
+RK03306,1,4,id_city,0.9006656426011266,Other five folds only,2,"Beta(1,1) Train class prior",False
+RK03401,1,2,id_city,0.9006656426011266,Other five folds only,2,"Beta(1,1) Train class prior",False
+RK03402,1,4,id_city,0.9006656426011266,Other five folds only,2,"Beta(1,1) Train class prior",False
+RK03405,1,4,id_city,0.9006656426011266,Other five folds only,2,"Beta(1,1) Train class prior",False
+RK06302,1,2,id_city,0.9006656426011266,Other five folds only,2,"Beta(1,1) Train class prior",False
+RK06303,1,2,id_city,0.9006656426011266,Other five folds only,2,"Beta(1,1) Train class prior",False
+RK06304,1,3,id_city,0.9187264348554671,Other five folds only,2,"Beta(1,1) Train class prior",False
+RK06306,1,1,id_city,0.9187264348554671,Other five folds only,2,"Beta(1,1) Train class prior",False
+RK06401,1,5,id_city,0.9187264348554671,Other five folds only,2,"Beta(1,1) Train class prior",False
+RK06405,1,0,id_city,0.9195643066610809,Other five folds only,2,"Beta(1,1) Train class prior",False
+SO01302,1,3,id_city,0.8722843976300199,Other five folds only,2,"Beta(1,1) Train class prior",False
+SO01305,1,0,id_city,0.8736010533245556,Other five folds only,2,"Beta(1,1) Train class prior",False
+SO01306,1,1,id_city,0.8882488479262673,Other five folds only,2,"Beta(1,1) Train class prior",False
+SO01401,1,4,id_city,0.8722843976300199,Other five folds only,2,"Beta(1,1) Train class prior",False
+SO01403,1,0,id_city,0.8736010533245556,Other five folds only,2,"Beta(1,1) Train class prior",False
+SO01404,1,4,id_city,0.8722843976300199,Other five folds only,2,"Beta(1,1) Train class prior",False
+SO01407,1,3,id_city,0.8722843976300199,Other five folds only,2,"Beta(1,1) Train class prior",False
+TL10305,1,5,id_city,0.8722843976300199,Other five folds only,2,"Beta(1,1) Train class prior",False
+TL10306,1,0,id_city,0.8736010533245556,Other five folds only,2,"Beta(1,1) Train class prior",False
+TL10401,1,0,id_city,0.8736010533245556,Other five folds only,2,"Beta(1,1) Train class prior",False
+TL10402,1,3,id_city,0.8882488479262673,Other five folds only,2,"Beta(1,1) Train class prior",False
+TL10403,1,1,id_city,0.8882488479262673,Other five folds only,2,"Beta(1,1) Train class prior",False
+TL10404,1,4,id_city,0.8882488479262673,Other five folds only,2,"Beta(1,1) Train class prior",False
+TL10407,1,5,id_city,0.8722843976300199,Other five folds only,2,"Beta(1,1) Train class prior",False
+TU03302,1,2,id_city,0.8722843976300199,Other five folds only,2,"Beta(1,1) Train class prior",False
+TU03403,1,1,id_city,0.8882488479262673,Other five folds only,2,"Beta(1,1) Train class prior",False
+TU03404,1,4,id_city,0.8882488479262673,Other five folds only,2,"Beta(1,1) Train class prior",False
+TU03405,1,4,id_city,0.8882488479262673,Other five folds only,2,"Beta(1,1) Train class prior",False
+TU03406,1,1,id_city,0.8882488479262673,Other five folds only,2,"Beta(1,1) Train class prior",False
+TU03407,1,2,id_city,0.8722843976300199,Other five folds only,2,"Beta(1,1) Train class prior",False
+TU03408,1,2,id_city,0.8722843976300199,Other five folds only,2,"Beta(1,1) Train class prior",False
+TU03410,1,5,id_city,0.9006656426011266,Other five folds only,2,"Beta(1,1) Train class prior",False
+VV10301,1,0,id_city,0.8894009216589862,Other five folds only,2,"Beta(1,1) Train class prior",False
+VV10302,1,3,id_city,0.9006656426011266,Other five folds only,2,"Beta(1,1) Train class prior",False
+VV10303,1,5,id_city,0.8882488479262673,Other five folds only,2,"Beta(1,1) Train class prior",False
+VV10304,1,1,id_city,0.8722843976300199,Other five folds only,2,"Beta(1,1) Train class prior",False
+VV10401,1,1,id_city,0.8722843976300199,Other five folds only,2,"Beta(1,1) Train class prior",False
+VV10402,1,0,id_city,0.8894009216589862,Other five folds only,2,"Beta(1,1) Train class prior",False
+VV10403,1,5,id_city,0.8882488479262673,Other five folds only,2,"Beta(1,1) Train class prior",False
+VV10404,1,1,id_city,0.8722843976300199,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR10301,0,4,id_school_ppp,0.31059907834101386,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR10302,0,0,id_school_ppp,0.2644009216589862,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR10304,0,2,id_school_ppp,0.34511008704557095,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR10305,0,3,id_school_ppp,0.34511008704557095,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR10306,1,5,id_school_ppp,0.21059907834101382,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR10403,0,0,id_school_ppp,0.2644009216589862,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR10404,0,2,id_school_ppp,0.34511008704557095,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR10405,0,3,id_school_ppp,0.34511008704557095,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR10406,1,0,id_school_ppp,0.2644009216589862,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR2401,0,3,id_school_ppp,0.04423963133640554,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR2402,0,2,id_school_ppp,0.0480865558004408,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR2403,0,0,id_school_ppp,0.0484872770987778,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR2404,0,5,id_school_ppp,0.04608294930875576,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR2405,0,1,id_school_ppp,0.04608294930875576,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR2406,0,4,id_school_ppp,0.03949967083607637,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR2407,0,5,id_school_ppp,0.04608294930875576,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR2408,0,0,id_school_ppp,0.0484872770987778,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR2409,0,0,id_school_ppp,0.0484872770987778,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR2410,0,3,id_school_ppp,0.04423963133640554,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR2411,0,1,id_school_ppp,0.04608294930875576,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR2412,0,5,id_school_ppp,0.04608294930875576,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3301,0,2,id_school_ppp,0.11084162017948096,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3302,0,4,id_school_ppp,0.13162442396313365,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3303,0,5,id_school_ppp,0.1169994879672299,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3304,0,0,id_school_ppp,0.12442396313364057,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3305,0,1,id_school_ppp,0.13162442396313365,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3306,0,3,id_school_ppp,0.06912442396313365,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3307,0,4,id_school_ppp,0.13162442396313365,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3308,0,5,id_school_ppp,0.1169994879672299,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3309,0,1,id_school_ppp,0.13162442396313365,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3310,0,2,id_school_ppp,0.5529953917050692,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3311,0,5,id_school_ppp,0.5529953917050692,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3401,0,4,id_school_ppp,0.13162442396313365,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3402,0,0,id_school_ppp,0.12442396313364057,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3403,0,1,id_school_ppp,0.13162442396313365,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3404,0,4,id_school_ppp,0.13162442396313365,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3406,1,3,id_school_ppp,0.06912442396313365,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3407,0,0,id_school_ppp,0.12442396313364057,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3408,0,1,id_school_ppp,0.13162442396313365,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3409,0,3,id_school_ppp,0.06912442396313365,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3410,0,3,id_school_ppp,0.06912442396313365,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5301,0,1,id_school_ppp,0.04608294930875576,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5302,0,2,id_school_ppp,0.0480865558004408,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5303,0,0,id_school_ppp,0.0484872770987778,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5304,0,2,id_school_ppp,0.0480865558004408,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5305,0,3,id_school_ppp,0.04423963133640554,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5306,0,2,id_school_ppp,0.0480865558004408,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5307,0,1,id_school_ppp,0.04608294930875576,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5308,0,0,id_school_ppp,0.0484872770987778,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5309,0,5,id_school_ppp,0.04608294930875576,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5310,0,1,id_school_ppp,0.04608294930875576,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5311,0,2,id_school_ppp,0.0480865558004408,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5312,0,0,id_school_ppp,0.0484872770987778,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5313,0,2,id_school_ppp,0.0480865558004408,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5314,0,3,id_school_ppp,0.04423963133640554,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5315,0,5,id_school_ppp,0.04608294930875576,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5401,0,1,id_school_ppp,0.06505828137706696,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5402,0,0,id_school_ppp,0.07434715821812596,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5403,0,4,id_school_ppp,0.06912442396313365,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5404,0,5,id_school_ppp,0.05821004123211254,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5405,0,1,id_school_ppp,0.06505828137706696,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5406,0,0,id_school_ppp,0.07434715821812596,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5407,0,4,id_school_ppp,0.06912442396313365,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5408,0,2,id_school_ppp,0.055299539170506916,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5409,0,0,id_school_ppp,0.07434715821812596,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5410,0,4,id_school_ppp,0.06912442396313365,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5411,0,1,id_school_ppp,0.06505828137706696,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5412,0,0,id_school_ppp,0.07434715821812596,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5413,0,0,id_school_ppp,0.07434715821812596,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5414,0,1,id_school_ppp,0.06505828137706696,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5415,0,4,id_school_ppp,0.06912442396313365,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5416,0,0,id_school_ppp,0.07434715821812596,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5417,0,3,id_school_ppp,0.055299539170506916,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5418,0,5,id_school_ppp,0.05821004123211254,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5419,0,4,id_school_ppp,0.06912442396313365,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7301,0,2,id_school_ppp,0.12288786482334871,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7302,0,2,id_school_ppp,0.12288786482334871,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7303,0,3,id_school_ppp,0.11059907834101383,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7304,0,2,id_school_ppp,0.12288786482334871,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7305,0,4,id_school_ppp,0.10054461667364895,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7306,0,3,id_school_ppp,0.11059907834101383,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7308,0,5,id_school_ppp,0.11059907834101383,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7310,0,4,id_school_ppp,0.08507621410847219,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7311,0,4,id_school_ppp,0.08507621410847219,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7312,0,2,id_school_ppp,0.08507621410847219,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7313,0,3,id_school_ppp,0.09216589861751152,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7314,0,2,id_school_ppp,0.08507621410847219,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7315,0,5,id_school_ppp,0.07899934167215274,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7316,0,2,id_school_ppp,0.08507621410847219,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7317,0,3,id_school_ppp,0.09216589861751152,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7319,0,1,id_school_ppp,0.07899934167215274,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7320,0,5,id_school_ppp,0.07899934167215274,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7321,0,3,id_school_ppp,0.09216589861751152,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7322,0,3,id_school_ppp,0.09216589861751152,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7323,0,4,id_school_ppp,0.08507621410847219,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7324,0,1,id_school_ppp,0.07899934167215274,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7401,0,1,id_school_ppp,0.10054461667364895,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7402,0,5,id_school_ppp,0.11059907834101383,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7403,0,0,id_school_ppp,0.10138248847926268,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7404,0,2,id_school_ppp,0.2632488479262673,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7405,0,1,id_school_ppp,0.3882488479262673,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7406,0,0,id_school_ppp,0.3461341525857655,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7407,0,1,id_school_ppp,0.3882488479262673,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7408,1,2,id_school_ppp,0.2632488479262673,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7409,0,5,id_school_ppp,0.34511008704557095,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7411,0,4,id_school_ppp,0.2632488479262673,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7412,1,4,id_school_ppp,0.2632488479262673,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8041,0,5,id_school_ppp,0.4437129690585912,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8042,0,3,id_school_ppp,0.4437129690585912,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8043,1,0,id_school_ppp,0.1858678955453149,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8044,0,4,id_school_ppp,0.5176651305683564,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8045,0,4,id_school_ppp,0.5176651305683564,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8046,1,0,id_school_ppp,0.1858678955453149,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8407,0,5,id_school_ppp,0.1382488479262673,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8408,0,1,id_school_ppp,0.11059907834101383,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8409,0,3,id_school_ppp,0.12288786482334871,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8411,0,3,id_school_ppp,0.12288786482334871,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8412,0,5,id_school_ppp,0.1382488479262673,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8414,0,0,id_school_ppp,0.11152073732718895,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8415,0,4,id_school_ppp,0.11059907834101383,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8416,0,2,id_school_ppp,0.11059907834101383,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8417,0,5,id_school_ppp,0.1382488479262673,Other five folds only,2,"Beta(1,1) Train class prior",False
+CH10309,1,3,id_school_ppp,0.7019969278033794,Other five folds only,2,"Beta(1,1) Train class prior",False
+CH10408,1,0,id_school_ppp,0.7050691244239632,Other five folds only,2,"Beta(1,1) Train class prior",False
+DK12305,1,1,id_school_ppp,0.8882488479262673,Other five folds only,2,"Beta(1,1) Train class prior",False
+DK12306,1,2,id_school_ppp,0.8722843976300199,Other five folds only,2,"Beta(1,1) Train class prior",False
+DK12307,1,0,id_school_ppp,0.8894009216589862,Other five folds only,2,"Beta(1,1) Train class prior",False
+DK12308,1,1,id_school_ppp,0.8882488479262673,Other five folds only,2,"Beta(1,1) Train class prior",False
+DK12401,1,2,id_school_ppp,0.8722843976300199,Other five folds only,2,"Beta(1,1) Train class prior",False
+DK12402,1,5,id_school_ppp,0.9006656426011266,Other five folds only,2,"Beta(1,1) Train class prior",False
+DK12403,1,2,id_school_ppp,0.8722843976300199,Other five folds only,2,"Beta(1,1) Train class prior",False
+DK12404,1,0,id_school_ppp,0.8894009216589862,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK01402,1,0,id_school_ppp,0.9508448540706606,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK01403,1,4,id_school_ppp,0.9552995391705069,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK01404,1,1,id_school_ppp,0.9529468833373758,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK01405,1,3,id_school_ppp,0.5529953917050692,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK01407,1,0,id_school_ppp,0.9508448540706606,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK01412,1,5,id_school_ppp,0.9529468833373758,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK02301,1,3,id_school_ppp,0.9474112225535376,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK02402,1,1,id_school_ppp,0.9529468833373758,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK03304,1,5,id_school_ppp,0.9529468833373758,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK03401,1,3,id_school_ppp,0.9474112225535376,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK03402,1,4,id_school_ppp,0.9552995391705069,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK05305,1,0,id_school_ppp,0.9319390287132223,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK05308,1,1,id_school_ppp,0.9254992319508449,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK05401,1,4,id_school_ppp,0.9187264348554671,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK05402,1,4,id_school_ppp,0.9187264348554671,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK05403,1,5,id_school_ppp,0.9254992319508449,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK05404,1,3,id_school_ppp,0.9312300602623184,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK05406,1,2,id_school_ppp,0.9187264348554671,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK05407,1,1,id_school_ppp,0.9254992319508449,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11301,1,3,id_school_ppp,0.7019969278033794,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11302,1,0,id_school_ppp,0.7050691244239632,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11306,1,3,id_school_ppp,0.9474112225535376,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11307,1,5,id_school_ppp,0.7019969278033794,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11310,1,2,id_school_ppp,0.9529468833373758,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11313,1,5,id_school_ppp,0.9529468833373758,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11403,1,4,id_school_ppp,0.5529953917050692,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11404,1,3,id_school_ppp,0.9474112225535376,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11405,1,1,id_school_ppp,0.9529468833373758,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11408,1,2,id_school_ppp,0.7019969278033794,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11411,1,0,id_school_ppp,0.9508448540706606,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11412,1,2,id_school_ppp,0.9529468833373758,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11414,1,2,id_school_ppp,0.9529468833373758,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11415,1,3,id_school_ppp,0.9474112225535376,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11416,1,0,id_school_ppp,0.9508448540706606,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK12304,1,1,id_school_ppp,0.7764976958525346,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK12310,1,5,id_school_ppp,0.8211981566820278,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK12311,1,3,id_school_ppp,0.8211981566820278,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK12312,1,2,id_school_ppp,0.5529953917050692,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK12313,1,2,id_school_ppp,0.9187264348554671,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK12314,1,4,id_school_ppp,0.9187264348554671,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK12316,1,5,id_school_ppp,0.9254992319508449,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK12402,1,5,id_school_ppp,0.7764976958525346,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK12403,1,2,id_school_ppp,0.7764976958525346,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK12409,1,4,id_school_ppp,0.8509984639016898,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK12415,1,2,id_school_ppp,0.9187264348554671,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK14407,1,3,id_school_ppp,0.8211981566820278,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK14408,1,5,id_school_ppp,0.8211981566820278,Other five folds only,2,"Beta(1,1) Train class prior",False
+JI02401,1,1,id_school_ppp,0.9006656426011266,Other five folds only,2,"Beta(1,1) Train class prior",False
+JI02403,1,3,id_school_ppp,0.8882488479262673,Other five folds only,2,"Beta(1,1) Train class prior",False
+JI05305,1,4,id_school_ppp,0.8882488479262673,Other five folds only,2,"Beta(1,1) Train class prior",False
+JI05401,1,5,id_school_ppp,0.8882488479262673,Other five folds only,2,"Beta(1,1) Train class prior",False
+JI05402,1,3,id_school_ppp,0.8882488479262673,Other five folds only,2,"Beta(1,1) Train class prior",False
+JI05403,1,4,id_school_ppp,0.8882488479262673,Other five folds only,2,"Beta(1,1) Train class prior",False
+JI05404,1,5,id_school_ppp,0.8882488479262673,Other five folds only,2,"Beta(1,1) Train class prior",False
+JI05406,1,2,id_school_ppp,0.9006656426011266,Other five folds only,2,"Beta(1,1) Train class prior",False
+JN07405,1,5,id_school_ppp,0.7764976958525346,Other five folds only,2,"Beta(1,1) Train class prior",False
+JN07406,1,4,id_school_ppp,0.7764976958525346,Other five folds only,2,"Beta(1,1) Train class prior",False
+JN07408,1,4,id_school_ppp,0.7764976958525346,Other five folds only,2,"Beta(1,1) Train class prior",False
+JN07409,1,5,id_school_ppp,0.7764976958525346,Other five folds only,2,"Beta(1,1) Train class prior",False
+MB07301,1,4,id_school_ppp,0.7764976958525346,Other five folds only,2,"Beta(1,1) Train class prior",False
+MB07302,1,3,id_school_ppp,0.7019969278033794,Other five folds only,2,"Beta(1,1) Train class prior",False
+MB07404,1,3,id_school_ppp,0.7019969278033794,Other five folds only,2,"Beta(1,1) Train class prior",False
+MB09301,1,1,id_school_ppp,0.8882488479262673,Other five folds only,2,"Beta(1,1) Train class prior",False
+MB09302,1,1,id_school_ppp,0.8882488479262673,Other five folds only,2,"Beta(1,1) Train class prior",False
+MB09303,1,3,id_school_ppp,0.9105990783410138,Other five folds only,2,"Beta(1,1) Train class prior",False
+MB09304,1,4,id_school_ppp,0.9006656426011266,Other five folds only,2,"Beta(1,1) Train class prior",False
+MB09305,1,0,id_school_ppp,0.911520737327189,Other five folds only,2,"Beta(1,1) Train class prior",False
+MB09308,1,2,id_school_ppp,0.9105990783410138,Other five folds only,2,"Beta(1,1) Train class prior",False
+MB09406,1,5,id_school_ppp,0.9105990783410138,Other five folds only,2,"Beta(1,1) Train class prior",False
+MB09407,1,1,id_school_ppp,0.8882488479262673,Other five folds only,2,"Beta(1,1) Train class prior",False
+MB09409,1,4,id_school_ppp,0.9006656426011266,Other five folds only,2,"Beta(1,1) Train class prior",False
+ME09401,1,2,id_school_ppp,0.7019969278033794,Other five folds only,2,"Beta(1,1) Train class prior",False
+ME09402,1,5,id_school_ppp,0.7019969278033794,Other five folds only,2,"Beta(1,1) Train class prior",False
+NA03401,1,3,id_school_ppp,0.8211981566820278,Other five folds only,2,"Beta(1,1) Train class prior",False
+NA03403,1,2,id_school_ppp,0.7764976958525346,Other five folds only,2,"Beta(1,1) Train class prior",False
+NA06303,1,2,id_school_ppp,0.7764976958525346,Other five folds only,2,"Beta(1,1) Train class prior",False
+NA06306,1,1,id_school_ppp,0.7019969278033794,Other five folds only,2,"Beta(1,1) Train class prior",False
+NA06307,1,0,id_school_ppp,0.8230414746543779,Other five folds only,2,"Beta(1,1) Train class prior",False
+NA06402,1,1,id_school_ppp,0.8211981566820278,Other five folds only,2,"Beta(1,1) Train class prior",False
+NA06404,1,1,id_school_ppp,0.7019969278033794,Other five folds only,2,"Beta(1,1) Train class prior",False
+NA06405,1,1,id_school_ppp,0.7019969278033794,Other five folds only,2,"Beta(1,1) Train class prior",False
+NB05301,1,4,id_school_ppp,0.8509984639016898,Other five folds only,2,"Beta(1,1) Train class prior",False
+NB05302,1,0,id_school_ppp,0.8230414746543779,Other five folds only,2,"Beta(1,1) Train class prior",False
+NB05405,1,5,id_school_ppp,0.8509984639016898,Other five folds only,2,"Beta(1,1) Train class prior",False
+NB05406,1,3,id_school_ppp,0.8509984639016898,Other five folds only,2,"Beta(1,1) Train class prior",False
+NB05407,1,0,id_school_ppp,0.8230414746543779,Other five folds only,2,"Beta(1,1) Train class prior",False
+RK03306,1,4,id_school_ppp,0.9006656426011266,Other five folds only,2,"Beta(1,1) Train class prior",False
+RK03401,1,2,id_school_ppp,0.9006656426011266,Other five folds only,2,"Beta(1,1) Train class prior",False
+RK03402,1,4,id_school_ppp,0.9006656426011266,Other five folds only,2,"Beta(1,1) Train class prior",False
+RK03405,1,4,id_school_ppp,0.9006656426011266,Other five folds only,2,"Beta(1,1) Train class prior",False
+RK06302,1,2,id_school_ppp,0.9006656426011266,Other five folds only,2,"Beta(1,1) Train class prior",False
+RK06303,1,2,id_school_ppp,0.9006656426011266,Other five folds only,2,"Beta(1,1) Train class prior",False
+RK06304,1,3,id_school_ppp,0.9187264348554671,Other five folds only,2,"Beta(1,1) Train class prior",False
+RK06306,1,1,id_school_ppp,0.9187264348554671,Other five folds only,2,"Beta(1,1) Train class prior",False
+RK06401,1,5,id_school_ppp,0.9187264348554671,Other five folds only,2,"Beta(1,1) Train class prior",False
+RK06405,1,0,id_school_ppp,0.9195643066610809,Other five folds only,2,"Beta(1,1) Train class prior",False
+SO01302,1,3,id_school_ppp,0.8722843976300199,Other five folds only,2,"Beta(1,1) Train class prior",False
+SO01305,1,0,id_school_ppp,0.8736010533245556,Other five folds only,2,"Beta(1,1) Train class prior",False
+SO01306,1,1,id_school_ppp,0.8882488479262673,Other five folds only,2,"Beta(1,1) Train class prior",False
+SO01401,1,4,id_school_ppp,0.8722843976300199,Other five folds only,2,"Beta(1,1) Train class prior",False
+SO01403,1,0,id_school_ppp,0.8736010533245556,Other five folds only,2,"Beta(1,1) Train class prior",False
+SO01404,1,4,id_school_ppp,0.8722843976300199,Other five folds only,2,"Beta(1,1) Train class prior",False
+SO01407,1,3,id_school_ppp,0.8722843976300199,Other five folds only,2,"Beta(1,1) Train class prior",False
+TL10305,1,5,id_school_ppp,0.8722843976300199,Other five folds only,2,"Beta(1,1) Train class prior",False
+TL10306,1,0,id_school_ppp,0.8736010533245556,Other five folds only,2,"Beta(1,1) Train class prior",False
+TL10401,1,0,id_school_ppp,0.8736010533245556,Other five folds only,2,"Beta(1,1) Train class prior",False
+TL10402,1,3,id_school_ppp,0.8882488479262673,Other five folds only,2,"Beta(1,1) Train class prior",False
+TL10403,1,1,id_school_ppp,0.8882488479262673,Other five folds only,2,"Beta(1,1) Train class prior",False
+TL10404,1,4,id_school_ppp,0.8882488479262673,Other five folds only,2,"Beta(1,1) Train class prior",False
+TL10407,1,5,id_school_ppp,0.8722843976300199,Other five folds only,2,"Beta(1,1) Train class prior",False
+TU03302,1,2,id_school_ppp,0.8722843976300199,Other five folds only,2,"Beta(1,1) Train class prior",False
+TU03403,1,1,id_school_ppp,0.8882488479262673,Other five folds only,2,"Beta(1,1) Train class prior",False
+TU03404,1,4,id_school_ppp,0.8882488479262673,Other five folds only,2,"Beta(1,1) Train class prior",False
+TU03405,1,4,id_school_ppp,0.8882488479262673,Other five folds only,2,"Beta(1,1) Train class prior",False
+TU03406,1,1,id_school_ppp,0.8882488479262673,Other five folds only,2,"Beta(1,1) Train class prior",False
+TU03407,1,2,id_school_ppp,0.8722843976300199,Other five folds only,2,"Beta(1,1) Train class prior",False
+TU03408,1,2,id_school_ppp,0.8722843976300199,Other five folds only,2,"Beta(1,1) Train class prior",False
+TU03410,1,5,id_school_ppp,0.9006656426011266,Other five folds only,2,"Beta(1,1) Train class prior",False
+VV10301,1,0,id_school_ppp,0.8894009216589862,Other five folds only,2,"Beta(1,1) Train class prior",False
+VV10302,1,3,id_school_ppp,0.9006656426011266,Other five folds only,2,"Beta(1,1) Train class prior",False
+VV10303,1,5,id_school_ppp,0.8882488479262673,Other five folds only,2,"Beta(1,1) Train class prior",False
+VV10304,1,1,id_school_ppp,0.8722843976300199,Other five folds only,2,"Beta(1,1) Train class prior",False
+VV10401,1,1,id_school_ppp,0.8722843976300199,Other five folds only,2,"Beta(1,1) Train class prior",False
+VV10402,1,0,id_school_ppp,0.8894009216589862,Other five folds only,2,"Beta(1,1) Train class prior",False
+VV10403,1,5,id_school_ppp,0.8882488479262673,Other five folds only,2,"Beta(1,1) Train class prior",False
+VV10404,1,1,id_school_ppp,0.8722843976300199,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR10301,0,4,site_type_ppp,0.4431378780655755,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR10302,0,0,site_type_ppp,0.429257186745666,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR10304,0,2,site_type_ppp,0.4463199473337722,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR10305,0,3,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR10306,1,5,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR10403,0,0,site_type_ppp,0.429257186745666,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR10404,0,2,site_type_ppp,0.4463199473337722,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR10405,0,3,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR10406,1,0,site_type_ppp,0.429257186745666,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR2401,0,3,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR2402,0,2,site_type_ppp,0.4463199473337722,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR2403,0,0,site_type_ppp,0.429257186745666,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR2404,0,5,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR2405,0,1,site_type_ppp,0.4333683671544452,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR2406,0,4,site_type_ppp,0.4431378780655755,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR2407,0,5,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR2408,0,0,site_type_ppp,0.429257186745666,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR2409,0,0,site_type_ppp,0.429257186745666,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR2410,0,3,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR2411,0,1,site_type_ppp,0.4333683671544452,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR2412,0,5,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3301,0,2,site_type_ppp,0.4463199473337722,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3302,0,4,site_type_ppp,0.4431378780655755,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3303,0,5,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3304,0,0,site_type_ppp,0.429257186745666,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3305,0,1,site_type_ppp,0.4333683671544452,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3306,0,3,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3307,0,4,site_type_ppp,0.4431378780655755,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3308,0,5,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3309,0,1,site_type_ppp,0.4333683671544452,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3310,0,2,site_type_ppp,0.4463199473337722,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3311,0,5,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3401,0,4,site_type_ppp,0.4431378780655755,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3402,0,0,site_type_ppp,0.429257186745666,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3403,0,1,site_type_ppp,0.4333683671544452,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3404,0,4,site_type_ppp,0.4431378780655755,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3406,1,3,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3407,0,0,site_type_ppp,0.429257186745666,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3408,0,1,site_type_ppp,0.4333683671544452,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3409,0,3,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3410,0,3,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5301,0,1,site_type_ppp,0.4333683671544452,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5302,0,2,site_type_ppp,0.4463199473337722,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5303,0,0,site_type_ppp,0.429257186745666,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5304,0,2,site_type_ppp,0.4463199473337722,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5305,0,3,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5306,0,2,site_type_ppp,0.4463199473337722,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5307,0,1,site_type_ppp,0.4333683671544452,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5308,0,0,site_type_ppp,0.429257186745666,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5309,0,5,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5310,0,1,site_type_ppp,0.4333683671544452,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5311,0,2,site_type_ppp,0.4463199473337722,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5312,0,0,site_type_ppp,0.429257186745666,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5313,0,2,site_type_ppp,0.4463199473337722,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5314,0,3,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5315,0,5,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5401,0,1,site_type_ppp,0.4333683671544452,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5402,0,0,site_type_ppp,0.429257186745666,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5403,0,4,site_type_ppp,0.4431378780655755,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5404,0,5,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5405,0,1,site_type_ppp,0.4333683671544452,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5406,0,0,site_type_ppp,0.429257186745666,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5407,0,4,site_type_ppp,0.4431378780655755,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5408,0,2,site_type_ppp,0.4463199473337722,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5409,0,0,site_type_ppp,0.429257186745666,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5410,0,4,site_type_ppp,0.4431378780655755,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5411,0,1,site_type_ppp,0.4333683671544452,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5412,0,0,site_type_ppp,0.429257186745666,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5413,0,0,site_type_ppp,0.429257186745666,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5414,0,1,site_type_ppp,0.4333683671544452,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5415,0,4,site_type_ppp,0.4431378780655755,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5416,0,0,site_type_ppp,0.429257186745666,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5417,0,3,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5418,0,5,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5419,0,4,site_type_ppp,0.4431378780655755,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7301,0,2,site_type_ppp,0.4463199473337722,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7302,0,2,site_type_ppp,0.4463199473337722,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7303,0,3,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7304,0,2,site_type_ppp,0.4463199473337722,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7305,0,4,site_type_ppp,0.4431378780655755,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7306,0,3,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7308,0,5,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7310,0,4,site_type_ppp,0.4431378780655755,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7311,0,4,site_type_ppp,0.4431378780655755,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7312,0,2,site_type_ppp,0.4463199473337722,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7313,0,3,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7314,0,2,site_type_ppp,0.4463199473337722,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7315,0,5,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7316,0,2,site_type_ppp,0.4463199473337722,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7317,0,3,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7319,0,1,site_type_ppp,0.4333683671544452,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7320,0,5,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7321,0,3,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7322,0,3,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7323,0,4,site_type_ppp,0.4431378780655755,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7324,0,1,site_type_ppp,0.4333683671544452,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7401,0,1,site_type_ppp,0.4333683671544452,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7402,0,5,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7403,0,0,site_type_ppp,0.429257186745666,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7404,0,2,site_type_ppp,0.4463199473337722,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7405,0,1,site_type_ppp,0.4333683671544452,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7406,0,0,site_type_ppp,0.429257186745666,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7407,0,1,site_type_ppp,0.4333683671544452,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7408,1,2,site_type_ppp,0.4463199473337722,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7409,0,5,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7411,0,4,site_type_ppp,0.4431378780655755,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7412,1,4,site_type_ppp,0.4431378780655755,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8041,0,5,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8042,0,3,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8043,1,0,site_type_ppp,0.429257186745666,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8044,0,4,site_type_ppp,0.4431378780655755,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8045,0,4,site_type_ppp,0.4431378780655755,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8046,1,0,site_type_ppp,0.429257186745666,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8407,0,5,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8408,0,1,site_type_ppp,0.4333683671544452,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8409,0,3,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8411,0,3,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8412,0,5,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8414,0,0,site_type_ppp,0.429257186745666,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8415,0,4,site_type_ppp,0.4431378780655755,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8416,0,2,site_type_ppp,0.4463199473337722,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8417,0,5,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+CH10309,1,3,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+CH10408,1,0,site_type_ppp,0.429257186745666,Other five folds only,2,"Beta(1,1) Train class prior",False
+DK12305,1,1,site_type_ppp,0.4333683671544452,Other five folds only,2,"Beta(1,1) Train class prior",False
+DK12306,1,2,site_type_ppp,0.4463199473337722,Other five folds only,2,"Beta(1,1) Train class prior",False
+DK12307,1,0,site_type_ppp,0.429257186745666,Other five folds only,2,"Beta(1,1) Train class prior",False
+DK12308,1,1,site_type_ppp,0.4333683671544452,Other five folds only,2,"Beta(1,1) Train class prior",False
+DK12401,1,2,site_type_ppp,0.4463199473337722,Other five folds only,2,"Beta(1,1) Train class prior",False
+DK12402,1,5,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+DK12403,1,2,site_type_ppp,0.4463199473337722,Other five folds only,2,"Beta(1,1) Train class prior",False
+DK12404,1,0,site_type_ppp,0.429257186745666,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK01402,1,0,site_type_ppp,0.9826511249661154,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK01403,1,4,site_type_ppp,0.9801331285202253,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK01404,1,1,site_type_ppp,0.9813748079877112,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK01405,1,3,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK01407,1,0,site_type_ppp,0.9826511249661154,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK01412,1,5,site_type_ppp,0.9809785273065986,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK02301,1,3,site_type_ppp,0.9809785273065986,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK02402,1,1,site_type_ppp,0.9813748079877112,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK03304,1,5,site_type_ppp,0.9809785273065986,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK03401,1,3,site_type_ppp,0.9809785273065986,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK03402,1,4,site_type_ppp,0.9801331285202253,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK05305,1,0,site_type_ppp,0.429257186745666,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK05308,1,1,site_type_ppp,0.4333683671544452,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK05401,1,4,site_type_ppp,0.4431378780655755,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK05402,1,4,site_type_ppp,0.4431378780655755,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK05403,1,5,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK05404,1,3,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK05406,1,2,site_type_ppp,0.4463199473337722,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK05407,1,1,site_type_ppp,0.4333683671544452,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11301,1,3,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11302,1,0,site_type_ppp,0.429257186745666,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11306,1,3,site_type_ppp,0.9809785273065986,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11307,1,5,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11310,1,2,site_type_ppp,0.9796816087138667,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11313,1,5,site_type_ppp,0.9809785273065986,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11403,1,4,site_type_ppp,0.4431378780655755,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11404,1,3,site_type_ppp,0.9809785273065986,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11405,1,1,site_type_ppp,0.9813748079877112,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11408,1,2,site_type_ppp,0.4463199473337722,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11411,1,0,site_type_ppp,0.9826511249661154,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11412,1,2,site_type_ppp,0.9796816087138667,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11414,1,2,site_type_ppp,0.9796816087138667,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11415,1,3,site_type_ppp,0.9809785273065986,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11416,1,0,site_type_ppp,0.9826511249661154,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK12304,1,1,site_type_ppp,0.4333683671544452,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK12310,1,5,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK12311,1,3,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK12312,1,2,site_type_ppp,0.4463199473337722,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK12313,1,2,site_type_ppp,0.4463199473337722,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK12314,1,4,site_type_ppp,0.4431378780655755,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK12316,1,5,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK12402,1,5,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK12403,1,2,site_type_ppp,0.4463199473337722,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK12409,1,4,site_type_ppp,0.4431378780655755,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK12415,1,2,site_type_ppp,0.4463199473337722,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK14407,1,3,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK14408,1,5,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+JI02401,1,1,site_type_ppp,0.9813748079877112,Other five folds only,2,"Beta(1,1) Train class prior",False
+JI02403,1,3,site_type_ppp,0.9809785273065986,Other five folds only,2,"Beta(1,1) Train class prior",False
+JI05305,1,4,site_type_ppp,0.9801331285202253,Other five folds only,2,"Beta(1,1) Train class prior",False
+JI05401,1,5,site_type_ppp,0.9809785273065986,Other five folds only,2,"Beta(1,1) Train class prior",False
+JI05402,1,3,site_type_ppp,0.9809785273065986,Other five folds only,2,"Beta(1,1) Train class prior",False
+JI05403,1,4,site_type_ppp,0.9801331285202253,Other five folds only,2,"Beta(1,1) Train class prior",False
+JI05404,1,5,site_type_ppp,0.9809785273065986,Other five folds only,2,"Beta(1,1) Train class prior",False
+JI05406,1,2,site_type_ppp,0.9796816087138667,Other five folds only,2,"Beta(1,1) Train class prior",False
+JN07405,1,5,site_type_ppp,0.9809785273065986,Other five folds only,2,"Beta(1,1) Train class prior",False
+JN07406,1,4,site_type_ppp,0.9801331285202253,Other five folds only,2,"Beta(1,1) Train class prior",False
+JN07408,1,4,site_type_ppp,0.9801331285202253,Other five folds only,2,"Beta(1,1) Train class prior",False
+JN07409,1,5,site_type_ppp,0.9809785273065986,Other five folds only,2,"Beta(1,1) Train class prior",False
+MB07301,1,4,site_type_ppp,0.4431378780655755,Other five folds only,2,"Beta(1,1) Train class prior",False
+MB07302,1,3,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+MB07404,1,3,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+MB09301,1,1,site_type_ppp,0.4333683671544452,Other five folds only,2,"Beta(1,1) Train class prior",False
+MB09302,1,1,site_type_ppp,0.4333683671544452,Other five folds only,2,"Beta(1,1) Train class prior",False
+MB09303,1,3,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+MB09304,1,4,site_type_ppp,0.4431378780655755,Other five folds only,2,"Beta(1,1) Train class prior",False
+MB09305,1,0,site_type_ppp,0.429257186745666,Other five folds only,2,"Beta(1,1) Train class prior",False
+MB09308,1,2,site_type_ppp,0.4463199473337722,Other five folds only,2,"Beta(1,1) Train class prior",False
+MB09406,1,5,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+MB09407,1,1,site_type_ppp,0.4333683671544452,Other five folds only,2,"Beta(1,1) Train class prior",False
+MB09409,1,4,site_type_ppp,0.4431378780655755,Other five folds only,2,"Beta(1,1) Train class prior",False
+ME09401,1,2,site_type_ppp,0.4463199473337722,Other five folds only,2,"Beta(1,1) Train class prior",False
+ME09402,1,5,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+NA03401,1,3,site_type_ppp,0.9809785273065986,Other five folds only,2,"Beta(1,1) Train class prior",False
+NA03403,1,2,site_type_ppp,0.9796816087138667,Other five folds only,2,"Beta(1,1) Train class prior",False
+NA06303,1,2,site_type_ppp,0.9796816087138667,Other five folds only,2,"Beta(1,1) Train class prior",False
+NA06306,1,1,site_type_ppp,0.4333683671544452,Other five folds only,2,"Beta(1,1) Train class prior",False
+NA06307,1,0,site_type_ppp,0.429257186745666,Other five folds only,2,"Beta(1,1) Train class prior",False
+NA06402,1,1,site_type_ppp,0.9813748079877112,Other five folds only,2,"Beta(1,1) Train class prior",False
+NA06404,1,1,site_type_ppp,0.4333683671544452,Other five folds only,2,"Beta(1,1) Train class prior",False
+NA06405,1,1,site_type_ppp,0.4333683671544452,Other five folds only,2,"Beta(1,1) Train class prior",False
+NB05301,1,4,site_type_ppp,0.4431378780655755,Other five folds only,2,"Beta(1,1) Train class prior",False
+NB05302,1,0,site_type_ppp,0.429257186745666,Other five folds only,2,"Beta(1,1) Train class prior",False
+NB05405,1,5,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+NB05406,1,3,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+NB05407,1,0,site_type_ppp,0.429257186745666,Other five folds only,2,"Beta(1,1) Train class prior",False
+RK03306,1,4,site_type_ppp,0.9801331285202253,Other five folds only,2,"Beta(1,1) Train class prior",False
+RK03401,1,2,site_type_ppp,0.9796816087138667,Other five folds only,2,"Beta(1,1) Train class prior",False
+RK03402,1,4,site_type_ppp,0.9801331285202253,Other five folds only,2,"Beta(1,1) Train class prior",False
+RK03405,1,4,site_type_ppp,0.9801331285202253,Other five folds only,2,"Beta(1,1) Train class prior",False
+RK06302,1,2,site_type_ppp,0.9796816087138667,Other five folds only,2,"Beta(1,1) Train class prior",False
+RK06303,1,2,site_type_ppp,0.9796816087138667,Other five folds only,2,"Beta(1,1) Train class prior",False
+RK06304,1,3,site_type_ppp,0.9809785273065986,Other five folds only,2,"Beta(1,1) Train class prior",False
+RK06306,1,1,site_type_ppp,0.9813748079877112,Other five folds only,2,"Beta(1,1) Train class prior",False
+RK06401,1,5,site_type_ppp,0.9809785273065986,Other five folds only,2,"Beta(1,1) Train class prior",False
+RK06405,1,0,site_type_ppp,0.9826511249661154,Other five folds only,2,"Beta(1,1) Train class prior",False
+SO01302,1,3,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+SO01305,1,0,site_type_ppp,0.429257186745666,Other five folds only,2,"Beta(1,1) Train class prior",False
+SO01306,1,1,site_type_ppp,0.4333683671544452,Other five folds only,2,"Beta(1,1) Train class prior",False
+SO01401,1,4,site_type_ppp,0.4431378780655755,Other five folds only,2,"Beta(1,1) Train class prior",False
+SO01403,1,0,site_type_ppp,0.429257186745666,Other five folds only,2,"Beta(1,1) Train class prior",False
+SO01404,1,4,site_type_ppp,0.4431378780655755,Other five folds only,2,"Beta(1,1) Train class prior",False
+SO01407,1,3,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+TL10305,1,5,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+TL10306,1,0,site_type_ppp,0.429257186745666,Other five folds only,2,"Beta(1,1) Train class prior",False
+TL10401,1,0,site_type_ppp,0.429257186745666,Other five folds only,2,"Beta(1,1) Train class prior",False
+TL10402,1,3,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+TL10403,1,1,site_type_ppp,0.4333683671544452,Other five folds only,2,"Beta(1,1) Train class prior",False
+TL10404,1,4,site_type_ppp,0.4431378780655755,Other five folds only,2,"Beta(1,1) Train class prior",False
+TL10407,1,5,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+TU03302,1,2,site_type_ppp,0.9796816087138667,Other five folds only,2,"Beta(1,1) Train class prior",False
+TU03403,1,1,site_type_ppp,0.9813748079877112,Other five folds only,2,"Beta(1,1) Train class prior",False
+TU03404,1,4,site_type_ppp,0.9801331285202253,Other five folds only,2,"Beta(1,1) Train class prior",False
+TU03405,1,4,site_type_ppp,0.9801331285202253,Other five folds only,2,"Beta(1,1) Train class prior",False
+TU03406,1,1,site_type_ppp,0.9813748079877112,Other five folds only,2,"Beta(1,1) Train class prior",False
+TU03407,1,2,site_type_ppp,0.9796816087138667,Other five folds only,2,"Beta(1,1) Train class prior",False
+TU03408,1,2,site_type_ppp,0.9796816087138667,Other five folds only,2,"Beta(1,1) Train class prior",False
+TU03410,1,5,site_type_ppp,0.9809785273065986,Other five folds only,2,"Beta(1,1) Train class prior",False
+VV10301,1,0,site_type_ppp,0.429257186745666,Other five folds only,2,"Beta(1,1) Train class prior",False
+VV10302,1,3,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+VV10303,1,5,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+VV10304,1,1,site_type_ppp,0.4333683671544452,Other five folds only,2,"Beta(1,1) Train class prior",False
+VV10401,1,1,site_type_ppp,0.4333683671544452,Other five folds only,2,"Beta(1,1) Train class prior",False
+VV10402,1,0,site_type_ppp,0.429257186745666,Other five folds only,2,"Beta(1,1) Train class prior",False
+VV10403,1,5,site_type_ppp,0.43666273711284964,Other five folds only,2,"Beta(1,1) Train class prior",False
+VV10404,1,1,site_type_ppp,0.4333683671544452,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR10301,0,4,date_of_administration,0.13162442396313365,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR10302,0,0,date_of_administration,0.1947004608294931,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR10304,0,2,date_of_administration,0.15042791310072418,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR10305,0,3,date_of_administration,0.18270534020059637,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR10306,1,5,date_of_administration,0.08099964551577456,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR10403,0,0,date_of_administration,0.1947004608294931,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR10404,0,2,date_of_administration,0.15042791310072418,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR10405,0,3,date_of_administration,0.18270534020059637,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR10406,1,0,date_of_administration,0.09196553796834303,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR2401,0,3,date_of_administration,0.5356465166711847,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR2402,0,2,date_of_administration,0.6052995391705069,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR2403,0,0,date_of_administration,0.5950121984277582,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR2404,0,5,date_of_administration,0.5944700460829493,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR2405,0,1,date_of_administration,0.5614439324116743,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR2406,0,4,date_of_administration,0.5614439324116743,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR2407,0,5,date_of_administration,0.5944700460829493,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR2408,0,0,date_of_administration,0.5950121984277582,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR2409,0,0,date_of_administration,0.2823041474654378,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR2410,0,3,date_of_administration,0.2730414746543779,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR2411,0,1,date_of_administration,0.25757427198744975,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR2412,0,5,date_of_administration,0.2674691996614314,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3301,0,2,date_of_administration,0.2196954518132639,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3302,0,4,date_of_administration,0.19374448475340722,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3303,0,5,date_of_administration,0.2674691996614314,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3304,0,0,date_of_administration,0.2823041474654378,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3305,0,1,date_of_administration,0.25757427198744975,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3306,0,3,date_of_administration,0.2730414746543779,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3307,0,4,date_of_administration,0.19374448475340722,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3308,0,5,date_of_administration,0.2674691996614314,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3309,0,1,date_of_administration,0.25757427198744975,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3310,0,2,date_of_administration,0.6843317972350231,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3311,0,5,date_of_administration,0.729427254772877,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3401,0,4,date_of_administration,0.19374448475340722,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3402,0,0,date_of_administration,0.2823041474654378,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3403,0,1,date_of_administration,0.25757427198744975,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3404,0,4,date_of_administration,0.19374448475340722,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3406,1,3,date_of_administration,0.2730414746543779,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3407,0,0,date_of_administration,0.2823041474654378,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3408,0,1,date_of_administration,0.25757427198744975,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3409,0,3,date_of_administration,0.2730414746543779,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR3410,0,3,date_of_administration,0.2730414746543779,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5301,0,1,date_of_administration,0.25757427198744975,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5302,0,2,date_of_administration,0.2196954518132639,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5303,0,0,date_of_administration,0.2823041474654378,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5304,0,2,date_of_administration,0.2196954518132639,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5305,0,3,date_of_administration,0.2730414746543779,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5306,0,2,date_of_administration,0.8555090071219104,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5307,0,1,date_of_administration,0.25757427198744975,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5308,0,0,date_of_administration,0.2823041474654378,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5309,0,5,date_of_administration,0.2674691996614314,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5310,0,1,date_of_administration,0.2764976958525346,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5311,0,2,date_of_administration,0.2764976958525346,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5312,0,0,date_of_administration,0.27880184331797236,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5313,0,2,date_of_administration,0.2196954518132639,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5314,0,3,date_of_administration,0.2730414746543779,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5315,0,5,date_of_administration,0.2674691996614314,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5401,0,1,date_of_administration,0.119461183977313,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5402,0,0,date_of_administration,0.09196553796834303,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5403,0,4,date_of_administration,0.12423963133640553,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5404,0,5,date_of_administration,0.08099964551577456,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5405,0,1,date_of_administration,0.119461183977313,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5406,0,0,date_of_administration,0.09196553796834303,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5407,0,4,date_of_administration,0.12423963133640553,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5408,0,2,date_of_administration,0.10710313046241857,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5409,0,0,date_of_administration,0.09196553796834303,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5410,0,4,date_of_administration,0.12423963133640553,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5411,0,1,date_of_administration,0.119461183977313,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5412,0,0,date_of_administration,0.09196553796834303,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5413,0,0,date_of_administration,0.09196553796834303,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5414,0,1,date_of_administration,0.119461183977313,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5415,0,4,date_of_administration,0.12423963133640553,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5416,0,0,date_of_administration,0.09196553796834303,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5417,0,3,date_of_administration,0.1109282422646478,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5418,0,5,date_of_administration,0.08099964551577456,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR5419,0,4,date_of_administration,0.12423963133640553,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7301,0,2,date_of_administration,0.2196954518132639,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7302,0,2,date_of_administration,0.2196954518132639,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7303,0,3,date_of_administration,0.2730414746543779,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7304,0,2,date_of_administration,0.2196954518132639,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7305,0,4,date_of_administration,0.19374448475340722,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7306,0,3,date_of_administration,0.2730414746543779,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7308,0,5,date_of_administration,0.2674691996614314,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7310,0,4,date_of_administration,0.8736908253037285,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7311,0,4,date_of_administration,0.8736908253037285,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7312,0,2,date_of_administration,0.8555090071219104,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7313,0,3,date_of_administration,0.8713517665130568,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7314,0,2,date_of_administration,0.8555090071219104,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7315,0,5,date_of_administration,0.8528332479945383,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7316,0,2,date_of_administration,0.15042791310072418,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7317,0,3,date_of_administration,0.8713517665130568,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7319,0,1,date_of_administration,0.8464180980310012,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7320,0,5,date_of_administration,0.8528332479945383,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7321,0,3,date_of_administration,0.8713517665130568,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7322,0,3,date_of_administration,0.8713517665130568,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7323,0,4,date_of_administration,0.8736908253037285,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7324,0,1,date_of_administration,0.8464180980310012,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7401,0,1,date_of_administration,0.25757427198744975,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7402,0,5,date_of_administration,0.2674691996614314,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7403,0,0,date_of_administration,0.2823041474654378,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7404,0,2,date_of_administration,0.15042791310072418,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7405,0,1,date_of_administration,0.18270534020059637,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7406,0,0,date_of_administration,0.1947004608294931,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7407,0,1,date_of_administration,0.18270534020059637,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7408,1,2,date_of_administration,0.15042791310072418,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7409,0,5,date_of_administration,0.18270534020059637,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7411,0,4,date_of_administration,0.13162442396313365,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR7412,1,4,date_of_administration,0.13162442396313365,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8041,0,5,date_of_administration,0.8528332479945383,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8042,0,3,date_of_administration,0.8713517665130568,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8043,1,0,date_of_administration,0.8298667330925396,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8044,0,4,date_of_administration,0.8736908253037285,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8045,0,4,date_of_administration,0.8736908253037285,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8046,1,0,date_of_administration,0.8298667330925396,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8407,0,5,date_of_administration,0.18270534020059637,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8408,0,1,date_of_administration,0.119461183977313,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8409,0,3,date_of_administration,0.1109282422646478,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8411,0,3,date_of_administration,0.1109282422646478,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8412,0,5,date_of_administration,0.08099964551577456,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8414,0,0,date_of_administration,0.09196553796834303,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8415,0,4,date_of_administration,0.12423963133640553,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8416,0,2,date_of_administration,0.10710313046241857,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR8417,0,5,date_of_administration,0.08099964551577456,Other five folds only,2,"Beta(1,1) Train class prior",False
+CH10309,1,3,date_of_administration,0.8713517665130568,Other five folds only,2,"Beta(1,1) Train class prior",False
+CH10408,1,0,date_of_administration,0.8298667330925396,Other five folds only,2,"Beta(1,1) Train class prior",False
+DK12305,1,1,date_of_administration,0.8464180980310012,Other five folds only,2,"Beta(1,1) Train class prior",False
+DK12306,1,2,date_of_administration,0.8555090071219104,Other five folds only,2,"Beta(1,1) Train class prior",False
+DK12307,1,0,date_of_administration,0.8298667330925396,Other five folds only,2,"Beta(1,1) Train class prior",False
+DK12308,1,1,date_of_administration,0.8464180980310012,Other five folds only,2,"Beta(1,1) Train class prior",False
+DK12401,1,2,date_of_administration,0.8555090071219104,Other five folds only,2,"Beta(1,1) Train class prior",False
+DK12402,1,5,date_of_administration,0.8528332479945383,Other five folds only,2,"Beta(1,1) Train class prior",False
+DK12403,1,2,date_of_administration,0.8555090071219104,Other five folds only,2,"Beta(1,1) Train class prior",False
+DK12404,1,0,date_of_administration,0.8298667330925396,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK01402,1,0,date_of_administration,0.5950121984277582,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK01403,1,4,date_of_administration,0.5614439324116743,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK01404,1,1,date_of_administration,0.5614439324116743,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK01405,1,3,date_of_administration,0.5356465166711847,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK01407,1,0,date_of_administration,0.5950121984277582,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK01412,1,5,date_of_administration,0.5944700460829493,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK02301,1,3,date_of_administration,0.5356465166711847,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK02402,1,1,date_of_administration,0.5614439324116743,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK03304,1,5,date_of_administration,0.5944700460829493,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK03401,1,3,date_of_administration,0.5356465166711847,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK03402,1,4,date_of_administration,0.5614439324116743,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK05305,1,0,date_of_administration,0.8298667330925396,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK05308,1,1,date_of_administration,0.8464180980310012,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK05401,1,4,date_of_administration,0.8736908253037285,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK05402,1,4,date_of_administration,0.8736908253037285,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK05403,1,5,date_of_administration,0.8528332479945383,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK05404,1,3,date_of_administration,0.8713517665130568,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK05406,1,2,date_of_administration,0.8555090071219104,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK05407,1,1,date_of_administration,0.8464180980310012,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11301,1,3,date_of_administration,0.8713517665130568,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11302,1,0,date_of_administration,0.8298667330925396,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11306,1,3,date_of_administration,0.8713517665130568,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11307,1,5,date_of_administration,0.8528332479945383,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11310,1,2,date_of_administration,0.8555090071219104,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11313,1,5,date_of_administration,0.8528332479945383,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11403,1,4,date_of_administration,0.8736908253037285,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11404,1,3,date_of_administration,0.8713517665130568,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11405,1,1,date_of_administration,0.8464180980310012,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11408,1,2,date_of_administration,0.8555090071219104,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11411,1,0,date_of_administration,0.8298667330925396,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11412,1,2,date_of_administration,0.8555090071219104,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11414,1,2,date_of_administration,0.8555090071219104,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11415,1,3,date_of_administration,0.8713517665130568,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK11416,1,0,date_of_administration,0.8298667330925396,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK12304,1,1,date_of_administration,0.8464180980310012,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK12310,1,5,date_of_administration,0.8528332479945383,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK12311,1,3,date_of_administration,0.8713517665130568,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK12312,1,2,date_of_administration,0.8555090071219104,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK12313,1,2,date_of_administration,0.8555090071219104,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK12314,1,4,date_of_administration,0.8736908253037285,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK12316,1,5,date_of_administration,0.8528332479945383,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK12402,1,5,date_of_administration,0.8528332479945383,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK12403,1,2,date_of_administration,0.8555090071219104,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK12409,1,4,date_of_administration,0.8736908253037285,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK12415,1,2,date_of_administration,0.8555090071219104,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK14407,1,3,date_of_administration,0.8713517665130568,Other five folds only,2,"Beta(1,1) Train class prior",False
+HK14408,1,5,date_of_administration,0.8528332479945383,Other five folds only,2,"Beta(1,1) Train class prior",False
+JI02401,1,1,date_of_administration,0.5865701119157342,Other five folds only,2,"Beta(1,1) Train class prior",False
+JI02403,1,3,date_of_administration,0.5176651305683564,Other five folds only,2,"Beta(1,1) Train class prior",False
+JI05305,1,4,date_of_administration,0.8736908253037285,Other five folds only,2,"Beta(1,1) Train class prior",False
+JI05401,1,5,date_of_administration,0.8528332479945383,Other five folds only,2,"Beta(1,1) Train class prior",False
+JI05402,1,3,date_of_administration,0.8713517665130568,Other five folds only,2,"Beta(1,1) Train class prior",False
+JI05403,1,4,date_of_administration,0.8736908253037285,Other five folds only,2,"Beta(1,1) Train class prior",False
+JI05404,1,5,date_of_administration,0.8528332479945383,Other five folds only,2,"Beta(1,1) Train class prior",False
+JI05406,1,2,date_of_administration,0.8555090071219104,Other five folds only,2,"Beta(1,1) Train class prior",False
+JN07405,1,5,date_of_administration,0.8528332479945383,Other five folds only,2,"Beta(1,1) Train class prior",False
+JN07406,1,4,date_of_administration,0.8736908253037285,Other five folds only,2,"Beta(1,1) Train class prior",False
+JN07408,1,4,date_of_administration,0.8736908253037285,Other five folds only,2,"Beta(1,1) Train class prior",False
+JN07409,1,5,date_of_administration,0.8528332479945383,Other five folds only,2,"Beta(1,1) Train class prior",False
+MB07301,1,4,date_of_administration,0.8736908253037285,Other five folds only,2,"Beta(1,1) Train class prior",False
+MB07302,1,3,date_of_administration,0.8713517665130568,Other five folds only,2,"Beta(1,1) Train class prior",False
+MB07404,1,3,date_of_administration,0.8713517665130568,Other five folds only,2,"Beta(1,1) Train class prior",False
+MB09301,1,1,date_of_administration,0.8464180980310012,Other five folds only,2,"Beta(1,1) Train class prior",False
+MB09302,1,1,date_of_administration,0.8464180980310012,Other five folds only,2,"Beta(1,1) Train class prior",False
+MB09303,1,3,date_of_administration,0.8713517665130568,Other five folds only,2,"Beta(1,1) Train class prior",False
+MB09304,1,4,date_of_administration,0.8736908253037285,Other five folds only,2,"Beta(1,1) Train class prior",False
+MB09305,1,0,date_of_administration,0.8298667330925396,Other five folds only,2,"Beta(1,1) Train class prior",False
+MB09308,1,2,date_of_administration,0.8555090071219104,Other five folds only,2,"Beta(1,1) Train class prior",False
+MB09406,1,5,date_of_administration,0.8528332479945383,Other five folds only,2,"Beta(1,1) Train class prior",False
+MB09407,1,1,date_of_administration,0.8464180980310012,Other five folds only,2,"Beta(1,1) Train class prior",False
+MB09409,1,4,date_of_administration,0.8736908253037285,Other five folds only,2,"Beta(1,1) Train class prior",False
+ME09401,1,2,date_of_administration,0.8555090071219104,Other five folds only,2,"Beta(1,1) Train class prior",False
+ME09402,1,5,date_of_administration,0.8528332479945383,Other five folds only,2,"Beta(1,1) Train class prior",False
+NA03401,1,3,date_of_administration,0.5176651305683564,Other five folds only,2,"Beta(1,1) Train class prior",False
+NA03403,1,2,date_of_administration,0.6843317972350231,Other five folds only,2,"Beta(1,1) Train class prior",False
+NA06303,1,2,date_of_administration,0.8555090071219104,Other five folds only,2,"Beta(1,1) Train class prior",False
+NA06306,1,1,date_of_administration,0.8464180980310012,Other five folds only,2,"Beta(1,1) Train class prior",False
+NA06307,1,0,date_of_administration,0.8298667330925396,Other five folds only,2,"Beta(1,1) Train class prior",False
+NA06402,1,1,date_of_administration,0.8464180980310012,Other five folds only,2,"Beta(1,1) Train class prior",False
+NA06404,1,1,date_of_administration,0.8464180980310012,Other five folds only,2,"Beta(1,1) Train class prior",False
+NA06405,1,1,date_of_administration,0.8464180980310012,Other five folds only,2,"Beta(1,1) Train class prior",False
+NB05301,1,4,date_of_administration,0.8736908253037285,Other five folds only,2,"Beta(1,1) Train class prior",False
+NB05302,1,0,date_of_administration,0.8298667330925396,Other five folds only,2,"Beta(1,1) Train class prior",False
+NB05405,1,5,date_of_administration,0.8528332479945383,Other five folds only,2,"Beta(1,1) Train class prior",False
+NB05406,1,3,date_of_administration,0.8713517665130568,Other five folds only,2,"Beta(1,1) Train class prior",False
+NB05407,1,0,date_of_administration,0.8298667330925396,Other five folds only,2,"Beta(1,1) Train class prior",False
+RK03306,1,4,date_of_administration,0.19374448475340722,Other five folds only,2,"Beta(1,1) Train class prior",False
+RK03401,1,2,date_of_administration,0.2196954518132639,Other five folds only,2,"Beta(1,1) Train class prior",False
+RK03402,1,4,date_of_administration,0.19374448475340722,Other five folds only,2,"Beta(1,1) Train class prior",False
+RK03405,1,4,date_of_administration,0.19374448475340722,Other five folds only,2,"Beta(1,1) Train class prior",False
+RK06302,1,2,date_of_administration,0.8555090071219104,Other five folds only,2,"Beta(1,1) Train class prior",False
+RK06303,1,2,date_of_administration,0.8555090071219104,Other five folds only,2,"Beta(1,1) Train class prior",False
+RK06304,1,3,date_of_administration,0.8713517665130568,Other five folds only,2,"Beta(1,1) Train class prior",False
+RK06306,1,1,date_of_administration,0.8464180980310012,Other five folds only,2,"Beta(1,1) Train class prior",False
+RK06401,1,5,date_of_administration,0.8528332479945383,Other five folds only,2,"Beta(1,1) Train class prior",False
+RK06405,1,0,date_of_administration,0.8298667330925396,Other five folds only,2,"Beta(1,1) Train class prior",False
+SO01302,1,3,date_of_administration,0.8713517665130568,Other five folds only,2,"Beta(1,1) Train class prior",False
+SO01305,1,0,date_of_administration,0.8298667330925396,Other five folds only,2,"Beta(1,1) Train class prior",False
+SO01306,1,1,date_of_administration,0.8464180980310012,Other five folds only,2,"Beta(1,1) Train class prior",False
+SO01401,1,4,date_of_administration,0.8736908253037285,Other five folds only,2,"Beta(1,1) Train class prior",False
+SO01403,1,0,date_of_administration,0.8298667330925396,Other five folds only,2,"Beta(1,1) Train class prior",False
+SO01404,1,4,date_of_administration,0.8736908253037285,Other five folds only,2,"Beta(1,1) Train class prior",False
+SO01407,1,3,date_of_administration,0.8713517665130568,Other five folds only,2,"Beta(1,1) Train class prior",False
+TL10305,1,5,date_of_administration,0.8528332479945383,Other five folds only,2,"Beta(1,1) Train class prior",False
+TL10306,1,0,date_of_administration,0.8298667330925396,Other five folds only,2,"Beta(1,1) Train class prior",False
+TL10401,1,0,date_of_administration,0.8298667330925396,Other five folds only,2,"Beta(1,1) Train class prior",False
+TL10402,1,3,date_of_administration,0.8713517665130568,Other five folds only,2,"Beta(1,1) Train class prior",False
+TL10403,1,1,date_of_administration,0.8464180980310012,Other five folds only,2,"Beta(1,1) Train class prior",False
+TL10404,1,4,date_of_administration,0.8736908253037285,Other five folds only,2,"Beta(1,1) Train class prior",False
+TL10407,1,5,date_of_administration,0.8528332479945383,Other five folds only,2,"Beta(1,1) Train class prior",False
+TU03302,1,2,date_of_administration,0.2196954518132639,Other five folds only,2,"Beta(1,1) Train class prior",False
+TU03403,1,1,date_of_administration,0.25757427198744975,Other five folds only,2,"Beta(1,1) Train class prior",False
+TU03404,1,4,date_of_administration,0.19374448475340722,Other five folds only,2,"Beta(1,1) Train class prior",False
+TU03405,1,4,date_of_administration,0.19374448475340722,Other five folds only,2,"Beta(1,1) Train class prior",False
+TU03406,1,1,date_of_administration,0.25757427198744975,Other five folds only,2,"Beta(1,1) Train class prior",False
+TU03407,1,2,date_of_administration,0.2196954518132639,Other five folds only,2,"Beta(1,1) Train class prior",False
+TU03408,1,2,date_of_administration,0.2196954518132639,Other five folds only,2,"Beta(1,1) Train class prior",False
+TU03410,1,5,date_of_administration,0.2674691996614314,Other five folds only,2,"Beta(1,1) Train class prior",False
+VV10301,1,0,date_of_administration,0.8298667330925396,Other five folds only,2,"Beta(1,1) Train class prior",False
+VV10302,1,3,date_of_administration,0.8713517665130568,Other five folds only,2,"Beta(1,1) Train class prior",False
+VV10303,1,5,date_of_administration,0.8528332479945383,Other five folds only,2,"Beta(1,1) Train class prior",False
+VV10304,1,1,date_of_administration,0.8464180980310012,Other five folds only,2,"Beta(1,1) Train class prior",False
+VV10401,1,1,date_of_administration,0.8464180980310012,Other five folds only,2,"Beta(1,1) Train class prior",False
+VV10402,1,0,date_of_administration,0.8298667330925396,Other five folds only,2,"Beta(1,1) Train class prior",False
+VV10403,1,5,date_of_administration,0.8528332479945383,Other five folds only,2,"Beta(1,1) Train class prior",False
+VV10404,1,1,date_of_administration,0.8464180980310012,Other five folds only,2,"Beta(1,1) Train class prior",False
+BR10301,0,4,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR10302,0,0,Train_class_prior,0.5576036866359447,Other five folds only,2,Train prior,False
+BR10304,0,2,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR10305,0,3,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR10306,1,5,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR10403,0,0,Train_class_prior,0.5576036866359447,Other five folds only,2,Train prior,False
+BR10404,0,2,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR10405,0,3,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR10406,1,0,Train_class_prior,0.5576036866359447,Other five folds only,2,Train prior,False
+BR2401,0,3,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR2402,0,2,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR2403,0,0,Train_class_prior,0.5576036866359447,Other five folds only,2,Train prior,False
+BR2404,0,5,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR2405,0,1,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR2406,0,4,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR2407,0,5,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR2408,0,0,Train_class_prior,0.5576036866359447,Other five folds only,2,Train prior,False
+BR2409,0,0,Train_class_prior,0.5576036866359447,Other five folds only,2,Train prior,False
+BR2410,0,3,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR2411,0,1,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR2412,0,5,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR3301,0,2,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR3302,0,4,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR3303,0,5,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR3304,0,0,Train_class_prior,0.5576036866359447,Other five folds only,2,Train prior,False
+BR3305,0,1,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR3306,0,3,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR3307,0,4,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR3308,0,5,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR3309,0,1,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR3310,0,2,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR3311,0,5,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR3401,0,4,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR3402,0,0,Train_class_prior,0.5576036866359447,Other five folds only,2,Train prior,False
+BR3403,0,1,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR3404,0,4,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR3406,1,3,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR3407,0,0,Train_class_prior,0.5576036866359447,Other five folds only,2,Train prior,False
+BR3408,0,1,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR3409,0,3,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR3410,0,3,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR5301,0,1,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR5302,0,2,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR5303,0,0,Train_class_prior,0.5576036866359447,Other five folds only,2,Train prior,False
+BR5304,0,2,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR5305,0,3,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR5306,0,2,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR5307,0,1,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR5308,0,0,Train_class_prior,0.5576036866359447,Other five folds only,2,Train prior,False
+BR5309,0,5,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR5310,0,1,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR5311,0,2,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR5312,0,0,Train_class_prior,0.5576036866359447,Other five folds only,2,Train prior,False
+BR5313,0,2,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR5314,0,3,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR5315,0,5,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR5401,0,1,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR5402,0,0,Train_class_prior,0.5576036866359447,Other five folds only,2,Train prior,False
+BR5403,0,4,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR5404,0,5,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR5405,0,1,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR5406,0,0,Train_class_prior,0.5576036866359447,Other five folds only,2,Train prior,False
+BR5407,0,4,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR5408,0,2,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR5409,0,0,Train_class_prior,0.5576036866359447,Other five folds only,2,Train prior,False
+BR5410,0,4,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR5411,0,1,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR5412,0,0,Train_class_prior,0.5576036866359447,Other five folds only,2,Train prior,False
+BR5413,0,0,Train_class_prior,0.5576036866359447,Other five folds only,2,Train prior,False
+BR5414,0,1,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR5415,0,4,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR5416,0,0,Train_class_prior,0.5576036866359447,Other five folds only,2,Train prior,False
+BR5417,0,3,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR5418,0,5,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR5419,0,4,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR7301,0,2,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR7302,0,2,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR7303,0,3,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR7304,0,2,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR7305,0,4,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR7306,0,3,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR7308,0,5,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR7310,0,4,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR7311,0,4,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR7312,0,2,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR7313,0,3,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR7314,0,2,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR7315,0,5,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR7316,0,2,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR7317,0,3,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR7319,0,1,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR7320,0,5,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR7321,0,3,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR7322,0,3,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR7323,0,4,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR7324,0,1,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR7401,0,1,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR7402,0,5,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR7403,0,0,Train_class_prior,0.5576036866359447,Other five folds only,2,Train prior,False
+BR7404,0,2,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR7405,0,1,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR7406,0,0,Train_class_prior,0.5576036866359447,Other five folds only,2,Train prior,False
+BR7407,0,1,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR7408,1,2,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR7409,0,5,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR7411,0,4,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR7412,1,4,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR8041,0,5,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR8042,0,3,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR8043,1,0,Train_class_prior,0.5576036866359447,Other five folds only,2,Train prior,False
+BR8044,0,4,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR8045,0,4,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR8046,1,0,Train_class_prior,0.5576036866359447,Other five folds only,2,Train prior,False
+BR8407,0,5,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR8408,0,1,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR8409,0,3,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR8411,0,3,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR8412,0,5,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR8414,0,0,Train_class_prior,0.5576036866359447,Other five folds only,2,Train prior,False
+BR8415,0,4,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR8416,0,2,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+BR8417,0,5,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+CH10309,1,3,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+CH10408,1,0,Train_class_prior,0.5576036866359447,Other five folds only,2,Train prior,False
+DK12305,1,1,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+DK12306,1,2,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+DK12307,1,0,Train_class_prior,0.5576036866359447,Other five folds only,2,Train prior,False
+DK12308,1,1,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+DK12401,1,2,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+DK12402,1,5,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+DK12403,1,2,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+DK12404,1,0,Train_class_prior,0.5576036866359447,Other five folds only,2,Train prior,False
+HK01402,1,0,Train_class_prior,0.5576036866359447,Other five folds only,2,Train prior,False
+HK01403,1,4,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+HK01404,1,1,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+HK01405,1,3,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+HK01407,1,0,Train_class_prior,0.5576036866359447,Other five folds only,2,Train prior,False
+HK01412,1,5,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+HK02301,1,3,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+HK02402,1,1,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+HK03304,1,5,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+HK03401,1,3,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+HK03402,1,4,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+HK05305,1,0,Train_class_prior,0.5576036866359447,Other five folds only,2,Train prior,False
+HK05308,1,1,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+HK05401,1,4,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+HK05402,1,4,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+HK05403,1,5,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+HK05404,1,3,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+HK05406,1,2,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+HK05407,1,1,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+HK11301,1,3,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+HK11302,1,0,Train_class_prior,0.5576036866359447,Other five folds only,2,Train prior,False
+HK11306,1,3,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+HK11307,1,5,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+HK11310,1,2,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+HK11313,1,5,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+HK11403,1,4,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+HK11404,1,3,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+HK11405,1,1,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+HK11408,1,2,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+HK11411,1,0,Train_class_prior,0.5576036866359447,Other five folds only,2,Train prior,False
+HK11412,1,2,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+HK11414,1,2,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+HK11415,1,3,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+HK11416,1,0,Train_class_prior,0.5576036866359447,Other five folds only,2,Train prior,False
+HK12304,1,1,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+HK12310,1,5,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+HK12311,1,3,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+HK12312,1,2,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+HK12313,1,2,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+HK12314,1,4,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+HK12316,1,5,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+HK12402,1,5,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+HK12403,1,2,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+HK12409,1,4,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+HK12415,1,2,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+HK14407,1,3,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+HK14408,1,5,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+JI02401,1,1,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+JI02403,1,3,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+JI05305,1,4,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+JI05401,1,5,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+JI05402,1,3,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+JI05403,1,4,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+JI05404,1,5,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+JI05406,1,2,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+JN07405,1,5,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+JN07406,1,4,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+JN07408,1,4,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+JN07409,1,5,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+MB07301,1,4,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+MB07302,1,3,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+MB07404,1,3,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+MB09301,1,1,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+MB09302,1,1,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+MB09303,1,3,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+MB09304,1,4,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+MB09305,1,0,Train_class_prior,0.5576036866359447,Other five folds only,2,Train prior,False
+MB09308,1,2,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+MB09406,1,5,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+MB09407,1,1,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+MB09409,1,4,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+ME09401,1,2,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+ME09402,1,5,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+NA03401,1,3,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+NA03403,1,2,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+NA06303,1,2,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+NA06306,1,1,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+NA06307,1,0,Train_class_prior,0.5576036866359447,Other five folds only,2,Train prior,False
+NA06402,1,1,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+NA06404,1,1,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+NA06405,1,1,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+NB05301,1,4,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+NB05302,1,0,Train_class_prior,0.5576036866359447,Other five folds only,2,Train prior,False
+NB05405,1,5,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+NB05406,1,3,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+NB05407,1,0,Train_class_prior,0.5576036866359447,Other five folds only,2,Train prior,False
+RK03306,1,4,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+RK03401,1,2,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+RK03402,1,4,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+RK03405,1,4,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+RK06302,1,2,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+RK06303,1,2,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+RK06304,1,3,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+RK06306,1,1,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+RK06401,1,5,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+RK06405,1,0,Train_class_prior,0.5576036866359447,Other five folds only,2,Train prior,False
+SO01302,1,3,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+SO01305,1,0,Train_class_prior,0.5576036866359447,Other five folds only,2,Train prior,False
+SO01306,1,1,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+SO01401,1,4,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+SO01403,1,0,Train_class_prior,0.5576036866359447,Other five folds only,2,Train prior,False
+SO01404,1,4,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+SO01407,1,3,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+TL10305,1,5,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+TL10306,1,0,Train_class_prior,0.5576036866359447,Other five folds only,2,Train prior,False
+TL10401,1,0,Train_class_prior,0.5576036866359447,Other five folds only,2,Train prior,False
+TL10402,1,3,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+TL10403,1,1,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+TL10404,1,4,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+TL10407,1,5,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+TU03302,1,2,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+TU03403,1,1,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+TU03404,1,4,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+TU03405,1,4,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+TU03406,1,1,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+TU03407,1,2,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+TU03408,1,2,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+TU03410,1,5,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+VV10301,1,0,Train_class_prior,0.5576036866359447,Other five folds only,2,Train prior,False
+VV10302,1,3,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+VV10303,1,5,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+VV10304,1,1,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+VV10401,1,1,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+VV10402,1,0,Train_class_prior,0.5576036866359447,Other five folds only,2,Train prior,False
+VV10403,1,5,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False
+VV10404,1,1,Train_class_prior,0.5529953917050692,Other five folds only,2,Train prior,False

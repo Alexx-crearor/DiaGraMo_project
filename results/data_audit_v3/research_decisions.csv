@@ -1,0 +1,6 @@
+direction,decision,prerequisite
+Temporal encoder expansion on current cohort,NO-GO for confirmatory claims; CONDITIONAL GO for explicitly exploratory methodological controls,Resolve labels/source provenance and independent balanced validation; no architecture race now
+Train-only calibrated fusion,"CONDITIONAL GO as separately preregistered exploratory control, not clinical validation",Train-only calibration/cross-fitting and independent/source-aware evaluation; current OOF cannot select parameters
+SSL,NO-GO as current priority,SSL may preserve/amplify source information; first establish source/clinical identifiability
+Static Visual branch,NO-GO as current priority,Images can also encode source/protocol; require data validity and a separately justified hypothesis
+Source invariance / cross-domain / clinical biomarkers,NO-GO claims,"Independent multi-source balanced data, verified reference labels and acquisition metadata"

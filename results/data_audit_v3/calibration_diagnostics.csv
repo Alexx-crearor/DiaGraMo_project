@@ -1,0 +1,7 @@
+model,scope,n,group1,brier,log_loss,ece10,calibration_fit,bins,ci
+Kinematic_LightGBM,all_258,258,143,0.12244988144698406,0.4065055447994912,0.08640486850168373,False,10 prespecified equal-width bins; empty bins preserved,Wilson binomial intervals; participant units; ignores source clustering/selection
+Kinematic_LightGBM,within_city1,122,7,0.13353770762703343,0.4485658943562155,0.20550439864056574,False,10 prespecified equal-width bins; empty bins preserved,Wilson binomial intervals; participant units; ignores source clustering/selection
+Stroke_Temporal,all_258,258,143,0.22419321275097012,0.7525174101572394,0.18181313315112813,False,10 prespecified equal-width bins; empty bins preserved,Wilson binomial intervals; participant units; ignores source clustering/selection
+Stroke_Temporal,within_city1,122,7,0.1702776810857081,0.5489770704452379,0.1854885538086676,False,10 prespecified equal-width bins; empty bins preserved,Wilson binomial intervals; participant units; ignores source clustering/selection
+Fixed50,all_258,258,143,0.1297929337939869,0.416361436135691,0.07938162942222418,False,10 prespecified equal-width bins; empty bins preserved,Wilson binomial intervals; participant units; ignores source clustering/selection
+Fixed50,within_city1,122,7,0.1133588230746348,0.3712820258855575,0.18126315460190132,False,10 prespecified equal-width bins; empty bins preserved,Wilson binomial intervals; participant units; ignores source clustering/selection

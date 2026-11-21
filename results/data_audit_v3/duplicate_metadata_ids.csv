@@ -1,0 +1,2 @@
+participant_id,rows,conflicting_fields,exact_rows_identical
+HK12401,2,hlsDictatA_ledgibility|hlsDictatB_effort|hlsDictatC_pageLayout|hlsDictatD_letterFormation|hlsDictatE_alterations|hlsDictat_sum,False

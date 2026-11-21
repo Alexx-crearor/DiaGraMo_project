@@ -1,0 +1,16 @@
+{
+  "reference_commit": "35ad4208ae5a8180942a00d8e89a06df3d7ac813",
+  "actual_commit": "35ad4208ae5a8180942a00d8e89a06df3d7ac813",
+  "branch": "study/raw-temporal-research-v2",
+  "branch_not_created_reason": "Working tree has pre-existing untracked files; conditional clean-tree requirement respected; no stash or checkout",
+  "preexisting_untracked": [
+    "DiaGraMo_REVIEW_KEEP_DECISIONS_VI.md",
+    "results/raw_temporal_v2/completion_notification.json",
+    "results/raw_temporal_v2/completion_watcher.log",
+    "results/raw_temporal_v2/completion_watcher.stderr.log"
+  ],
+  "seed": 42,
+  "network_downloads": false,
+  "clinical_model_training": false,
+  "source_files_read_only": true
+}

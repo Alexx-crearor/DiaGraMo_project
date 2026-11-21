@@ -1,0 +1,524 @@
+{
+  "created_utc": "2026-11-21T08:36:19.315509+00:00",
+  "seed": 42,
+  "reference_commit": "35ad4208ae5a8180942a00d8e89a06df3d7ac813",
+  "artifacts": [
+    {
+      "path": "results/data_audit_v3/ABC_STATUS.json",
+      "bytes": 218,
+      "sha256": "d9b97285cb196009c15552fbc5a1063a0cbdcc74545170a6bc9a77295b45350e",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "results/data_audit_v3/acquisition_precision_sensitivity.csv",
+      "bytes": 493,
+      "sha256": "ce2f68766a29f5c87beea8aa9ad8966e8c54d9d2b1c810c48994db9ee868f199",
+      "provenance": "Original local SVC + protected caches; participant/recording summaries"
+    },
+    {
+      "path": "results/data_audit_v3/acquisition_signature_analysis.csv",
+      "bytes": 10391,
+      "sha256": "11fa4f13cba0c9b88e37273c79cb41e4efba2eca83cffdaf75aefe069f99e777",
+      "provenance": "Original local SVC + protected caches; participant/recording summaries"
+    },
+    {
+      "path": "results/data_audit_v3/audit_cohort.csv",
+      "bytes": 59543,
+      "sha256": "96a6099f7cadff25415934d08475d152cbdf1c98976fb3551c8d05d08e06489a",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "results/data_audit_v3/BLOCKERS.md",
+      "bytes": 1198,
+      "sha256": "249f401a927969116ec8bb23c444bcb5a3627e53ab34d5efcbb29d446c65bea8",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "results/data_audit_v3/calibration_bins.csv",
+      "bytes": 6377,
+      "sha256": "b43ef6a1e93bddd1603394737d2eabfb2257f437ae464fc94daa785260f2167f",
+      "provenance": "Existing protected OOF only, plus source metadata joins"
+    },
+    {
+      "path": "results/data_audit_v3/calibration_diagnostics.csv",
+      "bytes": 1471,
+      "sha256": "4a518380a2fed7d506ece0dc05458fc2a7c6ab6735b92f3a5bda1590c898c031",
+      "provenance": "Existing protected OOF only, plus source metadata joins"
+    },
+    {
+      "path": "results/data_audit_v3/cohort_selection_flow.csv",
+      "bytes": 179,
+      "sha256": "e1d37ce2db8879427f303ae3cddab3a024f85381590e1846b1b20d9a629d3700",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "results/data_audit_v3/COMPREHENSIVE_DATA_AUDIT_VI.md",
+      "bytes": 50809,
+      "sha256": "0e7b352a5fe7119feab52664842d077614ad494730d334f6b697d9400fe932ed",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "results/data_audit_v3/D_STATUS.json",
+      "bytes": 424,
+      "sha256": "83f923b76927f08c2afa2ef9b48ea3990632eb86b90f103aea123ead48162033",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "results/data_audit_v3/data_inventory.csv",
+      "bytes": 306,
+      "sha256": "bb42f694f6a4a899b114ce17524ca93795a80df139700d582199b242a5bb1353",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "results/data_audit_v3/duplicate_metadata_ids.csv",
+      "bytes": 205,
+      "sha256": "d22560539ccebd63dc31495983161480a05237ffe1a1db691ee4ba43d7186c75",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "results/data_audit_v3/EF_STATUS.json",
+      "bytes": 493,
+      "sha256": "8cfb40aeff37d1b8e35d38572cd2b9c8b4ea36697b8419ca80eed80ec189da57",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "results/data_audit_v3/error_overlap_by_source.csv",
+      "bytes": 2936,
+      "sha256": "06244d0e91d53782fe8856fa151442ac2e5894c66eac30e44bea0d6418b72e6c",
+      "provenance": "Existing protected OOF only, plus source metadata joins"
+    },
+    {
+      "path": "results/data_audit_v3/execution_context.json",
+      "bytes": 706,
+      "sha256": "ea2791e726aa98f36b4dd50a721394cf1609277cbb57e6bb9fe90219357a67c8",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "results/data_audit_v3/EXECUTIVE_SUMMARY_VI.md",
+      "bytes": 3526,
+      "sha256": "e74527ff0673ee5fd5e02794062a5581e65c2ee8d87411db6ea78f31d903bec0",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "results/data_audit_v3/figures/calibration_audit.png",
+      "bytes": 300966,
+      "sha256": "3227ae914d870103c9501b2aceea551717f9c0d9a638eaf431dc675c14a62e8e",
+      "provenance": "Existing protected OOF only, plus source metadata joins"
+    },
+    {
+      "path": "results/data_audit_v3/figures/calibration_audit.svg",
+      "bytes": 49422,
+      "sha256": "7ecedaec700029a3f66573614b206914f0ccacef676d0d1e318d599ae7e044bb",
+      "provenance": "Existing protected OOF only, plus source metadata joins"
+    },
+    {
+      "path": "results/data_audit_v3/figures/fusion_effects_by_source.png",
+      "bytes": 145789,
+      "sha256": "f79a0b28b9b187569f482ea9b1238f9546e0033f42b21853357541bcd8587f94",
+      "provenance": "Existing protected OOF only, plus source metadata joins"
+    },
+    {
+      "path": "results/data_audit_v3/figures/fusion_effects_by_source.svg",
+      "bytes": 23242,
+      "sha256": "e8434dd97e0eb2b3bd76e488dd57ea364ec019058943cc8ec0abd825a0f20f96",
+      "provenance": "Existing protected OOF only, plus source metadata joins"
+    },
+    {
+      "path": "results/data_audit_v3/figures/participant_sensor_signatures.png",
+      "bytes": 511796,
+      "sha256": "a2b456cca8a89b202576cbef817e1c6f9b0625aa6143abd3cae55d64c0275ae3",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "results/data_audit_v3/figures/participant_sensor_signatures.svg",
+      "bytes": 305888,
+      "sha256": "479ada6737c9c0b7d433f00da4ef0a5fa9d202b711692768d9b8083663517a03",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "results/data_audit_v3/figures/source_label_composition.png",
+      "bytes": 108105,
+      "sha256": "4eda24700532298a225d5132a7b11dea6dcb9f859fad1d59216b39e3e3df55a9",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "results/data_audit_v3/figures/source_label_composition.svg",
+      "bytes": 28743,
+      "sha256": "c81dd0b2229b3a75e68d261d9f7eacfad57f3bacd2253b87b51e6db1ab6c08dd",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "results/data_audit_v3/fit_and_fold_checks.csv",
+      "bytes": 844,
+      "sha256": "31c5bd5beed172c434cb53e51a765e36c75fc8f8cfa56281c88bba97e7922e74",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "results/data_audit_v3/fold_source_class_distributions.csv",
+      "bytes": 22150,
+      "sha256": "0c295687f0bf0389d76eba53f560ca8afa6f3ec3b83ede03bfee5c4f1350a253",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "results/data_audit_v3/fusion_case_task_quality.csv",
+      "bytes": 160313,
+      "sha256": "b864a51ac6e34ccf81cd81161f49aeab571f122df14e3e1e1186a7a2cc44fe63",
+      "provenance": "Existing protected OOF only, plus source metadata joins"
+    },
+    {
+      "path": "results/data_audit_v3/fusion_corrected_harmed.csv",
+      "bytes": 37629,
+      "sha256": "cb4ed47d6e122f57a595275a60fe549055870f771fa7315ea49e49196177b68b",
+      "provenance": "Existing protected OOF only, plus source metadata joins"
+    },
+    {
+      "path": "results/data_audit_v3/identity_link_anomalies.csv",
+      "bytes": 5457,
+      "sha256": "26da94dfe289f7422c92a6ef9ca43b70fb5bffca912a2c0fcb08e302efdcce7e",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "results/data_audit_v3/INCIDENT_AND_RESTORATION.json",
+      "bytes": 2760,
+      "sha256": "58c5fd6a338e3d519ab90c74d938479b59206e376f76e5f0042115451e0042eb",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "results/data_audit_v3/label_consistency.csv",
+      "bytes": 53502,
+      "sha256": "eab51b7586aa63d4a684d0249b764e8bd42b2d863797c27fca10fb55271fe4ca",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "results/data_audit_v3/label_crosstab.csv",
+      "bytes": 51,
+      "sha256": "4fd057336acd6644d3f756b91662c8f1c2f9d1b88e2847d17024e18d022177ee",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "results/data_audit_v3/label_dictionary.csv",
+      "bytes": 780,
+      "sha256": "7fd61ebbca589ba0032853567c97f138e0ba4b46eae3855bd8dd9ff1cdf91202",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "results/data_audit_v3/label_disagreements.csv",
+      "bytes": 1441,
+      "sha256": "7897ba37d8315edaf9cf77176e483f0891ae6a38907eeab4e5ef353d4cbca175",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "results/data_audit_v3/label_sensitivity.csv",
+      "bytes": 3581,
+      "sha256": "9351a5683de01012e517a43a8db8386fc5476632e5d21517ee823dbe0296286a",
+      "provenance": "Existing protected OOF only, plus source metadata joins"
+    },
+    {
+      "path": "results/data_audit_v3/LEGACY_PROTECTED_ADDITIONAL.csv",
+      "bytes": 43664,
+      "sha256": "08efb00a6ebe19cbbc52925bbe46b4a3685a229f90b6e945d3264e6fa7171eb7",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "results/data_audit_v3/matched_model_metrics.csv",
+      "bytes": 720,
+      "sha256": "94e819c531050ed19bf128ead1e8a3df09b8cd2fa75a34c21443858739f716c8",
+      "provenance": "Existing protected OOF only, plus source metadata joins"
+    },
+    {
+      "path": "results/data_audit_v3/matched_oof_replay.csv",
+      "bytes": 37629,
+      "sha256": "cb4ed47d6e122f57a595275a60fe549055870f771fa7315ea49e49196177b68b",
+      "provenance": "Existing protected OOF only, plus source metadata joins"
+    },
+    {
+      "path": "results/data_audit_v3/merged_recording_inventory.csv",
+      "bytes": 2751558,
+      "sha256": "186a3975ea63700e26bac805f886b66f43cd6bdf21d4c64688779f0ac8ab013a",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "results/data_audit_v3/metadata_dictionary.csv",
+      "bytes": 303570,
+      "sha256": "55c8f6a21a0d8fad21e3d2b71ce9c3269808d4daa17832d2f8a3451dba03b8b1",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "results/data_audit_v3/metadata_join_checks.csv",
+      "bytes": 93670,
+      "sha256": "8930b1e8e1968356d645f0a75e2d6d34d8291662e78782eab6aa9593caab861a",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "results/data_audit_v3/metadata_shortcut_control.csv",
+      "bytes": 133728,
+      "sha256": "fa2e4aef910a4e072793efa16949e296c7fd2f19a2cf7e5ab9eef84905faa0e5",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "results/data_audit_v3/metadata_shortcut_metrics.csv",
+      "bytes": 1069,
+      "sha256": "3753a5bac85069e8550297664d52313a00626b7fe26a43f34ff5aa3918084acb",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "results/data_audit_v3/missingness_by_source_label.csv",
+      "bytes": 3204,
+      "sha256": "fbbf8e428bcf44d98d682d98cec2bb91f39d494df5e2698803e2ab3051582f73",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "results/data_audit_v3/model_metrics_by_fold.csv",
+      "bytes": 3542,
+      "sha256": "f4851d7c5f7c4cce0d11c07516dd0ec489557b6082c51e59a4df0825ba014753",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "results/data_audit_v3/normalization_statistics_replay.csv",
+      "bytes": 11120,
+      "sha256": "682101c323f46537ad3312a6ba6ad4f1a36eaee71096afeb22cbe4f75c080ed5",
+      "provenance": "Original local SVC + protected caches; participant/recording summaries"
+    },
+    {
+      "path": "results/data_audit_v3/omission_flag_details.csv",
+      "bytes": 1108,
+      "sha256": "77f2f058301ab4a2e355196c2c8bd8f30fc6199f2b8a8f97a4864895c35c0288",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "results/data_audit_v3/paired_model_uncertainty.csv",
+      "bytes": 558,
+      "sha256": "18bcf62d3c5b93ae70fdd23912242f616fd73e147aba6f9efefd3374b0093879",
+      "provenance": "Existing protected OOF only, plus source metadata joins"
+    },
+    {
+      "path": "results/data_audit_v3/participant_source_links.csv",
+      "bytes": 10768,
+      "sha256": "57c9ef825fc7d098240de2cec3db8a1e588d5d72e34cc920c60af64b801409ea",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "results/data_audit_v3/participants_inventory.csv",
+      "bytes": 67670,
+      "sha256": "4b0dc0b4af81758adefa1888cc595af2bab1449675914560437f7773c830907f",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "results/data_audit_v3/PHASE_A_REPORT_VI.md",
+      "bytes": 3241,
+      "sha256": "cc7b3f0873cd90e1bec4b252e36c3d34f7c51cd89fccdc319cee73205428ef29",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "results/data_audit_v3/PHASE_B_REPORT_VI.md",
+      "bytes": 4620,
+      "sha256": "0f9ea65dba78bda7f97dae4927e3134319f1f5aec773a5683d076693fb118a25",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "results/data_audit_v3/PHASE_C_REPORT_VI.md",
+      "bytes": 5506,
+      "sha256": "ffc1626a2908cc4e4eb3582ec63abbb410821e8ea20775abfc76a20db8da263e",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "results/data_audit_v3/PHASE_D_REPORT_VI.md",
+      "bytes": 15734,
+      "sha256": "dab4156ee095df483fb4aa307a17ddeb7b00b6dcb6552b72c15a78043101f8b4",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "results/data_audit_v3/PHASE_E_REPORT_VI.md",
+      "bytes": 6116,
+      "sha256": "9226926efcde622cb3a8d533ee9de0f494adb2371deedc407fe1547173d9303f",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "results/data_audit_v3/PHASE_F_REPORT_VI.md",
+      "bytes": 3870,
+      "sha256": "b6c170a242df70390eeb5c762651cec8b306737cb55a70218bf844b63048b904",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "results/data_audit_v3/preprocessing_by_source.csv",
+      "bytes": 6303,
+      "sha256": "e5230bf90d028d167ff72602479063316dcdf9eac71a00f9ee1e85e449a21dbc",
+      "provenance": "Original local SVC + protected caches; participant/recording summaries"
+    },
+    {
+      "path": "results/data_audit_v3/preprocessing_fidelity.csv",
+      "bytes": 943891,
+      "sha256": "01f4b4af01d25085b14e150f2050a83ab3a2244b9de0ca123f135dcc7bf91666",
+      "provenance": "Original local SVC + protected caches; participant/recording summaries"
+    },
+    {
+      "path": "results/data_audit_v3/PROTECTED_BEFORE.csv",
+      "bytes": 2594352,
+      "sha256": "0ea3edc262189747971a415ee5286a92af1c488fee029b2aac138f63a5589404",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "results/data_audit_v3/REPRODUCE.md",
+      "bytes": 1674,
+      "sha256": "5b2ef1243955ad2b450148146e0dd33318ff85f12fb6899bae2f273acc3c044b",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "results/data_audit_v3/research_decisions.csv",
+      "bytes": 940,
+      "sha256": "85c91c70b6f49aa14db63adb1c1f376ce19d07868bc10bab07ca5e385e73c864",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "results/data_audit_v3/selection_by_source.csv",
+      "bytes": 401,
+      "sha256": "2d0a84c5ba885abaff4506c6c688a6412159e78bbaf81a55f78664293c58c209",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "results/data_audit_v3/sensor_quality_by_participant.csv",
+      "bytes": 428540,
+      "sha256": "b99124212c2889c0b198194b272d0d5ecb6fb4dc7f7e2287ee54b43e33f8bbd0",
+      "provenance": "Original local SVC + protected caches; participant/recording summaries"
+    },
+    {
+      "path": "results/data_audit_v3/sensor_quality_by_recording.csv",
+      "bytes": 4057744,
+      "sha256": "ae7934f6dd5d5e5ee7bb24a7f332c6f68078f4dc359ded65ae00ce5c3236be63",
+      "provenance": "Original local SVC + protected caches; participant/recording summaries"
+    },
+    {
+      "path": "results/data_audit_v3/sensor_quality_by_source.csv",
+      "bytes": 255075,
+      "sha256": "9a9919d37a96de14ee96fa28d31a657abea706e2fa68d78841f70cf7b4784a0b",
+      "provenance": "Original local SVC + protected caches; participant/recording summaries"
+    },
+    {
+      "path": "results/data_audit_v3/sensor_quality_by_task.csv",
+      "bytes": 365591,
+      "sha256": "0756103ffb78b15e06148621cbe6ca81a8de3595cbad8e0f04f8aec8f5d16156",
+      "provenance": "Original local SVC + protected caches; participant/recording summaries"
+    },
+    {
+      "path": "results/data_audit_v3/source_association_metrics.csv",
+      "bytes": 1135,
+      "sha256": "fe86b96383f433aad231151dadde2cde5eee706d3b4c2696aae715dd0a5f5830",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "results/data_audit_v3/source_fold_overlap.csv",
+      "bytes": 6170,
+      "sha256": "609f4a7e0190157497da65ed05cac53930b38910aa56990b1a6b577282dc8298",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "results/data_audit_v3/source_label_contingency.csv",
+      "bytes": 1788,
+      "sha256": "b92a06ebb9232e29a1b37a307350e61ed5302b90c50fdeb4d58773c414598d2c",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "results/data_audit_v3/source_provenance.json",
+      "bytes": 53355,
+      "sha256": "aa4fc243d9d43634a1d51c5a83a877161005597b29e7e67981edc58efa74b6eb",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "results/data_audit_v3/source_stratified_model_metrics.csv",
+      "bytes": 44820,
+      "sha256": "37d91d941e4b9f37b3af1155e322da163c97ea96d7c2e185a0123cd40b3a5a4c",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "results/data_audit_v3/source_validation_feasibility.csv",
+      "bytes": 7961,
+      "sha256": "f925c573e6ea2bfc5ff8d9cbf30de00c731e9c234d135006be27764ebbda2139",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "results/data_audit_v3/svc_merged_comparison.csv",
+      "bytes": 366194,
+      "sha256": "742518b6c3b1b00676f48bb67814de5126259c846730e910aeced2f64b2ed9f0",
+      "provenance": "Original local SVC + protected caches; participant/recording summaries"
+    },
+    {
+      "path": "results/data_audit_v3/TEST_RESULTS.json",
+      "bytes": 177,
+      "sha256": "7204831c7d934bb6337680b98ae81fd40d659e426e1f7124be73e49c31845fb5",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "results/data_audit_v3/TEST_STDOUT.txt",
+      "bytes": 101,
+      "sha256": "69f66bb29b0e1c468688a1785b4f6c316ed458441dd5f2040c0e9e6d9448e52f",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "results/data_audit_v3/validation_protocol_summary.csv",
+      "bytes": 218,
+      "sha256": "e6c0839c985df1c1bac4a8df75ce71e856506dd4e1aed3243dcb9597ef24e5e7",
+      "provenance": "Local CSV/merged metadata, source inventory and audit synthesis; see phase scripts"
+    },
+    {
+      "path": "scripts/data_audit_v3/common.py",
+      "bytes": 7305,
+      "sha256": "d2804f55638726964074a30eca0b064f2cc5794a4c7546114d78e248319736c8",
+      "provenance": "New read-only audit source/test code"
+    },
+    {
+      "path": "scripts/data_audit_v3/phase_abc.py",
+      "bytes": 20137,
+      "sha256": "254d5004a618d9f72ed891a92bdf105e00f144647936ff97eedeca479e85eb17",
+      "provenance": "New read-only audit source/test code"
+    },
+    {
+      "path": "scripts/data_audit_v3/phase_d.py",
+      "bytes": 15302,
+      "sha256": "b3e7ba3a51ed9c56de705c23db3408e2e9c3b4bd02aa082956e6c68a404d4ad3",
+      "provenance": "New read-only audit source/test code"
+    },
+    {
+      "path": "scripts/data_audit_v3/phase_ef.py",
+      "bytes": 12216,
+      "sha256": "fe267f30bb526eed57be92b3dbe255c3b8b84aa4a11ffc795b6c6fed66f57623",
+      "provenance": "New read-only audit source/test code"
+    },
+    {
+      "path": "scripts/data_audit_v3/report.py",
+      "bytes": 43240,
+      "sha256": "59a2d31fd4f4d0d7197abe48bfbb2c796f6f5d17efb9d1d13a52a02c56bdc29f",
+      "provenance": "New read-only audit source/test code"
+    },
+    {
+      "path": "scripts/data_audit_v3/run.py",
+      "bytes": 2313,
+      "sha256": "4834dec096caca1bb7959e7987ef8cbd28e537c8a7b6098f6d6d5457f6c9f2b8",
+      "provenance": "New read-only audit source/test code"
+    },
+    {
+      "path": "scripts/data_audit_v3/validate.py",
+      "bytes": 8968,
+      "sha256": "3aeec2b8b579a264a6b252f64e0dccde7903a4f0ed59c1745d9359465bd94dd6",
+      "provenance": "New read-only audit source/test code"
+    },
+    {
+      "path": "tests/data_audit_v3/test_audit.py",
+      "bytes": 4434,
+      "sha256": "b090f5047a60055f99325a47772f8eb14fafbd71a60575aaaaf6203d6ef623b0",
+      "provenance": "New read-only audit source/test code"
+    }
+  ],
+  "excluded_from_self_hash": [
+    "ARTIFACT_MANIFEST.json",
+    "VALIDATION_CHECKS.json"
+  ],
+  "raw_source_copies_in_outputs": false,
+  "dependencies": {
+    "numpy": "1.25.2",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.9",
+    "pytest": "9.2.0"
+  }
+}

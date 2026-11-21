@@ -1,0 +1,52 @@
+{
+  "cause": "Generic report module resolved to scripts/report.py because of sys.path ordering; no model fitting invoked",
+  "restored_byte_identical": [
+    {
+      "path": "notebooks/01_data_inspection.ipynb",
+      "temporarily_regenerated_sha256": "09db22ff5787abbfa15b1c5a668f9969e133be37698459b48f49754077d0f8f9",
+      "restored_sha256": "acfd47ec920ad3370b147bb1ea6c1a11e8aa28aa5067ede2de17e2e0b6e9d461"
+    },
+    {
+      "path": "notebooks/02_kinematic_features.ipynb",
+      "temporarily_regenerated_sha256": "82ad21d0f9b57dc43cb784691105e778273ee747c80e01ef7a081fe8d641486b",
+      "restored_sha256": "6f127b965c8eac39242ff4b788fdf1201949b6a286a0188ddbe1682613698be7"
+    },
+    {
+      "path": "notebooks/03_pretrained_representations.ipynb",
+      "temporarily_regenerated_sha256": "2a86d48b6726457eb97148f6d3f6cfddd87780e8c5d5fc9977f6727debf1220e",
+      "restored_sha256": "864964a8285de0704f073cff37ed703b80e605ee38f66a746caac2c302f8cc80"
+    },
+    {
+      "path": "notebooks/04_evaluation_and_fusion.ipynb",
+      "temporarily_regenerated_sha256": "2b692f5481347d6f8bb81357fb3ea1fcbf434b4603577304d8fc85a579c68a78",
+      "restored_sha256": "9df4c94bbdf7db856bce767e968f63512a3e0288467b949765b9ce5836e78f1b"
+    },
+    {
+      "path": "requirements-lock.txt",
+      "temporarily_regenerated_sha256": "317f4d4e2f23bc52ea66c71aaa2a2b8c10cd197c5b530c707e4f024c978ee0bc",
+      "restored_sha256": "824cb51bd0aeb6d7ccfa8b90b6cfdc283f128932ef22a207017f1e6b3aeb9d8a"
+    },
+    {
+      "path": "results/REPORT_VI.md",
+      "temporarily_regenerated_sha256": "466628539c48b01070016067bd05744ea5c772d7b24b587bf102dcdc13d475ea",
+      "restored_sha256": "f975c2322722424eb0c7f8e3752bd250ee6e55e5ba31128546d8759775ef72d9"
+    },
+    {
+      "path": "results/figures/cv_top12.svg",
+      "temporarily_regenerated_sha256": "00ca06960f1bcc6d6104bad83c677316465be88bceb3a22935a665cbfe5cd122",
+      "restored_sha256": "083aa638eabc5351bb6bdd89bd98e2aca7a8ac5d2816b93092da3610d9c552a6"
+    },
+    {
+      "path": "results/figures/representation_examples.svg",
+      "temporarily_regenerated_sha256": "c9ccc2d6247143c8970b2e234fe56ed6ef4536ba820ecb854ae53db936d9bb0f",
+      "restored_sha256": "980c96470982e84961ed27ab145465cdb95f710c19fb70c6c3f8fccffc1ae015"
+    },
+    {
+      "path": "results/figures/roc_confusion.svg",
+      "temporarily_regenerated_sha256": "5e1c1b381aaa8f2fee23c83563e4b338c2baade1bf34dfd1a5815bc4b7d66315",
+      "restored_sha256": "0695523a4e2cbb21d6a3ff56f3029066ebaead1bca7ed5d204a2d52915ae054c"
+    }
+  ],
+  "raw_inputs_models_checkpoints_oof_modified": false,
+  "resolution": "Local module path guard and CLI regression test added; full protected hash verification required"
+}

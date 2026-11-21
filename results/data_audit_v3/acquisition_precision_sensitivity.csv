@@ -1,0 +1,3 @@
+feature,n_participants,observed_min,observed_max,observed_range,diagnostic_rounding_decimals,rounded_range,rounded_city_kruskal_p,scope
+median_dt_positive,258,0.0049999999999992,0.0050000000000081,8.899998793499009e-15,9,0.0,1.0,Numerical sensitivity diagnostic only; raw values and original tests unchanged
+estimated_rate_per_source_time,258,199.9999999996753,200.00000000002868,3.53367113348213e-10,6,0.0,1.0,Numerical sensitivity diagnostic only; raw values and original tests unchanged

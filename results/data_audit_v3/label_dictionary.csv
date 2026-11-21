@@ -1,0 +1,5 @@
+field,origin,implementation,clinical_definition
+group,CSV and merged cognitive metadata,Actual target for protected models,UNVERIFIED: grouping/case ascertainment and screening rules absent locally
+diagnosis,Audit alias of special_care_type_dysgraphia,Not an independently verified diagnosis variable,No separate exact diagnosis field assumed; alias explicitly distinguished
+special_care_type_dysgraphia,CSV and merged metadata,"Specific binary flag, distinct from group","UNVERIFIED: clinician, diagnostic tool, threshold and assessment timing unknown"
+flag_to_omit_total,Merged metadata; absent from original cognitive CSV,Recorded but not used by prepare.py eligibility,Flag components observable in merged; transformation/author intent/official exclusion rule UNVERIFIED

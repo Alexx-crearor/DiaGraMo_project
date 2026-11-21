@@ -1,0 +1,60 @@
+field,source,group0,group1,n
+id_city,city1,115,7,122
+id_city,city10,0,5,5
+id_city,city11,0,10,10
+id_city,city12,0,7,7
+id_city,city13,0,7,7
+id_city,city14,0,8,8
+id_city,city15,0,8,8
+id_city,city2,0,2,2
+id_city,city3,0,8,8
+id_city,city4,0,47,47
+id_city,city5,0,8,8
+id_city,city6,0,4,4
+id_city,city7,0,12,12
+id_city,city8,0,2,2
+id_city,city9,0,8,8
+id_school_ppp,site_1,27,0,27
+id_school_ppp,site_10,0,4,4
+id_school_ppp,site_11,0,8,8
+id_school_ppp,site_12,4,2,6
+id_school_ppp,site_13,0,3,3
+id_school_ppp,site_14,0,8,8
+id_school_ppp,site_15,0,1,1
+id_school_ppp,site_16,0,8,8
+id_school_ppp,site_17,0,7,7
+id_school_ppp,site_18,0,2,2
+id_school_ppp,site_19,0,9,9
+id_school_ppp,site_2,10,0,10
+id_school_ppp,site_20,0,5,5
+id_school_ppp,site_21,0,7,7
+id_school_ppp,site_22,0,3,3
+id_school_ppp,site_23,0,2,2
+id_school_ppp,site_24,0,2,2
+id_school_ppp,site_25,0,4,4
+id_school_ppp,site_26,0,12,12
+id_school_ppp,site_27,0,1,1
+id_school_ppp,site_28,0,5,5
+id_school_ppp,site_29,0,4,4
+id_school_ppp,site_3,0,10,10
+id_school_ppp,site_30,0,2,2
+id_school_ppp,site_31,14,0,14
+id_school_ppp,site_32,6,2,8
+id_school_ppp,site_33,9,0,9
+id_school_ppp,site_34,7,2,9
+id_school_ppp,site_35,19,0,19
+id_school_ppp,site_4,0,8,8
+id_school_ppp,site_5,0,20,20
+id_school_ppp,site_6,0,1,1
+id_school_ppp,site_7,17,1,18
+id_school_ppp,site_8,1,0,1
+id_school_ppp,site_9,1,0,1
+site_type_ppp,0.0,115,89,204
+site_type_ppp,1.0,0,54,54
+date_of_administration,2021 October-December,8,11,19
+date_of_administration,2022 April-June,2,4,6
+date_of_administration,2022 January-March,42,13,55
+date_of_administration,2022 October-December,18,111,129
+date_of_administration,2023 April-June,27,2,29
+date_of_administration,2023 January-March,15,2,17
+date_of_administration,<missing>,3,0,3

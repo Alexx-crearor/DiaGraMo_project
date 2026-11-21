@@ -1,0 +1,45 @@
+{
+  "audit_computationally_complete": true,
+  "completed_phases": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F"
+  ],
+  "cohort_reconstruction_exact": true,
+  "label_and_metadata_joins_checked": true,
+  "unverifiable_raw_csv_fields": [
+    "flag_to_omit_total"
+  ],
+  "source_only_control_train_scope_recomputed": true,
+  "source_folds_verified": true,
+  "raw_and_cache_fidelity_verified": true,
+  "all_oof_matched": true,
+  "one_class_auc_not_fabricated": true,
+  "protected_artifacts": {
+    "complete": true,
+    "files_checked": 18400,
+    "bytes_checked": 32373497025,
+    "changed_files": 0
+  },
+  "legacy_protected_references": 1921,
+  "tests": {
+    "complete": true,
+    "returncode": 0,
+    "passed": 10,
+    "command": ".venv/Scripts/python.exe -m pytest tests/data_audit_v3 -q",
+    "elapsed_seconds": 3.026156600099057
+  },
+  "supplemental_historical_hash_references_checked": 134,
+  "artifact_hashes_checked": 84,
+  "clinical_label_definition_verified": false,
+  "device_causation_verified": false,
+  "source_independent_validation_established": false,
+  "overall_research_complete": false,
+  "raw_sensitive_data_committed": false,
+  "auto_push_or_merge": false,
+  "blockers_documented": true,
+  "interpretation": "Audit completed with documented epistemic limits; clinical/source-invariant validity not certified"
+}

@@ -1,0 +1,5 @@
+source_field,sources,sources_with_two_classes,sources_allowing_both_train_test_classes,largest_within_source_minority
+date_of_administration,7,6,6,18
+id_city,15,1,0,7
+id_school_ppp,35,4,4,2
+site_type_ppp,2,1,0,89

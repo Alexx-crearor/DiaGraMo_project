@@ -1,8 +1,8 @@
 {
-  "session": "results/raw_temporal_v2/phase4_lite/sessions/20261118_161641_70c92b.json",
-  "remaining_session_seconds": 275.7655821130611,
+  "session": "results/raw_temporal_v2/phase4_lite/sessions/20261120_234713_391df8.json",
+  "remaining_session_seconds": 6595.954183700029,
   "estimated_fold_seconds": 1603.4591957106377,
-  "remaining_epoch_estimate": 1066.7770155783553,
+  "remaining_epoch_estimate": 952.47947819496,
   "may_pause_at_optimizer_boundary": true,
   "signature": {
     "signature": "6733f2a887ed55f6fab42790170bd30d75c7586156ffcf06f1f2be96d282402a",

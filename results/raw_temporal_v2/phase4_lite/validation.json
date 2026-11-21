@@ -72,9 +72,45 @@
       "fit_test_disjoint": true,
       "normalizer_train_only": true,
       "outer_test_not_used_for_selection": true
+    },
+    {
+      "model": "stroke_transformer",
+      "fold": 2,
+      "participants": 43,
+      "checkpoint_replay_error": 0.0,
+      "fit_test_disjoint": true,
+      "normalizer_train_only": true,
+      "outer_test_not_used_for_selection": true
+    },
+    {
+      "model": "stroke_transformer",
+      "fold": 3,
+      "participants": 43,
+      "checkpoint_replay_error": 0.0,
+      "fit_test_disjoint": true,
+      "normalizer_train_only": true,
+      "outer_test_not_used_for_selection": true
+    },
+    {
+      "model": "stroke_transformer",
+      "fold": 4,
+      "participants": 43,
+      "checkpoint_replay_error": 0.0,
+      "fit_test_disjoint": true,
+      "normalizer_train_only": true,
+      "outer_test_not_used_for_selection": true
+    },
+    {
+      "model": "stroke_transformer",
+      "fold": 5,
+      "participants": 43,
+      "checkpoint_replay_error": 0.0,
+      "fit_test_disjoint": true,
+      "normalizer_train_only": true,
+      "outer_test_not_used_for_selection": true
     }
   ],
-  "all_requested_folds_complete": false,
+  "all_requested_folds_complete": true,
   "phase3_complete": false,
   "research_complete": false,
   "protected_artifacts_unchanged": true,

@@ -1,0 +1,12 @@
+{
+  "status": "fits_finished",
+  "started_at_unix": 1795193233.795452,
+  "maximum_seconds": 6600.0,
+  "maximum_gpu_workers": 1,
+  "phases": [],
+  "includes_process_setup": false,
+  "elapsed_seconds": 5425.6334528923035,
+  "reason": "all_planned_folds_fitted",
+  "reporting_seconds": 65.83558930002619,
+  "includes_reporting": true
+}

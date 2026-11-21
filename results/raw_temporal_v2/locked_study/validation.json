@@ -1,0 +1,21 @@
+{
+  "complete": true,
+  "frozen_stroke_oof_complete": true,
+  "research_complete": false,
+  "preexisting_successful_fits_unchanged": 8,
+  "all_258_source_metadata_checked": true,
+  "calibration_diagnostics_only": true,
+  "participant_matched_fixed_fusion_verified": true,
+  "executed_notebook_no_errors": true,
+  "external_validation": false,
+  "automatic_followup_training": false,
+  "auto_push_or_merge": false,
+  "outputs_sha256": {
+    "results/raw_temporal_v2/locked_study/LOCKED_RESEARCH_REPORT_VI.md": "a509428422ed2c83766f325788307f54c333207653adb9c39ce2dcc1283722eb",
+    "results/raw_temporal_v2/locked_study/matched_oof_metrics.csv": "a728daa0c0188e63d56ef11b9d24acb7f474e6d9a98d172fbafa8ec03e23ae48",
+    "results/raw_temporal_v2/locked_study/paired_bootstrap.csv": "7fc4105268f7a6fe7f585546f21b5c591441e1199b63a905e026bbcd3e921db6",
+    "results/raw_temporal_v2/locked_study/calibration.png": "7c80156a35ef51d9d3afdbf672864e4f4a3bd0715cc067ee1493ae39e2911d4c",
+    "results/raw_temporal_v2/locked_study/calibration.svg": "d6bd91fb96ce56fadefe53fbb0203d0c6cbce93135bfec74d3f2e7d81795ad76",
+    "notebooks/09_locked_temporal_study.ipynb": "ccde63adc4c373204ef3c93aa9b4b9e08700dcc62db6f2c553c5343762e9f91b"
+  }
+}

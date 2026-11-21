@@ -1,0 +1,17 @@
+candidate,method,reference,metric,participants,delta,lower95,upper95,bootstrap_replicates
+duration,raw,kinematic_same_participants,f1_macro,258,-0.08923358087051214,-0.14522875550785982,-0.03552915558537196,500
+duration,raw,kinematic_same_participants,auc,258,-0.08391608391608385,-0.128883811995225,-0.037582771015955085,500
+duration,raw,kinematic_same_participants,balanced_accuracy,258,-0.08808148373365765,-0.14380544653939892,-0.033796829192777,500
+duration,raw,kinematic_same_participants,specificity,258,-0.07826086956521738,-0.16342801693719125,0.0,500
+duration,fixed_average_50_50,kinematic_same_participants,f1_macro,258,-0.011624266303977948,-0.04890013134753664,0.027161780642826133,500
+duration,fixed_average_50_50,kinematic_same_participants,auc,258,-0.007661903314077234,-0.0280886174636175,0.013741137254616205,500
+duration,fixed_average_50_50,kinematic_same_participants,balanced_accuracy,258,-0.011340833079963475,-0.04836796315952915,0.028050038487886637,500
+duration,fixed_average_50_50,kinematic_same_participants,specificity,258,-0.008695652173912993,-0.0694425312096427,0.05044491525423733,500
+stroke_transformer,raw,kinematic_same_participants,f1_macro,86,-0.05895834210474149,-0.16893470544834255,0.06424560353485728,500
+stroke_transformer,raw,kinematic_same_participants,auc,86,-0.052918712493180586,-0.13565393065537612,0.023119666471239687,500
+stroke_transformer,raw,kinematic_same_participants,balanced_accuracy,86,-0.05973813420621932,-0.1693356178396071,0.060446578983164356,500
+stroke_transformer,raw,kinematic_same_participants,specificity,86,-0.07692307692307687,-0.2438738738738739,0.09523809523809523,500
+stroke_transformer,fixed_average_50_50,kinematic_same_participants,f1_macro,86,0.05787270851690263,-0.013196333760431738,0.1397557592338071,500
+stroke_transformer,fixed_average_50_50,kinematic_same_participants,auc,86,0.02236770321876702,-0.01223020285232262,0.06379811311876524,500
+stroke_transformer,fixed_average_50_50,kinematic_same_participants,balanced_accuracy,86,0.05537370430987454,-0.01681974637681153,0.13230722347244944,500
+stroke_transformer,fixed_average_50_50,kinematic_same_participants,specificity,86,0.02564102564102566,-0.10456901254773594,0.14604863221884493,500

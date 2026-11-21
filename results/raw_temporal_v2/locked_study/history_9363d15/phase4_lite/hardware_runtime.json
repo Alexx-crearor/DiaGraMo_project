@@ -1,0 +1,16 @@
+{
+  "python": "3.10.11",
+  "torch": "2.7.1+cu128",
+  "cpu_logical": 12,
+  "cpu_threads_per_neural_worker": 4,
+  "available_ram_gib": 8.311668395996094,
+  "free_disk_gib": 74.5126953125,
+  "gpu_management_snapshot": "Quadro T1000, 4096 MiB, 1561 MiB, 48 %",
+  "gpu_worker_lock": {
+    "pid": 5252,
+    "created": 1794992412.995963
+  },
+  "maximum_gpu_workers": 1,
+  "prior_full_queue_running": false,
+  "original_completion_watcher_running": false
+}

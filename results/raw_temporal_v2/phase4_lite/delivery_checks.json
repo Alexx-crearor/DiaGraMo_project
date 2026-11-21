@@ -1,6 +1,6 @@
 {
   "artifact_checks_passed": true,
-  "requested_lite_folds_complete": false,
+  "requested_lite_folds_complete": true,
   "primary_validation_complete": true,
   "research_complete": false,
   "phase3_complete": false,

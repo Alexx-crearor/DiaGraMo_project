@@ -1,0 +1,30 @@
+LITE stroke_transformer fold 2 epoch 5 / 28
+LITE stroke_transformer fold 2 epoch 10 / 28
+LITE stroke_transformer fold 2 epoch 15 / 28
+LITE stroke_transformer fold 2 epoch 20 / 28
+LITE stroke_transformer fold 2 epoch 25 / 28
+LITE stroke_transformer fold 2 epoch 28 / 28
+LITE FOLD COMPLETE stroke_transformer 2 {'accuracy': 0.5813953488372093, 'f1_macro': 0.5811688311688312, 'auc': 0.7565789473684211, 'pr_auc': 0.8135513360773674, 'balanced_accuracy': 0.5921052631578947, 'sensitivity': 0.5, 'specificity': 0.6842105263157895, 'brier': 0.28218865390082676}
+LITE stroke_transformer fold 3 epoch 5 / 28
+LITE stroke_transformer fold 3 epoch 10 / 28
+LITE stroke_transformer fold 3 epoch 15 / 28
+LITE stroke_transformer fold 3 epoch 20 / 28
+LITE stroke_transformer fold 3 epoch 25 / 28
+LITE stroke_transformer fold 3 epoch 28 / 28
+LITE FOLD COMPLETE stroke_transformer 3 {'accuracy': 0.7209302325581395, 'f1_macro': 0.7207792207792207, 'auc': 0.8070175438596491, 'pr_auc': 0.8551076208027899, 'balanced_accuracy': 0.7335526315789473, 'sensitivity': 0.625, 'specificity': 0.8421052631578947, 'brier': 0.2572883836780475}
+LITE stroke_transformer fold 4 epoch 5 / 28
+LITE stroke_transformer fold 4 epoch 10 / 28
+LITE stroke_transformer fold 4 epoch 15 / 28
+LITE stroke_transformer fold 4 epoch 20 / 28
+LITE stroke_transformer fold 4 epoch 25 / 28
+LITE stroke_transformer fold 4 epoch 28 / 28
+LITE FOLD COMPLETE stroke_transformer 4 {'accuracy': 0.7209302325581395, 'f1_macro': 0.7207792207792207, 'auc': 0.8092105263157895, 'pr_auc': 0.7829444934767051, 'balanced_accuracy': 0.7335526315789473, 'sensitivity': 0.625, 'specificity': 0.8421052631578947, 'brier': 0.24573573845523175}
+LITE stroke_transformer fold 5 epoch 5 / 28
+LITE stroke_transformer fold 5 epoch 10 / 28
+LITE stroke_transformer fold 5 epoch 15 / 28
+LITE stroke_transformer fold 5 epoch 20 / 28
+LITE stroke_transformer fold 5 epoch 25 / 28
+LITE stroke_transformer fold 5 epoch 28 / 28
+LITE FOLD COMPLETE stroke_transformer 5 {'accuracy': 0.6744186046511628, 'f1_macro': 0.6699561403508771, 'auc': 0.8201754385964912, 'pr_auc': 0.7943065119285762, 'balanced_accuracy': 0.6973684210526316, 'sensitivity': 0.5, 'specificity': 0.8947368421052632, 'brier': 0.2620377746223377}
+LITE REPORT {'lite_validation_complete': True, 'primary_validation_complete': True, 'research_complete': False, 'status': 'lite_complete', 'primary_folds_completed': 6, 'secondary_folds_completed': 6, 'phase3_complete': False, 'full_phase4_launched': False, 'exploratory': True, 'checkpoint_checks_passed': True}
+LITE SESSION FINISHED all_planned_folds_fitted

@@ -1,0 +1,82 @@
+{
+  "completed_fold_checks_passed": true,
+  "fold_checks": [
+    {
+      "model": "duration",
+      "fold": 0,
+      "participants": 43,
+      "checkpoint_replay_error": 0.0,
+      "fit_test_disjoint": true,
+      "normalizer_train_only": true,
+      "outer_test_not_used_for_selection": true
+    },
+    {
+      "model": "duration",
+      "fold": 1,
+      "participants": 43,
+      "checkpoint_replay_error": 0.0,
+      "fit_test_disjoint": true,
+      "normalizer_train_only": true,
+      "outer_test_not_used_for_selection": true
+    },
+    {
+      "model": "duration",
+      "fold": 2,
+      "participants": 43,
+      "checkpoint_replay_error": 0.0,
+      "fit_test_disjoint": true,
+      "normalizer_train_only": true,
+      "outer_test_not_used_for_selection": true
+    },
+    {
+      "model": "duration",
+      "fold": 3,
+      "participants": 43,
+      "checkpoint_replay_error": 0.0,
+      "fit_test_disjoint": true,
+      "normalizer_train_only": true,
+      "outer_test_not_used_for_selection": true
+    },
+    {
+      "model": "duration",
+      "fold": 4,
+      "participants": 43,
+      "checkpoint_replay_error": 0.0,
+      "fit_test_disjoint": true,
+      "normalizer_train_only": true,
+      "outer_test_not_used_for_selection": true
+    },
+    {
+      "model": "duration",
+      "fold": 5,
+      "participants": 43,
+      "checkpoint_replay_error": 0.0,
+      "fit_test_disjoint": true,
+      "normalizer_train_only": true,
+      "outer_test_not_used_for_selection": true
+    },
+    {
+      "model": "stroke_transformer",
+      "fold": 0,
+      "participants": 43,
+      "checkpoint_replay_error": 0.0,
+      "fit_test_disjoint": true,
+      "normalizer_train_only": true,
+      "outer_test_not_used_for_selection": true
+    },
+    {
+      "model": "stroke_transformer",
+      "fold": 1,
+      "participants": 43,
+      "checkpoint_replay_error": 0.0,
+      "fit_test_disjoint": true,
+      "normalizer_train_only": true,
+      "outer_test_not_used_for_selection": true
+    }
+  ],
+  "all_requested_folds_complete": false,
+  "phase3_complete": false,
+  "research_complete": false,
+  "protected_artifacts_unchanged": true,
+  "outer_test_fusion_weights_fitted": false
+}

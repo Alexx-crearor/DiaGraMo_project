@@ -1,10 +1,10 @@
 {
-  "lite_validation_complete": false,
+  "lite_validation_complete": true,
   "primary_validation_complete": true,
   "research_complete": false,
-  "status": "lite_incomplete_resumable",
+  "status": "lite_complete",
   "primary_folds_completed": 6,
-  "secondary_folds_completed": 2,
+  "secondary_folds_completed": 6,
   "phase3_complete": false,
   "full_phase4_launched": false,
   "exploratory": true,

@@ -1,0 +1,12 @@
+{
+  "status": "paused_session_budget",
+  "started_at_unix": 1794993401.6520276,
+  "maximum_seconds": 3516.521572113037,
+  "maximum_gpu_workers": 1,
+  "phases": [],
+  "includes_process_setup": false,
+  "elapsed_seconds": 3431.6069281101227,
+  "reason": "session_budget",
+  "reporting_seconds": 38.90168780006934,
+  "includes_reporting": true
+}

@@ -1,11 +1,5 @@
 {
-  "status": "paused_session_budget",
-  "epochs_completed": 3,
-  "next_group_cursor": 24,
-  "fixed_epochs": 28,
-  "training_seconds": 151.89355889998842,
-  "optimizer_steps": 84,
-  "resume_checkpoint": "data/derived/raw_temporal_v2/phase4_lite/stroke_transformer_fold2.resume.pt",
-  "resume_sha256": "18ea2db040d958970607504cefa580a0983cc3c4fecf9c041be8029031faffe6",
-  "signature": "6733f2a887ed55f6fab42790170bd30d75c7586156ffcf06f1f2be96d282402a"
+  "status": "complete",
+  "epochs_completed": 28,
+  "checkpoint_sha256": "47e4de69d1cffdf23cdbb9d8ec207bd769d88e35d0358107533c3852fe72591d"
 }

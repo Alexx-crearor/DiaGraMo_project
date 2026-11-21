@@ -1,6 +1,6 @@
 # Phase 4 lite — đánh giá cấu hình cố định trong ngân sách
 
-**Trạng thái:** `lite_incomplete_resumable`. Primary duration-aware: **6/6 folds**; Stroke Transformer: **2/6 folds**. Phase 3 full SSL và nghiên cứu đầy đủ **chưa hoàn tất**. Protocol Phase 4 đầy đủ được giữ nguyên và không khởi chạy.
+**Trạng thái:** `lite_complete`. Primary duration-aware: **6/6 folds**; Stroke Transformer: **6/6 folds**. Phase 3 full SSL và nghiên cứu đầy đủ **chưa hoàn tất**. Protocol Phase 4 đầy đủ được giữ nguyên và không khởi chạy.
 
 ## Protocol khóa trước outer evaluation
 
@@ -17,9 +17,9 @@ Cả hai mô hình khởi tạo ngẫu nhiên với seed42 và học supervised 
 | duration | raw | 258 | 6 | True | 0.759690 | 0.757930 | 0.822986 | 0.759380 | 0.756522 |
 | duration | kinematic | 258 | 6 | True | 0.848837 | 0.847163 | 0.906902 | 0.847461 | 0.834783 |
 | duration | fixed_average_50_50 | 258 | 6 | True | 0.837209 | 0.835539 | 0.899240 | 0.836120 | 0.826087 |
-| stroke_transformer | raw | 86 | 2 | False | 0.790698 | 0.788871 | 0.881069 | 0.788871 | 0.769231 |
-| stroke_transformer | kinematic | 86 | 2 | False | 0.848837 | 0.847829 | 0.933988 | 0.848609 | 0.846154 |
-| stroke_transformer | fixed_average_50_50 | 86 | 2 | False | 0.906977 | 0.905702 | 0.956356 | 0.903983 | 0.871795 |
+| stroke_transformer | raw | 258 | 6 | True | 0.713178 | 0.713178 | 0.807540 | 0.721678 | 0.800000 |
+| stroke_transformer | kinematic | 258 | 6 | True | 0.848837 | 0.847163 | 0.906902 | 0.847461 | 0.834783 |
+| stroke_transformer | fixed_average_50_50 | 258 | 6 | True | 0.841085 | 0.840681 | 0.906111 | 0.845576 | 0.886957 |
 
 ![Matched held-out macro F1](phase4_lite/figures/paired_f1.png)
 
@@ -32,7 +32,7 @@ OOF AUC tính trên pooled probabilities; có thể khác mean fold AUC khi th�
 | candidate | participants | both_correct | kin_only | raw_only | both_wrong | probability_correlation |
 | --- | --- | --- | --- | --- | --- | --- |
 | duration | 258 | 179 | 40 | 17 | 22 | 0.627886 |
-| stroke_transformer | 86 | 57 | 16 | 11 | 2 | 0.555547 |
+| stroke_transformer | 258 | 159 | 60 | 25 | 14 | 0.503027 |
 
 `raw_only` là trường hợp Raw đúng/Kinematic sai; `kin_only` là Raw sai/Kinematic đúng. Không coi corrected cases riêng lẻ là bằng chứng complementary value. Fusion duy nhất là xác suất **0.5 Kinematic +0.5 Raw**, đã định trước; không fit weights, gate hoặc stacking trên outer predictions. Tất cả probability mức participant ở `phase4_lite/oof_predictions.csv`.
 
@@ -42,10 +42,10 @@ OOF AUC tính trên pooled probabilities; có thể khác mean fold AUC khi th�
 | duration | raw | kinematic_same_participants | auc | 258 | -0.083916 | -0.128884 | -0.037583 | 500 |
 | duration | fixed_average_50_50 | kinematic_same_participants | f1_macro | 258 | -0.011624 | -0.048900 | 0.027162 | 500 |
 | duration | fixed_average_50_50 | kinematic_same_participants | auc | 258 | -0.007662 | -0.028089 | 0.013741 | 500 |
-| stroke_transformer | raw | kinematic_same_participants | f1_macro | 86 | -0.058958 | -0.168935 | 0.064246 | 500 |
-| stroke_transformer | raw | kinematic_same_participants | auc | 86 | -0.052919 | -0.135654 | 0.023120 | 500 |
-| stroke_transformer | fixed_average_50_50 | kinematic_same_participants | f1_macro | 86 | 0.057873 | -0.013196 | 0.139756 | 500 |
-| stroke_transformer | fixed_average_50_50 | kinematic_same_participants | auc | 86 | 0.022368 | -0.012230 | 0.063798 | 500 |
+| stroke_transformer | raw | kinematic_same_participants | f1_macro | 258 | -0.133985 | -0.207409 | -0.070175 | 500 |
+| stroke_transformer | raw | kinematic_same_participants | auc | 258 | -0.099362 | -0.158781 | -0.051440 | 500 |
+| stroke_transformer | fixed_average_50_50 | kinematic_same_participants | f1_macro | 258 | -0.006483 | -0.056853 | 0.042707 | 500 |
+| stroke_transformer | fixed_average_50_50 | kinematic_same_participants | auc | 258 | -0.000791 | -0.030449 | 0.024152 | 500 |
 
 Paired bootstrap500 lần dùng chung participant resamples; trained models cố định, không tính uncertainty do refit/adaptive development. CI trên partial coverage chỉ áp dụng nhóm held-out đã hoàn tất. Không dùng kết quả này để chọn lại training recipe.
 
@@ -66,19 +66,21 @@ Paired bootstrap500 lần dùng chung participant resamples; trained models cố
 | duration | 5 | 204.497132 | 1.188406 | 409.871582 | 1302.000000 | 29810 | 22 |
 | stroke_transformer | 0 | 1427.920948 | 6.298296 | 289.238770 | 930.000000 | 25252 | 28 |
 | stroke_transformer | 1 | 1477.045752 | 5.906758 | 273.410645 | 842.000000 | 25252 | 28 |
+| stroke_transformer | 2 | 1597.643441 | 8.956535 | 289.270996 | 844.000000 | 25252 | 28 |
+| stroke_transformer | 3 | 1290.792007 | 5.535770 | 273.380371 | 894.000000 | 25252 | 28 |
+| stroke_transformer | 4 | 1280.657082 | 5.780104 | 284.862305 | 768.000000 | 25252 | 28 |
+| stroke_transformer | 5 | 1311.716994 | 5.526936 | 287.819824 | 940.000000 | 25252 | 28 |
 
 Chi phí các fit chưa có OOF được ghi riêng, không bỏ khỏi accounting và không điền metrics giả:
 
-| fit | epochs_completed | fixed_epochs | next_group_cursor | optimizer_steps | training_seconds | peak_gpu_allocated_mib | peak_gpu_reserved_mib | oof_available | resumable_checkpoint |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| stroke_transformer_fold2 | 3 | 28 | 24 | 84 | 151.893559 | 272.011230 | 796.000000 | False | data/derived/raw_temporal_v2/phase4_lite/stroke_transformer_fold2.resume.pt |
+Không có hàng dữ liệu trong bảng này.
 
 Ước lượng cập nhật từ các fold thực sự đã hoàn tất (không dùng outer scores để đổi recipe):
 
 | candidate | measured_completed_folds | actual_completed_training_and_replay_seconds | mean_actual_fold_seconds | estimated_remaining_full_folds_seconds | note |
 | --- | --- | --- | --- | --- | --- |
 | duration | 6 | 1141.891240 | 190.315207 | 0.000000 | Runtime extrapolation only, does not change architecture/epochs; unfinished-fold work not subtracted |
-| stroke_transformer | 2 | 2917.171753 | 1458.585876 | 5834.343506 | Runtime extrapolation only, does not change architecture/epochs; unfinished-fold work not subtracted |
+| stroke_transformer | 6 | 8423.780622 | 1403.963437 | 0.000000 | Runtime extrapolation only, does not change architecture/epochs; unfinished-fold work not subtracted |
 
 Benchmark dùng tám development-Train people, đầy đủ recordings; dự báo theo window count, scaling tới215 Train, safety factor1.5. Chi phí lịch sử Phase2 giữ riêng, không nhầm với thời gian đo mới. `training_seconds` gồm lưu resume checkpoint mỗi optimizer update; `evaluation_and_replay_seconds` gồm outer inference và replay checkpoint. Tensor allocated/reserved peak khác với tổng process memory trong nvidia-smi. Pilot benchmarks không phải outer fits.
 
@@ -90,6 +92,7 @@ Mỗi phiên tối đa120 phút; mặc định110, có reserve cho ghi file/repo
 | --- | --- | --- | --- | --- |
 | 20261118_160018_4d0d94 | failed | 4500.000000 | 831.027483 |  |
 | 20261118_161641_70c92b | paused_session_budget | 3516.521572 | 3431.606928 | 38.901688 |
+| 20261120_234713_391df8 | fits_finished | 6600.000000 | 5425.633453 | 65.835589 |
 
 Log lỗi I/O của lần chạy đầu được giữ trong `session_current.stderr.log` và `io_failure_recovery.json`. Checkpoint trước lỗi được resume với cùng training signature; retry chỉ thay thao tác ghi file. Thời hạn kết thúc ban đầu giữ nguyên. Cumulative fit timers lấy từ checkpoint; tổng thời gian session cũng bao gồm công việc dở trước lỗi và startup. Hai loại thời gian không được cộng lặp.
 
@@ -97,7 +100,7 @@ Tiếp tục trong phiên khác: `.venv/Scripts/python.exe scripts/session_raw_t
 
 ## Khuyến nghị nghiên cứu
 
-Duration-aware trên 258 người hiện có ΔF1 Raw−Kinematic=-0.089234, average−Kinematic=-0.011624. Average chưa có CI F1 hoàn toàn dương so với Kinematic. Chưa có bằng chứng đủ mạnh để ưu tiên full nested fusion/SSL; giữ baseline và hoàn tất đối chứng cố định còn thiếu trước. Stroke Transformer average trên 86 người hiện có ΔF1=+0.057873, CI95% [-0.013196,+0.139756]. Đây mới là partial OOF; nếu có tín hiệu thuận lợi thì bước hợp lý là hoàn tất 4 folds còn thiếu theo protocol đã định trước trong các phiên ngắn, không chọn kiến trúc hoặc trọng số mới từ các outer scores này.
+Duration-aware trên 258 người hiện có ΔF1 Raw−Kinematic=-0.089234, average−Kinematic=-0.011624. Average chưa có CI F1 hoàn toàn dương so với Kinematic. Chưa có bằng chứng đủ mạnh để ưu tiên full nested fusion/SSL; giữ baseline và hoàn tất đối chứng cố định còn thiếu trước. Stroke Transformer average trên 258 người hiện có ΔF1=-0.006483, CI95% [-0.056853,+0.042707].
 
 Ưu tiên hoàn tất các folds của protocol lite đã khóa trước khi chi thêm cho nested search hoặc kiến trúc mới. Nếu Raw hoặc fixed-average không chứng minh lợi ích trên tập OOF đã hoàn tất, chưa có cơ sở chi ngân sách cho full nested fusion. Chỉ cân nhắc nested CV sau một tín hiệu ổn định cần kiểm chứng bằng Train-only selection và một ngân sách mới. SSL recovery mới là pilot; chưa có downstream comparison để khuyến nghị full SSL. Không mở thêm architecture grid từ kết quả outer folds hiện tại.
 

@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "E:\DiaGraMo-project\scripts\run_raw_temporal_v2_phase4_lite.py", line 164, in <module>
+    with gpu_worker(),awake_during_session():main(args.minutes)
+  File "E:\DiaGraMo-project\scripts\run_raw_temporal_v2_phase4_lite.py", line 149, in main
+    if not fit_fold(name,fold,cfg,budget,row):reason='session_budget';break
+  File "E:\DiaGraMo-project\scripts\run_raw_temporal_v2_phase4_lite.py", line 103, in fit_fold
+    losses.extend(values);cursor+=len(group);step_count+=1;persist('training')
+  File "E:\DiaGraMo-project\scripts\run_raw_temporal_v2_phase4_lite.py", line 84, in persist
+    atomic_checkpoint(state,resume)
+  File "E:\DiaGraMo-project\scripts\raw_temporal_v2_lite_common.py", line 27, in atomic_checkpoint
+    temporary=path.with_suffix(path.suffix+'.tmp');torch.save(value,temporary);temporary.replace(path)
+  File "C:\Users\Win 11 New\AppData\Local\Programs\Python\Python310\lib\pathlib.py", line 1247, in replace
+    self._accessor.replace(self, target)
+PermissionError: [WinError 5] Access is denied: 'E:\\DiaGraMo-project\\data\\derived\\raw_temporal_v2\\phase4_lite\\duration_fold4.resume.pt.tmp' -> 'E:\\DiaGraMo-project\\data\\derived\\raw_temporal_v2\\phase4_lite\\duration_fold4.resume.pt'

@@ -1,0 +1,25 @@
+{
+  "base_commit": "9363d15",
+  "training_signature": "6733f2a887ed55f6fab42790170bd30d75c7586156ffcf06f1f2be96d282402a",
+  "preexisting_completed_results": {
+    "fits\\duration_fold0\\result.json": "19ce00ccf51f7843f675579755f81e5f4aa96b7deb400036077833696bee6696",
+    "fits\\duration_fold1\\result.json": "dcb8422dab59874d1e0927edb107d08612ed353a856bdd19aa13b41ebbebeb72",
+    "fits\\duration_fold2\\result.json": "4d8f31c242156d44588de3c24f471ecfdfe461ffac729fc50b540915951b33a9",
+    "fits\\duration_fold3\\result.json": "e875313ef669bcc705be1ceddac0c6fdcd8f5b431dd92b8781fc6ac91ab20f5d",
+    "fits\\duration_fold4\\result.json": "6c09c0fb8d030ed6ae7d6d53a8a523281362afa76451323b08eea2522ced4c51",
+    "fits\\duration_fold5\\result.json": "a91ceabb19ed1131cafbb1c666f5a8a784d231d79614c6550716a0ec14bde277",
+    "fits\\stroke_transformer_fold0\\result.json": "a86cfcfd31ad27fa1399c4208b3fe97990b1a0bc1a7e3d935c8eaa3f262110fc",
+    "fits\\stroke_transformer_fold1\\result.json": "7a0b8357d6e37393e9c6674da87682b0aa78637e06b28ce922d0771b83f31596"
+  },
+  "resume_from": "stroke_transformer_fold2",
+  "maximum_session_minutes": 110,
+  "maximum_gpu_workers": 1,
+  "planned_remaining_folds": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "architecture_changed": false,
+  "auto_push_or_merge": false
+}

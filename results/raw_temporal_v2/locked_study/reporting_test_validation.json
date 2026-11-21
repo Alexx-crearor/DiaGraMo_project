@@ -1,0 +1,14 @@
+{
+  "complete": true,
+  "command": ".venv/Scripts/python.exe -m pytest tests/test_locked_temporal_reporting.py -q",
+  "passed": 3,
+  "seconds": 1.84,
+  "ast_valid_scripts": [
+    "audit_locked_temporal_data.py",
+    "report_locked_temporal_study.py",
+    "notebook_locked_temporal_study.py",
+    "validate_locked_temporal_study.py"
+  ],
+  "model_training_changed": false,
+  "research_complete": false
+}

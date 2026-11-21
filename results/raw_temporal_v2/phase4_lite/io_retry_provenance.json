@@ -4,6 +4,6 @@
   "original_trainer_signature": "6733f2a887ed55f6fab42790170bd30d75c7586156ffcf06f1f2be96d282402a",
   "checkpoint_math_and_training_protocol_unchanged": true,
   "retry_seconds_at_most": 5,
-  "invocation_minutes": 58.60869286855062,
-  "explicit_deadline_unix": 1794996918.0580678
+  "invocation_minutes": 110.0,
+  "explicit_deadline_unix": null
 }

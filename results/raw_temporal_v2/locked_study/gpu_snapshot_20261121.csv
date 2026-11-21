@@ -1,0 +1,2 @@
+﻿name, driver_version, memory.total [MiB], memory.used [MiB], utilization.gpu [%], temperature.gpu
+Quadro T1000, 610.60, 4096 MiB, 733 MiB, 36 %, 62

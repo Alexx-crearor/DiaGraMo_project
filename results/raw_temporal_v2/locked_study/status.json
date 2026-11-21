@@ -1,0 +1,18 @@
+{
+  "frozen_stroke_oof_complete": true,
+  "participants": 258,
+  "folds": 6,
+  "exploratory_internal_cv": true,
+  "external_validation": false,
+  "research_complete": false,
+  "new_training_or_calibration_in_report": false,
+  "new_experiment_launched": false,
+  "original_lite_primary_remains_duration": true,
+  "locked_research_direction": "Multi-scale Relative Stroke Transformer + Kinematic LightGBM",
+  "inputs_sha256": {
+    "results\\raw_temporal_v2\\phase4_lite\\oof_predictions.csv": "6d05df857c3a50876d6d4adc42fe9937bb708edb237e55b63c0c328eebbc0334",
+    "results\\raw_temporal_v2\\locked_study\\data_audit.json": "78e35b8afeb5f1ae6ddb11f31bc0d4891210f20fddb68c5e64a6ecfa37fa7775",
+    "configs\\raw_temporal_v2\\phase4_lite.json": "97d49b833abb339b052e45c777089a3bab7e47aa0ca5db5ff2d0876af3d28e9f",
+    "data\\derived\\participants.csv": "158da7973bcdb4b23c071d6a769e6cb80c07ba8fbe657b5d2dd8236e5695e056"
+  }
+}

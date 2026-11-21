@@ -1,0 +1,186 @@
+{
+  "created_utc": "2026-11-21T16:59:50.492754+00:00",
+  "artifacts": [
+    {
+      "path": "results/provenance_verification/ACQUISITION_PROVENANCE_MATRIX.csv",
+      "bytes": 1885,
+      "sha256": "9349564c6ab587211dd48d77d4eea290901cc32f697cf408c92da566e11d5640"
+    },
+    {
+      "path": "results/provenance_verification/ARTIFACT_PRIVACY_CLASSIFICATION.csv",
+      "bytes": 1018149,
+      "sha256": "bc8fa92356e139355bfcf4382037bc940dcf0b2083d67b276bac3a0b527cbe56"
+    },
+    {
+      "path": "results/provenance_verification/AUTHOR_QUESTIONS_VI.md",
+      "bytes": 2547,
+      "sha256": "a18ed4e166b95f48eeb23bb463fc38ff9a68f5091745a3b7a5b96cbf752668cf"
+    },
+    {
+      "path": "results/provenance_verification/BLOCKERS.md",
+      "bytes": 1497,
+      "sha256": "617b208054373b7589e91bcbc41d7507bb7bc94f71ccb515dd023892ab83bf11"
+    },
+    {
+      "path": "results/provenance_verification/DATASET_COMPATIBILITY_MATRIX.csv",
+      "bytes": 2341,
+      "sha256": "b205a2825a91a1fba2e377dc7259f62afa5c5465f387d45666a5d60134b535eb"
+    },
+    {
+      "path": "results/provenance_verification/DATASET_PROVENANCE_VERIFICATION_VI.md",
+      "bytes": 7221,
+      "sha256": "4241b0b9a719f4258f6922a09753e33677c035cf68edabec63e87fa153d087b1"
+    },
+    {
+      "path": "results/provenance_verification/DISAGREEMENT_CASE_DECISIONS.csv",
+      "bytes": 1003,
+      "sha256": "02ba56550a8c6b469c38a425129c014f80da62ea92b49de1e36780905261876e"
+    },
+    {
+      "path": "results/provenance_verification/DUPLICATE_METADATA_INVESTIGATION.md",
+      "bytes": 2066,
+      "sha256": "1b10b245754bb1cd675b629d1ed3230ba54d2e5f7fc0338a22bfeff287e31e4e"
+    },
+    {
+      "path": "results/provenance_verification/EXECUTION_CONTEXT.json",
+      "bytes": 736,
+      "sha256": "8dca064d730d2e89961f44c4f78cc386010994a39b9d64a14eddd181ddd8c0b4"
+    },
+    {
+      "path": "results/provenance_verification/EXTERNAL_DATASET_CANDIDATES.csv",
+      "bytes": 2557,
+      "sha256": "61f8130eb69a216e0fed23b9983e7152859acb5e1c206f88e75d7137c197f79f"
+    },
+    {
+      "path": "results/provenance_verification/EXTERNAL_DATASET_SHORTLIST.md",
+      "bytes": 3745,
+      "sha256": "7fa479187626eb4d4a77fd8611f7cf1f19189bd6734a5c016615d93127aa76d1"
+    },
+    {
+      "path": "results/provenance_verification/EXTERNAL_VALIDATION_REQUIREMENTS.md",
+      "bytes": 4441,
+      "sha256": "608da791e6be4b7cd99a53a9bef36203c2f53e5d1bdb750fe5ba59f2bee767ed"
+    },
+    {
+      "path": "results/provenance_verification/HYPOTHESIS_EVIDENCE_MATRIX.csv",
+      "bytes": 1742,
+      "sha256": "6d778c7ce25afd8dde5e462f18f760fe976f3bd9c00820fe79f89604344de06d"
+    },
+    {
+      "path": "results/provenance_verification/IDENTIFIABILITY_DECISION.md",
+      "bytes": 751,
+      "sha256": "532ac5b074d414bd81c5cbbd4ded3fefe7df544f6f8e2975bc9cbc20b7d68451"
+    },
+    {
+      "path": "results/provenance_verification/LABEL_EVIDENCE_MATRIX.csv",
+      "bytes": 1851,
+      "sha256": "e3f919fd32bcf3febbb732fad5e9aa982ec37b6ad03f94648f09573f2f208008"
+    },
+    {
+      "path": "results/provenance_verification/LABEL_PROVENANCE_VI.md",
+      "bytes": 4656,
+      "sha256": "d06c2cf492086b5c40bc6df3ac617735b210c67100cfbc60d4fe19089557ec3d"
+    },
+    {
+      "path": "results/provenance_verification/LABEL_VERIFICATION_DECISION.json",
+      "bytes": 526,
+      "sha256": "81b4b6831e344419b9fb1850f6ea802266f89a6775413f3968df52b85e58f30e"
+    },
+    {
+      "path": "results/provenance_verification/LOCAL_SOURCE_CHECKS.json",
+      "bytes": 1268,
+      "sha256": "2121210d6f74e9e6acc7fbd5307e6baeb854d6ce3e364aa34895718567bfd19c"
+    },
+    {
+      "path": "results/provenance_verification/NEXT_RESEARCH_DECISION_VI.md",
+      "bytes": 2325,
+      "sha256": "56af55dd17ea02f842b5292278aad650b6ce6ae3436c9f1b331c2e854c9547b2"
+    },
+    {
+      "path": "results/provenance_verification/OMISSION_RULE_PROVENANCE.csv",
+      "bytes": 1284,
+      "sha256": "b2d8f80cf6b664fa6c77f59a4f84e3abcbd9a4421e660f4884f34978b6f310e3"
+    },
+    {
+      "path": "results/provenance_verification/ORIGINAL_DATASET_RESEARCH_VI.md",
+      "bytes": 4311,
+      "sha256": "9c7e412b72f82f2bf95f469002e8096109ad0a25df4299211cc901db249618b9"
+    },
+    {
+      "path": "results/provenance_verification/PUBLIC_DATA_RELEASE_AUDIT_VI.md",
+      "bytes": 3115,
+      "sha256": "5dfd2ccc2089a5dfff176c8218483eb5994b356a064d134cd9449c22d62897b1"
+    },
+    {
+      "path": "results/provenance_verification/RDS_SOURCE_TRACE_VI.md",
+      "bytes": 2622,
+      "sha256": "8888fb6caaf159b1286479ad97cd2077a404f3adff31c15b0054a8764501b48e"
+    },
+    {
+      "path": "results/provenance_verification/RDS_VERIFICATION_STATUS.json",
+      "bytes": 834,
+      "sha256": "b2886a885c8bfce92a665d53af0eb5df2dda62f1104b84894f1e5e35a8d94300"
+    },
+    {
+      "path": "results/provenance_verification/REPOSITORY_REMEDIATION_PLAN.md",
+      "bytes": 2251,
+      "sha256": "ffd25b9c2dfca9c85c1667168b201982769be7097150f86e2fde2e40474c9644"
+    },
+    {
+      "path": "results/provenance_verification/REPRODUCE.md",
+      "bytes": 1960,
+      "sha256": "9cf2d4867ff5d123a555a13c2f35870e951107f770211dc36f891a2dd610449e"
+    },
+    {
+      "path": "results/provenance_verification/SOURCE_CONFOUNDING_INTERPRETATION_VI.md",
+      "bytes": 4104,
+      "sha256": "c7c82366b8b3fb37d0dfe9ed1885270bb92018e24f41d7e91e01e258d38f13ef"
+    },
+    {
+      "path": "results/provenance_verification/SOURCE_DOCUMENTS.csv",
+      "bytes": 5048,
+      "sha256": "e478a2d78465055c1db94f729032dfd744dcf0605b5378f48963201c5890cb68"
+    },
+    {
+      "path": "results/provenance_verification/TEST_RESULTS.json",
+      "bytes": 181,
+      "sha256": "9569add7833b467f491d92694712e01541f68aaeca0ccd44545903838cfce5cd"
+    },
+    {
+      "path": "results/provenance_verification/TEST_STDOUT.txt",
+      "bytes": 101,
+      "sha256": "493a7e5ca6ac6705f9fa5a793ef6fa82b87f6d36efa86a7470a7ac86646cad5c"
+    },
+    {
+      "path": "results/provenance_verification/VALIDATION_CHECKS.json",
+      "bytes": 842,
+      "sha256": "20034e5e2d764c17d02bba9ec4c0b1f7e29318eae7304d1a3303fbd65f99fb7c"
+    },
+    {
+      "path": "results/provenance_verification/VALIDATION_READINESS_DECISION.md",
+      "bytes": 739,
+      "sha256": "6ebe6c271c41c2659a06c274a1e7a94b0b5d5b595ea06393e9c4ee8c7daf1281"
+    },
+    {
+      "path": "scripts/provenance_verification/reports.py",
+      "bytes": 57563,
+      "sha256": "cb6eb9616aaad65ea5d427dbc44dae55e8fcd1f6856d9d2f6fb31d840ed8cf03"
+    },
+    {
+      "path": "scripts/provenance_verification/run.py",
+      "bytes": 1788,
+      "sha256": "510d15cc32182878a909b5983f3362b33e3816bd67a8b5161c19ad41f8dbb2d5"
+    },
+    {
+      "path": "scripts/provenance_verification/verifier.py",
+      "bytes": 19290,
+      "sha256": "cdfce6abca7c0235737076c7a5f3236c18d47722adcc0c253c1c53ee8ae73848"
+    },
+    {
+      "path": "tests/provenance_verification/test_verification.py",
+      "bytes": 4099,
+      "sha256": "a986e6f71e8b4a44661d7955c9ab74bc91782d522b16a2b313ca1b0996971fcd"
+    }
+  ],
+  "private_sources_manifest": "Kept local in ignored data directory; public manifest contains no source participant paths"
+}

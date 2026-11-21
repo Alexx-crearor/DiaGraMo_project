@@ -1,0 +1,23 @@
+{
+  "protected_files_checked": 2833,
+  "protected_changed": [],
+  "models_fit": false,
+  "old_audit_rerun": false,
+  "clinical_provenance_fully_verified": false,
+  "source_causation_verified": false,
+  "rds_decoded": false,
+  "local_join_checks_passed": true,
+  "individual_clinical_adjudication_complete": false,
+  "no_commit_or_push": true,
+  "local_only_git_ignored": true,
+  "public_artifact_identifier_leaks": [],
+  "tracked_diff": [],
+  "missing_deliverables": [],
+  "tests": {
+    "returncode": 0,
+    "elapsed_seconds": 1.1001063999719918,
+    "output": "..............                                                           [100%]\n14 passed in 0.59s"
+  },
+  "technical_complete": true,
+  "scientific_decision": "CONDITIONAL GO methodological; NO-GO confirmed-diagnosis or source-invariant clinical claims"
+}

@@ -1,0 +1,6 @@
+case_ref,join_status,interpretation,resolution,action
+PV-CASE-01,VERIFIED,CONTRADICTORY: group/specific-care fields require owner adjudication,UNVERIFIED: individual clinical record not available,Keep protected label; request owner adjudication
+PV-CASE-02,VERIFIED,CONTRADICTORY: group/specific-care fields require owner adjudication,UNVERIFIED: individual clinical record not available,Keep protected label; request owner adjudication
+PV-CASE-03,VERIFIED,SUPPORTED: compatible with published ongoing-diagnosis inclusion,UNVERIFIED: individual clinical record not available,Keep protected label; request owner adjudication
+PV-CASE-04,VERIFIED,SUPPORTED: compatible with published ongoing-diagnosis inclusion,UNVERIFIED: individual clinical record not available,Keep protected label; request owner adjudication
+PV-CASE-05,VERIFIED,SUPPORTED: compatible with published ongoing-diagnosis inclusion,UNVERIFIED: individual clinical record not available,Keep protected label; request owner adjudication

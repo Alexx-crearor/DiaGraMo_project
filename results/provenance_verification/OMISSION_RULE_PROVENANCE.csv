@@ -1,0 +1,6 @@
+field,meaning,source,verification_status,rule,current_pipeline
+group_problems_flag_to_omit,Exact field definition UNVERIFIED; paper lists grade eligibility but does not map this precise variable,S01 Methods/Usage Notes; cleaned CSV,SUPPORTED,UNVERIFIED exact original R predicate,"Recorded, not used for cohort exclusion"
+non_czech_language_flag_to_omit,Non-Czech language criterion; bilingual handling needs codebook,S01 Methods/Usage Notes; cleaned CSV,SUPPORTED,UNVERIFIED exact original R predicate,"Recorded, not used for cohort exclusion"
+special_care_type_not_relevant_flag_to_omit,Irrelevant special-care category; exact code set unknown,S01 Methods/Usage Notes; cleaned CSV,SUPPORTED,UNVERIFIED exact original R predicate,"Recorded, not used for cohort exclusion"
+care_type_missing_flag_to_omit,Missing special-care status; exact NA handling unknown,S01 Methods/Usage Notes; cleaned CSV,SUPPORTED,UNVERIFIED exact original R predicate,"Recorded, not used for cohort exclusion"
+flag_to_omit_total,Composite of eligibility criteria; optional retention documented,"S01 pp.3,6,8; cleaned CSV",SUPPORTED,Empirical OR mismatches=0/286 complete rows; 3 incomplete rows. Not source-code verification.,3flagged protected participants retained by original eligibility expression

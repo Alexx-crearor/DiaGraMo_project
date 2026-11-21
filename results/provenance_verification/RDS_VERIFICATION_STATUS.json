@@ -1,0 +1,25 @@
+{
+  "readers": {
+    "pyreadr": false,
+    "rdata": false
+  },
+  "rscript": null,
+  "decoded": false,
+  "installed_dependencies": false,
+  "sources": [
+    {
+      "path": "data/processed_data/cognitive_test_data/cognitiveTestRdata_cleaned.rds",
+      "bytes": 116680,
+      "sha256": "e0e3b80d03cda0f1ffeddba9b64d5a75a4215796e6ea7b0a8a7886ee5f924925",
+      "decoded": false
+    },
+    {
+      "path": "data/raw_data/cognitive_test_data/cognitiveTestRdata.rds",
+      "bytes": 116477,
+      "sha256": "ec4e21c777684ce7b97f7a1bb9ea408216b9b285a210c5c24513d79472a77e97",
+      "decoded": false
+    }
+  ],
+  "status": "UNVERIFIED",
+  "blocker": "No working RDS decode performed. pyreadr/rdata absent and Rscript unavailable in inspected environment; no install authorized. CSV is not an RDS schema substitute."
+}

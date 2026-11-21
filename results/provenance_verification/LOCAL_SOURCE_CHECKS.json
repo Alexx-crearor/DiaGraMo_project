@@ -1,0 +1,35 @@
+{
+  "rows": 289,
+  "columns": 768,
+  "raw_rows": 289,
+  "raw_columns": 762,
+  "raw_has_total": false,
+  "cleaned_has_total": true,
+  "component_or_disagreements": 0,
+  "complete_component_rows": 286,
+  "incomplete_component_rows": 3,
+  "flagged_rows": 13,
+  "flagged_unique_ids": 13,
+  "protected_flagged_unique_ids": 3,
+  "formula_status": "SUPPORTED empirical OR agreement only; original R source not inspected",
+  "raw_unique_ids": 288,
+  "cleaned_unique_ids": 288,
+  "duplicate_count": 1,
+  "duplicate_summary": [
+    {
+      "raw_rows": 2,
+      "cleaned_rows": 2,
+      "conflicting_fields": "hlsDictatA_ledgibility|hlsDictatB_effort|hlsDictatC_pageLayout|hlsDictatD_letterFormation|hlsDictatE_alterations|hlsDictat_sum",
+      "merged_matches_raw_occurrences": "2",
+      "protected_cohort_member": false,
+      "relevant_label_conflicts": false
+    }
+  ],
+  "disagreement_cases": 5,
+  "ongoing_cases": 3,
+  "all_disagreement_sources_match": true,
+  "folds_and_labels_match_v3": true,
+  "cleaned_to_merged_cohort_all_fields_match": true,
+  "cleaned_to_merged_nonunique_ids": 0,
+  "cleaned_to_merged_comparison_scope": "Protected V3 metadata snapshot for 258; direct merged JSON read for five disagreements and duplicate only"
+}

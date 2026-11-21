@@ -1,0 +1,19 @@
+{
+  "reference_commit": "f4195303a4d7af6db06f5edf7da04e07385fe7c7",
+  "branch": "study/dataset-provenance-verification",
+  "initial_status": [
+    "?? DiaGraMo_REVIEW_KEEP_DECISIONS_VI.md",
+    "?? results/raw_temporal_v2/completion_notification.json",
+    "?? results/raw_temporal_v2/completion_watcher.log",
+    "?? results/raw_temporal_v2/completion_watcher.stderr.log",
+    "?? scripts/provenance_verification/",
+    "?? tests/provenance_verification/"
+  ],
+  "protected_files": 2833,
+  "protected_bytes": 514072517,
+  "utc": "2026-11-21T16:55:38.122938+00:00",
+  "models_fit": false,
+  "gpu_used": false,
+  "source_data_downloaded": false,
+  "private_output": "data/provenance_verification_local/ (Git ignored)"
+}

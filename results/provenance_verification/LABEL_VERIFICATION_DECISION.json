@@ -1,0 +1,13 @@
+{
+  "published_label_definition": "VERIFIED",
+  "numeric_code_mapping": "SUPPORTED",
+  "recommended_target_name": "Dataset-defined handwriting-disability group; prior clinical/educational records, including ongoing assessment",
+  "all_group1_confirmed_dysgraphia": false,
+  "individual_case_adjudication": "UNVERIFIED",
+  "specific_flag_clinically_confirmed": "UNVERIFIED",
+  "disagreement_cases": 5,
+  "ongoing_compatible_cases": 3,
+  "labels_changed": false,
+  "cohort_changed": false,
+  "folds_changed": false
+}

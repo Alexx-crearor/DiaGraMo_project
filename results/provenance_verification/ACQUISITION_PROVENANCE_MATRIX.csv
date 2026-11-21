@@ -1,0 +1,11 @@
+item,documented_evidence,source,verification_status,remaining_gap
+Population/recruitment,Schools and pedagogical-psychological counselling centres; different routes for HD and TD,S01 pp.2–3,VERIFIED,No city-by-city sampling frame or referral denominator
+City identity,Pseudonymized city labels in released metadata,S01 Ethics; S13,VERIFIED,Real cities and device mappings unavailable; city is not hospital/device
+Clinical source,Prior PPCC records and school anamnestic reports; includes ongoing diagnoses,S01 Assignment of diagnosis,VERIFIED,Participant-level diagnostic records not released
+Device family,Wacom Cintiq 16 DTK-1660 / Pro Pen 2 KP504E; HandAQUS,S01 p.5; S04,VERIFIED,Per-session serial/firmware/driver histories absent
+Calibration,Factory digitizer calibration and pen-display alignment described,S01 p.5,SUPPORTED,"No calibration certificate, pressure equivalence or session logs inspected"
+Operator,Individual administration by study personnel described; named visual QC evaluators,S01 Methods,SUPPORTED,No operator-to-participant/site mapping or inter-rater linkage
+Task protocol,16filename variants; local14canonical tasks collapse grade-specific dictation/copy,S01 Table3; S12 TASKS/canonical,VERIFIED,Same canonical task does not imply identical grade-specific stimuli
+Collection period,December2021–June2023; dates released as quarter/year,S01 Participants; S02 Notes,VERIFIED,Site-specific batch/protocol drift not resolved
+Timestamp/spatial units,Paper documents seconds and millimetres before JSON conversion,S01 Data Preprocessing p.5,SUPPORTED,Not independently certified clock/spatial calibration for local sessions
+Sampling cadence,Paper average 167 Hz; V3 local median-derived cadence~200/source-time-unit,S01 p.5; S13 PhaseD,CONTRADICTORY,Mean-vs-median estimators differ; reconcile distributions/clock provenance before causal inference

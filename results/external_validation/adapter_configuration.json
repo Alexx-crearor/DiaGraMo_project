@@ -1,0 +1,24 @@
+{
+  "mode": "Read-only numeric schema adapter; signal-model conversion disabled",
+  "input": "Count header +7native numeric columns",
+  "output": "Unchanged float64 array in acquisition order",
+  "columns_named": [
+    "c0",
+    "c1",
+    "c2",
+    "c3",
+    "c4",
+    "c5",
+    "c6"
+  ],
+  "physical_mapping": "UNVERIFIED",
+  "resampling": false,
+  "time_unit_conversion": false,
+  "angle_conversion": false,
+  "missing_channel_imputation": false,
+  "fitted_normalization": false,
+  "task_mapping": false,
+  "labels_in_input_tensors": false,
+  "raw_model_training_admitted": false,
+  "prior_control_uses_only_train_class_counts": true
+}

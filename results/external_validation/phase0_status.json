@@ -1,0 +1,66 @@
+{
+  "phase": 0,
+  "status": "COMPLETE",
+  "utc": "2026-11-22T09:51:05.298843+00:00",
+  "runtime_seconds": 39.18799999996554,
+  "evidence": {
+    "protected_count": 3193,
+    "model_contract": {
+      "kinematic": {
+        "tasks": 14,
+        "features_per_task": 74,
+        "participant_dimensions": 1036,
+        "output": "pK",
+        "extractor": "src/diagramo/features.py; src/diagramo/branches/kinematic.py",
+        "evaluation": "scripts/evaluate.py",
+        "normalization": "Train-fold median imputer/constant filter/scaler"
+      },
+      "temporal": {
+        "raw_channels": 7,
+        "processed_channels": 21,
+        "maximum_window_samples": 128,
+        "kernels": [
+          5,
+          13,
+          29
+        ],
+        "tokens_per_window": 4,
+        "token_dimension": 32,
+        "heads": 2,
+        "task_embedding_count": 14,
+        "participant_pool": "Learned Pool",
+        "output": "pT",
+        "parameters": 25252,
+        "classes": [
+          "MultiScaleLocal",
+          "RelativeStrokeBlock",
+          "MultiScaleModel"
+        ],
+        "source": "src/diagramo/temporal_v2/multiscale.py",
+        "preprocessing": "src/diagramo/temporal/preprocessing.py; segmentation.py; dataset.py"
+      },
+      "frozen": {
+        "seed": 42,
+        "folds": 6,
+        "threshold": "p>0.5",
+        "epochs": 28,
+        "checkpoint_policy": "Fixed final epoch; no Test selection",
+        "fusion": "0.5*pK+0.5*pT",
+        "metadata": "results/raw_temporal_v2/phase4_lite/fits/*/result.json",
+        "config": "configs/raw_temporal_v2/phase4_lite.json"
+      },
+      "architecture_modified": false
+    }
+  },
+  "validation": {
+    "data_directory_git_ignored": true,
+    "original_architecture_untouched": true
+  },
+  "artifacts": [
+    "HARDWARE_BUDGET.json",
+    "PROTECTED_ARTIFACT_MANIFEST.json",
+    "ORIGINAL_MODEL_CONTRACT.json",
+    "PHASE0_ENVIRONMENT.md"
+  ],
+  "reason": null
+}

@@ -1,0 +1,34 @@
+{
+  "status": "COMPLETE_FEASIBLE_INVESTIGATION",
+  "phases": {
+    "0": "COMPLETE",
+    "1": "COMPLETE",
+    "2": "PARTIAL",
+    "3": "COMPLETE",
+    "4": "PARTIAL",
+    "5": "COMPLETE",
+    "6": "PARTIAL",
+    "7": "COMPLETE",
+    "8": "COMPLETE",
+    "9": "COMPLETE"
+  },
+  "dataset_classification": "A real raw trajectories",
+  "scientific_outcome": "E: no currently admitted signal-learning/transfer path; prior-only control completed",
+  "completed_experiments": [
+    "Train_prior_label_control:5/5folds"
+  ],
+  "signal_research_complete": false,
+  "budget": {
+    "max_runtime_seconds": 28800,
+    "report_reserve_seconds": 900,
+    "actual_seconds": 1438.9909145832062,
+    "remaining_experiment_seconds": 26461.009085416794
+  },
+  "validation_wall_seconds": 14.780999999959022,
+  "validation_cpu_seconds": 12.0625,
+  "current_process_rss_bytes": 64389120,
+  "gpu_training_seconds": 0,
+  "runtime_scope": "Wall elapsed includes documentation/manual source review between CLI stages; phase timings and actual control runtime separate",
+  "no_further_gpu_work_scheduled": true,
+  "utc": "2026-11-22T10:14:16.005141+00:00"
+}

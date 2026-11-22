@@ -1,0 +1,70 @@
+{
+  "unique_workbook_ids": 120,
+  "unique_svc_ids": 120,
+  "labeled_recordings": 121,
+  "label_classes": [
+    0,
+    1
+  ],
+  "source_label_counts": {
+    "0": 63,
+    "1": 57
+  },
+  "repeated_recordings_participants": 1,
+  "candidate_split": "Stratified5 participant IDs seed42; not a source-held-out split",
+  "folds": [
+    {
+      "fold": 0,
+      "train_participants": 96,
+      "test_participants": 24,
+      "train_class0": 51,
+      "train_class1": 45,
+      "test_class0": 12,
+      "test_class1": 12,
+      "overlap": 0
+    },
+    {
+      "fold": 1,
+      "train_participants": 96,
+      "test_participants": 24,
+      "train_class0": 51,
+      "train_class1": 45,
+      "test_class0": 12,
+      "test_class1": 12,
+      "overlap": 0
+    },
+    {
+      "fold": 2,
+      "train_participants": 96,
+      "test_participants": 24,
+      "train_class0": 50,
+      "train_class1": 46,
+      "test_class0": 13,
+      "test_class1": 11,
+      "overlap": 0
+    },
+    {
+      "fold": 3,
+      "train_participants": 96,
+      "test_participants": 24,
+      "train_class0": 50,
+      "train_class1": 46,
+      "test_class0": 13,
+      "test_class1": 11,
+      "overlap": 0
+    },
+    {
+      "fold": 4,
+      "train_participants": 96,
+      "test_participants": 24,
+      "train_class0": 50,
+      "train_class1": 46,
+      "test_class0": 13,
+      "test_class1": 11,
+      "overlap": 0
+    }
+  ],
+  "all_recordings_of_person_same_fold": true,
+  "physical_identity_independently_verified": false,
+  "note": "Source ID grouping verified; shared/nonempty XML history/comments among matched cases checked but not an identity guarantee"
+}

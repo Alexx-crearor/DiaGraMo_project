@@ -1,0 +1,15 @@
+{
+  "branch": "study/external-dataset-validation",
+  "reference_commit": "e26b0a17378c3fd06cd4f334f99d8282f342af38",
+  "preserved_preexisting_untracked_paths": [
+    "DiaGraMo_REVIEW_KEEP_DECISIONS_VI.md",
+    "results/raw_temporal_v2/completion_notification.json",
+    "results/raw_temporal_v2/completion_watcher.log",
+    "results/raw_temporal_v2/completion_watcher.stderr.log"
+  ],
+  "safe_strategy": "New branch at same HEAD; all writes isolated in new task code/tests/results and ignored external data directories; no reset/stash/delete",
+  "automatic_commit_blocker": "Pre-existing untracked work preserved; Phase6 changes left for review. Earlier commit/push requests applied to Phase5.",
+  "commit": false,
+  "push": false,
+  "merge": false
+}

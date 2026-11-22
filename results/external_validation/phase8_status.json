@@ -1,0 +1,24 @@
+{
+  "phase": 8,
+  "status": "COMPLETE",
+  "utc": "2026-11-22T10:12:26.693127+00:00",
+  "runtime_seconds": 0.015000000013969839,
+  "evidence": {
+    "report_sections": 20,
+    "full_signal_research_complete": false
+  },
+  "validation": {
+    "report_from_persisted_metrics": true,
+    "no_fabricated_signal_metrics": true
+  },
+  "artifacts": [
+    "EXTERNAL_VALIDATION_RESEARCH_REPORT_VI.md",
+    "EXECUTIVE_SUMMARY_VI.md",
+    "NEXT_RESEARCH_DECISION_VI.md",
+    "BLOCKERS.md",
+    "REPRODUCE.md",
+    "SOURCE_DOCUMENTS.csv",
+    "DOCUMENT_CHECKSUMS.json"
+  ],
+  "reason": null
+}

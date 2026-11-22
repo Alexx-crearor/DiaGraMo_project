@@ -1,0 +1,30 @@
+{
+  "repository": "peet292929/Dysgraphia-detection-through-machine-learning",
+  "commit": "0079fdd34fc5eff0c1c58f9689127b2c73b57f8b",
+  "checked_utc": "2026-11-22T09:52:16.587197+00:00",
+  "files": [
+    {
+      "name": "README.md",
+      "bytes": 393,
+      "sha256": "2ccc73ff10266ca7a0957abec53ed92abd66f4d608c071ec057b1d08370a0730",
+      "git_blob_sha1": "608c3f7794c46a247099d5d09ea273ec88f7f1d6",
+      "url": "https://raw.githubusercontent.com/peet292929/Dysgraphia-detection-through-machine-learning/0079fdd34fc5eff0c1c58f9689127b2c73b57f8b/README.md"
+    },
+    {
+      "name": "data2_SciRep_pub.xlsx",
+      "bytes": 17201,
+      "sha256": "f0ddb888d4727816d63dfa04ff55c10f1b44c6f712949fe6409facfcb89c9984",
+      "git_blob_sha1": "2f709020eef333792099f6e71e146a2eac3e3695",
+      "url": "https://raw.githubusercontent.com/peet292929/Dysgraphia-detection-through-machine-learning/0079fdd34fc5eff0c1c58f9689127b2c73b57f8b/data2_SciRep_pub.xlsx"
+    },
+    {
+      "name": "dataSciRep_public.zip",
+      "bytes": 16731844,
+      "sha256": "84a1bed53cfc78d811ec1bd8a64967ab6a539013c0dd2c63d00b973b25c261c3",
+      "git_blob_sha1": "95d17ffe91521d1efe4a8592c6105156a07341a7",
+      "url": "https://raw.githubusercontent.com/peet292929/Dysgraphia-detection-through-machine-learning/0079fdd34fc5eff0c1c58f9689127b2c73b57f8b/dataSciRep_public.zip"
+    }
+  ],
+  "access": "Explicit user-authorized bounded read-only download from author public repository linked by paper; redistribution not authorized",
+  "license": "No standalone data license found in three-file repository; do not infer article CC BY applies to data"
+}

@@ -1,0 +1,31 @@
+{
+  "dataset_classification": "A",
+  "raw_available": true,
+  "outcome": "E for signal-model execution under current evidence; label-only control separately admitted",
+  "A": {
+    "status": "NOT VALID",
+    "run": false,
+    "reason": "No exact14task contract, absent task boundaries and unverified physical/export schema"
+  },
+  "B": {
+    "status": "NOT FEASIBLE",
+    "run": false,
+    "reason": "Only semantic analogues; no exact shared task/recording mapping or development subset"
+  },
+  "C": {
+    "status": "BLOCKED",
+    "run": false,
+    "reason": "Shared channel order, timestamp/angle units and meanings unverified; no approved harmonization"
+  },
+  "D": {
+    "status": "PARTIAL: PRIOR-ONLY CONTROL ADMITTED",
+    "run_prior": true,
+    "run_signal_models": false,
+    "reason": "120unique labeled IDs support5fold label-only control; actual Kinematic/Temporal benchmark waits for exact export schema. This is not frozen external validation"
+  },
+  "no_zero_filled_channels": true,
+  "no_assumed_task_indices": true,
+  "no_altitude_conversion": true,
+  "gate_basis": "Source documentation and actual files; no external-Test model scores inspected",
+  "locked_before_scores": true
+}

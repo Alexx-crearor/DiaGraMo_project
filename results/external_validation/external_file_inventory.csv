@@ -1,0 +1,4 @@
+location,file_type,file_count,detail,dataset,participant_count,target_definition,split_protocol,model,completed_folds,metric,confidence_interval,evaluation_scope
+ZIP,.xml,2,Exact source paths/hashes retained local-only,Drotar_Dobes_2020,120,Workbook diag DYSGR vs0; study clinical assessment,Not a performance evaluation unless stated,N/A,0,N/A descriptive audit,N/A,Exploratory compatibility audit
+ZIP,.svc,121,Exact source paths/hashes retained local-only,Drotar_Dobes_2020,120,Workbook diag DYSGR vs0; study clinical assessment,Not a performance evaluation unless stated,N/A,0,N/A descriptive audit,N/A,Exploratory compatibility audit
+ZIP,(no extension),1,Exact source paths/hashes retained local-only,Drotar_Dobes_2020,120,Workbook diag DYSGR vs0; study clinical assessment,Not a performance evaluation unless stated,N/A,0,N/A descriptive audit,N/A,Exploratory compatibility audit

@@ -1,0 +1,51 @@
+{
+  "phase": 2,
+  "status": "PARTIAL",
+  "utc": "2026-11-22T10:09:33.230696+00:00",
+  "runtime_seconds": 4.109000000054948,
+  "evidence": {
+    "classification": "A",
+    "raw_trajectories_available": true,
+    "engineered_feature_tables_available": false,
+    "participants": 120,
+    "class0": 63,
+    "class1": 57,
+    "svc_recordings": 121,
+    "samples": 2176419,
+    "columns": 7,
+    "valid_recordings": 120,
+    "invalid_or_empty_recordings": 1,
+    "participants_with_valid_signal": 120,
+    "paper_task_conditions": 8,
+    "actual_task_annotations": 0,
+    "recording_to_task_mapping": "UNKNOWN; one hw code for119IDs, two for1ID; no 8task boundary annotations",
+    "header_and_numeric_checks_passed": false,
+    "source_metadata_available": false,
+    "physical_units_verified": false,
+    "column_order_verified": false,
+    "candidate_pen_all_binary": true,
+    "label_formulas_verified": 1,
+    "excel_id_padding_applied": 49,
+    "median_dt_candidate_native": 8.0,
+    "extra_xml_participants": [
+      192,
+      155
+    ],
+    "zero_intervals": 0,
+    "negative_intervals": 2
+  },
+  "validation": {
+    "all_headers_and_finites_pass": false,
+    "participant_join_complete": true,
+    "repeated_recordings_grouped": true,
+    "physical_units_verified": false
+  },
+  "artifacts": [
+    "PHASE2_SIGNAL_AUDIT.md",
+    "channel_statistics.csv",
+    "timestamp_quality.csv",
+    "participant_split_integrity.json",
+    "source_label_contingency.csv"
+  ],
+  "reason": "Exact export column definitions/units and task boundaries absent; source-level metadata absent"
+}

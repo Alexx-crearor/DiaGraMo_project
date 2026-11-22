@@ -1,0 +1,44 @@
+[
+  {
+    "file": "userSession.xml",
+    "rows": 192,
+    "unique_ids": 192,
+    "matched_labeled_ids": 120,
+    "columns": [
+      "age",
+      "comments",
+      "handed",
+      "history",
+      "id",
+      "session",
+      "sex",
+      "studies"
+    ],
+    "declared_encoding": "ISO-8859-1 (observed declaration; no semantic text recoding used)",
+    "individual_source_metadata_available": false,
+    "contains_free_text": true,
+    "history_duplicate_nonempty_groups": 0,
+    "comments_duplicate_nonempty_groups": 0
+  },
+  {
+    "file": "userSession_old.xml",
+    "rows": 155,
+    "unique_ids": 155,
+    "matched_labeled_ids": 89,
+    "columns": [
+      "age",
+      "comments",
+      "handed",
+      "history",
+      "id",
+      "session",
+      "sex",
+      "studies"
+    ],
+    "declared_encoding": "ISO-8859-1 (observed declaration; no semantic text recoding used)",
+    "individual_source_metadata_available": false,
+    "contains_free_text": true,
+    "history_duplicate_nonempty_groups": 0,
+    "comments_duplicate_nonempty_groups": 0
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "phase": 4,
+  "status": "PARTIAL",
+  "utc": "2026-11-22T10:09:36.646326+00:00",
+  "runtime_seconds": 3.39000000001397,
+  "evidence": {
+    "mode": "Read-only numeric schema adapter; signal-model conversion disabled",
+    "input": "Count header +7native numeric columns",
+    "output": "Unchanged float64 array in acquisition order",
+    "columns_named": [
+      "c0",
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5",
+      "c6"
+    ],
+    "physical_mapping": "UNVERIFIED",
+    "resampling": false,
+    "time_unit_conversion": false,
+    "angle_conversion": false,
+    "missing_channel_imputation": false,
+    "fitted_normalization": false,
+    "task_mapping": false,
+    "labels_in_input_tensors": false,
+    "raw_model_training_admitted": false,
+    "prior_control_uses_only_train_class_counts": true
+  },
+  "validation": {
+    "numeric_adapter": true,
+    "deterministic_reread": true,
+    "physical_harmonization": false
+  },
+  "artifacts": [
+    "PHASE4_HARMONIZATION_REPORT.md",
+    "adapter_configuration.json",
+    "harmonization_checks.csv",
+    "preprocessing_validation.json"
+  ],
+  "reason": "Semantic harmonization gated by unknown export schema/units/task boundaries"
+}

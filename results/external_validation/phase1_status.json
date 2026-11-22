@@ -1,0 +1,84 @@
+{
+  "phase": 1,
+  "status": "COMPLETE",
+  "utc": "2026-11-22T10:09:33.227907+00:00",
+  "runtime_seconds": 60.375,
+  "evidence": {
+    "downloads_verified": [
+      {
+        "name": "README.md",
+        "bytes": 393,
+        "sha256": "2ccc73ff10266ca7a0957abec53ed92abd66f4d608c071ec057b1d08370a0730",
+        "git_blob_sha1": "608c3f7794c46a247099d5d09ea273ec88f7f1d6",
+        "url": "https://raw.githubusercontent.com/peet292929/Dysgraphia-detection-through-machine-learning/0079fdd34fc5eff0c1c58f9689127b2c73b57f8b/README.md"
+      },
+      {
+        "name": "data2_SciRep_pub.xlsx",
+        "bytes": 17201,
+        "sha256": "f0ddb888d4727816d63dfa04ff55c10f1b44c6f712949fe6409facfcb89c9984",
+        "git_blob_sha1": "2f709020eef333792099f6e71e146a2eac3e3695",
+        "url": "https://raw.githubusercontent.com/peet292929/Dysgraphia-detection-through-machine-learning/0079fdd34fc5eff0c1c58f9689127b2c73b57f8b/data2_SciRep_pub.xlsx"
+      },
+      {
+        "name": "dataSciRep_public.zip",
+        "bytes": 16731844,
+        "sha256": "84a1bed53cfc78d811ec1bd8a64967ab6a539013c0dd2c63d00b973b25c261c3",
+        "git_blob_sha1": "95d17ffe91521d1efe4a8592c6105156a07341a7",
+        "url": "https://raw.githubusercontent.com/peet292929/Dysgraphia-detection-through-machine-learning/0079fdd34fc5eff0c1c58f9689127b2c73b57f8b/dataSciRep_public.zip"
+      }
+    ],
+    "zip_members": 365
+  },
+  "validation": {
+    "git_blobs_match": true,
+    "zip_crc_checked": true,
+    "safe_extraction": true,
+    "excel_read_without_formula_execution": true
+  },
+  "artifacts": [
+    "PHASE1_DATASET_PROVENANCE.md",
+    "external_file_inventory.csv",
+    "external_schema_inventory.csv",
+    "external_label_dictionary.csv",
+    "external_dataset_checksums.json",
+    "DATASET_INVENTORY.json"
+  ],
+  "reason": null,
+  "classification": "A",
+  "semantic_limitations": [
+    "Exact units",
+    "Column mapping",
+    "Task boundaries"
+  ],
+  "inventory": {
+    "classification": "A",
+    "raw_trajectories_available": true,
+    "engineered_feature_tables_available": false,
+    "participants": 120,
+    "class0": 63,
+    "class1": 57,
+    "svc_recordings": 121,
+    "samples": 2176419,
+    "columns": 7,
+    "valid_recordings": 120,
+    "invalid_or_empty_recordings": 1,
+    "participants_with_valid_signal": 120,
+    "paper_task_conditions": 8,
+    "actual_task_annotations": 0,
+    "recording_to_task_mapping": "UNKNOWN; one hw code for119IDs, two for1ID; no 8task boundary annotations",
+    "header_and_numeric_checks_passed": false,
+    "source_metadata_available": false,
+    "physical_units_verified": false,
+    "column_order_verified": false,
+    "candidate_pen_all_binary": true,
+    "label_formulas_verified": 1,
+    "excel_id_padding_applied": 49,
+    "median_dt_candidate_native": 8.0,
+    "extra_xml_participants": [
+      192,
+      155
+    ],
+    "zero_intervals": 0,
+    "negative_intervals": 2
+  }
+}

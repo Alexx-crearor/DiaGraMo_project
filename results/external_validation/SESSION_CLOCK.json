@@ -1,0 +1,4 @@
+{
+  "initial_epoch": 1795341017.014227,
+  "policy": "Single overall session across CLI phases; resume does not reset budget"
+}

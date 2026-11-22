@@ -1,0 +1,45 @@
+{
+  "python": "3.10.11",
+  "packages": {
+    "torch": "2.7.1+cu128",
+    "numpy": "1.25.2",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.7.2",
+    "lightgbm": "4.7.0",
+    "scipy": "1.15.3",
+    "psutil": "7.2.2"
+  },
+  "cpu_logical": 12,
+  "cpu_physical": 6,
+  "affinity_logical": 12,
+  "ram_total_bytes": 34093072384,
+  "ram_available_bytes": 10517946368,
+  "disk_free_bytes": 66354896896,
+  "gpu": {
+    "cuda_available": true,
+    "training_processes_started": 0,
+    "allocation_limit_gib": 3.2,
+    "name": "Quadro T1000",
+    "total_bytes": 4294705152,
+    "free_bytes": 3459566798,
+    "allocated_bytes": 0,
+    "reserved_bytes": 0
+  },
+  "maximum_gpu_workers": 1,
+  "budget": {
+    "max_runtime_seconds": 28800,
+    "report_reserve_seconds": 900,
+    "actual_seconds": 48.14100000006147,
+    "remaining_experiment_seconds": 27851.85899999994
+  },
+  "utc": "2026-11-22T09:51:05.155227+00:00",
+  "branch": "study/external-dataset-validation",
+  "initial_git_status": [
+    "?? DiaGraMo_REVIEW_KEEP_DECISIONS_VI.md",
+    "?? results/external_validation/",
+    "?? results/raw_temporal_v2/completion_notification.json",
+    "?? results/raw_temporal_v2/completion_watcher.log",
+    "?? results/raw_temporal_v2/completion_watcher.stderr.log",
+    "?? scripts/external_validation/"
+  ]
+}

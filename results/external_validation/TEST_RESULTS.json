@@ -1,0 +1,6 @@
+{
+  "command": "python -m pytest tests/external_validation -q",
+  "returncode": 0,
+  "wall_seconds": 2.4679999999934807,
+  "stdout": "..........................                                               [100%]\n26 passed in 1.78s\n"
+}

@@ -1,0 +1,8 @@
+{
+  "locked_config_sha256": "a75d198d92c0710b0ec2bd796b2618cf8d8764ad4a58309299618b38e3ab9af3",
+  "locked_utc": "2026-11-22T10:03:25.811120+00:00",
+  "test_model_scores_seen": false,
+  "signal_experiments": "No admission: export schema/units unresolved",
+  "admitted": "Prior-only label-balance diagnostic; does not test motor information",
+  "future_unlock": "Requires author schema and separate new preregistered protocol; not changes based on current diagnostic results"
+}

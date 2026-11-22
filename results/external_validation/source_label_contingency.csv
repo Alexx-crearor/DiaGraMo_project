@@ -1,0 +1,2 @@
+source,class0,class1,source_independent_evaluation,source_definition,dataset,participant_count,target_definition,split_protocol,model,completed_folds,metric,confidence_interval,evaluation_scope
+UNAVAILABLE at participant level,63,57,UNVERIFIED,Paper describes case clinical centre/control school routes; cannot assign source labels from outcome without circularity,Drotar_Dobes_2020,120,Workbook diag DYSGR vs0; study clinical assessment,Not a performance evaluation unless stated,N/A,0,N/A descriptive audit,N/A,Exploratory compatibility audit

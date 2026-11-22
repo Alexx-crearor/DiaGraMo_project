@@ -1,0 +1,54 @@
+{
+  "checkpoints": [
+    {
+      "alias": "prior_fold0",
+      "location": "local-only data/external_datasets/.../checkpoints/prior_fold0.json",
+      "sha256": "afae8c5f64a1de8c8364753e496b523bb94c2a1645747b42c257e3ad0c83f90d",
+      "split_sha256": "21cf61d289d4f2cf95b92177d79519ccbff12074b5cbc210c292d04fe7fd4537",
+      "config_sha256": "a75d198d92c0710b0ec2bd796b2618cf8d8764ad4a58309299618b38e3ab9af3",
+      "complete": true,
+      "optimizer": "N/A closed-form",
+      "replay_exact": true
+    },
+    {
+      "alias": "prior_fold1",
+      "location": "local-only data/external_datasets/.../checkpoints/prior_fold1.json",
+      "sha256": "730db00c8f9969e8694d61fcc9bd11c842c102a258d64f5685cb54c5b79d1359",
+      "split_sha256": "1fd80380213e91d583f6d9d426661439a10d96bc5370b3cd5e926416bb4f4b02",
+      "config_sha256": "a75d198d92c0710b0ec2bd796b2618cf8d8764ad4a58309299618b38e3ab9af3",
+      "complete": true,
+      "optimizer": "N/A closed-form",
+      "replay_exact": true
+    },
+    {
+      "alias": "prior_fold2",
+      "location": "local-only data/external_datasets/.../checkpoints/prior_fold2.json",
+      "sha256": "d1a42109bb8ef4db414e7fa1b4b01939bc8feb0cdf8b1d9a97591f51ddaa9662",
+      "split_sha256": "54034c7367eaed0d111b475db5c1649e9bbb6daeee561a20ff577815eacf512f",
+      "config_sha256": "a75d198d92c0710b0ec2bd796b2618cf8d8764ad4a58309299618b38e3ab9af3",
+      "complete": true,
+      "optimizer": "N/A closed-form",
+      "replay_exact": true
+    },
+    {
+      "alias": "prior_fold3",
+      "location": "local-only data/external_datasets/.../checkpoints/prior_fold3.json",
+      "sha256": "98bfb4adf6392c464775d0c50cebb3a641a4a4a72df8b08685eef08454d5a613",
+      "split_sha256": "ac385fdc3b51e46fc4afc7b1fa44926ebbfb450c56348179c91f5a5b1a1d2b2f",
+      "config_sha256": "a75d198d92c0710b0ec2bd796b2618cf8d8764ad4a58309299618b38e3ab9af3",
+      "complete": true,
+      "optimizer": "N/A closed-form",
+      "replay_exact": true
+    },
+    {
+      "alias": "prior_fold4",
+      "location": "local-only data/external_datasets/.../checkpoints/prior_fold4.json",
+      "sha256": "ada21d1f51739ed58ccf1663275b4f435d22b3d077a74380ca33b31d999e0909",
+      "split_sha256": "2bec280e05d71648cbc78df3f9223a16adb69bf8bf55e485584a882a8562e603",
+      "config_sha256": "a75d198d92c0710b0ec2bd796b2618cf8d8764ad4a58309299618b38e3ab9af3",
+      "complete": true,
+      "optimizer": "N/A closed-form",
+      "replay_exact": true
+    }
+  ]
+}

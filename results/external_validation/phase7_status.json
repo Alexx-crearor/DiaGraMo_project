@@ -1,0 +1,25 @@
+{
+  "phase": 7,
+  "status": "COMPLETE",
+  "utc": "2026-11-22T10:09:36.810666+00:00",
+  "runtime_seconds": 0.030999999959021807,
+  "evidence": {
+    "signal_model_comparison": "NOT_COMPUTED",
+    "prior_control": "5fold completed",
+    "complementarity": "NOT_COMPUTED",
+    "domain_shift": "Native descriptive only",
+    "source": "Unverified source independence"
+  },
+  "validation": {
+    "no_cross_cohort_paired_tests": true,
+    "no_causal_claims": true
+  },
+  "artifacts": [
+    "PHASE7_SCIENTIFIC_ANALYSIS.md",
+    "complementarity_metrics.csv",
+    "domain_shift_summary.csv",
+    "source_confounding_summary.csv",
+    "limitations_matrix.csv"
+  ],
+  "reason": null
+}

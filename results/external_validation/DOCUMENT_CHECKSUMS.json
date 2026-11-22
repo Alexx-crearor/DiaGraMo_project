@@ -1,0 +1,15 @@
+{
+  "files": [
+    {
+      "alias": "paper.html",
+      "sha256": "d7e9253a8624bbe78402a5c6a5d89e5048ada5df955f0bbc951302fe844902af",
+      "bytes": 349635
+    },
+    {
+      "alias": "supplement.pdf",
+      "sha256": "859f64562277d3786a92d1515f8bb09822c26f4b19b5d994859205ec585b09e4",
+      "bytes": 108641
+    }
+  ],
+  "note": "Documents cached local-only; dataset files separately hashed"
+}

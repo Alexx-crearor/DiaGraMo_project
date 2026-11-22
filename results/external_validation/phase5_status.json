@@ -1,0 +1,22 @@
+{
+  "phase": 5,
+  "status": "COMPLETE",
+  "utc": "2026-11-22T10:09:36.657874+00:00",
+  "runtime_seconds": 0.01600000006146729,
+  "evidence": {
+    "locked_config_sha256": "a75d198d92c0710b0ec2bd796b2618cf8d8764ad4a58309299618b38e3ab9af3",
+    "admitted_experiments": [
+      "Train_prior_label_control"
+    ],
+    "not_admitted": "All signal-model comparisons"
+  },
+  "validation": {
+    "no_scores_used_for_selection": true
+  },
+  "artifacts": [
+    "LOCKED_PROTOCOL.md",
+    "LOCKED_CONFIG.json",
+    "PREEXPERIMENT_DECISIONS.json"
+  ],
+  "reason": null
+}

@@ -1,0 +1,112 @@
+{
+  "protocol_version": 1,
+  "dataset": "Drotar_Dobes_2020",
+  "source_commit": "0079fdd34fc5eff0c1c58f9689127b2c73b57f8b",
+  "source_checksums": {
+    "repository": "peet292929/Dysgraphia-detection-through-machine-learning",
+    "commit": "0079fdd34fc5eff0c1c58f9689127b2c73b57f8b",
+    "checked_utc": "2026-11-22T09:52:16.587197+00:00",
+    "files": [
+      {
+        "name": "README.md",
+        "bytes": 393,
+        "sha256": "2ccc73ff10266ca7a0957abec53ed92abd66f4d608c071ec057b1d08370a0730",
+        "git_blob_sha1": "608c3f7794c46a247099d5d09ea273ec88f7f1d6",
+        "url": "https://raw.githubusercontent.com/peet292929/Dysgraphia-detection-through-machine-learning/0079fdd34fc5eff0c1c58f9689127b2c73b57f8b/README.md"
+      },
+      {
+        "name": "data2_SciRep_pub.xlsx",
+        "bytes": 17201,
+        "sha256": "f0ddb888d4727816d63dfa04ff55c10f1b44c6f712949fe6409facfcb89c9984",
+        "git_blob_sha1": "2f709020eef333792099f6e71e146a2eac3e3695",
+        "url": "https://raw.githubusercontent.com/peet292929/Dysgraphia-detection-through-machine-learning/0079fdd34fc5eff0c1c58f9689127b2c73b57f8b/data2_SciRep_pub.xlsx"
+      },
+      {
+        "name": "dataSciRep_public.zip",
+        "bytes": 16731844,
+        "sha256": "84a1bed53cfc78d811ec1bd8a64967ab6a539013c0dd2c63d00b973b25c261c3",
+        "git_blob_sha1": "95d17ffe91521d1efe4a8592c6105156a07341a7",
+        "url": "https://raw.githubusercontent.com/peet292929/Dysgraphia-detection-through-machine-learning/0079fdd34fc5eff0c1c58f9689127b2c73b57f8b/dataSciRep_public.zip"
+      }
+    ],
+    "access": "Explicit user-authorized bounded read-only download from author public repository linked by paper; redistribution not authorized",
+    "license": "No standalone data license found in three-file repository; do not infer article CC BY applies to data"
+  },
+  "dataset_inventory_sha256": "4206f7eb7d8c0e7d18e084098c1184b38c3d23184de3cff3d2bf28e6dd29ac34",
+  "target": "Workbook diag DYSGR=1,0=0; study assessment, not automatically DiaGraMo group",
+  "participants": 120,
+  "unit": "participant ID; all sessions/recordings grouped",
+  "folds": 5,
+  "seed": 42,
+  "split": "StratifiedKFold5 shuffleTrue seed42",
+  "threshold": "probability>0.5",
+  "allowed_experiments": [
+    "Train_prior_label_control"
+  ],
+  "signal_experiments_allowed": [],
+  "prior": {
+    "estimator": "sklearn.dummy.DummyClassifier",
+    "strategy": "prior",
+    "fit_inputs": "constant zero column; labels Train only",
+    "normalization": "none",
+    "hyperparameter_search": false,
+    "early_stopping": false,
+    "calibration_fit": false,
+    "checkpoint": "JSON class-count sufficient statistics; no optimizer or RNG required for closed-form fit"
+  },
+  "metrics": [
+    "accuracy",
+    "f1_macro",
+    "auc",
+    "balanced_accuracy",
+    "sensitivity",
+    "specificity",
+    "brier",
+    "log_loss",
+    "confusion",
+    "ece10"
+  ],
+  "uncertainty": {
+    "bootstrap_replicates": 2000,
+    "seed": 42,
+    "unit": "Unstratified participant OOF rows; fixed predictions",
+    "cluster": "Site unavailable; cannot bootstrap source clusters",
+    "scope": "Conditional exploratory interval, not training/selection or domain uncertainty"
+  },
+  "no_fusion": true,
+  "no_gaf_cwt_ssl": true,
+  "no_model_selection": true,
+  "source_negative_control": "NOT_FEASIBLE no per-person source",
+  "gate_status": {
+    "dataset_classification": "A",
+    "raw_available": true,
+    "outcome": "E for signal-model execution under current evidence; label-only control separately admitted",
+    "A": {
+      "status": "NOT VALID",
+      "run": false,
+      "reason": "No exact14task contract, absent task boundaries and unverified physical/export schema"
+    },
+    "B": {
+      "status": "NOT FEASIBLE",
+      "run": false,
+      "reason": "Only semantic analogues; no exact shared task/recording mapping or development subset"
+    },
+    "C": {
+      "status": "BLOCKED",
+      "run": false,
+      "reason": "Shared channel order, timestamp/angle units and meanings unverified; no approved harmonization"
+    },
+    "D": {
+      "status": "PARTIAL: PRIOR-ONLY CONTROL ADMITTED",
+      "run_prior": true,
+      "run_signal_models": false,
+      "reason": "120unique labeled IDs support5fold label-only control; actual Kinematic/Temporal benchmark waits for exact export schema. This is not frozen external validation"
+    },
+    "no_zero_filled_channels": true,
+    "no_assumed_task_indices": true,
+    "no_altitude_conversion": true,
+    "gate_basis": "Source documentation and actual files; no external-Test model scores inspected",
+    "locked_before_scores": true
+  },
+  "python": "3.10.11"
+}

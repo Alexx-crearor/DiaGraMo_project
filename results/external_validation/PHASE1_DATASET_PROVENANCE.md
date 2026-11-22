@@ -1,0 +1,11 @@
+# Phase 1 — Nguồn và dữ liệu thực tế
+
+Nguồn chính: [https://doi.org/10.1038/s41598-020-78611-9](https://doi.org/10.1038/s41598-020-78611-9); original repo `peet292929/Dysgraphia-detection-through-machine-learning`, commit `0079fdd34fc5eff0c1c58f9689127b2c73b57f8b`. Methods mô tả120trẻ, ba chuyên gia đánh giá, tuyển case tại Centre for Special-Needs Education và đối chứng tại elementary school; Wacom Intuos Pro Large,8điều kiện viết. Supplement1trang đã tải và xem hình template gốc. Không suy những quy trình này từ paper khác.
+
+Đã tải có giới hạn đúng3publicfiles và xác minh Git blob SHA1 theo commit, SHA256/kích thước riêng. ZIP365members,124files (121SVC,2XML,1.DS_Store),81.422.448bytes giải nén theo inventory, không execute code. `external_dataset_checksums.json` lưu nguồn cụ thể. Connector GitHub chỉ nhận UTF8 nên binary được tải trực tiếp từ raw.githubusercontent.com tại SHA đã khóa. Không upload lại source.
+
+Phân loại **A — có raw online trajectories**, không phải engineered-feature dataset. Có 120 IDs/121 SVC; 120 recording hợp lệ, 1 rỗng/không hợp lệ; tổng 2176419 samples trong recording hợp lệ. Cả 120 người vẫn có tín hiệu hợp lệ. Excel có 120 IDs,57 DYSGR/63 zero; header ID/diag/sex/hand/age. 49 ID dạng số có ba chữ số được chuẩn hóa zero-padding thành năm chữ số giống filename, độc lập nhãn, không collision và join đủ120; ID gốc chỉ giữ local. Một cached label formula tham chiếu đơn trong cùng cột đã được đối chiếu, không tính công thức hay mở macro. Các ô trống/formatting ngoài bảng không tạo participant mới. Hai XML có IDs thử nghiệm/ngoài cohort, không lấy chúng làm120nhãn.
+
+Không tìm LICENSE trong listing3files hoặc schema/units dictionary. Public repository và paper cho phép tiếp cận dữ liệu nghiên cứu; giấy phép redistribution và derivative release chưa xác minh. Chỉ đọc local theo yêu cầu người dùng; XML free-text history/comments là dữ liệu cần bảo vệ, không xuất publicrows.
+
+Số8là điều kiện trong paper/template, **không phải8recordings/người đã xác minh**. Ranh giới nhiệm vụ và semantics tuyệt đối của cột không có trong files. Issue2 của originalrepo hỏi đúng7cột không header và không có câu trả lời; đây là blocker tài liệu, không phải xác nhận giả thuyết của người hỏi.

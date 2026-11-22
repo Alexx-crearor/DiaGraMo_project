@@ -1,0 +1,9 @@
+{
+  "numeric_reader_passed": true,
+  "physical_harmonization_completed": false,
+  "signal_windows_generated": 0,
+  "scalers_fit": 0,
+  "labels_in_signal_arrays": false,
+  "terminal_samples_preserved": true,
+  "window_mask_semantics": "NOT_RUN; no false passing assertion on unavailable pipeline"
+}

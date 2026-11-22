@@ -1,0 +1,58 @@
+{
+  "phase": 6,
+  "status": "PARTIAL",
+  "utc": "2026-11-22T10:03:36.919129+00:00",
+  "runtime_seconds": 11.10999999998603,
+  "evidence": {
+    "prior_metrics": {
+      "accuracy": 0.525,
+      "f1_macro": 0.3442622950819672,
+      "auc": 0.4799498746867168,
+      "balanced_accuracy": 0.5,
+      "sensitivity": 0.0,
+      "specificity": 1.0,
+      "brier": 0.249609375,
+      "log_loss": 0.6923667061702585,
+      "tn": 63,
+      "fp": 0,
+      "fn": 57,
+      "tp": 0,
+      "ece10": 0.0
+    },
+    "completed_folds": 5,
+    "signal_models": 0
+  },
+  "validation": {
+    "prior_control_complete": true,
+    "completed_folds": 5,
+    "participants": 120,
+    "config_sha256": "a75d198d92c0710b0ec2bd796b2618cf8d8764ad4a58309299618b38e3ab9af3",
+    "no_train_test_id_overlap": true,
+    "all_repeated_recordings_grouped": true,
+    "train_only_class_counts": true,
+    "checkpoint_hash_and_replay_verified": true,
+    "original_checkpoints_loaded": false,
+    "signal_models_fit": 0,
+    "fusion_computed": false,
+    "no_test_model_selection": true,
+    "source_independence_verified": false,
+    "full_requested_signal_comparison_complete": false,
+    "wall_seconds": 11.10999999998603,
+    "cpu_seconds": 10.96875,
+    "peak_observed_process_rss_bytes": 124866560,
+    "gpu_training_seconds": 0,
+    "gpu_allocated_bytes": 0,
+    "gpu_reserved_bytes": 0,
+    "memory_method": "RSS sampled at stage/fold boundaries, not OS-wide peak; CUDA tensor allocation unused"
+  },
+  "artifacts": [
+    "PHASE6_EXPERIMENT_REPORT.md",
+    "experiment_registry.csv",
+    "model_metrics.csv",
+    "fold_metrics.csv",
+    "runtime_memory.csv",
+    "checkpoint_manifest.json",
+    "experiment_validation.json"
+  ],
+  "reason": "Only admitted label-control finished; signal-based learning/transfer not scientifically admissible under current schema evidence"
+}

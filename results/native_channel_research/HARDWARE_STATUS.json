@@ -1,0 +1,18 @@
+{
+  "python": "3.10.11",
+  "packages": {
+    "torch": "2.7.1+cu128",
+    "numpy": "1.25.2",
+    "pandas": "2.3.3",
+    "lightgbm": "4.7.0",
+    "scikit-learn": "1.7.2"
+  },
+  "disk_free_bytes": 65847922688,
+  "ram_available_bytes": 11180044288,
+  "cpu_physical": 6,
+  "cpu_logical": 12,
+  "cuda_available": true,
+  "gpu_name": "Quadro T1000",
+  "gpu_total_bytes": 4294705152,
+  "maximum_gpu_workers": 1
+}

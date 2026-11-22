@@ -1,0 +1,13 @@
+{
+  "participants": 120,
+  "recordings": 120,
+  "samples": 2176419,
+  "reused_phase6_folds": true,
+  "unique_participant_ids": true,
+  "all_recordings_grouped": true,
+  "labels": {
+    "0": 63,
+    "1": 57
+  },
+  "source_inventory_sha256": "7f37277965485b72b97d57d177043fa5efc1057f43df566649ea9277ce4cd91a"
+}

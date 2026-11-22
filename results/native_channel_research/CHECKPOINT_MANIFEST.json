@@ -1,0 +1,145 @@
+{
+  "checkpoints": [
+    {
+      "alias": "B1_fold0",
+      "sha256": "fe6f6045edf2014df10d9ae2e6b9fa197db12f295b0210e77b71d15a24604107",
+      "storage": "local-only",
+      "type": ".joblib",
+      "completed_fold": true
+    },
+    {
+      "alias": "B1_fold1",
+      "sha256": "92c6567fd07b962a3af49007b165b46a894ea4a51698e24861ef01c2bcf7ad4d",
+      "storage": "local-only",
+      "type": ".joblib",
+      "completed_fold": true
+    },
+    {
+      "alias": "B1_fold2",
+      "sha256": "4cb4d12a997356b6f67006fa70c64169946fcb49775c8f01b2c00e622e8597cc",
+      "storage": "local-only",
+      "type": ".joblib",
+      "completed_fold": true
+    },
+    {
+      "alias": "B1_fold3",
+      "sha256": "ccdf8949aef4d98a12a30095af695f308a9c1c4074f71558f62de2283a583310",
+      "storage": "local-only",
+      "type": ".joblib",
+      "completed_fold": true
+    },
+    {
+      "alias": "B1_fold4",
+      "sha256": "e9b389bdfefccd31a933ac2fc800a6c6d99c2b5a0098089b02ea7752bc2f1e7e",
+      "storage": "local-only",
+      "type": ".joblib",
+      "completed_fold": true
+    },
+    {
+      "alias": "B2_fold0",
+      "sha256": "2b2d860fc004ebedff8b7f02b6e2ca0b6a0ddd892ab37b2329998dcf37a5f290",
+      "storage": "local-only",
+      "type": ".joblib",
+      "completed_fold": true
+    },
+    {
+      "alias": "B2_fold1",
+      "sha256": "00125f07e2460c4017fba7797bc3e4dc1bd8d8cd160d4ae54305ea27176dd959",
+      "storage": "local-only",
+      "type": ".joblib",
+      "completed_fold": true
+    },
+    {
+      "alias": "B2_fold2",
+      "sha256": "756c7c29ce6c27878d3444e1b0b0afc530f3cd8ffb9d52abfab57db0141d6574",
+      "storage": "local-only",
+      "type": ".joblib",
+      "completed_fold": true
+    },
+    {
+      "alias": "B2_fold3",
+      "sha256": "ffb169b69c58e27cb63580f4eb516f7cb3416a33e10976fce32406b33b27f8de",
+      "storage": "local-only",
+      "type": ".joblib",
+      "completed_fold": true
+    },
+    {
+      "alias": "B2_fold4",
+      "sha256": "2cacca81361ca370944219a6484dfabb61da9b6ce31ead8ddd6c3a6a03115438",
+      "storage": "local-only",
+      "type": ".joblib",
+      "completed_fold": true
+    },
+    {
+      "alias": "B3_fold0",
+      "sha256": "4ea5f0250baa81e2b555d0f45852a7513522b9da5fa04e54c6c3fa8b1cfcff80",
+      "storage": "local-only",
+      "type": ".pt",
+      "completed_fold": true
+    },
+    {
+      "alias": "B3_fold1",
+      "sha256": "136ef118e8ce5d65013ff9fe102972523ec94d07a46254acede977925fbac8a0",
+      "storage": "local-only",
+      "type": ".pt",
+      "completed_fold": true
+    },
+    {
+      "alias": "B3_fold2",
+      "sha256": "c37f86cff320d2391a92cd62552ff60f6f76d003bf261118a286527df60b5186",
+      "storage": "local-only",
+      "type": ".pt",
+      "completed_fold": true
+    },
+    {
+      "alias": "B3_fold3",
+      "sha256": "128ef8f627c86eabd8f465cd6a8af8b0ff8711ccb2f6b86b61125c5ea6df1bd0",
+      "storage": "local-only",
+      "type": ".pt",
+      "completed_fold": true
+    },
+    {
+      "alias": "B3_fold4",
+      "sha256": "6b1c8c2727503c327c869da01e2373c18034f24ccd5f9eb9340555e771f4d37a",
+      "storage": "local-only",
+      "type": ".pt",
+      "completed_fold": true
+    },
+    {
+      "alias": "B4_fold0",
+      "sha256": "c736047bca391d366657d33ca8a45915db1a81a5f237aa68d790a74755c3c4b4",
+      "storage": "local-only",
+      "type": ".pt",
+      "completed_fold": true
+    },
+    {
+      "alias": "B4_fold1",
+      "sha256": "67d9633179fba7c365d5c9b0b728123d8625be1a3bba1d9a06ece0230bb5d034",
+      "storage": "local-only",
+      "type": ".pt",
+      "completed_fold": true
+    },
+    {
+      "alias": "B4_fold2",
+      "sha256": "42a96b8b8bf3bae033936f740f7ff7da03ae4e5d8709cdd2b016706c05a4cf9a",
+      "storage": "local-only",
+      "type": ".pt",
+      "completed_fold": true
+    },
+    {
+      "alias": "B4_fold3",
+      "sha256": "ac57fc61aa989a26d17da6630a2c3bf99b714eec248ab2b392782adb96ab2c0a",
+      "storage": "local-only",
+      "type": ".pt",
+      "completed_fold": true
+    },
+    {
+      "alias": "B4_fold4",
+      "sha256": "803d268b6b7fd45d902832f57959504e01020565a798bbfc6f7c9d9872c340f4",
+      "storage": "local-only",
+      "type": ".pt",
+      "completed_fold": true
+    }
+  ],
+  "prior_control": "Reuse Phase6 hashed five JSON checkpoints"
+}

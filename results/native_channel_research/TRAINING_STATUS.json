@@ -1,0 +1,12 @@
+{
+  "status": "COMPLETE",
+  "complete_models": [
+    "B0",
+    "B1",
+    "B2",
+    "B3",
+    "B4"
+  ],
+  "incomplete_models": {},
+  "full_matched_suite_completed": true
+}

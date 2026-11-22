@@ -1,0 +1,28 @@
+{
+  "tests_returncode": 0,
+  "protected_files_checked": 3266,
+  "protected_files_changed": [],
+  "private_source_files_checked": 151,
+  "private_source_files_changed": 0,
+  "config_unchanged": true,
+  "completed_oof_models": [
+    "B0",
+    "B1",
+    "B2",
+    "B3",
+    "B4"
+  ],
+  "incomplete_models": {},
+  "all_aggregate_metrics_require_full_oof": true,
+  "participant_folds_reused": true,
+  "no_outer_test_selection": true,
+  "matched_B3_B4_architecture": true,
+  "private_files_tracked": [],
+  "public_identifier_leaks": [],
+  "cpu_exact_optimizer_rng_resume_test": true,
+  "gpu_cpu_tolerance": 0.0001,
+  "original_model_transfer": false,
+  "source_independent_validation": false,
+  "cuda_exact_optimizer_rng_resume_test": true,
+  "valid": true
+}

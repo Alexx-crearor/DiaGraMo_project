@@ -1,0 +1,55 @@
+{
+  "commits": [
+    {
+      "commit": "0079fdd34fc5eff0c1c58f9689127b2c73b57f8b",
+      "message": "Update README.md",
+      "files": [
+        "README.md"
+      ]
+    },
+    {
+      "commit": "172beb9b50fad786a13ca07148e16ceeabc17a12",
+      "message": "Update README.md",
+      "files": [
+        "README.md"
+      ]
+    },
+    {
+      "commit": "7306b482df6b29b86ded11c86889fa995d43b6d3",
+      "message": "metadata\n\nAdding file containin metadata",
+      "files": [
+        "data2_SciRep_pub.xlsx"
+      ]
+    },
+    {
+      "commit": "c5c4d86b6cca4ff434e8b3dfd3ef99d2fcd6f8f4",
+      "message": "Update README.md",
+      "files": [
+        "README.md"
+      ]
+    },
+    {
+      "commit": "e3a3a9d5a5b64d9f9df89e6bedf438121ddecf2b",
+      "message": "Dataset\n\nHandwriting samples upload",
+      "files": [
+        "dataSciRep_public.zip"
+      ]
+    },
+    {
+      "commit": "0ac795e490d0b51ea4458e1d7dd5819a840deff1",
+      "message": "Update README.md",
+      "files": [
+        "README.md"
+      ]
+    },
+    {
+      "commit": "9e4a38b4f17f511121a26a645c5febc28a65d40b",
+      "message": "Initial commit",
+      "files": [
+        "README.md"
+      ]
+    }
+  ],
+  "issue1_comment_count": 1,
+  "finding": "Only README, workbook and dataset upload; no exporter processing scripts in bounded full seven-commit history"
+}

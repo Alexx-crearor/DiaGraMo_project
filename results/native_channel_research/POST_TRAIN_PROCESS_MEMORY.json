@@ -1,0 +1,16 @@
+{
+  "observations": [
+    {
+      "observed_rss_bytes": 4505600,
+      "process_cpu_seconds": 0.0,
+      "elapsed_process_seconds": 323.2869372367859
+    },
+    {
+      "observed_rss_bytes": 1738076160,
+      "process_cpu_seconds": 280.640625,
+      "elapsed_process_seconds": 323.7655997276306
+    }
+  ],
+  "method": "Single process RSS observation during post-training bootstrap; not training/OS peak",
+  "observed_epoch": 1795356213.5131514
+}

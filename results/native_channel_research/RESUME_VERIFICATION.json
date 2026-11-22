@@ -1,0 +1,89 @@
+{
+  "all_20_checkpoint_hashes_unchanged": true,
+  "completed_folds_replayed_without_refit": true,
+  "cnn_final_predictions_reproduced_atol": 1e-07,
+  "cpu_exact_optimizer_rng_resume": true,
+  "cuda_disk_checkpoint_optimizer_rng_resume": true,
+  "checkpoints": [
+    {
+      "alias": "B1_fold0",
+      "unchanged": true
+    },
+    {
+      "alias": "B1_fold1",
+      "unchanged": true
+    },
+    {
+      "alias": "B1_fold2",
+      "unchanged": true
+    },
+    {
+      "alias": "B1_fold3",
+      "unchanged": true
+    },
+    {
+      "alias": "B1_fold4",
+      "unchanged": true
+    },
+    {
+      "alias": "B2_fold0",
+      "unchanged": true
+    },
+    {
+      "alias": "B2_fold1",
+      "unchanged": true
+    },
+    {
+      "alias": "B2_fold2",
+      "unchanged": true
+    },
+    {
+      "alias": "B2_fold3",
+      "unchanged": true
+    },
+    {
+      "alias": "B2_fold4",
+      "unchanged": true
+    },
+    {
+      "alias": "B3_fold0",
+      "unchanged": true
+    },
+    {
+      "alias": "B3_fold1",
+      "unchanged": true
+    },
+    {
+      "alias": "B3_fold2",
+      "unchanged": true
+    },
+    {
+      "alias": "B3_fold3",
+      "unchanged": true
+    },
+    {
+      "alias": "B3_fold4",
+      "unchanged": true
+    },
+    {
+      "alias": "B4_fold0",
+      "unchanged": true
+    },
+    {
+      "alias": "B4_fold1",
+      "unchanged": true
+    },
+    {
+      "alias": "B4_fold2",
+      "unchanged": true
+    },
+    {
+      "alias": "B4_fold3",
+      "unchanged": true
+    },
+    {
+      "alias": "B4_fold4",
+      "unchanged": true
+    }
+  ]
+}

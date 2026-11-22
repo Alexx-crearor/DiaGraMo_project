@@ -1,0 +1,46 @@
+{
+  "checked_utc": 1795355870.0530431,
+  "requests": [
+    {
+      "url": "https://api.github.com/repos/peet292929/Dysgraphia-detection-through-machine-learning/commits?per_page=20",
+      "status": 200,
+      "items": 7,
+      "sha256": "856ef0cf9f0371577da77372601a6c155a35274398d70e67cdc4dc27d0533042"
+    },
+    {
+      "url": "https://api.github.com/repos/peet292929/Dysgraphia-detection-through-machine-learning/issues?state=all&per_page=30",
+      "status": 200,
+      "items": 4,
+      "sha256": "1de16ca44e9103975fc946f8b910cb48f2192ff29ab75d4344bb62bf29be93b7"
+    },
+    {
+      "url": "https://api.github.com/repos/peet292929/Dysgraphia-detection-through-machine-learning/issues/2/comments",
+      "status": 200,
+      "items": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "url": "https://api.github.com/repos/peet292929/Dysgraphia-detection-through-machine-learning/git/trees/0079fdd34fc5eff0c1c58f9689127b2c73b57f8b?recursive=1",
+      "status": 200,
+      "items": 3,
+      "sha256": "6feef294a2842e87cc28ea83269ee5d8d0f018e04833d07f66efb72e54f9d0b2"
+    }
+  ],
+  "cached_document_checksums": {
+    "files": [
+      {
+        "alias": "paper.html",
+        "sha256": "d7e9253a8624bbe78402a5c6a5d89e5048ada5df955f0bbc951302fe844902af",
+        "bytes": 349635
+      },
+      {
+        "alias": "supplement.pdf",
+        "sha256": "859f64562277d3786a92d1515f8bb09822c26f4b19b5d994859205ec585b09e4",
+        "bytes": 108641
+      }
+    ],
+    "note": "Documents cached local-only; dataset files separately hashed"
+  },
+  "search_timebox_minutes": 60,
+  "search_finished_without_author_dependency": true
+}

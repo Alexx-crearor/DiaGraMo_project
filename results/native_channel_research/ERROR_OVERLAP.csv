@@ -1,0 +1,6 @@
+left,right,matched_participants,corrected,harmed,both_correct,both_wrong,prediction_disagreements
+B3,B4,120,0,0,113,7,0
+B2,B1,120,47,7,65,1,54
+B3,B2,120,3,2,110,5,5
+B1,B0,120,40,31,32,17,71
+B2,B0,120,49,0,63,8,49

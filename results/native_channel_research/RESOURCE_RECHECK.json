@@ -1,0 +1,19 @@
+{
+  "device": "cuda",
+  "participant_window_count": 44,
+  "all_windows": 8550,
+  "measured_step_seconds": [
+    0.5438551000552252,
+    0.01121399994008243,
+    0.009718400076963007,
+    0.010220399941317737
+  ],
+  "full_B3_B4_estimated_seconds_with_2x_margin": 635.5230508964847,
+  "peak_allocated_bytes": 80637952,
+  "peak_reserved_bytes": 90177536,
+  "cpu_gpu_absolute_difference": 0.0,
+  "finite_gradients": true,
+  "deterministic_algorithms": true,
+  "parameter_count": 13761,
+  "outer_test_metrics_used": false
+}

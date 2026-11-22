@@ -1,0 +1,5 @@
+{
+  "train_only": true,
+  "equal_participant_weight": true,
+  "tests_returncode": 0
+}

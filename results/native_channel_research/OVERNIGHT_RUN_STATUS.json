@@ -1,0 +1,11 @@
+{
+  "status": "COMPLETE_OPAQUE_BENCHMARK",
+  "overall_research_complete": false,
+  "opaque_suite_complete": true,
+  "semantic_study": "BLOCKED",
+  "session_wall_seconds": 172.3279999999795,
+  "remaining_experiment_seconds": 27727.67200000002,
+  "scientific_decision": "B",
+  "gpu_workers_max": 1,
+  "automatic_push": false
+}

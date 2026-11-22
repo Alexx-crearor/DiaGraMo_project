@@ -1,0 +1,7 @@
+{
+  "full_coverage": true,
+  "no_cross_recording": true,
+  "padding_mask": true,
+  "terminal_samples_preserved": true,
+  "tests_returncode": 0
+}

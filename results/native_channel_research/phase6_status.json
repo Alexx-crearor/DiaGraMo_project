@@ -1,0 +1,13 @@
+{
+  "phase": 6,
+  "status": "COMPLETE",
+  "utc": 1795356586.170917,
+  "completed_models": [
+    "B0",
+    "B1",
+    "B2",
+    "B3",
+    "B4"
+  ],
+  "incomplete": {}
+}

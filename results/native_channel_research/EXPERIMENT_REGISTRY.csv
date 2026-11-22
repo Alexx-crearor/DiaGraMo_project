@@ -1,0 +1,6 @@
+model,status,completed_folds,participants,expected_participants,seed,interpretation
+B0,COMPLETE,5,120,120,42,Exploratory internal participant CV; not source-independent validation
+B1,COMPLETE,5,120,120,42,Exploratory internal participant CV; not source-independent validation
+B2,COMPLETE,5,120,120,42,Exploratory internal participant CV; not source-independent validation
+B3,COMPLETE,5,120,120,42,Exploratory internal participant CV; not source-independent validation
+B4,COMPLETE,5,120,120,42,Exploratory internal participant CV; not source-independent validation

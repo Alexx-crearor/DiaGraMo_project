@@ -1,0 +1,6 @@
+{
+  "reader": "Unmodified Phase6 load_svc_numeric",
+  "normalization": "Equal-participant/equal-recording first and second moments fit outer Train only",
+  "window_size": 256,
+  "permutation": "Normalize then fixed SHA256(seed42,participant,recording,window-start) synchronized valid-row permutation within each window; padding untouched"
+}

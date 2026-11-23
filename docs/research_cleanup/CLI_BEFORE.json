@@ -1,0 +1,26 @@
+[
+  {
+    "path": "scripts/evaluate.py",
+    "returncode": 0,
+    "stdout": "usage: evaluate.py [-h] [--only [ONLY ...]] [--seed SEED]\n                   [--classifiers [CLASSIFIERS ...]] [--output OUTPUT]\n                   [--save-models]\n\noptions:\n  -h, --help            show this help message and exit\n  --only [ONLY ...]\n  --seed SEED\n  --classifiers [CLASSIFIERS ...]\n  --output OUTPUT\n  --save-models\n",
+    "stderr": ""
+  },
+  {
+    "path": "scripts/extract.py",
+    "returncode": 0,
+    "stdout": "usage: extract.py [-h] --representation {moment,gaf,cwt}\n                  [--encoder {resnet50,efficientnet_b4,vit_b_16,vgg16}]\n                  [--batch-size BATCH_SIZE] [--device DEVICE]\n                  [--threads THREADS] [--precision {float32,float16}]\n\noptions:\n  -h, --help            show this help message and exit\n  --representation {moment,gaf,cwt}\n  --encoder {resnet50,efficientnet_b4,vit_b_16,vgg16}\n  --batch-size BATCH_SIZE\n  --device DEVICE\n  --threads THREADS\n  --precision {float32,float16}\n",
+    "stderr": ""
+  },
+  {
+    "path": "scripts/external_validation/run.py",
+    "returncode": 0,
+    "stdout": "usage: run.py [-h] [--phase {all,0,1,continue,validate}]\n              [--max-runtime-hours MAX_RUNTIME_HOURS]\n              [--report-reserve-minutes REPORT_RESERVE_MINUTES]\n\noptions:\n  -h, --help            show this help message and exit\n  --phase {all,0,1,continue,validate}\n  --max-runtime-hours MAX_RUNTIME_HOURS\n  --report-reserve-minutes REPORT_RESERVE_MINUTES\n",
+    "stderr": ""
+  },
+  {
+    "path": "scripts/native_channel_research/run.py",
+    "returncode": 0,
+    "stdout": "usage: run.py [-h] [--max-runtime-hours MAX_RUNTIME_HOURS] [--prepare-only]\n\noptions:\n  -h, --help            show this help message and exit\n  --max-runtime-hours MAX_RUNTIME_HOURS\n  --prepare-only\n",
+    "stderr": ""
+  }
+]

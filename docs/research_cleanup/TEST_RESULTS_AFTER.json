@@ -1,0 +1,84 @@
+[
+  {
+    "suite": "baseline",
+    "stage": "after",
+    "returncode": 0,
+    "seconds": 8.813790800049901,
+    "summary": "6 passed in 8.01s",
+    "note": ""
+  },
+  {
+    "suite": "kinematic_xai",
+    "stage": "after",
+    "returncode": 0,
+    "seconds": 5.342573400004767,
+    "summary": "8 passed in 4.36s",
+    "note": ""
+  },
+  {
+    "suite": "temporal",
+    "stage": "after",
+    "returncode": 0,
+    "seconds": 15.088396599981934,
+    "summary": "75 passed in 13.33s",
+    "note": ""
+  },
+  {
+    "suite": "locked_reporting",
+    "stage": "after",
+    "returncode": 0,
+    "seconds": 3.0325281000696123,
+    "summary": "3 passed in 2.21s",
+    "note": ""
+  },
+  {
+    "suite": "data_audit",
+    "stage": "after",
+    "returncode": 0,
+    "seconds": 3.485852700076066,
+    "summary": "10 passed in 2.61s",
+    "note": ""
+  },
+  {
+    "suite": "provenance",
+    "stage": "after",
+    "returncode": 0,
+    "seconds": 1.2874687999719754,
+    "summary": "14 passed in 0.67s",
+    "note": ""
+  },
+  {
+    "suite": "external",
+    "stage": "after",
+    "returncode": 0,
+    "seconds": 2.6853732999879867,
+    "summary": "26 passed in 1.94s",
+    "note": ""
+  },
+  {
+    "suite": "native",
+    "stage": "after",
+    "returncode": 0,
+    "seconds": 14.776270000031218,
+    "summary": "22 passed, 1 deselected in 13.07s",
+    "note": "One historical full-tree hash assertion passed BEFORE; after authorized README/CLI edits use new preservation manifest, do not rewrite historical manifest."
+  },
+  {
+    "suite": "cleanup",
+    "stage": "after",
+    "returncode": 0,
+    "seconds": 5.61558410001453,
+    "summary": "8 passed in 4.46s",
+    "note": "",
+    "previous_attempts": [
+      {
+        "suite": "cleanup",
+        "stage": "after",
+        "returncode": 1,
+        "seconds": 6.629963799961843,
+        "summary": "1 failed, 7 passed in 5.32s",
+        "note": ""
+      }
+    ]
+  }
+]

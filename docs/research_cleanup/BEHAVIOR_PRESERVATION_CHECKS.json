@@ -1,0 +1,11 @@
+{
+  "valid": true,
+  "numerical_replay": true,
+  "cli_help_equivalent": true,
+  "no_experiment_run": true,
+  "link_check": {
+    "relative_links_checked": 132,
+    "broken": [],
+    "scope": "README and new cleanup/research/weekly Markdown; external URLs and anchors not network-validated"
+  }
+}

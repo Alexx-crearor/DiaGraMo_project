@@ -1,6 +1,7 @@
 import os
 os.environ.setdefault('CUBLAS_WORKSPACE_CONFIG',':4096:8')
 import argparse,sys,time,json,subprocess
+import numpy as np
 from pathlib import Path
 if __package__ in {None,''}:sys.path.insert(0,str(Path(__file__).resolve().parents[2]));__package__='scripts.native_channel_research'
 from .common import *
@@ -8,8 +9,9 @@ from .participant_dataset import load_data
 from .setup import initialize,schema,lock
 from .train import benchmark,cpu_baseline,cnn
 
-def main():
- ap=argparse.ArgumentParser();ap.add_argument('--max-runtime-hours',type=float,default=8);ap.add_argument('--prepare-only',action='store_true');args=ap.parse_args();budget=Budget(args.max_runtime_hours)
+def main(argv=None):
+ """Run the existing protocol; optional argv also supports imported CLI callers."""
+ ap=argparse.ArgumentParser();ap.add_argument('--max-runtime-hours',type=float,default=8);ap.add_argument('--prepare-only',action='store_true');args=ap.parse_args(argv);budget=Budget(args.max_runtime_hours)
  p,data=load_data();initialize(p,data);schema(data);cfg=lock()
  if args.prepare_only:return
  tests=subprocess.run([sys.executable,'-m','pytest','tests/native_channel_research','-q'],capture_output=True,text=True)
@@ -46,5 +48,4 @@ def main():
  from .evaluate import finalize
  finalize(p,cfg,budget)
 if __name__=='__main__':
- import numpy as np
  with worker_lock():main()

@@ -1,169 +1,93 @@
-# DiaGraMo — tái lập thực nghiệm bốn nhánh
+﻿# DiaGraMo — tái lập và nghiên cứu biểu diễn chữ viết
 
-Tái lập độc lập bài *Towards Objective Dysgraphia Detection: A Multi-Branch Deep Learning Approach for Online Handwriting Analysis* (Ouhib và cộng sự, 2026). Đây là bản dựng từ mô tả bài báo và dữ liệu hiện có. Các lựa chọn triển khai được ghi trong [EXPERIMENT_PROTOCOL.md](EXPERIMENT_PROTOCOL.md).
+Project giữ bản tái lập bốn nhánh Kinematic, MOMENT, GAF, CWT cùng các nghiên cứu XAI, Raw Temporal, validity/provenance và benchmark Slovak. Các nghiên cứu dùng cohort/target khác nhau; kết quả hiện tại phục vụ nghiên cứu thăm dò, chưa xác nhận chẩn đoán lâm sàng hoặc tổng quát hóa độc lập nguồn.
 
-## Bốn nhánh biểu diễn
+## Đọc nhanh
 
-| Nhánh | Module trong `src/diagramo/branches/` | Biểu diễn baseline |
+- [Mốc XAI đã báo cáo](results/kinematic_xai/REPORT_VI.md).
+- [Tiến độ tuần 16–22/11/2026](docs/weekly_reports/2026-11-16_to_2026-11-22/WEEKLY_PROGRESS_VI.md) và [nội dung 11 slides](docs/weekly_reports/2026-11-16_to_2026-11-22/PRESENTATION_CONTENT_VI.md).
+- [Baseline Kinematic và 168 kết quả tái lập](results/cv/summary.csv).
+- [Kiến trúc Temporal thực tế](docs/research/ARCHITECTURE_EVOLUTION.md) và [locked six-fold study](results/raw_temporal_v2/locked_study/LOCKED_RESEARCH_REPORT_VI.md).
+- [Data Audit V3](results/data_audit_v3/COMPREHENSIVE_DATA_AUDIT_VI.md) và [provenance/clinical target](results/provenance_verification/DATASET_PROVENANCE_VERIFICATION_VI.md).
+- [Khảo sát compatibility Slovak](results/external_validation/EXTERNAL_VALIDATION_RESEARCH_REPORT_VI.md) và [opaque benchmark B0–B4](results/native_channel_research/NATIVE_CHANNEL_TEMPORAL_RESEARCH_REPORT_VI.md).
+- [Quyết định và kế hoạch tiếp theo](docs/weekly_reports/2026-11-16_to_2026-11-22/NEXT_WEEK_PLAN_VI.md).
+
+## Tái lập gốc và bốn nhánh
+
+Bản dựng độc lập từ mô tả bài *Towards Objective Dysgraphia Detection: A Multi-Branch Deep Learning Approach for Online Handwriting Analysis*. Chi tiết công thức, encoder và CV: [EXPERIMENT_PROTOCOL.md](EXPERIMENT_PROTOCOL.md), [báo cáo baseline](results/REPORT_VI.md), [đối chiếu bảng bài báo](results/PAPER_TABLES_VI.md).
+
+| Nhánh | Code giữ nguyên | Biểu diễn |
 |---|---|---|
-| Kinematic | `kinematic.py` | 74 đặc trưng/tác vụ, 1.036/người |
-| MOMENT | `moment.py` | MOMENT-1-large đóng băng, 1.024/tác vụ, 14.336/người |
-| GAF | `gaf.py` | Gramian Angular Summation Field, 7×224×224 |
-| CWT | `cwt.py` | Morlet, 224 scale, ảnh 7×224×224 |
+| Kinematic | `src/diagramo/branches/kinematic.py` | 74 features/task, 1.036/người |
+| MOMENT | `src/diagramo/branches/moment.py` | Frozen MOMENT-1-large, 14.336/người |
+| GAF | `src/diagramo/branches/gaf.py` | GASF 7×224×224, frozen image encoder |
+| CWT | `src/diagramo/branches/cwt.py` | Morlet 224 scales, frozen image encoder |
 
-Công thức dùng chung vẫn ở `src/diagramo/features.py`; các module nhánh gọi trực tiếp cùng triển khai. Encoder ảnh nằm trong `scripts/extract.py`: ResNet50, EfficientNet-B4, ViT-B/16 và VGG16, dùng trọng số torchvision ImageNet đóng băng. Convolution đầu chuyển từ RGB sang bảy kênh bằng tổng kernel RGB chia 7 rồi lặp bảy lần. Trọng số và SHA-256: [weights manifest](references/weights_manifest.json).
+Encoder ảnh trong `scripts/extract.py`; công thức/API ở `src/diagramo/features.py`; weights/hash trong [manifest](references/weights_manifest.json). Original Early Fusion vẫn là nối vector; không tái đưa experimental fusion architecture đã bỏ vào baseline.
 
-## Dữ liệu, phân loại và fusion
+## Dataset và target
 
-Nguồn cục bộ: `data/clean_data/*_merged.json`. Pipeline chọn 258 người có đủ 14 tác vụ và nhãn `group` (115/143), theo thứ tự ID và task cố định. Bảy tín hiệu: x, y, pressure, tilt, azimuth, time, pen_status. Không dùng điểm nhận thức làm đặc trưng; tệp nguồn được giữ nguyên.
+DiaGraMo giữ 258 participant đủ14canonical tasks, target `group` với115/143. `group` là broader handwriting-disability grouping, không đồng nhất dysgraphia-specific flag hoặc confirmed diagnosis từng người. Năm disagreement và ba omission flags được giữ theo protocol, không sửa sau khi xem kết quả.
 
-Kinematic tính trên tín hiệu gốc; MOMENT nội suy về 512 điểm; GAF nội suy về 224 điểm; CWT dùng tín hiệu 512 điểm. Protocol mô tả timestamp, chuẩn hóa và các giả định tái lập.
+Stratified6-Fold theo participant, seed42; mọi fit preprocessing chỉ trong Train. City/source có association mạnh với nhãn; participant CV không tương đương source-independent validation. [Giới hạn và cách diễn đạt](docs/research/VALIDITY_AND_LIMITATIONS.md).
 
-Stratified 6-Fold CV theo participant, shuffle=True, seed 42. Imputer, bộ lọc cột hằng và StandardScaler chỉ fit trong train fold. Bảy classifier cố định: Logistic Regression, SVM RBF, Random Forest, XGBoost, LightGBM, AdaBoost và MLP; thêm Dummy theo prior của train.
+## Kết quả nghiên cứu hiện tại
 
-Original Early Fusion nối trực tiếp vector nhánh trước cùng pipeline phân loại. GAF=ViT-B/16 và CWT=EfficientNet-B4 cố định theo bài báo. Giữ 10 cấu hình đơn nhánh và đủ 11 tổ hợp fusion (6 đôi, 4 bộ ba, 1 bộ bốn), tổng cộng 21×8=168 kết quả CV. Báo cáo OOF và mean±SD qua sáu fold; SD không phải CI.
+| Cohort và protocol | Model | Macro-F1 OOF |
+|---|---|---:|
+| DiaGraMo258, sáu folds | Kinematic LightGBM | 0,847163 |
+| DiaGraMo258, sáu folds | Stroke Temporal | 0,713178 |
+| DiaGraMo258, sáu folds | Fixed50 probability fusion | 0,840681 |
+| Slovak120, năm folds | Statistical LightGBM B2 | 0,932413 |
+| Slovak120, năm folds | Ordered CNN B3 | 0,941337 |
+| Slovak120, năm folds | Permuted CNN B4 | 0,941337 |
 
-## Cấu trúc repository
+Không xếp hạng chéo hai cohort. Fixed50−Kinematic F1 CI chứa0; B3/B4 cùng binary predictions; B3−B2 CI cũng chứa0. Slovak là internal exploratory benchmark, **không phải frozen external transfer của DiaGraMo**. Nguồn số, protocol, trạng thái và commit có trong [EXPERIMENT_REGISTRY.csv](docs/research/EXPERIMENT_REGISTRY.csv).
+
+## XAI, Temporal và independent research
+
+XAI là mốc trước tuần này: TreeSHAP, task/group attribution, permutation, LOTO và Train-only API; notebook05 giữ nguyên. Attribution của `copy` giải thích fitted model, không chứng minh biomarker hoặc số task tối thiểu.
+
+Raw Temporal dùng7raw→21processed channels, windows≤128, multi-scale CNN, relative segment attention, task identity và learned participant pooling, khoảng25.252 tham số. Không gọi task pooling là task-level Transformer. [Timeline](docs/research/RESEARCH_TIMELINE.md) tách development, Lite, locked six folds và SSL pilot-only/incomplete.
+
+Slovak120 có raw c0–c6 nhưng thiếu verified exporter units/taskcutpoints. CNN13.761 tham số dùng windows256 và order-permutation control, khác Stroke Temporal. Cả hai cohort còn giới hạn recruitment/source confounding.
+
+## Cấu trúc và hướng đọc
 
 ```text
-src/diagramo/
-  branches/              # Kinematic, MOMENT, GAF, CWT
-  features.py            # công thức dùng chung, API cũ
-  kernels.py             # RBF kernel cho SVM baseline
-scripts/
-  prepare.py             # audit, cohort, tín hiệu và Kinematic
-  download_weights.py    # trọng số công khai và manifest
-  extract.py             # encoder đóng băng, cache theo tác vụ
-  evaluate.py            # classifier, preprocessing, CV, Early Fusion
-  run_all.py             # điều phối baseline
-  report.py              # kiểm tra OOF, bảng, biểu đồ, notebook
-  report_paper_tables.py  # đối chiếu 15 cấu hình Bảng I–III
-  sensitivity.py         # phân tích nhạy cảm baseline
-  train_selected.py      # fit toàn cohort phục vụ suy luận, sau CV
-  execute_notebooks.py    # thực thi notebook xem kết quả
-  audit_cleanup.py        # SHA-256 và 168 kết quả bảo toàn
-notebooks/               # bốn notebook gốc 01–04
-references/              # metadata trọng số
-results/
-  cv/                    # summary, settings, folds, 168 JSON/OOF
-  audit/                 # audit cohort/tín hiệu và checksum nguồn
-  sensitivity/           # kết quả nhạy cảm baseline
-  figures/               # PNG/SVG và provenance
-  REPORT_VI.md
-  PAPER_TABLES_VI.md
-  validation.json
-docs/cleanup/            # kiểm toán, manifest và bàn giao refactor
-data/                    # dữ liệu/cache cục bộ, Git ignore
-.cache/                  # pretrained weights cục bộ, Git ignore
+src/diagramo/branches/       bốn nhánh gốc
+src/diagramo/temporal*/      raw temporal riêng
+scripts/                    CLI cũ giữ đường dẫn
+scripts/{data_audit_v3,provenance_verification,external_validation,native_channel_research}/
+scripts/research_cleanup/   inventory, registry, docs, preservation và checks
+configs/                    cấu hình nghiên cứu giữ nguyên
+notebooks/                  chín notebook01–09, không ghi lại output
+results/                    toàn bộ artifact lịch sử, không di chuyển
+references/                 weights provenance
+ docs/research/             research index, timeline, registry, limitations
+ docs/weekly_reports/       báo cáo tuần, slide content, claim/figure index
+ docs/research_cleanup/     inventory, duplicate review, test và hash validation
+ data/ và .cache/           nguồn/cache/weights local; Git-ignore
 ```
 
-## Thiết lập môi trường
+[Mục lục nghiên cứu](docs/research/README.md), [kết quả theo giai đoạn](docs/research/RESULTS_INDEX.md), [hình/bảng trình bày](docs/weekly_reports/2026-11-16_to_2026-11-22/FIGURE_INDEX.md). KEEP_ACTIVE là code/entrypoint vẫn dùng; KEEP_HISTORICAL giữ mọi report/checkpoint/OOF. REVIEW_FOR_REMOVAL chỉ là [đề xuất](docs/research_cleanup/REMOVAL_REVIEW_PLAN.md), chưa xóa file nào.
 
-Môi trường đã chạy dùng Python 3.10; dependency được khóa trong `requirements-lock.txt`. Từ thư mục gốc trên Windows:
+## Môi trường và tái lập
+
+Môi trường đã chạy: Python3.10, PyTorch2.7.1/torchvision0.22.1 CUDA12.8; dependency baseline trong [requirements-lock.txt](requirements-lock.txt), XAI additions trong [requirements-kinematic-xai.txt](requirements-kinematic-xai.txt). Không cài thêm package trong cleanup. GPU local Quadro T1000 4GB; không cần GPU để đọc báo cáo.
+
+Lệnh và entrypoint gốc được giữ trong [legacy reproduction guide](docs/research/LEGACY_ENTRYPOINT_GUIDE.md). Các runner có thể ghi lại artifact khi chủ động tái lập; đọc protocol và tách output trước khi chạy. Không gọi full queue để kiểm tra tài liệu.
+
+Kiểm tra mà không chạy một research experiment mới:
 
 ```powershell
-python -m venv .venv
-.venv/Scripts/python.exe -m pip install torch==2.7.1 torchvision==0.22.1 --index-url https://download.pytorch.org/whl/cu128
-.venv/Scripts/python.exe -m pip install -r requirements-lock.txt --extra-index-url https://download.pytorch.org/whl/cu128
-.venv/Scripts/python.exe -m pip check
+.venv/Scripts/python.exe -X utf8 -B scripts/research_cleanup/validate.py
+.venv/Scripts/python.exe -X utf8 -B scripts/research_cleanup/checks.py --stage after
+.venv/Scripts/python.exe -X utf8 -B scripts/research_cleanup/audit.py verify
 ```
 
-Encoder có thể chạy CPU bằng `--device cpu`. Baseline dùng float32; phép đo trên Quadro T1000 4 GB ghi trong protocol. Môi trường `.venv314` cũ được giữ lại.
+Historical native full-tree hash guard được chạy trước cleanup; sau các source/README edits được cho phép, đối chiếu bằng manifest cleanup mới và giữ nguyên historical manifest. Không sửa report/metric cũ để làm guard xanh. [Bàn giao và test status](docs/research_cleanup/FINAL_CLEANUP_REPORT_VI.md).
 
-## Chạy baseline từ đầu
+## Trạng thái và bước tiếp theo
 
-Các lệnh sau dành cho một lượt tái lập chủ động. Chúng có thể tạo lại artifact, báo cáo, notebook và bản chụp dependency; dùng bản sao project nếu cần giữ nguyên toàn bộ artifact đã công bố.
-
-```powershell
-.venv/Scripts/python.exe scripts/prepare.py
-.venv/Scripts/python.exe scripts/download_weights.py
-.venv/Scripts/python.exe scripts/run_all.py --skip-download
-.venv/Scripts/python.exe scripts/sensitivity.py
-.venv/Scripts/python.exe scripts/report.py --no-notebooks
-.venv/Scripts/python.exe scripts/report_paper_tables.py
-.venv/Scripts/python.exe scripts/execute_notebooks.py
-```
-
-Chạy riêng biểu diễn và đánh giá:
-
-```powershell
-.venv/Scripts/python.exe scripts/extract.py --representation moment --batch-size 8
-.venv/Scripts/python.exe scripts/extract.py --representation gaf --encoder vit_b_16 --batch-size 16
-.venv/Scripts/python.exe scripts/extract.py --representation cwt --encoder efficientnet_b4 --batch-size 16
-.venv/Scripts/python.exe scripts/evaluate.py --only kinematic
-.venv/Scripts/python.exe scripts/evaluate.py
-```
-
-Đổi `--encoder` để chạy bốn backbone ảnh. Trích xuất có checkpoint theo tác vụ và bỏ qua `.npz` đã hoàn tất; evaluation bỏ qua JSON đã có. Khi chủ động thay công thức, trọng số hay tham số, cần tách cache và kết quả của lượt chạy tương ứng. `evaluate.py --output` cho phép dùng thư mục CV khác.
-
-Sau CV có thể chạy `scripts/train_selected.py` để fit mô hình phục vụ suy luận trên toàn cohort. Hiệu năng vẫn đọc từ OOF.
-
-## Xem và kiểm tra kết quả
-
-- [Báo cáo baseline](results/REPORT_VI.md), [đối chiếu Bảng I–III](results/PAPER_TABLES_VI.md).
-- [168 kết quả CV](results/cv/summary.csv), [fold cố định](results/cv/fold_assignments.csv), [validation](results/validation.json), [so sánh bài báo](results/comparison_paper.csv).
-- Notebook `01_data_inspection.ipynb`: cohort và chất lượng dữ liệu.
-- Notebook `02_kinematic_features.ipynb`: schema và ma trận động học.
-- Notebook `03_pretrained_representations.ipynb`: embedding, GAF/CWT.
-- Notebook `04_evaluation_and_fusion.ipynb`: CV, Original Early Fusion và biểu đồ.
-
-Notebook đọc artifact đã có; chọn kernel `.venv`. Kiểm tra bảo toàn mà không huấn luyện:
-
-```powershell
-.venv/Scripts/python.exe -X utf8 -B scripts/audit_cleanup.py
-.venv/Scripts/python.exe -X utf8 -B -m unittest discover -s tests -v
-```
-
-Chi tiết refactor và giới hạn kiểm chứng: [bàn giao cleanup](docs/cleanup/REPORT_VI.md).
-
-## Giới hạn tái lập
-
-Tác giả chưa công bố đầy đủ danh sách ID/fold, công thức 74 đặc trưng, định nghĩa nhãn chính xác, chi tiết CWT/encoder bảy kênh và tham số classifier. Cùng 258 người hoặc đạt tỷ lệ tương tự chưa chứng minh triển khai trùng khớp. Nhãn `group` khác cờ dysgraphia ở năm người và cohort có ba người mang cờ omit; các trường hợp này đã ghi trong audit và phân tích nhạy cảm baseline.
-
-F1 của bản dựng là macro; bài báo chưa xác định biến thể F1. Xếp hạng nội bộ CV có thiên lệch chọn mô hình, chưa phải đánh giá trên tập ngoài. Báo cáo baseline ghi rõ khoảng cách với fusion trọng tâm của bài báo; không có kết luận chẩn đoán lâm sàng từ các kết quả này.
-
-## Nghiên cứu Kinematic Task-Level XAI
-
-[Báo cáo tiếng Việt](results/kinematic_xai/REPORT_VI.md) và
-[notebook 05](notebooks/05_kinematic_task_xai.ipynb) phân tích riêng Kinematic +
-LightGBM trên sáu held-out folds đã lưu. Nghiên cứu gồm TreeSHAP, task/group
-importance, grouped permutation, test-time median replacement, Leave-One-Task-Out
-retraining và độ ổn định. Baseline được kiểm tra bằng checksum và OOF, không ghi đè.
-
-Output thăm dò ở `results/kinematic_xai/exploratory/`; cross-fitted importance
-chỉ dùng Train được lưu riêng ở `results/kinematic_xai/train_only/`. API
-`diagramo.kinematic_xai.train_only_task_importance` nhận đúng Train đang xét;
-để dùng trong inner CV tương lai phải tính lại trên inner Train.
-
-Môi trường Python 3.10 hiện tại có SHAP 0.49.1. Nếu thiếu các package bổ sung:
-` .venv/Scripts/python.exe -m pip install --no-deps -r requirements-kinematic-xai.txt `.
-Giữ `requirements-lock.txt` baseline. Lệnh chạy lại, ý nghĩa output space, giới hạn
-của task removal và trình tự validation được ghi trong báo cáo. Chỉ xem hoàn tất
-khi `results/kinematic_xai/validation.json` có `complete=true`.
-
-## Raw Temporal Graphomotor Learning
-
-Nghiên cứu mới học trực tiếp từ các tín hiệu `.svc` gốc, giữ thứ tự mẫu,
-timestamp và ranh giới pen-state. Bốn mô hình CNN, TCN, Temporal Transformer
-và Hierarchical Temporal Transformer được đánh giá riêng với baseline
-Kinematic được bảo toàn; không thực hiện fusion trong bước này.
-
-- [Báo cáo tiếng Việt](results/raw_temporal/REPORT_VI.md),
-  [audit dữ liệu](results/raw_temporal/audit/REPORT_VI.md).
-- [Notebook 06: bảng số và biểu đồ](notebooks/06_raw_temporal_graphomotor.ipynb).
-- [Cấu hình nghiên cứu](configs/raw_temporal.json),
-  [kết quả kiểm chứng](results/raw_temporal/validation.json).
-
-Giao thức giữ nguyên 258 participants, nhãn `group`, sáu outer folds và seed
-42; inner 3-fold chọn cấu hình và thời lượng huấn luyện. Các mô hình chính
-được kiểm tra thêm với seeds 43 và 44. Chuẩn hóa chỉ fit trên Train; attribution
-chỉ dùng mô hình outer Train và dữ liệu outer Test tương ứng. Báo cáo mô tả
-giới hạn của temporal ablations, attribution và so sánh trên cohort đã được
-nghiên cứu nhiều lần.
-
-Lệnh tái lập đầy đủ có trong báo cáo. Đọc bảng kết quả không cần train lại;
-cache và checkpoint được giữ local. Chỉ xem nghiên cứu hoàn tất khi
-`results/raw_temporal/validation.json` có `complete=true`, sau kiểm tra dữ
-liệu, replay dự đoán, XAI, notebook và regression tests. Thí nghiệm Transformer
-trên 14×74 handcrafted features trước đây đã được gỡ khỏi code đang dùng;
-lịch sử Git vẫn giữ phiên bản cũ.
+Full locked six-fold và opaque B0–B4 đã hoàn tất; full SSL/original expensive nested protocol chưa hoàn tất. Ưu tiên source-aware replication và kiểm chứng shortcut/order hypotheses trước khi tăng model capacity. Raw, clinical rows, individual OOF và checkpoint local không được thêm vào Git trong cleanup. Không có retraining hoặc metric thí nghiệm mới.

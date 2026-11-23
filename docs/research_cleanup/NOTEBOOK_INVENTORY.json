@@ -1,0 +1,74 @@
+[
+  {
+    "path": "notebooks/01_data_inspection.ipynb",
+    "cells": 9,
+    "code_cells": 6,
+    "format": 4,
+    "executed_cells": 5,
+    "executed_during_cleanup": false
+  },
+  {
+    "path": "notebooks/02_kinematic_features.ipynb",
+    "cells": 5,
+    "code_cells": 4,
+    "format": 4,
+    "executed_cells": 4,
+    "executed_during_cleanup": false
+  },
+  {
+    "path": "notebooks/03_pretrained_representations.ipynb",
+    "cells": 5,
+    "code_cells": 4,
+    "format": 4,
+    "executed_cells": 4,
+    "executed_during_cleanup": false
+  },
+  {
+    "path": "notebooks/04_evaluation_and_fusion.ipynb",
+    "cells": 8,
+    "code_cells": 7,
+    "format": 4,
+    "executed_cells": 7,
+    "executed_during_cleanup": false
+  },
+  {
+    "path": "notebooks/05_kinematic_task_xai.ipynb",
+    "cells": 22,
+    "code_cells": 12,
+    "format": 4,
+    "executed_cells": 12,
+    "executed_during_cleanup": false
+  },
+  {
+    "path": "notebooks/06_raw_temporal_graphomotor.ipynb",
+    "cells": 32,
+    "code_cells": 17,
+    "format": 4,
+    "executed_cells": 17,
+    "executed_during_cleanup": false
+  },
+  {
+    "path": "notebooks/07_raw_temporal_research_recovery.ipynb",
+    "cells": 28,
+    "code_cells": 18,
+    "format": 4,
+    "executed_cells": 18,
+    "executed_during_cleanup": false
+  },
+  {
+    "path": "notebooks/08_raw_temporal_lite.ipynb",
+    "cells": 12,
+    "code_cells": 7,
+    "format": 4,
+    "executed_cells": 7,
+    "executed_during_cleanup": false
+  },
+  {
+    "path": "notebooks/09_locked_temporal_study.ipynb",
+    "cells": 16,
+    "code_cells": 10,
+    "format": 4,
+    "executed_cells": 10,
+    "executed_during_cleanup": false
+  }
+]

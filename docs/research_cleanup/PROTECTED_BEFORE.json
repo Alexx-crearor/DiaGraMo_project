@@ -1,0 +1,23 @@
+{
+  "head": "abee084d6621ccf4175f3e4a1a5a484756bb824f",
+  "branch": "study/weekly-research-cleanup",
+  "branches": "cleanup/original-four-branch-reproduction\n  main\n  study/data-source-confounding-audit\n  study/dataset-provenance-verification\n  study/external-dataset-validation\n  study/kinematic-task-transformer\n  study/kinematic-task-xai\n  study/native-channel-temporal-benchmark\n  study/raw-temporal-research-v2\n* study/weekly-research-cleanup\n  remotes/origin/HEAD -> origin/main\n  remotes/origin/main\n  remotes/origin/study/data-source-confounding-audit\n  remotes/origin/study/dataset-provenance-verification\n  remotes/origin/study/external-dataset-validation\n  remotes/origin/study/kinematic-task-transformer\n  remotes/origin/study/kinematic-task-xai\n  remotes/origin/study/native-channel-temporal-benchmark\n  remotes/origin/study/raw-temporal-research-v2",
+  "status": "?? DiaGraMo_REVIEW_KEEP_DECISIONS_VI.md\n?? results/raw_temporal_v2/completion_notification.json\n?? results/raw_temporal_v2/completion_watcher.log\n?? results/raw_temporal_v2/completion_watcher.stderr.log\n?? scripts/research_cleanup/",
+  "utc_epoch": 1795362818.777008,
+  "total_files": 82441,
+  "total_bytes": 44281401803,
+  "tracked_files": 3003,
+  "hashed_files": 19493,
+  "hashed_bytes": 37259853389,
+  "exact_paths": "Ignored data/research_cleanup_local only",
+  "exact_manifest_sha256": "8d3171894c06cbfe23bd121ff0442168faafbf1b5e8a8babefdc7911bada83aa",
+  "excluded_from_content_hash": "Git internals, Python environments, pycache/pytest cache, newly-created cleanup outputs",
+  "user_untracked_files": [
+    "DiaGraMo_REVIEW_KEEP_DECISIONS_VI.md",
+    "results/raw_temporal_v2/completion_notification.json",
+    "results/raw_temporal_v2/completion_watcher.log",
+    "results/raw_temporal_v2/completion_watcher.stderr.log",
+    "scripts/research_cleanup/"
+  ],
+  "no_deletions": true
+}

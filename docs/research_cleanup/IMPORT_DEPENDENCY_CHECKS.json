@@ -1,0 +1,17 @@
+{
+  "syntax_errors": [],
+  "import_edges": 1133,
+  "python_modules": 166,
+  "hardcoded_windows_locations": [
+    {
+      "path": "tests/external_validation/test_external_validation.py",
+      "line": 22
+    }
+  ],
+  "report_module_paths": [
+    "scripts/report.py",
+    "scripts/data_audit_v3/report.py",
+    "scripts/native_channel_research/report.py"
+  ],
+  "method": "AST imports; does not execute training or resolve dynamic imports; CLI tests separately"
+}

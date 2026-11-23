@@ -1,0 +1,66 @@
+[
+  {
+    "suite": "baseline",
+    "stage": "before",
+    "returncode": 0,
+    "seconds": 10.768130799988285,
+    "summary": "6 passed in 9.89s",
+    "note": ""
+  },
+  {
+    "suite": "kinematic_xai",
+    "stage": "before",
+    "returncode": 0,
+    "seconds": 6.490167299984023,
+    "summary": "8 passed in 5.50s",
+    "note": ""
+  },
+  {
+    "suite": "temporal",
+    "stage": "before",
+    "returncode": 0,
+    "seconds": 17.064624099992216,
+    "summary": "75 passed in 15.17s",
+    "note": ""
+  },
+  {
+    "suite": "locked_reporting",
+    "stage": "before",
+    "returncode": 0,
+    "seconds": 2.811985700041987,
+    "summary": "3 passed in 1.95s",
+    "note": ""
+  },
+  {
+    "suite": "data_audit",
+    "stage": "before",
+    "returncode": 0,
+    "seconds": 3.4833941000979394,
+    "summary": "10 passed in 2.61s",
+    "note": ""
+  },
+  {
+    "suite": "provenance",
+    "stage": "before",
+    "returncode": 0,
+    "seconds": 1.3383431999245659,
+    "summary": "14 passed in 0.66s",
+    "note": ""
+  },
+  {
+    "suite": "external",
+    "stage": "before",
+    "returncode": 0,
+    "seconds": 2.5914790000533685,
+    "summary": "26 passed in 1.88s",
+    "note": ""
+  },
+  {
+    "suite": "native",
+    "stage": "before",
+    "returncode": 0,
+    "seconds": 34.98280470003374,
+    "summary": "23 passed in 33.11s",
+    "note": ""
+  }
+]

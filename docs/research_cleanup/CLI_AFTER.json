@@ -1,0 +1,26 @@
+[
+  {
+    "path": "scripts/evaluate.py",
+    "returncode": 0,
+    "help_stdout_identical": true,
+    "seconds": 1.919700000085868
+  },
+  {
+    "path": "scripts/extract.py",
+    "returncode": 0,
+    "help_stdout_identical": true,
+    "seconds": 3.5785079000052065
+  },
+  {
+    "path": "scripts/external_validation/run.py",
+    "returncode": 0,
+    "help_stdout_identical": true,
+    "seconds": 0.11368629999924451
+  },
+  {
+    "path": "scripts/native_channel_research/run.py",
+    "returncode": 0,
+    "help_stdout_identical": true,
+    "seconds": 4.465484500047751
+  }
+]

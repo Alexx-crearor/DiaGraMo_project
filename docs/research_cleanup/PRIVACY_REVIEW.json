@@ -1,0 +1,8 @@
+{
+  "new_public_files_checked": 46,
+  "files_requiring_privacy_review": [],
+  "private_files_staged": [],
+  "local_inventory_git_ignored": true,
+  "historical_sensitive_artifacts_preserved_not_redistributed": true,
+  "method": "Bounded known-ID token scan and output selection; not a claim of whole-history clinical deidentification"
+}

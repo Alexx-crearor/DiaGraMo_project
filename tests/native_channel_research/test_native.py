@@ -11,6 +11,14 @@ from scripts.native_channel_research.opaque_feature_extractor import features,le
 from scripts.native_channel_research.train import tensors
 from scripts.native_channel_research.common import ROOT,LOCAL,sha
 
+@pytest.fixture(autouse=True)
+def isolated_checkpoint_directory(tmp_path, monkeypatch):
+ """Checkpoint unit tests must never rewrite existing research-local artifacts."""
+ import sys
+ from scripts.native_channel_research import common
+ monkeypatch.setattr(common, 'LOCAL', tmp_path)
+ monkeypatch.setattr(sys.modules[__name__], 'LOCAL', tmp_path)
+
 def test_scaler_equal_participants_train_only():
  d=[[np.ones((1000,7))],[np.ones((2,7))*3],[np.ones((4,7))*999]]
  m,s=fit_scaler(d,[0,1]);assert np.array_equal(m,np.ones(7)*2);assert np.array_equal(s,np.ones(7))

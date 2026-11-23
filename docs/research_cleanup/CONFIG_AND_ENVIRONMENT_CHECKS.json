@@ -1,0 +1,216 @@
+{
+  "configs": [
+    {
+      "path": "configs/raw_temporal.json",
+      "json_valid": true,
+      "top_level_keys": [
+        "seed",
+        "seeds",
+        "outer_folds",
+        "inner_folds",
+        "patch_size",
+        "stroke_tokens",
+        "task_tokens",
+        "families",
+        "ablations",
+        "candidates",
+        "training",
+        "threshold",
+        "selection",
+        "final_epochs",
+        "time_policy",
+        "occlusion_repeats",
+        "segment_mask_fraction",
+        "xai_example_rule"
+      ]
+    },
+    {
+      "path": "configs/raw_temporal_runtime.json",
+      "json_valid": true,
+      "top_level_keys": [
+        "micro_batch_participants",
+        "effective_batch_participants",
+        "gpu_workers",
+        "cpu_threads",
+        "selection_basis"
+      ]
+    },
+    {
+      "path": "configs/raw_temporal_v2/phase0.json",
+      "json_valid": true,
+      "top_level_keys": [
+        "development_outer_fold",
+        "development_inner_fold",
+        "seed",
+        "tiny_sizes",
+        "tiny_models",
+        "tiny_maximum_epochs",
+        "tiny_learning_rate",
+        "tiny_weight_decay",
+        "tiny_dropout",
+        "tiny_success",
+        "synthetic_models",
+        "synthetic_seeds",
+        "synthetic_maximum_epochs",
+        "synthetic_training_bags",
+        "synthetic_validation_bags",
+        "synthetic_test_bags",
+        "synthetic_patience",
+        "channel_audit_sample_points_per_recording",
+        "descriptor_comparison_training_participants",
+        "diagnostic_only",
+        "outer_test_labels_used_for_development"
+      ]
+    },
+    {
+      "path": "configs/raw_temporal_v2/phase1.json",
+      "json_valid": true,
+      "top_level_keys": [
+        "seed",
+        "development_outer_fold",
+        "development_inner_fold",
+        "local_pooling",
+        "aggregation_stages",
+        "aggregation_methods",
+        "task_specific",
+        "task_choice_rule",
+        "epochs",
+        "minimum_epochs",
+        "patience",
+        "dropout",
+        "learning_rate",
+        "weight_decay",
+        "gradient_clip",
+        "early_stop",
+        "development_selection",
+        "probe_alphas",
+        "probe_inner_folds",
+        "probe_max_windows_per_participant",
+        "probe_max_segments_per_participant",
+        "probe_nonlinear_components",
+        "probe_regressors",
+        "frozen_probe_encoders",
+        "additional_controls",
+        "outer_test_evaluated"
+      ]
+    },
+    {
+      "path": "configs/raw_temporal_v2/phase1_synthetic.json",
+      "json_valid": true,
+      "top_level_keys": [
+        "tests",
+        "pooling",
+        "seeds",
+        "training_bags",
+        "validation_bags",
+        "test_bags",
+        "epochs",
+        "minimum_epochs",
+        "patience",
+        "learning_rate",
+        "scope"
+      ]
+    },
+    {
+      "path": "configs/raw_temporal_v2/phase2.json",
+      "json_valid": true,
+      "top_level_keys": [
+        "development_outer_fold",
+        "development_inner_fold",
+        "candidates",
+        "training",
+        "threshold",
+        "checkpoint_selection",
+        "family_selection",
+        "ssl_local_encoder_selection",
+        "ssl_architecture_selection",
+        "phase1_reference",
+        "phase1_decision",
+        "phase1_validation_sha256",
+        "phase1_report_sha256",
+        "rationale",
+        "perturbations",
+        "outer_test_evaluated"
+      ]
+    },
+    {
+      "path": "configs/raw_temporal_v2/phase3.json",
+      "json_valid": true,
+      "top_level_keys": [
+        "seeds",
+        "architecture",
+        "supervised_training",
+        "pretraining",
+        "frozen_readout_grid",
+        "label_sensitivity",
+        "labeled_subsets",
+        "threshold",
+        "selection",
+        "checkpoint_selection",
+        "source_phase2_validation_sha256",
+        "source_phase2_decision_sha256",
+        "split",
+        "loss",
+        "baselines",
+        "contrastive_status"
+      ]
+    },
+    {
+      "path": "configs/raw_temporal_v2/phase4_lite.json",
+      "json_valid": true,
+      "top_level_keys": [
+        "seed",
+        "participants",
+        "label",
+        "outer_folds",
+        "inner_search",
+        "existing_fold_assignments_sha256",
+        "threshold",
+        "probability_average_weights",
+        "inference_scope",
+        "primary",
+        "execution_order",
+        "candidate_selection",
+        "epoch_rule",
+        "candidates",
+        "training",
+        "compute",
+        "checkpoint",
+        "partial_folds",
+        "protocol_dependencies"
+      ]
+    },
+    {
+      "path": "configs/raw_temporal_v2/resources.json",
+      "json_valid": true,
+      "top_level_keys": [
+        "maximum_training_runs",
+        "maximum_cpu_probe_fits",
+        "maximum_gpu_workers",
+        "gpu_tensor_limit_mib",
+        "minimum_free_storage_gib",
+        "cpu_threads",
+        "micro_batch_participants",
+        "effective_batch_participants",
+        "wall_clock_hours",
+        "checkpoint_every_epochs",
+        "resume",
+        "priority"
+      ]
+    }
+  ],
+  "installed_versions": {
+    "torch": "2.7.1+cu128",
+    "torchvision": "0.22.1+cu128",
+    "numpy": "1.25.2",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.7.2",
+    "lightgbm": "4.7.0",
+    "shap": "0.49.1",
+    "pytest": "9.2.0",
+    "nbformat": "5.11.1"
+  },
+  "pip_check_returncode": 0,
+  "pip_check_summary": "No broken requirements found.",
+  "packages_installed_or_changed": false
+}

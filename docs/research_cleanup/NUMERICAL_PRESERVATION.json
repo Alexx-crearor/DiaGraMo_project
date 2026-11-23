@@ -1,0 +1,182 @@
+{
+  "metrics": [
+    {
+      "model": "Kinematic",
+      "metric": "accuracy",
+      "value": 0.8488372093023255,
+      "source": "Protected full OOF replay",
+      "match": true
+    },
+    {
+      "model": "Kinematic",
+      "metric": "f1_macro",
+      "value": 0.8471633629528367,
+      "source": "Protected full OOF replay",
+      "match": true
+    },
+    {
+      "model": "Kinematic",
+      "metric": "auc",
+      "value": 0.9069017938583156,
+      "source": "Protected full OOF replay",
+      "match": true
+    },
+    {
+      "model": "Temporal",
+      "metric": "accuracy",
+      "value": 0.7131782945736435,
+      "source": "Protected full OOF replay",
+      "match": true
+    },
+    {
+      "model": "Temporal",
+      "metric": "f1_macro",
+      "value": 0.7131782945736435,
+      "source": "Protected full OOF replay",
+      "match": true
+    },
+    {
+      "model": "Temporal",
+      "metric": "auc",
+      "value": 0.8075402858011553,
+      "source": "Protected full OOF replay",
+      "match": true
+    },
+    {
+      "model": "Fixed50",
+      "metric": "accuracy",
+      "value": 0.8410852713178295,
+      "source": "Protected full OOF replay",
+      "match": true
+    },
+    {
+      "model": "Fixed50",
+      "metric": "f1_macro",
+      "value": 0.8406807741546803,
+      "source": "Protected full OOF replay",
+      "match": true
+    },
+    {
+      "model": "Fixed50",
+      "metric": "auc",
+      "value": 0.9061112800243236,
+      "source": "Protected full OOF replay",
+      "match": true
+    },
+    {
+      "model": "B0",
+      "metric": "accuracy",
+      "value": 0.525,
+      "source": "Private existing OOF replay; IDs withheld",
+      "match": true
+    },
+    {
+      "model": "B0",
+      "metric": "f1_macro",
+      "value": 0.3442622950819672,
+      "source": "Private existing OOF replay; IDs withheld",
+      "match": true
+    },
+    {
+      "model": "B0",
+      "metric": "auc",
+      "value": 0.4799498746867168,
+      "source": "Private existing OOF replay; IDs withheld",
+      "match": true
+    },
+    {
+      "model": "B1",
+      "metric": "accuracy",
+      "value": 0.6,
+      "source": "Private existing OOF replay; IDs withheld",
+      "match": true
+    },
+    {
+      "model": "B1",
+      "metric": "f1_macro",
+      "value": 0.5982142857142857,
+      "source": "Private existing OOF replay; IDs withheld",
+      "match": true
+    },
+    {
+      "model": "B1",
+      "metric": "auc",
+      "value": 0.5921748816485658,
+      "source": "Private existing OOF replay; IDs withheld",
+      "match": true
+    },
+    {
+      "model": "B2",
+      "metric": "accuracy",
+      "value": 0.9333333333333333,
+      "source": "Private existing OOF replay; IDs withheld",
+      "match": true
+    },
+    {
+      "model": "B2",
+      "metric": "f1_macro",
+      "value": 0.9324134046747395,
+      "source": "Private existing OOF replay; IDs withheld",
+      "match": true
+    },
+    {
+      "model": "B2",
+      "metric": "auc",
+      "value": 0.9604566972988026,
+      "source": "Private existing OOF replay; IDs withheld",
+      "match": true
+    },
+    {
+      "model": "B3",
+      "metric": "accuracy",
+      "value": 0.9416666666666667,
+      "source": "Private existing OOF replay; IDs withheld",
+      "match": true
+    },
+    {
+      "model": "B3",
+      "metric": "f1_macro",
+      "value": 0.9413366855227321,
+      "source": "Private existing OOF replay; IDs withheld",
+      "match": true
+    },
+    {
+      "model": "B3",
+      "metric": "auc",
+      "value": 0.9693678641047062,
+      "source": "Private existing OOF replay; IDs withheld",
+      "match": true
+    },
+    {
+      "model": "B4",
+      "metric": "accuracy",
+      "value": 0.9416666666666667,
+      "source": "Private existing OOF replay; IDs withheld",
+      "match": true
+    },
+    {
+      "model": "B4",
+      "metric": "f1_macro",
+      "value": 0.9413366855227321,
+      "source": "Private existing OOF replay; IDs withheld",
+      "match": true
+    },
+    {
+      "model": "B4",
+      "metric": "auc",
+      "value": 0.9710387078808131,
+      "source": "Private existing OOF replay; IDs withheld",
+      "match": true
+    }
+  ],
+  "matched_original_participants": 258,
+  "matched_native_participants": 120,
+  "original_sixfold_complete": true,
+  "native_fivefold_complete": true,
+  "B3_B4_binary_identical": true,
+  "fusion_delta_ci_crosses_zero": true,
+  "B3_B2_ci_crosses_zero": true,
+  "xai_copy_table_preserved": true,
+  "new_model_fit": false,
+  "bootstrap_recomputed": false
+}

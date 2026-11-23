@@ -1,0 +1,27 @@
+{
+  "checked_files": 19493,
+  "missing": [],
+  "changed": [
+    {
+      "path": "README.md",
+      "authorized": true
+    },
+    {
+      "path": "scripts/native_channel_research/run.py",
+      "authorized": true
+    },
+    {
+      "path": "tests/native_channel_research/test_native.py",
+      "authorized": true
+    }
+  ],
+  "unexpected_changes": [],
+  "protected_results_unchanged": true,
+  "no_deletions": true,
+  "no_model_retraining": true,
+  "private_files_staged": [],
+  "before_manifest_unchanged": true,
+  "valid": true,
+  "head": "abee084d6621ccf4175f3e4a1a5a484756bb824f",
+  "utc_epoch": 1795363835.3434875
+}
